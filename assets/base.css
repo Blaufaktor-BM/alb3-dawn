@@ -3662,7 +3662,7 @@ details[open]>.header__menu-item,
   margin-left: -15px;
 }
 
-.footer__content-bottom {
+.footer .footer__content-bottom {
   border: none;
   background-color: #131a22;
   padding-bottom: 2.5rem;
