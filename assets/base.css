@@ -3640,4 +3640,10 @@ details[open]>.header__menu-item,
   justify-content: flex-start;
 }
 
+.footer__content-bottom {
+  border: none;
+  background-color: #131a22;
+  padding-bottom: 3rem;
+}
+
 /* additional css */
