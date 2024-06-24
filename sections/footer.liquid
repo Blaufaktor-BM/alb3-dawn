@@ -294,10 +294,12 @@
           </localization-form>
         {%- endif -%}
         {%- if section.settings.show_social and has_social_icons -%}
-          {%- if section.settings.social_title != blank -%}
-            <p class="h4 footer-social_title">{{ section.settings.social_title }}</p>
-          {%- endif -%}
-          {%- render 'social-icons', class: 'footer__list-social' -%}
+          <div class="footer-social">
+            {%- if section.settings.social_title != blank -%}
+              <p class="h4 footer-social_title">{{ section.settings.social_title }}</p>
+            {%- endif -%}
+            {%- render 'social-icons', class: 'footer__list-social' -%}
+          </div>
         {%- endif -%}
       </div>
       <div class="footer__column footer__column--info">
