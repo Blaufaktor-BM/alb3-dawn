@@ -3587,8 +3587,10 @@ details-disclosure>details {
   border-bottom-left-radius: 25px;
   width: inherit;
   padding: 0;
+  overflow: hidden;
 }
 
+details[open]>.header__menu-item,
 .header__submenu .header__menu-item:hover,
 .header__menu-item:hover span {
   text-decoration: none;
