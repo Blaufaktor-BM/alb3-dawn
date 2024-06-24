@@ -57,7 +57,7 @@
             elsif section.blocks.size > 6
               assign footer_grid_class = 'grid--4-col-desktop'
             elsif section.blocks.size > 4
-              assign footer_grid_class = 'grid--3-col-tablet'
+              assign footer_grid_class = 'grid--4-col-tablet'
             endif
           -%}
           <div
@@ -158,26 +158,6 @@
             {%- endfor -%}
           </div>
         {%- endif -%}
-        <!-- SHOPVOTE -->
-        <div class="site-footer__item site-footer__item--left {{ footer_item }}" {{ block.shopify_attributes }}>
-          <div class="site-footer__item-inner site-footer__item-inner--{{ block.type }}">
-            <span id="sv-badge-t4"></span>
-            <script src="https://widgets.shopvote.de/js/reputation-badge-v2.min.js" defer></script>
-            <script>
-              window.addEventListener
-                ? window.addEventListener('load', loadBadge, !1)
-                : window.attachEvent && window.attachEvent('onload', loadBadge);
-              function loadBadge() {
-                var myShopID = 13097;
-                var myBadgetType = 4;
-                var myLanguage = 'DE';
-                var mySrc = 'https:' === document.location.protocol ? 'https' : 'http';
-                createRBadge(myShopID, myBadgetType, mySrc);
-              }
-            </script>
-          </div>
-        </div>
-        <!-- / SHOPVOTE -->
 
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -438,6 +418,17 @@
             }
           ],
           "default": "center"
+        }
+      ]
+    },
+    {
+      "type": "liquid",
+      "name": "Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "Custom Liquid"
         }
       ]
     }
