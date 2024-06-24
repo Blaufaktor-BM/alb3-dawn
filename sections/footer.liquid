@@ -89,16 +89,19 @@
                         {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
                         <div
                           class="footer-block__image-wrapper"
+                          style="max-width: min(100%, {{ block.settings.image_width }}px);"
                         >
                           <img
                             srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                            src="{{ block.settings.image | image_url: width: 50 }}"
+                            src="{{ block.settings.image | image_url: width: 760 }}"
                             alt="{{ block.settings.image.alt | escape }}"
                             loading="lazy"
                             width="{{ block.settings.image.width }}"
                             height="{{ block.settings.image.height }}"
                           >
                         </div>
+                      {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
                   {%- when 'link_list' -%}
@@ -403,6 +406,16 @@
           "type": "image_picker",
           "id": "image",
           "label": "Sub Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 30,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Image width",
+          "default": 50
         }
       ]
     },
