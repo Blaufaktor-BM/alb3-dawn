@@ -3638,6 +3638,7 @@ details[open]>.header__menu-item,
 
 .footer-social .list-social {
   justify-content: flex-start;
+  margin-left: -15px;
 }
 
 .footer__content-bottom {
@@ -3647,9 +3648,17 @@ details[open]>.header__menu-item,
   padding-top: 2rem;
 }
 
-.footer__payment {
+.footer .footer__payment {
   margin-top: 0;
   margin-bottom: 1.5rem;
+}
+
+.footer .list-social__link {
+  padding: 0 15px;
+}
+
+.footer .footer__column--info {
+  justify-content: space-between;
 }
 
 /* additional css */
