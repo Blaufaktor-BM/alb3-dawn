@@ -3608,4 +3608,13 @@ details[open]>.header__menu-item,
   color: rgba(var(--color-foreground));
 }
 
+.caption-large,
+.customer .field input,
+.customer select,
+.field__input,
+.form__label,
+.select__select {
+  letter-spacing: 0;
+}
+
 /* ultraSPHERE */
