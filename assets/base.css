@@ -3632,4 +3632,8 @@ details[open]>.header__menu-item,
   letter-spacing: 0;
 }
 
+.footer-text_img img {
+  margin: 0;
+}
+
 /* additional css */
