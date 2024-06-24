@@ -3636,4 +3636,8 @@ details[open]>.header__menu-item,
   margin: 0;
 }
 
+.footer-social .list-social {
+  justify-content: flex-start;
+}
+
 /* additional css */
