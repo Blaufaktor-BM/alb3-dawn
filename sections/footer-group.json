@@ -41,13 +41,21 @@
             "heading": "Service",
             "menu": "service"
           }
+        },
+        "text_kGtV3d": {
+          "type": "text",
+          "settings": {
+            "heading": "Titel",
+            "subtext": "<p>Teile Kontaktinformationen, Shop-Details und Markeninhalte mit deinen Kunden.<\/p>"
+          }
         }
       },
       "block_order": [
         "text_FywBBw",
         "link_list_UkNtBA",
         "link_list_wqVPJi",
-        "link_list_rPwtzp"
+        "link_list_rPwtzp",
+        "text_kGtV3d"
       ],
       "settings": {
         "color_scheme": "scheme-5",
