@@ -3604,4 +3604,8 @@ details[open]>.header__menu-item,
   background-color: #f2f2f2;
 }
 
+.header__menu-item {
+  color: rgba(var(--color-foreground));
+}
+
 /* ultraSPHERE */
