@@ -3590,6 +3590,20 @@ body {
   font-family: "amsi-ligt";
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  letter-spacing: 0;
+}
+
 .header__menu-item {
   padding: 2.3rem 1.2rem;
 }
@@ -3667,6 +3681,11 @@ details[open]>.header__menu-item,
 
 .footer .footer__localization {
   padding: 0;
+}
+
+.footer .list-social__item .icon {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* additional css */
