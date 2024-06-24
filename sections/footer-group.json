@@ -48,6 +48,12 @@
             "heading": "Titel",
             "subtext": "<p>Teile Kontaktinformationen, Shop-Details und Markeninhalte mit deinen Kunden.<\/p>"
           }
+        },
+        "liquid_YQ973p": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span id=\"sv-badge-t4\"><\/span>\n            <script src=\"https:\/\/widgets.shopvote.de\/js\/reputation-badge-v2.min.js\" defer><\/script>\n            <script>\n            window.addEventListener?window.addEventListener(\"load\",loadBadge,!1):window.attachEvent&&window.attachEvent(\"onload\",loadBadge);\n            function loadBadge(){\n            var myShopID = 13097; var myBadgetType = 4; var myLanguage = 'DE';\n            var mySrc = ('https:' === document.location.protocol ? 'https' : 'http');\n            createRBadge(myShopID, myBadgetType,mySrc);}\n            <\/script>"
+          }
         }
       },
       "block_order": [
@@ -55,7 +61,8 @@
         "link_list_UkNtBA",
         "link_list_wqVPJi",
         "link_list_rPwtzp",
-        "text_kGtV3d"
+        "text_kGtV3d",
+        "liquid_YQ973p"
       ],
       "settings": {
         "color_scheme": "scheme-5",
