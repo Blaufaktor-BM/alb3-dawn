@@ -3643,7 +3643,13 @@ details[open]>.header__menu-item,
 .footer__content-bottom {
   border: none;
   background-color: #131a22;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.footer__payment {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 /* additional css */
