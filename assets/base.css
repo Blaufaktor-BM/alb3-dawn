@@ -3661,4 +3661,8 @@ details[open]>.header__menu-item,
   justify-content: space-between;
 }
 
+.footer-social_title {
+  margin-top: 0;
+}
+
 /* additional css */
