@@ -13,6 +13,42 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_FywBBw": {
+          "type": "text",
+          "settings": {
+            "heading": "Kontakt",
+            "subtext": "<p>Blaufaktor GmbH & Co. KG<br\/>Riedweg 12<br\/>78607 Talheim<br\/>Deutschland<br\/>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/p><p>What3Words:<br\/>\/\/\/seide.sauber.artenschutz<\/p>"
+          }
+        },
+        "link_list_UkNtBA": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Produktübersicht",
+            "menu": "produktuebersicht"
+          }
+        },
+        "link_list_wqVPJi": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Informationen",
+            "menu": "informationen"
+          }
+        },
+        "link_list_rPwtzp": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Service",
+            "menu": "service"
+          }
+        }
+      },
+      "block_order": [
+        "text_FywBBw",
+        "link_list_UkNtBA",
+        "link_list_wqVPJi",
+        "link_list_rPwtzp"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
