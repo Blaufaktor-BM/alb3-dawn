@@ -153,6 +153,12 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+                  {%- when 'liquid' -%}
+                    <div class="footer-block__details-content footer-block-liquid">
+                      {%- if block.settings.liquid != blank -%}
+                        {{ block.settings.liquid }}
+                      {%- endif -%}
+                    </div>
                 {%- endcase -%}
               </div>
             {%- endfor -%}
