@@ -3575,7 +3575,21 @@ details-disclosure>details {
   }
 }
 
-/* ultraSPHERE */
+/* addition css */
+@font-face {
+  font-family: "amsi-bold";
+  src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-bold.woff2?v=1699626855") format("woff2");
+}
+
+@font-face {
+  font-family: "amsi-ligt";
+  src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-light.woff2?v=1699626920") format("woff2");
+}
+
+body {
+  font-family: "amsi-ligt";
+}
+
 .header__menu-item {
   padding: 2.3rem 1.2rem;
 }
@@ -3598,6 +3612,7 @@ details[open]>.header__menu-item,
 
 .header__submenu .header__menu-item {
   padding: 1.6rem 3rem;
+  white-space: nowrap;
 }
 
 .header__submenu .header__menu-item:hover {
@@ -3617,4 +3632,4 @@ details[open]>.header__menu-item,
   letter-spacing: 0;
 }
 
-/* ultraSPHERE */
+/* additional css */
