@@ -1,9 +1,12 @@
 {%- liquid
   assign fetch_priority = 'auto'
 -%}
-<div class="section-custom_image_text" style="background-color: {{ section.settings.background_color }}">
+<div class="section-custom_image_text">
   <div class="page-width">
-    <div class="wrapper-custom_image_text isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div
+      class="wrapper-custom_image_text isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+      style="background-color: {{ section.settings.background_color }}"
+    >
       <div class="media-custom_image_text">
         {%- if section.settings.image != blank -%}
           {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
