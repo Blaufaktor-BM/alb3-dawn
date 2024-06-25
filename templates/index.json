@@ -170,21 +170,21 @@
         "heading_cLCdKf": {
           "type": "heading",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "Alb Wasserfilter",
             "heading_size": "h1"
           }
         },
         "text_MRqCVx": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Leitungswasser in Deutschland wird streng kontrolliert. Jedoch zeigt die Realität mitunter gravierende Mängel.<br\/><br\/>Mit einem Trinkwasserfilter für die Küche reduzierst Du nicht nur schlechten Geschmack und Gerüche sondern schützt Dich auch vor Stoffen, die nicht von der Trinkwasserverordnung abgedeckt sind. Dies sind unter anderem Arzneimittel-, Pestizid- und Mikroplastikrückstände.<\/p>",
             "text_style": "body"
           }
         },
         "button_4b9aRc": {
           "type": "button",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
+            "button_label": "Kaufen",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -196,6 +196,7 @@
         "button_4b9aRc"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
