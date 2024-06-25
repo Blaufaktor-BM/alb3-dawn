@@ -40,10 +40,10 @@
     new Swiper('#shopify-section-{{ section.id }} .wrapper-image_text_list.swiper-container', {
         loop: false,
         slidesPerView: 3,
-        speed: {{ section.settings.slide_speed | times: 1000 |  split: "." | first }},
+        speed: 500,
         direction: 'horizontal',
         autoplay: {
-            delay: 2500,
+            delay: {{ section.settings.slide_speed | times: 1000 |  split: "." | first }},
             disableOnInteraction: false,
         },
         breakpoints: {
