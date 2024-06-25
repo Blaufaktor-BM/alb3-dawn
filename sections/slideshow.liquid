@@ -170,7 +170,12 @@
             {%- endif -%}
           {%- endif -%}
         </div>
-        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+        <div
+          class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} banner__mobile-content-{{ block.settings.mobile_content_position }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}"
+          {% if section.settings.slide_m_height %}
+            style="min-height: 65rem"
+          {% endif %}
+        >
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
               <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
@@ -204,15 +209,17 @@
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
-      <button
-        type="button"
-        class="slider-button slider-button--prev"
-        name="previous"
-        aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
-        aria-controls="Slider-{{ section.id }}"
-      >
-        {% render 'icon-caret' %}
-      </button>
+      {%- if section.settings.enable_arrows -%}
+        <button
+          type="button"
+          class="slider-button slider-button--prev"
+          name="previous"
+          aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
+          aria-controls="Slider-{{ section.id }}"
+        >
+          {% render 'icon-caret' %}
+        </button>
+      {%- endif -%}
       <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
         {%- if section.settings.slider_visual == 'counter' -%}
           <span class="slider-counter--current">1</span>
@@ -237,16 +244,17 @@
           </div>
         {%- endif -%}
       </div>
-      <button
-        type="button"
-        class="slider-button slider-button--next"
-        name="next"
-        aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
-        aria-controls="Slider-{{ section.id }}"
-      >
-        {% render 'icon-caret' %}
-      </button>
-
+      {%- if section.settings.enable_arrows -%}
+        <button
+          type="button"
+          class="slider-button slider-button--next"
+          name="next"
+          aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
+          aria-controls="Slider-{{ section.id }}"
+        >
+          {% render 'icon-caret' %}
+        </button>
+      {%- endif -%}
       {%- if section.settings.auto_rotate -%}
         <button
           type="button"
@@ -315,6 +323,12 @@
       "label": "t:sections.slideshow.settings.slide_height.label"
     },
     {
+      "type": "checkbox",
+      "id": "slide_m_height",
+      "label": "Large Mobile Height",
+      "default": true
+    },
+    {
       "type": "select",
       "id": "slider_visual",
       "options": [
@@ -369,6 +383,11 @@
       ],
       "default": "none",
       "label": "t:sections.all.animation.image_behavior.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_arrows",
+      "label": "Enable Arrows"
     },
     {
       "type": "header",
@@ -576,6 +595,26 @@
           ],
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment_mobile.label"
+        },
+        {
+          "type": "select",
+          "id": "mobile_content_position",
+          "label": "Mobile Content Position",
+          "options": [
+            {
+              "value": "top",
+              "label": "Top"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "bottom",
+              "label": "Bottom"
+            }
+          ],
+          "default": "center"
         }
       ]
     }
