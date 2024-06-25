@@ -3874,6 +3874,7 @@ slideshow-component .banner__heading.h1 {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .wrapper-custom_image_text {
@@ -3902,8 +3903,9 @@ slideshow-component .banner__heading.h1 {
 .media_content-custom_image_text img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 70px;
+  min-width: 70px;
 }
 
 .custom_image_text-heading {
