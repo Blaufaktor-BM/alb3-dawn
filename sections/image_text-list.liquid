@@ -11,6 +11,14 @@
               class="item-image_text_list swiper-slide"
             >
               <div class="wrapper-item_image_text_list">
+                {%- if block.settings.url != blank -%}
+                  <a
+                    {% if block.settings.traget_blank %}
+                      target="_blank"
+                    {% endif %}
+                    href="{{ block.settings.url }}"
+                  >
+                {%- endif -%}
                 {%- if block.settings.image != blank -%}
                   {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                   {%- capture sizes -%}
@@ -27,6 +35,9 @@
                 {% if block.settings.text != blank %}
                   <div class="text-image_text_list">{{ block.settings.text }}</div>
                 {% endif %}
+                {%- if block.settings.url != blank -%}
+                  </a>
+                {%- endif -%}
               </div>
             </div>
           {%- endfor -%}
@@ -93,6 +104,16 @@
           "id": "text",
           "label": "Text",
           "default": "30 TAGE RÜCKGABERECHT"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        },
+        {
+          "type": "checkbox",
+          "id": "traget_blank",
+          "label": "Target Blank"
         }
       ]
     }
