@@ -3722,7 +3722,7 @@ details[open]>.header__menu-item,
   }
 }
 
-.slider-buttons {
+slideshow-component .slider-buttons {
   position: absolute;
   bottom: 0;
   left: 0;
