@@ -4,8 +4,7 @@
 <div class="section-custom_image_text">
   <div class="page-width">
     <div
-      class="wrapper-custom_image_text isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-      style="background-color: {{ section.settings.background_color }}"
+      class="wrapper-custom_image_text gradient color-{{ section.settings.section_color_scheme }}{% if section.settings.top_radius %} top_radius{% endif %}{% if section.settings.row_reverse %} row_reverse{% endif %} isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     >
       <div class="media-custom_image_text">
         {%- if section.settings.image != blank -%}
@@ -77,7 +76,6 @@
                         {% endif %}
                         class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                         {{ block.shopify_attributes }}
-                        style="background-color: {{ block.settings.btn_bg_color }}; color: {{ block.settings.btn_color }};"
                       >
                         {{ block.settings.button_label1 | escape }}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -115,10 +113,10 @@
   },
   "settings": [
     {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background color",
-      "default": "#fafafa"
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
     },
     {
       "type": "image_picker",
@@ -265,18 +263,6 @@
           "id": "button_style_secondary1",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
-        },
-        {
-          "type": "color",
-          "id": "btn_bg_color",
-          "label": "Button Background Color",
-          "default": "#0081be"
-        },
-        {
-          "type": "color",
-          "id": "btn_color",
-          "label": "Button Color",
-          "default": "#fff"
         },
         {
           "type": "text",
