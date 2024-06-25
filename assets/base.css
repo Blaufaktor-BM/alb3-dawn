@@ -3748,6 +3748,10 @@ slideshow-component .slider-buttons {
   left: 2px;
 }
 
+slideshow-component .banner__heading.h1 {
+  font-size: 32px;
+}
+
 @media (max-width: 749px) {
   slideshow-component .slider-buttons {
     position: unset;
@@ -3792,6 +3796,10 @@ slideshow-component .slider-buttons {
 
   .banner__content.banner__mobile-content-top .slideshow__text.banner__box {
     margin-top: 3rem;
+  }
+
+  slideshow-component .banner__heading.h1 {
+    font-size: 28px;
   }
 }
 
