@@ -103,7 +103,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "enable_mobile_slider": true
+        "slide_speed": 1
       }
     },
     "image_list_pGRYH3": {
