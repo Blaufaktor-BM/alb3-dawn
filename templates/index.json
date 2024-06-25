@@ -9,6 +9,59 @@
 */
 {
   "sections": {
+    "slideshow_KD9aNM": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_E8x4kk": {
+          "type": "slide",
+          "settings": {
+            "heading": "Slideshow",
+            "heading_size": "h1",
+            "subheading": "Erzähle deine Geschichte mit Fotos",
+            "button_label": "Schaltflächenbeschriftung",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_GHEarR": {
+          "type": "slide",
+          "settings": {
+            "heading": "Slideshow",
+            "heading_size": "h1",
+            "subheading": "Erzähle deine Geschichte mit Fotos",
+            "button_label": "Schaltflächenbeschriftung",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_E8x4kk",
+        "slide_GHEarR"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow zu deiner Marke"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -78,6 +131,7 @@
     }
   },
   "order": [
+    "slideshow_KD9aNM",
     "image_banner",
     "featured_collection"
   ]
