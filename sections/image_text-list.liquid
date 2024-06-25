@@ -6,14 +6,14 @@
         <div
           id="Slider-{{ section.id }}"
           data-id="{{ section.id }}"
-          class="slider-image_text-list slider slider--tablet"
+          class="slider-image_text-list{% if section.settings.enable_mobile_slider %} slider slider--tablet{% endif %}"
           role="list"
           aria-label="{{ 'general.slider.name' | t }}"
         >
           {%- for block in section.blocks -%}
             <div
               id="Slide-{{ section.id }}-{{ forloop.index }}"
-              class="item-image_text_list slider__slide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="item-image_text_list{% if section.settings.enable_mobile_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
                 style="--animation-order: {{ forloop.index }};"
@@ -40,7 +40,7 @@
             </div>
           {%- endfor -%}
         </div>
-        <div class="slider-buttons">
+        <div class="slider-buttons hidden">
           <button
             type="button"
             class="slider-button slider-button--prev"

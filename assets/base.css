@@ -3837,11 +3837,31 @@ slideshow-component .banner__heading.h1 {
 
 .slider-image_text-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 949px) {
+.item-image_text_list {
+  width: 100%;
+  padding: 3px;
+}
+
+.wrapper-item_image_text_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wrapper-item_image_text_list img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 50px;
+}
+
+@media (min-width: 990px) {
   .item-image_text_list {
-    width: 100%;
+    max-width: 33.33%;
   }
 }
 
