@@ -3708,4 +3708,12 @@ details[open]>.header__menu-item,
   }
 }
 
+.banner__mobile-content-bottom {
+  align-items: flex-end;
+}
+
+.banner__mobile-content-top {
+  align-items: flex-start;
+}
+
 /* additional css */
