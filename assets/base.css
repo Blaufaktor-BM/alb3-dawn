@@ -3902,7 +3902,7 @@ slideshow-component .banner__heading.h1 {
 .content-custom-image_text {
   display: flex;
   justify-content: center;
-  padding: 55px;
+  padding: 45px 25px;
   gap: 30px;
 }
 
@@ -3949,9 +3949,19 @@ slideshow-component .banner__heading.h1 {
   align-items: center;
 }
 
+.custom_image_text-btns .btn-second:hover {
+  text-decoration: underline;
+}
+
 .custom_image_text-btns .btn-second svg {
   min-width: 10px;
   max-width: 10px;
+}
+
+@media (max-width: 1200px) {
+  .content-custom-image_text {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 750px) {
@@ -3962,6 +3972,10 @@ slideshow-component .banner__heading.h1 {
   .main-custom-image_text,
   .media-custom_image_text {
     max-width: 50%;
+  }
+
+  .content-custom-image_text {
+    padding: 55px;
   }
 }
 
