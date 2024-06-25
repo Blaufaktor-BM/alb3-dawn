@@ -3839,4 +3839,10 @@ slideshow-component .banner__heading.h1 {
   display: flex;
 }
 
+@media (max-width: 949px) {
+  .item-image_text_list {
+    width: 100%;
+  }
+}
+
 /* additional css */
