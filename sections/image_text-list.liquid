@@ -38,13 +38,13 @@
 <script>
   $(document).ready(function () {
     new Swiper('.wrapper-image_text_list.swiper-container', {
-      loop: true,
+      loop: false,
       slidesPerView: 3,
-
       breakpoints: {
         749: {
-          slidesPerView: 1,
-          autoplay: {
+            loop: true,
+            slidesPerView: 1,
+            autoplay: {
             delay: {{ section.settings.slide_speed | times: 1000 }},
             disableOnInteraction: false,
           },
