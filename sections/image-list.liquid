@@ -26,11 +26,7 @@
         .item-image_list {
             max-width: 50%;
         }
-        {%- elsif section.blocks.size == 5 -%}
-            .item-image_list {
-                max-width: 50%;
-            }
-        {%- elsif section.blocks.size > 5 -%}
+        {%- elsif section.blocks.size > 4 -%}
             .item-image_list {
                 max-width: calc(100% / 3);
             }
