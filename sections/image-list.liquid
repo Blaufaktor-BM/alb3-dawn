@@ -35,7 +35,7 @@
   {%- endstyle -%}
   <div class="section-image_list" style="background-color: {{ section.settings.color }}">
     <div class="page-width">
-      <div class="wrapper-image_list">
+      <div class="wrapper-image_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {%- for block in section.blocks -%}
           <div class="item-image_list">
             <div class="wrapper-item_image_list">
