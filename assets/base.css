@@ -3757,6 +3757,10 @@ slideshow-component .banner__heading.h1 {
   margin-left: 5px;
 }
 
+.banner--medium.static {
+  min-height: 65rem !important;
+}
+
 @media (max-width: 749px) {
   slideshow-component .slider-buttons {
     position: unset;
