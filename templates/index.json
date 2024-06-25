@@ -38,7 +38,7 @@
             "button_label": "Schaltflächenbeschriftung",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-right",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
