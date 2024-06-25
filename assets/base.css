@@ -3869,10 +3869,6 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
-.media-custom_image_text {
-  height: 100%;
-}
-
 .media-custom_image_text img,
 .media-custom_image_text svg {
   display: block;
@@ -3898,7 +3894,6 @@ slideshow-component .banner__heading.h1 {
 }
 
 .main-custom-image_text {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
