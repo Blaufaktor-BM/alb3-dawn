@@ -170,7 +170,7 @@
         "heading_zKRVgm": {
           "type": "heading",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "Alb Wasserfilter",
             "heading_size": "h1",
             "color": "#003e5f"
           }
@@ -185,15 +185,14 @@
         "text_GazTYU": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body",
-            "color": "#616161"
+            "text": "<p>Leitungswasser in Deutschland wird streng kontrolliert. Jedoch zeigt die Realität mitunter gravierende Mängel.<br\/><br\/>Mit einem Trinkwasserfilter für die Küche reduzierst Du nicht nur schlechten Geschmack und Gerüche sondern schützt Dich auch vor Stoffen, die nicht von der Trinkwasserverordnung abgedeckt sind. Dies sind unter anderem Arzneimittel-, Pestizid- und Mikroplastikrückstände.<\/p>",
+            "text_style": "body"
           }
         },
         "button_WK4mtf": {
           "type": "button",
           "settings": {
-            "button_label1": "Schaltflächenbeschriftung",
+            "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
             "button_style_secondary1": false,
             "button_label2": "Mehr erfahren",
