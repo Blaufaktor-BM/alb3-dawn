@@ -40,11 +40,14 @@
     new Swiper('.wrapper-image_text_list.swiper-container', {
       loop: true,
       slidesPerView: 3,
-      spaceBetween: 20,
+
       breakpoints: {
         749: {
           slidesPerView: 1,
-          spaceBetween: 10,
+          autoplay: {
+            delay: {{ section.settings.slide_speed | times: 1000 }},
+            disableOnInteraction: false,
+          },
         },
       },
     });
