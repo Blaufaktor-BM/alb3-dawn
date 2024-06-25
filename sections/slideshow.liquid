@@ -153,12 +153,7 @@
               {{
                 block.settings.m_image
                 | image_url: m_width: 3840
-                | image_tag:
-                  m_height: m_height,
-                  sizes: sizes,
-                  widths: m_widths,
-                  fetchpriority: fetch_priority,
-                  class: 'desktop-hide'
+                | image_tag: m_height: m_height, sizes: sizes, widths: m_widths, fetchpriority: fetch_priority
               }}
             {%- endif -%}
           {%- else -%}
