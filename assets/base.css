@@ -3842,7 +3842,7 @@ slideshow-component .banner__heading.h1 {
 
 .item-image_text_list {
   width: 100%;
-  padding: 3px;
+  padding: 3px !important;
 }
 
 .wrapper-item_image_text_list {
