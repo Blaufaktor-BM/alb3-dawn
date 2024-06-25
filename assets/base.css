@@ -3756,4 +3756,29 @@ slideshow-component .slider-buttons {
   left: 2px;
 }
 
+@media (max-width: 749px) {
+  slideshow-component .slider-buttons {
+    position: unset;
+  }
+
+  slideshow-component .slider-button {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  slideshow-component .slider-button.slider-button--next {
+    right: 0;
+  }
+
+  slideshow-component .slider-button.slider-button--prev {
+    left: 0;
+  }
+
+  slideshow-component .slider-button .icon {
+    height: 1rem;
+  }
+}
+
 /* additional css */
