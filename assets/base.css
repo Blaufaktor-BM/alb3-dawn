@@ -3835,8 +3835,8 @@ slideshow-component .banner__heading.h1 {
   height: 100%;
 }
 
-.item-image_text_list {
-  padding: 3px !important;
+.wrapper-item_image_text_list {
+  padding: 3px;
 }
 
 .wrapper-item_image_text_list {
