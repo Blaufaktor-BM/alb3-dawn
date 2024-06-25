@@ -15,6 +15,8 @@
         "slide_E8x4kk": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_01.webp",
+            "m_image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil_01_9fd24d51-20b2-499e-9f68-2f61f2446231.jpg",
             "heading": "Slideshow",
             "heading_size": "h1",
             "subheading": "Erzähle deine Geschichte mit Fotos",
@@ -32,6 +34,8 @@
         "slide_GHEarR": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
+            "m_image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil_01.jpg",
             "heading": "Slideshow",
             "heading_size": "h1",
             "subheading": "Erzähle deine Geschichte mit Fotos",
