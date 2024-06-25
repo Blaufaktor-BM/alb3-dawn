@@ -37,7 +37,7 @@
 {%- endif -%}
 <script>
   $(document).ready(function () {
-    new Swiper('#shopify-{{ section.id }} .wrapper-image_text_list.swiper-container', {
+    new Swiper('#shopify-section-{{ section.id }} .wrapper-image_text_list.swiper-container', {
         loop: false,
         slidesPerView: 3,
         speed: {{ section.settings.slide_speed | times: 1000 |  split: "." | first }},
