@@ -3841,6 +3841,7 @@ slideshow-component .banner__heading.h1 {
   justify-content: center;
   gap: 10px;
   color: rgba(var(--color-foreground), 1);
+  text-decoration: none;
 }
 
 .wrapper-item_image_text_list {
