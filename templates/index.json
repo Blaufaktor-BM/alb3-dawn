@@ -71,6 +71,52 @@
         "accessibility_info": "Slideshow zu deiner Marke"
       }
     },
+    "image_list_pGRYH3": {
+      "type": "image-list",
+      "blocks": {
+        "image_YzPtTR": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_hG9hVa": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_8d4H6j": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_WiPi6k": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_DE9b8J": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_gb7JqR": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image_YzPtTR",
+        "image_hG9hVa",
+        "image_8d4H6j",
+        "image_WiPi6k",
+        "image_DE9b8J",
+        "image_gb7JqR"
+      ],
+      "settings": {
+        "color": "#fafafa"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -102,6 +148,7 @@
   },
   "order": [
     "slideshow_KD9aNM",
+    "image_list_pGRYH3",
     "featured_collection"
   ]
 }
