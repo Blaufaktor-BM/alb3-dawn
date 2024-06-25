@@ -1,6 +1,6 @@
 {%- if section.blocks.size > 0 -%}
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-  <div class="section-image_text_list color-{{ block.settings.color_scheme }} gradient">
+  <div class="section-image_text_list color-{{ section.settings.color_scheme }} gradient">
     <div class="page-width">
       <slider-component class="slider-mobile-gutter wrapper-image_text_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div
