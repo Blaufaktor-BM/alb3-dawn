@@ -3727,6 +3727,7 @@ slideshow-component .slider-buttons {
   bottom: 0;
   left: 0;
   width: 100%;
+  border: none;
 }
 
 .slideshow__controls .slider-counter__link--dots .dot {
