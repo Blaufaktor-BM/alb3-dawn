@@ -43,6 +43,7 @@
                   <h2
                     class="custom_image_text-heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
+                    style="color: {{ block.settings.color }};"
                   >
                     {{ block.settings.heading }}
                   </h2>
@@ -50,6 +51,7 @@
                   <p
                     class="custom_image_text-subtitle"
                     {{ block.shopify_attributes }}
+                    style="color: {{ block.settings.color }};"
                   >
                     {{ block.settings.subtitle }}
                   </p>
@@ -57,6 +59,7 @@
                   <div
                     class="custom_image_text-text rte {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
+                    style="color: {{ block.settings.color }};"
                   >
                     {{ block.settings.text }}
                   </div>
@@ -71,6 +74,7 @@
                         {% endif %}
                         class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                         {{ block.shopify_attributes }}
+                        style="background-color: {{ block.settings.btn_bg_color }}; color: {{ block.settings.btn_color }};"
                       >
                         {{ block.settings.button_label1 | escape }}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -79,7 +83,11 @@
                       </a>
                     {%- endif -%}
                     {%- if block.settings.button_label2 != blank -%}
-                      <a class="btn-second" href="{{ block.settings.button_link2 }}">
+                      <a
+                        class="btn-second"
+                        href="{{ block.settings.button_link2 }}"
+                        style="color: {{ block.settings.second_btn_color }}"
+                      >
                         {{- block.settings.button_label2 -}}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                           <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
@@ -223,6 +231,12 @@
           ],
           "default": "body",
           "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#616161"
         }
       ]
     },
