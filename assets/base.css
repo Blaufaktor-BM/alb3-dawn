@@ -3708,11 +3708,11 @@ details[open]>.header__menu-item,
   }
 }
 
-.banner__mobile-content-bottom {
+.banner__content.banner__mobile-content-bottom {
   align-items: flex-end;
 }
 
-.banner__mobile-content-top {
+.banner__content.banner__mobile-content-top {
   align-items: flex-start;
 }
 
