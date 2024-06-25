@@ -43,7 +43,8 @@
         speed: {{ section.settings.slide_speed | times: 1000 |  split: "." | first }},
         direction: 'horizontal',
         autoplay: {
-            delay: 0,
+            delay: 2500,
+            disableOnInteraction: false,
         },
         breakpoints: {
             749: {
