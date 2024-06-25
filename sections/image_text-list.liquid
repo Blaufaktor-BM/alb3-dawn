@@ -40,7 +40,7 @@
     new Swiper('#shopify-section-{{ section.id }} .wrapper-image_text_list.swiper-container', {
         loop: false,
         slidesPerView: 3,
-        speed: 500,
+        speed: 1500,
         direction: 'horizontal',
         autoplay: {
             delay: {{ section.settings.slide_speed | times: 1000 |  split: "." | first }},
