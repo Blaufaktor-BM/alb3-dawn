@@ -38,17 +38,19 @@
 <script>
   $(document).ready(function () {
     new Swiper('.wrapper-image_text_list.swiper-container', {
-      loop: false,
-      slidesPerView: 3,
-      autoplay: {
-        delay: {{ section.settings.slide_speed | times: 1000 }},
-    },
-      breakpoints: {
-        749: {
-            loop: true,
-            slidesPerView: 1,
+        loop: false,
+        slidesPerView: 3,
+        speed: {{ section.settings.slide_speed | times: 1000 }},
+        direction: 'horizontal',
+        autoplay: {
+            delay: 500,
         },
-      },
+        breakpoints: {
+            749: {
+                loop: true,
+                slidesPerView: 1,
+            },
+        },
     });
   });
 </script>
