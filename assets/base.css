@@ -3752,6 +3752,11 @@ slideshow-component .banner__heading.h1 {
   font-size: 32px;
 }
 
+.banner__buttons svg {
+  height: 14px;
+  margin-left: 5px;
+}
+
 @media (max-width: 749px) {
   slideshow-component .slider-buttons {
     position: unset;
