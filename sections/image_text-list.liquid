@@ -40,13 +40,13 @@
     new Swiper('.wrapper-image_text_list.swiper-container', {
       loop: false,
       slidesPerView: 3,
+      autoplay: {
+        delay: {{ section.settings.slide_speed | times: 1000 }},
+    },
       breakpoints: {
         749: {
             loop: true,
             slidesPerView: 1,
-            autoplay: {
-                delay: {{ section.settings.slide_speed | times: 1000 }},
-            },
         },
       },
     });
