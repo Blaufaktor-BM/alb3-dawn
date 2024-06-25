@@ -3812,4 +3812,16 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
+.wrapper-image_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wrapper-item_image_list {
+  max-width: 120px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 /* additional css */
