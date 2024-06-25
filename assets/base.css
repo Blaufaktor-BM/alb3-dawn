@@ -3850,8 +3850,17 @@ slideshow-component .banner__heading.h1 {
   display: block;
   width: 100%;
   height: 100%;
-  max-width: 50px;
+  max-width: 35px;
 }
 
+.text-image_text_list {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 990px) {
+  .wrapper-item_image_text_list img {
+    max-width: 50px;
+  }
+}
 
 /* additional css */
