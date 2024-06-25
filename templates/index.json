@@ -71,6 +71,38 @@
         "accessibility_info": "Slideshow zu deiner Marke"
       }
     },
+    "image_text_list_RXzAJF": {
+      "type": "image_text-list",
+      "blocks": {
+        "item_cMwknk": {
+          "type": "item",
+          "settings": {
+            "text": "30 TAGE RÜCKGABERECHT"
+          }
+        },
+        "item_93NEHm": {
+          "type": "item",
+          "settings": {
+            "text": "30 TAGE RÜCKGABERECHT"
+          }
+        },
+        "item_mJWgeF": {
+          "type": "item",
+          "settings": {
+            "text": "30 TAGE RÜCKGABERECHT"
+          }
+        }
+      },
+      "block_order": [
+        "item_cMwknk",
+        "item_93NEHm",
+        "item_mJWgeF"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_mobile_slider": true
+      }
+    },
     "image_list_pGRYH3": {
       "type": "image-list",
       "blocks": {
@@ -154,6 +186,7 @@
   },
   "order": [
     "slideshow_KD9aNM",
+    "image_text_list_RXzAJF",
     "image_list_pGRYH3",
     "featured_collection"
   ]
