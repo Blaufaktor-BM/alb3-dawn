@@ -3605,7 +3605,8 @@ h5,
 }
 
 .header__menu-item {
-  padding: 2.3rem 1.2rem;
+  padding: 2.2rem 1.2rem;
+  color: rgba(var(--color-foreground));
 }
 
 .header__submenu.list-menu {
@@ -3631,10 +3632,6 @@ details[open]>.header__menu-item,
 
 .header__submenu .header__menu-item:hover {
   background-color: #f2f2f2;
-}
-
-.header__menu-item {
-  color: rgba(var(--color-foreground));
 }
 
 .caption-large,
