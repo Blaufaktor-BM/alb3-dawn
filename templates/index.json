@@ -17,19 +17,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_01.webp",
             "m_image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil_01_9fd24d51-20b2-499e-9f68-2f61f2446231.jpg",
-            "heading": "Slideshow",
+            "heading": "Egal wo du bist.",
             "heading_size": "h1",
-            "subheading": "Erzähle deine Geschichte mit Fotos",
-            "button_label": "Schaltflächenbeschriftung",
-            "link": "",
+            "subheading": "Deinen Alb Wasserfilter für den mobilen Einsatz hast du immer dabei.",
+            "button_label": "Alb Campingfilter ",
+            "link": "shopify:\/\/collections\/camping-wasserfilter",
             "button_style_secondary": false,
             "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
+            "mobile_content_position": "top"
           }
         },
         "slide_GHEarR": {
@@ -37,19 +37,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
             "m_image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
-            "heading": "Slideshow",
+            "heading": "Schmeckst du den Unterschied?",
             "heading_size": "h1",
-            "subheading": "Erzähle deine Geschichte mit Fotos",
-            "button_label": "Schaltflächenbeschriftung",
-            "link": "",
+            "subheading": "Entdecke die Trinkwasserfilter von Alb für Wasserhahn und unter der Spüle.",
+            "button_label": "Alb Trinkwasserfilter ",
+            "link": "shopify:\/\/collections\/trinkwasserfilter",
             "button_style_secondary": false,
             "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center",
-            "mobile_content_position": "top"
+            "mobile_content_position": "bottom"
           }
         }
       },
