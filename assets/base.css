@@ -3740,6 +3740,10 @@ slideshow-component .slider-buttons {
   background: transparent;
 }
 
+.slideshow__controls .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
+  border-color: #fff;
+}
+
 .slideshow__controls .slider-counter__link--active.slider-counter__link--dots .dot:before {
   content: "";
   width: 8px;
@@ -3747,8 +3751,8 @@ slideshow-component .slider-buttons {
   border-radius: 50%;
   background: #fff;
   position: absolute;
-  top: 3px;
-  left: 3px;
+  top: 2px;
+  left: 2px;
 }
 
 /* additional css */
