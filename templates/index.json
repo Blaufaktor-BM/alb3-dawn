@@ -210,9 +210,10 @@
         "button_WK4mtf"
       ],
       "settings": {
-        "color": "#fafafa",
+        "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+        "content_image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
         "row_reverse": false,
-        "top_radius": false
+        "top_radius": true
       }
     },
     "featured_collection": {
