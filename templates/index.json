@@ -100,14 +100,12 @@
         },
         "image_DE9b8J": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-c54ab219--campingcarsundcaravans.png"
           }
         },
         "image_gb7JqR": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-40a455d3--smarticular.png"
           }
