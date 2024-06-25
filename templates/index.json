@@ -193,12 +193,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Schaltflächenbeschriftung",
-            "button_link1": "",
+            "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
             "button_style_secondary1": false,
             "btn_bg_color": "#0081be",
             "btn_color": "#fff",
             "button_label2": "Mehr erfahren",
-            "button_link2": "",
+            "button_link2": "shopify:\/\/pages\/trinkwasserfilter",
             "second_btn_color": "#0081be"
           }
         }
