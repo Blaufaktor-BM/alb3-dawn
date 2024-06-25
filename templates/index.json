@@ -78,21 +78,27 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
-            "text": "30 TAGE RÜCKGABERECHT"
+            "text": "30 TAGE RÜCKGABERECHT",
+            "url": "",
+            "traget_blank": false
           }
         },
         "item_93NEHm": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
-            "text": "KOSTENLOSER VERSAND (D)"
+            "text": "KOSTENLOSER VERSAND (D)",
+            "url": "",
+            "traget_blank": false
           }
         },
         "item_mJWgeF": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
-            "text": "EINFACHE ZAHLUNG"
+            "text": "EINFACHE ZAHLUNG",
+            "url": "shopify:\/\/policies\/refund-policy",
+            "traget_blank": true
           }
         }
       },
