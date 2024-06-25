@@ -3835,13 +3835,7 @@ slideshow-component .banner__heading.h1 {
   height: 100%;
 }
 
-.slider-image_text-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .item-image_text_list {
-  width: 100%;
   padding: 3px !important;
 }
 
@@ -3859,10 +3853,5 @@ slideshow-component .banner__heading.h1 {
   max-width: 50px;
 }
 
-@media (min-width: 990px) {
-  .item-image_text_list {
-    max-width: 33.33%;
-  }
-}
 
 /* additional css */
