@@ -3824,4 +3824,11 @@ slideshow-component .banner__heading.h1 {
   padding: 10px;
 }
 
+.wrapper-item_image_list img,
+.wrapper-item_image_list svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 /* additional css */
