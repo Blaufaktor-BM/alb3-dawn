@@ -3835,4 +3835,8 @@ slideshow-component .banner__heading.h1 {
   height: 100%;
 }
 
+.slider-image_text-list {
+  display: flex;
+}
+
 /* additional css */

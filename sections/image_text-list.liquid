@@ -2,10 +2,10 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   <div class="section-image_text_list color-{{ block.settings.color_scheme }} gradient">
     <div class="page-width">
-      <div class="wrapper-image_text_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <slider-component class="slider slider--tablet">
+      <slider-component class="wrapper-image_text_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="slider-image_text-list slider slider--tablet" aria-label="Slider">
           {%- for block in section.blocks -%}
-            <div class="item-image_text_list">
+            <div class="item-image_text_list slider__slide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
               <div class="wrapper-item_image_text_list">
                 {%- if block.settings.image != blank -%}
                   {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
@@ -52,8 +52,8 @@
               {% render 'icon-caret' %}
             </button>
           </div>
-        </slider-component>
-      </div>
+        </div>
+      </slider-component>
     </div>
   </div>
 {%- endif -%}
