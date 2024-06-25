@@ -2,10 +2,23 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   <div class="section-image_text_list color-{{ block.settings.color_scheme }} gradient">
     <div class="page-width">
-      <slider-component class="wrapper-image_text_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <div class="slider-image_text-list slider slider--tablet" aria-label="Slider">
+      <slider-component class="slider-mobile-gutter wrapper-image_text_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div
+          id="Slider-{{ section.id }}"
+          data-id="{{ section.id }}"
+          class="slider-image_text-list slider slider--tablet"
+          role="list"
+          aria-label="{{ 'general.slider.name' | t }}"
+        >
           {%- for block in section.blocks -%}
-            <div class="item-image_text_list slider__slide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <div
+              id="Slide-{{ section.id }}-{{ forloop.index }}"
+              class="item-image_text_list slider__slide{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: {{ forloop.index }};"
+              {% endif %}
+            >
               <div class="wrapper-item_image_text_list">
                 {%- if block.settings.image != blank -%}
                   {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
