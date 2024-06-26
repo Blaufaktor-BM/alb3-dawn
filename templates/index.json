@@ -71,10 +71,10 @@
         "accessibility_info": "Slideshow zu deiner Marke"
       }
     },
-    "image_text_list_RXzAJF": {
-      "type": "image_text-list",
+    "image_text_slider_CwWYER": {
+      "type": "image_text-slider",
       "blocks": {
-        "item_cMwknk": {
+        "item_CX4DJF": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
@@ -83,7 +83,7 @@
             "traget_blank": false
           }
         },
-        "item_93NEHm": {
+        "item_nHPYxb": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
@@ -92,7 +92,7 @@
             "traget_blank": false
           }
         },
-        "item_mJWgeF": {
+        "item_VwYHQX": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
@@ -103,13 +103,13 @@
         }
       },
       "block_order": [
-        "item_cMwknk",
-        "item_93NEHm",
-        "item_mJWgeF"
+        "item_CX4DJF",
+        "item_nHPYxb",
+        "item_VwYHQX"
       ],
       "settings": {
         "color_scheme": "scheme-c7e0ff9c-3afa-4004-969e-ac98e10d123e",
-        "slide_speed": 1
+        "slide_speed": 1.5
       }
     },
     "image_list_pGRYH3": {
@@ -449,15 +449,15 @@
             "heading_text_colour": "#003e5f",
             "heading_font": "helvetica_n4",
             "body_text_colour": "#616161",
-            "badge_icon_colour": "#0E1311",
-            "badge_text_colour": "#0E1311",
+            "badge_icon_colour": "#0e1311",
+            "badge_text_colour": "#0e1311",
             "bg_start_colour": "#ffffff",
             "bg_end_colour": "#ffffff",
             "item_border_width": "0px",
-            "item_border_colour": "rgba(0,0,0,0.05)",
+            "item_border_colour": "#000000",
             "item_border_radius": "0px",
             "item_shadow_size": "10px",
-            "item_shadow_colour": "rgba(0,0,0,0.05)",
+            "item_shadow_colour": "#000000",
             "enable_rich_snippets": false,
             "disable_same_customer": false,
             "logo_colour": "var(--logo-normal)"
@@ -517,7 +517,7 @@
   },
   "order": [
     "slideshow_KD9aNM",
-    "image_text_list_RXzAJF",
+    "image_text_slider_CwWYER",
     "image_list_pGRYH3",
     "image_multi_tex_cBP9FG",
     "custom_image_text_C8xBJK",
