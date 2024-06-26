@@ -210,7 +210,6 @@
         "section_color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Desktop_01.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Mobil_04.jpg",
-        "row_reverse": true,
         "title": "<p>ALB <br\/>WASSERFILTER<\/p>",
         "title_size": "h0",
         "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany<\/p>",
@@ -218,7 +217,9 @@
         "text": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.<\/p>",
         "btn_text": "Zum Shop",
         "btn_url": "",
-        "info_text": "Unsere Produktkategorien:"
+        "info_text": "Unsere Produktkategorien:",
+        "padding_top": 75,
+        "padding_bottom": 75
       }
     },
     "custom_image_text_C8xBJK": {
