@@ -51,7 +51,7 @@
                 {% endif %}
                 style="{% if settings.animations_reveal_on_scroll %}--animation-order: {{ forloop.index }};{% endif %} color: {{ block.settings.color }}"
               >
-                {{ block.settings.caption | escape }}
+                {{ block.settings.subtitle | escape }}
               </p>
             {%- when 'icon' -%}
               <div
@@ -371,6 +371,7 @@
     {
       "type": "subtitle",
       "name": "Subtitle",
+      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -389,6 +390,7 @@
     {
       "type": "icon",
       "name": "Icon",
+      "limit": 1,
       "settings": [
         {
           "type": "image_picker",

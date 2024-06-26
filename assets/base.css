@@ -4127,4 +4127,24 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* image text list */
+
+/* richtext */
+.rich-text__icon img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+.rich-text__subtitle {
+  margin: 0;
+  font-size: 20px;
+}
+
+.rich-text__icon+div {
+  margin: 0;
+}
+
+/* richtext */
 /* additional css */
