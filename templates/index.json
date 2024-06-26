@@ -381,6 +381,50 @@
         "padding_bottom": 0
       }
     },
+    "column_image_text_Wp64rg": {
+      "type": "column-image-text",
+      "blocks": {
+        "heading_VAiWAt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_xPPnBx": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
+          }
+        },
+        "text_cLVUUc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_pFMrja": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VAiWAt",
+        "subtitle_xPPnBx",
+        "text_cLVUUc",
+        "button_pFMrja"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-abcb5680-9138-4050-9182-c3d62de3beee",
+        "image_height": 250,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_MfpKrD": {
       "type": "rich-text",
       "blocks": {
@@ -584,6 +628,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
+    "column_image_text_Wp64rg",
     "rich_text_MfpKrD",
     "image_text_list_aHBXcQ",
     "rich_text_VfYKrD",
