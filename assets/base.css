@@ -4113,5 +4113,9 @@ slideshow-component .banner__heading.h1 {
   position: unset;
 }
 
+.newsletter__wrapper .newsletter-form__button:not(:focus-visible):not(.focused) {
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
+}
+
 /* newsletter */
 /* additional css */
