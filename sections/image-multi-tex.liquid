@@ -1,0 +1,270 @@
+{%- liquid
+  assign fetch_priority = 'auto'
+-%}
+<div class="section-image_multi_text gradient color-{{ section.settings.section_color_scheme }} isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="page-width">
+    <div class="wrapper-image_multi_text{% if section.settings.row_reverse %} row_reverse{% endif %}">
+      <div class="media-image_multi_text">
+        {%- if section.settings.image != blank -%}
+          {%- liquid
+            if section.settings.mobile_image != blank
+              assign m_class = 'small-hide'
+            endif
+          -%}
+          {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+          {%- capture sizes -%}
+                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
+          {{
+            section.settings.image
+            | image_url: width: 1500
+            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, class: m_class
+          }}
+          {%- if section.settings.mobile_image != blank -%}
+            {{
+              section.settings.mobile_image
+              | image_url: width: 1500
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority, class: 'desktop-hide'
+            }}
+          {%- endif -%}
+        {%- else -%}
+          {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+      <div class="content-image_multi_text">
+        {%- if section.settings.title != blank -%}
+          <h2 class="title-image_multi_text rte inline-richtext {{ section.settings.title_size }}">
+            {{ section.settings.title }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.sub_title != blank -%}
+          <h2 class="subtitle-image_multi_text rte inline-richtext {{ section.settings.subtitle_size }}">
+            {{ section.settings.sub_title }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <h2 class="text-image_multi_text rte inline-richtext">
+            {{ section.settings.text }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.btn_text != blank -%}
+          <a
+            {% if section.settings.btn_text == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ section.settings.btn_url }}"
+            {% endif %}
+            class="button button--primary"
+            {{ section.shopify_attributes }}
+          >
+            {{ section.settings.btn_text | escape }}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path>
+            </svg>
+          </a>
+        {% endif %}
+        {%- if section.settings.info_text != blank -%}
+          <h2 class="info_text-image_multi_text rte inline-richtext">
+            {{ section.settings.info_text }}
+          </h2>
+        {%- endif -%}
+        {%- if section.blocks.size > 0 -%}
+          <div class="info_list">
+            {%- for block in section.blocks -%}
+              <div class="item-info_list">
+                {%- if block.settings.url != blank -%}
+                  <a href="{{ block.settings.url }}">
+                {%- endif -%}
+                {%- if block.settings.image != blank -%}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                      (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                      (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                  {%- endcapture -%}
+                  {{
+                    block.settings.image
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <p class="info_list_text rte inline-richtext">{{ block.settings.text }}</p>
+                {%- endif -%}
+                {%- if block.settings.url != blank -%}
+                  </a>
+                {%- endif -%}
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Image Multi Text",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "row_reverse",
+      "label": "Image Right"
+    },
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "<p>ALB <br>WASSERFILTER</p>"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "sub_title",
+      "label": "Subtitle",
+      "default": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany</p>"
+    },
+    {
+      "type": "select",
+      "id": "subtitle_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.</p>"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "ButtonText",
+      "default": "Zum Shop</p>"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "info_text",
+      "label": "Information Text",
+      "default": "Unsere Produktkategorien:"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "Trinkwasserfilter"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Multi Text",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
