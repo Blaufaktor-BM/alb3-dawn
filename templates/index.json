@@ -215,6 +215,57 @@
         "top_radius": true
       }
     },
+    "custom_image_text_xk83NV": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_6CBfjR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alb Duschfilter",
+            "heading_size": "h1",
+            "color": "#003e5f"
+          }
+        },
+        "subtitle_KK8QFU": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Wasser – Die Basis jeder Körperpflege.",
+            "color": "#003e5f"
+          }
+        },
+        "text_MziWia": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Neben der Reduzierung von Schadstoffen sowie Geruch, Geschmack und Trübungen bescheinigen uns viele Kunden dank der eingearbeiteten Mineralisierungsstufe ein angenehmes und weiches Hautgefühl nach dem Duschen. Unsere Nano Filterkartusche schützt außerdem bei einem Duschverbot vor gefährlichen Legionellen. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_aWHU8f": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/collections\/duschfilter",
+            "button_style_secondary1": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/duschfilter",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6CBfjR",
+        "subtitle_KK8QFU",
+        "text_MziWia",
+        "button_aWHU8f"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-3",
+        "image": "shopify:\/\/shop_images\/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
+        "content_image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+        "row_reverse": true,
+        "top_radius": false
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -249,6 +300,7 @@
     "image_text_list_RXzAJF",
     "image_list_pGRYH3",
     "custom_image_text_C8xBJK",
+    "custom_image_text_xk83NV",
     "featured_collection"
   ]
 }
