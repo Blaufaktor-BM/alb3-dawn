@@ -145,6 +145,132 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "15623156175785154009": {
+        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16237003337219470499": {
+        "type": "shopify:\/\/apps\/appstle-loyalty\/blocks\/appstle-loyalty\/1886c0f8-77b6-4a85-af11-b43cc17ae1c1",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16133342861412372001": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-404-monitor\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1005670201854246023": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-404-redirect\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4012516059585860583": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-robots-preview-image\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2123730486445879810": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-jsonld-articles\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+          "json_type": "BlogPosting"
+        }
+      },
+      "12929864145791711604": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-jsonld-blogs\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+          "logo_url": ""
+        }
+      },
+      "18393503268697261835": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-jsonld-collections\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15275366425030815531": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-jsonld-breadcrumb\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4034249759531830092": {
+        "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-jsonld-products\/4aa30173-495d-4e49-b377-c5ee4024262f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1173261918193615741": {
+        "type": "shopify:\/\/apps\/geo-pro-geolocation\/blocks\/geopro\/16fc5313-7aee-4e90-ac95-f50fc7c8b657",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5294968793578418440": {
+        "type": "shopify:\/\/apps\/king-product-options-variant\/blocks\/app-embed\/ce104259-52b1-4720-9ecf-76b34cae0401",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10436698916776057164": {
+        "type": "shopify:\/\/apps\/appstle-subscription\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10830403595879607806": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "url_key": "REVIEWS.io",
+          "lang": "auto",
+          "enable_syndication": false
+        }
+      },
+      "16274361319697914395": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-floating\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "widget_id": "",
+          "show_all": true,
+          "show_index": true,
+          "show_product": true,
+          "show_collection": true,
+          "show_cart": true
+        }
+      },
+      "6913107989674730356": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-sessions\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15316669992541710076": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "star": "#000",
+          "text_color": "#333",
+          "snippet_mode": "default",
+          "text": "Reviews",
+          "line_break": false,
+          "listen_for_changes": false,
+          "rating_without_brackets": false,
+          "format_review_count": false,
+          "show_popup": true,
+          "anchor_to_reviews_widget": false,
+          "show_empty_stars": false
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
