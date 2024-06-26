@@ -3762,7 +3762,7 @@ slideshow-component .banner__heading.h1 {
   font-size: 32px;
 }
 
-.banner__buttons svg {
+.button svg {
   height: 14px;
   margin-left: 5px;
 }
@@ -3951,11 +3951,6 @@ slideshow-component .banner__heading.h1 {
   gap: 5px;
 }
 
-.custom_image_text-btns .button svg {
-  min-width: 18px;
-  max-width: 18px;
-}
-
 .custom_image_text-btns .btn-second {
   display: flex;
   text-decoration: none;
@@ -4017,9 +4012,17 @@ slideshow-component .banner__heading.h1 {
 }
 
 .item-info_list,
-.item-info_list {
+.item-info_list a {
   display: flex;
   gap: 35px;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(var(--color-foreground), 1);
+  text-decoration: none;
+}
+
+.item-info_list a:hover {
+  text-decoration: underline;
 }
 
 .item-info_list img {
