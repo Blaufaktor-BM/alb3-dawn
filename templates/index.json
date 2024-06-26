@@ -295,10 +295,10 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/duschfilter",
+            "button_link1": "shopify:\/\/collections\/camping-wasserfilter",
             "button_style_secondary1": false,
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/duschfilter",
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter",
             "second_btn_color": "#0081be"
           }
         }
