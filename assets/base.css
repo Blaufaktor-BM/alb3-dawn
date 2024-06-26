@@ -4082,6 +4082,7 @@ slideshow-component .banner__heading.h1 {
   width: 28px;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 .newsletter__wrapper .inline-richtext {
