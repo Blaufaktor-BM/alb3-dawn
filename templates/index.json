@@ -381,6 +381,46 @@
         "padding_bottom": 0
       }
     },
+    "image_text_list_aHBXcQ": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_dYHz3a": {
+          "type": "item",
+          "settings": {
+            "text": "Hergestellt inSüddeutschland"
+          }
+        },
+        "item_9HfYJb": {
+          "type": "item",
+          "settings": {
+            "text": "30 TageRückgaberecht"
+          }
+        },
+        "item_fgJ6Mj": {
+          "type": "item",
+          "settings": {
+            "text": "Schneller und kostenloserVersand mit DHL"
+          }
+        },
+        "item_4iDPe4": {
+          "type": "item",
+          "settings": {
+            "text": "Einfache Zahlungauch auf Rechnung"
+          }
+        }
+      },
+      "block_order": [
+        "item_dYHz3a",
+        "item_9HfYJb",
+        "item_fgJ6Mj",
+        "item_4iDPe4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_MfpKrD": {
       "type": "rich-text",
       "blocks": {
@@ -523,6 +563,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
+    "image_text_list_aHBXcQ",
     "rich_text_MfpKrD",
     "rich_text_VfYKrD",
     "1719431790c48f0b30",
