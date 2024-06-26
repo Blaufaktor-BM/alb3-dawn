@@ -3618,6 +3618,7 @@ h5,
 .header__menu-item {
   padding: 2.2rem 1.2rem;
   color: rgba(var(--color-foreground));
+  font-family: "amsi-ligt";
 }
 
 .header__submenu.list-menu {
@@ -3701,6 +3702,15 @@ details[open]>.header__menu-item,
 .footer .list-social__item .icon {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.footer-block__details-content {
+  font-family: "amsi-ligt";
+}
+
+.footer-block__details-content .list-menu__item--link,
+.copyright__content a {
+  color: rgba(var(--color-foreground));
 }
 
 @media only screen and (min-width: 750px) {
@@ -3872,7 +3882,6 @@ slideshow-component .banner__heading.h1 {
 
 .text-image_text_list {
   font-size: 12px;
-  font-family: "amsi-ligt";
 }
 
 @media only screen and (min-width: 990px) {
