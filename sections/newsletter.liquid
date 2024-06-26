@@ -27,14 +27,14 @@
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
-              style="--animation-order: {{ forloop.index }};"
             {% endif %}
+            style="{% if settings.animations_reveal_on_scroll %}--animation-order: {{ forloop.index }};{% endif %} color: {{ block.settings.color }};"
           >
             {{ block.settings.heading }}
           </h2>
         {%- when 'paragraph' -%}
           <div
-            class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="newsletter__subheading rte second-font {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -42,6 +42,30 @@
             {% endif %}
           >
             {{ block.settings.text }}
+          </div>
+        {%- when 'icon' -%}
+          <div
+            class="newsletter_icon {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {%- if block.settings.image != blank -%}
+              {%- assign fetch_priority = 'auto' -%}
+              {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+              {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                  {%- endcapture -%}
+
+              {{
+                block.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
+            {%- endif -%}
           </div>
         {%- when 'email_form' -%}
           <div {{ block.shopify_attributes }}>
@@ -80,12 +104,12 @@
                   </label>
                   <button
                     type="submit"
-                    class="newsletter-form__button field__button"
+                    class="newsletter-form__button field__button button button--primary"
                     name="commit"
                     id="Subscribe"
                     aria-label="{{ 'newsletter.button_label' | t }}"
                   >
-                    {% render 'icon-arrow' %}
+                    {{ 'newsletter.button_label' | t }}
                   </button>
                 </div>
                 {%- if form.errors -%}
@@ -203,6 +227,12 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#616161"
         }
       ]
     },
@@ -226,6 +256,17 @@
     },
     {
       "type": "@app"
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon"
+        }
+      ]
     }
   ],
   "presets": [
