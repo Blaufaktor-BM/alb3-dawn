@@ -1,17 +1,17 @@
 {%- if section.blocks.size > 0 -%}
   {%- assign fetch_priority = 'auto' -%}
-  {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-  <div class="section-image_text_list color-{{ section.settings.color_scheme }} gradient">
+
+  <div class="section-image_text_slider color-{{ section.settings.color_scheme }} gradient">
     <div class="page-width">
-      <div class="wrapper-image_text_list swiper-container isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="wrapper-image_text_slider swiper-container isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div
-          class="slider-image_text-list swiper-wrapper"
+          class="slider-image_text_slider swiper-wrapper"
         >
           {%- for block in section.blocks -%}
             <div
-              class="item-image_text_list swiper-slide"
+              class="item-image_text_slider swiper-slide"
             >
-              <div class="wrapper-item_image_text_list second-font">
+              <div class="wrapper-item_image_text_slider second-font">
                 {%- if block.settings.url != blank -%}
                   <a
                     {% if block.settings.traget_blank %}
@@ -34,7 +34,7 @@
                   }}
                 {%- endif -%}
                 {% if block.settings.text != blank %}
-                  <div class="text-image_text_list">{{ block.settings.text }}</div>
+                  <div class="text-image_text_slider">{{ block.settings.text }}</div>
                 {% endif %}
                 {%- if block.settings.url != blank -%}
                   </a>
@@ -48,7 +48,7 @@
   </div>
 {%- endif -%}
 <script>
-  var mySwiper = new Swiper('#shopify-section-{{ section.id }} .wrapper-image_text_list', {
+  var mySwiper = new Swiper('#shopify-section-{{ section.id }} .wrapper-image_text_slider', {
     speed: {{ section.settings.slide_speed |  times: 1000 |  split: "." | first }},
     direction: 'horizontal',
     autoplay: {
@@ -66,7 +66,7 @@
 </script>
 {% schema %}
 {
-  "name": "Image Text List",
+  "name": "Image Text Slider",
   "class": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -121,7 +121,7 @@
   ],
   "presets": [
     {
-      "name": "Image Text List",
+      "name": "Image Text Slider",
       "blocks": [
         {
           "type": "item"
