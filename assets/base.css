@@ -3947,10 +3947,6 @@ slideshow-component .banner__heading.h1 {
   gap: 10px;
 }
 
-.custom_image_text-btns .button {
-  gap: 5px;
-}
-
 .custom_image_text-btns .btn-second {
   display: flex;
   text-decoration: none;
