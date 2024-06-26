@@ -33,6 +33,7 @@
         {%- endif -%}
     }
   {%- endstyle -%}
+  {%- assign fetch_priority = 'auto' -%}
   <div class="section-image_list" style="background-color: {{ section.settings.color }}">
     <div class="page-width">
       <div class="wrapper-image_list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
