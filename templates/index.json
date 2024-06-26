@@ -170,28 +170,32 @@
         "item_LdKhVK": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "text": "<strong>Trinkwasserfilter<\/strong>",
             "url": ""
           }
         },
         "item_MRAFUm": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "text": "<strong>Duschfilter<\/strong>",
             "url": ""
           }
         },
         "item_XUCPjY": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "text": "<strong>Campingfilter<\/strong>",
             "url": ""
           }
         },
         "item_ExqTFb": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151.svg",
+            "text": "<strong>Kartuschen<\/strong>",
             "url": ""
           }
         }
