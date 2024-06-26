@@ -3993,4 +3993,32 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
+.title-image_multi_text {
+  margin: 0;
+}
+
+.subtitle-image_multi_text {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.text-image_multi_text {
+  margin-bottom: 30px;
+}
+
+.info_text-image_multi_text {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.info_list {
+  margin-left: 35px;
+}
+
+.item-info_list,
+.item-info_list {
+  display: flex;
+  gap: 35px;
+}
+
 /* additional css */
