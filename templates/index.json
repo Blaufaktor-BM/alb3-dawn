@@ -210,7 +210,7 @@
         "section_color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Desktop_01.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Mobil_04.jpg",
-        "row_reverse": false,
+        "row_reverse": true,
         "title": "<p>ALB <br\/>WASSERFILTER<\/p>",
         "title_size": "h0",
         "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany<\/p>",
