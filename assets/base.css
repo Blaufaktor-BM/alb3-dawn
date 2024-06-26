@@ -3991,6 +3991,19 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
+@media (max-width: 749px) {
+  .media-custom_image_text {
+    position: relative;
+    padding-bottom: 100%;
+  }
+
+  .media-custom_image_text img,
+  .media-custom_image_text svg {
+    position: absolute;
+    top: 0;
+  }
+}
+
 .title-image_multi_text {
   margin: 0;
   font-weight: 200;
