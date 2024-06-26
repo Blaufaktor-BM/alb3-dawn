@@ -428,11 +428,25 @@
     "rich_text_MfpKrD": {
       "type": "rich-text",
       "blocks": {
+        "icon_zaUnUd": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-0ef6eaf3--schwarzrotgelbvert.png"
+          }
+        },
         "heading_P6TC9E": {
           "type": "heading",
           "settings": {
             "heading": "Alb Filter®",
+            "color": "#003e5f",
             "heading_size": "h1"
+          }
+        },
+        "subtitle_jELPTH": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Die Wasserfilter Manufaktur aus Süddeutschland",
+            "color": "#003e5f"
           }
         },
         "text_jwhq9W": {
@@ -443,13 +457,15 @@
         }
       },
       "block_order": [
+        "icon_zaUnUd",
         "heading_P6TC9E",
+        "subtitle_jELPTH",
         "text_jwhq9W"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -462,6 +478,7 @@
           "type": "heading",
           "settings": {
             "heading": "Das sagen unsere Kunden",
+            "color": "#003e5f",
             "heading_size": "h1"
           }
         }
