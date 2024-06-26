@@ -164,6 +164,57 @@
         "color": "#fafafa"
       }
     },
+    "image_multi_tex_cBP9FG": {
+      "type": "image-multi-tex",
+      "blocks": {
+        "item_LdKhVK": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        },
+        "item_MRAFUm": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        },
+        "item_XUCPjY": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        },
+        "item_ExqTFb": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_LdKhVK",
+        "item_MRAFUm",
+        "item_XUCPjY",
+        "item_ExqTFb"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "row_reverse": false,
+        "title": "<p>ALB <br\/>WASSERFILTER<\/p>",
+        "title_size": "h1",
+        "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany<\/p>",
+        "subtitle_size": "h1",
+        "text": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.<\/p>",
+        "btn_text": "Zum Shop",
+        "btn_url": "",
+        "info_text": "Unsere Produktkategorien:"
+      }
+    },
     "custom_image_text_C8xBJK": {
       "type": "custom-image-text",
       "blocks": {
@@ -350,6 +401,7 @@
     "slideshow_KD9aNM",
     "image_text_list_RXzAJF",
     "image_list_pGRYH3",
+    "image_multi_tex_cBP9FG",
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
