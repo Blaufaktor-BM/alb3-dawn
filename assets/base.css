@@ -3869,6 +3869,10 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
+.section-custom_image_text {
+  margin-top: 20px;
+}
+
 .media-custom_image_text img,
 .media-custom_image_text svg {
   display: block;
