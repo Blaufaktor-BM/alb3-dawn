@@ -4098,5 +4098,20 @@ slideshow-component .banner__heading.h1 {
   margin-top: 35px;
 }
 
+.newsletter__wrapper .newsletter-form .newsletter-form__field-wrapper,
+.newsletter__wrapper .newsletter-form {
+  max-width: 674px;
+}
+
+.newsletter__wrapper .newsletter-form .field {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.newsletter__wrapper .newsletter-form__button {
+  width: 100%;
+  position: unset;
+}
+
 /* newsletter */
 /* additional css */
