@@ -387,13 +387,43 @@
         "heading_P6TC9E": {
           "type": "heading",
           "settings": {
+            "heading": "Alb Filter®",
+            "heading_size": "h1"
+          }
+        },
+        "text_jwhq9W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir produzieren in Deutschland in der Region der Schwäbischen Alb (Baden-Württemberg) und sind stolz darauf. Alle unsere Produkte unterliegen strengen Qualitätskontrollen und werden nur aus qualitativ hochwertigem und lebensmittelechtem Material gefertigt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P6TC9E",
+        "text_jwhq9W"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_VfYKrD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jtryLr": {
+          "type": "heading",
+          "settings": {
             "heading": "Das sagen unsere Kunden",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading_P6TC9E"
+        "heading_jtryLr"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -494,6 +524,7 @@
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
     "rich_text_MfpKrD",
+    "rich_text_VfYKrD",
     "1719431790c48f0b30",
     "custom_newsletter_BNxaaD"
   ]
