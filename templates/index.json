@@ -384,11 +384,18 @@
     "newsletter_hCnwPm": {
       "type": "newsletter",
       "blocks": {
+        "icon_3CmVLt": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paper-plane.svg"
+          }
+        },
         "heading_qUmjBz": {
           "type": "heading",
           "settings": {
             "heading": "Bleib auf dem Laufenden!",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "color": "#003e5f"
           }
         },
         "paragraph_V8UM8Q": {
@@ -404,6 +411,7 @@
         }
       },
       "block_order": [
+        "icon_3CmVLt",
         "heading_qUmjBz",
         "paragraph_V8UM8Q",
         "email_form_4UMTNn"
