@@ -4108,6 +4108,11 @@ slideshow-component .banner__heading.h1 {
   gap: 10px;
 }
 
+.newsletter__wrapper .newsletter-form .field:after,
+.newsletter__wrapper .newsletter-form .field:before {
+  content: none;
+}
+
 .newsletter__wrapper .newsletter-form__button {
   width: 100%;
   position: unset;
