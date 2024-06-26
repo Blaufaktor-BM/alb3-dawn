@@ -4025,6 +4025,7 @@ slideshow-component .banner__heading.h1 {
 .item-info_list img {
   min-width: 50px;
   max-width: 50px;
+  height: auto;
 }
 
 /* additional css */
