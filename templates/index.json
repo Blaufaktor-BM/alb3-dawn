@@ -381,6 +381,29 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_MfpKrD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P6TC9E": {
+          "type": "heading",
+          "settings": {
+            "heading": "Das sagen unsere Kunden",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P6TC9E"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "1719431790c48f0b30": {
       "type": "apps",
       "blocks": {
@@ -470,6 +493,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
+    "rich_text_MfpKrD",
     "1719431790c48f0b30",
     "custom_newsletter_BNxaaD"
   ]
