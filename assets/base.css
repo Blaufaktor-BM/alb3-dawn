@@ -4074,53 +4074,6 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* newsletter */
-.newsletter_icon {
-  margin: 5px 0;
-}
-
-.newsletter_icon img {
-  width: 28px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.newsletter__wrapper .inline-richtext {
-  margin: 0;
-}
-
-.newsletter__wrapper .newsletter__subheading {
-  max-width: 100%;
-  margin-top: 0;
-}
-
-.newsletter__wrapper .newsletter__form {
-  margin-top: 35px;
-}
-
-.newsletter__wrapper .newsletter-form .newsletter-form__field-wrapper,
-.newsletter__wrapper .newsletter-form {
-  max-width: 674px;
-}
-
-.newsletter__wrapper .newsletter-form .field {
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.newsletter__wrapper .newsletter-form .field:after,
-.newsletter__wrapper .newsletter-form .field:before {
-  content: none;
-}
-
-.newsletter__wrapper .newsletter-form__button {
-  width: 100%;
-  position: unset;
-}
-
-.newsletter__wrapper .newsletter-form__button:not(:focus-visible):not(.focused) {
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
-}
 
 /* newsletter */
 /* additional css */
