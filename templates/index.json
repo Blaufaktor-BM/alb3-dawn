@@ -266,6 +266,57 @@
         "top_radius": false
       }
     },
+    "custom_image_text_wknkAx": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_Wx94Xh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alb Campingfilter",
+            "heading_size": "h1",
+            "color": "#003e5f"
+          }
+        },
+        "subtitle_hkLaHQ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Auf Reisen und unterwegs sauberes Trinkwasser genießen. ",
+            "color": "#003e5f"
+          }
+        },
+        "text_ge7NEi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Im mobilen Umfeld ist die Versorgung mit Frischwasser eine der essenziellen Aufgaben. Beim Tanken an Wasser-Zapfstellen auf Campingplätzen, Häfen oder gar in der freien Natur können Sie die Wasserqualität oftmals nicht einschätzen. Mit den Alb Filter® MOBIL und TRAVEL Sets filtern Sie Ihr Wasser ganz einfach Unterwegs.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_HTDhpE": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/collections\/duschfilter",
+            "button_style_secondary1": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/duschfilter",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wx94Xh",
+        "subtitle_hkLaHQ",
+        "text_ge7NEi",
+        "button_HTDhpE"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-3",
+        "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
+        "content_image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+        "row_reverse": false,
+        "top_radius": false
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -301,6 +352,7 @@
     "image_list_pGRYH3",
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
+    "custom_image_text_wknkAx",
     "featured_collection"
   ]
 }
