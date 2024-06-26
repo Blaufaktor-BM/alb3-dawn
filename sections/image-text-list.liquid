@@ -1,33 +1,31 @@
 {%- if section.blocks.size > 0 -%}
   {%- assign fetch_priority = 'auto' -%}
 
-  <div class="section-image_text_list color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-image_text_list">
     <div class="page-width">
-      <div class="wrapper-image_text_list swiper-container isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="wrapper-image_text_list color-{{ section.settings.color_scheme }} gradient isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {%- for block in section.blocks -%}
           <div
-            class="item-image_text_list swiper-slide"
+            class="item-image_text_list center second-font"
           >
-            <div class="wrapper-item_image_text_list second-font">
-              {%- if block.settings.image != blank -%}
-                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                {%- capture sizes -%}
+            {%- if block.settings.image != blank -%}
+              {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+              {%- capture sizes -%}
                       (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                       (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                     {%- endcapture -%}
 
-                {{
-                  block.settings.image
-                  | image_url: width: 1500
-                  | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                }}
-              {%- else -%}
-                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-              {%- endif -%}
-              {% if block.settings.text != blank %}
-                <div class="text-image_text_list">{{ block.settings.text }}</div>
-              {% endif %}
-            </div>
+              {{
+                block.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
+            {%- else -%}
+              {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+            {% if block.settings.text != blank %}
+              <div class="text-image_text_list">{{ block.settings.text }}</div>
+            {% endif %}
           </div>
         {%- endfor -%}
       </div>
