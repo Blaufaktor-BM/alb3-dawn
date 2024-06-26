@@ -4030,6 +4030,12 @@ slideshow-component .banner__heading.h1 {
   width: 100%;
 }
 
+.media-image_multi_text img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 990px) {
   .content-image_multi_text {
     max-width: 57%;
@@ -4039,6 +4045,10 @@ slideshow-component .banner__heading.h1 {
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  .media-image_multi_text {
+    display: none;
   }
 }
 
