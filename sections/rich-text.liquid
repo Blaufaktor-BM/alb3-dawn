@@ -26,8 +26,8 @@
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
-                  style="--animation-order: {{ forloop.index }};"
                 {% endif %}
+                style="{% if settings.animations_reveal_on_scroll %}--animation-order: {{ forloop.index }};{% endif %} color: {{ block.settings.color }}"
               >
                 {{ block.settings.heading }}
               </h2>
@@ -42,6 +42,41 @@
               >
                 {{ block.settings.caption | escape }}
               </p>
+            {%- when 'subtitle' -%}
+              <p
+                class="rich-text__subtitle{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                {% endif %}
+                style="{% if settings.animations_reveal_on_scroll %}--animation-order: {{ forloop.index }};{% endif %} color: {{ block.settings.color }}"
+              >
+                {{ block.settings.caption | escape }}
+              </p>
+            {%- when 'icon' -%}
+              <div
+                class="rich-text__icon{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {%- if block.settings.image != blank -%}
+                  {%- assign fetch_priority = 'auto' -%}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                      (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                      (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+
+                  {{
+                    block.settings.image
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                {%- endif -%}
+              </div>
             {%- when 'text' -%}
               <div
                 class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -194,6 +229,12 @@
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#003e5f"
+        },
+        {
           "type": "select",
           "id": "heading_size",
           "options": [
@@ -324,6 +365,35 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    },
+    {
+      "type": "subtitle",
+      "name": "Subtitle",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "subtitle",
+          "label": "Subtitle",
+          "default": "Die Wasserfilter Manufaktur aus Süddeutschland"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#003e5f"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon"
         }
       ]
     }
