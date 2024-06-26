@@ -3586,6 +3586,11 @@ details-disclosure>details {
   src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-light.woff2?v=1699626920") format("woff2");
 }
 
+.button,
+a {
+  font-family: "amsi-ligt";
+}
+
 h1,
 h2,
 h3,
