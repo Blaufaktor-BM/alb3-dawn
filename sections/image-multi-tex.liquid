@@ -12,7 +12,7 @@
 {%- endstyle -%}
 <div class="section-image_multi_text gradient color-{{ section.settings.section_color_scheme }} isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="page-width">
-    <div class="wrapper-image_multi_text{% if section.settings.row_reverse %} row_reverse{% endif %}">
+    <div class="wrapper-image_multi_text">
       <div class="media-image_multi_text">
         {%- if section.settings.image != blank -%}
           {%- if section.settings.mobile_image != blank -%}
@@ -130,11 +130,6 @@
       "type": "image_picker",
       "id": "mobile_image",
       "label": "Mobile Image"
-    },
-    {
-      "type": "checkbox",
-      "id": "row_reverse",
-      "label": "Image Right"
     },
     {
       "type": "richtext",
