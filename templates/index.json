@@ -270,7 +270,9 @@
         "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "content_image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
         "row_reverse": false,
-        "top_radius": true
+        "top_radius": true,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "custom_image_text_xk83NV": {
@@ -321,7 +323,9 @@
         "image": "shopify:\/\/shop_images\/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
         "content_image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
         "row_reverse": true,
-        "top_radius": false
+        "top_radius": false,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "custom_image_text_wknkAx": {
@@ -372,7 +376,9 @@
         "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
         "content_image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
         "row_reverse": false,
-        "top_radius": false
+        "top_radius": false,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
