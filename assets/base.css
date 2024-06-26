@@ -3586,10 +3586,6 @@ details-disclosure>details {
   src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-light.woff2?v=1699626920") format("woff2");
 }
 
-body {
-  font-family: "amsi-ligt";
-}
-
 h1,
 h2,
 h3,
@@ -3871,6 +3867,7 @@ slideshow-component .banner__heading.h1 {
 
 .text-image_text_list {
   font-size: 12px;
+  font-family: "amsi-ligt";
 }
 
 @media only screen and (min-width: 990px) {
