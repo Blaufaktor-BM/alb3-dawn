@@ -4073,4 +4073,29 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
+/* newsletter */
+.newsletter_icon {
+  margin: 5px 0;
+}
+
+.newsletter_icon img {
+  width: 28px;
+  height: auto;
+  display: block;
+}
+
+.newsletter__wrapper .inline-richtext {
+  margin: 0;
+}
+
+.newsletter__wrapper .newsletter__subheading {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.newsletter__wrapper .newsletter__form {
+  margin-top: 35px;
+}
+
+/* newsletter */
 /* additional css */
