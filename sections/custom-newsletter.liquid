@@ -23,13 +23,13 @@
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
               {% endif %}
-              style="{% if settings.animations_reveal_on_scroll %}--animation-order: {{ forloop.index }};{% endif %} color: {{ block.settings.color }};"
+              style="color: {{ block.settings.color }}; {% if settings.animations_reveal_on_scroll %}--animation-order: {{ forloop.index }};{% endif %}"
             >
               {{ block.settings.heading }}
             </h2>
           {%- when 'text' -%}
             <div
-              class="custom-newsletter__text rte {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="custom-newsletter__text rte second-font {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
