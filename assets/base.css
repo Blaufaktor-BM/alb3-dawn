@@ -4027,4 +4027,27 @@ slideshow-component .banner__heading.h1 {
   height: auto;
 }
 
+.content-image_multi_text {
+  width: 100%;
+}
+
+@media only screen and (min-width: 990px) {
+  .content-image_multi_text {
+    max-width: 57%;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .content-image_multi_text.row_reverse {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .wrapper-image_multi_text {
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
 /* additional css */
