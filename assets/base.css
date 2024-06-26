@@ -3995,6 +3995,7 @@ slideshow-component .banner__heading.h1 {
 
 .title-image_multi_text {
   margin: 0;
+  font-weight: 200;
 }
 
 .subtitle-image_multi_text {
@@ -4019,6 +4020,11 @@ slideshow-component .banner__heading.h1 {
 .item-info_list {
   display: flex;
   gap: 35px;
+}
+
+.item-info_list img {
+  min-width: 50px;
+  max-width: 50px;
 }
 
 /* additional css */
