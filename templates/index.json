@@ -419,7 +419,7 @@
         "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
         "text_color": "#616161",
         "btn_text": "Kaufen",
-        "btn_url": "",
+        "btn_url": "\/products",
         "btn_bg_color": "#0081be",
         "btn_color": "#fff",
         "bottom_bg_color": "#003e5f",
