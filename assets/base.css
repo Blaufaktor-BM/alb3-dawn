@@ -4225,7 +4225,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .item_img-multi_content {
-  max-width: 300px;
+  max-width: 250px;
   width: 100%;
   margin: 0 auto;
 }
@@ -4323,6 +4323,11 @@ slideshow-component .banner__heading.h1 {
   .item-multi_content:last-child .item_img-multi_content {
     margin-top: -150px;
     max-width: 350px;
+  }
+
+  .bottom-multi_content {
+    border-radius: 3px;
+    overflow: hidden;
   }
 }
 
