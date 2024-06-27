@@ -4502,6 +4502,43 @@ slideshow-component .banner__heading.h1 {
   padding-bottom: 20px;
 }
 
+.bottom_btn-product_slider a {
+  justify-content: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: block;
+  background-color: rgba(0, 0, 0, .4);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all .25s;
+  background-image: none;
+}
+
+.swiper-button-prev:before,
+.swiper-button-next:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  top: 15px;
+  left: 17px;
+  transform: rotate(-45deg);
+}
+
+.swiper-button-next:before {
+  transform: rotate(135deg);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
 @media only screen and (min-width: 750px) {}
 
 /* product slider */
