@@ -4224,16 +4224,27 @@ slideshow-component .banner__heading.h1 {
   padding-bottom: 30px;
 }
 
-.item_img-multi_content svg,
-.item_img-multi_content img {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
+.item_img-multi_content {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+.item_img_wrapper-mulit_content {
+  position: relative;
+  padding-bottom: 100%;
   border-radius: 50%;
   background-color: #fff;
   overflow: hidden;
+}
+
+.item_img-multi_content svg,
+.item_img-multi_content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
 }
 
 .item-multi_content {

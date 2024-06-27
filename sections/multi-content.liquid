@@ -101,27 +101,29 @@
           {% for block in section.blocks %}
             <div class="item-multi_content center">
               <div class="item_img-multi_content">
-                {%- if block.settings.url != blank -%}
-                  <a href="{{ block.settings.url }}">
-                {%- endif -%}
-                {%- if block.settings.image != blank -%}
-                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                  {%- capture sizes -%}
+                <div class="item_img_wrapper-mulit_content">
+                  {%- if block.settings.url != blank -%}
+                    <a href="{{ block.settings.url }}">
+                  {%- endif -%}
+                  {%- if block.settings.image != blank -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
                             (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                             (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                           {%- endcapture -%}
 
-                  {{
-                    block.settings.image
-                    | image_url: width: 1500
-                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                  }}
-                {%- else -%}
-                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                {%- endif -%}
-                {%- if block.settings.url != blank -%}
-                  </a>
-                {%- endif -%}
+                    {{
+                      block.settings.image
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                  {%- if block.settings.url != blank -%}
+                    </a>
+                  {%- endif -%}
+                </div>
               </div>
               {%- if block.settings.heading != blank -%}
                 <div
