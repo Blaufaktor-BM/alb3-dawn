@@ -4289,10 +4289,13 @@ slideshow-component .banner__heading.h1 {
   gap: 10px;
 }
 
+.item_icon-multi_content {
+  width: 100%;
+}
+
 .item_icons-mulit_content img {
-  width: 40px;
   display: block;
-  height: 40px;
+  height: auto;
   object-fit: contain;
 }
 
