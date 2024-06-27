@@ -388,20 +388,24 @@
           "type": "item",
           "settings": {
             "url": "",
-            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading": "<p>ALB FILTER®<br\/> <strong>Element<\/strong><\/p>",
             "heading_size": "h2",
             "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
-            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>"
+            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
+            "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
+            "icon2": "shopify:\/\/shop_images\/pf-54e00be4--wasserfiltericonlandingduscheweiss.svg",
+            "icon3": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg"
           }
         },
         "item_WJdM6c": {
           "type": "item",
           "settings": {
             "url": "",
-            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading": "<p>ALB FILTER®<br\/><strong>Duo<\/strong><\/p>",
             "heading_size": "h2",
-            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
-            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>"
+            "subtitle": "Die elegante Filterlösung für Ihre Armatur.",
+            "text": "<p>Machen Sie aus Ihrem Wasserhahn einen Trinkwasserspender.<br\/>Hebel umlegen und geniessen!<br\/><br\/>Anwendungsbereich:<\/p>",
+            "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg"
           }
         }
       },
