@@ -4149,8 +4149,10 @@ slideshow-component .banner__heading.h1 {
 /* richtext */
 /* column image text */
 .media-column_image_text {
-  display: block;
+  display: block !important;
   background-size: cover;
+  width: 100%;
+  padding: 24px;
 }
 
 .main-column-image_text {
@@ -4169,6 +4171,19 @@ slideshow-component .banner__heading.h1 {
 
 .column_image_text-text {
   margin-bottom: 30px;
+}
+
+.column_image_text-btn .btn-second {
+  color: rgba(var(--color-foreground), 1);
+}
+
+.media_content-column_image_text img {
+  max-width: 160px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
 }
 
 /* column image text */
