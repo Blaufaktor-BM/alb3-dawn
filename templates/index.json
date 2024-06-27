@@ -381,6 +381,40 @@
         "padding_bottom": 0
       }
     },
+    "multi_text_ANnJ37": {
+      "type": "multi-text",
+      "blocks": {
+        "item_M7kKCN": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        },
+        "item_6gqCmB": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        }
+      },
+      "block_order": [
+        "item_M7kKCN",
+        "item_6gqCmB"
+      ],
+      "settings": {
+        "heading": "Warum Wasser filtern?",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "subtitle": "(Einige) gute Gründe Wasser zu filtern",
+        "subtitle_color": "#003e5f",
+        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<\/p>",
+        "text_color": "#616161",
+        "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
+        "listtitle_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "multi_content_TX34h9": {
       "type": "multi-content",
       "blocks": {
@@ -684,6 +718,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
+    "multi_text_ANnJ37",
     "multi_content_TX34h9",
     "column_image_text_Wp64rg",
     "rich_text_MfpKrD",
