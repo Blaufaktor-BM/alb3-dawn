@@ -478,21 +478,23 @@
         "item_HFbByW": {
           "type": "item",
           "settings": {
-            "subtitle": "Trinkwasserkartusche",
+            "subtitle": "Duschfilterkartusche",
             "subtitle_color": "#2d2d2d",
-            "heading": "Active",
+            "heading": "Shungit",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "image": "shopify:\/\/shop_images\/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
+            "text": "<p>Die Duschfilterkartusche Shungit verbessert die Wasserqualität, indem das Urgestein Shungit Verunreinigungen reduziert und das Wasser klärt. <\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "bottom_text": "<ul><li>Veringert Fremdgerüche<\/li><li>Binden von freien Radikalen<\/li><li>Adsorptiv, katalytische und bakterizid<\/li><li>\"Jungbrunnen\"<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/products\/alb-filterkartusche-shungit",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": ""
+            "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
           }
         }
       },
