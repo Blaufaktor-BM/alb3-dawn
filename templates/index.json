@@ -387,7 +387,8 @@
         "item_4qgNfB": {
           "type": "item",
           "settings": {
-            "url": "",
+            "image": "shopify:\/\/shop_images\/albelementedelstahlwasserfilter-1639472477762.jpg",
+            "url": "shopify:\/\/pages\/alb-element-wasserfiltergehaeuse",
             "heading": "<p>ALB FILTER®<br\/> <strong>Element<\/strong><\/p>",
             "heading_size": "h2",
             "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
@@ -400,7 +401,8 @@
         "item_WJdM6c": {
           "type": "item",
           "settings": {
-            "url": "",
+            "image": "shopify:\/\/shop_images\/duoe_frontal_1-1643879460010.jpg",
+            "url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
             "heading": "<p>ALB FILTER®<br\/><strong>Duo<\/strong><\/p>",
             "heading_size": "h2",
             "subtitle": "Die elegante Filterlösung für Ihre Armatur.",
