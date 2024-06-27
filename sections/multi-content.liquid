@@ -11,6 +11,9 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  #shopify-section-{{ section.id }} .button:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 var(--buttons-border-width) {{ section.settings.btn_bg_color }},var(--alpha-button-background))
+  }
 {%- endstyle -%}
 <div class="section-multi_content section-{{ section.id }}-padding">
   <div class="page-width">
@@ -76,7 +79,7 @@
                   role="link" aria-disabled="true"
                 {% endif %}
                 class="button button--primary"
-                style="background-color: {{ section.settings.btn_bg_color }}; color: {{ section.settings.btn_text_color }};"
+                style="background-color: {{ section.settings.btn_bg_color }}; color: {{ section.settings.btn_color }};"
               >
                 {{- section.settings.btn_text | escape -}}
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
