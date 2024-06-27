@@ -4273,7 +4273,8 @@ slideshow-component .banner__heading.h1 {
 .item_icons-mulit_content img {
   width: 40px;
   display: block;
-  height: auto;
+  height: 40px;
+  object-fit: contain;
 }
 
 @media only screen and (min-width: 750px) {
