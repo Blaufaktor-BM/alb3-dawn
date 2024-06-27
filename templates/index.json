@@ -387,19 +387,53 @@
         "item_M7kKCN": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text": "Geruch, Geschmack und Trübungen"
           }
         },
         "item_6gqCmB": {
           "type": "item",
           "settings": {
-            "text": "Geruch, Geschmack und Trübungen"
+            "image": "shopify:\/\/shop_images\/pf-44d97bf6--albfiltericonsetparameters24schadstoffbindung.svg",
+            "text": "Schwermetalle wie Blei, Kupfer und Chrom"
+          }
+        },
+        "item_xPHRkA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-6357d844--albfiltericonsetparameters21energy.svg",
+            "text": "Chlor und Chlorabbauprodukte"
+          }
+        },
+        "item_dY76YB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text": "Mikroplastik, Sedimente und Rohrablagerungen"
+          }
+        },
+        "item_6q9wg7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella.svg",
+            "text": "Keime wie Legionellen und E.Coli Bakterien"
+          }
+        },
+        "item_FLnFWU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text": "PFC's, hormonelle Verbindungen, medikamentöse Rückstände uvm."
           }
         }
       },
       "block_order": [
         "item_M7kKCN",
-        "item_6gqCmB"
+        "item_6gqCmB",
+        "item_xPHRkA",
+        "item_dY76YB",
+        "item_6q9wg7",
+        "item_FLnFWU"
       ],
       "settings": {
         "heading": "Warum Wasser filtern?",
@@ -407,7 +441,7 @@
         "heading_color": "#003e5f",
         "subtitle": "(Einige) gute Gründe Wasser zu filtern",
         "subtitle_color": "#003e5f",
-        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<\/p>",
+        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<br\/><br\/>Schadstoffe haben, auch in geringen Mengen, nichts in unserem Trinkwasser verloren. Darum empfehlen wir, das Wasser direkt vor der Entnahme zu filtern, denn auch die letzten Meter ihrer Hauswasserleitung können noch Schadstoffe an das Wasser abgeben.<\/p>",
         "text_color": "#616161",
         "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
         "listtitle_color": "#003e5f",
