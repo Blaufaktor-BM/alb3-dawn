@@ -4345,6 +4345,17 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
+.item_img-multi_text {
+  display: flex;
+  align-items: center;
+}
+
+.item_img-multi_text img {
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+  object-fit: contain;
+}
 
 @media only screen and (min-width: 750px) {
   .wrapper-multi_text {
