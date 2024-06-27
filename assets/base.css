@@ -4151,8 +4151,14 @@ slideshow-component .banner__heading.h1 {
 .media-column_image_text {
   display: block !important;
   background-size: cover;
+  background-position: center;
   width: 100%;
   padding: 24px;
+}
+
+.wrapper-custom_image_text {
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .main-column-image_text {
