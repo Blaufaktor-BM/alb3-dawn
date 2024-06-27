@@ -4508,7 +4508,7 @@ slideshow-component .banner__heading.h1 {
 
 .swiper-button-prev,
 .swiper-button-next {
-  display: block;
+  display: block !important;
   background-color: rgba(0, 0, 0, .4);
   width: 40px;
   height: 40px;
