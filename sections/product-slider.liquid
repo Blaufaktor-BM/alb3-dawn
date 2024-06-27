@@ -236,7 +236,7 @@
     speed: 500,
     spaceBetween: 15,
     loop: false,
-    slidesPerView: 3.5,
+    slidesPerView: {{ section.settings.slide_count }},
     slidesPerGroup: 1,
     breakpoints: {
       1200: {
@@ -366,7 +366,16 @@
     },
     {
       "type": "header",
-      "content": "Slider Color"
+      "content": "Slider"
+    },
+    {
+      "type": "range",
+      "id": "slide_count",
+      "label": "Number of columns on desktop",
+      "min": 1,
+      "max": 4,
+      "step": 0.1,
+      "default": 3.5
     },
     {
       "type": "color",
