@@ -1,0 +1,396 @@
+{%- assign fetch_priority = 'auto' -%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-multi_content section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="wrapper-multi_content">
+      {%- if section.settings.image != blank -%}
+        <div class="img-multi_content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {%- liquid
+            assign full_width = '100vw'
+            assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+            assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+            assign sizes = full_width
+          -%}
+          {{
+            section.settings.image
+            | image_url: width: 3840
+            | image_tag:
+              width: section.settings.image.width,
+              height: image_height,
+              sizes: sizes,
+              widths: widths,
+              fetchpriority: fetch_priority
+          }}
+        </div>
+      {%- endif -%}
+      <div
+        class="middle-multi_content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        style="background-color: {{ section.settings.background_color }};"
+      >
+        <div class="middle_wrapper-mulit_content">
+          {%- if section.settings.heading != blank -%}
+            <h2
+              class="multi_content__heading rte {{ section.settings.heading_size }}"
+              style="color: {{ section.settings.heading_color }}"
+            >
+              {{ section.settings.heading }}
+            </h2>
+          {%- endif -%}
+          {%- if section.settings.subtitle != blank -%}
+            <div
+              class="multi_content__subtitle second-font"
+              style="color: {{ section.settings.subtitle_color }}"
+            >
+              {{ section.settings.subtitle }}
+            </div>
+          {%- endif -%}
+          {%- if section.settings.text != blank -%}
+            <div
+              class="multi_content__text rte second-font"
+              style="color: {{ section.settings.text_color }}"
+            >
+              {{ section.settings.text }}
+            </div>
+          {%- endif -%}
+          {%- if section.settings.btn_text != blank -%}
+            <div
+              class="multi_content__btn"
+              style="color: {{ section.settings.text_color }}"
+            >
+              <a
+                {% if section.settings.btn_url %}
+                  href="{{ section.settings.btn_url }}"
+                {% else %}
+                  role="link" aria-disabled="true"
+                {% endif %}
+                class="button button--primary"
+                style="background-color: {{ section.settings.btn_bg_color }}; color: {{ section.settings.btn_text_color }};"
+              >
+                {{- section.settings.btn_text | escape -}}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                </svg>
+              </a>
+            </div>
+          {%- endif -%}
+        </div>
+        <div
+          class="bottom-multi_content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          style="background-color: {{ section.settings.bottom_bg_color }}; color: {{ section.settings.bottom_text_color }}"
+        >
+          <div class="bottom_wrapper-multi_content">
+            {% for block in section.blocks %}
+              <div class="item-multi_content center">
+                <div class="item_img-multi_content">
+                  {%- if block.settings.url != blank -%}
+                    <a href="{{ block.settings.url }}">
+                  {%- endif -%}
+                  {%- if block.settings.image != blank -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                          {%- endcapture -%}
+
+                    {{
+                      block.settings.image
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                  {%- if block.settings.url != blank -%}
+                    </a>
+                  {%- endif -%}
+                </div>
+                {%- if block.settings.heading != blank -%}
+                  <div class="item_title-multi_content rte second-font {{ block.settings.heading_size }}">
+                    {{ block.settings.heading }}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.subtitle != blank -%}
+                  <div class="item_title-multi_content second-font">{{ block.settings.subtitle }}</div>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="item_text-multi_content second-font">{{ block.settings.text }}</div>
+                {%- endif -%}
+                <div class="item_icons-mulit_content">
+                  {%- for i in (1..3) -%}
+                    {%- capture icon_item %}icon{{i}}{% endcapture -%}
+                    {%- if block.settings[icon_item] != blank -%}
+                      <div class="item_icon-multi_content">
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
+                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+
+                        {{
+                          block.settings[icon_item]
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Multi Content",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Middle Background",
+      "default": "#f2f2f2"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Wasserfilter Gehäuse"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Für Trinkwasser und Dusche."
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Alle Produkte erhältlich in unserem Onlineshop.</p>",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "text",
+      "default": "Kaufen",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg_color",
+      "label": "Button Background Color",
+      "default": "#0081be"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bottom_bg_color",
+      "label": "Bottom Background Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "color",
+      "id": "bottom_text_color",
+      "label": "Bottom Text Color",
+      "default": "#fff"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        },
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "<p>ALB FILTER®<br> <strong>Element</strong></p>"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle",
+          "label": "Subtitle",
+          "default": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser."
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.</p><p>Anwendungsbereiche:</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon1",
+          "label": "Icon1"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "Icon2"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon3",
+          "label": "Icon3"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi Content",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
