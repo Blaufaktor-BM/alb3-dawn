@@ -381,6 +381,53 @@
         "padding_bottom": 0
       }
     },
+    "multi_content_TX34h9": {
+      "type": "multi-content",
+      "blocks": {
+        "item_4qgNfB": {
+          "type": "item",
+          "settings": {
+            "url": "",
+            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading_size": "h2",
+            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
+            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>"
+          }
+        },
+        "item_WJdM6c": {
+          "type": "item",
+          "settings": {
+            "url": "",
+            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading_size": "h2",
+            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
+            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4qgNfB",
+        "item_WJdM6c"
+      ],
+      "settings": {
+        "background_color": "#f2f2f2",
+        "heading": "Wasserfilter Gehäuse",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "subtitle": "Für Trinkwasser und Dusche.",
+        "subtitle_color": "#003e5f",
+        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
+        "text_color": "#616161",
+        "btn_text": "Kaufen",
+        "btn_url": "",
+        "btn_bg_color": "#0081be",
+        "btn_color": "#fff",
+        "bottom_bg_color": "#003e5f",
+        "bottom_text_color": "#fff",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "column_image_text_Wp64rg": {
       "type": "column-image-text",
       "blocks": {
@@ -630,6 +677,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
+    "multi_content_TX34h9",
     "column_image_text_Wp64rg",
     "rich_text_MfpKrD",
     "image_text_list_aHBXcQ",
