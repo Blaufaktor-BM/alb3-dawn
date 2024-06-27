@@ -4230,11 +4230,11 @@ slideshow-component .banner__heading.h1 {
   margin: 0 auto;
 }
 
-.item_img-multi_content:first-child {
-  margin-top: 80px;
+.item-multi_content:first-child .item_img-multi_content {
+  margin-top: -80px;
 }
 
-.item_img-multi_content:last-child {
+.item-multi_content:last-child .item_img-multi_content {
   margin-top: 37px;
 }
 
@@ -4315,8 +4315,8 @@ slideshow-component .banner__heading.h1 {
     max-width: 50%;
   }
 
-  .item_img-multi_content:first-child,
-  .item_img-multi_content:last-child {
+  .item-multi_content:first-child .item_img-multi_content,
+  .item-multi_content:last-child .item_img-multi_content {
     margin-top: -150px;
     max-width: 350px;
   }
