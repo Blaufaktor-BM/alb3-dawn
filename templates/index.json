@@ -381,10 +381,10 @@
         "padding_bottom": 0
       }
     },
-    "product_list_EyDkTH": {
-      "type": "product-list",
+    "product_slider_rihq7w": {
+      "type": "product-slider",
       "blocks": {
-        "item_qP8zTP": {
+        "item_x94gEY": {
           "type": "item",
           "settings": {
             "subtitle": "Trinkwasserkartusche",
@@ -392,119 +392,119 @@
             "heading": "Active",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. <\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><li>Filtert Mikroplastik<\/li><li>Reduziert Schwermetalle<\/li><li>Filtert Chlorgeschmack<\/li><li>Für Camping geeignet<\/li><\/ul>",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "btn_url": "",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+            "second_btn_url": ""
           }
         },
-        "item_XCzjXd": {
+        "item_VfJw9p": {
           "type": "item",
           "settings": {
             "subtitle": "Trinkwasserkartusche",
             "subtitle_color": "#2d2d2d",
-            "heading": "Active Plus+",
+            "heading": "Active",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Die Trinkwasserkartusche Active Plus+ für Untertisch und Wasserhahn filtert neben Schadstoffen und Geschmack auch Bakterien und Keime bis 0,7 µm. <\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Alle Active Filtereigenschaften<\/li><li>Filtert Keime und Bakterien bis 0,7 µm.<\/li><li>Doppelte Wasserenthärtung <\/li><\/ul>",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active-plus",
+            "btn_url": "",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+            "second_btn_url": ""
           }
         },
-        "item_fjBbp7": {
+        "item_EGBwGw": {
           "type": "item",
           "settings": {
-            "subtitle": "Bakterienfilter",
+            "subtitle": "Trinkwasserkartusche",
             "subtitle_color": "#2d2d2d",
-            "heading": "Nano",
+            "heading": "Active",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Der Bakterienfilter Nano hält zuverlässig kleinste Partikel wie Keime und Mikroplastik mit einer 0,1 µm Hohlfasermembran zurück. <\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Schutz vor Mikroorganismen<\/li><li>Schutz vor Legionellen<\/li><li>Reduziert Trübungen<\/li><li>Höchste Sicherheit<\/li><li>Zertifiziert nach ASTM F838-15A<\/li><\/ul>",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "btn_url": "",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+            "second_btn_url": ""
           }
         },
-        "item_wjJkYr": {
+        "item_bNizQN": {
           "type": "item",
           "settings": {
-            "subtitle": "Duschfilterkartusche",
+            "subtitle": "Trinkwasserkartusche",
             "subtitle_color": "#2d2d2d",
-            "heading": "Balance",
+            "heading": "Active",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Die Duschfilterkartusche Balance reduziert Schadstoffe,  stabilisiert den pH-Wert und reichert das Wasser mit wichtigen Mineralien an. <\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Filtert schlechten Geschmack und Gerüche<\/li><li>Reduziert Schwermetalle<\/li><li>Mineralisierung des Wassers <\/li><li>pH-Stabilisierung<\/li><li> Feinfiltration<\/li><\/ul>",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-balance",
+            "btn_url": "",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/balance-duschfilter-kartusche"
+            "second_btn_url": ""
           }
         },
-        "item_CBf64L": {
+        "item_HFbByW": {
           "type": "item",
           "settings": {
-            "subtitle": "Duschfilterkartusche",
+            "subtitle": "Trinkwasserkartusche",
             "subtitle_color": "#2d2d2d",
-            "heading": "Shungit",
+            "heading": "Active",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Die Duschfilterkartusche Shungit verbessert die Wasserqualität, indem das Urgestein Shungit Verunreinigungen reduziert und das Wasser klärt. <\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Veringert Fremdgerüche<\/li><li>Binden von freien Radikalen<\/li><li>Adsorptiv, katalytische und bakterizid<\/li><li>\"Jungbrunnen\"<\/li><\/ul>",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/alb-filterkartusche-shungit",
+            "btn_url": "",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
+            "second_btn_url": ""
           }
         }
       },
       "block_order": [
-        "item_qP8zTP",
-        "item_XCzjXd",
-        "item_fjBbp7",
-        "item_wjJkYr",
-        "item_CBf64L"
+        "item_x94gEY",
+        "item_VfJw9p",
+        "item_EGBwGw",
+        "item_bNizQN",
+        "item_HFbByW"
       ],
       "settings": {
         "top_bg_color": "#f2f2f2",
         "heading": "Wasserfilter Gehäuse",
         "heading_size": "h1",
         "heading_color": "#003e5f",
-        "subtitle": "Für Trinkwasser, Dusche und Camping - für jeden Zweck die richtige Kartusche",
+        "subtitle": "Für Trinkwasser und Dusche.",
         "subtitle_color": "#003e5f",
-        "text": "<p>Alb Filter bietet für jeden Einsatzzweck die passende Kartusche. Genieße frisches und köstlich gefiltertes Trinkwasser, vitalisierendes Wasser für Haut und Haar sowie höchste Sicherheit beim Wasserkonsum unterwegs auf Reisen! Informiere dich über unsere verschiedenen Wasserfilter-Kartuschen und finde heraus, welche am Besten für deine Bedürfnisse geeignet ist.<\/p>",
+        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
         "text_color": "#616161",
-        "btn_text": "Entdecke alle Kartuschen",
-        "btn_url": "shopify:\/\/pages\/wasserfilter-kartuschen",
+        "btn_text": "Kaufen",
+        "btn_url": "",
         "btn_color": "#0081be",
-        "bottom_bg_color": "#f3f3f3",
+        "bottom_bg_color": "#003e5f",
         "item_btn_bg": "#0081be",
         "item_btn_color": "#fff",
         "second_btn_color": "#3c3c3c",
@@ -593,8 +593,11 @@
             "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
             "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
             "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
+            "icon1_width": 20,
             "icon2": "shopify:\/\/shop_images\/pf-54e00be4--wasserfiltericonlandingduscheweiss.svg",
-            "icon3": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg"
+            "icon2_width": 20,
+            "icon3": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg",
+            "icon3_width": 40
           }
         },
         "item_WJdM6c": {
@@ -606,7 +609,10 @@
             "heading_size": "h2",
             "subtitle": "Die elegante Filterlösung für Ihre Armatur.",
             "text": "<p>Machen Sie aus Ihrem Wasserhahn einen Trinkwasserspender.<br\/>Hebel umlegen und geniessen!<br\/><br\/>Anwendungsbereich:<\/p>",
-            "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg"
+            "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
           }
         }
       },
@@ -883,7 +889,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
-    "product_list_EyDkTH",
+    "product_slider_rihq7w",
     "multi_text_ANnJ37",
     "multi_content_TX34h9",
     "column_image_text_Wp64rg",
