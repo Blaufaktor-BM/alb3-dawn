@@ -4296,6 +4296,7 @@ slideshow-component .banner__heading.h1 {
 .item_icons-mulit_content img {
   display: block;
   height: auto;
+  width: 100%;
   object-fit: contain;
 }
 
