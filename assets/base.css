@@ -4523,8 +4523,8 @@ slideshow-component .banner__heading.h1 {
   position: absolute;
   width: 10px;
   height: 10px;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
   top: 15px;
   left: 17px;
   transform: rotate(-45deg);
@@ -4532,6 +4532,7 @@ slideshow-component .banner__heading.h1 {
 
 .swiper-button-next:before {
   transform: rotate(135deg);
+  left: 14px;
 }
 
 .swiper-button-prev:hover,
