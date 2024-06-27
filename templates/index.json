@@ -392,16 +392,16 @@
             "heading": "Active",
             "heading_size": "h2",
             "title_color": "#2d2d2d",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. <\/p>",
             "text_color": "#2d2d2d",
             "icon_title": "Anwendungsbereich",
             "icon_title_color": "#2d2d2d",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><li>Filtert Mikroplastik<\/li><li>Reduziert Schwermetalle<\/li><li>Filtert Chlorgeschmack<\/li><li>Für Camping geeignet<\/li><\/ul>",
             "bottom_text_color": "#616161",
             "btn_text": "Kaufen",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": ""
+            "second_btn_url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
           }
         },
         "item_VfJw9p": {
@@ -494,12 +494,12 @@
       ],
       "settings": {
         "top_bg_color": "#f2f2f2",
-        "heading": "Wasserfilter Gehäuse",
+        "heading": "Wasserfilter Kartuschen",
         "heading_size": "h1",
         "heading_color": "#003e5f",
-        "subtitle": "Für Trinkwasser und Dusche.",
+        "subtitle": "Für Trinkwasser, Dusche und Camping - für jeden Zweck die richtige Kartusche",
         "subtitle_color": "#003e5f",
-        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
+        "text": "<p>Alb Filter bietet für jeden Einsatzzweck die passende Kartusche. Genieße frisches und köstlich gefiltertes Trinkwasser, vitalisierendes Wasser für Haut und Haar sowie höchste Sicherheit beim Wasserkonsum unterwegs auf Reisen! Informiere dich über unsere verschiedenen Wasserfilter-Kartuschen und finde heraus, welche am Besten für deine Bedürfnisse geeignet ist.<\/p>",
         "text_color": "#616161",
         "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_1.svg",
         "btn_text": "Kaufen",
