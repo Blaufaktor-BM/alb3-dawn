@@ -1,18 +1,21 @@
 {%- assign fetch_priority = 'auto' -%}
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-  }
-  #shopify-section-{{ section.id }} .button:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.btn_bg_color }};
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+    #shopify-section-{{ section.id }} .button:after {
+      box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.btn_bg_color }};
+    }
+    #shopify-section-{{ section.id }} .button:hover:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.btn_bg_color }},var(--alpha-button-background))
   }
 {%- endstyle -%}
 <div class="section-multi_content section-{{ section.id }}-padding">
@@ -120,7 +123,10 @@
                   {%- endif -%}
                 </div>
                 {%- if block.settings.heading != blank -%}
-                  <div class="item_title-multi_content rte second-font {{ block.settings.heading_size }}">
+                  <div
+                    class="item_title-multi_content rte second-font {{ block.settings.heading_size }}"
+                    style="color: {{ section.settings.bottom_text_color }}"
+                  >
                     {{ block.settings.heading }}
                   </div>
                 {%- endif -%}
