@@ -4206,11 +4206,10 @@ slideshow-component .banner__heading.h1 {
 }
 
 .middle-multi_content {
-  margin-top: 5px;
-  margin-bottom: 5px;
   overflow: hidden;
   border-radius: 3px;
-  padding: 35px 112px 170px;
+  padding: 45px 15px 95px;
+  text-align: center;
 }
 
 .multi_content__heading {
@@ -4224,6 +4223,15 @@ slideshow-component .banner__heading.h1 {
 
 .multi_content__text {
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 750px) {
+  .middle-multi_content {
+    text-align: left;
+    padding: 35px 112px 170px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
 /* multi content */
