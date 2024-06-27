@@ -4413,6 +4413,7 @@ slideshow-component .banner__heading.h1 {
 
 .item_text-product_slider {
   margin-top: 40px;
+  font-size: 14px;
 }
 
 .item_icon_title-product_slider {
@@ -4427,6 +4428,8 @@ slideshow-component .banner__heading.h1 {
 
 .item_icon-product_slider {
   border-radius: 50%;
+  height: 40px;
+  width: 40px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, .25) 1px 1px 4px;
   filter: grayscale(1);
@@ -4457,6 +4460,30 @@ slideshow-component .banner__heading.h1 {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.item_wrapper-product_slider {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 3px;
+}
+
+.item_img-product_slider {
+  margin-left: -20px;
+}
+
+.btns_item-product_slider {
+  margin-top: 40px;
+}
+
+.btns_item-product_slider .button {
+  width: 100%;
+  max-width: -webkit-fill-available;
+}
+
+.btns_item-product_slider .btn-second {
+  justify-content: center;
+  padding: 10px 20px;
 }
 
 @media only screen and (min-width: 750px) {}
