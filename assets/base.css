@@ -3954,18 +3954,18 @@ slideshow-component .banner__heading.h1 {
   gap: 10px;
 }
 
-.custom_image_text-btns .btn-second {
+.btn-second {
   display: flex;
   text-decoration: none;
   gap: 5px;
   align-items: center;
 }
 
-.custom_image_text-btns .btn-second:hover {
+.btn-second:hover {
   text-decoration: underline;
 }
 
-.custom_image_text-btns .btn-second svg {
+.btn-second svg {
   min-width: 10px;
   max-width: 10px;
 }
