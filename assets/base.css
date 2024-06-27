@@ -4193,4 +4193,38 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* column image text */
+/* multi content */
+.img-multi_content {
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.img-multi_content img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.middle-multi_content {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 35px 112px 170px;
+}
+
+.multi_content__heading {
+  margin: 0;
+}
+
+.multi_content__subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.multi_content__text {
+  margin-bottom: 20px;
+}
+
+/* multi content */
 /* additional css */

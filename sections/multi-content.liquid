@@ -92,73 +92,73 @@
             </div>
           {%- endif -%}
         </div>
-        <div
-          class="bottom-multi_content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          style="background-color: {{ section.settings.bottom_bg_color }}; color: {{ section.settings.bottom_text_color }}"
-        >
-          <div class="bottom_wrapper-multi_content">
-            {% for block in section.blocks %}
-              <div class="item-multi_content center">
-                <div class="item_img-multi_content">
-                  {%- if block.settings.url != blank -%}
-                    <a href="{{ block.settings.url }}">
-                  {%- endif -%}
-                  {%- if block.settings.image != blank -%}
-                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                    {%- capture sizes -%}
+      </div>
+      <div
+        class="bottom-multi_content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        style="background-color: {{ section.settings.bottom_bg_color }}; color: {{ section.settings.bottom_text_color }}"
+      >
+        <div class="bottom_wrapper-multi_content">
+          {% for block in section.blocks %}
+            <div class="item-multi_content center">
+              <div class="item_img-multi_content">
+                {%- if block.settings.url != blank -%}
+                  <a href="{{ block.settings.url }}">
+                {%- endif -%}
+                {%- if block.settings.image != blank -%}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
                             (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                             (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                           {%- endcapture -%}
 
-                    {{
-                      block.settings.image
-                      | image_url: width: 1500
-                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                    }}
-                  {%- else -%}
-                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                  {%- endif -%}
-                  {%- if block.settings.url != blank -%}
-                    </a>
-                  {%- endif -%}
+                  {{
+                    block.settings.image
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                {%- else -%}
+                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                {%- if block.settings.url != blank -%}
+                  </a>
+                {%- endif -%}
+              </div>
+              {%- if block.settings.heading != blank -%}
+                <div
+                  class="item_title-multi_content rte second-font {{ block.settings.heading_size }}"
+                  style="color: {{ section.settings.bottom_text_color }}"
+                >
+                  {{ block.settings.heading }}
                 </div>
-                {%- if block.settings.heading != blank -%}
-                  <div
-                    class="item_title-multi_content rte second-font {{ block.settings.heading_size }}"
-                    style="color: {{ section.settings.bottom_text_color }}"
-                  >
-                    {{ block.settings.heading }}
-                  </div>
-                {%- endif -%}
-                {%- if block.settings.subtitle != blank -%}
-                  <div class="item_title-multi_content second-font">{{ block.settings.subtitle }}</div>
-                {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="item_text-multi_content second-font">{{ block.settings.text }}</div>
-                {%- endif -%}
-                <div class="item_icons-mulit_content">
-                  {%- for i in (1..3) -%}
-                    {%- capture icon_item %}icon{{i}}{% endcapture -%}
-                    {%- if block.settings[icon_item] != blank -%}
-                      <div class="item_icon-multi_content">
-                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                        {%- capture sizes -%}
+              {%- endif -%}
+              {%- if block.settings.subtitle != blank -%}
+                <div class="item_title-multi_content second-font">{{ block.settings.subtitle }}</div>
+              {%- endif -%}
+              {%- if block.settings.text != blank -%}
+                <div class="item_text-multi_content second-font">{{ block.settings.text }}</div>
+              {%- endif -%}
+              <div class="item_icons-mulit_content">
+                {%- for i in (1..3) -%}
+                  {%- capture icon_item %}icon{{i}}{% endcapture -%}
+                  {%- if block.settings[icon_item] != blank -%}
+                    <div class="item_icon-multi_content">
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
                                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                                 {%- endcapture -%}
 
-                        {{
-                          block.settings[icon_item]
-                          | image_url: width: 1500
-                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                        }}
-                      </div>
-                    {%- endif -%}
-                  {%- endfor -%}
-                </div>
+                      {{
+                        block.settings[icon_item]
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
               </div>
-            {% endfor %}
-          </div>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
