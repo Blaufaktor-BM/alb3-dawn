@@ -381,6 +381,158 @@
         "padding_bottom": 0
       }
     },
+    "product_list_EyDkTH": {
+      "type": "product-list",
+      "blocks": {
+        "item_qP8zTP": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Trinkwasserkartusche",
+            "subtitle_color": "#2d2d2d",
+            "heading": "Active",
+            "heading_size": "h2",
+            "title_color": "#2d2d2d",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text_color": "#2d2d2d",
+            "icon_title": "Anwendungsbereich",
+            "icon_title_color": "#2d2d2d",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text_color": "#616161",
+            "btn_text": "Kaufen",
+            "btn_url": "",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_XCzjXd": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Trinkwasserkartusche",
+            "subtitle_color": "#2d2d2d",
+            "heading": "Active",
+            "heading_size": "h2",
+            "title_color": "#2d2d2d",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text_color": "#2d2d2d",
+            "icon_title": "Anwendungsbereich",
+            "icon_title_color": "#2d2d2d",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text_color": "#616161",
+            "btn_text": "Kaufen",
+            "btn_url": "",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_fjBbp7": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Trinkwasserkartusche",
+            "subtitle_color": "#2d2d2d",
+            "heading": "Active",
+            "heading_size": "h2",
+            "title_color": "#2d2d2d",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text_color": "#2d2d2d",
+            "icon_title": "Anwendungsbereich",
+            "icon_title_color": "#2d2d2d",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text_color": "#616161",
+            "btn_text": "Kaufen",
+            "btn_url": "",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_wjJkYr": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Trinkwasserkartusche",
+            "subtitle_color": "#2d2d2d",
+            "heading": "Active",
+            "heading_size": "h2",
+            "title_color": "#2d2d2d",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text_color": "#2d2d2d",
+            "icon_title": "Anwendungsbereich",
+            "icon_title_color": "#2d2d2d",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text_color": "#616161",
+            "btn_text": "Kaufen",
+            "btn_url": "",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_CBf64L": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Trinkwasserkartusche",
+            "subtitle_color": "#2d2d2d",
+            "heading": "Active",
+            "heading_size": "h2",
+            "title_color": "#2d2d2d",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text_color": "#2d2d2d",
+            "icon_title": "Anwendungsbereich",
+            "icon_title_color": "#2d2d2d",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text_color": "#616161",
+            "btn_text": "Kaufen",
+            "btn_url": "",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_JRigyU": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Trinkwasserkartusche",
+            "subtitle_color": "#2d2d2d",
+            "heading": "Active",
+            "heading_size": "h2",
+            "title_color": "#2d2d2d",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text_color": "#2d2d2d",
+            "icon_title": "Anwendungsbereich",
+            "icon_title_color": "#2d2d2d",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "bottom_text_color": "#616161",
+            "btn_text": "Kaufen",
+            "btn_url": "",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_qP8zTP",
+        "item_XCzjXd",
+        "item_fjBbp7",
+        "item_wjJkYr",
+        "item_CBf64L",
+        "item_JRigyU"
+      ],
+      "settings": {
+        "top_bg_color": "#f2f2f2",
+        "heading": "Wasserfilter Gehäuse",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "subtitle": "Für Trinkwasser und Dusche.",
+        "subtitle_color": "#003e5f",
+        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
+        "text_color": "#616161",
+        "btn_text": "Kaufen",
+        "btn_url": "",
+        "btn_color": "#0081be",
+        "bottom_bg_color": "#003e5f",
+        "item_btn_bg": "#0081be",
+        "item_btn_color": "#fff",
+        "second_btn_color": "#3c3c3c",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "multi_text_ANnJ37": {
       "type": "multi-text",
       "blocks": {
@@ -752,6 +904,7 @@
     "custom_image_text_C8xBJK",
     "custom_image_text_xk83NV",
     "custom_image_text_wknkAx",
+    "product_list_EyDkTH",
     "multi_text_ANnJ37",
     "multi_content_TX34h9",
     "column_image_text_Wp64rg",
