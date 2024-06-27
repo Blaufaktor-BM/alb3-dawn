@@ -4387,4 +4387,18 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* multi text */
+/* product slider */
+.proudct-list__heading {
+  margin: 0;
+}
+
+.top_content-product_slider {
+  padding: 30px;
+}
+
+.products-product_list {
+  padding: 30px;
+}
+
+/* product slider */
 /* additional css */
