@@ -1,0 +1,233 @@
+{%- assign fetch_priority = 'auto' -%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-multi_text section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="wrapper-multi_text{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="left-multi_text">
+        <div class="left_wrapper-multi_text">
+          {%- if section.settings.heading != blank -%}
+            <h2
+              class="multi_content__heading rte {{ section.settings.heading_size }}"
+              style="color: {{ section.settings.heading_color }}"
+            >
+              {{ section.settings.heading }}
+            </h2>
+          {%- endif -%}
+          {%- if section.settings.subtitle != blank -%}
+            <div
+              class="multi_content__subtitle sub_title second-font"
+              style="color: {{ section.settings.subtitle_color }}"
+            >
+              {{ section.settings.subtitle }}
+            </div>
+          {%- endif -%}
+          {%- if section.settings.text != blank -%}
+            <div
+              class="multi_content__text rte second-font"
+              style="color: {{ section.settings.text_color }}"
+            >
+              {{ section.settings.text }}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="right-multi_text">
+        <div class="right_wrapper-multi_text">
+          {%- if section.settings.list_title != blank -%}
+            <div
+              class="list_title-multi_text sub_title second-font"
+              style="color: {{ section.settings.list_title_color }}"
+            >
+              {{ section.settings.list_title }}
+            </div>
+          {%- endif -%}
+          {%- if section.blocks.size > 0 -%}
+            <div class="list-multi_text">
+              {%- for block in section.blocks -%}
+                <div class="item-multi_text">
+                  {%- if block.settings.image != blank -%}
+                    <div class="item_img-multi_text">
+                      {%- assign fetch_priority = 'auto' -%}
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
+                      (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                      (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+
+                      {{
+                        block.settings.image
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.text != blank -%}
+                    <div class="item_text second-font" style="color: {{ section.settings.text_color }}">
+                      {{ block.settings.text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endfor -%}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Multi Text",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Warum Wasser filtern?"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "(Einige) gute Gründe Wasser zu filtern"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.</p>",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "text",
+      "id": "list_title",
+      "label": "List title",
+      "default": "Im Leitungswasser nachgewiesene Stoffe:"
+    },
+    {
+      "type": "color",
+      "id": "listtitle_color",
+      "label": "List title Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "Geruch, Geschmack und Trübungen"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi Text",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
