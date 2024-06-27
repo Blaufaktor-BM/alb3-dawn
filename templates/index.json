@@ -410,6 +410,7 @@
         "item_WJdM6c"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/duo-montage-kuche-madchen-v2-1644311203575.png",
         "background_color": "#f2f2f2",
         "heading": "Wasserfilter Gehäuse",
         "heading_size": "h1",
@@ -421,9 +422,9 @@
         "btn_text": "Kaufen",
         "btn_url": "\/products",
         "btn_bg_color": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "bottom_bg_color": "#003e5f",
-        "bottom_text_color": "#fff",
+        "bottom_text_color": "#ffffff",
         "padding_top": 10,
         "padding_bottom": 0
       }
