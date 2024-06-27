@@ -4396,10 +4396,6 @@ slideshow-component .banner__heading.h1 {
   padding: 30px;
 }
 
-.products-product_slider {
-  padding: 30px;
-}
-
 .item_img-product_slider img {
   width: 100%;
   height: auto;
@@ -4545,7 +4541,11 @@ slideshow-component .banner__heading.h1 {
   display: none;
 }
 
-@media only screen and (min-width: 750px) {}
+@media only screen and (min-width: 750px) {
+  .products-product_slider {
+    padding: 30px;
+  }
+}
 
 /* product slider */
 /* additional css */
