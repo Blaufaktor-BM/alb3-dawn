@@ -4147,4 +4147,29 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* richtext */
+/* column image text */
+.media-column_image_text {
+  display: block;
+  background-size: cover;
+}
+
+.main-column-image_text {
+  padding: 25px 45px;
+}
+
+.column_image_text-heading {
+  margin: 0;
+}
+
+.column_image_text-subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.column_image_text-text {
+  margin-bottom: 30px;
+}
+
+/* column image text */
 /* additional css */

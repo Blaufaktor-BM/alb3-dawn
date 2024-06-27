@@ -21,7 +21,7 @@
     >
       <div
         class="media-column_image_text"
-        style="height: {{ section.settings.image_height }}; background-image:url({{ section.settings.image | img_url: "master" }})"
+        style="height: {{ section.settings.image_height }}px; background-image:url({{ section.settings.image | img_url: "master" }})"
       >
         {%- if section.settings.content_image != blank -%}
           <div class="media_content-column_image_text">
@@ -45,27 +45,27 @@
               {% case block.type %}
                 {%- when 'heading' -%}
                   <h2
-                    class="custom_image_text-heading inline-richtext {{ block.settings.heading_size }}"
+                    class="column_image_text-heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.heading }}
                   </h2>
                 {%- when 'subtitle' -%}
                   <p
-                    class="custom_image_text-subtitle"
+                    class="column_image_text-subtitle second-font"
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.subtitle }}
                   </p>
                 {%- when 'text' -%}
                   <div
-                    class="custom_image_text-text second-font rte {{ block.settings.text_style }}"
+                    class="column_image_text-text second-font rte {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
-                  <div class="custom_image_text-btns">
+                  <div class="column_image_text-btn">
                     {%- if block.settings.button_label != blank -%}
                       <a
                         class="btn-second second-font"
