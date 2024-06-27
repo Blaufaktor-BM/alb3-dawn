@@ -407,8 +407,8 @@
         "button_pFMrja": {
           "type": "button",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": ""
+            "button_label": "Mehr erfahren",
+            "button_link": "shopify:\/\/pages\/alb-filter-eco"
           }
         }
       },
