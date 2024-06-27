@@ -445,8 +445,8 @@
         "text_color": "#616161",
         "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
         "listtitle_color": "#003e5f",
-        "padding_top": 10,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 30
       }
     },
     "multi_content_TX34h9": {
