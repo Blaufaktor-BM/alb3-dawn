@@ -21,9 +21,10 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/DUO-E-Montage_Kuche_Madchen.webp",
+        "image_2": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "image_height": "small",
+        "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
