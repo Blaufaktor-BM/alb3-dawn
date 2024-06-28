@@ -831,6 +831,21 @@
         "include_margins": true
       }
     },
+    "instagram_nEkMJk": {
+      "type": "instagram",
+      "settings": {
+        "background_color": "#fafafa",
+        "heading": "Bild mit Text",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "instagram_text": "albfilter",
+        "instagram_color": "#003e5f",
+        "instagram_url": "",
+        "shortcode": "<div id=\"insta-feed\"><\/div>",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "custom_newsletter_BNxaaD": {
       "type": "custom-newsletter",
       "blocks": {
@@ -891,6 +906,7 @@
     "image_text_list_aHBXcQ",
     "rich_text_VfYKrD",
     "1719431790c48f0b30",
+    "instagram_nEkMJk",
     "custom_newsletter_BNxaaD"
   ]
 }
