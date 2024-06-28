@@ -42,14 +42,8 @@
           "settings": {
             "heading": "TRINKWASSERFILTER",
             "color": "#003e5f",
-            "heading_size": "h0"
-          }
-        },
-        "subtitle_NMC4jC": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "TRINKWASSERFILTER",
-            "color": "#003e5f"
+            "heading_size": "h0",
+            "font_weight": "200"
           }
         },
         "heading_zFpYUx": {
@@ -57,7 +51,8 @@
           "settings": {
             "heading": "Wasserfilter für Trinkwasser",
             "color": "#003e5f",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_weight": "700"
           }
         },
         "text_AdKrmP": {
@@ -80,7 +75,6 @@
       },
       "block_order": [
         "heading_AUcqNV",
-        "subtitle_NMC4jC",
         "heading_zFpYUx",
         "text_AdKrmP",
         "button_GHiKCW"
