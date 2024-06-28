@@ -4459,7 +4459,7 @@ slideshow-component .banner__heading.h1 {
   margin: 0 auto;
 }
 
-.item-product_slider>div {
+.item-product_slider {
   background-color: #fff;
   padding: 40px 20px;
   border-radius: 3px;
