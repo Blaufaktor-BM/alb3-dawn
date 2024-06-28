@@ -4545,7 +4545,7 @@ slideshow-component .banner__heading.h1 {
   background-color: rgba(0, 0, 0, 1);
 }
 
-.products-product_slider .swiper-button-prev.swiper-button-disabled {
+.products-product_slider .swiper-button-disabled {
   display: none !important;
 }
 
