@@ -79,10 +79,13 @@
         "text_AdKrmP",
         "button_GHiKCW"
       ],
+      "custom_css": [
+        "h2:nth-child(2) {margin-top: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
