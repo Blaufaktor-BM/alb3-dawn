@@ -79,6 +79,9 @@
         "text_AdKrmP",
         "button_GHiKCW"
       ],
+      "custom_css": [
+        "h2:nth-child(2) {margin-top: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
