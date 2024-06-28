@@ -11,13 +11,92 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_7cHhYP": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DUO-E-Montage_Kuche_Madchen.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_PiN6zi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AUcqNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "TRINKWASSERFILTER",
+            "color": "#003e5f",
+            "heading_size": "h0"
+          }
+        },
+        "subtitle_NMC4jC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "TRINKWASSERFILTER",
+            "color": "#003e5f"
+          }
+        },
+        "heading_zFpYUx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wasserfilter für Trinkwasser",
+            "color": "#003e5f",
+            "heading_size": "h1"
+          }
+        },
+        "text_AdKrmP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"
+          }
+        },
+        "button_GHiKCW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AUcqNV",
+        "subtitle_NMC4jC",
+        "heading_zFpYUx",
+        "text_AdKrmP",
+        "button_GHiKCW"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_7cHhYP",
+    "rich_text_PiN6zi"
   ]
 }
