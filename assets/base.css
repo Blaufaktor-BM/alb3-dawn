@@ -4461,7 +4461,7 @@ slideshow-component .banner__heading.h1 {
 
 .item-product_slider {
   background-color: #fff;
-  padding: 40px 20px;
+  padding: 40px 0;
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, .05) 0 4px 16px;
   height: auto;
@@ -4472,6 +4472,7 @@ slideshow-component .banner__heading.h1 {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  padding: 0 20px;
 }
 
 .item_img-product_slider {
