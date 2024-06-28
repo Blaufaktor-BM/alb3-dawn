@@ -4558,4 +4558,29 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* product slider */
+/* instagram */
+.wrapper-instagram {
+  padding: 35px 0;
+}
+
+.instagram-heading {
+  margin: 0;
+}
+
+.instagram_text {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.instagram_text svg {
+  height: 17px;
+}
+
+.instagram_text a:not(:hover) {
+  text-decoration: none;
+}
+
+/* instagram */
 /* additional css */
