@@ -29,7 +29,7 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                <span style="color: {{ block.settings.color }}">
+                <span style="color: {{ block.settings.color }}; font-weight: {{ block.settings.font_weight }};">
                   {{ block.settings.heading }}
                 </span>
               </h2>
@@ -265,6 +265,42 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Font Weight",
+          "default": "700",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ]
         }
       ]
     },
