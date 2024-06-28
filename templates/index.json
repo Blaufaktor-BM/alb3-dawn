@@ -640,20 +640,20 @@
         "heading_VAiWAt": {
           "type": "heading",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "Alb Filter <strong>eco<\/strong>",
             "heading_size": "h1"
           }
         },
         "subtitle_xPPnBx": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
+            "subtitle": "Einsatz von Biokunststoffen aus Lignin"
           }
         },
         "text_cLVUUc": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Im Zuge fortführender Neuentwicklungen bei Alb Filter sind wir stolz darauf, verschiedene Bauteile der Filterkartuschen Active und Active Plus+ aus einem Biopolymer auf Holzbasis produzieren zu können. Hierbei arbeiten wir eng mit Partnern aus Baden-Württemberg zusammen, welche im Bereich der Biokunststoffe bereits viel Erfahrung sammeln konnten.<\/p>",
             "text_style": "body"
           }
         },
