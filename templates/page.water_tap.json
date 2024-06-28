@@ -19,6 +19,38 @@
     },
     "image_banner_7cHhYP": {
       "type": "image-banner",
+      "blocks": {
+        "heading_YrwDAY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild-Banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_xaWwnt": {
+          "type": "text",
+          "settings": {
+            "text": "Stelle Kunden Details zu Banner-Bildern oder Inhalt auf der Vorlage zur Verfügung.",
+            "text_style": "body"
+          }
+        },
+        "buttons_hYMTKJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Schaltflächenbeschriftung",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Schaltflächenbeschriftung",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YrwDAY",
+        "text_xaWwnt",
+        "buttons_hYMTKJ"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DUO-E-Montage_Kuche_Madchen.webp",
         "image_2": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
@@ -31,7 +63,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "rich_text_PiN6zi": {
