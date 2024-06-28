@@ -4572,10 +4572,12 @@ slideshow-component .banner__heading.h1 {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-size: 17px;
 }
 
 .instagram_text svg {
   height: 17px;
+  width: 15px;
 }
 
 .instagram_text a:not(:hover) {
