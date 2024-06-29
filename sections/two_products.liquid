@@ -1,0 +1,336 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  #shopify-section-{{ section.id }} .button:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.item_btn_bg }};
+  }
+  #shopify-section-{{ section.id }} .button:hover:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.item_btn_bg }};
+  }
+{%- endstyle -%}
+{%- assign fetch_priority = 'auto' -%}
+<div class="section-two_products section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="page-width">
+    {%- if section.settings.heading != blank -%}
+      <h2
+        class="two-products__heading rte {{ section.settings.heading_size }}"
+        style="color: {{ section.settings.color }};"
+      >
+        {{ section.settings.heading }}
+      </h2>
+    {%- endif -%}
+    {%- if section.blocks.size > 0 -%}
+      <div class="two-products-list">
+        {%- for block in section.blocks -%}
+          <div class="two-products-item">
+            <div class="two-products-image">
+              {%- if block.settings.image_url != blank -%}
+                <a href="block.settings.image_url">
+              {%- endif -%}
+              {%- if block.settings.image != blank -%}
+                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                  {%- endcapture -%}
+
+                {{
+                  block.settings.image
+                  | image_url: width: 1500
+                  | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                }}
+              {%- else -%}
+                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+              {%- if block.settings.image_url != blank -%}
+                </a>
+              {%- endif -%}
+            </div>
+            <div class="two-products-content">
+              {%- if block.settings.content_url != blank -%}
+                <a href="{{ block.settings.content_url }}">
+              {%- endif -%}
+              {% if block.settings.heading != blank %}
+                <h3
+                  class="two-products-item_heading {{ block.settings.heading_size }}"
+                  style="color: {{ section.settings.title_color }};"
+                >
+                  {{ block.settings.heading }}
+                </h3>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <h3
+                  class="two-products-item_text rte"
+                  style="color: {{ section.settings.text_color }};"
+                >
+                  {{ block.settings.text }}
+                </h3>
+              {% endif %}
+              {%- if block.settings.content_url != blank -%}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.first_btn != blank or block.settings.second_btn != blank -%}
+                <div class="two-products-btns">
+                  {%- if block.settings.first_btn != blank -%}
+                    <a
+                      {% if block.settings.first_btn_url == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.first_btn }}"
+                      {% endif %}
+                      class="button button--primary"
+                      style="background-color: {{ section.settings.first_btn_bg }}; color: {{ section.settings.first_btn_color }}"
+                    >
+                      {{- block.settings.first_btn | escape -}}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.second_btn != blank -%}
+                    <a
+                      href="{{ block.settings.second_btn_url }}"
+                      class="btn-second second-font"
+                      style="color: {{ section.settings.second_btn_color }}"
+                    >
+                      {{- block.settings.second_btn | escape -}}
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
+                      </svg>
+                    </a>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Two Products",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "max_blocks": 2,
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "t:sections.rich-text.blocks.heading.settings.heading.default",
+      "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Heading Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "Product Color"
+    },
+    {
+      "type": "color",
+      "id": "img_bg",
+      "label": "Image Backgroud Color",
+      "default": "#f2f2f2"
+    },
+    {
+      "type": "color",
+      "id": "content_bg",
+      "label": "Content Backgroud Color",
+      "default": "#fafafa"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "color",
+      "id": "first_btn_color",
+      "label": "First Button Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "first_btn_bg",
+      "label": "First Button Background Color",
+      "default": "#0081be"
+    },
+    {
+      "type": "color",
+      "id": "second_btn_color",
+      "label": "Second Button Color",
+      "default": "#0081be"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "image_url",
+          "label": "Image URL"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.</p>"
+        },
+        {
+          "type": "url",
+          "id": "content_url",
+          "label": "Content URL"
+        },
+        {
+          "type": "text",
+          "id": "first_btn",
+          "label": "First Button Text",
+          "default": "Kaufen"
+        },
+        {
+          "type": "url",
+          "id": "first_btn_url",
+          "label": "First Button URL"
+        },
+        {
+          "type": "text",
+          "id": "second_btn",
+          "label": "Second Button Text",
+          "default": "Mehr erfahren"
+        },
+        {
+          "type": "url",
+          "id": "second_btn_url",
+          "label": "Second Button URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Products",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
