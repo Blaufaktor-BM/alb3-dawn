@@ -68,16 +68,14 @@
                 </h3>
               {% endif %}
               {% if block.settings.text != blank %}
-                <h3
+                <div
                   class="two-products-item_text rte"
                   style="color: {{ section.settings.text_color }};"
                 >
                   {{ block.settings.text }}
-                </h3>
+                </div>
               {% endif %}
-              {%- if block.settings.content_url != blank -%}
-                </a>
-              {%- endif -%}
+
               {%- if block.settings.first_btn != blank or block.settings.second_btn != blank -%}
                 <div class="two-products-btns">
                   {%- if block.settings.first_btn != blank -%}
@@ -106,6 +104,9 @@
                     </a>
                   {%- endif -%}
                 </div>
+              {%- endif -%}
+              {%- if block.settings.content_url != blank -%}
+                </a>
               {%- endif -%}
             </div>
           </div>
