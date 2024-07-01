@@ -226,6 +226,42 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_contact_BG3adH": {
+      "type": "custom-contact",
+      "blocks": {
+        "item_ULtGD6": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        },
+        "item_4BwnNP": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ULtGD6",
+        "item_4BwnNP"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "heading": "Noch Fragen zum Produkt?",
+        "heading_size": "h1",
+        "heading_color": "#616161",
+        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren Trinkwasserfiltern<br\/> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text_color": "#616161",
+        "item_text_color": "#003e5f",
+        "item_border_color": "#003e5f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -235,6 +271,7 @@
     "two_products_iRE6p3",
     "rich_text_67VRpK",
     "custom_liquid_HVMXnt",
-    "image_text_list_RGpf7j"
+    "image_text_list_RGpf7j",
+    "custom_contact_BG3adH"
   ]
 }
