@@ -4821,4 +4821,58 @@ summary .icon-caret {
 }
 
 /* small image text */
+/* product filter compare */
+.item-product_filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-list,
+.item-header {
+  width: 100%;
+}
+
+.item-header {
+  padding: 5px;
+}
+
+.item-list {
+  display: flex;
+}
+
+.item-content {
+  width: 100%;
+  max-width: 25%;
+  padding: 5px;
+}
+
+.item-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.item-product_filter:not(:first-child) {
+  border: 1px solid #000;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 750px) {
+  .item-list {
+    max-width: 66.66%;
+  }
+
+  .item-header {
+    max-width: 33.33%;
+  }
+
+  .item-product_filter:not(:first-child) {
+    border: 1px dashed;
+  }
+}
+
+/* product filter compare */
 /* additional css */

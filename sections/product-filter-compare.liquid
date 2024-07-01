@@ -1,0 +1,439 @@
+{%- liquid
+  assign fetch_priority = 'auto'
+-%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  #shopify-section-{{ section.id }} .button:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.btn_bg }};
+  }
+  #shopify-section-{{ section.id }} .button:hover:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.btn_bg }};
+    --border-offset: 1.3px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-product_filter_compare section-{{ section.id }}-padding">
+  <div
+    class="wrapper-product_filter_compare isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    style="color: {{ section.settings.text_color }}"
+  >
+    <div class="page-width">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {% when 'alb_comparison' %}
+            <div class="item-product_filter item-alb_comparison">
+              <div class="item-header">
+                {%- if block.settings.heading != blank -%}
+                  <h2
+                    class="title-alb_comparison {{ block.settings.heading_size }}"
+                    style="color: {{ block.settings.heading_color }};"
+                  >
+                    {{ block.settings.heading }}
+                  </h2>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div
+                    class="text-alb_comparison rte"
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+              </div>
+              <div class="item-list">
+                {%- for i in (1..4) -%}
+                  {% capture image %}image{{i}}{% endcapture %}
+                  {%- if block.settings[image] != blank -%}
+                    <div class="item-content">
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
+                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+                      {{
+                        block.settings[image]
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- when 'filter_properties' -%}
+            <div class="item-product_filter item-filter_properties">
+              <div class="item-header">
+                {%- if block.settings.title != blank -%}
+                  <h2
+                    class="title-item"
+                  >
+                    {{ block.settings.title }}
+                  </h2>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div
+                    class="text-item rte"
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+              </div>
+              <div class="item-list center">
+                {%- for i in (1..4) -%}
+                  {% capture title %}title{{i}}{% endcapture %}
+                  {%- if block.settings[title] != blank -%}
+                    <div class="item-content">
+                      {%- if block.settings[title] != blank -%}
+                        <div class="item-title">{{ block.settings[title] }}</div>
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- when 'filter_product_set' -%}
+            <div class="item-product_filter item-filter_product_set">
+              <div class="item-header">
+                {%- if block.settings.title != blank -%}
+                  <h2
+                    class="title-item"
+                  >
+                    {{ block.settings.title }}
+                  </h2>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div
+                    class="text-item rte"
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+              </div>
+              <div class="item-list center">
+                {%- for i in (1..4) -%}
+                  {% capture image %}image{{i}}{% endcapture %}
+                  {% capture product %}product{{i}}{% endcapture %}
+                  {%- if block.settings[image] != blank or block.settings[product] != blank -%}
+                    <div class="item-content">
+                      {%- if block.settings[image] != blank -%}
+                        <div class="item-img">
+                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                          {%- capture sizes -%}
+                                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                    {%- endcapture -%}
+                          {{
+                            block.settings[image]
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                      {%- endif -%}
+                      {%- if block.settings[product] != blank -%}
+                        {%- assign product = block.settings[product] -%}
+                        <div class="item-product">
+                          <div class="item-price">{{ product.price | money_with_currency }}</div>
+                          <a
+                            {% if product.url == blank %}
+                              role="link" aria-disabled="true"
+                            {% else %}
+                              href="{{ product.url }}"
+                            {% endif %}
+                            class="button button--primary second-font"
+                            style="background-color: {{ section.settings.btn_bg }}; color: {{ section.settings.btn_color }}"
+                          >
+                            {{- section.settings.btn_text | escape -}}
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                              <path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path>
+                            </svg>
+                          </a>
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </div>
+          {% when 'description' %}
+            <div class="item-product_filter item-description rte">
+              {{ block.settings.description }}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Product Filter Compare",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#2d2d2d"
+    },
+    {
+      "type": "header",
+      "content": "Button Style"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "Kaufen"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg",
+      "label": "Button Background Color",
+      "default": "#0081be"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "alb_comparison",
+      "name": "ALB Comparision",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading Color",
+          "default": "#616161"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Set mit Gehäuse und Kartusche</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+          "label": "Image3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image4",
+          "label": "Image4"
+        }
+      ]
+    },
+    {
+      "type": "filter_properties",
+      "name": "Filter Properties",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Filtereigenschaften"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "Title1",
+          "default": "Active"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Title2",
+          "default": "Active+"
+        },
+        {
+          "type": "text",
+          "id": "title3",
+          "label": "Title3",
+          "default": "Nano"
+        },
+        {
+          "type": "text",
+          "id": "title4",
+          "label": "Title4",
+          "default": "Fusion*"
+        }
+      ]
+    },
+    {
+      "type": "filter_product_set",
+      "name": "Filter Product Set",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Untertisch Komplett-Set"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.</p>"
+        },
+        {
+          "type": "product",
+          "id": "product1",
+          "label": "Product1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image1"
+        },
+        {
+          "type": "product",
+          "id": "product2",
+          "label": "Product2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image2"
+        },
+        {
+          "type": "product",
+          "id": "product3",
+          "label": "Product3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+          "label": "Image3"
+        },
+        {
+          "type": "product",
+          "id": "product4",
+          "label": "Product3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image4",
+          "label": "Image4"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Filter Compare",
+      "blocks": [
+        {
+          "type": "alb_comparison"
+        },
+        {
+          "type": "filter_properties"
+        },
+        {
+          "type": "filter_product_set"
+        },
+        {
+          "type": "filter_product_set"
+        },
+        {
+          "type": "filter_product_set"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
