@@ -4644,6 +4644,12 @@ slideshow-component .banner__heading.h1 {
   align-items: center;
 }
 
+.two-products-image,
+.two-products-item {
+  border-radius: 3px;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 768px) {
   .two-products-list {
     display: flex;
