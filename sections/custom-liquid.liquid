@@ -13,7 +13,13 @@
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
+    {%- if section.settings.page_width -%}
+      <div class="page-width">
+    {%- endif -%}
     {{ section.settings.custom_liquid }}
+    {%- if section.settings.page_width -%}
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
@@ -23,6 +29,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "page_width",
+      "label": "Page Width"
+    },
     {
       "type": "liquid",
       "id": "custom_liquid",
