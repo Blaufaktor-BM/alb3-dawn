@@ -4125,6 +4125,11 @@ slideshow-component .banner__heading.h1 {
   margin: 0 auto;
 }
 
+.wrapper-image_text_list.icon_white svg,
+.wrapper-image_text_list.icon_white img {
+  filter: invert(100%) contrast(2);
+}
+
 @media only screen and (min-width: 750px) {
   .item-image_text_list {
     max-width: 25%;

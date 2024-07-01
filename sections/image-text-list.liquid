@@ -15,8 +15,14 @@
   {%- endstyle -%}
 
   <div class="section-image_text_list section-{{ section.id }}-padding">
-    <div class="page-width">
-      <div class="wrapper-image_text_list color-{{ section.settings.color_scheme }} gradient isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {%- unless section.settings.full_width -%}
+      <div class="page-width">
+    {%- endunless -%}
+    <div class="color-{{ section.settings.color_scheme }} gradient isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {%- if section.settings.full_width -%}
+        <div class="page-width">
+      {%- endif -%}
+      <div class="wrapper-image_text_list{% if section.settings.image_white %} icon_white{% endif %}">
         {%- for block in section.blocks -%}
           <div
             class="item-image_text_list center second-font"
@@ -42,7 +48,13 @@
           </div>
         {%- endfor -%}
       </div>
+      {%- if section.settings.full_width -%}
+        </div>
+      {%- endif -%}
     </div>
+    {%- unless section.settings.full_width -%}
+      </div>
+    {%- endunless -%}
   </div>
 {%- endif -%}
 {% schema %}
@@ -58,6 +70,16 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width"
+    },
+    {
+      "type": "checkbox",
+      "id": "image_white",
+      "label": "Image White"
     },
     {
       "type": "header",
