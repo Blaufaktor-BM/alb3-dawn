@@ -386,7 +386,8 @@
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
         "heading_size": "h2",
         "heading_color": "#003e5f",
-        "image_width": 215,
+        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "image_width": 245,
         "padding_top": 10,
         "padding_bottom": 0
       }
