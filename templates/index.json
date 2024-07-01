@@ -694,7 +694,8 @@
           "settings": {
             "heading": "Alb Filter®",
             "color": "#003e5f",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_weight": "700"
           }
         },
         "subtitle_jELPTH": {
@@ -722,6 +723,7 @@
         "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
+        "content_full_width": false,
         "padding_top": 40,
         "padding_bottom": 36
       }
@@ -778,7 +780,8 @@
           "settings": {
             "heading": "Das sagen unsere Kunden",
             "color": "#003e5f",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_weight": "700"
           }
         }
       },
@@ -790,6 +793,7 @@
         "content_alignment": "center",
         "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "full_width": true,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
       }
