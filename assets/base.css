@@ -4801,6 +4801,7 @@ summary .icon-caret {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 30px;
 }
 
 .main-small_image_text,
