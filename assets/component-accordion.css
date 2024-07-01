@@ -1,7 +1,7 @@
 .accordion summary {
   display: flex;
   position: relative;
-  line-height: 1;
+  line-height: 1.5;
   padding: 1.5rem;
 }
 
@@ -26,7 +26,6 @@
 
 .accordion__title {
   display: inline-block;
-  max-width: calc(100% - 6rem);
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
