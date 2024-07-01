@@ -87,6 +87,7 @@
         "content_alignment": "left",
         "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
         "full_width": true,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -128,14 +129,14 @@
         "item_jRCHKH"
       ],
       "settings": {
-        "heading": "Erzähle etwas über deine Marke",
+        "heading": "Produktübersicht Trinkwasserfilter",
         "color": "#003e5f",
         "heading_size": "h1",
         "img_bg": "#f2f2f2",
         "content_bg": "#fafafa",
         "title_color": "#003e5f",
         "text_color": "#616161",
-        "first_btn_color": "#fff",
+        "first_btn_color": "#ffffff",
         "first_btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "padding_top": 10,
