@@ -4794,6 +4794,7 @@ summary .icon-caret {
 /* small image text */
 .small_image_text-heading {
   margin-bottom: 22px;
+  margin-top: 0;
 }
 
 .wrapper-small_image_text {
