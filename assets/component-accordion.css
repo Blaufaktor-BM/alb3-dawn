@@ -49,10 +49,9 @@
 }
 
 .accordion__content {
-  margin-bottom: 1.5rem;
   word-break: break-word;
   overflow-x: auto;
-  padding: 0 0.6rem;
+  padding: 1.5rem;
 }
 
 .accordion__content img {

@@ -4771,7 +4771,10 @@ slideshow-component .banner__heading.h1 {
 
 .accordion__content {
   border: 3px solid;
-  padding: 15px;
+}
+
+.accordion__content a {
+  color: #0081be;
 }
 
 .accordion details>summary .icon-caret {
@@ -4780,6 +4783,10 @@ slideshow-component .banner__heading.h1 {
 
 .accordion details[open]>summary .icon-caret {
   transform: rotate(0);
+}
+
+summary .icon-caret {
+  height: 1rem;
 }
 
 /* collapse */
