@@ -4822,7 +4822,7 @@ summary .icon-caret {
 
 /* small image text */
 /* product filter compare */
-.item-product_filter {
+.item-product_compare {
   display: flex;
   flex-wrap: wrap;
 }

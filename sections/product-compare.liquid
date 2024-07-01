@@ -21,16 +21,16 @@
     }
   }
 {%- endstyle -%}
-<div class="section-product_filter_compare section-{{ section.id }}-padding">
+<div class="section-product_compare section-{{ section.id }}-padding">
   <div
-    class="wrapper-product_filter_compare isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="wrapper-product_compare isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     style="color: {{ section.settings.text_color }}"
   >
     <div class="page-width">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {% when 'alb_comparison' %}
-            <div class="item-product_filter item-alb_comparison">
+            <div class="item-product_compare item-alb_comparison">
               <div class="item-header">
                 {%- if block.settings.heading != blank -%}
                   <h2
@@ -69,7 +69,7 @@
               </div>
             </div>
           {%- when 'filter_properties' -%}
-            <div class="item-product_filter item-filter_properties">
+            <div class="item-product_compare item-filter_properties">
               <div class="item-header">
                 {%- if block.settings.title != blank -%}
                   <h2
@@ -100,7 +100,7 @@
               </div>
             </div>
           {%- when 'filter_product_set' -%}
-            <div class="item-product_filter item-filter_product_set">
+            <div class="item-product_compare item-filter_product_set">
               <div class="item-header">
                 {%- if block.settings.title != blank -%}
                   <h2
@@ -163,7 +163,7 @@
               </div>
             </div>
           {% when 'description' %}
-            <div class="item-product_filter item-description rte">
+            <div class="item-product_compare item-description rte">
               {{ block.settings.description }}
             </div>
         {%- endcase -%}
@@ -173,7 +173,7 @@
 </div>
 {% schema %}
 {
-  "name": "Product Filter Compare",
+  "name": "Product Compare",
   "class": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -415,7 +415,7 @@
   ],
   "presets": [
     {
-      "name": "Product Filter Compare",
+      "name": "Product Compare",
       "blocks": [
         {
           "type": "alb_comparison"
