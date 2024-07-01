@@ -33,7 +33,7 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_shape": "none"
+            "swatch_shape": "square"
           }
         },
         "quantity_selector": {
@@ -58,15 +58,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "collapsible_tab_6XfA8Q": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -77,13 +68,12 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "collapsible_tab_6XfA8Q"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "small",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
