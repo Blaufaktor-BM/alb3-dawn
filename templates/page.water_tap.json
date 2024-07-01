@@ -233,6 +233,7 @@
         "item_ULtGD6": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
             "url": ""
           }
@@ -240,7 +241,8 @@
         "item_4BwnNP": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "text": "Hilfe und Kontakt",
             "url": ""
           }
         }
