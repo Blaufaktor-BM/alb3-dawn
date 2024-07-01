@@ -235,7 +235,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
-            "url": ""
+            "url": "shopify:\/\/pages\/faq-trinkwasser"
           }
         },
         "item_4BwnNP": {
@@ -243,7 +243,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
             "text": "Hilfe und Kontakt",
-            "url": ""
+            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
           }
         }
       },
