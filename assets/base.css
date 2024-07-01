@@ -4653,6 +4653,19 @@ slideshow-component .banner__heading.h1 {
   overflow: hidden;
 }
 
+.two-products-item {
+  transition: all .25s;
+}
+
+.two-products-item:hover {
+  transform: translateY(-8px);
+}
+
+.two-products__heading {
+  margin-top: 0;
+  margin-bottom: 37px;
+}
+
 @media only screen and (min-width: 768px) {
   .two-products-list {
     display: flex;
