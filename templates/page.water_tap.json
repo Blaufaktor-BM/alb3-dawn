@@ -98,20 +98,22 @@
         "item_wcjQ3g": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/duo-element-spule-wasserhahn-1644225658263.png",
             "image_url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
-            "heading": "Bild mit Text",
+            "heading": "Wasserfilter am Wasserhahn",
             "heading_size": "h2",
             "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set",
             "first_btn": "Kaufen",
-            "first_btn_url": "",
+            "first_btn_url": "shopify:\/\/collections\/wasserhahnfilter",
             "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
+            "second_btn_url": "shopify:\/\/pages\/wasserfilter-wasserhahn"
           }
         },
         "item_jRCHKH": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
             "image_url": "",
             "heading": "Bild mit Text",
             "heading_size": "h2",
