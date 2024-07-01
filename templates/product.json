@@ -29,11 +29,17 @@
           "settings": {
           }
         },
+        "sku_4U6KpL": {
+          "type": "sku",
+          "settings": {
+            "text_style": "uppercase"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
-            "swatch_shape": "square"
+            "picker_type": "dropdown",
+            "swatch_shape": "none"
           }
         },
         "quantity_selector": {
@@ -53,19 +59,13 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "collapsible_tab_4rRijx": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "price_tag",
             "content": "",
-            "page": "hinweise-zur-bezahlung"
+            "page": ""
           }
         },
         "collapsible_tab_RDPPjF": {
@@ -76,27 +76,44 @@
             "content": "",
             "page": "hinweise-zur-bezahlung"
           }
+        },
+        "collapsible_tab_zTQepq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sonstiges",
+            "icon": "clipboard",
+            "content": "",
+            "page": "hinweise-zur-bezahlung"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
+        "sku_4U6KpL",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
         "collapsible_tab_4rRijx",
-        "collapsible_tab_RDPPjF"
+        "collapsible_tab_RDPPjF",
+        "collapsible_tab_zTQepq",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
