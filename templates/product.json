@@ -24,6 +24,11 @@
           "settings": {
           }
         },
+        "rating_FVKcLB": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -96,6 +101,7 @@
       "block_order": [
         "vendor",
         "title",
+        "rating_FVKcLB",
         "price",
         "sku_4U6KpL",
         "variant_picker",
@@ -135,10 +141,10 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "columns_mobile": "2",
         "padding_top": 36,
-        "padding_bottom": 28
+        "padding_bottom": 24
       }
     }
   },
