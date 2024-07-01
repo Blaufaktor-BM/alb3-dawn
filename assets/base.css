@@ -4769,5 +4769,18 @@ slideshow-component .banner__heading.h1 {
   object-fit: contain;
 }
 
+.accordion__content {
+  border: 3px solid;
+  padding: 15px;
+}
+
+.accordion details>summary .icon-caret {
+  transform: rotate(-90deg);
+}
+
+.accordion details[open]>summary .icon-caret {
+  transform: rotate(0);
+}
+
 /* collapse */
 /* additional css */

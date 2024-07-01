@@ -66,7 +66,7 @@
   }
 }
 
-.collapsible-none-layout .accordion + .accordion {
+.collapsible-none-layout .accordion+.accordion {
   border-top: 0;
 }
 
@@ -74,7 +74,7 @@
   margin-top: 1rem;
 }
 
-.caption-with-letter-spacing + h2 {
+.caption-with-letter-spacing+h2 {
   margin-top: 1rem;
 }
 
@@ -104,14 +104,10 @@
   background: rgba(var(--color-foreground), 0.04);
 }
 
-.collapsible-content summary:hover .accordion__title {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-}
-
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (min-width: 750px) {
+
     .collapsible-content__grid:not(.collapsible-content__grid--reverse) .grid__item:last-child,
     .collapsible-content__grid--reverse .collapsible-content__grid-item {
       padding-left: 5rem;
@@ -120,6 +116,7 @@
   }
 
   @media screen and (min-width: 990px) {
+
     .collapsible-content__grid:not(.collapsible-content__grid--reverse) .grid__item:last-child,
     .collapsible-content__grid--reverse .collapsible-content__grid-item {
       padding-left: 7rem;

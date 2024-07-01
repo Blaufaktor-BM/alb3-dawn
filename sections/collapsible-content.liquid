@@ -68,11 +68,14 @@
                   open
                 {% endif %}
               >
-                <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                <summary
+                  id="Summary-{{ block.id }}-{{ section.id }}"
+                  style="background-color: {{ section.settings.title_bg }};"
+                >
                   {% render 'icon-accordion', icon: block.settings.icon %}
-                  <h3 class="accordion__title inline-richtext h4">
+                  <div class="accordion__title inline-richtext" style="color: {{ section.settings.title_color }}">
                     {{ block.settings.heading | default: block.settings.page.title | escape }}
-                  </h3>
+                  </div>
                   {% render 'icon-caret' %}
                 </summary>
                 <div
@@ -80,6 +83,7 @@
                   id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
                   role="region"
                   aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                  style="color: {{ section.settings.text_color }};border-color: {{ section.settings.content_border_color }}"
                 >
                   {{ block.settings.row_content }}
                   {{ block.settings.page.content }}
