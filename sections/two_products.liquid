@@ -31,10 +31,10 @@
     {%- if section.blocks.size > 0 -%}
       <div class="two-products-list">
         {%- for block in section.blocks -%}
-          <div class="two-products-item">
-            <div class="two-products-image">
+          <div class="two-products-item" style="background-color: {{ section.settings.content_bg }}">
+            <div class="two-products-image" style="background-color: {{ section.settings.img_bg }}">
               {%- if block.settings.image_url != blank -%}
-                <a href="block.settings.image_url">
+                <a href="{{ block.settings.image_url }}">
               {%- endif -%}
               {%- if block.settings.image != blank -%}
                 {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}

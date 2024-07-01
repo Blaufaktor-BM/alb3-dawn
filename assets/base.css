@@ -4603,4 +4603,61 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* richtext */
+/* two products */
+.two-products-image img,
+.two-products-image svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.two-products-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.two-products-item {
+  width: 100%;
+}
+
+.two-products-content {
+  padding: 20px 20px 35px;
+}
+
+.two-products-content a {
+  text-decoration: none;
+}
+
+.two-products-item_heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-products-item_text {
+  margin-bottom: 35px;
+}
+
+.two-products-btns {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .two-products-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .two-products-item {
+    max-width: calc(50% - 10px);
+  }
+
+  .two-products-content {
+    padding: 40px 40px 55px;
+  }
+}
+
+/* two products */
 /* additional css */
