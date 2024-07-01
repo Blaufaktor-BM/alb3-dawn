@@ -54,7 +54,10 @@
           class="custom_contact-btns"
         >
           {%- for block in section.blocks -%}
-            <div class="custom_contact-item" style="border-color: {{ section.settings.item_border_color }}">
+            <div
+              class="custom_contact-item"
+              style="border-color: {{ section.settings.item_border_color }};background-color: {{ section.settings.item_bg }}"
+            >
               {%- if block.settings.url != blank -%}
                 <a href="{{ block.settings.url }}">
               {%- endif -%}
@@ -161,6 +164,12 @@
     {
       "type": "header",
       "content": "Item Style"
+    },
+    {
+      "type": "color",
+      "id": "item_bg",
+      "label": "Item Background Color",
+      "default": "#ffffff"
     },
     {
       "type": "color",

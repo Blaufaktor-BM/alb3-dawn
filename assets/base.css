@@ -4726,6 +4726,8 @@ slideshow-component .banner__heading.h1 {
   padding: 10px;
   transition: all .25s;
   transition-property: box-shadow;
+  width: 100%;
+  max-width: 245px;
 }
 
 .custom_contact-item img {
