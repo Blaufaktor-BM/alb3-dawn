@@ -366,8 +366,8 @@
         "button_E383ci": {
           "type": "button",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
+            "button_label": "Zum Ratgeber",
+            "button_link": "shopify:\/\/collections\/all",
             "color": "#0081be"
           }
         }
