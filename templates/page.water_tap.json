@@ -224,7 +224,7 @@
         "full_width": true,
         "image_white": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "custom_contact_BG3adH": {
@@ -259,6 +259,7 @@
         "heading_color": "#616161",
         "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
         "text_color": "#616161",
+        "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
         "padding_top": 0,
@@ -346,8 +347,13 @@
         "caption": "",
         "heading": "Fragen und Antworten",
         "heading_size": "h2",
+        "heading_color": "#003e5f",
         "heading_alignment": "left",
         "open_first_collapsible_row": true,
+        "title_color": "#003e5f",
+        "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -380,9 +386,10 @@
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
         "heading_size": "h2",
         "heading_color": "#003e5f",
-        "image_width": 200,
-        "padding_top": 10,
-        "padding_bottom": 0
+        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "image_width": 245,
+        "padding_top": 42,
+        "padding_bottom": 50
       }
     }
   },
