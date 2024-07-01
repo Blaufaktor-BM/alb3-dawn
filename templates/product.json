@@ -24,6 +24,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "rating_FVKcLB": {
           "type": "rating",
           "settings": {
@@ -59,15 +64,10 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible_tab_4rRijx": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Produktbeschreibung",
+            "heading": "Spezifikationen",
             "icon": "price_tag",
             "content": "",
             "page": ""
@@ -96,29 +96,43 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "complementary_ptQFWL": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Passend dazu:",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 3,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "description",
         "rating_FVKcLB",
         "price",
         "sku_4U6KpL",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible_tab_4rRijx",
         "collapsible_tab_RDPPjF",
         "collapsible_tab_zTQepq",
-        "share"
+        "share",
+        "complementary_ptQFWL"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
         "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
@@ -143,7 +157,7 @@
         "show_vendor": false,
         "show_rating": true,
         "columns_mobile": "2",
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 24
       }
     }
