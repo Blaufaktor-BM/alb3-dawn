@@ -4742,6 +4742,7 @@ slideshow-component .banner__heading.h1 {
   text-decoration: none;
 }
 
+.custom_contact-text a:hover,
 .custom_contact-text a {
   color: #0081be;
 }
@@ -4755,4 +4756,18 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* custom contact */
+/* collapse */
+.collapsible-content__media {
+  margin-bottom: 20px;
+}
+
+.collapsible-content__media img {
+  width: 100%;
+  max-width: 120px;
+  display: block;
+  height: auto;
+  object-fit: contain;
+}
+
+/* collapse */
 /* additional css */
