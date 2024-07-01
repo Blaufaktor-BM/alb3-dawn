@@ -52,7 +52,7 @@
 .accordion__content {
   word-break: break-word;
   overflow-x: auto;
-  padding: 1.5rem;
+  padding: 3rem 1.5rem;
 }
 
 .accordion__content img {

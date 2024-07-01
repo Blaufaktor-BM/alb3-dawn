@@ -4773,6 +4773,7 @@ slideshow-component .banner__heading.h1 {
   border: 3px solid;
 }
 
+.accordion__content a:hover,
 .accordion__content a {
   color: #0081be;
 }
