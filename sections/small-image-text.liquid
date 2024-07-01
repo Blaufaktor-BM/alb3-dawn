@@ -27,7 +27,8 @@
     >
       {%- if section.settings.heading != blank -%}
         <h2
-          class="column_image_text-heading inline-richtext {{ section.settings.heading_size }}"
+          class="small_image_text-heading inline-richtext {{ section.settings.heading_size }}"
+          style="color: {{ section.settings.heading_color }}"
         >
           {{ section.settings.heading }}
         </h2>

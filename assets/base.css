@@ -4791,4 +4791,32 @@ summary .icon-caret {
 }
 
 /* collapse */
+/* small image text */
+.small_image_text-heading {
+  margin-bottom: 22px;
+}
+
+.wrapper-small_image_text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-small_image_text,
+.media-small_image_text {
+  width: 100%;
+}
+
+.media-small_image_text svg,
+.media-small_image_text img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.small_image_text-text {
+  margin-bottom: 30px;
+}
+
+/* small image text */
 /* additional css */
