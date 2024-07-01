@@ -4724,6 +4724,8 @@ slideshow-component .banner__heading.h1 {
   border: 1px solid;
   border-radius: 3px;
   padding: 10px;
+  transition: all .25s;
+  transition-property: box-shadow;
 }
 
 .custom_contact-item img {
@@ -4731,6 +4733,23 @@ slideshow-component .banner__heading.h1 {
   height: 50px;
   object-fit: cover;
   display: block;
+  margin: 0 auto;
+}
+
+.custom_contact-text a:not(:hover) {
+  text-decoration: none;
+}
+
+.custom_contact-text a {
+  color: #0081be;
+}
+
+.custom_contact-item a {
+  text-decoration: none;
+}
+
+.custom_contact-item:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .5);
 }
 
 /* custom contact */
