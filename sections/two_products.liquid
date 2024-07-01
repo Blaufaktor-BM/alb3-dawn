@@ -11,10 +11,10 @@
     }
   }
   #shopify-section-{{ section.id }} .button:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.first_btn_bg }};
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.first_btn_color }};
   }
   #shopify-section-{{ section.id }} .button:hover:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.first_btn_bg }};
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.first_btn_color }};
     --border-offset: 1.3px;
   }
 {%- endstyle -%}

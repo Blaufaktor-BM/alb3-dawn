@@ -144,12 +144,39 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "rich_text_67VRpK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ifbUyJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kundenstimmen zu unseren Trinkwasserfiltern",
+            "color": "#003e5f",
+            "heading_size": "h2",
+            "font_weight": "700"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ifbUyJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image_banner_7cHhYP",
     "rich_text_PiN6zi",
-    "two_products_iRE6p3"
+    "two_products_iRE6p3",
+    "rich_text_67VRpK"
   ]
 }
