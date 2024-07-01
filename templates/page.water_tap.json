@@ -347,7 +347,7 @@
         "heading": "Fragen und Antworten",
         "heading_size": "h2",
         "heading_alignment": "left",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
