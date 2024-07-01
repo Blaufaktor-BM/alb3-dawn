@@ -4597,4 +4597,10 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* instagram */
+/* richtext */
+.rich-text__blocks.content_full_width {
+  max-width: 100%;
+}
+
+/* richtext */
 /* additional css */
