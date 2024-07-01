@@ -12,12 +12,6 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    #shopify-section-{{ section.id }} .media-small_image_text {
-        max-width: {{ section.settings.image_width }}px;
-    }
-    #shopify-section-{{ section.id }} .main-small_image_text {
-        max-width: calc(100% - {{ section.settings.image_width }}px);
-    }
   }
 {%- endstyle -%}
 <div class="section-small_image_text section-{{ section.id }}-padding">
