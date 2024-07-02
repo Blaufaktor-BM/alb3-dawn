@@ -34,6 +34,46 @@
         "show_text_below": true
       }
     },
+    "custom_image_text_UxTBxU": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_hjFqGH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Modularer Wasserfilter<\/strong>",
+            "heading_size": "h1",
+            "color": "#003e5f"
+          }
+        },
+        "subtitle_aEE89M": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "1 Gehäuse – 3 Kartuschen.",
+            "color": "#616161"
+          }
+        },
+        "text_8WTjeb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hjFqGH",
+        "subtitle_aEE89M",
+        "text_8WTjeb"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "row_reverse": true,
+        "top_radius": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_zjmbJz": {
       "type": "rich-text",
       "blocks": {
@@ -441,6 +481,7 @@
   "order": [
     "main",
     "image_banner_fNRMYQ",
+    "custom_image_text_UxTBxU",
     "rich_text_zjmbJz",
     "image_multi_tex_frVpQg",
     "product_compare_3zPw6T",
