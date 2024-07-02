@@ -43,7 +43,7 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div
-                    class="text-alb_comparison rte"
+                    class="text-alb_comparison text-item rte"
                   >
                     {{ block.settings.text }}
                   </div>
@@ -80,13 +80,6 @@
                     {{ block.settings.title }}
                   </div>
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div
-                    class="text-item rte"
-                  >
-                    {{ block.settings.text }}
-                  </div>
-                {%- endif -%}
               </div>
               <div class="item-list center">
                 {%- for i in (1..4) -%}
@@ -94,7 +87,7 @@
                   {%- if block.settings[title] != blank -%}
                     <div class="item-content">
                       {%- if block.settings[title] != blank -%}
-                        <div class="item-title">{{ block.settings[title] }}</div>
+                        <div class="title-item">{{ block.settings[title] }}</div>
                       {%- endif -%}
                     </div>
                   {%- endif -%}

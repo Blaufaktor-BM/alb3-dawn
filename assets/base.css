@@ -4860,6 +4860,17 @@ summary .icon-caret {
   margin-top: 20px;
 }
 
+.item-filter_properties:not(.first-child) {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-product_compare .text-item,
+.item-filter_properties:not(.first-child) .title-item {
+  font-size: 14px;
+}
+
 @media only screen and (min-width: 750px) {
   .item-list {
     max-width: 66.66%;
