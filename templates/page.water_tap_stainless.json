@@ -70,7 +70,7 @@
         "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
         "row_reverse": true,
         "top_radius": false,
-        "padding_top": 10,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
