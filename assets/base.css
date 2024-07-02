@@ -3923,7 +3923,6 @@ slideshow-component .banner__heading.h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
 }
 
 .content-custom-image_text {
@@ -3989,7 +3988,7 @@ slideshow-component .banner__heading.h1 {
 
   .main-custom-image_text,
   .media-custom_image_text {
-    max-width: calc(50% - 15px);
+    max-width: 50%;
   }
 
   .content-custom-image_text {
