@@ -135,7 +135,7 @@
                       {%- if block.settings[product] != blank -%}
                         {%- assign product = block.settings[product] -%}
                         <div class="item-product">
-                          <div class="item-price">{{ product.price | money_with_currency }}</div>
+                          <div class="item-price">{{ product.price | money }}</div>
                           <a
                             {% if product.url == blank %}
                               role="link" aria-disabled="true"

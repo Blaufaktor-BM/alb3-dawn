@@ -4877,6 +4877,21 @@ summary .icon-caret {
   margin: 0;
 }
 
+.title-alb_comparison {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.item-product_compare.item-description {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.item-price {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 750px) {
   .item-list {
     max-width: 66.66%;
