@@ -296,9 +296,12 @@
           "settings": {
             "title": "Wasserhahnfilter Duo",
             "text": "<p>Für die Montage direkt am Wasserhahn. Mit Umschalthebel zur Wahl zwischen gefiltertem und ungefiltertem Wasser.<br\/><\/p>",
-            "product1": "",
-            "product2": "",
-            "product3": "",
+            "product1": "wasserfilter-wasserhahn-duo-active",
+            "image1": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+            "product2": "wasserfilter-wasserhahn-duo-active-plus",
+            "image2": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+            "product3": "wasserfilter-wasserhahn-duo-nano",
+            "image3": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
             "product4": ""
           }
         },
