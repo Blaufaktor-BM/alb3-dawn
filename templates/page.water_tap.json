@@ -281,10 +281,14 @@
           "settings": {
             "title": "Untertisch Komplett-Setmit Schnellkupplung",
             "text": "<p>Montage des Filters mit Schnellverschüssen für einen noch einfacheren Filterwechsel.<br\/><\/p>",
-            "product1": "",
-            "product2": "",
-            "product3": "",
-            "product4": ""
+            "product1": "alb-filter-active-untertisch-komplett-set-schnellkupplung",
+            "image1": "shopify:\/\/shop_images\/Active_Schnellanschlussset_2981f629-8f73-48eb-89ce-76f080e9b6b9.jpg",
+            "product2": "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
+            "image2": "shopify:\/\/shop_images\/Active_Schnellanschlussset.jpg",
+            "product3": "alb-filter-untertisch-komplett-set-schnellkupplung",
+            "image3": "shopify:\/\/shop_images\/Nano_Schnellanschlussset.jpg",
+            "product4": "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung",
+            "image4": "shopify:\/\/shop_images\/Fusion_Schwarz_Schnellanschlussset.jpg"
           }
         },
         "filter_product_set_A49VwL": {
