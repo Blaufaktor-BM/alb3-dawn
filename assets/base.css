@@ -4932,6 +4932,12 @@ summary .icon-caret {
   .item-filter_product_set .button svg {
     display: none;
   }
+
+  .item-product_compare:not(.first-child) .item-list,
+  .item-product_compare:not(.item-alb_comparison) .item-list {
+    padding: 5px 0;
+    font-weight: bold;
+  }
 }
 
 /* product filter compare */
