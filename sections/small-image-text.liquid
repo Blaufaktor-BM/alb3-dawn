@@ -6,7 +6,17 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-
+  #shopify-section-{{ section.id }} .button:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.btn_bg }};
+  }
+  #shopify-section-{{ section.id }} .button:hover:after {
+    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.btn_bg }};
+    --border-offset: 1.3px;
+  }
+  #shopify-section-{{ section.id }} .media-small_image_text {
+      max-width: {{ section.settings.image_mobile_width }}px;
+    margin: 0 auto;
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -21,10 +31,11 @@
   }
 {%- endstyle -%}
 <div class="section-small_image_text section-{{ section.id }}-padding">
-  <div class="page-width">
-    <div
-      class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    >
+  <div
+    class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    style="background-color: {{ section.settings.background_color }}"
+  >
+    <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %}{% if section.settings.mobile_center %} mobile-center{% endif %}">
       {%- if section.settings.heading != blank -%}
         <h2
           class="small_image_text-heading inline-richtext {{ section.settings.heading_size }}"
@@ -35,7 +46,7 @@
       {%- endif -%}
       <div class="wrapper-small_image_text">
         <div
-          class="media-small_image_text"
+          class="media-small_image_text{% if section.settings.image_round %} image_round{% endif %}"
         >
           {%- if section.settings.image != blank -%}
             {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
@@ -56,6 +67,14 @@
           <div class="main-small_image_text">
             {%- for block in section.blocks -%}
               {% case block.type %}
+                {%- when 'heading' -%}
+                  <h2
+                    class="small_image_text-title second-font rte {{ block.settings.heading_size }}"
+                    {{ block.shopify_attributes }}
+                    style="color: {{ block.settings.heading_color }}"
+                  >
+                    {{ block.settings.heading }}
+                  </h2>
                 {%- when 'text' -%}
                   <div
                     class="small_image_text-text second-font rte {{ block.settings.text_style }}"
@@ -68,14 +87,16 @@
                   <div class="small_image_text-btn">
                     {%- if block.settings.button_label != blank -%}
                       <a
-                        class="btn-second second-font"
+                        class="{% if block.settings.primary_btn %}button button-primary{% else %}btn-second{% endif %} second-font"
                         href="{{ block.settings.button_link }}"
-                        style="color: {{ block.settings.color }}"
+                        style="color: {{ block.settings.color }};{% if block.settings.primary_btn %} background-color: {{ block.settings.primary_bg }}{% endif %}"
                       >
                         {{- block.settings.button_label -}}
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                          <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
-                        </svg>
+                        {% unless block.settings.primary_btn %}
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                          </svg>
+                        {% endunless %}
                       </a>
                     {%- endif -%}
                   </div>
@@ -95,6 +116,16 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "content_wrapper",
+      "label": "Content Wrapper"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
     {
       "type": "inline_richtext",
       "id": "heading",
@@ -136,6 +167,11 @@
       "default": "#003e5f"
     },
     {
+      "type": "checkbox",
+      "id": "mobile_center",
+      "label": "Mobile Content Center"
+    },
+    {
       "type": "image_picker",
       "id": "image",
       "label": "Image"
@@ -149,6 +185,21 @@
       "max": 500,
       "step": 5,
       "default": 200
+    },
+    {
+      "type": "range",
+      "id": "image_mobile_width",
+      "label": "Image Mobile Width",
+      "unit": "px",
+      "min": 200,
+      "max": 500,
+      "step": 5,
+      "default": 285
+    },
+    {
+      "type": "checkbox",
+      "id": "image_round",
+      "label": "Image Round"
     },
     {
       "type": "image_picker",
@@ -181,6 +232,53 @@
     }
   ],
   "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading Color",
+          "default": "#003e5f"
+        }
+      ]
+    },
     {
       "type": "text",
       "name": "t:sections.image-with-text.blocks.text.name",
@@ -237,6 +335,17 @@
           "type": "color",
           "id": "color",
           "label": "Color",
+          "default": "#0081be"
+        },
+        {
+          "type": "checkbox",
+          "id": "primary_btn",
+          "label": "Primary Button"
+        },
+        {
+          "type": "color",
+          "id": "primary_bg",
+          "label": "Primary Background Color",
           "default": "#0081be"
         }
       ]

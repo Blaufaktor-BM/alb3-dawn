@@ -4792,9 +4792,22 @@ slideshow-component .banner__heading.h1 {
 
 /* collapse */
 /* small image text */
+.page-width.content-wrapper {
+  max-width: 840px;
+}
+
 .small_image_text-heading {
   margin-bottom: 22px;
   margin-top: 0;
+}
+
+.small_image_text-title {
+  margin: 0;
+  font-weight: 400;
+}
+
+.small_image_text-title strong {
+  font-weight: bold;
 }
 
 .wrapper-small_image_text {
@@ -4802,11 +4815,17 @@ slideshow-component .banner__heading.h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
+  padding: 30px 0;
 }
 
 .main-small_image_text,
 .media-small_image_text {
   width: 100%;
+}
+
+.media-small_image_text.image_round {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .media-small_image_text svg,
@@ -4818,6 +4837,12 @@ slideshow-component .banner__heading.h1 {
 
 .small_image_text-text {
   margin-bottom: 30px;
+}
+
+@media (max-width: 749px) {
+  .section-small_image_text .mobile-center {
+    text-align: center;
+  }
 }
 
 /* small image text */
@@ -4836,7 +4861,7 @@ slideshow-component .banner__heading.h1 {
   padding: 5px;
   text-align: center;
   background-color: #fafafa;
-  display: block !important;
+  display: block;
 }
 
 .item-list {
@@ -4904,10 +4929,6 @@ slideshow-component .banner__heading.h1 {
   gap: 8px;
 }
 
-.item-text {
-  margin-bottom: 10px;
-}
-
 @media only screen and (min-width: 750px) {
   .list_option4 .item-list {
     max-width: 66.66%;
@@ -4968,10 +4989,6 @@ slideshow-component .banner__heading.h1 {
   .item-product_compare.first-child .item-list,
   .item-product_compare.item-alb_comparison .item-list {
     padding: 0;
-  }
-
-  .item-header.small-hide {
-    display: none !important;
   }
 }
 
