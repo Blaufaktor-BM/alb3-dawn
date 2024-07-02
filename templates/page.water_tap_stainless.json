@@ -251,40 +251,6 @@
         "padding_bottom": 0
       }
     },
-    "small_image_text_YwVdRj": {
-      "type": "small-image-text",
-      "blocks": {
-        "text_wAkrTw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
-            "text_style": "body",
-            "color": "#616161"
-          }
-        },
-        "button_yBdnGM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "color": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_wAkrTw",
-        "button_yBdnGM"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
-        "image_width": 220,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "image_text_list_xt6hCi": {
       "type": "image-text-list",
       "blocks": {
@@ -328,6 +294,40 @@
         "full_width": true,
         "image_white": true,
         "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "small_image_text_YwVdRj": {
+      "type": "small-image-text",
+      "blocks": {
+        "text_wAkrTw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
+            "text_style": "body",
+            "color": "#616161"
+          }
+        },
+        "button_yBdnGM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "text_wAkrTw",
+        "button_yBdnGM"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
+        "image_width": 220,
+        "padding_top": 10,
         "padding_bottom": 0
       }
     },
@@ -400,8 +400,8 @@
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
     "product_compare_3zPw6T",
-    "small_image_text_YwVdRj",
     "image_text_list_xt6hCi",
+    "small_image_text_YwVdRj",
     "custom_contact_HqQUU4",
     "multi_image_text_BzK4Mg"
   ]
