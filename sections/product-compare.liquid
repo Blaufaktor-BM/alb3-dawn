@@ -27,6 +27,7 @@
     style="color: {{ section.settings.text_color }}"
   >
     <div class="page-width">
+      {%- assign count = 0 -%}
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {% when 'alb_comparison' %}
@@ -69,7 +70,8 @@
               </div>
             </div>
           {%- when 'filter_properties' -%}
-            <div class="item-product_compare item-filter_properties {{ forloop.index }}">
+            {% assign count = count | plus: forloop.index %}
+            <div class="item-product_compare item-filter_properties {{ count }}">
               <div class="item-header">
                 {%- if block.settings.title != blank -%}
                   <div
