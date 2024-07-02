@@ -93,47 +93,85 @@
         "padding_bottom": 52
       }
     },
-    "column_image_text_nr68X8": {
-      "type": "column-image-text",
+    "image_text_list_xt6hCi": {
+      "type": "image-text-list",
       "blocks": {
-        "heading_pWmGAc": {
-          "type": "heading",
+        "item_yymzUE": {
+          "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>"
           }
         },
-        "subtitle_7eMdk3": {
-          "type": "subtitle",
+        "item_BgLVxn": {
+          "type": "item",
           "settings": {
-            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
+            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>"
           }
         },
-        "text_dpi7rH": {
-          "type": "text",
+        "item_WQPn8H": {
+          "type": "item",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>"
           }
         },
-        "button_PJXq8G": {
-          "type": "button",
+        "item_D7YKAq": {
+          "type": "item",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_pWmGAc",
-        "subtitle_7eMdk3",
-        "text_dpi7rH",
-        "button_PJXq8G"
+        "item_yymzUE",
+        "item_BgLVxn",
+        "item_WQPn8H",
+        "item_D7YKAq"
       ],
       "settings": {
-        "section_color_scheme": "",
-        "image_height": 250,
-        "padding_top": 10,
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "image_white": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_contact_HqQUU4": {
+      "type": "custom-contact",
+      "blocks": {
+        "item_cTmKmp": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        },
+        "item_T6rxdT": {
+          "type": "item",
+          "settings": {
+            "text": "Trinkwasserfilter",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_cTmKmp",
+        "item_T6rxdT"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "heading": "Bild mit Text",
+        "heading_size": "h1",
+        "heading_color": "#616161",
+        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren Trinkwasserfiltern<br\/> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text_color": "#616161",
+        "item_bg": "#ffffff",
+        "item_text_color": "#003e5f",
+        "item_border_color": "#003e5f",
+        "padding_top": 0,
         "padding_bottom": 0
       }
     }
@@ -142,6 +180,7 @@
     "main",
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
-    "column_image_text_nr68X8"
+    "image_text_list_xt6hCi",
+    "custom_contact_HqQUU4"
   ]
 }
