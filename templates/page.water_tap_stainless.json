@@ -189,6 +189,61 @@
         "padding_bottom": 0
       }
     },
+    "custom_image_text_kGTRkj": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_jdANAe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Duo Nano<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_bYTtrp": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm."
+          }
+        },
+        "text_tecytA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schützt bei akutem<strong>Legionellen-Alarm<\/strong>oder vor einer<strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen<\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_QY3TrU": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-nano",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jdANAe",
+        "subtitle_bYTtrp",
+        "text_tecytA",
+        "button_QY3TrU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+        "row_reverse": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_zjmbJz": {
       "type": "rich-text",
       "blocks": {
@@ -599,6 +654,7 @@
     "custom_image_text_UxTBxU",
     "custom_image_text_ziYULU",
     "custom_image_text_QfzwTP",
+    "custom_image_text_kGTRkj",
     "rich_text_zjmbJz",
     "image_multi_tex_frVpQg",
     "product_compare_3zPw6T",
