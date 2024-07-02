@@ -4911,6 +4911,10 @@ summary .icon-caret {
     border-top: 1px dashed;
     padding-top: 20px;
   }
+
+  .item-product_compare.item-description {
+    padding-top: 5px;
+  }
 }
 
 @media only screen and (max-width: 749px) {
@@ -4941,10 +4945,6 @@ summary .icon-caret {
   .item-product_compare.first-child .item-list,
   .item-product_compare.item-alb_comparison .item-list {
     padding: 0;
-  }
-
-  .wrapper-product_compare {
-    box-shadow: rgba(0, 0, 0, .05) 0 4px 16px;
   }
 }
 
