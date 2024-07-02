@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "price_tag",
-            "content": "<p>{{ product.title }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
+            "content": "{{ product.metafields.custom.produktbeschreibung | metafield_tag }}<p><\/p>",
             "page": ""
           }
         },
@@ -78,7 +78,7 @@
           "settings": {
             "heading": "Technische Daten",
             "icon": "ruler",
-            "content": "<p>{{ product.title }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
+            "content": "{{ product.metafields.custom.technische_daten | metafield_tag }}<p><\/p>",
             "page": ""
           }
         },
@@ -87,7 +87,7 @@
           "settings": {
             "heading": "Lieferumfang",
             "icon": "box",
-            "content": "<p>{{ product.metafields.custom.lieferumfang | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.lieferumfang_produkt | metafield_tag }}",
             "page": ""
           }
         },
@@ -97,7 +97,7 @@
             "heading": "Sonstiges",
             "icon": "clipboard",
             "content": "",
-            "page": "hinweise-zur-bezahlung"
+            "page": ""
           }
         },
         "share": {
