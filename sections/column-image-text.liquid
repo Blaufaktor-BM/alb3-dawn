@@ -21,7 +21,7 @@
     >
       <div
         class="media-column_image_text"
-        style="height: {{ section.settings.image_height }}px; background-image:url({{ section.settings.image | img_url: "master" }})"
+        style="height: {{ section.settings.image_height }}px;{% if section.settings.image != blank %} background-image:url({{ section.settings.image | img_url: "master" }}){% endif %}"
       >
         {%- if section.settings.content_image != blank -%}
           <div class="media_content-column_image_text">
