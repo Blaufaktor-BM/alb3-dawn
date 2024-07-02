@@ -145,19 +145,23 @@
         "padding_bottom": 0
       }
     },
-    "product_compare_XkDNLw": {
+    "product_compare_DFdxdL": {
       "type": "product-compare",
       "blocks": {
-        "alb_comparison_PCm7wX": {
+        "alb_comparison_CVqVNT": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "<strong>Alb Trinkwasserfilter Vergleich<\/strong>",
             "heading_size": "h2",
-            "heading_color": "#616161",
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>"
+            "heading_color": "#003e5f",
+            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
+            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg"
           }
         },
-        "filter_properties_NMNTVH": {
+        "filter_properties_r4F6Uc": {
           "type": "filter_properties",
           "settings": {
             "title": "Filtereigenschaften",
@@ -167,17 +171,7 @@
             "title4": "Fusion*"
           }
         },
-        "filter_properties_eHVmpM": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "Filtereigenschaften",
-            "title1": "Active",
-            "title2": "Active+",
-            "title3": "Nano",
-            "title4": "Fusion*"
-          }
-        },
-        "filter_product_set_fdh4NR": {
+        "filter_product_set_U6xiLQ": {
           "type": "filter_product_set",
           "settings": {
             "title": "Untertisch Komplett-Set",
@@ -188,7 +182,7 @@
             "product4": ""
           }
         },
-        "filter_product_set_kCQpQR": {
+        "filter_product_set_pMgNqg": {
           "type": "filter_product_set",
           "settings": {
             "title": "Untertisch Komplett-Set",
@@ -199,7 +193,7 @@
             "product4": ""
           }
         },
-        "filter_product_set_3ehJcy": {
+        "filter_product_set_A49VwL": {
           "type": "filter_product_set",
           "settings": {
             "title": "Untertisch Komplett-Set",
@@ -212,14 +206,19 @@
         }
       },
       "block_order": [
-        "alb_comparison_PCm7wX",
-        "filter_properties_NMNTVH",
-        "filter_properties_eHVmpM",
-        "filter_product_set_fdh4NR",
-        "filter_product_set_kCQpQR",
-        "filter_product_set_3ehJcy"
+        "alb_comparison_CVqVNT",
+        "filter_properties_r4F6Uc",
+        "filter_product_set_U6xiLQ",
+        "filter_product_set_pMgNqg",
+        "filter_product_set_A49VwL"
       ],
       "settings": {
+        "text_color": "#2d2d2d",
+        "btn_text": "Kaufen",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_67VRpK": {
@@ -475,7 +474,7 @@
     "image_banner_7cHhYP",
     "rich_text_PiN6zi",
     "two_products_iRE6p3",
-    "product_compare_XkDNLw",
+    "product_compare_DFdxdL",
     "rich_text_67VRpK",
     "custom_liquid_HVMXnt",
     "image_text_list_RGpf7j",
