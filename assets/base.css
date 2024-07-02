@@ -4933,10 +4933,14 @@ summary .icon-caret {
     display: none;
   }
 
-  .item-product_compare:not(.first-child) .item-list,
-  .item-product_compare:not(.item-alb_comparison) .item-list {
+  .item-product_compare .item-list {
     padding: 5px 0;
     font-weight: bold;
+  }
+
+  .item-product_compare.first-child .item-list,
+  .item-product_compare.item-alb_comparison .item-list {
+    padding: 0;
   }
 }
 
