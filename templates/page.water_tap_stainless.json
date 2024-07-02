@@ -93,6 +93,23 @@
         "padding_bottom": 52
       }
     },
+    "image_multi_tex_frVpQg": {
+      "type": "image-multi-tex",
+      "settings": {
+        "section_color_scheme": "",
+        "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "title": "",
+        "title_size": "h1",
+        "sub_title": "<p>Modularer Wasserfilter<\/p>",
+        "subtitle_size": "h1",
+        "text": "<p>1 Gehäuse – 3 Kartuschen.<\/p><p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<\/p>",
+        "btn_text": "",
+        "btn_url": "",
+        "info_text": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
@@ -254,7 +271,7 @@
     "video_popup_Xhjrwg": {
       "type": "video-popup",
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/youtu.be\/WREorMeHM88",
         "cover_image": "shopify:\/\/shop_images\/alb-filter-duo-video-vorschaubild.jpg",
         "description": "",
         "padding_top": 36,
@@ -425,6 +442,7 @@
     "main",
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
+    "image_multi_tex_frVpQg",
     "product_compare_3zPw6T",
     "video_popup_Xhjrwg",
     "image_text_list_xt6hCi",
