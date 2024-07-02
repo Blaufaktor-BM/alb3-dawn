@@ -4786,7 +4786,7 @@ slideshow-component .banner__heading.h1 {
   transform: rotate(0);
 }
 
-summary .icon-caret {
+.accordion summary .icon-caret {
   height: 1rem;
 }
 
