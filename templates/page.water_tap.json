@@ -145,6 +145,83 @@
         "padding_bottom": 0
       }
     },
+    "product_compare_XkDNLw": {
+      "type": "product-compare",
+      "blocks": {
+        "alb_comparison_PCm7wX": {
+          "type": "alb_comparison",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_size": "h2",
+            "heading_color": "#616161",
+            "text": "<p>Set mit Gehäuse und Kartusche<\/p>"
+          }
+        },
+        "filter_properties_NMNTVH": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Filtereigenschaften",
+            "title1": "Active",
+            "title2": "Active+",
+            "title3": "Nano",
+            "title4": "Fusion*"
+          }
+        },
+        "filter_properties_eHVmpM": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Filtereigenschaften",
+            "title1": "Active",
+            "title2": "Active+",
+            "title3": "Nano",
+            "title4": "Fusion*"
+          }
+        },
+        "filter_product_set_fdh4NR": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "product2": "",
+            "product3": "",
+            "product4": ""
+          }
+        },
+        "filter_product_set_kCQpQR": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "product2": "",
+            "product3": "",
+            "product4": ""
+          }
+        },
+        "filter_product_set_3ehJcy": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "product2": "",
+            "product3": "",
+            "product4": ""
+          }
+        }
+      },
+      "block_order": [
+        "alb_comparison_PCm7wX",
+        "filter_properties_NMNTVH",
+        "filter_properties_eHVmpM",
+        "filter_product_set_fdh4NR",
+        "filter_product_set_kCQpQR",
+        "filter_product_set_3ehJcy"
+      ],
+      "settings": {
+      }
+    },
     "rich_text_67VRpK": {
       "type": "rich-text",
       "blocks": {
@@ -398,6 +475,7 @@
     "image_banner_7cHhYP",
     "rich_text_PiN6zi",
     "two_products_iRE6p3",
+    "product_compare_XkDNLw",
     "rich_text_67VRpK",
     "custom_liquid_HVMXnt",
     "image_text_list_RGpf7j",
