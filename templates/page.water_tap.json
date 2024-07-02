@@ -279,8 +279,8 @@
         "filter_product_set_pMgNqg": {
           "type": "filter_product_set",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "title": "Untertisch Komplett-Setmit Schnellkupplung",
+            "text": "<p>Montage des Filters mit Schnellverschüssen für einen noch einfacheren Filterwechsel.<br\/><\/p>",
             "product1": "",
             "product2": "",
             "product3": "",
@@ -290,12 +290,18 @@
         "filter_product_set_A49VwL": {
           "type": "filter_product_set",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "title": "Wasserhahnfilter Duo",
+            "text": "<p>Für die Montage direkt am Wasserhahn. Mit Umschalthebel zur Wahl zwischen gefiltertem und ungefiltertem Wasser.<br\/><\/p>",
             "product1": "",
             "product2": "",
             "product3": "",
             "product4": ""
+          }
+        },
+        "description_wghk9A": {
+          "type": "description",
+          "settings": {
+            "description": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.<\/p>"
           }
         }
       },
@@ -313,7 +319,8 @@
         "filter_properties_pwa7Rf",
         "filter_product_set_U6xiLQ",
         "filter_product_set_pMgNqg",
-        "filter_product_set_A49VwL"
+        "filter_product_set_A49VwL",
+        "description_wghk9A"
       ],
       "settings": {
         "text_color": "#2d2d2d",
