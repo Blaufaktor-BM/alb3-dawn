@@ -143,7 +143,7 @@
                           {%- assign product = block.settings[product] -%}
                           <div class="item-product">
                             <div class="item-price">
-                              {{ product.price | money -}}
+                              {{ product.selected_or_first_available_variant.price | money -}}
                               <span>€</span>
                             </div>
                             <a
