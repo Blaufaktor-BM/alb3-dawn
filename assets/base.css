@@ -4890,6 +4890,9 @@ summary .icon-caret {
 .item-price {
   margin: 10px 0;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 @media only screen and (min-width: 750px) {
