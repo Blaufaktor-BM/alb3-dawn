@@ -134,61 +134,6 @@
         "padding_bottom": 0
       }
     },
-    "custom_image_text_mDqC4h": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_LQX9ra": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Duo Active Plus+<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_4E44Vw": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Das Plus gegen Bakterien und Keime"
-          }
-        },
-        "text_AYM6nT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von <strong>0,7 µm<\/strong> effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die <strong>innovative 2-fach Enthärterstufe<\/strong> reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_FUrLrU": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LQX9ra",
-        "subtitle_4E44Vw",
-        "text_AYM6nT",
-        "button_FUrLrU"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
-        "row_reverse": false,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#fff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "custom_image_text_QfzwTP": {
       "type": "custom-image-text",
       "blocks": {
@@ -653,7 +598,6 @@
     "image_banner_fNRMYQ",
     "custom_image_text_UxTBxU",
     "custom_image_text_ziYULU",
-    "custom_image_text_mDqC4h",
     "custom_image_text_QfzwTP",
     "rich_text_zjmbJz",
     "image_multi_tex_frVpQg",
