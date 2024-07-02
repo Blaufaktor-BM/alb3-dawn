@@ -151,9 +151,9 @@
         "alb_comparison_CVqVNT": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "<strong>Alb Trinkwasserfilter Vergleich<\/strong>",
             "heading_size": "h2",
-            "heading_color": "#616161",
+            "heading_color": "#003e5f",
             "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
