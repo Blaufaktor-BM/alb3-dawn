@@ -198,19 +198,29 @@
             "title4": ""
           }
         },
+        "filter_properties_ymT6b9": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
+            "title1": "~7 l\/min",
+            "title2": "~6 l\/min",
+            "title3": "~11 l\/min",
+            "title4": ""
+          }
+        },
         "filter_product_set_6VQXPC": {
           "type": "filter_product_set",
           "settings": {
             "title": "",
             "text": "",
             "product1": "wasserfilter-wasserhahn-duo-active",
-            "text1": "",
+            "text1": "<strong>Duo Active<\/strong>",
             "image1": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
             "product2": "wasserfilter-wasserhahn-duo-active-plus",
-            "text2": "",
+            "text2": "<strong>Duo Active+<\/strong>",
             "image2": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
             "product3": "wasserfilter-wasserhahn-duo-nano",
-            "text3": "",
+            "text3": "<strong>Duo Nano<\/strong>",
             "image3": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
             "product4": "",
             "text4": ""
@@ -228,6 +238,7 @@
         "filter_properties_hDYaAc",
         "filter_properties_rLBA7C",
         "filter_properties_krFcit",
+        "filter_properties_ymT6b9",
         "filter_product_set_6VQXPC"
       ],
       "settings": {
