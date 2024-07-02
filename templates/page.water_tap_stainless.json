@@ -313,7 +313,9 @@
           "settings": {
             "button_label": "Schaltflächenbeschriftung",
             "button_link": "",
-            "color": "#0081be"
+            "color": "#0081be",
+            "primary_btn": false,
+            "primary_bg": "#0081be"
           }
         }
       },
@@ -322,13 +324,18 @@
         "button_yBdnGM"
       ],
       "settings": {
+        "content_wrapper": true,
+        "background_color": "#fafafa",
         "heading": "",
         "heading_size": "h1",
         "heading_color": "#003e5f",
+        "mobile_center": true,
         "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
-        "image_width": 220,
+        "image_width": 235,
+        "image_mobile_width": 220,
+        "image_round": true,
         "padding_top": 10,
-        "padding_bottom": 0
+        "padding_bottom": 10
       }
     },
     "custom_contact_HqQUU4": {
@@ -389,7 +396,7 @@
         "btn_text": "Zu unserem Wasser Ratgeber",
         "btn_url": "shopify:\/\/blogs\/ratgeber\/inhalt",
         "btn_bg": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "padding_top": 51,
         "padding_bottom": 100
       }
