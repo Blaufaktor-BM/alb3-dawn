@@ -265,9 +265,11 @@
           "type": "filter_product_set",
           "settings": {
             "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "product2": "",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil. <\/p>",
+            "product1": "alb-filter-untertisch-komplett-set",
+            "image1": "shopify:\/\/shop_images\/Active_Anschlussset.jpg",
+            "product2": "alb-filter-activeplus-untertisch-komplett-set",
+            "image2": "shopify:\/\/shop_images\/Active_Anschlussset_e5ebc204-0dce-481a-b2c8-a17940255c9c.jpg",
             "product3": "",
             "product4": ""
           }
