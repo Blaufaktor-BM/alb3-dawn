@@ -4942,6 +4942,10 @@ summary .icon-caret {
   .item-product_compare.item-alb_comparison .item-list {
     padding: 0;
   }
+
+  .wrapper-product_compare {
+    box-shadow: rgba(0, 0, 0, .05) 0 4px 16px;
+  }
 }
 
 /* product filter compare */

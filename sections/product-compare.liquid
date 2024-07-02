@@ -23,149 +23,150 @@
 {%- endstyle -%}
 <div class="section-product_compare section-{{ section.id }}-padding">
   <div
-    class="wrapper-product_compare isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    style="color: {{ section.settings.text_color }}"
+    class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
   >
     <div class="page-width">
-      {%- assign count = 0 -%}
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {% when 'alb_comparison' %}
-            <div class="item-product_compare item-alb_comparison">
-              <div class="item-header">
-                {%- if block.settings.heading != blank -%}
-                  <h2
-                    class="title-alb_comparison {{ block.settings.heading_size }}"
-                    style="color: {{ block.settings.heading_color }};"
-                  >
-                    {{ block.settings.heading }}
-                  </h2>
-                {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div
-                    class="text-alb_comparison text-item rte"
-                  >
-                    {{ block.settings.text }}
-                  </div>
-                {%- endif -%}
-              </div>
-              <div class="item-list">
-                {%- for i in (1..4) -%}
-                  {% capture image %}image{{i}}{% endcapture %}
-                  {%- if block.settings[image] != blank -%}
-                    <div class="item-content">
-                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                      {%- capture sizes -%}
+      <div class="wrapper-product_compare" style="color: {{ section.settings.text_color }}">
+        {%- assign count = 0 -%}
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {% when 'alb_comparison' %}
+              <div class="item-product_compare item-alb_comparison">
+                <div class="item-header">
+                  {%- if block.settings.heading != blank -%}
+                    <h2
+                      class="title-alb_comparison {{ block.settings.heading_size }}"
+                      style="color: {{ block.settings.heading_color }};"
+                    >
+                      {{ block.settings.heading }}
+                    </h2>
+                  {%- endif -%}
+                  {%- if block.settings.text != blank -%}
+                    <div
+                      class="text-alb_comparison text-item rte"
+                    >
+                      {{ block.settings.text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+                <div class="item-list">
+                  {%- for i in (1..4) -%}
+                    {% capture image %}image{{i}}{% endcapture %}
+                    {%- if block.settings[image] != blank -%}
+                      <div class="item-content">
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
                                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                                 {%- endcapture -%}
-                      {{
-                        block.settings[image]
-                        | image_url: width: 1500
-                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                      }}
+                        {{
+                          block.settings[image]
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
+            {%- when 'filter_properties' -%}
+              {% assign count = count | plus: 1 %}
+              <div class="item-product_compare item-filter_properties{% if count == 1 %} first-child{% endif %}">
+                <div class="item-header{% if count == 1 %} small-hide{% endif %}">
+                  {%- if block.settings.title != blank -%}
+                    <div
+                      class="title-item"
+                    >
+                      {{ block.settings.title }}
                     </div>
                   {%- endif -%}
-                {%- endfor -%}
+                </div>
+                <div class="item-list center">
+                  {%- for i in (1..4) -%}
+                    {% capture title %}title{{i}}{% endcapture %}
+                    {%- if block.settings[title] != blank -%}
+                      <div class="item-content">
+                        {%- if block.settings[title] != blank -%}
+                          <div class="title-item">{{ block.settings[title] }}</div>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
               </div>
-            </div>
-          {%- when 'filter_properties' -%}
-            {% assign count = count | plus: 1 %}
-            <div class="item-product_compare item-filter_properties{% if count == 1 %} first-child{% endif %}">
-              <div class="item-header{% if count == 1 %} small-hide{% endif %}">
-                {%- if block.settings.title != blank -%}
-                  <div
-                    class="title-item"
-                  >
-                    {{ block.settings.title }}
-                  </div>
-                {%- endif -%}
-              </div>
-              <div class="item-list center">
-                {%- for i in (1..4) -%}
-                  {% capture title %}title{{i}}{% endcapture %}
-                  {%- if block.settings[title] != blank -%}
-                    <div class="item-content">
-                      {%- if block.settings[title] != blank -%}
-                        <div class="title-item">{{ block.settings[title] }}</div>
-                      {%- endif -%}
+            {%- when 'filter_product_set' -%}
+              <div class="item-product_compare item-filter_product_set">
+                <div class="item-header">
+                  {%- if block.settings.title != blank -%}
+                    <div
+                      class="title-item"
+                    >
+                      {{ block.settings.title }}
                     </div>
                   {%- endif -%}
-                {%- endfor -%}
-              </div>
-            </div>
-          {%- when 'filter_product_set' -%}
-            <div class="item-product_compare item-filter_product_set">
-              <div class="item-header">
-                {%- if block.settings.title != blank -%}
-                  <div
-                    class="title-item"
-                  >
-                    {{ block.settings.title }}
-                  </div>
-                {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div
-                    class="text-item rte"
-                  >
-                    {{ block.settings.text }}
-                  </div>
-                {%- endif -%}
-              </div>
-              <div class="item-list center">
-                {%- for i in (1..4) -%}
-                  {% capture image %}image{{i}}{% endcapture %}
-                  {% capture product %}product{{i}}{% endcapture %}
-                  {%- if block.settings[image] != blank or block.settings[product] != blank -%}
-                    <div class="item-content">
-                      {%- if block.settings[image] != blank -%}
-                        <div class="item-img">
-                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                          {%- capture sizes -%}
+                  {%- if block.settings.text != blank -%}
+                    <div
+                      class="text-item rte"
+                    >
+                      {{ block.settings.text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+                <div class="item-list center">
+                  {%- for i in (1..4) -%}
+                    {% capture image %}image{{i}}{% endcapture %}
+                    {% capture product %}product{{i}}{% endcapture %}
+                    {%- if block.settings[image] != blank or block.settings[product] != blank -%}
+                      <div class="item-content">
+                        {%- if block.settings[image] != blank -%}
+                          <div class="item-img">
+                            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                            {%- capture sizes -%}
                                         (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                                         (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                                     {%- endcapture -%}
-                          {{
-                            block.settings[image]
-                            | image_url: width: 1500
-                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                          }}
-                        </div>
-                      {%- endif -%}
-                      {%- if block.settings[product] != blank -%}
-                        {%- assign product = block.settings[product] -%}
-                        <div class="item-product">
-                          <div class="item-price">
-                            {{ product.price | money -}}
-                            <span>€</span>
+                            {{
+                              block.settings[image]
+                              | image_url: width: 1500
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
                           </div>
-                          <a
-                            {% if product.url == blank %}
-                              role="link" aria-disabled="true"
-                            {% else %}
-                              href="{{ product.url }}"
-                            {% endif %}
-                            class="button button--primary second-font"
-                            style="background-color: {{ section.settings.btn_bg }}; color: {{ section.settings.btn_color }}"
-                          >
-                            {{- section.settings.btn_text | escape -}}
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                              <path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path>
-                            </svg>
-                          </a>
-                        </div>
-                      {%- endif -%}
-                    </div>
-                  {%- endif -%}
-                {%- endfor -%}
+                        {%- endif -%}
+                        {%- if block.settings[product] != blank -%}
+                          {%- assign product = block.settings[product] -%}
+                          <div class="item-product">
+                            <div class="item-price">
+                              {{ product.price | money -}}
+                              <span>€</span>
+                            </div>
+                            <a
+                              {% if product.url == blank %}
+                                role="link" aria-disabled="true"
+                              {% else %}
+                                href="{{ product.url }}"
+                              {% endif %}
+                              class="button button--primary second-font"
+                              style="background-color: {{ section.settings.btn_bg }}; color: {{ section.settings.btn_color }}"
+                            >
+                              {{- section.settings.btn_text | escape -}}
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path fill="currentColor" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path>
+                              </svg>
+                            </a>
+                          </div>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
               </div>
-            </div>
-          {% when 'description' %}
-            <div class="item-product_compare item-description rte">
-              {{ block.settings.description }}
-            </div>
-        {%- endcase -%}
-      {%- endfor -%}
+            {% when 'description' %}
+              <div class="item-product_compare item-description rte">
+                {{ block.settings.description }}
+              </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
     </div>
   </div>
 </div>
