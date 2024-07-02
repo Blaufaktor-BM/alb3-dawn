@@ -300,6 +300,14 @@
     "small_image_text_YwVdRj": {
       "type": "small-image-text",
       "blocks": {
+        "heading_wFiUKT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
+            "heading_size": "h2",
+            "heading_color": "#003e5f"
+          }
+        },
         "text_wAkrTw": {
           "type": "text",
           "settings": {
@@ -320,6 +328,7 @@
         }
       },
       "block_order": [
+        "heading_wFiUKT",
         "text_wAkrTw",
         "button_yBdnGM"
       ],
