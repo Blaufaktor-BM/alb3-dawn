@@ -335,6 +335,44 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_with_text_9mebp9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fi7aHz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Aus unserem Ratgeber",
+            "heading_size": "h2"
+          }
+        },
+        "text_QTwDiA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Warum Wasser filtern?<\/h3><p>Gerade in Deutschland herrscht die landläufige Meinung dass unser Trinkwasser eine tadellose Qualität aufweist. Was spricht dann überhaupt für den Kauf eines Trinkwasserfilters? Warum werden lediglich ca. 60 Schadstoffe von der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung<\/a> erfasst? <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/warum-wasser-filtern\" target=\"_self\">Hier erfahren Sie mehr.<\/a><\/p><h3>Welche Inhaltstoffe befinden sich in unserem Leitungswasser?<\/h3><p>Wir klären auf, welche Schadstoffe aber auch gesundheitlich relevanten Stoffe sich in unserem Wasser befinden. Dabei klären wir auch wie die Schadstoffe überhaupt in das Wasser gelangen, welche Auswirkungen diese auf unsere Gesundheit haben und wie Schädliches aus dem Wasser reduziert werden können. <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Hier erfahren Sie mehr.<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fi7aHz",
+        "text_QTwDiA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pf-3b6e8717--chlorelementimwasser-Edited.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -343,6 +381,7 @@
     "rich_text_zjmbJz",
     "product_compare_3zPw6T",
     "image_text_list_xt6hCi",
-    "custom_contact_HqQUU4"
+    "custom_contact_HqQUU4",
+    "image_with_text_9mebp9"
   ]
 }
