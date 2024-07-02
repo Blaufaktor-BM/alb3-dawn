@@ -4860,7 +4860,7 @@ summary .icon-caret {
   margin-top: 20px;
 }
 
-.item-filter_properties:not(.first-child) {
+.item-product_compare.item-filter_properties:not(.first-child) {
   border: none;
   padding: 0;
   margin: 0;
