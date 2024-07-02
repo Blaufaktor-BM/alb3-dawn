@@ -67,7 +67,7 @@
                       <h2
                         class="custom_image_text-heading inline-richtext {{ block.settings.heading_size }}"
                         {{ block.shopify_attributes }}
-                        style="color: {{ block.settings.color }};"
+                        style="color: {{ section.settings.heading_color }};"
                       >
                         {{ block.settings.heading }}
                       </h2>
@@ -75,13 +75,14 @@
                       <p
                         class="custom_image_text-subtitle second-font"
                         {{ block.shopify_attributes }}
-                        style="color: {{ block.settings.color }};"
+                        style="color: {{ section.settings.subtitle_color }};"
                       >
                         {{ block.settings.subtitle }}
                       </p>
                     {%- when 'text' -%}
                       <div
                         class="custom_image_text-text second-font rte {{ block.settings.text_style }}"
+                        style="color: {{ section.settings.text_color }}"
                         {{ block.shopify_attributes }}
                       >
                         {{ block.settings.text }}
