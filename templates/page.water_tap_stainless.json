@@ -336,42 +336,28 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_9mebp9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_fi7aHz": {
-          "type": "heading",
-          "settings": {
-            "heading": "Aus unserem Ratgeber",
-            "heading_size": "h2"
-          }
-        },
-        "text_QTwDiA": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Warum Wasser filtern?<\/h3><p>Gerade in Deutschland herrscht die landläufige Meinung dass unser Trinkwasser eine tadellose Qualität aufweist. Was spricht dann überhaupt für den Kauf eines Trinkwasserfilters? Warum werden lediglich ca. 60 Schadstoffe von der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung<\/a> erfasst? <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/warum-wasser-filtern\" target=\"_self\">Hier erfahren Sie mehr.<\/a><\/p><h3>Welche Inhaltstoffe befinden sich in unserem Leitungswasser?<\/h3><p>Wir klären auf, welche Schadstoffe aber auch gesundheitlich relevanten Stoffe sich in unserem Wasser befinden. Dabei klären wir auch wie die Schadstoffe überhaupt in das Wasser gelangen, welche Auswirkungen diese auf unsere Gesundheit haben und wie Schädliches aus dem Wasser reduziert werden können. <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Hier erfahren Sie mehr.<\/a><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fi7aHz",
-        "text_QTwDiA"
-      ],
+    "multi_image_text_BzK4Mg": {
+      "type": "multi-image-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pf-3b6e8717--chlorelementimwasser-Edited.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "top_image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "top_range": 120,
+        "top_mobile_range": 120,
+        "text_color": "#616161",
+        "image_right": true,
+        "middle_title": "Aus unserem Ratgeber",
+        "middle_subtitle": "Warum Wasser filtern?",
+        "middle_text": "<h3>Warum Wasser filtern?<\/h3><p>Gerade in Deutschland herrscht die landläufige Meinung dass unser Trinkwasser eine tadellose Qualität aufweist. Was spricht dann überhaupt für den Kauf eines Trinkwasserfilters? Warum werden lediglich ca. 60 Schadstoffe von der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung<\/a> erfasst? <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/warum-wasser-filtern\" target=\"_self\">Hier erfahren Sie mehr.<\/a><\/p><h3>Welche Inhaltstoffe befinden sich in unserem Leitungswasser?<\/h3><p>Wir klären auf, welche Schadstoffe aber auch gesundheitlich relevanten Stoffe sich in unserem Wasser befinden. Dabei klären wir auch wie die Schadstoffe überhaupt in das Wasser gelangen, welche Auswirkungen diese auf unsere Gesundheit haben und wie Schädliches aus dem Wasser reduziert werden können. <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Hier erfahren Sie mehr.<\/a><\/p>",
+        "middle_image": "shopify:\/\/shop_images\/pf-3b6e8717--chlorelementimwasser-Edited.jpg",
+        "middle_range": 250,
+        "middle_mobile_range": 200,
+        "bottom_subtitle": "Wie sinnvoll sind Wasserfilter?",
+        "bottom_text": "<p>Das <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland <\/a>wird zwar streng kontrolliert, weist allerdings in der Praxis zumindest zeitweise <strong>gravierende Mängel <\/strong>auf. Das liegt mitunter daran, dass viele Stoffkonzentrationen, wie etwa Schwermetall- oder Medikamentenrückstände, Hormone, Mikroplastik und Pestizide, von der deutschen <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung <\/a>weder gelistet noch berücksichtigt werden.<br\/><br\/>Aus diesem Grund sollten Sie immer, wenn Sie Ihr Leitungswasser trinken oder damit Lebensmittel reinigen bzw. zubereiten möchten, <strong>gefiltertes Wasser <\/strong>verwenden. Zum Abspülen oder Hände waschen reicht auch ungefiltertes Wasser.<\/p>",
+        "btn_text": "Zu unserem Wasser Ratgeber",
+        "btn_url": "shopify:\/\/blogs\/ratgeber\/inhalt",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -382,6 +368,6 @@
     "product_compare_3zPw6T",
     "image_text_list_xt6hCi",
     "custom_contact_HqQUU4",
-    "image_with_text_9mebp9"
+    "multi_image_text_BzK4Mg"
   ]
 }
