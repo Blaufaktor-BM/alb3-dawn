@@ -78,7 +78,7 @@
           "settings": {
             "heading": "Lieferumfang",
             "icon": "box",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.lieferumfang | metafield_tag }}<\/p>",
             "page": "hinweise-zur-bezahlung"
           }
         },
