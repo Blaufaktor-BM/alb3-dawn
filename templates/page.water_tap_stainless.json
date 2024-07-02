@@ -112,8 +112,8 @@
           "type": "filter_properties",
           "settings": {
             "title": "<strong>Filtereigenschaften<\/strong>",
-            "title1": "Active",
-            "title2": "Active+",
+            "title1": "<strong>Active<\/strong>",
+            "title2": "<strong>Active+<\/strong>",
             "title3": "<strong>Nano<\/strong>",
             "title4": ""
           }
@@ -204,12 +204,16 @@
             "title": "",
             "text": "",
             "product1": "wasserfilter-wasserhahn-duo-active",
+            "text1": "",
             "image1": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
             "product2": "wasserfilter-wasserhahn-duo-active-plus",
+            "text2": "",
             "image2": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
             "product3": "wasserfilter-wasserhahn-duo-nano",
+            "text3": "",
             "image3": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
-            "product4": ""
+            "product4": "",
+            "text4": ""
           }
         }
       },
