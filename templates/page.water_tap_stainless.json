@@ -67,7 +67,7 @@
         "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
         "row_reverse": true,
         "top_radius": false,
-        "background_color": "",
+        "background_color": "#fafafa",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
