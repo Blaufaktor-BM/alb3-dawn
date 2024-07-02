@@ -330,6 +330,7 @@
         "description_wghk9A"
       ],
       "settings": {
+        "list_option": "4",
         "text_color": "#616161",
         "btn_text": "Kaufen",
         "btn_bg": "#0081be",
