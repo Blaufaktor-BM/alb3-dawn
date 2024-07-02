@@ -67,8 +67,17 @@
         "collapsible_tab_4rRijx": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Spezifikationen",
+            "heading": "Produktbeschreibung",
             "icon": "price_tag",
+            "content": "<p>{{ product.title }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mzemNT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technische Daten",
+            "icon": "ruler",
             "content": "<p>{{ product.title }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
             "page": ""
           }
@@ -79,7 +88,7 @@
             "heading": "Lieferumfang",
             "icon": "box",
             "content": "<p>{{ product.metafields.custom.lieferumfang | metafield_tag }}<\/p>",
-            "page": "hinweise-zur-bezahlung"
+            "page": ""
           }
         },
         "collapsible_tab_zTQepq": {
@@ -122,6 +131,7 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_4rRijx",
+        "collapsible_tab_mzemNT",
         "collapsible_tab_RDPPjF",
         "collapsible_tab_zTQepq",
         "share",
