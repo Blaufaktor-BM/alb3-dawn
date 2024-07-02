@@ -4834,6 +4834,8 @@ summary .icon-caret {
 
 .item-header {
   padding: 5px;
+  text-align: center;
+  background-color: #fafafa;
 }
 
 .item-list {
@@ -4902,10 +4904,24 @@ summary .icon-caret {
 
   .item-header {
     max-width: 33.33%;
+    text-align: left;
+    background-color: transparent;
   }
 
   .item-product_compare:not(:first-child) {
     border-top: 1px dashed;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .item-product_compare.item-filter_properties.first-child {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .item-product_compare.item-filter_properties.first-child .title-item {
+    font-size: 14px;
   }
 }
 
