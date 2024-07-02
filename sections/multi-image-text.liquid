@@ -106,7 +106,7 @@
           {% if section.settings.btn_url == blank %}
             role="link" aria-disabled="true"
           {% else %}
-            href="{{ product.url }}"
+            href="{{ section.settings.btn_url }}"
           {% endif %}
           class="button button--primary second-font"
           style="background-color: {{ section.settings.btn_bg }}; color: {{ section.settings.btn_color }}"
