@@ -171,6 +171,96 @@
             "title4": "<strong>Fusion*<\/strong>"
           }
         },
+        "filter_properties_Mc6zwT": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mineralien bleiben erhalten",
+            "title1": "<strong>Ja<\/strong>",
+            "title2": "<strong>Ja<\/strong>",
+            "title3": "<strong>Ja<\/strong>",
+            "title4": "<strong>Ja<\/strong>"
+          }
+        },
+        "filter_properties_NVTT8G": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Geruch, Geschmack,  Chlor",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": "<strong>+ + +<\/strong>"
+          }
+        },
+        "filter_properties_fKWm3n": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Schwermetalle",
+            "title1": "<strong>+ + <\/strong>",
+            "title2": "<strong>+ + <\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": "<strong>+ + <\/strong>"
+          }
+        },
+        "filter_properties_xmQAx7": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Pestizide, Arzneimittelrückstände",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": "<strong>+ + +<\/strong>"
+          }
+        },
+        "filter_properties_gC6jUT": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mikroplastik, Asbestfasern, Sedimente",
+            "title1": "<strong>+ <\/strong>",
+            "title2": "<strong>+ + <\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": "<strong>+ + +<\/strong>"
+          }
+        },
+        "filter_properties_CzPJem": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Kalkreduktion",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+ <\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": "<strong>-<\/strong>"
+          }
+        },
+        "filter_properties_gmKNk4": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Keime und Bakterien",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+ <\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": "<strong>+ + +<\/strong>"
+          }
+        },
+        "filter_properties_4zERK7": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Wechselintervall",
+            "title1": "4 Monate",
+            "title2": "4 Monate",
+            "title3": "6 Mon.",
+            "title4": "4\/6 Mon."
+          }
+        },
+        "filter_properties_pwa7Rf": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
+            "title1": "~7 l\/min",
+            "title2": "~6 l\/min",
+            "title3": "~11 l\/min",
+            "title4": "~6 l\/min"
+          }
+        },
         "filter_product_set_U6xiLQ": {
           "type": "filter_product_set",
           "settings": {
@@ -208,6 +298,15 @@
       "block_order": [
         "alb_comparison_CVqVNT",
         "filter_properties_r4F6Uc",
+        "filter_properties_Mc6zwT",
+        "filter_properties_NVTT8G",
+        "filter_properties_fKWm3n",
+        "filter_properties_xmQAx7",
+        "filter_properties_gC6jUT",
+        "filter_properties_CzPJem",
+        "filter_properties_gmKNk4",
+        "filter_properties_4zERK7",
+        "filter_properties_pwa7Rf",
         "filter_product_set_U6xiLQ",
         "filter_product_set_pMgNqg",
         "filter_product_set_A49VwL"
