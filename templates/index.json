@@ -229,15 +229,13 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Wasserfilter",
-            "heading_size": "h1",
-            "color": "#003e5f"
+            "heading_size": "h1"
           }
         },
         "subtitle_9T9pC3": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Ein Glas Leitungswasser bitte!",
-            "color": "#003e5f"
+            "subtitle": "Ein Glas Leitungswasser bitte!"
           }
         },
         "text_GazTYU": {
@@ -252,10 +250,8 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
-            "button_style_secondary1": false,
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/trinkwasserfilter",
-            "second_btn_color": "#0081be"
+            "button_link2": "shopify:\/\/pages\/trinkwasserfilter"
           }
         }
       },
@@ -266,11 +262,18 @@
         "button_WK4mtf"
       ],
       "settings": {
-        "section_color_scheme": "scheme-3",
         "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "content_image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
         "row_reverse": false,
         "top_radius": true,
+        "background_color": "",
+        "content_bg": "#e7edef",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -282,15 +285,13 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Duschfilter",
-            "heading_size": "h1",
-            "color": "#003e5f"
+            "heading_size": "h1"
           }
         },
         "subtitle_KK8QFU": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Wasser – Die Basis jeder Körperpflege.",
-            "color": "#003e5f"
+            "subtitle": "Wasser – Die Basis jeder Körperpflege."
           }
         },
         "text_MziWia": {
@@ -305,10 +306,8 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/duschfilter",
-            "button_style_secondary1": false,
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/duschfilter",
-            "second_btn_color": "#0081be"
+            "button_link2": "shopify:\/\/pages\/duschfilter"
           }
         }
       },
@@ -319,11 +318,18 @@
         "button_aWHU8f"
       ],
       "settings": {
-        "section_color_scheme": "scheme-3676b54a-cefe-4382-9dc8-3f66bfb20c0c",
         "image": "shopify:\/\/shop_images\/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
         "content_image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
         "row_reverse": true,
         "top_radius": false,
+        "background_color": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -335,15 +341,13 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Campingfilter",
-            "heading_size": "h1",
-            "color": "#003e5f"
+            "heading_size": "h1"
           }
         },
         "subtitle_hkLaHQ": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Auf Reisen und unterwegs sauberes Trinkwasser genießen. ",
-            "color": "#003e5f"
+            "subtitle": "Auf Reisen und unterwegs sauberes Trinkwasser genießen. "
           }
         },
         "text_ge7NEi": {
@@ -358,10 +362,8 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-wasserfilter",
-            "button_style_secondary1": false,
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter",
-            "second_btn_color": "#0081be"
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter"
           }
         }
       },
@@ -372,11 +374,18 @@
         "button_HTDhpE"
       ],
       "settings": {
-        "section_color_scheme": "scheme-4",
         "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
         "content_image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
         "row_reverse": false,
         "top_radius": false,
+        "background_color": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -768,6 +777,8 @@
       ],
       "settings": {
         "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "full_width": false,
+        "image_white": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
