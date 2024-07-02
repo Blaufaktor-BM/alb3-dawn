@@ -4857,8 +4857,7 @@ summary .icon-caret {
 }
 
 .item-product_compare:not(:first-child) {
-  border-top: 1px solid #000;
-  padding-top: 20px;
+  border-top: 1px solid #9b9b9b;
   margin-top: 20px;
 }
 
@@ -4910,6 +4909,7 @@ summary .icon-caret {
 
   .item-product_compare:not(:first-child) {
     border-top: 1px dashed;
+    padding-top: 20px;
   }
 }
 
@@ -4922,6 +4922,15 @@ summary .icon-caret {
 
   .item-product_compare.item-filter_properties.first-child .title-item {
     font-size: 14px;
+  }
+
+  .item-filter_product_set .button {
+    min-width: auto;
+    padding: 0 1rem;
+  }
+
+  .item-filter_product_set .button svg {
+    display: none;
   }
 }
 
