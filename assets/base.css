@@ -4855,7 +4855,7 @@ summary .icon-caret {
 }
 
 .item-product_compare:not(:first-child) {
-  border: 1px solid #000;
+  border-top: 1px solid #000;
   padding-top: 20px;
   margin-top: 20px;
 }
@@ -4870,7 +4870,7 @@ summary .icon-caret {
   }
 
   .item-product_compare:not(:first-child) {
-    border: 1px dashed;
+    border-top: 1px dashed;
   }
 }
 
