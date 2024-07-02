@@ -154,7 +154,11 @@
             "heading": "Bild mit Text",
             "heading_size": "h2",
             "heading_color": "#616161",
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>"
+            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
+            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg"
           }
         },
         "filter_properties_r4F6Uc": {
