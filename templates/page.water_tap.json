@@ -164,11 +164,11 @@
         "filter_properties_r4F6Uc": {
           "type": "filter_properties",
           "settings": {
-            "title": "Filtereigenschaften",
-            "title1": "Active",
-            "title2": "Active+",
-            "title3": "Nano",
-            "title4": "Fusion*"
+            "title": "<strong>Filtereigenschaften<\/strong>",
+            "title1": "<strong>Active<\/strong>",
+            "title2": "<strong>Active+<\/strong>",
+            "title3": "<strong>Nano<\/strong>",
+            "title4": "<strong>Fusion*<\/strong>"
           }
         },
         "filter_product_set_U6xiLQ": {
@@ -216,7 +216,7 @@
         "text_color": "#2d2d2d",
         "btn_text": "Kaufen",
         "btn_bg": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
       }
