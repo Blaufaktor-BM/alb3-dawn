@@ -279,7 +279,8 @@
         "heading": "Bild mit Text",
         "heading_size": "h1",
         "heading_color": "#003e5f",
-        "image_width": 200,
+        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
+        "image_width": 220,
         "padding_top": 10,
         "padding_bottom": 0
       }
