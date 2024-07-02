@@ -80,7 +80,8 @@
         "button_RNbMXW"
       ],
       "custom_css": [
-        "h2:nth-child(2) {margin: 0;}"
+        "h2:nth-child(2) {margin: 0;}",
+        ".rich-text__text {margin-top: 5px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
