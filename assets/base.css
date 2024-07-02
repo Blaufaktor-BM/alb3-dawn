@@ -4797,8 +4797,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .small_image_text-heading {
-  margin-bottom: 22px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .small_image_text-title {
@@ -4808,6 +4807,7 @@ slideshow-component .banner__heading.h1 {
 
 .small_image_text-title strong {
   font-weight: bold;
+  font-family: "amsi-bold";
 }
 
 .wrapper-small_image_text {
