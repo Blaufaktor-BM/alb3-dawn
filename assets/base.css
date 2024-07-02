@@ -4854,7 +4854,7 @@ summary .icon-caret {
   margin: 0 auto;
 }
 
-.item-product_filter:not(:first-child) {
+.item-product_compare:not(:first-child) {
   border: 1px solid #000;
   padding-top: 20px;
   margin-top: 20px;
@@ -4869,7 +4869,7 @@ summary .icon-caret {
     max-width: 33.33%;
   }
 
-  .item-product_filter:not(:first-child) {
+  .item-product_compare:not(:first-child) {
     border: 1px dashed;
   }
 }
