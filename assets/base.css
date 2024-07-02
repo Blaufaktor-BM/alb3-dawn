@@ -4976,4 +4976,65 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* product filter compare */
+/* multi image text */
+.multi-image-text__middle {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.multi-image-text__middle.flex-direction-reverse {
+  flex-direction: column-reverse;
+}
+
+.multi-image-text__middle {
+  flex-direction: column;
+}
+
+.multi-image-text__middle-image,
+.multi-image-text__middle-content {
+  width: 100%;
+}
+
+.section-multi_image_text img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.multi-image-text__top-image {
+  margin-bottom: 10px;
+}
+
+.section-multi_image_text h2,
+.section-multi_image_text h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.section-multi_image_text a:hover,
+.section-multi_image_text a {
+  color: #0081be;
+}
+
+.multi-image-text__middle-bottom {
+  margin: 30px 0;
+}
+
+.multi-image-text__middle-image img {
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 750px) {
+  .multi-image-text__middle {
+    flex-direction: row;
+  }
+
+  .multi-image-text__middle.flex-direction-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+/* multi image text */
 /* additional css */
