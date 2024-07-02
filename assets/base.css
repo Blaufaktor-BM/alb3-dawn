@@ -4836,6 +4836,7 @@ slideshow-component .banner__heading.h1 {
   padding: 5px;
   text-align: center;
   background-color: #fafafa;
+  display: block;
 }
 
 .item-list {
@@ -4844,8 +4845,15 @@ slideshow-component .banner__heading.h1 {
 
 .item-content {
   width: 100%;
-  max-width: 25%;
   padding: 5px;
+}
+
+.list_option4 .item-content {
+  max-width: 25%;
+}
+
+.list_option3 .item-content {
+  max-width: 33.33%;
 }
 
 .item-content img {
@@ -4897,14 +4905,25 @@ slideshow-component .banner__heading.h1 {
 }
 
 @media only screen and (min-width: 750px) {
-  .item-list {
+  .list_option4 .item-list {
     max-width: 66.66%;
   }
 
+  .list_option3 .item-list {
+    max-width: 50%;
+  }
+
   .item-header {
-    max-width: 33.33%;
     text-align: left;
     background-color: transparent;
+  }
+
+  .list_option4 .item-header {
+    max-width: 33.33%;
+  }
+
+  .list_option3 .item-header {
+    max-width: 50%;
   }
 
   .item-product_compare:not(:first-child) {

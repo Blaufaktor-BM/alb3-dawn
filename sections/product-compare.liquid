@@ -26,7 +26,10 @@
     class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
   >
     <div class="page-width">
-      <div class="wrapper-product_compare" style="color: {{ section.settings.text_color }}">
+      <div
+        class="wrapper-product_compare list_option{{ section.settings.list_option }}"
+        style="color: {{ section.settings.text_color }}"
+      >
         {%- assign count = 0 -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -178,6 +181,15 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "range",
+      "id": "list_option",
+      "label": "List Option",
+      "min": 3,
+      "max": 4,
+      "step": 1,
+      "default": 4
+    },
     {
       "type": "color",
       "id": "text_color",
