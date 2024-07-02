@@ -33,10 +33,66 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_zjmbJz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rfqkqJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALB DUO",
+            "color": "#003e5f",
+            "heading_size": "h0",
+            "font_weight": "200"
+          }
+        },
+        "heading_LaNE8f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wasserfilter für den Wasserhahn",
+            "color": "#003e5f",
+            "heading_size": "h1",
+            "font_weight": "700"
+          }
+        },
+        "text_jiew46": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Frisches Trinkwasser im Handumdrehen<\/p><p>Der Alb Duo Wasserfilter am Wasserhahn sorgt für reines und leckeres Trinkwasser im Handumdrehen. Die Montage ist kinderleicht und mit unseren Adaptern passt der Filter an nahezu jeden handelsüblichen Wasserhahn. Verpasse Deiner Küche ein Upgrade und genieße beste Wasserqualität direkt aus dem Hahn. <\/p>"
+          }
+        },
+        "button_RNbMXW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Shop",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rfqkqJ",
+        "heading_LaNE8f",
+        "text_jiew46",
+        "button_RNbMXW"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_fNRMYQ"
+    "image_banner_fNRMYQ",
+    "rich_text_zjmbJz"
   ]
 }
