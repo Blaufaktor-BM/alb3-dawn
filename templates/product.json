@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Spezifikationen",
             "icon": "price_tag",
-            "content": "",
+            "content": "<p>{{ product.title }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
             "page": ""
           }
         },
