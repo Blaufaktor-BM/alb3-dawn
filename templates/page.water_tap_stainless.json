@@ -251,6 +251,16 @@
         "padding_bottom": 0
       }
     },
+    "video_popup_Xhjrwg": {
+      "type": "video-popup",
+      "settings": {
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/alb-filter-duo-video-vorschaubild.jpg",
+        "description": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_text_list_xt6hCi": {
       "type": "image-text-list",
       "blocks": {
@@ -416,6 +426,7 @@
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
     "product_compare_3zPw6T",
+    "video_popup_Xhjrwg",
     "image_text_list_xt6hCi",
     "small_image_text_YwVdRj",
     "custom_contact_HqQUU4",
