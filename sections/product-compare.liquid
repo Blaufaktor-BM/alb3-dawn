@@ -119,6 +119,7 @@
                   {%- for i in (1..4) -%}
                     {% capture image %}image{{i}}{% endcapture %}
                     {% capture product %}product{{i}}{% endcapture %}
+                    {% capture text %}text{{i}}{% endcapture %}
                     {%- if block.settings[image] != blank or block.settings[product] != blank -%}
                       <div class="item-content">
                         {%- if block.settings[image] != blank -%}
@@ -134,6 +135,9 @@
                               | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                             }}
                           </div>
+                        {%- endif -%}
+                        {%- if block.settings[text] != blank -%}
+                          <div class="item-text">{{ block.settings[text] }}</div>
                         {%- endif -%}
                         {%- if block.settings[product] != blank -%}
                           {%- assign product = block.settings[product] -%}
@@ -195,7 +199,7 @@
           "label": "4"
         }
       ],
-      "default": "3"
+      "default": "4"
     },
     {
       "type": "color",
@@ -382,6 +386,11 @@
           "label": "Product1"
         },
         {
+          "type": "inline_richtext",
+          "id": "text1",
+          "label": "Text1"
+        },
+        {
           "type": "image_picker",
           "id": "image1",
           "label": "Image1"
@@ -390,6 +399,11 @@
           "type": "product",
           "id": "product2",
           "label": "Product2"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text2",
+          "label": "Text2"
         },
         {
           "type": "image_picker",
@@ -402,6 +416,11 @@
           "label": "Product3"
         },
         {
+          "type": "inline_richtext",
+          "id": "text3",
+          "label": "Text3"
+        },
+        {
           "type": "image_picker",
           "id": "image3",
           "label": "Image3"
@@ -410,6 +429,11 @@
           "type": "product",
           "id": "product4",
           "label": "Product4"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text4",
+          "label": "Text4"
         },
         {
           "type": "image_picker",
