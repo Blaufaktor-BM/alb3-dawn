@@ -145,6 +145,11 @@
         "padding_bottom": 0
       }
     },
+    "product_compare_dmJRy6": {
+      "type": "product-compare",
+      "settings": {
+      }
+    },
     "rich_text_67VRpK": {
       "type": "rich-text",
       "blocks": {
@@ -398,6 +403,7 @@
     "image_banner_7cHhYP",
     "rich_text_PiN6zi",
     "two_products_iRE6p3",
+    "product_compare_dmJRy6",
     "rich_text_67VRpK",
     "custom_liquid_HVMXnt",
     "image_text_list_RGpf7j",
