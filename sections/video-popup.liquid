@@ -18,9 +18,9 @@
   assign poster = section.settings.video.preview_image | default: section.settings.cover_image
 -%}
 {%- capture sizes -%}
-      (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px)
-      calc(100vw - 10rem), 100vw
-  {%- endcapture -%}
+    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px)
+    calc(100vw - 10rem), 100vw
+{%- endcapture -%}
 <div class="section-video_popup section-{{ section.id }}-padding">
   <div class="page-width">
     <div class="wrapper-video_popup">

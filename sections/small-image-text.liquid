@@ -100,6 +100,21 @@
                       </a>
                     {%- endif -%}
                   </div>
+                {%- when 'image' -%}
+                  {%- if block.settings.image != blank -%}
+                    <div class="small_image_text-image" style="max-width: {{ block.settings.image_width }}px;">
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
+                              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                          {%- endcapture -%}
+                      {{
+                        block.settings.image
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    </div>
+                  {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -352,6 +367,28 @@
           "id": "primary_bg",
           "label": "Primary Background Color",
           "default": "#0081be"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image Width",
+          "min": 50,
+          "max": 500,
+          "step": 5,
+          "default": 120,
+          "unit": "px"
         }
       ]
     }
