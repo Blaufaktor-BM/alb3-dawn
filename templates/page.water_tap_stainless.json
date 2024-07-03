@@ -125,7 +125,7 @@
         "row_reverse": true,
         "remove_content_spacing": true,
         "top_radius": false,
-        "background_color": "#fafafa",
+        "background_color": "rgba(0,0,0,0)",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
