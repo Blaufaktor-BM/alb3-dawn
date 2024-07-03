@@ -4087,6 +4087,12 @@ slideshow-component .banner__heading.h1 {
   height: auto;
 }
 
+.image_contain .media-custom_image_text svg,
+.image_contain .media-custom_image_text img {
+  height: auto;
+  object-fit: contain
+}
+
 @media (max-width: 1200px) {
   .content-custom-image_text {
     flex-direction: column;
@@ -4908,7 +4914,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .accordion__content {
-  border: 0px solid;
+  border: 3px solid;
 }
 
 .accordion__content a:hover,

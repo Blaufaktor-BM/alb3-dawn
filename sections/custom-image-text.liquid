@@ -28,7 +28,7 @@
   >
     <div class="page-width">
       <div
-        class="wrapper-custom_image_text{% if section.settings.small_content_image %} small-content-image{% endif %}{% if section.settings.remove_content_spacing %} remove_content_spacing{% endif %}{% if section.settings.top_radius %} top_radius{% endif %}{% if section.settings.row_reverse %} row_reverse{% endif %} isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        class="wrapper-custom_image_text{% if section.settings.image_contain %} image_contain{% endif %}{% if section.settings.small_content_image %} small-content-image{% endif %}{% if section.settings.remove_content_spacing %} remove_content_spacing{% endif %}{% if section.settings.top_radius %} top_radius{% endif %}{% if section.settings.row_reverse %} row_reverse{% endif %} isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         {% if section.settings.content_bg != blank %}
           style="background-color: {{ section.settings.content_bg }}"
         {% endif %}
@@ -256,6 +256,11 @@
       "type": "image_picker",
       "id": "content_image",
       "label": "Content Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "image_contain",
+      "label": "Image Contain"
     },
     {
       "type": "checkbox",
