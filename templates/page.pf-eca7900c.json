@@ -481,6 +481,111 @@
         "padding_bottom": 0
       }
     },
+    "custom_image_text_pWnH7Y": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_ANBPAe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Untertisch Fusion<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_kzgBFN": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Die rundum sorglos Variante."
+          }
+        },
+        "text_qTB4yd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die Filtereigenschaften beider Kartuschen für höchste Sicherheit und Trinkgenuss.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_i3dTAb": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "<strong>Filterung von kleinsten Mikroplastikteilchen<\/strong>",
+            "image5": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "image6": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text6": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>"
+          }
+        },
+        "icon_text_acc_rhEWir": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text4": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "text6": ""
+          }
+        },
+        "text_acc_6pFLGT": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>"
+          }
+        },
+        "button_ctEARr": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-untertisch-komplett-set-schnellkupplung",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ANBPAe",
+        "subtitle_kzgBFN",
+        "text_qTB4yd",
+        "icon_text_i3dTAb",
+        "icon_text_acc_rhEWir",
+        "text_acc_6pFLGT",
+        "button_ctEARr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albfusionedelstahlwasserfiltergehausemitfilterkartuschenschwarz-1639472477774.jpg",
+        "image_contain": true,
+        "small_content_image": false,
+        "row_reverse": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
@@ -875,6 +980,7 @@
     "custom_image_text_ziYULU",
     "custom_image_text_QfzwTP",
     "custom_image_text_kGTRkj",
+    "custom_image_text_pWnH7Y",
     "product_compare_3zPw6T",
     "column_richtext_U7dYTt",
     "video_popup_Xhjrwg",
