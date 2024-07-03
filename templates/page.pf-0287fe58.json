@@ -690,9 +690,9 @@
           "type": "button",
           "settings": {
             "button_label": "Zum Gewinderatgeber",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": ""
+            "button_link": "shopify:\/\/pages\/gewinde-ratgeber",
+            "button_label_2": "Montagevideos auf Youtube",
+            "button_link_2": "https:\/\/www.youtube.com\/channel\/UCShDFKD0lWAvwysE0StHbVA"
           }
         }
       },
