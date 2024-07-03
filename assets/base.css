@@ -3938,12 +3938,6 @@ slideshow-component .banner__heading.h1 {
   padding: 20px 0;
 }
 
-.remove_content_spacing .media-custom_image_text img,
-.remove_content_spacing .media-custom_image_text svg {
-  object-fit: contain;
-  height: auto;
-}
-
 .media_content-custom_image_text img {
   display: block;
   width: 100%;
@@ -4033,35 +4027,6 @@ slideshow-component .banner__heading.h1 {
   position: relative;
 }
 
-.custom-image-text__text-acc .accordion__title:before,
-.custom-image-text__icon-text-acc .accordion__title:before {
-  content: "";
-  position: absolute;
-  right: 6px;
-  width: 2px;
-  height: 14px;
-  background-color: #000;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.custom-image-text__text-acc details[open] .accordion__title:before,
-.custom-image-text__icon-text-acc details[open] .accordion__title:before {
-  content: none;
-}
-
-.custom-image-text__text-acc .accordion__title:after,
-.custom-image-text__icon-text-acc .accordion__title:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 14px;
-  height: 2px;
-  background-color: #000;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .custom-icon_text-item {
   display: flex;
   gap: 10px;
@@ -4081,19 +4046,6 @@ slideshow-component .banner__heading.h1 {
 
 .custom-image-text__icon-text {
   margin-bottom: 20px;
-}
-
-.small-content-image .media-custom_image_text svg,
-.small-content-image .media-custom_image_text img {
-  max-width: 300px;
-  margin: 0 auto;
-  height: auto;
-}
-
-.image_contain .media-custom_image_text svg,
-.image_contain .media-custom_image_text img {
-  height: auto;
-  object-fit: contain
 }
 
 @media (max-width: 1200px) {
@@ -4131,6 +4083,25 @@ slideshow-component .banner__heading.h1 {
 
   .small-content-image .main-custom-image_text {
     max-width: calc(60% - 15px);
+  }
+
+  .remove_content_spacing .media-custom_image_text img,
+  .remove_content_spacing .media-custom_image_text svg {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .small-content-image .media-custom_image_text svg,
+  .small-content-image .media-custom_image_text img {
+    max-width: 300px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .image_contain .media-custom_image_text svg,
+  .image_contain .media-custom_image_text img {
+    height: auto;
+    object-fit: contain
   }
 }
 
