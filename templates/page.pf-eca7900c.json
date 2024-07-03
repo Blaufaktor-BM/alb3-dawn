@@ -184,6 +184,32 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_h7N8FR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mR8NNx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alb Untertisch-Wasserfilter im Überblick<\/strong>",
+            "color": "#003e5f",
+            "heading_size": "h2",
+            "font_weight": "700"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mR8NNx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_image_text_ziYULU": {
       "type": "custom-image-text",
       "blocks": {
@@ -1093,6 +1119,7 @@
     "rich_text_zjmbJz",
     "custom_image_text_UxTBxU",
     "custom_image_text_aQ4HxB",
+    "rich_text_h7N8FR",
     "custom_image_text_ziYULU",
     "custom_image_text_QfzwTP",
     "custom_image_text_kGTRkj",
