@@ -24,11 +24,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "rating_FVKcLB": {
           "type": "rating",
           "settings": {
@@ -64,12 +59,23 @@
             "show_gift_card_recipient": true
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        },
         "collapsible_tab_4rRijx": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "price_tag",
-            "content": "{{ product.metafields.custom.produktbeschreibung | metafield_tag }}<p><\/p>",
+            "content": "<p>{{ product.metafields.custom.produktbeschreibung | metafield_tag }}<\/p><p><\/p>",
             "page": ""
           }
         },
@@ -100,17 +106,11 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "complementary_ptQFWL": {
           "type": "complementary",
           "settings": {
             "block_heading": "Passend dazu:",
-            "make_collapsible_row": true,
+            "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 3,
             "products_per_page": 3,
@@ -123,18 +123,18 @@
       "block_order": [
         "vendor",
         "title",
-        "description",
         "rating_FVKcLB",
         "price",
         "sku_4U6KpL",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
+        "share",
         "collapsible_tab_4rRijx",
         "collapsible_tab_mzemNT",
         "collapsible_tab_RDPPjF",
         "collapsible_tab_zTQepq",
-        "share",
         "complementary_ptQFWL"
       ],
       "settings": {
@@ -170,10 +170,55 @@
         "padding_top": 60,
         "padding_bottom": 24
       }
+    },
+    "column_image_text_NFzAkr": {
+      "type": "column-image-text",
+      "blocks": {
+        "heading_jFRLFi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_tP6maC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
+          }
+        },
+        "text_qQkyQb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_iV43TL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jFRLFi",
+        "subtitle_tP6maC",
+        "text_qQkyQb",
+        "button_iV43TL"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "image_height": 250,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "column_image_text_NFzAkr"
   ]
 }
