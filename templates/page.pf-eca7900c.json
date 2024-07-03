@@ -391,20 +391,14 @@
         "heading_jdANAe": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duo Nano<\/strong>",
+            "heading": "<strong>Untertisch Nano<\/strong>",
             "heading_size": "h1"
-          }
-        },
-        "subtitle_bYTtrp": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm."
           }
         },
         "text_tecytA": {
           "type": "text",
           "settings": {
-            "text": "<p>Schützt bei akutem <strong>Legionellen-Alarm <\/strong>oder vor einer <strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen <\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
+            "text": "<p>Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.<\/p><p>Schützt vor einer Verkeimung mit Bakterien, Keimen, Schimmelpilzen und Legionellen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
             "text_style": "body"
           }
         },
@@ -413,7 +407,7 @@
           "settings": {
             "image_width": 50,
             "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text1": "Filtration kleinster Mikroorganismen (~99,99%) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
             "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
             "text2": "Hochleistungsmembran",
             "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
@@ -433,10 +427,10 @@
             "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
             "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
             "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text4": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
             "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
             "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
             "text6": ""
@@ -462,7 +456,6 @@
       },
       "block_order": [
         "heading_jdANAe",
-        "subtitle_bYTtrp",
         "text_tecytA",
         "icon_text_yL6LGK",
         "icon_text_acc_yxFNe9",
@@ -470,7 +463,7 @@
         "button_QY3TrU"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
