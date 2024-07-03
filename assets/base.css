@@ -3999,6 +3999,18 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
+.custom-image-text__icon-text-acc summary svg,
+.custom-image-text__text-acc summary svg {
+  transform: rotate(-90deg);
+  height: 1rem;
+}
+
+.custom-image-text__icon-text-acc details[open] summary svg,
+.custom-image-text__text-acc details[open] summary svg {
+  transform: rotate(-90deg);
+  height: 1rem;
+}
+
 .custom-image-text__text-acc .accordion__content,
 .custom-image-text__icon-text-acc .accordion__content {
   border: none;
