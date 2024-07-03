@@ -707,8 +707,8 @@
         "background_color": "#003e5f",
         "btn_bg": "#0081be",
         "btn_color": "#fff",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 58,
+        "padding_bottom": 53
       }
     },
     "video_popup_Xhjrwg": {
