@@ -412,6 +412,22 @@
             "text_style": "body"
           }
         },
+        "icon_text_yL6LGK": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 75,
+            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text1": "Filtration kleinster Mikroorganismen (~99,99%) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "text2": "Hochleistungsmembran",
+            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "text3": "Große Filterkapazität",
+            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text4": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
+            "text5": "",
+            "text6": ""
+          }
+        },
         "button_QY3TrU": {
           "type": "button",
           "settings": {
@@ -426,6 +442,7 @@
         "heading_jdANAe",
         "subtitle_bYTtrp",
         "text_tecytA",
+        "icon_text_yL6LGK",
         "button_QY3TrU"
       ],
       "settings": {
