@@ -4066,6 +4066,16 @@ slideshow-component .banner__heading.h1 {
   margin-bottom: 20px;
 }
 
+.remove_content_spacing .media-custom_image_text img,
+.remove_content_spacing .media-custom_image_text svg {
+  object-fit: contain;
+}
+
+.image_contain .media-custom_image_text svg,
+.image_contain .media-custom_image_text img {
+  object-fit: contain
+}
+
 @media (max-width: 1200px) {
   .content-custom-image_text {
     flex-direction: column;
