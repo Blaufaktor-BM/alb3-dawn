@@ -99,19 +99,18 @@
         "icon_text_8qFpLX": {
           "type": "icon_text",
           "settings": {
-            "image_width": 75,
-            "image1": "shopify:\/\/shop_images\/albfiltericonsetparameters11switch-1-1676297143101.svg",
-            "text1": "Hebel zum Umschalten zwischen gefiltertem und ungefiltertem Wasser",
-            "image2": "shopify:\/\/shop_images\/pf-9b352dc0--albfiltericonsetparameters12compatible.svg",
-            "text2": "Kompatibel mit allen Standard Wasserhähnen",
+            "image_width": 84,
+            "image1": "shopify:\/\/shop_images\/pf-352dc002--albfiltericonsetparameters13cornervalve.svg",
+            "text1": "Anschluss direkt am Kaltwasser-Eckventil",
+            "image2": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
+            "text2": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
             "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
-            "text3": "Gehäuse hergestellt aus hochwertigem Edelstahl",
-            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
-            "text4": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
-            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters2246month-1649679012646.svg",
-            "text5": "Filterkartuschen mit einer Nutzungsdauer von 4 bzw. 6 Monaten",
-            "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
-            "text6": "Design, Fertigung und Produktion in Süddeutschland"
+            "text3": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit. ",
+            "image4": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month.svg",
+            "text4": "Filterkartuschen mit einer Höchstnutzungsdauer von 6 Monaten",
+            "image5": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
+            "text5": "Design, Fertigung und Produktion in Süddeutschland",
+            "text6": ""
           }
         }
       },
@@ -119,9 +118,9 @@
         "icon_text_8qFpLX"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/output_kqe1Mg.gif",
-        "image_contain": false,
-        "small_content_image": true,
+        "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
+        "image_contain": true,
+        "small_content_image": false,
         "row_reverse": true,
         "remove_content_spacing": true,
         "top_radius": false,
