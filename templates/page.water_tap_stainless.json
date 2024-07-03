@@ -307,6 +307,24 @@
             "text_style": "body"
           }
         },
+        "icon_text_GehLFm": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "Reduzierung von Mikroplastik",
+            "image5": "shopify:\/\/shop_images\/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
+            "text5": "Reduzierung von Bakterien und Keime bis 0.7 µm",
+            "image6": "shopify:\/\/shop_images\/pf-7c162f46--albfiltericonsetparameters07lime.svg",
+            "text6": "Kalkreduktion (Wasserenthärtung)"
+          }
+        },
         "button_97ULJk": {
           "type": "button",
           "settings": {
@@ -321,6 +339,7 @@
         "heading_hFwBHw",
         "subtitle_aUr3DM",
         "text_DyBekM",
+        "icon_text_GehLFm",
         "button_97ULJk"
       ],
       "settings": {
