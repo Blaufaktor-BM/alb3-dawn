@@ -527,17 +527,18 @@
           "settings": {
             "heading": "Filtereigenschaften",
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text4": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
-            "text6": ""
+            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche (Active)<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle (Active)<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text3": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden (Active)<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text4": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln (Nano)<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
+            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Schutz vor Mikroorganismen (Nano)<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen. Aber auch Mikroplastik und andere mikroskopisch kleine Partikel werden mechanisch aus dem Wasser gefiltert.<\/p>",
+            "image6": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text6": "<p><strong>Schutz vor Legionellen (Nano)<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>"
           }
         },
         "text_acc_6pFLGT": {
