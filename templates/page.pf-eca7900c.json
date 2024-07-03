@@ -1072,8 +1072,8 @@
         "image_width": 200,
         "image_mobile_width": 285,
         "image_round": false,
-        "padding_top": 10,
-        "padding_bottom": 0
+        "padding_top": 54,
+        "padding_bottom": 100
       }
     }
   },
