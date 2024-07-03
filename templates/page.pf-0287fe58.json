@@ -171,7 +171,7 @@
         "image_contain": false,
         "small_content_image": false,
         "row_reverse": true,
-        "remove_content_spacing": false,
+        "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "#fafafa",
         "content_bg": "",
@@ -211,7 +211,7 @@
         "icon_text_agxb7L": {
           "type": "icon_text",
           "settings": {
-            "image_width": 60,
+            "image_width": 50,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
             "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
@@ -238,7 +238,11 @@
             "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
             "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
             "text5": "",
-            "text6": ""
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
           }
         },
         "text_acc_VUtbKY": {
@@ -273,7 +277,7 @@
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
-        "remove_content_spacing": false,
+        "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "content_bg": "",
@@ -332,7 +336,7 @@
           "type": "icon_text_acc",
           "settings": {
             "heading": "Filtereigenschaften",
-            "image_width": 75,
+            "image_width": 50,
             "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
             "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
             "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
@@ -344,7 +348,11 @@
             "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
             "text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
             "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
-            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<\/strong><\/p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>"
+            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<\/strong><\/p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
           }
         },
         "text_acc_xkX3wh": {
@@ -379,7 +387,7 @@
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
-        "remove_content_spacing": false,
+        "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "content_bg": "",
@@ -447,7 +455,11 @@
             "text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
             "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
             "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
-            "text6": ""
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
           }
         },
         "text_acc_MF99Aj": {
@@ -482,7 +494,7 @@
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
-        "remove_content_spacing": false,
+        "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "content_bg": "",
@@ -668,7 +680,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
-            "color": "#fff",
+            "color": "#ffffff",
             "heading_size": "h1"
           }
         },
@@ -676,14 +688,14 @@
           "type": "subheading",
           "settings": {
             "subheading": "Gewinde-Ratgeber",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "text_KzRCVd": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Ja!<\/strong>In 85% der Fälle hast Du vermutlich entweder einen Wasserhahn mit einem M22- oder M24-Gewindeanschluss. Im Lieferumfang enthalten ist ein zusätzlicher Edelstahl-Adapter für M24-Gewinde. Für alle anderen Wasserhähne haben wir weitere Adapter in unserem Shop.<br\/><br\/>Am Besten misst Du schon vor Deiner Bestellung das Gewinde deines Wasserhahns und wählst den entsprechenden Adapter direkt bei der Bestellung mit aus. Dann bekommst du den richtigen Adapter kostenfrei zu deiner Bestellung dazu. Mit unserem kleinen Ratgeber kannst Du einfach prüfen welchen Adapter Du benötigst.<br\/><br\/>Alternativ kannst Du Dich auch telefonisch oder per Email beraten lassen. Wir helfen Dir gerne.<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "button_NfU937": {
@@ -706,7 +718,7 @@
       "settings": {
         "background_color": "#003e5f",
         "btn_bg": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "padding_top": 58,
         "padding_bottom": 53
       }
@@ -803,6 +815,7 @@
         "button_yBdnGM"
       ],
       "settings": {
+        "image_right": false,
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
