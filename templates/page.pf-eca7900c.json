@@ -1034,6 +1034,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "small_image_text_B6V6Ck": {
+      "type": "small-image-text",
+      "blocks": {
+        "text_iLYBDP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.<\/p>",
+            "text_style": "body",
+            "color": "#616161"
+          }
+        },
+        "button_FNaVyd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Ratgeber",
+            "button_link": "",
+            "color": "#0081be",
+            "primary_btn": false,
+            "primary_bg": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "text_iLYBDP",
+        "button_FNaVyd"
+      ],
+      "settings": {
+        "content_wrapper": false,
+        "background_color": "",
+        "heading": "Mehr zum Thema Wasser und Wasserfilter",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "mobile_center": false,
+        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "image_width": 200,
+        "image_mobile_width": 285,
+        "image_round": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1052,6 +1093,7 @@
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
     "custom_contact_HqQUU4",
-    "collapsible_content_9KRpAt"
+    "collapsible_content_9KRpAt",
+    "small_image_text_B6V6Ck"
   ]
 }
