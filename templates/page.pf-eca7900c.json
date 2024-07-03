@@ -981,13 +981,23 @@
             "row_content": "<p>Die <strong>Active Plus+<\/strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine <strong>Kalkreduktion um ca. 4 - 7 dH°<\/strong>.<\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_Unyzp9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
+            "icon": "none",
+            "row_content": "<p>Beachten Sie die Wechselintervalle von <strong>4 Monaten für Active und Active Plus+ sowie 6 Monate für die Nano<\/strong>, dann sind Sie grundsätzlich auf „der sicheren Seite“.<br\/>Es gibt bei Active und Active Plus+ keine weiteren Indikatoren für einen Wechsel, abgesehen einer <strong>regelmäßigen Wasserüberprüfung im Labor, <\/strong>was natürlich nicht realistisch ist. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_EKzC9r",
         "collapsible_row_keewFU",
         "collapsible_row_HAADA4",
-        "collapsible_row_eWtQwk"
+        "collapsible_row_eWtQwk",
+        "collapsible_row_Unyzp9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
