@@ -155,7 +155,7 @@
         "text_iQQ9Me": {
           "type": "text",
           "settings": {
-            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<\/p>",
+            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle in der Element-Variante zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<br\/><br\/>In der Fusion-Variante werden zwei Element Gehäuse mit einer Active und Nano Kartusche kombiniert. Daraus ergibt sich ein größtmögliches Filterspektrum und somit höchste Sicherheit für das Trinkwasser.<\/p>",
             "text_style": "body"
           }
         }
@@ -166,7 +166,7 @@
         "text_iQQ9Me"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "image": "shopify:\/\/shop_images\/UNTERTISCH-Element-Fusion-Varianten_2000x_1.webp",
         "image_contain": false,
         "small_content_image": false,
         "row_reverse": true,
