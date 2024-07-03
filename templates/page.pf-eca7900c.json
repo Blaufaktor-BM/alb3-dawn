@@ -285,7 +285,7 @@
         "heading_hFwBHw": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duo Active Plus+<\/strong>",
+            "heading": "<strong>Untertisch Active Plus+<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -298,7 +298,7 @@
         "text_DyBekM": {
           "type": "text",
           "settings": {
-            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von <strong>0,7 µm<\/strong> effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die <strong>innovative 2-fach Enthärterstufe<\/strong> reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
+            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von<strong>0,7 µm<\/strong>effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die<strong>innovative 2-fach Enthärterstufe<\/strong>reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
             "text_style": "body"
           }
         },
@@ -367,7 +367,7 @@
         "button_97ULJk"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactiveplusfilterkartusche-1639472477710.jpg",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
