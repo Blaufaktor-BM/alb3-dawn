@@ -34,216 +34,6 @@
         "show_text_below": true
       }
     },
-    "custom_image_text_UxTBxU": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_hjFqGH": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Modularer Wasserfilter<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_aEE89M": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "1 Gehäuse – 3 Kartuschen."
-          }
-        },
-        "text_8WTjeb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_hjFqGH",
-        "subtitle_aEE89M",
-        "text_8WTjeb"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
-        "row_reverse": true,
-        "top_radius": false,
-        "background_color": "#fafafa",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#fff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom_image_text_ziYULU": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_cDwzCP": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Duo Active<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_kGFPC6": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Filtert Schadstoffe und schlechten Geschmack"
-          }
-        },
-        "text_7ABmMX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine<strong> effektive Filtrierung<\/strong> von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von <strong>10 µm<\/strong>. Bester Geschmack und ein sicheres Gefühl.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_YRcafF": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cDwzCP",
-        "subtitle_kGFPC6",
-        "text_7ABmMX",
-        "button_YRcafF"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
-        "row_reverse": false,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#fff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom_image_text_QfzwTP": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_hFwBHw": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Duo Active Plus+<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_aUr3DM": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Das Plus gegen Bakterien und Keime"
-          }
-        },
-        "text_DyBekM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von <strong>0,7 µm<\/strong> effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die <strong>innovative 2-fach Enthärterstufe<\/strong> reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_97ULJk": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active-plus",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_hFwBHw",
-        "subtitle_aUr3DM",
-        "text_DyBekM",
-        "button_97ULJk"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
-        "row_reverse": false,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#fff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom_image_text_kGTRkj": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_jdANAe": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Duo Nano<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_bYTtrp": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm."
-          }
-        },
-        "text_tecytA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Schützt bei akutem<strong>Legionellen-Alarm<\/strong>oder vor einer<strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen<\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_QY3TrU": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-nano",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jdANAe",
-        "subtitle_bYTtrp",
-        "text_tecytA",
-        "button_QY3TrU"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
-        "row_reverse": false,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#fff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_zjmbJz": {
       "type": "rich-text",
       "blocks": {
@@ -301,6 +91,267 @@
         "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_image_text_UxTBxU": {
+      "type": "custom-image-text",
+      "blocks": {
+        "icon_text_8qFpLX": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 75,
+            "image1": "shopify:\/\/shop_images\/albfiltericonsetparameters11switch-1-1676297143101.svg",
+            "text1": "Hebel zum Umschalten zwischen gefiltertem und ungefiltertem Wasser",
+            "image2": "shopify:\/\/shop_images\/pf-9b352dc0--albfiltericonsetparameters12compatible.svg",
+            "text2": "Kompatibel mit allen Standard Wasserhähnen",
+            "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
+            "text3": "Gehäuse hergestellt aus hochwertigem Edelstahl",
+            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
+            "text4": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
+            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters2246month-1649679012646.svg",
+            "text5": "Filterkartuschen mit einer Nutzungsdauer von 4 bzw. 6 Monaten",
+            "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
+            "text6": "Design, Fertigung und Produktion in Süddeutschland"
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_8qFpLX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/output_kqe1Mg.gif",
+        "small_content_image": true,
+        "row_reverse": true,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "#fafafa",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_aQ4HxB": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_RgJXtJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Modularer Wasserfilter<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_CdNkDb": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "1 Gehäuse – 3 Kartuschen."
+          }
+        },
+        "text_iQQ9Me": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RgJXtJ",
+        "subtitle_CdNkDb",
+        "text_iQQ9Me"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "small_content_image": false,
+        "row_reverse": true,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "#fafafa",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_ziYULU": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_cDwzCP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Duo Active<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_kGFPC6": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Filtert Schadstoffe und schlechten Geschmack"
+          }
+        },
+        "text_7ABmMX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine<strong> effektive Filtrierung<\/strong> von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von <strong>10 µm<\/strong>. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YRcafF": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cDwzCP",
+        "subtitle_kGFPC6",
+        "text_7ABmMX",
+        "button_YRcafF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+        "small_content_image": false,
+        "row_reverse": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_QfzwTP": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_hFwBHw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Duo Active Plus+<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_aUr3DM": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Das Plus gegen Bakterien und Keime"
+          }
+        },
+        "text_DyBekM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von <strong>0,7 µm<\/strong> effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die <strong>innovative 2-fach Enthärterstufe<\/strong> reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_97ULJk": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active-plus",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hFwBHw",
+        "subtitle_aUr3DM",
+        "text_DyBekM",
+        "button_97ULJk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+        "small_content_image": false,
+        "row_reverse": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_kGTRkj": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_jdANAe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Duo Nano<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_bYTtrp": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm."
+          }
+        },
+        "text_tecytA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schützt bei akutem<strong>Legionellen-Alarm<\/strong>oder vor einer<strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen<\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_QY3TrU": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-nano",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jdANAe",
+        "subtitle_bYTtrp",
+        "text_tecytA",
+        "button_QY3TrU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+        "small_content_image": false,
+        "row_reverse": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#616161",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_multi_tex_frVpQg": {
@@ -651,11 +702,12 @@
   "order": [
     "main",
     "image_banner_fNRMYQ",
+    "rich_text_zjmbJz",
     "custom_image_text_UxTBxU",
+    "custom_image_text_aQ4HxB",
     "custom_image_text_ziYULU",
     "custom_image_text_QfzwTP",
     "custom_image_text_kGTRkj",
-    "rich_text_zjmbJz",
     "image_multi_tex_frVpQg",
     "product_compare_3zPw6T",
     "video_popup_Xhjrwg",
