@@ -4770,7 +4770,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .accordion__content {
-  border: 3px solid;
+  border: 0px solid;
 }
 
 .accordion__content a:hover,
