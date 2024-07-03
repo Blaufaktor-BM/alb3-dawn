@@ -778,7 +778,7 @@
         "heading_wFiUKT": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
+            "heading": "<p>Wasserfilter Untertisch<br\/><strong>Installation<\/strong><\/p>",
             "heading_size": "h2",
             "heading_color": "#003e5f"
           }
@@ -786,7 +786,7 @@
         "text_wAkrTw": {
           "type": "text",
           "settings": {
-            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
+            "text": "<p>Nützliche Anleitungen, Videos zum Einbau und Kartuschenwechsel Ihres Alb Filters.<br\/><\/p>",
             "text_style": "body",
             "color": "#616161"
           }
@@ -795,7 +795,7 @@
           "type": "button",
           "settings": {
             "button_label": "Anleitungen",
-            "button_link": "shopify:\/\/pages\/installation-wasserhahnfilter",
+            "button_link": "shopify:\/\/pages\/installation-untertisch",
             "color": "#ffffff",
             "primary_btn": true,
             "primary_bg": "#0081be"
