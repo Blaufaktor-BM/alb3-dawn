@@ -816,7 +816,7 @@
         "button_yBdnGM"
       ],
       "settings": {
-        "image_right": false,
+        "image_right": true,
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
