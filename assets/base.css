@@ -4022,6 +4022,7 @@ slideshow-component .banner__heading.h1 {
 .custom-image-text__text-acc,
 .custom-image-text__icon-text-acc {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .custom-image-text__text-acc .accordion__title,
@@ -4063,7 +4064,6 @@ slideshow-component .banner__heading.h1 {
   gap: 10px;
   padding-left: 20px;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .icon_text-media {
@@ -5093,6 +5093,7 @@ slideshow-component .banner__heading.h1 {
 
   .list_option3 .item-header {
     max-width: 50%;
+    display: block;
   }
 
   .item-product_compare:not(:first-child) {
