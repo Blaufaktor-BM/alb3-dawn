@@ -408,7 +408,7 @@
         "text_tecytA": {
           "type": "text",
           "settings": {
-            "text": "<p>Schützt bei akutem<strong>Legionellen-Alarm<\/strong>oder vor einer<strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen<\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
+            "text": "<p>Schützt bei akutem <strong>Legionellen-Alarm <\/strong>oder vor einer <strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen <\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
             "text_style": "body"
           }
         },
