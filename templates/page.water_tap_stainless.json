@@ -206,6 +206,22 @@
             "text_style": "body"
           }
         },
+        "icon_text_agxb7L": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "<strong> Reduzierung von Mikroplastik<\/strong>",
+            "text5": "",
+            "text6": ""
+          }
+        },
         "button_YRcafF": {
           "type": "button",
           "settings": {
@@ -220,6 +236,7 @@
         "heading_cDwzCP",
         "subtitle_kGFPC6",
         "text_7ABmMX",
+        "icon_text_agxb7L",
         "button_YRcafF"
       ],
       "settings": {
