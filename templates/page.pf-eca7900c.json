@@ -808,6 +808,7 @@
         "button_yBdnGM"
       ],
       "settings": {
+        "image_right": true,
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
@@ -1062,6 +1063,7 @@
         "button_FNaVyd"
       ],
       "settings": {
+        "image_right": false,
         "content_wrapper": false,
         "background_color": "",
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
