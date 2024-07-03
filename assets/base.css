@@ -5002,7 +5002,7 @@ slideshow-component .banner__heading.h1 {
   display: block;
 }
 
-.mobile-center .wrapper-small_image_text.row-reverse .small_image_text-image {
+.mobile-center .wrapper-small_image_text .small_image_text-image {
   margin-left: auto;
   margin-right: auto;
 }
@@ -5014,6 +5014,15 @@ slideshow-component .banner__heading.h1 {
 }
 
 @media only screen and (min-width: 750px) {
+  .mobile-center .wrapper-small_image_text.row-reverse .small_image_text-image {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .mobile-center .wrapper-small_image_text .small_image_text-image {
+    margin-left: 0;
+    margin-right: auto;
+  }
 
   .wrapper-small_image_text.row-reverse {
     flex-direction: row-reverse;
