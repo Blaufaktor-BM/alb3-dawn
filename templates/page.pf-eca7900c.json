@@ -1050,7 +1050,7 @@
           "type": "button",
           "settings": {
             "button_label": "Zum Ratgeber",
-            "button_link": "",
+            "button_link": "shopify:\/\/blogs\/ratgeber\/inhalt",
             "color": "#0081be",
             "primary_btn": false,
             "primary_bg": "#0081be"
@@ -1067,7 +1067,7 @@
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
         "heading_size": "h2",
         "heading_color": "#003e5f",
-        "mobile_center": false,
+        "mobile_center": true,
         "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
         "image_width": 200,
         "image_mobile_width": 285,
