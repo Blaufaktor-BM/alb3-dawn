@@ -654,6 +654,63 @@
         "padding_bottom": 0
       }
     },
+    "column_richtext_U7dYTt": {
+      "type": "column-richtext",
+      "blocks": {
+        "image_RQFcBn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-4730ce14--messen1gewinderatgeber.png",
+            "image_width": 200
+          }
+        },
+        "heading_6BHqNx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
+            "color": "#fff",
+            "heading_size": "h1"
+          }
+        },
+        "subheading_CxfYm7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Gewinde-Ratgeber",
+            "color": "#fff"
+          }
+        },
+        "text_KzRCVd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ja!<\/strong>In 85% der Fälle hast Du vermutlich entweder einen Wasserhahn mit einem M22- oder M24-Gewindeanschluss. Im Lieferumfang enthalten ist ein zusätzlicher Edelstahl-Adapter für M24-Gewinde. Für alle anderen Wasserhähne haben wir weitere Adapter in unserem Shop.<br\/><br\/>Am Besten misst Du schon vor Deiner Bestellung das Gewinde deines Wasserhahns und wählst den entsprechenden Adapter direkt bei der Bestellung mit aus. Dann bekommst du den richtigen Adapter kostenfrei zu deiner Bestellung dazu. Mit unserem kleinen Ratgeber kannst Du einfach prüfen welchen Adapter Du benötigst.<br\/><br\/>Alternativ kannst Du Dich auch telefonisch oder per Email beraten lassen. Wir helfen Dir gerne.<\/p>",
+            "color": "#fff"
+          }
+        },
+        "button_NfU937": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Gewinderatgeber",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RQFcBn",
+        "heading_6BHqNx",
+        "subheading_CxfYm7",
+        "text_KzRCVd",
+        "button_NfU937"
+      ],
+      "settings": {
+        "background_color": "#003e5f",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "video_popup_Xhjrwg": {
       "type": "video-popup",
       "settings": {
@@ -834,6 +891,7 @@
     "custom_image_text_QfzwTP",
     "custom_image_text_kGTRkj",
     "product_compare_3zPw6T",
+    "column_richtext_U7dYTt",
     "video_popup_Xhjrwg",
     "image_text_list_xt6hCi",
     "small_image_text_YwVdRj",
