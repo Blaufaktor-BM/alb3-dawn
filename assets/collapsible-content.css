@@ -89,12 +89,13 @@
   margin-bottom: 1.5rem;
   /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
   transform: perspective(0);
+  padding-left: 32px;
+
 }
 
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
   padding: 1.5rem;
-  padding-left: 32px;
 
 }
 
