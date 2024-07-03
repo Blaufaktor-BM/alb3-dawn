@@ -143,7 +143,7 @@
                             role="region"
                             aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                           >
-                            {% for i in (1..6) %}
+                            {% for i in (1..10) %}
                               {% capture image %}image{{ i }}{% endcapture %}
                               {% capture text %}text{{ i }}{% endcapture %}
                               {% if block.settings[text] != blank %}
@@ -635,6 +635,46 @@
           "id": "text6",
           "label": "Text6",
           "default": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image7",
+          "label": "Image7"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text7"
+        },
+        {
+          "type": "image_picker",
+          "id": "image8",
+          "label": "Image8"
+        },
+        {
+          "type": "richtext",
+          "id": "text8",
+          "label": "Text8"
+        },
+        {
+          "type": "image_picker",
+          "id": "image9",
+          "label": "Image9"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text9"
+        },
+        {
+          "type": "image_picker",
+          "id": "image10",
+          "label": "Image10"
+        },
+        {
+          "type": "richtext",
+          "id": "text10",
+          "label": "Text10"
         }
       ]
     },
