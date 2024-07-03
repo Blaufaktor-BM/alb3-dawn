@@ -599,7 +599,8 @@
             "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg"
           }
         },
         "filter_properties_cPUEFG": {
@@ -609,7 +610,7 @@
             "title1": "<strong>Active<\/strong>",
             "title2": "<strong>Active+<\/strong>",
             "title3": "<strong>Nano<\/strong>",
-            "title4": ""
+            "title4": "<strong>Fusion*<\/strong>"
           }
         },
         "filter_properties_FQM9e6": {
@@ -619,17 +620,17 @@
             "title1": "<strong>Ja<\/strong>",
             "title2": "<strong>Ja<\/strong>",
             "title3": "<strong>Ja<\/strong>",
-            "title4": ""
+            "title4": "<strong>Ja<\/strong>"
           }
         },
         "filter_properties_Twkgfj": {
           "type": "filter_properties",
           "settings": {
-            "title": "Geruch, Geschmack, Trübungen, Chlor",
+            "title": "Geruch, Geschmack,  Chlor",
             "title1": "<strong>+ + +<\/strong>",
             "title2": "<strong>+ + +<\/strong>",
             "title3": "<strong>-<\/strong>",
-            "title4": ""
+            "title4": "<strong>+ + +<\/strong>"
           }
         },
         "filter_properties_qTzd3V": {
@@ -639,7 +640,7 @@
             "title1": "<strong>+ +<\/strong>",
             "title2": "<strong>+ +<\/strong>",
             "title3": "<strong>-<\/strong>",
-            "title4": ""
+            "title4": "<strong>+ +<\/strong>"
           }
         },
         "filter_properties_nDiihM": {
@@ -649,7 +650,7 @@
             "title1": "<strong>+ + +<\/strong>",
             "title2": "<strong>+ + +<\/strong>",
             "title3": "<strong>-<\/strong>",
-            "title4": ""
+            "title4": "<strong>+ + +<\/strong>"
           }
         },
         "filter_properties_majFxV": {
@@ -659,7 +660,7 @@
             "title1": "<strong>+<\/strong>",
             "title2": "<strong>+ +<\/strong>",
             "title3": "<strong>+ + +<\/strong>",
-            "title4": ""
+            "title4": "<strong>+ + +<\/strong>"
           }
         },
         "filter_properties_hDYaAc": {
@@ -669,7 +670,7 @@
             "title1": "<strong>-<\/strong>",
             "title2": "<strong>+<\/strong>",
             "title3": "<strong>-<\/strong>",
-            "title4": ""
+            "title4": "<strong>-<\/strong>"
           }
         },
         "filter_properties_rLBA7C": {
@@ -679,7 +680,7 @@
             "title1": "<strong>-<\/strong>",
             "title2": "<strong>+<\/strong>",
             "title3": "<strong>+ + +<\/strong>",
-            "title4": ""
+            "title4": "<strong>+ + +<\/strong>"
           }
         },
         "filter_properties_krFcit": {
@@ -689,7 +690,7 @@
             "title1": "4 Monate",
             "title2": "4 Monate",
             "title3": "6 Mon.",
-            "title4": ""
+            "title4": "4\/6 Mon."
           }
         },
         "filter_properties_ymT6b9": {
@@ -699,25 +700,26 @@
             "title1": "~7 l\/min",
             "title2": "~6 l\/min",
             "title3": "~11 l\/min",
-            "title4": ""
+            "title4": "~6 l\/min"
           }
         },
         "filter_product_set_6VQXPC": {
           "type": "filter_product_set",
           "settings": {
-            "title": "",
-            "text": "",
+            "title": "<strong>Untertisch Komplett-Set<\/strong>",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil. <\/p>",
             "product1": "wasserfilter-wasserhahn-duo-active",
-            "text1": "<strong>Duo Active<\/strong>",
-            "image1": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+            "text1": "",
+            "image1": "shopify:\/\/shop_images\/Active_Anschlussset.jpg",
             "product2": "wasserfilter-wasserhahn-duo-active-plus",
-            "text2": "<strong>Duo Active+<\/strong>",
-            "image2": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+            "text2": "",
+            "image2": "shopify:\/\/shop_images\/Active_Anschlussset_e5ebc204-0dce-481a-b2c8-a17940255c9c.jpg",
             "product3": "wasserfilter-wasserhahn-duo-nano",
-            "text3": "<strong>Duo Nano<\/strong>",
-            "image3": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+            "text3": "",
+            "image3": "shopify:\/\/shop_images\/Nano-Anschlussset.jpg",
             "product4": "",
-            "text4": ""
+            "text4": "",
+            "image4": "shopify:\/\/shop_images\/Fusion_Schwarz_Anschlussset.jpg"
           }
         }
       },
