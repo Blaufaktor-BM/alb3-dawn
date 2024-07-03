@@ -325,6 +325,33 @@
             "text6": "Kalkreduktion (Wasserenthärtung)"
           }
         },
+        "icon_text_acc_rhxpii": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "image_width": 75,
+            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
+            "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
+            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<\/strong><\/p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>"
+          }
+        },
+        "text_acc_xkX3wh": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial: <\/strong>Bioton<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>3,0 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>7 l\/min5<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>"
+          }
+        },
         "button_97ULJk": {
           "type": "button",
           "settings": {
@@ -340,6 +367,8 @@
         "subtitle_aUr3DM",
         "text_DyBekM",
         "icon_text_GehLFm",
+        "icon_text_acc_rhxpii",
+        "text_acc_xkX3wh",
         "button_97ULJk"
       ],
       "settings": {
