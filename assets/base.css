@@ -3963,6 +3963,7 @@ slideshow-component .banner__heading.h1 {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 15px 0;
 }
 
 .btn-second {
