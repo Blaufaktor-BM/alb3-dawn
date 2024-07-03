@@ -4007,7 +4007,7 @@ slideshow-component .banner__heading.h1 {
 
 .custom-image-text__icon-text-acc details[open] summary svg,
 .custom-image-text__text-acc details[open] summary svg {
-  transform: rotate(-90deg);
+  transform: rotate(0deg);
   height: 1rem;
 }
 
