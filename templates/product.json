@@ -24,11 +24,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "rating_FVKcLB": {
           "type": "rating",
           "settings": {
@@ -62,6 +57,17 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
           }
         },
         "collapsible_tab_4rRijx": {
@@ -100,12 +106,6 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "complementary_ptQFWL": {
           "type": "complementary",
           "settings": {
@@ -123,18 +123,18 @@
       "block_order": [
         "vendor",
         "title",
-        "description",
         "rating_FVKcLB",
         "price",
         "sku_4U6KpL",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
+        "share",
         "collapsible_tab_4rRijx",
         "collapsible_tab_mzemNT",
         "collapsible_tab_RDPPjF",
         "collapsible_tab_zTQepq",
-        "share",
         "complementary_ptQFWL"
       ],
       "settings": {
