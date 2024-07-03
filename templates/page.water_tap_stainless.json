@@ -120,6 +120,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/output_kqe1Mg.gif",
+        "image_contain": false,
         "small_content_image": true,
         "row_reverse": true,
         "remove_content_spacing": true,
@@ -167,6 +168,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "image_contain": false,
         "small_content_image": false,
         "row_reverse": true,
         "remove_content_spacing": false,
@@ -268,6 +270,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+        "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
         "remove_content_spacing": false,
@@ -373,6 +376,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+        "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
         "remove_content_spacing": false,
@@ -475,6 +479,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+        "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
         "remove_content_spacing": false,
