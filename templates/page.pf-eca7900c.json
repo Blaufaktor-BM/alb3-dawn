@@ -190,20 +190,14 @@
         "heading_cDwzCP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duo Active<\/strong>",
+            "heading": "<strong>Untertisch Active<\/strong>",
             "heading_size": "h1"
-          }
-        },
-        "subtitle_kGFPC6": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Filtert Schadstoffe und schlechten Geschmack"
           }
         },
         "text_7ABmMX": {
           "type": "text",
           "settings": {
-            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine<strong> effektive Filtrierung<\/strong> von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von <strong>10 µm<\/strong>. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text": "<p>Schadstoffrückhalt und erfrischender Trinkgenuss.<\/p><p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
             "text_style": "body"
           }
         },
@@ -218,7 +212,7 @@
             "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
             "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "<strong> Reduzierung von Mikroplastik<\/strong>",
+            "text4": "Reduzierung von Mikroplastik",
             "text5": "",
             "text6": ""
           }
@@ -233,7 +227,7 @@
             "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
             "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
             "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
             "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
             "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
             "text5": "",
@@ -245,14 +239,14 @@
           "settings": {
             "heading": "Technische Daten",
             "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss Blockaktivkohle (gesintert)<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,8 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>7 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>"
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>"
           }
         },
         "button_YRcafF": {
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
+            "button_link1": "shopify:\/\/products\/alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche"
           }
@@ -260,7 +254,6 @@
       },
       "block_order": [
         "heading_cDwzCP",
-        "subtitle_kGFPC6",
         "text_7ABmMX",
         "icon_text_agxb7L",
         "icon_text_acc_kzayFQ",
@@ -268,7 +261,7 @@
         "button_YRcafF"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactivefilterkartusche-1639472477696.jpg",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
