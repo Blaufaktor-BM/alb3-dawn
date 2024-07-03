@@ -415,7 +415,7 @@
         "icon_text_yL6LGK": {
           "type": "icon_text",
           "settings": {
-            "image_width": 75,
+            "image_width": 50,
             "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
             "text1": "Filtration kleinster Mikroorganismen (~99,99%) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
             "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
@@ -426,6 +426,32 @@
             "text4": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
             "text5": "",
             "text6": ""
+          }
+        },
+        "icon_text_acc_yxFNe9": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
+            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "text6": ""
+          }
+        },
+        "text_acc_MF99Aj": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial: <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<\/p>"
           }
         },
         "button_QY3TrU": {
@@ -443,6 +469,8 @@
         "subtitle_bYTtrp",
         "text_tecytA",
         "icon_text_yL6LGK",
+        "icon_text_acc_yxFNe9",
+        "text_acc_MF99Aj",
         "button_QY3TrU"
       ],
       "settings": {
