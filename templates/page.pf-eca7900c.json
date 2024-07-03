@@ -772,6 +772,56 @@
         "padding_bottom": 0
       }
     },
+    "small_image_text_YwVdRj": {
+      "type": "small-image-text",
+      "blocks": {
+        "heading_wFiUKT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
+            "heading_size": "h2",
+            "heading_color": "#003e5f"
+          }
+        },
+        "text_wAkrTw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
+            "text_style": "body",
+            "color": "#616161"
+          }
+        },
+        "button_yBdnGM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Anleitungen",
+            "button_link": "shopify:\/\/pages\/installation-wasserhahnfilter",
+            "color": "#ffffff",
+            "primary_btn": true,
+            "primary_bg": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wFiUKT",
+        "text_wAkrTw",
+        "button_yBdnGM"
+      ],
+      "settings": {
+        "content_wrapper": true,
+        "background_color": "#fafafa",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "mobile_center": true,
+        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
+        "image_width": 235,
+        "image_mobile_width": 220,
+        "image_round": true,
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
     "rich_text_QY3y6B": {
       "type": "rich-text",
       "blocks": {
@@ -854,56 +904,6 @@
         "padding_bottom": 0
       }
     },
-    "small_image_text_YwVdRj": {
-      "type": "small-image-text",
-      "blocks": {
-        "heading_wFiUKT": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
-            "heading_size": "h2",
-            "heading_color": "#003e5f"
-          }
-        },
-        "text_wAkrTw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
-            "text_style": "body",
-            "color": "#616161"
-          }
-        },
-        "button_yBdnGM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Anleitungen",
-            "button_link": "shopify:\/\/pages\/installation-wasserhahnfilter",
-            "color": "#ffffff",
-            "primary_btn": true,
-            "primary_bg": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wFiUKT",
-        "text_wAkrTw",
-        "button_yBdnGM"
-      ],
-      "settings": {
-        "content_wrapper": true,
-        "background_color": "#fafafa",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "mobile_center": true,
-        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
-        "image_width": 235,
-        "image_mobile_width": 220,
-        "image_round": true,
-        "padding_top": 0,
-        "padding_bottom": 10
-      }
-    },
     "custom_contact_HqQUU4": {
       "type": "custom-contact",
       "blocks": {
@@ -979,10 +979,10 @@
     "custom_image_text_kGTRkj",
     "custom_image_text_pWnH7Y",
     "product_compare_3zPw6T",
+    "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
-    "small_image_text_YwVdRj",
     "custom_contact_HqQUU4",
     "multi_image_text_BzK4Mg"
   ]
