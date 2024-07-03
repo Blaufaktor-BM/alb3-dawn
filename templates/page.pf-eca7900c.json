@@ -1032,7 +1032,7 @@
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
         "heading": "Fragen und Antworten",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_color": "#003e5f",
         "heading_alignment": "left",
         "open_first_collapsible_row": true,
