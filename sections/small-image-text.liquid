@@ -44,7 +44,7 @@
           {{ section.settings.heading }}
         </h2>
       {%- endif -%}
-      <div class="wrapper-small_image_text">
+      <div class="wrapper-small_image_text{% if section.settings.image_right %} row-reverse{% endif %}">
         <div
           class="media-small_image_text{% if section.settings.image_round %} image_round{% endif %}"
         >
@@ -116,6 +116,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "image_right",
+      "label": "Image Right"
+    },
     {
       "type": "checkbox",
       "id": "content_wrapper",
