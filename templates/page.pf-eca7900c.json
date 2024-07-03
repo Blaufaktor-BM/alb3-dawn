@@ -775,6 +775,13 @@
     "small_image_text_YwVdRj": {
       "type": "small-image-text",
       "blocks": {
+        "image_m9qM3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
+            "image_width": 120
+          }
+        },
         "heading_wFiUKT": {
           "type": "heading",
           "settings": {
@@ -803,6 +810,7 @@
         }
       },
       "block_order": [
+        "image_m9qM3W",
         "heading_wFiUKT",
         "text_wAkrTw",
         "button_yBdnGM"
