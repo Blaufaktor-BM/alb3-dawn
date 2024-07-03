@@ -72,6 +72,8 @@
 
 .collapsible-row-layout .accordion:not(:first-child):not(.color-scheme-1) {
   margin-top: 1rem;
+  padding-left: 32px;
+
 }
 
 .caption-with-letter-spacing+h2 {
@@ -89,7 +91,6 @@
   margin-bottom: 1.5rem;
   /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
   transform: perspective(0);
-  padding-left: 32px;
 
 }
 
