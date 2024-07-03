@@ -20,8 +20,8 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
-        "image_2": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+        "image": "shopify:\/\/shop_images\/ELEMENT-Untertisch-Kuche-Panorama-Kuche_Topbanner-Landing_01.webp",
+        "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -49,7 +49,7 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "Wasserfilter für den Wasserhahn",
+            "heading": "<strong>Wasserfilter für den Untertisch<\/strong>",
             "color": "#003e5f",
             "heading_size": "h1",
             "font_weight": "700"
@@ -58,14 +58,14 @@
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Frisches Trinkwasser im Handumdrehen<\/p><p>Der Alb Duo Wasserfilter am Wasserhahn sorgt für reines und leckeres Trinkwasser im Handumdrehen. Die Montage ist kinderleicht und mit unseren Adaptern passt der Filter an nahezu jeden handelsüblichen Wasserhahn. Verpasse Deiner Küche ein Upgrade und genieße beste Wasserqualität direkt aus dem Hahn. <\/p>"
+            "text": "<p>Bei jedem Tropfen frisch gefiltertes Trinkwasser<\/p><p>Den Wasserfilter für Ihren Untertisch installieren Sie am Unterbau, direkt unter der Spüle. Dort sorgt der Alb Filter Element für frisch gefilterten Trinkgenuss direkt aus dem Wasserhahn. <\/p>"
           }
         },
         "button_RNbMXW": {
           "type": "button",
           "settings": {
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/wasserhahnfilter",
+            "button_link": "shopify:\/\/collections\/wasserfilter-untertisch",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -668,7 +668,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
-            "color": "#fff",
+            "color": "#ffffff",
             "heading_size": "h1"
           }
         },
@@ -676,14 +676,14 @@
           "type": "subheading",
           "settings": {
             "subheading": "Gewinde-Ratgeber",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "text_KzRCVd": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Ja!<\/strong>In 85% der Fälle hast Du vermutlich entweder einen Wasserhahn mit einem M22- oder M24-Gewindeanschluss. Im Lieferumfang enthalten ist ein zusätzlicher Edelstahl-Adapter für M24-Gewinde. Für alle anderen Wasserhähne haben wir weitere Adapter in unserem Shop.<br\/><br\/>Am Besten misst Du schon vor Deiner Bestellung das Gewinde deines Wasserhahns und wählst den entsprechenden Adapter direkt bei der Bestellung mit aus. Dann bekommst du den richtigen Adapter kostenfrei zu deiner Bestellung dazu. Mit unserem kleinen Ratgeber kannst Du einfach prüfen welchen Adapter Du benötigst.<br\/><br\/>Alternativ kannst Du Dich auch telefonisch oder per Email beraten lassen. Wir helfen Dir gerne.<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "button_NfU937": {
@@ -706,7 +706,7 @@
       "settings": {
         "background_color": "#003e5f",
         "btn_bg": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "padding_top": 58,
         "padding_bottom": 53
       }
