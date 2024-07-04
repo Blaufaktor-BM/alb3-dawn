@@ -4648,7 +4648,7 @@ slideshow-component .banner__heading.h1 {
   list-style-position: outside;
 }
 
-.item_bottom_text-product_slider li {
+.item_bottom_text-product_slider li:not(:last-child) {
   margin-bottom: 10px;
 }
 
