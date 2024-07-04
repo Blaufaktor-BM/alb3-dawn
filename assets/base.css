@@ -3577,18 +3577,18 @@ details-disclosure>details {
 
 /* addition css */
 @font-face {
-  font-family: "amsi-bold";
+  font-family: "Amis Pro Bold";
   src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-bold.woff2?v=1699626855") format("woff2");
 }
 
 @font-face {
-  font-family: "amsi-ligt";
+  font-family: "Amis Pro Light";
   src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-light.woff2?v=1699626920") format("woff2");
 }
 
 .button,
 .second-font {
-  font-family: "amsi-ligt";
+  font-family: "Amis Pro Light";
 }
 
 h1,
@@ -3623,7 +3623,7 @@ h5,
 .header__menu-item {
   padding: 2.2rem 1.2rem;
   color: rgba(var(--color-foreground));
-  font-family: "amsi-ligt";
+  font-family: "Amis Pro Light";
 }
 
 .header__submenu.list-menu {
@@ -3710,7 +3710,7 @@ details[open]>.header__menu-item,
 }
 
 .footer-block__details-content {
-  font-family: "amsi-ligt";
+  font-family: "Amis Pro Light";
 }
 
 .footer-block__details-content .list-menu__item--link,
@@ -3932,6 +3932,7 @@ slideshow-component .banner__heading.h1 {
   display: flex;
   justify-content: center;
   padding: 45px 25px;
+  gap: 30px;
 }
 
 .remove_content_spacing .content-custom-image_text {
@@ -3953,6 +3954,7 @@ slideshow-component .banner__heading.h1 {
 .custom_image_text-subtitle {
   margin-top: 0;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .custom_image_text-text {
@@ -4451,7 +4453,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .item_title-multi_content strong {
-  font-family: "amsi-bold";
+  font-family: "Amis Pro Light";
 }
 
 .item_subtitle-multi_content {
@@ -5008,7 +5010,7 @@ slideshow-component .banner__heading.h1 {
 
 .small_image_text-title strong {
   font-weight: bold;
-  font-family: "amsi-bold";
+  font-family: "Amis Pro Light";
 }
 
 .wrapper-small_image_text {
