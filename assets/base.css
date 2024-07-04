@@ -4135,6 +4135,10 @@ slideshow-component .banner__heading.h1 {
 }
 
 @media (max-width: 749px) {
+  .section-custom_image_text .page-width {
+    padding: 0;
+  }
+
   .media-custom_image_text {
     position: relative;
     padding-bottom: 100%;
@@ -4201,6 +4205,7 @@ slideshow-component .banner__heading.h1 {
 
 .content-image_multi_text {
   width: 100%;
+  padding: 0 25px;
 }
 
 .media-image_multi_text img {
@@ -4222,6 +4227,12 @@ slideshow-component .banner__heading.h1 {
 
   .media-image_multi_text {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .section-image_multi_text .page-width {
+    padding: 0;
   }
 }
 
@@ -4706,6 +4717,12 @@ slideshow-component .banner__heading.h1 {
 @media only screen and (min-width: 750px) {
   .products-product_slider {
     padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .section-product_slider .page-width {
+    padding: 0;
   }
 }
 
