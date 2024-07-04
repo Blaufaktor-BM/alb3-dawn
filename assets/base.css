@@ -4645,24 +4645,8 @@ slideshow-component .banner__heading.h1 {
 
 .item_bottom_text-product_slider ul {
   padding: 0;
-  list-style: none;
   font-size: 14px;
-}
-
-.item_bottom_text-product_slider li {
-  position: relative;
-  padding-left: 15px;
-}
-
-.item_bottom_text-product_slider li:before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  background: #616161;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 9px;
+  list-style-position: outside;
 }
 
 .bottom-product_slider,
