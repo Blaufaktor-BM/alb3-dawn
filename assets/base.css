@@ -4751,19 +4751,17 @@ slideshow-component .banner__heading.h1 {
   padding: 30px 0;
 }
 
+.products-product_slider .swiper-button-prev,
+.products-product_slider .swiper-button-next {
+  display: block !important;
+}
+
 @media only screen and (max-width: 989px) {
   .section-product_slider .page-width {
     padding: 0;
   }
 }
 
-@media only screen and (min-width: 750px) {
-
-  .products-product_slider .swiper-button-prev,
-  .products-product_slider .swiper-button-next {
-    display: block !important;
-  }
-}
 
 /* product slider */
 /* instagram */
