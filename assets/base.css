@@ -4646,6 +4646,7 @@ slideshow-component .banner__heading.h1 {
 .item_bottom_text-product_slider ul {
   padding: 0;
   list-style: none;
+  font-size: 14px;
 }
 
 .item_bottom_text-product_slider li {
