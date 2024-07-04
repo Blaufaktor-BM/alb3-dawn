@@ -4650,6 +4650,7 @@ slideshow-component .banner__heading.h1 {
 .item_bottom_text-product_slider li {
   position: relative;
   padding-left: 15px;
+  list-style: none;
 }
 
 .item_bottom_text-product_slider li:before {
