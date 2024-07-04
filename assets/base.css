@@ -5169,6 +5169,12 @@ slideshow-component .banner__heading.h1 {
   gap: 8px;
 }
 
+@media only screen and (min-width: 989px) {
+  .section-product_compare .page-width {
+    padding: 0;
+  }
+}
+
 @media only screen and (min-width: 750px) {
   .list_option4 .item-list {
     max-width: 66.66%;
