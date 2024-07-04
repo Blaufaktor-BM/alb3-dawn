@@ -4088,9 +4088,12 @@ slideshow-component .banner__heading.h1 {
     flex-direction: row-reverse;
   }
 
-  .main-custom-image_text,
+  .main-custom-image_text {
+    max-width: 60%;
+  }
+
   .media-custom_image_text {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   .remove_content_spacing .main-custom-image_text,
@@ -4131,6 +4134,14 @@ slideshow-component .banner__heading.h1 {
   .image_contain .media-custom_image_text img {
     height: auto;
     object-fit: contain
+  }
+}
+
+@media only screen and (min-width: 990px) {
+
+  .main-custom-image_text,
+  .media-custom_image_text {
+    max-width: 50%;
   }
 }
 
