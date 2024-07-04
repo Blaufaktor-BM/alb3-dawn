@@ -4349,7 +4349,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .main-column-image_text {
-  padding: 25px 45px;
+  padding: 25px 30px;
 }
 
 .column_image_text-heading {
@@ -4380,6 +4380,12 @@ slideshow-component .banner__heading.h1 {
 @media (max-width: 989px) {
   .section-column_image_text .page-width {
     padding: 0;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .main-column-image_text {
+    padding: 25px 45px;
   }
 }
 
