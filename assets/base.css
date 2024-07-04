@@ -4643,6 +4643,26 @@ slideshow-component .banner__heading.h1 {
   margin-top: 20px;
 }
 
+.item_bottom_text-product_slider ul {
+  padding: 0;
+}
+
+.item_bottom_text-product_slider li {
+  position: relative;
+  padding-left: 15px;
+}
+
+.item_bottom_text-product_slider li:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #616161;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
 .bottom-product_slider,
 .top-product_slider {
   border-radius: 3px;
