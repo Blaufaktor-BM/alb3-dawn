@@ -264,7 +264,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "content_image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+        "image_contain": false,
+        "small_content_image": false,
         "row_reverse": false,
+        "remove_content_spacing": false,
         "top_radius": true,
         "background_color": "",
         "content_bg": "#e7edef",
@@ -320,7 +323,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
         "content_image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+        "image_contain": false,
+        "small_content_image": false,
         "row_reverse": true,
+        "remove_content_spacing": false,
         "top_radius": false,
         "background_color": "",
         "content_bg": "#ecedf1",
@@ -376,7 +382,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
         "content_image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+        "image_contain": false,
+        "small_content_image": false,
         "row_reverse": false,
+        "remove_content_spacing": false,
         "top_radius": false,
         "background_color": "",
         "content_bg": "#ebf1ed",
@@ -480,6 +489,40 @@
             "second_btn_text": "Mehr erfahren",
             "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
           }
+        },
+        "item_3cghUg": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Duschfilterkartusche",
+            "heading": "Shungit",
+            "heading_size": "h2",
+            "image": "shopify:\/\/shop_images\/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
+            "text": "<p>Die Duschfilterkartusche Shungit verbessert die Wasserqualität, indem das Urgestein Shungit Verunreinigungen reduziert und das Wasser klärt. <\/p>",
+            "icon_title": "Anwendungsbereich",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "bottom_text": "<ul><li>Veringert Fremdgerüche<\/li><li>Binden von freien Radikalen<\/li><li>Adsorptiv, katalytische und bakterizid<\/li><li>\"Jungbrunnen\"<\/li><\/ul>",
+            "btn_text": "Kaufen",
+            "btn_url": "shopify:\/\/products\/alb-filterkartusche-shungit",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
+          }
+        },
+        "item_zNXyMi": {
+          "type": "item",
+          "settings": {
+            "subtitle": "Duschfilterkartusche",
+            "heading": "Shungit",
+            "heading_size": "h2",
+            "image": "shopify:\/\/shop_images\/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
+            "text": "<p>Die Duschfilterkartusche Shungit verbessert die Wasserqualität, indem das Urgestein Shungit Verunreinigungen reduziert und das Wasser klärt. <\/p>",
+            "icon_title": "Anwendungsbereich",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "bottom_text": "<ul><li>Veringert Fremdgerüche<\/li><li>Binden von freien Radikalen<\/li><li>Adsorptiv, katalytische und bakterizid<\/li><li>\"Jungbrunnen\"<\/li><\/ul>",
+            "btn_text": "Kaufen",
+            "btn_url": "shopify:\/\/products\/alb-filterkartusche-shungit",
+            "second_btn_text": "Mehr erfahren",
+            "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
+          }
         }
       },
       "block_order": [
@@ -487,7 +530,9 @@
         "item_VfJw9p",
         "item_EGBwGw",
         "item_bNizQN",
-        "item_HFbByW"
+        "item_HFbByW",
+        "item_3cghUg",
+        "item_zNXyMi"
       ],
       "settings": {
         "top_bg_color": "#f2f2f2",
