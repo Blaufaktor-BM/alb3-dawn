@@ -4708,7 +4708,6 @@ slideshow-component .banner__heading.h1 {
 
 .products-product_slider .swiper-button-prev,
 .products-product_slider .swiper-button-next {
-  display: block !important;
   background-color: rgba(0, 0, 0, .4);
   width: 40px;
   height: 40px;
@@ -4753,6 +4752,14 @@ slideshow-component .banner__heading.h1 {
 @media only screen and (max-width: 989px) {
   .section-product_slider .page-width {
     padding: 0;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+
+  .products-product_slider .swiper-button-prev,
+  .products-product_slider .swiper-button-next {
+    display: block !important;
   }
 }
 
