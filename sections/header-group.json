@@ -247,6 +247,20 @@
             "btn_text2": "Kaufen",
             "btn_url2": "shopify:\/\/collections\/duschfilter"
           }
+        },
+        "mobile_mega_EamXXr": {
+          "type": "mobile_mega",
+          "settings": {
+            "parent_menu": "Campingfilter",
+            "image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil_01_9fd24d51-20b2-499e-9f68-2f61f2446231.jpg"
+          }
+        },
+        "mobile_mega_DCbx9E": {
+          "type": "mobile_mega",
+          "settings": {
+            "parent_menu": "Service",
+            "image": "shopify:\/\/shop_images\/Hose-Schraubenschlussel_589563588.jpg"
+          }
         }
       },
       "block_order": [
@@ -262,7 +276,9 @@
         "product_item_UrwcC3",
         "mobile_mega_rEfdQy",
         "content_item_JcRA9t",
-        "product_item_U6jzpd"
+        "product_item_U6jzpd",
+        "mobile_mega_EamXXr",
+        "mobile_mega_DCbx9E"
       ],
       "settings": {
         "logo_position": "middle-left",
