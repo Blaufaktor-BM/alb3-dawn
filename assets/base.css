@@ -3871,6 +3871,10 @@ summary.list-menu__item>a {
   background: transparent !important;
 }
 
+.CarouselWidget-prefix .CarouselWidget .R-ReviewsList-container .R-ReviewsList__controlButton {
+  z-index: 1 !important;
+}
+
 .caption-large,
 .customer .field input,
 .customer select,
