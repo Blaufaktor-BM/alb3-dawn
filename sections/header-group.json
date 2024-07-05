@@ -205,6 +205,20 @@
             "parent_menu": "Campingfilter",
             "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp"
           }
+        },
+        "content_item_JcRA9t": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Duschfilter",
+            "submenu_title": "Alle Filter",
+            "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
+            "info_title": "Info",
+            "info_text": "<p>Wasserfilter zur einfachen Installation an der Duscharmatur.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/duschfilter",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": ""
+          }
         }
       },
       "block_order": [
@@ -218,7 +232,8 @@
         "content_item_VR9Ehz",
         "content_item_eyDp8b",
         "product_item_UrwcC3",
-        "mobile_mega_rEfdQy"
+        "mobile_mega_rEfdQy",
+        "content_item_JcRA9t"
       ],
       "settings": {
         "logo_position": "middle-left",
