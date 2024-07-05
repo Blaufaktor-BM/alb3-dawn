@@ -157,6 +157,20 @@
             "info_btn2_text": "Kaufen",
             "info_btn2_url": "shopify:\/\/collections\/camping-travel"
           }
+        },
+        "content_item_eyDp8b": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Campingfilter",
+            "submenu_title": "Kombifilter ProCamper",
+            "image": "shopify:\/\/shop_images\/Product-pics-camping-ENG-00064.jpg",
+            "info_title": "Info",
+            "info_text": "<p>Set aus Befüll- und Einbau-Wasserfilter für Wohnmobil, Camper und Boote.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/camping-wasserfilter-travel",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/camping-travel"
+          }
         }
       },
       "block_order": [
@@ -167,7 +181,8 @@
         "mobile_mega_NCAKeH",
         "content_item_C9yfVw",
         "content_item_4QFBmB",
-        "content_item_VR9Ehz"
+        "content_item_VR9Ehz",
+        "content_item_eyDp8b"
       ],
       "settings": {
         "logo_position": "middle-left",
