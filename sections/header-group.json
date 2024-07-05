@@ -38,10 +38,76 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "content_item_DRAkWc": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "",
+            "submenu_title": "",
+            "info_title": "Info",
+            "info_text": "",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": ""
+          }
+        },
+        "content_item_BhPdRm": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Alle Filter",
+            "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_Frau_1500x_0f06fa63-2a25-4d37-bf39-7bbb4aad8c57.webp",
+            "info_title": "Info",
+            "info_text": "<p>Hochwertige Wasserfilter zur Trinkwasseraufbereitung in der Küche. Für unter der Spüle oder direkt am Wasserhahn<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/trinkwasserfilter",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/trinkwasserfilter"
+          }
+        },
+        "product_item_3e6Ypm": {
+          "type": "product_item",
+          "settings": {
+            "parent_title": "",
+            "submenu_title": "",
+            "first_title": "Schadstofffilter",
+            "first_item_title1": "",
+            "first_item_text1": "",
+            "first_item_url1": "",
+            "first_item_title2": "",
+            "first_item_text2": "",
+            "first_item_url2": "",
+            "second_title": "Schadstofffilter",
+            "second_item_title1": "",
+            "second_item_text1": "",
+            "second_item_url1": "",
+            "second_item_title2": "",
+            "second_item_text2": "",
+            "second_item_url2": "",
+            "btn_text1": "",
+            "btn_url1": "",
+            "btn_text2": "",
+            "btn_url2": ""
+          }
+        },
+        "mobile_mega_NCAKeH": {
+          "type": "mobile_mega",
+          "settings": {
+            "parent_menu": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_item_DRAkWc",
+        "content_item_BhPdRm",
+        "product_item_3e6Ypm",
+        "mobile_mega_NCAKeH"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-1",
