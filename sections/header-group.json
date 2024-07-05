@@ -115,6 +115,20 @@
             "parent_menu": "Trinkwasserfilter",
             "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp"
           }
+        },
+        "content_item_C9yfVw": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Campingfilter",
+            "submenu_title": "Alle Filter",
+            "image": "shopify:\/\/shop_images\/BG-Camper-Strand_02.webp",
+            "info_title": "Info",
+            "info_text": "<p>Wasserfilter zur effizienten Aufbereitung von Leitungswasser für Wohnmobil, Camper und Boot.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/camping-wasserfilter",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/camping-wasserfilter"
+          }
         }
       },
       "block_order": [
@@ -122,7 +136,8 @@
         "content_item_DRAkWc",
         "content_item_D3jbHX",
         "product_item_3e6Ypm",
-        "mobile_mega_NCAKeH"
+        "mobile_mega_NCAKeH",
+        "content_item_C9yfVw"
       ],
       "settings": {
         "logo_position": "middle-left",
