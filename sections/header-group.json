@@ -109,38 +109,11 @@
             "btn_url2": ""
           }
         },
-        "product_item_DrVy6N": {
-          "type": "product_item",
-          "settings": {
-            "parent_title": "Trinkwasserfilter",
-            "submenu_title": "Zubehör",
-            "first_title": "Schadstofffilter",
-            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
-            "first_item_title1": "Active",
-            "first_item_text1": "<p>Schadstoffe<br\/>Geschmack<\/p>",
-            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-active",
-            "first_img2": "shopify:\/\/shop_images\/alb-filter-kartusche-active-plus-4260590610713-899.jpg",
-            "first_item_title2": "Active Plus+",
-            "first_item_text2": "<p>Schadstoffe<br\/>Geschmack<br\/>Bakterien<\/p>",
-            "first_item_url2": "shopify:\/\/products\/wasserfilter-kartusche-active-plus",
-            "second_title": "Keimfilter",
-            "second_img1": "shopify:\/\/shop_images\/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
-            "second_item_title1": "Nano",
-            "second_item_text1": "<p>Kleinste Bakterien<br\/>Keime<br\/>Mikroplastik<br\/>Legionellen-Schutz<\/p>",
-            "second_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-nano",
-            "second_item_title2": "",
-            "second_item_text2": "",
-            "second_item_url2": "",
-            "btn_text1": "",
-            "btn_url1": "",
-            "btn_text2": "",
-            "btn_url2": ""
-          }
-        },
         "mobile_mega_NCAKeH": {
           "type": "mobile_mega",
           "settings": {
-            "parent_menu": ""
+            "parent_menu": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp"
           }
         }
       },
@@ -149,7 +122,6 @@
         "content_item_DRAkWc",
         "content_item_D3jbHX",
         "product_item_3e6Ypm",
-        "product_item_DrVy6N",
         "mobile_mega_NCAKeH"
       ],
       "settings": {
