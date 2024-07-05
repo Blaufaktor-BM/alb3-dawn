@@ -12,6 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "rating_FVKcLB": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -27,18 +32,8 @@
         "text_FQL9Cj": {
           "type": "text",
           "settings": {
-            "text": "Textblock",
+            "text": "{{ product.metafields.custom.kurzbeschreibung_produkt.value }}",
             "text_style": "body"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "rating_FVKcLB": {
-          "type": "rating",
-          "settings": {
           }
         },
         "price": {
@@ -104,11 +99,10 @@
         }
       },
       "block_order": [
+        "rating_FVKcLB",
         "vendor",
         "title",
         "text_FQL9Cj",
-        "description",
-        "rating_FVKcLB",
         "price",
         "sku_4U6KpL",
         "variant_picker",
