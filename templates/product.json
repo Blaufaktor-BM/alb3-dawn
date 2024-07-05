@@ -47,6 +47,12 @@
             "text_style": "uppercase"
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -71,20 +77,14 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "image_1": "shopify:\/\/shop_images\/DHL.png",
+            "image_1": "shopify:\/\/shop_images\/CHK_d22d0415-8de6-4ee6-95ed-893c3e5383de.png",
             "heading_1": "Kostenloser Versand (innerhalb Deutschlands)",
             "icon_2": "return",
-            "image_2": "shopify:\/\/shop_images\/LKW.png",
+            "image_2": "shopify:\/\/shop_images\/CHK_d22d0415-8de6-4ee6-95ed-893c3e5383de.png",
             "heading_2": "30 Tage Rückgaberecht",
             "icon_3": "heart",
-            "image_3": "shopify:\/\/shop_images\/PAY.png",
+            "image_3": "shopify:\/\/shop_images\/CHK_d22d0415-8de6-4ee6-95ed-893c3e5383de.png",
             "heading_3": "Einfache Zahlung"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Teilen"
           }
         },
         "complementary_ptQFWL": {
@@ -108,11 +108,11 @@
         "text_FQL9Cj",
         "price",
         "sku_4U6KpL",
+        "share",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "icon_with_text_fP6tNW",
-        "share",
         "complementary_ptQFWL"
       ],
       "settings": {
