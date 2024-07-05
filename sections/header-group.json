@@ -198,6 +198,13 @@
             "btn_text2": "Kaufen",
             "btn_url2": "shopify:\/\/collections\/pro-camper"
           }
+        },
+        "mobile_mega_rEfdQy": {
+          "type": "mobile_mega",
+          "settings": {
+            "parent_menu": "Campingfilter",
+            "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp"
+          }
         }
       },
       "block_order": [
@@ -210,7 +217,8 @@
         "content_item_4QFBmB",
         "content_item_VR9Ehz",
         "content_item_eyDp8b",
-        "product_item_UrwcC3"
+        "product_item_UrwcC3",
+        "mobile_mega_rEfdQy"
       ],
       "settings": {
         "logo_position": "middle-left",
