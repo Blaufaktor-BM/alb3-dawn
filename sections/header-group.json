@@ -84,12 +84,13 @@
         "product_item_3e6Ypm": {
           "type": "product_item",
           "settings": {
-            "parent_title": "",
-            "submenu_title": "",
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Filterkartuschen",
             "first_title": "Schadstofffilter",
-            "first_item_title1": "",
-            "first_item_text1": "",
-            "first_item_url1": "",
+            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
+            "first_item_title1": "Active",
+            "first_item_text1": "<p>Schadstoffe<br\/>Geschmack<\/p>",
+            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-active",
             "first_item_title2": "",
             "first_item_text2": "",
             "first_item_url2": "",
