@@ -67,6 +67,20 @@
             "info_btn2_url": "shopify:\/\/collections\/wasserhahnfilter"
           }
         },
+        "content_item_D3jbHX": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Untertisch",
+            "image": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
+            "info_title": "Info",
+            "info_text": "<p>Wasserfilter zur Montage unter der Spüle direkt nach dem Eckventil.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/wasserfilter-untertisch",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/wasserfilter-untertisch"
+          }
+        },
         "product_item_3e6Ypm": {
           "type": "product_item",
           "settings": {
@@ -102,6 +116,7 @@
       "block_order": [
         "content_item_BhPdRm",
         "content_item_DRAkWc",
+        "content_item_D3jbHX",
         "product_item_3e6Ypm",
         "mobile_mega_NCAKeH"
       ],
