@@ -171,6 +171,33 @@
             "info_btn2_text": "Kaufen",
             "info_btn2_url": "shopify:\/\/collections\/pro-camper"
           }
+        },
+        "product_item_UrwcC3": {
+          "type": "product_item",
+          "settings": {
+            "parent_title": "Campingfilter",
+            "submenu_title": "Filterkartuschen",
+            "first_title": "Schadstofffilter",
+            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
+            "first_item_title1": "Active",
+            "first_item_text1": "<p>Schadstoffe<br\/>Geschmack<\/p>",
+            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "first_item_title2": "",
+            "first_item_text2": "",
+            "first_item_url2": "",
+            "second_title": "Keimfilter",
+            "second_img1": "shopify:\/\/shop_images\/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
+            "second_item_title1": "Nano",
+            "second_item_text1": "<p>Kleinste Bakterien<br\/>Keime<br\/>Mikroplastik<br\/>Legionellen-Schutz<\/p>",
+            "second_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "second_item_title2": "",
+            "second_item_text2": "",
+            "second_item_url2": "",
+            "btn_text1": "",
+            "btn_url1": "",
+            "btn_text2": "",
+            "btn_url2": ""
+          }
         }
       },
       "block_order": [
@@ -182,7 +209,8 @@
         "content_item_C9yfVw",
         "content_item_4QFBmB",
         "content_item_VR9Ehz",
-        "content_item_eyDp8b"
+        "content_item_eyDp8b",
+        "product_item_UrwcC3"
       ],
       "settings": {
         "logo_position": "middle-left",
