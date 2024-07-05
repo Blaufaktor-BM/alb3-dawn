@@ -193,10 +193,10 @@
             "second_item_title2": "",
             "second_item_text2": "",
             "second_item_url2": "",
-            "btn_text1": "",
-            "btn_url1": "",
-            "btn_text2": "",
-            "btn_url2": ""
+            "btn_text1": "<strong>Überblick <\/strong>Filterkartuschen",
+            "btn_url1": "shopify:\/\/pages\/wasserfilter-kartuschen",
+            "btn_text2": "Kaufen",
+            "btn_url2": "shopify:\/\/collections\/pro-camper"
           }
         }
       },
