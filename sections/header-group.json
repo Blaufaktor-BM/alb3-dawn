@@ -219,6 +219,32 @@
             "info_btn2_text": "Kaufen",
             "info_btn2_url": "shopify:\/\/collections\/duschfilter"
           }
+        },
+        "product_item_U6jzpd": {
+          "type": "product_item",
+          "settings": {
+            "parent_title": "Duschfilter",
+            "submenu_title": "Filterkartuschen",
+            "first_title": "Duschfilter",
+            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-balance-4260590610683-314.jpg",
+            "first_item_title1": "Balance",
+            "first_item_text1": "<p>Schadstoffe<br\/>Mineralisierung<br\/>Stabilisierung<\/p>",
+            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-balance",
+            "first_item_title2": "",
+            "first_item_text2": "",
+            "first_item_url2": "",
+            "second_title": "Schadstofffilter",
+            "second_item_title1": "",
+            "second_item_text1": "",
+            "second_item_url1": "",
+            "second_item_title2": "",
+            "second_item_text2": "",
+            "second_item_url2": "",
+            "btn_text1": "",
+            "btn_url1": "",
+            "btn_text2": "",
+            "btn_url2": ""
+          }
         }
       },
       "block_order": [
@@ -233,7 +259,8 @@
         "content_item_eyDp8b",
         "product_item_UrwcC3",
         "mobile_mega_rEfdQy",
-        "content_item_JcRA9t"
+        "content_item_JcRA9t",
+        "product_item_U6jzpd"
       ],
       "settings": {
         "logo_position": "middle-left",
