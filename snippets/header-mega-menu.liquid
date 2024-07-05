@@ -110,16 +110,18 @@
                                   {% if block.type == 'content_item' %}
                                     {% if block.settings.image != blank %}
                                       <div class="mega-img">
-                                        {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
-                                        {%- capture sizes -%}
-                                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
-                                          (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
-                                      {%- endcapture -%}
-                                        {{
-                                          block.settings.image
-                                          | image_url: width: 1500
-                                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                                        }}
+                                        <div class="mega-img-wrapper">
+                                          {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                                          {%- capture sizes -%}
+                                              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                                              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                                          {%- endcapture -%}
+                                          {{
+                                            block.settings.image
+                                            | image_url: width: 1500
+                                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                          }}
+                                        </div>
                                       </div>
                                     {% endif %}
                                     {% if block.settings.info_title != blank
