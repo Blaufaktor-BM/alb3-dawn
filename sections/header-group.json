@@ -38,10 +38,96 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "content_item_BhPdRm": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Alle Filter",
+            "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_Frau_1500x_0f06fa63-2a25-4d37-bf39-7bbb4aad8c57.webp",
+            "info_title": "Info",
+            "info_text": "<p>Hochwertige Wasserfilter zur Trinkwasseraufbereitung in der Küche. Für unter der Spüle oder direkt am Wasserhahn<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/trinkwasserfilter",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/trinkwasserfilter"
+          }
+        },
+        "content_item_DRAkWc": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Wasserhahn",
+            "image": "shopify:\/\/shop_images\/DUO-Tee-Kuche-Parchen-Winter_WEB-MOBIL-fff_07.jpg",
+            "info_title": "Info",
+            "info_text": "<p>Wasserfilter am Wasserhahn mit praktischer Umschaltfunktion.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/wasserhahnfilter"
+          }
+        },
+        "content_item_D3jbHX": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Untertisch",
+            "image": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
+            "info_title": "Info",
+            "info_text": "<p>Wasserfilter zur Montage unter der Spüle direkt nach dem Eckventil.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/wasserfilter-untertisch",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/wasserfilter-untertisch"
+          }
+        },
+        "product_item_3e6Ypm": {
+          "type": "product_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Filterkartuschen",
+            "first_title": "Schadstofffilter",
+            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
+            "first_item_title1": "Active",
+            "first_item_text1": "<p>Schadstoffe<br\/>Geschmack<\/p>",
+            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "first_img2": "shopify:\/\/shop_images\/alb-filter-kartusche-active-plus-4260590610713-899.jpg",
+            "first_item_title2": "Active Plus+",
+            "first_item_text2": "<p>Schadstoffe<br\/>Geschmack<br\/>Bakterien<\/p>",
+            "first_item_url2": "shopify:\/\/products\/wasserfilter-kartusche-active-plus",
+            "second_title": "Keimfilter",
+            "second_img1": "shopify:\/\/shop_images\/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
+            "second_item_title1": "Nano",
+            "second_item_text1": "<p>Kleinste Bakterien<br\/>Keime<br\/>Mikroplastik<br\/>Legionellen-Schutz<\/p>",
+            "second_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "second_item_title2": "",
+            "second_item_text2": "",
+            "second_item_url2": "",
+            "btn_text1": "",
+            "btn_url1": "",
+            "btn_text2": "",
+            "btn_url2": ""
+          }
+        },
+        "mobile_mega_NCAKeH": {
+          "type": "mobile_mega",
+          "settings": {
+            "parent_menu": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp"
+          }
+        }
+      },
+      "block_order": [
+        "content_item_BhPdRm",
+        "content_item_DRAkWc",
+        "content_item_D3jbHX",
+        "product_item_3e6Ypm",
+        "mobile_mega_NCAKeH"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-1",
