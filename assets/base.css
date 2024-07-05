@@ -3867,6 +3867,7 @@ summary.list-menu__item>a {
   border-bottom: 1px solid;
 }
 
+.menu-drawer__menu-item--active,
 .menu-drawer__menu-item:hover {
   background: transparent !important;
 }
