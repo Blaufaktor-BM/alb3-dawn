@@ -71,10 +71,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "heading_1": "Kostenloser Versand (Deutschland)",
+            "image_1": "shopify:\/\/shop_images\/DHL.png",
+            "heading_1": "Kostenloser Versand (innerhalb Deutschlands)",
             "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/LKW.png",
             "heading_2": "30 Tage Rückgaberecht",
             "icon_3": "heart",
+            "image_3": "shopify:\/\/shop_images\/PAY.png",
             "heading_3": "Einfache Zahlung"
           }
         },
