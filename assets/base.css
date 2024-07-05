@@ -3804,6 +3804,10 @@ summary.list-menu__item>a {
   font-size: 14px;
 }
 
+.mega-menu-wrapper .mega-menu__link--active {
+  text-decoration: none;
+}
+
 .mega-menu-wrapper .btn-second {
   color: rgba(var(--color-foreground));
   font-size: 14px;
