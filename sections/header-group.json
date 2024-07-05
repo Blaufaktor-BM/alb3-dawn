@@ -39,19 +39,6 @@
     "header": {
       "type": "header",
       "blocks": {
-        "content_item_DRAkWc": {
-          "type": "content_item",
-          "settings": {
-            "parent_title": "",
-            "submenu_title": "",
-            "info_title": "Info",
-            "info_text": "",
-            "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "",
-            "info_btn2_text": "Kaufen",
-            "info_btn2_url": ""
-          }
-        },
         "content_item_BhPdRm": {
           "type": "content_item",
           "settings": {
@@ -64,6 +51,20 @@
             "info_btn1_url": "shopify:\/\/pages\/trinkwasserfilter",
             "info_btn2_text": "Kaufen",
             "info_btn2_url": "shopify:\/\/collections\/trinkwasserfilter"
+          }
+        },
+        "content_item_DRAkWc": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "Trinkwasserfilter",
+            "submenu_title": "Wasserhahn",
+            "image": "shopify:\/\/shop_images\/DUO-Tee-Kuche-Parchen-Winter_WEB-MOBIL-fff_07.jpg",
+            "info_title": "Info",
+            "info_text": "<p>Wasserfilter am Wasserhahn mit praktischer Umschaltfunktion.<\/p>",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": "shopify:\/\/collections\/wasserhahnfilter"
           }
         },
         "product_item_3e6Ypm": {
@@ -99,8 +100,8 @@
         }
       },
       "block_order": [
-        "content_item_DRAkWc",
         "content_item_BhPdRm",
+        "content_item_DRAkWc",
         "product_item_3e6Ypm",
         "mobile_mega_NCAKeH"
       ],
