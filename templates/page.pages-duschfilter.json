@@ -20,7 +20,7 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ELEMENT-Untertisch-Kuche-Panorama-Kuche_Topbanner-Landing_01.webp",
+        "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
         "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -40,7 +40,7 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "ALB DUO",
+            "heading": "ALB ELEMENT",
             "color": "#003e5f",
             "heading_size": "h0",
             "font_weight": "200"
@@ -49,7 +49,7 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Wasserfilter für den Untertisch<\/strong>",
+            "heading": "<strong>Duschfilter<\/strong>",
             "color": "#003e5f",
             "heading_size": "h1",
             "font_weight": "700"
@@ -58,14 +58,14 @@
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Bei jedem Tropfen frisch gefiltertes Trinkwasser<\/p><p>Den Wasserfilter für Ihren Untertisch installieren Sie am Unterbau, direkt unter der Spüle. Dort sorgt der Alb Filter Element für frisch gefilterten Trinkgenuss direkt aus dem Wasserhahn. <\/p>"
+            "text": "<p>Wasserfilter für die Dusche, Kalkfilter, Legionellenfilter: Für ein besonderes Duscherlebnis<\/p><p>Gönne Dir tägliche Wellness für Haut und Haar mit den Duschfiltern von Alb. Unsere Kunden freuen sich über ein weiches Hautgefühl, geschmeidigere Haaren und sogar Linderung bei Hautbeschwerden. Die zertifizierte Nano-Kartusche bietet außerdem präventiven und akuten Schutz vor Legionellen. <br\/><\/p>"
           }
         },
         "button_RNbMXW": {
           "type": "button",
           "settings": {
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/wasserfilter-untertisch",
+            "button_link": "shopify:\/\/collections\/duschfilter",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -100,17 +100,18 @@
           "type": "icon_text",
           "settings": {
             "image_width": 84,
-            "image1": "shopify:\/\/shop_images\/pf-352dc002--albfiltericonsetparameters13cornervalve.svg",
-            "text1": "Anschluss direkt am Kaltwasser-Eckventil",
-            "image2": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
-            "text2": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
+            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin-mk_dark-blue.svg",
+            "text1": "Tägliche Wellness für Haut und Haar",
+            "image2": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text2": "Zuverlässiger Schutz vor Legionellen (Kartusche Alb Filter® NANO)",
             "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
-            "text3": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit. ",
+            "text3": "Ein Gehäuse, unterschiedliche Kartuschen. Sie haben die Wahl zwischen der Duschkartusche Balance, Shungit oder Nano",
             "image4": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month.svg",
-            "text4": "Filterkartuschen mit einer Höchstnutzungsdauer von 6 Monaten",
+            "text4": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit. ",
             "image5": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
-            "text5": "Design, Fertigung und Produktion in Süddeutschland",
-            "text6": ""
+            "text5": "Wechsel der Filterkartuschen nur alle 6 Monaten",
+            "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
+            "text6": "Design, Fertigung und Produktion in Süddeutschland"
           }
         }
       },
@@ -118,7 +119,7 @@
         "icon_text_8qFpLX"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
+        "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU-v02.png",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": true,
