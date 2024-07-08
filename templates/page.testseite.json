@@ -35,18 +35,18 @@
     "column_richtext_nmRxGb": {
       "type": "column-richtext",
       "blocks": {
-        "image_TxJ3wJ": {
-          "type": "image",
-          "settings": {
-            "image_width": 200
-          }
-        },
         "heading_K7A7AP": {
           "type": "heading",
           "settings": {
             "heading": "Erzähle etwas über deine Marke",
             "color": "#fff",
-            "heading_size": "h1"
+            "heading_size": "h2"
+          }
+        },
+        "image_TxJ3wJ": {
+          "type": "image",
+          "settings": {
+            "image_width": 200
           }
         },
         "subheading_m8wG4T": {
@@ -74,8 +74,8 @@
         }
       },
       "block_order": [
-        "image_TxJ3wJ",
         "heading_K7A7AP",
+        "image_TxJ3wJ",
         "subheading_m8wG4T",
         "text_hKe9tT",
         "button_tiJTq9"
@@ -137,7 +137,7 @@
             "button_style_secondary": false,
             "button_label_2": "Mehr Infos",
             "button_link_2": "shopify:\/\/pages\/trinkwasserfilter",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
@@ -158,12 +158,216 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "column_richtext_mnQxKM": {
+      "type": "column-richtext",
+      "blocks": {
+        "image_Dz6GA6": {
+          "type": "image",
+          "settings": {
+            "image_width": 200
+          }
+        },
+        "heading_J7Fkph": {
+          "type": "heading",
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "color": "#fff",
+            "heading_size": "h1"
+          }
+        },
+        "subheading_n8efD7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Gewinde-Ratgeber",
+            "color": "#fff"
+          }
+        },
+        "text_pDKUzp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "color": "#fff"
+          }
+        },
+        "button_WLqwqQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_label_2": "Test",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Dz6GA6",
+        "heading_J7Fkph",
+        "subheading_n8efD7",
+        "text_pDKUzp",
+        "button_WLqwqQ"
+      ],
+      "settings": {
+        "background_color": "#003e5f",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multi_text_kMWjK9": {
+      "type": "multi-text",
+      "blocks": {
+        "item_VJfhjH": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        },
+        "item_fhPLdp": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        },
+        "item_TbyRtG": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        },
+        "item_ATFJa8": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        }
+      },
+      "block_order": [
+        "item_VJfhjH",
+        "item_fhPLdp",
+        "item_TbyRtG",
+        "item_ATFJa8"
+      ],
+      "settings": {
+        "heading": "Warum Wasser filtern?",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "subtitle": "(Einige) gute Gründe Wasser zu filtern",
+        "subtitle_color": "#003e5f",
+        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<\/p>",
+        "text_color": "#616161",
+        "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
+        "listtitle_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "two_products_QBRhaq": {
+      "type": "two_products",
+      "blocks": {
+        "item_RxGz9t": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_dCCDMK": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RxGz9t",
+        "item_dCCDMK"
+      ],
+      "settings": {
+        "heading": "Erzähle etwas über deine Marke",
+        "color": "#003e5f",
+        "heading_size": "h1",
+        "img_bg": "#f2f2f2",
+        "content_bg": "#fafafa",
+        "title_color": "#003e5f",
+        "text_color": "#616161",
+        "first_btn_color": "#fff",
+        "first_btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_4URL4K": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TzCFD4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "color": "#003e5f",
+            "heading_size": "hxl",
+            "font_weight": "700"
+          }
+        },
+        "text_4hLwkf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"
+          }
+        },
+        "button_jyPfFm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TzCFD4",
+        "text_4hLwkf",
+        "button_jyPfFm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_ixEFCn",
     "main",
     "column_richtext_nmRxGb",
-    "rich_text_8EQRmT"
+    "rich_text_8EQRmT",
+    "column_richtext_mnQxKM",
+    "multi_text_kMWjK9",
+    "two_products_QBRhaq",
+    "rich_text_4URL4K"
   ]
 }
