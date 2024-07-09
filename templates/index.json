@@ -18,6 +18,7 @@
             "image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_01.webp",
             "m_image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil_01_9fd24d51-20b2-499e-9f68-2f61f2446231.jpg",
             "heading": "Egal wo du bist.",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "subheading": "Deinen Alb Wasserfilter für den mobilen Einsatz hast du immer dabei.",
             "button_label": "Alb Campingfilter ",
@@ -39,6 +40,7 @@
             "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
             "m_image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
             "heading": "Schmeckst du den Unterschied?",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "subheading": "Entdecke die Trinkwasserfilter von Alb für Wasserhahn und unter der Spüle.",
             "button_label": "Alb Trinkwasserfilter ",
@@ -100,12 +102,22 @@
             "url": "shopify:\/\/policies\/refund-policy",
             "traget_blank": true
           }
+        },
+        "item_JFHMig": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
+            "text": "EINFACHE ZAHLUNG",
+            "url": "shopify:\/\/policies\/refund-policy",
+            "traget_blank": true
+          }
         }
       },
       "block_order": [
         "item_CX4DJF",
         "item_nHPYxb",
-        "item_VwYHQX"
+        "item_VwYHQX",
+        "item_JFHMig"
       ],
       "settings": {
         "color_scheme": "scheme-c7e0ff9c-3afa-4004-969e-ac98e10d123e",
@@ -211,6 +223,7 @@
         "image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Desktop_01.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Mobil_04.jpg",
         "title": "<p>ALB <br\/>WASSERFILTER<\/p>",
+        "heading_tag": "h2",
         "title_size": "h0",
         "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany<\/p>",
         "subtitle_size": "h1",
@@ -229,6 +242,7 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Wasserfilter",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -263,6 +277,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+        "image_ratio": "1_1",
         "content_image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
         "image_contain": false,
         "small_content_image": false,
@@ -288,6 +303,7 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Duschfilter",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -322,6 +338,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
+        "image_ratio": "1_1",
         "content_image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
         "image_contain": false,
         "small_content_image": false,
@@ -347,6 +364,7 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Campingfilter",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -381,6 +399,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
+        "image_ratio": "1_1",
         "content_image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
         "image_contain": false,
         "small_content_image": false,
@@ -501,6 +520,7 @@
       "settings": {
         "top_bg_color": "#f2f2f2",
         "heading": "Wasserfilter Kartuschen",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "subtitle": "Für Trinkwasser, Dusche und Camping - für jeden Zweck die richtige Kartusche",
@@ -580,6 +600,7 @@
       ],
       "settings": {
         "heading": "Warum Wasser filtern?",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "subtitle": "(Einige) gute Gründe Wasser zu filtern",
@@ -601,6 +622,7 @@
             "image": "shopify:\/\/shop_images\/albelementedelstahlwasserfilter-1639472477762.jpg",
             "url": "shopify:\/\/pages\/alb-element-wasserfiltergehaeuse",
             "heading": "<p>ALB FILTER®<br\/> <strong>Element<\/strong><\/p>",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
             "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
@@ -618,6 +640,7 @@
             "image": "shopify:\/\/shop_images\/duoe_frontal_1-1643879460010.jpg",
             "url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
             "heading": "<p>ALB FILTER®<br\/><strong>Duo<\/strong><\/p>",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "subtitle": "Die elegante Filterlösung für Ihre Armatur.",
             "text": "<p>Machen Sie aus Ihrem Wasserhahn einen Trinkwasserspender.<br\/>Hebel umlegen und geniessen!<br\/><br\/>Anwendungsbereich:<\/p>",
@@ -636,6 +659,7 @@
         "image": "shopify:\/\/shop_images\/duo-montage-kuche-madchen-v2-1644311203575.png",
         "background_color": "#f2f2f2",
         "heading": "Wasserfilter Gehäuse",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "subtitle": "Für Trinkwasser und Dusche.",
@@ -659,6 +683,7 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Filter <strong>eco<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -712,6 +737,7 @@
           "settings": {
             "heading": "Alb Filter®",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "font_weight": "700"
           }
@@ -800,6 +826,7 @@
           "settings": {
             "heading": "Das sagen unsere Kunden",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "font_weight": "700"
           }
@@ -860,6 +887,7 @@
       "settings": {
         "background_color": "#fafafa",
         "heading": "Unsere Alb Wasserfilter auf Instagram",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "instagram_text": "albfilter",
@@ -883,6 +911,7 @@
           "type": "heading",
           "settings": {
             "heading": "Bleib auf dem Laufenden!",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "color": "#003e5f"
           }
