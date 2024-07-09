@@ -141,6 +141,15 @@
               </span>
             {%- endif -%}
           </div>
+          <!-- START Reviews.io - Star Rating -->
+          <a href="#ReviewsWidget" style="text-decoration: none">
+            <div
+              id="review-io-rating"
+              class="ruk_rating_snippet"
+              data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
+            ></div>
+          </a>
+          <!-- END Reviews.io - Star Rating -->
         </div>
       </div>
       <div class="card__content">
