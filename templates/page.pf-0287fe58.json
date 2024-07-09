@@ -42,6 +42,7 @@
           "settings": {
             "heading": "ALB DUO",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h0",
             "font_weight": "200"
           }
@@ -51,6 +52,7 @@
           "settings": {
             "heading": "Wasserfilter für den Wasserhahn",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "font_weight": "700"
           }
@@ -67,9 +69,8 @@
             "button_label": "Zum Shop",
             "button_link": "shopify:\/\/collections\/wasserhahnfilter",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "ssssss",
+            "button_link_2": ""
           }
         }
       },
@@ -120,6 +121,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/output_kqe1Mg.gif",
+        "image_ratio": "1_1",
         "image_contain": false,
         "small_content_image": true,
         "row_reverse": true,
@@ -144,6 +146,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Modularer Wasserfilter<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -168,6 +171,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "image_ratio": "1_1",
         "image_contain": false,
         "small_content_image": false,
         "row_reverse": true,
@@ -192,6 +196,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Duo Active<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -274,6 +279,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -298,6 +304,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Duo Active Plus+<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -384,6 +391,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -408,6 +416,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Duo Nano<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -491,6 +500,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -515,6 +525,7 @@
           "type": "alb_comparison",
           "settings": {
             "heading": "<strong>Welche Wasserfilter Variante soll ich kaufen?<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
             "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
@@ -659,6 +670,7 @@
       "settings": {
         "list_option": "3",
         "text_color": "#2d2d2d",
+        "show_button": true,
         "btn_text": "Kaufen",
         "btn_bg": "#0081be",
         "btn_color": "#ffffff",
@@ -681,6 +693,7 @@
           "settings": {
             "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
             "color": "#ffffff",
+            "heading_tag": "h2",
             "heading_size": "h1"
           }
         },
@@ -786,6 +799,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
+            "heading_tag": "h3",
             "heading_size": "h2",
             "heading_color": "#003e5f"
           }
@@ -819,6 +833,7 @@
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "mobile_center": true,
@@ -858,6 +873,7 @@
         "background_color": "#fafafa",
         "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
         "heading": "Noch Fragen zum Produkt?",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#616161",
         "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
