@@ -5736,4 +5736,22 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* product list */
+/* breadcrumb */
+.breadcrumb {
+  margin: 10px 0;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: .75em;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #616161;
+  content: "\bb";
+}
+
+/* breadcrumb */
 /* additional css */
