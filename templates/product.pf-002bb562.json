@@ -17,16 +17,15 @@
           "settings": {
           }
         },
-        "text_FQL9Cj": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.kurzbeschreibung_produkt.value }}",
-            "text_style": "body"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "reviews_io_reviewsio_rating_bar_xchHW3": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
           }
         },
         "sku_4U6KpL": {
@@ -91,8 +90,8 @@
       },
       "block_order": [
         "title",
-        "text_FQL9Cj",
         "price",
+        "reviews_io_reviewsio_rating_bar_xchHW3",
         "sku_4U6KpL",
         "share",
         "variant_picker",
