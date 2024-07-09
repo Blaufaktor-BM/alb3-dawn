@@ -61,11 +61,23 @@
             "heading_tag": "h2",
             "heading_size": "h1"
           }
+        },
+        "buttons_WbU6cN": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Weitere Infos",
+            "button_link_2": "shopify:\/\/pages\/wasserfilter-spar-abo",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "text_F8GCcJ",
-        "heading_Q48Pb3"
+        "heading_Q48Pb3",
+        "buttons_WbU6cN"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/titelersatzkartuschenkaufen1170x400overlay-1669128102735.jpg",
