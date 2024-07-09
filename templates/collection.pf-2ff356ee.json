@@ -115,6 +115,15 @@
             "text": "<p>Festeinbau<\/p>",
             "url": ""
           }
+        },
+        "item_cVwy3a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-pro-camper-1675764175164.jpg",
+            "title": "PRO CAMPER SET",
+            "text": "<p>Kombi-Filter<\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -122,7 +131,8 @@
         "item_qwMyDM",
         "item_8TbiGJ",
         "item_c6UwpN",
-        "item_TgKaUY"
+        "item_TgKaUY",
+        "item_cVwy3a"
       ],
       "settings": {
         "color_scheme": "",
