@@ -18,8 +18,8 @@
     <div class="wrapper-product_list">
       {% if section.settings.heading != blank %}
         <{{ section.settings.heading_tag }}
-          class="product-list__heading {{ section.settings.heading_size }}{% if section.settings.second_font %} second-font{% endif %}"
-          style="color: {{ section.settings.heading_color }}; border-bottom: 1px solid {{ section.settings.border_color }}; font-weight: {{ section.settings.heading_weight }}"
+          class="product-list__heading {{ section.settings.heading_size }}{% if section.settings.second_font %} second-font{% endif %}{% if section.settings.enable_center %} center{% endif %}"
+          style="color: {{ section.settings.heading_color }};{% if section.settings.enable_border %} border-bottom: 1px solid {{ section.settings.border_color }};{% endif %} font-weight: {{ section.settings.heading_weight }}"
         >
           {{ section.settings.heading }}
         </{{ section.settings.heading_tag }}>
@@ -83,6 +83,17 @@
       "id": "heading",
       "default": "t:sections.image-banner.blocks.heading.settings.heading.default",
       "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_border",
+      "label": "Enable Title Border",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_center",
+      "label": "Enable Text Center"
     },
     {
       "type": "select",
