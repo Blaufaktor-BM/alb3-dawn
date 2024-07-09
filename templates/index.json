@@ -111,13 +111,23 @@
             "url": "shopify:\/\/policies\/refund-policy",
             "traget_blank": true
           }
+        },
+        "item_XrrPBM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
+            "text": "EINFACHE ZAHLUNG",
+            "url": "shopify:\/\/policies\/refund-policy",
+            "traget_blank": true
+          }
         }
       },
       "block_order": [
         "item_CX4DJF",
         "item_nHPYxb",
         "item_VwYHQX",
-        "item_JFHMig"
+        "item_JFHMig",
+        "item_XrrPBM"
       ],
       "settings": {
         "color_scheme": "scheme-c7e0ff9c-3afa-4004-969e-ac98e10d123e",
