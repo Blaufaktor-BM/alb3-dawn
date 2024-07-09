@@ -4562,6 +4562,16 @@ slideshow-component .banner__heading.h1 {
   }
 
   .column5 .item-image_text_list {
+    max-width: 25%;
+  }
+
+  .column6 .item-image_text_list {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .column5 .item-image_text_list {
     max-width: 20%;
   }
 
