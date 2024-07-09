@@ -133,6 +133,24 @@
             "text": "",
             "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
           }
+        },
+        "item_NbVwQj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-zubehor-1651820561554.jpg",
+            "title": "ZUBEHÖR",
+            "text": "",
+            "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
+          }
+        },
+        "item_XGRF8L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-adapter-01-1651661922980.jpg",
+            "title": "ADAPTER",
+            "text": "",
+            "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
+          }
         }
       },
       "block_order": [
@@ -142,7 +160,9 @@
         "item_c6UwpN",
         "item_TgKaUY",
         "item_cVwy3a",
-        "item_nLYLCU"
+        "item_nLYLCU",
+        "item_NbVwQj",
+        "item_XGRF8L"
       ],
       "settings": {
         "color_scheme": "",
