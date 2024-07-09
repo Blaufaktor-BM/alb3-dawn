@@ -57,7 +57,7 @@
         "text_m4dbDB"
       ],
       "custom_css": [
-        ".subheading-column_richtext {margin-bottom: 0;}"
+        ".subheading-column_richtext {margin-bottom: 5px;}"
       ],
       "settings": {
         "content_position": "center",
