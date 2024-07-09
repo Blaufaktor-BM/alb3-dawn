@@ -61,7 +61,7 @@
             {% endif %}
           {%- when 'heading' -%}
             <{{ block.settings.heading_tag }}
-              class="heading-column_richtext{% if block.settings.second_font %} second_font{% endif %} {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="heading-column_richtext{% if block.settings.second_font %} second-font{% endif %} {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
