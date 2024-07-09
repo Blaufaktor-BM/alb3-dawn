@@ -110,24 +110,14 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Zubehör Haushalt",
+        "heading": "Ersatzkartuschen Trinkwasserfilter",
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "alb-filtergehause-duo-edelstahl",
-          "alb-filtergehause-element-edelstahl",
-          "alb-connect-edelstahl",
-          "vorfilter-protect-mit-wechselpad-edelstahl",
-          "alb-anschluss-set-20cm-unterspuele",
-          "alb-filter-anschluss-set-20cm-schnellkupplung-fur-unterspule",
-          "alb-filter-anschluss-set-40-cm-schnellkupplung-fur-unterspule",
-          "alb-wandhalterung",
-          "ersatzteil-alb-filter-duo-bypass",
-          "distanzhalter-fur-wandanschlusse",
-          "alb-winkelabstandsadapter-s"
+          "wasserfilter-kartusche-active"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -146,27 +136,75 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Camping Zubehör",
+        "heading": "Ersatzkartuschen Duschfilter",
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "trinkwasserschlauch-set-wohnmobil",
-          "alb-filter-flextube-befullschlauch",
-          "alb-filter-clean-tankreiniger",
-          "geka-camping-adapter-set",
-          "alb-filtergehause-element",
-          "alb-filter-protect",
-          "alb-connect",
-          "neoprenhulle",
-          "alb-filtergehause-element-edelstahl",
-          "vorfilter-protect-mit-wechselpad-edelstahl",
-          "alb-connect-edelstahl",
-          "camping-koffer",
-          "alb-wandhalterung",
-          "alb-filter-visio-sichtdeckel-element"
+          "wasserfilter-kartusche-balance",
+          "wasserfilter-kartusche-nano",
+          "alb-filterkartusche-shungit"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_WQAXYz": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "wasserfilter-kartusche-active-2er-set",
+          "wasserfilter-kartusche-active-3er-set",
+          "wasserfilter-kartusche-active-plus-2er-set",
+          "wasserfilter-kartusche-active-plus-3er-set",
+          "wasserfilter-kartusche-nano-2er-set",
+          "wasserfilter-kartuschen-set-fusion",
+          "wasserfilter-kartusche-balance-2er-set",
+          "wasserfilter-kartusche-balance-3er-set"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_jjakWr": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Zubehör",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "vorfilter-fur-alb-filter-duo-nano"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -217,6 +255,8 @@
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
     "product_list_EkBNEh",
+    "product_list_WQAXYz",
+    "product_list_jjakWr",
     "banner",
     "product-grid"
   ]
