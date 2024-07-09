@@ -22,7 +22,7 @@
       {%- if section.settings.full_width -%}
         <div class="page-width">
       {%- endif -%}
-      <div class="wrapper-image_text_list{% if section.settings.image_white %} icon_white{% endif %} column{{ section.settings.column_count }}">
+      <div class="wrapper-image_text_list{% if section.settings.image_white %} icon_white{% endif %} column{{ section.settings.column_count }}{% if section.settings.large_image %} large-image{% endif %}">
         {%- for block in section.blocks -%}
           <div
             class="item-image_text_list center second-font"
@@ -111,6 +111,11 @@
       "type": "checkbox",
       "id": "image_white",
       "label": "Image White"
+    },
+    {
+      "type": "checkbox",
+      "id": "large_image",
+      "label": "Large Image"
     },
     {
       "type": "header",

@@ -4530,6 +4530,11 @@ slideshow-component .banner__heading.h1 {
   margin: 0 auto;
 }
 
+.large-image .item-image_text_list svg,
+.large-image .item-image_text_list img {
+  max-width: 167px;
+}
+
 .wrapper-image_text_list.icon_white svg,
 .wrapper-image_text_list.icon_white img {
   filter: invert(100%) contrast(2);
