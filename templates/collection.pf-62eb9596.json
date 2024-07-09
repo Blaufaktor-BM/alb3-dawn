@@ -46,6 +46,7 @@
     "image_banner_WTFwpR": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/titel-zubehor-kaufen-shop-2-1639736790239.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
