@@ -56,6 +56,9 @@
         "subheading_TPzRBb",
         "text_m4dbDB"
       ],
+      "custom_css": [
+        ".subheading-column_richtext {margin-bottom: 0;}"
+      ],
       "settings": {
         "content_position": "center",
         "background_color": "#ffffff",
