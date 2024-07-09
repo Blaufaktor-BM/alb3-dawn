@@ -1,0 +1,147 @@
+{% assign t = template | split: '.' | first %}
+{% unless template == 'index'
+  or t == 'page'
+  or template == 'cart'
+  or template == 'list-collections'
+  or template == '404'
+%}
+  <ul class="breadcrumb page-width color-{{ section.settings.color_scheme }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <li>
+      <a href="/" title="Home">Home</a>
+    </li>
+
+    {% case t %}
+      {% when 'page' %}
+        <li>
+          <a class="breadlinks" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+        </li>
+
+      {% when 'product' %}
+        <li><a class="breadlinks" href="/products" aria-current="page">Shop</a></li>
+
+        {% for collection in product.collections %}
+          <li>
+            {{ collection.title | link_to: collection.url }}
+          </li>
+          {% break %}
+        {% endfor %}
+
+        <li>
+          <a class="breadlinks" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+        </li>
+
+      {% when 'collection' and collection.handle %}
+        <li><a class="breadlinks" href="/products" aria-current="page">Shop</a></li>
+        {% if current_tags %}
+          <li>{{ collection.title | link_to: collection.url }}</li>
+          <li>
+            {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+"}}{% endcapture %}
+            <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: ' + ' }}</a>
+          </li>
+        {% else %}
+          <li>
+            <a class="breadlinks" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+          </li>
+        {% endif %}
+
+      {% when 'blog' %}
+        {% if current_tags %}
+          <li>{{ blog.title | link_to: blog.url }}</li>
+          <li>
+            {% capture tag_url %}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{% endcapture %}
+            <a class="breadlinks" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: ' + ' }}</a>
+          </li>
+        {% else %}
+          <li>
+            <a href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+          </li>
+        {% endif %}
+
+      {% when 'article' %}
+        {% if blog.url contains 'ratgeber' %}
+          <li>
+            <a class="breadlinks" href="/blogs/ratgeber/inhalt" aria-current="page">{{ blog.title }}</a>
+          </li>
+        {% else %}
+          <li>{{ blog.title | link_to: blog.url }}</li>
+        {% endif %}
+
+        <!-- RATGEBER -->
+        {% assign link_found_in_ratgeber = false %}
+        {% for link in linklists.Ratgeber.links %}
+          {% if link.child_current %}
+            {% assign link_found_in_ratgeber = true %}
+            <li>
+              <a class="breadlinks" href="{{ link.url }}" aria-current="page">{{ link.title }}</a>
+            </li>
+
+            {% for sub_link in link.links %}
+              {% if sub_link.child_current %}
+                <li>
+                  <a class="breadlinks" href="{{ sub_link.url }}" aria-current="page">{{ sub_link.title }}</a>
+                </li>
+
+                {% for sub_sub_link in sub_link.links %}
+                  {% if sub_sub_link.current %}
+                    <li>
+                      <a class="breadlinks" href="{{ sub_sub_link.url }}" aria-current="page">
+                        {{- sub_sub_link.title -}}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif sub_link.current %}
+                <li>
+                  <a class="breadlinks" href="{{ sub_link.url }}" aria-current="page">{{ sub_link.title }}</a>
+                </li>
+                {% break %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif link.current %}
+            {% assign link_found_in_ratgeber = true %}
+            <li>
+              <a class="breadlinks" href="{{ link.url }}" aria-current="page">{{ link.title }}</a>
+            </li>
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        <!-- // RATGEBER -->
+
+        {% if link_found_in_ratgeber == false %}
+          <li>
+            <a class="breadlinks" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+          </li>
+        {% endif %}
+
+      {% else %}
+        <li aria-current="page">
+          <a class="breadlinks" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+        </li>
+    {% endcase %}
+  </ul>
+{% endunless %}
+{% schema %}
+{
+  "name": "BreadCrumb",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BreadCrumb"
+    }
+  ]
+}
+{% endschema %}
