@@ -37,12 +37,12 @@
   >
     <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %}{% if section.settings.mobile_center %} mobile-center{% endif %}">
       {%- if section.settings.heading != blank -%}
-        <h2
+        <{{ section.settings.heading_tag }}
           class="small_image_text-heading inline-richtext {{ section.settings.heading_size }}"
           style="color: {{ section.settings.heading_color }}"
         >
           {{ section.settings.heading }}
-        </h2>
+        </{{ section.settings.heading_tag }}>
       {%- endif -%}
       <div class="wrapper-small_image_text{% if section.settings.image_right %} row-reverse{% endif %}">
         <div
@@ -290,6 +290,34 @@
           "id": "heading",
           "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "p",
+              "label": "P"
+            }
+          ],
+          "default": "h3",
+          "label": "Heading Tag"
         },
         {
           "type": "select",
