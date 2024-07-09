@@ -112,12 +112,13 @@
             <{{ block.settings.heading_tag }}
               class="banner__heading inline-richtext {{ block.settings.heading_size }}{% if section.settings.second_font %} second-font{% endif %}"
               {{ block.shopify_attributes }}
+              style="font-weight: {{ block.settings.heading_weight }}"
             >
               {{ block.settings.heading }}
             </{{ block.settings.heading_tag }}>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <p>{{ block.settings.text }}</p>
+              {{ block.settings.text }}
             </div>
           {%- when 'buttons' -%}
             <div
@@ -144,6 +145,9 @@
                     href="{{ block.settings.button_link_2 }}"
                   {% endif %}
                   class="btn-second second-font"
+                  {% if block.settings.second_btn_color != ' blank' %}
+                    style="color: {{ block.settings.second_btn_color }}"
+                  {% endif %}
                 >
                   {{- block.settings.button_label_2 | escape -}}
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -432,6 +436,42 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_weight",
+          "label": "Heading Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ],
+          "default": "700"
         }
       ]
     },
@@ -501,6 +541,12 @@
           "type": "url",
           "id": "button_link_2",
           "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "color",
+          "id": "second_btn_color",
+          "label": "Second Button Color",
+          "default": "#0081be"
         }
       ]
     }
