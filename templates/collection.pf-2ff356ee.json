@@ -92,16 +92,27 @@
         "item_8TbiGJ": {
           "type": "item",
           "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "image": "shopify:\/\/shop_images\/vorschau-duschwasserfilter-1640356052657.jpg",
+            "title": "DUSCHFILTER",
+            "text": "<p>Badezimmer<\/p>",
             "url": ""
           }
         },
         "item_c6UwpN": {
           "type": "item",
           "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "image": "shopify:\/\/shop_images\/vorschau-camping-extern-01-1651662648162.jpg",
+            "title": "CAMPINGFILTER",
+            "text": "<p>Externe Betankung<\/p>",
+            "url": ""
+          }
+        },
+        "item_TgKaUY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-camping-intern-01-1651662648168.jpg",
+            "title": "CAMPINGFILTER",
+            "text": "<p>Festeinbau<\/p>",
             "url": ""
           }
         }
@@ -110,7 +121,8 @@
         "item_C34WRc",
         "item_qwMyDM",
         "item_8TbiGJ",
-        "item_c6UwpN"
+        "item_c6UwpN",
+        "item_TgKaUY"
       ],
       "settings": {
         "color_scheme": "",
