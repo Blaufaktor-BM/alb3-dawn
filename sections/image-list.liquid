@@ -40,6 +40,9 @@
         {%- for block in section.blocks -%}
           <div class="item-image_list">
             <div class="wrapper-item_image_list">
+              {%- if block.settings.url != blank -%}
+                <a href="{{ block.settings.url }}">
+              {%- endif -%}
               {%- if block.settings.image != blank -%}
                 {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                 {%- capture sizes -%}
@@ -54,6 +57,9 @@
                 }}
               {%- else -%}
                 {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+              {%- if block.settings.url != blank -%}
+                </a>
               {%- endif -%}
             </div>
           </div>
@@ -86,6 +92,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
         }
       ]
     }
