@@ -83,9 +83,10 @@
         "item_qwMyDM": {
           "type": "item",
           "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-wasserhahn-edelstahl-1650957074470.jpg",
+            "title": "TRINKWASSERFILTER",
+            "text": "<p>Wasserhahn - Küche<\/p>",
+            "url": "shopify:\/\/collections\/wasserhahnfilter"
           }
         },
         "item_8TbiGJ": {
@@ -115,8 +116,9 @@
         "color_scheme": "",
         "title_color": "#003e5f",
         "column_count": 5,
-        "full_width": false,
+        "full_width": true,
         "image_white": false,
+        "large_image": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
