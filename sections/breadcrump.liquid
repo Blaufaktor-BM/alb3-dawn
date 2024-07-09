@@ -6,7 +6,7 @@
   or template == '404'
 %}
   <div class="section-breadcurmb">
-    <div class="page-width color-{{ section.settings.color_scheme }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="page-width  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul class="breadcrumb">
         <li>
           <a href="/" title="Home">Home</a>
@@ -134,14 +134,7 @@
   "disabled_on": {
     "groups": ["header", "footer"]
   },
-  "settings": [
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
-    }
-  ],
+  "settings": [],
   "presets": [
     {
       "name": "BreadCrumb"

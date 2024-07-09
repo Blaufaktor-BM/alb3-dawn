@@ -5740,6 +5740,7 @@ slideshow-component .banner__heading.h1 {
 .breadcrumb {
   margin: 10px 0;
   list-style: none;
+  padding: 0;
 }
 
 ul.breadcrumb li {
@@ -5751,6 +5752,16 @@ ul.breadcrumb li+li:before {
   padding: 8px;
   color: #616161;
   content: "\bb";
+}
+
+ul.breadcrumb li a {
+  text-decoration: none;
+  color: #616161;
+}
+
+ul.breadcrumb li a:hover {
+  color: #0081be;
+  text-decoration: underline;
 }
 
 /* breadcrumb */
