@@ -43,17 +43,8 @@
         "text_m4dbDB": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
-            "color": "#fff"
-          }
-        },
-        "button_ieJgWp": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": ""
+            "text": "<p>Wähle im Online-Shop aus folgenden Kategorien<\/p>",
+            "color": "#616161"
           }
         }
       },
@@ -61,8 +52,7 @@
         "image_pUAhjc",
         "heading_ePU3JA",
         "subheading_TPzRBb",
-        "text_m4dbDB",
-        "button_ieJgWp"
+        "text_m4dbDB"
       ],
       "settings": {
         "background_color": "#ffffff",
