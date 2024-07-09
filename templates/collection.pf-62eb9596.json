@@ -43,7 +43,7 @@
         "content_alignment": "left",
         "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 16,
         "padding_bottom": 28
       }
@@ -53,7 +53,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/titel-zubehor-kaufen-shop-2-1639736790239.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "enable_section_container": true,
         "show_text_box": false,
