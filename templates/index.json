@@ -776,28 +776,32 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>"
+            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
+            "url": "shopify:\/\/blogs\/ratgeber\/nickel-im-trinkwasser"
           }
         },
         "item_9HfYJb": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>"
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
           }
         },
         "item_fgJ6Mj": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>"
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "url": ""
           }
         },
         "item_4iDPe4": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>"
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "url": ""
           }
         }
       },
