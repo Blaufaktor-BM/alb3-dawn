@@ -96,6 +96,45 @@
         "padding_bottom": 40
       }
     },
+    "product_list_EkBNEh": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Camping Zubehör",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#ccc",
+        "product_list": [
+          "trinkwasserschlauch-set-wohnmobil",
+          "alb-filter-flextube-befullschlauch",
+          "alb-filter-clean-tankreiniger",
+          "geka-camping-adapter-set",
+          "alb-filtergehause-element",
+          "alb-filter-protect",
+          "alb-connect",
+          "neoprenhulle",
+          "alb-filtergehause-element-edelstahl",
+          "vorfilter-protect-mit-wechselpad-edelstahl",
+          "alb-connect-edelstahl",
+          "camping-koffer",
+          "alb-wandhalterung",
+          "alb-filter-visio-sichtdeckel-element"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -131,6 +170,7 @@
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
+    "product_list_EkBNEh",
     "banner",
     "product-grid"
   ]
