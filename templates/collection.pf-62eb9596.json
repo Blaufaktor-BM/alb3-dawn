@@ -60,6 +60,35 @@
         "show_text_below": true
       }
     },
+    "product_list_yXxBPr": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Zubehör Haushalt",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#ccc",
+        "product_list": [
+          "alb-filtergehause-duo-edelstahl",
+          "alb-filtergehause-element-edelstahl",
+          "alb-connect-edelstahl",
+          "vorfilter-protect-mit-wechselpad-edelstahl"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -94,6 +123,7 @@
   "order": [
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
+    "product_list_yXxBPr",
     "banner",
     "product-grid"
   ]
