@@ -9,6 +9,12 @@
 */
 {
   "sections": {
+    "breadcrump_Ktxj9R": {
+      "type": "breadcrump",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "rich_text_zRfwMF": {
       "type": "rich-text",
       "blocks": {
@@ -251,6 +257,7 @@
     }
   },
   "order": [
+    "breadcrump_Ktxj9R",
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
