@@ -75,7 +75,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-untertisch-1640356052660.jpg",
-            "title": "TRINKWASSERFILTER",
+            "title": "<p>TRINKWASSERFILTER<\/p>",
             "text": "<p>Untertisch - Küche<\/p>",
             "url": "shopify:\/\/collections\/wasserfilter-untertisch"
           }
@@ -84,7 +84,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-wasserhahn-edelstahl-1650957074470.jpg",
-            "title": "TRINKWASSERFILTER",
+            "title": "<p>TRINKWASSERFILTER<\/p>",
             "text": "<p>Wasserhahn - Küche<\/p>",
             "url": "shopify:\/\/collections\/wasserhahnfilter"
           }
@@ -93,7 +93,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-duschwasserfilter-1640356052657.jpg",
-            "title": "DUSCHFILTER",
+            "title": "<p>DUSCHFILTER<\/p>",
             "text": "<p>Badezimmer<\/p>",
             "url": "shopify:\/\/collections\/duschfilter"
           }
@@ -102,7 +102,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-camping-extern-01-1651662648162.jpg",
-            "title": "CAMPINGFILTER",
+            "title": "<p>CAMPINGFILTER<\/p>",
             "text": "<p>Externe Betankung<\/p>",
             "url": "shopify:\/\/collections\/camping-mobil"
           }
@@ -111,7 +111,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-camping-intern-01-1651662648168.jpg",
-            "title": "CAMPINGFILTER",
+            "title": "<p>CAMPINGFILTER<\/p>",
             "text": "<p>Festeinbau<\/p>",
             "url": "shopify:\/\/collections\/camping-travel"
           }
@@ -120,7 +120,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-pro-camper-1675764175164.jpg",
-            "title": "PRO CAMPER SET",
+            "title": "<p>PRO CAMPER SET<\/p>",
             "text": "<p>Kombi-Filter<\/p>",
             "url": "shopify:\/\/collections\/pro-camper"
           }
@@ -129,7 +129,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-ersatzkartuschen-1640356052658.jpg",
-            "title": "WASSERFILTER KARTUSCHEN",
+            "title": "<p>WASSERFILTER KARTUSCHEN<\/p>",
             "text": "",
             "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
           }
@@ -138,7 +138,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-zubehor-1651820561554.jpg",
-            "title": "ZUBEHÖR",
+            "title": "<p>ZUBEHÖR<\/p>",
             "text": "",
             "url": "shopify:\/\/collections\/zubehor"
           }
@@ -147,7 +147,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/vorschau-adapter-01-1651661922980.jpg",
-            "title": "ADAPTER",
+            "title": "<p>ADAPTER<\/p>",
             "text": "",
             "url": "shopify:\/\/collections\/adapter"
           }
@@ -167,11 +167,12 @@
       "settings": {
         "color_scheme": "",
         "title_color": "#003e5f",
-        "column_count": 5,
+        "column_count": 6,
         "full_width": true,
         "image_white": false,
         "large_image": true,
-        "padding_top": 40,
+        "content_second_font": false,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
