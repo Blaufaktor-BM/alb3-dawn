@@ -25,7 +25,7 @@
 <div class="section-column_richtext section-{{ section.id }}-padding">
   <div class="page-width isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div
-      class="wrapper-column_richtext"
+      class="wrapper-column_richtext {{ section.settings.content_position }}"
       {% if section.settings.background_color != blank %}
         style="background-color: {{ section.settings.background_color }}"
       {% endif %}
@@ -42,7 +42,10 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                <div class="media-wrapper__column-richtext" style="max-width: {{ block.settings.image_width }}px">
+                <div
+                  class="media-wrapper__column-richtext{% if block.settings.enable_border %} image-border{% endif %}"
+                  style="max-width: {{ block.settings.image_width }}px"
+                >
                   {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
                   {%- capture sizes -%}
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
@@ -58,7 +61,7 @@
             {% endif %}
           {%- when 'heading' -%}
             <{{ block.settings.heading_tag }}
-              class="heading-column_richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="heading-column_richtext{% if block.settings.second_font %} second_font{% endif %} {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
@@ -151,6 +154,26 @@
   },
   "settings": [
     {
+      "type": "select",
+      "id": "content_position",
+      "label": "Content Position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
       "type": "color",
       "id": "background_color",
       "label": "Background Color",
@@ -210,6 +233,11 @@
           "id": "color",
           "label": "Color",
           "default": "#fff"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Second Font"
         },
         {
           "type": "select",
@@ -356,6 +384,12 @@
           "step": 5,
           "default": 200,
           "unit": "px"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_border",
+          "label": "Enable Border",
+          "default": true
         }
       ]
     }

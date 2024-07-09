@@ -5676,12 +5676,33 @@ slideshow-component .banner__heading.h1 {
   padding: 28px;
 }
 
+.wrapper-column_richtext.center .media-wrapper__column-richtext {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper-column_richtext.center .buttons-column_richtext {
+  justify-content: center;
+}
+
+.wrapper-column_richtext.right .media-wrapper__column-richtext {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.wrapper-column_richtext.center .buttons-column_richtext {
+  justify-content: flex-end;
+}
+
 .media-wrapper__column-richtext {
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.media-wrapper__column-richtext.image-border {
+  border: 3px solid #fff;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid #fff;
-  margin-bottom: 20px;
 }
 
 .media-wrapper__column-richtext img {
