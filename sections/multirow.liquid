@@ -80,9 +80,9 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.heading -%}
-                <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
+                <{{ section.settings.heading_tag }} class="image-with-text__heading {{ section.settings.heading_size }} rte">
                   {{ block.settings.heading }}
-                </h2>
+                </{{ section.settings.heading_tag }}>
               {%- endif -%}
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
@@ -159,6 +159,34 @@
       "default": "medium",
       "label": "t:sections.multirow.settings.desktop_image_width.label",
       "info": "t:sections.multirow.settings.desktop_image_width.info"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",

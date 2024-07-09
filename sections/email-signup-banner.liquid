@@ -63,9 +63,12 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="email-signup-banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <{{ block.settings.heading_tag }}
+              class="email-signup-banner__heading {{ block.settings.heading_size }}"
+              {{ block.shopify_attributes }}
+            >
               {{ block.settings.heading | escape }}
-            </h2>
+            </{{ block.settings.heading_tag }}>
           {%- when 'paragraph' -%}
             <div class="newsletter__subheading rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               {{ block.settings.text }}
@@ -311,6 +314,34 @@
           "id": "heading",
           "default": "t:sections.email-signup-banner.blocks.heading.settings.heading.default",
           "label": "t:sections.email-signup-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            }
+          ],
+          "default": "h2",
+          "label": "Heading Tag"
         },
         {
           "type": "select",

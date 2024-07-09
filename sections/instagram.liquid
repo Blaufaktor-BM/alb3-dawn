@@ -18,12 +18,12 @@
   >
     <div class="page-width">
       {%- if section.settings.heading != blank -%}
-        <h2
+        <{{ section.settings.heading_tag }}
           class="instagram-heading center inline-richtext {{ section.settings.heading_size }}"
           style="color: {{ section.settings.heading_color }}"
         >
           {{ section.settings.heading }}
-        </h2>
+        </{{ section.settings.heading_tag }}>
       {%- endif -%}
       {%- if section.settings.instagram_text != blank -%}
         <div class="instagram_text second-font">
@@ -63,6 +63,34 @@
       "id": "heading",
       "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
       "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",

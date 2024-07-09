@@ -57,7 +57,7 @@
               </div>
             {% endif %}
           {%- when 'heading' -%}
-            <h2
+            <{{ block.settings.heading_tag }}
               class="heading-column_richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
@@ -68,7 +68,7 @@
               <span style="color: {{ block.settings.color }};">
                 {{ block.settings.heading }}
               </span>
-            </h2>
+            </{{ block.settings.heading_tag }}>
           {%- when 'subheading' -%}
             <h3
               class="subheading-column_richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -210,6 +210,34 @@
           "id": "color",
           "label": "Color",
           "default": "#fff"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            }
+          ],
+          "default": "h2",
+          "label": "Heading Tag"
         },
         {
           "type": "select",

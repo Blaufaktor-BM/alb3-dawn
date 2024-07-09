@@ -45,14 +45,16 @@
           </p>
         {% endif %}
         {%- if section.settings.heading != blank -%}
-          <h2
+          <{{ section.settings.heading_tag }}
             class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}"
             style="color: {{ section.settings.heading_color }}"
           >
             {{ section.settings.heading }}
-          </h2>
+          </{{ section.settings.heading_tag }}>
         {%- else -%}
-          <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
+          <{{ section.settings.heading_tag }} class="visually-hidden">
+            {{- 'accessibility.collapsible_content_title' | t -}}
+          </{{ section.settings.heading_tag }}>
         {% endif %}
       </div>
       <div class="grid grid--1-col collapsible-content__grid{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -121,6 +123,34 @@
       "id": "heading",
       "label": "t:sections.collapsible_content.settings.heading.label",
       "default": "t:sections.collapsible_content.settings.heading.default"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",

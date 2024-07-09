@@ -18,12 +18,12 @@
       <div class="left-multi_text">
         <div class="left_wrapper-multi_text">
           {%- if section.settings.heading != blank -%}
-            <h2
+            <{{ section.settings.heading_tag }}
               class="multi_text__heading rte {{ section.settings.heading_size }}"
               style="color: {{ section.settings.heading_color }}"
             >
               {{ section.settings.heading }}
-            </h2>
+            </{{ section.settings.heading_tag }}>
           {%- endif -%}
           {%- if section.settings.subtitle != blank -%}
             <div
@@ -101,6 +101,34 @@
       "id": "heading",
       "label": "Heading",
       "default": "Warum Wasser filtern?"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",

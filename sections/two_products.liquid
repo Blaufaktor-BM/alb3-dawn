@@ -22,12 +22,12 @@
 <div class="section-two_products section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="page-width">
     {%- if section.settings.heading != blank -%}
-      <h2
+      <{{ section.settings.heading_tag }}
         class="two-products__heading rte {{ section.settings.heading_size }}"
         style="color: {{ section.settings.color }};"
       >
         {{ section.settings.heading }}
-      </h2>
+      </{{ section.settings.heading_tag }}>
     {%- endif -%}
     {%- if section.blocks.size > 0 -%}
       <div class="two-products-list">
@@ -61,12 +61,12 @@
                 <a href="{{ block.settings.content_url }}">
               {%- endif -%}
               {% if block.settings.heading != blank %}
-                <h3
+                <{{ block.settings.heading_tag }}
                   class="two-products-item_heading {{ block.settings.heading_size }}"
                   style="color: {{ section.settings.title_color }};"
                 >
                   {{ block.settings.heading }}
-                </h3>
+                </{{ block.settings.heading_tag }}>
               {% endif %}
               {% if block.settings.text != blank %}
                 <div
@@ -135,6 +135,34 @@
       "id": "color",
       "label": "Heading Color",
       "default": "#003e5f"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",
@@ -255,6 +283,34 @@
           "id": "heading",
           "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            }
+          ],
+          "default": "h2",
+          "label": "Heading Tag"
         },
         {
           "type": "select",

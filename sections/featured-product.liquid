@@ -103,13 +103,16 @@
                     {{- block.settings.text -}}
                   </p>
                 {%- when 'title' -%}
-                  <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                  <{{ block.settings.heading_tag }}
+                    class="product__title {{ block.settings.heading_size }}"
+                    {{ block.shopify_attributes }}
+                  >
                     {%- if product.title != blank -%}
                       {{ product.title | escape }}
                     {%- else -%}
                       {{ 'onboarding.product_title' | t }}
                     {%- endif -%}
-                  </h2>
+                  </{{ block.settings.heading_tag }}>
                 {%- when 'price' -%}
                   <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                     {%- render 'price',
@@ -528,6 +531,34 @@
       "name": "t:sections.featured-product.blocks.title.name",
       "limit": 1,
       "settings": [
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            }
+          ],
+          "default": "h2",
+          "label": "Heading Tag"
+        },
         {
           "type": "select",
           "id": "heading_size",

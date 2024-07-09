@@ -48,9 +48,9 @@
       </div>
       <div class="content-image_multi_text">
         {%- if section.settings.title != blank -%}
-          <h2 class="title-image_multi_text rte {{ section.settings.title_size }}">
+          <{{ section.settings.heading_tag }} class="title-image_multi_text rte {{ section.settings.title_size }}">
             {{ section.settings.title }}
-          </h2>
+          </{{ section.settings.heading_tag }}>
         {%- endif -%}
         {%- if section.settings.sub_title != blank -%}
           <h2 class="subtitle-image_multi_text rte {{ section.settings.subtitle_size }}">
@@ -145,6 +145,34 @@
       "id": "title",
       "label": "Title",
       "default": "<p>ALB <br>WASSERFILTER</p>"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",

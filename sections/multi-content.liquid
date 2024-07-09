@@ -47,12 +47,12 @@
       >
         <div class="middle_wrapper-mulit_content">
           {%- if section.settings.heading != blank -%}
-            <h2
+            <{{ section.settings.heading_tag }}
               class="multi_content__heading rte {{ section.settings.heading_size }}"
               style="color: {{ section.settings.heading_color }}"
             >
               {{ section.settings.heading }}
-            </h2>
+            </{{ section.settings.heading_tag }}>
           {%- endif -%}
           {%- if section.settings.subtitle != blank -%}
             <div
@@ -126,12 +126,12 @@
                 </div>
               </div>
               {%- if block.settings.heading != blank -%}
-                <div
+                <{{ block.settings.heading_tag }}
                   class="item_title-multi_content rte second-font {{ block.settings.heading_size }}"
                   style="color: {{ section.settings.bottom_text_color }}"
                 >
                   {{ block.settings.heading }}
-                </div>
+                </{{ block.settings.heading_tag }}>
               {%- endif -%}
               {%- if block.settings.subtitle != blank -%}
                 <div class="item_subtitle-multi_content sub_title second-font">{{ block.settings.subtitle }}</div>
@@ -192,6 +192,34 @@
       "id": "heading",
       "label": "Heading",
       "default": "Wasserfilter Gehäuse"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",
@@ -332,6 +360,34 @@
           "id": "heading",
           "label": "Heading",
           "default": "<p>ALB FILTER®<br> <strong>Element</strong></p>"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            }
+          ],
+          "default": "h2",
+          "label": "Heading Tag"
         },
         {
           "type": "select",

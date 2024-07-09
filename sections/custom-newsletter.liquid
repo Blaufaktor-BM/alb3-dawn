@@ -17,7 +17,7 @@
       {%- for block in section.blocks -%}
         {% case block.type %}
           {%- when 'heading' -%}
-            <h2
+            <{{ block.settings.heading_tag }}
               class="custom-newsletter__heading inline-richtext {{ block.settings.heading_size }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
@@ -28,7 +28,7 @@
               <span style="color: {{ block.settings.color }};">
                 {{ block.settings.heading }}
               </span>
-            </h2>
+            </{{ block.settings.heading_tag }}>
           {%- when 'text' -%}
             <div
               class="custom-newsletter__text rte second-font {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -141,6 +141,34 @@
           "id": "heading",
           "default": "Bleib auf dem Laufenden!",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            }
+          ],
+          "default": "h2",
+          "label": "Heading Tag"
         },
         {
           "type": "select",

@@ -68,13 +68,13 @@
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'heading' -%}
-                  <h2
+                  <{{ block.settings.heading_tag }}
                     class="small_image_text-title second-font rte {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                     style="color: {{ block.settings.heading_color }}"
                   >
                     {{ block.settings.heading }}
-                  </h2>
+                  </{{ block.settings.heading_tag }}>
                 {%- when 'text' -%}
                   <div
                     class="small_image_text-text second-font rte {{ block.settings.text_style }}"
@@ -151,6 +151,34 @@
       "id": "heading",
       "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
       "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
     },
     {
       "type": "select",
