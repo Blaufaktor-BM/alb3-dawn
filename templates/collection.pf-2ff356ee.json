@@ -124,6 +124,15 @@
             "text": "<p>Kombi-Filter<\/p>",
             "url": ""
           }
+        },
+        "item_nLYLCU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-ersatzkartuschen-1640356052658.jpg",
+            "title": "WASSERFILTER KARTUSCHEN",
+            "text": "",
+            "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
+          }
         }
       },
       "block_order": [
@@ -132,7 +141,8 @@
         "item_8TbiGJ",
         "item_c6UwpN",
         "item_TgKaUY",
-        "item_cVwy3a"
+        "item_cVwy3a",
+        "item_nLYLCU"
       ],
       "settings": {
         "color_scheme": "",
