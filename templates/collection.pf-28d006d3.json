@@ -49,15 +49,15 @@
         "text_F8GCcJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Verpassen Sie keinenKartuschenwechsel mit dem<\/p>",
-            "text_style": "body"
+            "text": "<p>Verpassen Sie keinen<br\/>Kartuschenwechsel mit dem<\/p>",
+            "text_style": "subtitle"
           }
         },
         "heading_Q48Pb3": {
           "type": "heading",
           "settings": {
             "second_font": false,
-            "heading": "<p>KARTUSCHENABO<\/p>",
+            "heading": "<p>KARTUSCHEN<br\/>ABO<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1"
           }
