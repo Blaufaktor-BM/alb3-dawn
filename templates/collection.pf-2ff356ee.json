@@ -266,6 +266,8 @@
       "settings": {
         "second_font": true,
         "heading": "Unsere Bestseller",
+        "enable_border": false,
+        "enable_center": true,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
