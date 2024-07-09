@@ -45,12 +45,12 @@
           </p>
         {% endif %}
         {%- if section.settings.heading != blank -%}
-          <{{ section.settings.heading_size }}
-            class="collapsible-content__heading inline-richtext "
+          <h2
+            class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}"
             style="color: {{ section.settings.heading_color }}"
           >
             {{ section.settings.heading }}
-          </{{ section.settings.heading_size }}>
+          </h2>
         {%- else -%}
           <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
         {% endif %}
@@ -127,27 +127,27 @@
       "id": "heading_size",
       "options": [
         {
-          "value": "h1",
-          "label": "H1"
-        },
-        {
           "value": "h2",
-          "label": "H2"
+          "label": "t:sections.all.heading_size.options__1.label"
         },
         {
-          "value": "h3",
-          "label": "H3"
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
         },
         {
-          "value": "h4",
-          "label": "H4"
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
         },
         {
-          "value": "h5",
-          "label": "H5"
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
         }
       ],
-      "default": "h2",
+      "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
     {

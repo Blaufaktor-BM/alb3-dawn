@@ -68,13 +68,13 @@
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'heading' -%}
-                  <{{ block.settings.heading_size }}
-                    class="small_image_text-title second-font rte "
+                  <h2
+                    class="small_image_text-title second-font rte {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                     style="color: {{ block.settings.heading_color }}"
                   >
                     {{ block.settings.heading }}
-                  </{{ block.settings.heading_size }}>
+                  </h2>
                 {%- when 'text' -%}
                   <div
                     class="small_image_text-text second-font rte {{ block.settings.text_style }}"
@@ -157,27 +157,27 @@
       "id": "heading_size",
       "options": [
         {
-          "value": "h1",
-          "label": "H1"
-        },
-        {
           "value": "h2",
-          "label": "H2"
+          "label": "t:sections.all.heading_size.options__1.label"
         },
         {
-          "value": "h3",
-          "label": "H3"
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
         },
         {
-          "value": "h4",
-          "label": "H4"
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
         },
         {
-          "value": "h5",
-          "label": "H5"
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
         }
       ],
-      "default": "h2",
+      "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
     {
