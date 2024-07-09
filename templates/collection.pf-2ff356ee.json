@@ -14,6 +14,64 @@
       "settings": {
       }
     },
+    "column_richtext_4XmfJA": {
+      "type": "column-richtext",
+      "blocks": {
+        "image_pUAhjc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-6d506524--albfilterlogobild.svg",
+            "image_width": 65
+          }
+        },
+        "heading_ePU3JA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "color": "#fff",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "subheading_TPzRBb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Gewinde-Ratgeber",
+            "color": "#fff"
+          }
+        },
+        "text_m4dbDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "color": "#fff"
+          }
+        },
+        "button_ieJgWp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pUAhjc",
+        "heading_ePU3JA",
+        "subheading_TPzRBb",
+        "text_m4dbDB",
+        "button_ieJgWp"
+      ],
+      "settings": {
+        "background_color": "#003e5f",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_zRfwMF": {
       "type": "rich-text",
       "blocks": {
@@ -257,6 +315,7 @@
   },
   "order": [
     "breadcrump_mPengH",
+    "column_richtext_4XmfJA",
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
