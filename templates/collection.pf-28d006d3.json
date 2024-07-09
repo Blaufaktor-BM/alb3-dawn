@@ -88,6 +88,9 @@
         "heading_Q48Pb3",
         "buttons_WbU6cN"
       ],
+      "custom_css": [
+        ".banner__heading {margin-top: 0;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/titelersatzkartuschenkaufen1170x400overlay-1669128102735.jpg",
         "image_overlay_opacity": 0,
