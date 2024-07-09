@@ -111,6 +111,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-c7e0ff9c-3afa-4004-969e-ac98e10d123e",
+        "slide_item": 3,
         "slide_speed": 1.5
       }
     },
@@ -120,37 +121,43 @@
         "image_YzPtTR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-4ab219de--innovationsgutscheinbw.png"
+            "image": "shopify:\/\/shop_images\/pf-4ab219de--innovationsgutscheinbw.png",
+            "url": "shopify:\/\/policies\/terms-of-service"
           }
         },
         "image_hG9hVa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-a455d334--sueddeutschezeitung.png"
+            "image": "shopify:\/\/shop_images\/pf-a455d334--sueddeutschezeitung.png",
+            "url": ""
           }
         },
         "image_8d4H6j": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-19de40a4--landespreis.png"
+            "image": "shopify:\/\/shop_images\/pf-19de40a4--landespreis.png",
+            "url": ""
           }
         },
         "image_WiPi6k": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/frauenhofer-iap-logo_fb52964f-d7dd-4797-a8eb-5fc079295eb8.png"
+            "image": "shopify:\/\/shop_images\/frauenhofer-iap-logo_fb52964f-d7dd-4797-a8eb-5fc079295eb8.png",
+            "url": ""
           }
         },
         "image_DE9b8J": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-c54ab219--campingcarsundcaravans.png"
+            "image": "shopify:\/\/shop_images\/pf-c54ab219--campingcarsundcaravans.png",
+            "url": ""
           }
         },
         "image_gb7JqR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-40a455d3--smarticular.png"
+            "image": "shopify:\/\/shop_images\/pf-40a455d3--smarticular.png",
+            "url": ""
           }
         }
       },
