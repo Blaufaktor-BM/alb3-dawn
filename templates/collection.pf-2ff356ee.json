@@ -68,6 +68,59 @@
         "padding_bottom": 0
       }
     },
+    "image_text_list_p73tci": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_C34WRc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-untertisch-1640356052660.jpg",
+            "title": "TRINKWASSERFILTER",
+            "text": "<p>Untertisch - Küche<\/p>",
+            "url": "shopify:\/\/collections\/wasserfilter-untertisch"
+          }
+        },
+        "item_qwMyDM": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        },
+        "item_8TbiGJ": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        },
+        "item_c6UwpN": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_C34WRc",
+        "item_qwMyDM",
+        "item_8TbiGJ",
+        "item_c6UwpN"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title_color": "#003e5f",
+        "column_count": 5,
+        "full_width": false,
+        "image_white": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_zRfwMF": {
       "type": "rich-text",
       "blocks": {
@@ -312,6 +365,7 @@
   "order": [
     "breadcrump_mPengH",
     "column_richtext_4XmfJA",
+    "image_text_list_p73tci",
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
