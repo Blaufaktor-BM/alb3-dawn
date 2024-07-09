@@ -27,6 +27,9 @@
           <div
             class="item-image_text_list center second-font"
           >
+            {%- if block.settings.url != blank -%}
+              <a href="{{ block.settings.url }}">
+            {%- endif -%}
             {%- if block.settings.image != blank -%}
               {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
               {%- capture sizes -%}
@@ -45,6 +48,9 @@
             {% if block.settings.text != blank %}
               <div class="text-image_text_list rte">{{ block.settings.text }}</div>
             {% endif %}
+            {%- if block.settings.url != blank -%}
+              </a>
+            {%- endif -%}
           </div>
         {%- endfor -%}
       </div>
@@ -121,6 +127,11 @@
           "id": "text",
           "label": "Text",
           "default": "<p>30 TAGE RÜCKGABERECHT</p>"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
         }
       ]
     }
