@@ -101,7 +101,7 @@
         "desktop_content_alignment": "right",
         "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
