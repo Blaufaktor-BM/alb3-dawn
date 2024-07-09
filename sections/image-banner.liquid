@@ -110,7 +110,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <{{ block.settings.heading_tag }}
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}{% if section.settings.second_font %} second-font{% endif %}"
+              class="banner__heading inline-richtext rte {{ block.settings.heading_size }}{% if section.settings.second_font %} second-font{% endif %}"
               {{ block.shopify_attributes }}
               style="font-weight: {{ block.settings.heading_weight }}"
             >
