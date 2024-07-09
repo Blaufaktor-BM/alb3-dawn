@@ -292,6 +292,40 @@
         "padding_bottom": 40
       }
     },
+    "rich_text_9QCVWL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_drgFbk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WASSERFILTER KARTUSCHEN<\/p>",
+            "color": "#616161",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "400"
+          }
+        },
+        "text_yyL8CB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir unterscheiden hierbei zwischen Trinkwasser- und Duschfilter. Erfahre alles über unsere Kartuschen und welche für Deinen Zweck am Besten geeignet ist.<\/p><h3>Die Kartusche bestimmt den Einsatzzweck<\/h3><p>Unsere Wasserfilter sind modulare Filter. Das bedeutet: Du kaufst das Filtergehäuse nur ein einziges Mal und wechselst später lediglich die im Inneren befindliche Kartusche je nach Anwendungszweck.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_drgFbk",
+        "text_yyL8CB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -330,6 +364,7 @@
     "rich_text_YH33wK",
     "image_text_list_FVC79E",
     "product_list_yXxBPr",
+    "rich_text_9QCVWL",
     "banner",
     "product-grid"
   ]
