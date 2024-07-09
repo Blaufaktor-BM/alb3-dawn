@@ -15,7 +15,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "Zubehör kaufen",
+            "heading": "Ersatzkartuschen für Wasserfilter kaufen",
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -25,7 +25,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Passendes Zubehör für Ihren Dusch- oder Trinkwasserfilter. Ob Abstandshalter bei zu engen Platzverhältnissen in der Dusche oder einer Wandhalterung zur sicheren Montage. hier werden Sie fündig.<\/p>"
+            "text": "<p>Passende Ersatzkartuschen für deinen Dusch- oder Trinkwasserfilter. Unsere Active, ActivePlus und Nano-Kartuschen wurden speziell entwickelt, um die Wasserqualität zu verbessern.<br\/><br\/>Die Active Kartusche nutzt gesinterte Blockaktivkohle, während ActivePlus auf Polymeren basiert, um die Wasserfiltration zu optimieren. Für noch mehr Schutz bietet unsere Nano Kartusche eine effektive Keim- und Legionellenfilterung.<br\/><br\/>Die Filter-Kartuschen zur Trinkwasseraufbereitung sollten je nach Modell alle 4-6 Monate getauscht werden um mögliche Verkeimungen innerhalb des Filters zu vermeiden. Mit unserem praktischen<a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Kartuschen-Abo<\/a>bekommst du deine Ersatzkartuschen immer rechtzeitig, versandkostenfrei und ohne jegliche Verpflichtungen. <\/p>"
           }
         }
       },
@@ -38,24 +38,46 @@
         "content_alignment": "left",
         "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
     "image_banner_WTFwpR": {
       "type": "image-banner",
+      "blocks": {
+        "text_F8GCcJ": {
+          "type": "text",
+          "settings": {
+            "text": "Verpassen Sie keinenKartuschenwechsel mit dem",
+            "text_style": "body"
+          }
+        },
+        "heading_Q48Pb3": {
+          "type": "heading",
+          "settings": {
+            "second_font": false,
+            "heading": "KARTUSCHENABO",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_F8GCcJ",
+        "heading_Q48Pb3"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/titel-zubehor-kaufen-shop-2-1639736790239.jpg",
+        "image": "shopify:\/\/shop_images\/titelersatzkartuschenkaufen1170x400overlay-1669128102735.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
         "enable_section_container": true,
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "right",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -69,7 +91,7 @@
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
-        "border_color": "#ccc",
+        "border_color": "#cccccc",
         "product_list": [
           "alb-filtergehause-duo-edelstahl",
           "alb-filtergehause-element-edelstahl",
@@ -105,7 +127,7 @@
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
-        "border_color": "#ccc",
+        "border_color": "#cccccc",
         "product_list": [
           "trinkwasserschlauch-set-wohnmobil",
           "alb-filter-flextube-befullschlauch",
