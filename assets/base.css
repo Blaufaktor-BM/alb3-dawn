@@ -4508,6 +4508,7 @@ slideshow-component .banner__heading.h1 {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  justify-content: center;
 }
 
 .item-image_text_list {
@@ -4535,8 +4536,24 @@ slideshow-component .banner__heading.h1 {
 }
 
 @media only screen and (min-width: 750px) {
-  .item-image_text_list {
+  .column4 .item-image_text_list {
     max-width: 25%;
+  }
+
+  .column1 .item-image_text_list {
+    max-width: 100%;
+  }
+
+  .column2 .item-image_text_list {
+    max-width: 50%;
+  }
+
+  .column3 .item-image_text_list {
+    max-width: 33.33%;
+  }
+
+  .column5 .item-image_text_list {
+    max-width: 20%;
   }
 }
 

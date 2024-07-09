@@ -22,7 +22,7 @@
       {%- if section.settings.full_width -%}
         <div class="page-width">
       {%- endif -%}
-      <div class="wrapper-image_text_list{% if section.settings.image_white %} icon_white{% endif %}">
+      <div class="wrapper-image_text_list{% if section.settings.image_white %} icon_white{% endif %} column{{ section.settings.column_count }}">
         {%- for block in section.blocks -%}
           <div
             class="item-image_text_list center second-font"
@@ -45,6 +45,16 @@
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
+            {% if block.settings.title != blank %}
+              <div
+                class="title-image_text_list"
+                {% if section.settings.title_color != ' blank' %}
+                  style="color: {{ section.settings.title_color }}"
+                {% endif %}
+              >
+                {{ block.settings.title }}
+              </div>
+            {% endif %}
             {% if block.settings.text != blank %}
               <div class="text-image_text_list rte">{{ block.settings.text }}</div>
             {% endif %}
@@ -76,6 +86,21 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#003e5f"
+    },
+    {
+      "type": "range",
+      "id": "column_count",
+      "label": "Desktop Column Count",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 4
     },
     {
       "type": "checkbox",
@@ -121,6 +146,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Title"
         },
         {
           "type": "richtext",
