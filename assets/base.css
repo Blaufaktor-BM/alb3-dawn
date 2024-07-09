@@ -4514,6 +4514,11 @@ slideshow-component .banner__heading.h1 {
   width: 100%;
 }
 
+.item-image_text_list a {
+  color: rgba(var(--color-foreground), 1);
+  text-decoration: none;
+}
+
 .item-image_text_list svg,
 .item-image_text_list img {
   display: block;
