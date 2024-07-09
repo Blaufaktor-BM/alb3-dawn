@@ -55,7 +55,7 @@
       delay: 2000,
     },
     loop: false,
-    slidesPerView: {{ section.blocks.size }},
+    slidesPerView: {{ section.settings.slide_item }},
     breakpoints: {
       989: {
         slidesPerView: 1,
@@ -77,6 +77,15 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "slide_item",
+      "label": "Slide Items",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 3
     },
     {
       "type": "range",
