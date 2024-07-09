@@ -27,10 +27,10 @@
         "heading_ePU3JA": {
           "type": "heading",
           "settings": {
-            "heading": "Erzähle etwas über deine Marke",
-            "color": "#fff",
+            "heading": "WASSERFILTER KAUFEN",
+            "color": "#003e5f",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "subheading_TPzRBb": {
@@ -65,7 +65,7 @@
         "button_ieJgWp"
       ],
       "settings": {
-        "background_color": "#003e5f",
+        "background_color": "#ffffff",
         "btn_bg": "#0081be",
         "btn_color": "#fff",
         "padding_top": 0,
