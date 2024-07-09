@@ -9,13 +9,19 @@
 */
 {
   "sections": {
+    "breadcrump_h9gr8Y": {
+      "type": "breadcrump",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "rich_text_zRfwMF": {
       "type": "rich-text",
       "blocks": {
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "Zubehör kaufen",
+            "heading": "<p>Zubehör kaufen<\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -69,7 +75,7 @@
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
-        "border_color": "#ccc",
+        "border_color": "#cccccc",
         "product_list": [
           "alb-filtergehause-duo-edelstahl",
           "alb-filtergehause-element-edelstahl",
@@ -105,7 +111,7 @@
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
-        "border_color": "#ccc",
+        "border_color": "#cccccc",
         "product_list": [
           "trinkwasserschlauch-set-wohnmobil",
           "alb-filter-flextube-befullschlauch",
@@ -167,6 +173,7 @@
     }
   },
   "order": [
+    "breadcrump_h9gr8Y",
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
