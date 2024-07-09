@@ -53,6 +53,13 @@
             "text_style": "subtitle"
           }
         },
+        "text_WrrV9X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alb Filter®<\/p>",
+            "text_style": "subtitle"
+          }
+        },
         "heading_Q48Pb3": {
           "type": "heading",
           "settings": {
@@ -75,6 +82,7 @@
       },
       "block_order": [
         "text_F8GCcJ",
+        "text_WrrV9X",
         "heading_Q48Pb3",
         "buttons_WbU6cN"
       ],
