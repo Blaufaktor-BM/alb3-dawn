@@ -171,7 +171,7 @@
         "full_width": true,
         "image_white": false,
         "large_image": true,
-        "content_second_font": false,
+        "content_second_font": true,
         "padding_top": 0,
         "padding_bottom": 52
       }
