@@ -66,7 +66,8 @@
             "second_font": true,
             "heading": "<p>KARTUSCHEN<br\/>ABO<\/p>",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_weight": "400"
           }
         },
         "buttons_WbU6cN": {
@@ -76,7 +77,8 @@
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "Weitere Infos",
-            "button_link_2": "shopify:\/\/pages\/wasserfilter-spar-abo"
+            "button_link_2": "shopify:\/\/pages\/wasserfilter-spar-abo",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -94,7 +96,7 @@
         "enable_section_container": true,
         "show_text_box": false,
         "desktop_content_alignment": "right",
-        "color_scheme": "scheme-3676b54a-cefe-4382-9dc8-3f66bfb20c0c",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "image_behavior": "none",
         "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
