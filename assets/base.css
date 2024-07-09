@@ -3588,6 +3588,7 @@ details-disclosure>details {
 .button,
 .second-font {
   font-family: "Amis Pro Light";
+  font-weight: 400;
 }
 
 h1,
@@ -5718,4 +5719,10 @@ slideshow-component .banner__heading.h1 {
 }
 
 /* column richtext */
+/* product list */
+.card__heading {
+  font-size: 19px;
+}
+
+/* product list */
 /* additional css */
