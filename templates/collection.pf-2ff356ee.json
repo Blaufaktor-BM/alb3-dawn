@@ -176,6 +176,114 @@
         "padding_bottom": 52
       }
     },
+    "image_text_list_FVC79E": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_MLpHE3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-versand-4-1672736067608.png",
+            "title": "<p>Versandkostenfrei<\/p>",
+            "text": "<p>Innerhalb von Deutschland mit unserem Versandpartner DHL.<\/p>",
+            "url": "shopify:\/\/collections\/wasserfilter-untertisch"
+          }
+        },
+        "item_hGx9Yj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-wasserhahn-edelstahl-1650957074470.jpg",
+            "title": "<p>TRINKWASSERFILTER<\/p>",
+            "text": "<p>Wasserhahn - Küche<\/p>",
+            "url": "shopify:\/\/collections\/wasserhahnfilter"
+          }
+        },
+        "item_wLHRdk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-duschwasserfilter-1640356052657.jpg",
+            "title": "<p>DUSCHFILTER<\/p>",
+            "text": "<p>Badezimmer<\/p>",
+            "url": "shopify:\/\/collections\/duschfilter"
+          }
+        },
+        "item_zKzhAC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-camping-extern-01-1651662648162.jpg",
+            "title": "<p>CAMPINGFILTER<\/p>",
+            "text": "<p>Externe Betankung<\/p>",
+            "url": "shopify:\/\/collections\/camping-mobil"
+          }
+        },
+        "item_VaACAh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-camping-intern-01-1651662648168.jpg",
+            "title": "<p>CAMPINGFILTER<\/p>",
+            "text": "<p>Festeinbau<\/p>",
+            "url": "shopify:\/\/collections\/camping-travel"
+          }
+        },
+        "item_Yddntk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-pro-camper-1675764175164.jpg",
+            "title": "<p>PRO CAMPER SET<\/p>",
+            "text": "<p>Kombi-Filter<\/p>",
+            "url": "shopify:\/\/collections\/pro-camper"
+          }
+        },
+        "item_PJ6DQt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-ersatzkartuschen-1640356052658.jpg",
+            "title": "<p>WASSERFILTER KARTUSCHEN<\/p>",
+            "text": "",
+            "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
+          }
+        },
+        "item_QJcY7B": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-zubehor-1651820561554.jpg",
+            "title": "<p>ZUBEHÖR<\/p>",
+            "text": "",
+            "url": "shopify:\/\/collections\/zubehor"
+          }
+        },
+        "item_6fA7i7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-adapter-01-1651661922980.jpg",
+            "title": "<p>ADAPTER<\/p>",
+            "text": "",
+            "url": "shopify:\/\/collections\/adapter"
+          }
+        }
+      },
+      "block_order": [
+        "item_MLpHE3",
+        "item_hGx9Yj",
+        "item_wLHRdk",
+        "item_zKzhAC",
+        "item_VaACAh",
+        "item_Yddntk",
+        "item_PJ6DQt",
+        "item_QJcY7B",
+        "item_6fA7i7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title_color": "#003e5f",
+        "column_count": 4,
+        "full_width": true,
+        "image_white": false,
+        "large_image": false,
+        "content_second_font": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_zRfwMF": {
       "type": "rich-text",
       "blocks": {
@@ -421,6 +529,7 @@
     "breadcrump_mPengH",
     "column_richtext_4XmfJA",
     "image_text_list_p73tci",
+    "image_text_list_FVC79E",
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
