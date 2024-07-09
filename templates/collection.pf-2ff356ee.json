@@ -21,7 +21,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-6d506524--albfilterlogobild.svg",
-            "image_width": 65
+            "image_width": 65,
+            "enable_border": true
           }
         },
         "heading_ePU3JA": {
@@ -29,6 +30,7 @@
           "settings": {
             "heading": "WASSERFILTER KAUFEN",
             "color": "#003e5f",
+            "second_font": true,
             "heading_tag": "h2",
             "heading_size": "h0"
           }
@@ -55,9 +57,10 @@
         "text_m4dbDB"
       ],
       "settings": {
+        "content_position": "center",
         "background_color": "#ffffff",
         "btn_bg": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
       }
