@@ -29,7 +29,10 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                <span style="color: {{ block.settings.color }}; font-weight: {{ block.settings.font_weight }};">
+                <span
+                  class="rte"
+                  style="color: {{ block.settings.color }}; font-weight: {{ block.settings.font_weight }};"
+                >
                   {{ block.settings.heading }}
                 </span>
               </{{ block.settings.heading_tag }}>
