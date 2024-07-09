@@ -141,15 +141,6 @@
               </span>
             {%- endif -%}
           </div>
-          <!-- START Reviews.io - Star Rating -->
-          <a href="#ReviewsWidget" style="text-decoration: none">
-            <div
-              id="review-io-rating"
-              class="ruk_rating_snippet"
-              data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
-            ></div>
-          </a>
-          <!-- END Reviews.io - Star Rating -->
         </div>
       </div>
       <div class="card__content">
@@ -170,15 +161,6 @@
             </a>
           </h3>
           <div class="card-information">
-            <!-- START Reviews.io - Star Rating -->
-            <a href="#ReviewsWidget" style="text-decoration: none">
-              <div
-                id="review-io-rating"
-                class="ruk_rating_snippet"
-                data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
-              ></div>
-            </a>
-            <!-- END Reviews.io - Star Rating -->
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
@@ -223,6 +205,15 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+            <!-- START Reviews.io - Star Rating -->
+            <a href="#ReviewsWidget" style="text-decoration: none">
+              <div
+                id="review-io-rating"
+                class="ruk_rating_snippet"
+                data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
+              ></div>
+            </a>
+            <!-- END Reviews.io - Star Rating -->
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
                 {% liquid
