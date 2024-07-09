@@ -36,7 +36,7 @@
     comment
       assign money_price = 'products.product.price.from_price_html' | t: price: money_price
     endcomment
-    assign money_price = price: money_price
+    assign money_price = money_price
   endif
 -%}
 
