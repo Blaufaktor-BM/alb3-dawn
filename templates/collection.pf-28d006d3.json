@@ -15,7 +15,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "Ersatzkartuschen für Wasserfilter kaufen",
+            "heading": "<p>Ersatzkartuschen für Wasserfilter kaufen<\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -25,7 +25,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Passende Ersatzkartuschen für deinen Dusch- oder Trinkwasserfilter. Unsere Active, ActivePlus und Nano-Kartuschen wurden speziell entwickelt, um die Wasserqualität zu verbessern.<br\/><br\/>Die Active Kartusche nutzt gesinterte Blockaktivkohle, während ActivePlus auf Polymeren basiert, um die Wasserfiltration zu optimieren. Für noch mehr Schutz bietet unsere Nano Kartusche eine effektive Keim- und Legionellenfilterung.<br\/><br\/>Die Filter-Kartuschen zur Trinkwasseraufbereitung sollten je nach Modell alle 4-6 Monate getauscht werden um mögliche Verkeimungen innerhalb des Filters zu vermeiden. Mit unserem praktischen<a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Kartuschen-Abo<\/a>bekommst du deine Ersatzkartuschen immer rechtzeitig, versandkostenfrei und ohne jegliche Verpflichtungen. <\/p>"
+            "text": "<p>Passende Ersatzkartuschen für deinen Dusch- oder Trinkwasserfilter. Unsere Active, ActivePlus und Nano-Kartuschen wurden speziell entwickelt, um die Wasserqualität zu verbessern.<br\/><br\/>Die Active Kartusche nutzt gesinterte Blockaktivkohle, während ActivePlus auf Polymeren basiert, um die Wasserfiltration zu optimieren. Für noch mehr Schutz bietet unsere Nano Kartusche eine effektive Keim- und Legionellenfilterung.<br\/><br\/>Die Filter-Kartuschen zur Trinkwasseraufbereitung sollten je nach Modell alle 4-6 Monate getauscht werden um mögliche Verkeimungen innerhalb des Filters zu vermeiden. Mit unserem praktischen <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Kartuschen-Abo <\/a>bekommst du deine Ersatzkartuschen immer rechtzeitig, versandkostenfrei und ohne jegliche Verpflichtungen. <\/p>"
           }
         }
       },
@@ -49,7 +49,7 @@
         "text_F8GCcJ": {
           "type": "text",
           "settings": {
-            "text": "Verpassen Sie keinenKartuschenwechsel mit dem",
+            "text": "<p>Verpassen Sie keinenKartuschenwechsel mit dem<\/p>",
             "text_style": "body"
           }
         },
@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "second_font": false,
-            "heading": "KARTUSCHENABO",
+            "heading": "<p>KARTUSCHENABO<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1"
           }
