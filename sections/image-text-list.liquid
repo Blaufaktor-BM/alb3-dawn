@@ -47,7 +47,7 @@
             {%- endif -%}
             {% if block.settings.title != blank %}
               <div
-                class="title-image_text_list"
+                class="title-image_text_list{% if section.settings.content_second_font %} second-font{% endif %} rte"
                 {% if section.settings.title_color != ' blank' %}
                   style="color: {{ section.settings.title_color }}"
                 {% endif %}
@@ -56,7 +56,9 @@
               </div>
             {% endif %}
             {% if block.settings.text != blank %}
-              <div class="text-image_text_list rte">{{ block.settings.text }}</div>
+              <div class="text-image_text_list rte{% if section.settings.content_second_font %} second-font{% endif %}">
+                {{ block.settings.text }}
+              </div>
             {% endif %}
             {%- if block.settings.url != blank -%}
               </a>
@@ -118,6 +120,11 @@
       "label": "Large Image"
     },
     {
+      "type": "checkbox",
+      "id": "content_second_font",
+      "label": "Content Second Font"
+    },
+    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -153,7 +160,7 @@
           "label": "Image"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "title",
           "label": "Title"
         },

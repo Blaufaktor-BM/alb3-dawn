@@ -4560,6 +4560,10 @@ slideshow-component .banner__heading.h1 {
   .column5 .item-image_text_list {
     max-width: 20%;
   }
+
+  .column6 .item-image_text_list {
+    max-width: 16.66%;
+  }
 }
 
 @media only screen and (max-width: 989px) {
