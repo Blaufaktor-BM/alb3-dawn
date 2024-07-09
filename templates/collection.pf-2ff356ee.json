@@ -176,6 +176,33 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_YH33wK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gh776d": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasserfilter hergestellt in Süddeutschland<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gh776d"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
     "image_text_list_FVC79E": {
       "type": "image-text-list",
       "blocks": {
@@ -183,7 +210,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/shop-versand-4-1672736067608.png",
-            "title": "<p>Versandkostenfrei<\/p>",
+            "title": "",
             "text": "<p><strong>Versandkostenfrei<\/strong><\/p><p>Innerhalb von Deutschland mit unserem Versandpartner DHL.<\/p>",
             "url": "shopify:\/\/collections\/wasserfilter-untertisch"
           }
@@ -479,6 +506,7 @@
     "breadcrump_mPengH",
     "column_richtext_4XmfJA",
     "image_text_list_p73tci",
+    "rich_text_YH33wK",
     "image_text_list_FVC79E",
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
