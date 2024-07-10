@@ -117,13 +117,13 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "cover",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -255,7 +255,7 @@
         "text_tr9AYk": {
           "type": "text",
           "settings": {
-            "text": "<p>Qualität zahlt sich aus. Unsere Edelstahlgehäuse sind aus hochwertigem 1.4404 Edelstahl (V4A) gefertig. Dies erhöht die mechanische Stabilität und macht den Filter widerstandsfähig gegenüber Korossion und anderen Umwelteinflüssen. Grund genug für uns, Dir eine erweiterte Garantie von 10 Jahren auf Dein Edelstahlgehäuse zu geben. <\/p>",
+            "text": "<p>In einer Zeit, in der jedes noch so kleine Teil aus Fernost zu kommen scheint, stehen wir von Alb Filter® für Qualität aus dem Herzen der Schwäbischen Alb. Ein Fertigungsstandort in Süd-Deutschland, welcher sich durch höchste Standards und Präzision in vielen Bereichen auszeichnet.<\/p><p><br\/><\/p><p>Wir fühlen uns unserer Region verpflichtet und fertigen ­unsere Produkte mit unseren Partnern in nächster Um­gebung. <\/p><p><br\/><\/p><p>Ein echtes Stück Heimat - <strong>Made in Germany<\/strong>.<\/p>",
             "text_style": "body"
           }
         },
@@ -274,15 +274,63 @@
         "button_emDiBA"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wasserfilter-Produktion-auf-der-Schwaebischen-Alb-Made-in-germany-1000-667.jpg",
+        "image": "shopify:\/\/shop_images\/Karte-Talheim_02.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "right",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4kkK3L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zxrUpH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made in Germany",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "text_wUdcXb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Qualität zahlt sich aus. Unsere Edelstahlgehäuse sind aus hochwertigem 1.4404 Edelstahl (V4A) gefertig. Dies erhöht die mechanische Stabilität und macht den Filter widerstandsfähig gegenüber Korossion und anderen Umwelteinflüssen. Grund genug für uns, Dir eine erweiterte Garantie von 10 Jahren auf Dein Edelstahlgehäuse zu geben. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_BpUHRC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr erfahren",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zxrUpH",
+        "text_wUdcXb",
+        "button_BpUHRC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Alb-Teamfoto-Tob-Ben-Pat_trans.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -314,6 +362,7 @@
     "collapsible_content_abfFcz",
     "image_with_text_BFNBPA",
     "image_with_text_rEiTnm",
+    "image_with_text_4kkK3L",
     "related-products"
   ]
 }

@@ -146,6 +146,12 @@
 
     ],
     "blocks": {
+      "15623156175785154009": {
+        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "16237003337219470499": {
         "type": "shopify:\/\/apps\/appstle-loyalty\/blocks\/appstle-loyalty\/1886c0f8-77b6-4a85-af11-b43cc17ae1c1",
         "disabled": false,
@@ -229,15 +235,26 @@
           "enable_syndication": false
         }
       },
-      "15623156175785154009": {
-        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+      "15316669992541710076": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9",
         "disabled": true,
         "settings": {
+          "star": "#000000",
+          "text_color": "#333333",
+          "snippet_mode": "default",
+          "text": "Reviews",
+          "line_break": false,
+          "listen_for_changes": false,
+          "rating_without_brackets": false,
+          "format_review_count": false,
+          "show_popup": true,
+          "anchor_to_reviews_widget": false,
+          "show_empty_stars": false
         }
       },
       "16274361319697914395": {
         "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-floating\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "widget_id": "",
           "show_all": true,
@@ -249,25 +266,8 @@
       },
       "6913107989674730356": {
         "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-sessions\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-        }
-      },
-      "15316669992541710076": {
-        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-        "disabled": false,
-        "settings": {
-          "star": "#ffa41c",
-          "text_color": "#616161",
-          "snippet_mode": "default",
-          "text": "Reviews",
-          "line_break": false,
-          "listen_for_changes": false,
-          "rating_without_brackets": false,
-          "format_review_count": false,
-          "show_popup": true,
-          "anchor_to_reviews_widget": false,
-          "show_empty_stars": false
         }
       }
     },
@@ -356,7 +356,7 @@
           "text": "#003e5f",
           "button": "#0081be",
           "button_label": "#ffffff",
-          "secondary_button_label": "#003e5f",
+          "secondary_button_label": "#333333",
           "shadow": "#333333"
         }
       },
