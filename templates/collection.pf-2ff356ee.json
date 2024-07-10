@@ -292,6 +292,19 @@
         "padding_bottom": 40
       }
     },
+    "second_contact_63DDyD": {
+      "type": "second-contact",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?<\/strong><\/p><p>Rufe uns gerne an oder schreib uns eine <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email<\/a>!<\/p>",
+        "icon": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+        "contact": "<p><strong>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/strong><\/p>",
+        "background_color": "#fafafa",
+        "text_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_9QCVWL": {
       "type": "rich-text",
       "blocks": {
@@ -364,6 +377,7 @@
     "rich_text_YH33wK",
     "image_text_list_FVC79E",
     "product_list_yXxBPr",
+    "second_contact_63DDyD",
     "rich_text_9QCVWL",
     "banner",
     "product-grid"
