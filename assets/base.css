@@ -5826,4 +5826,91 @@ ul.breadcrumb li a:hover {
 }
 
 /* breadcrumb */
+/* second contact */
+.wrapoper-second_contact {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.left_second_contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.left_second_contact-image img {
+  width: 100%;
+  height: auto;
+  max-width: 165px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.right_second_contact {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+}
+
+.right_second_contact-image img {
+  object-fit: contain;
+  max-width: 68px;
+  display: block;
+  width: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.right_second_contact-image {
+  display: none;
+}
+
+@media only screen and (min-width: 950px) {
+  .left_second_text-content {
+    max-width: 165px;
+  }
+
+  .right_second_text-content {
+    max-width: 250px;
+  }
+
+  .wrapoper-second_contact {
+    text-align: left;
+  }
+
+  .left_second_contact,
+  .right_second_contact {
+    max-width: calc(50% - 15px);
+  }
+
+  .left_second_contact {
+    flex-direction: row;
+  }
+
+  .right_second_contact {
+    justify-content: flex-end;
+  }
+
+  .right_second_contact-image {
+    display: block;
+  }
+}
+
+/* second contact */
 /* additional css */
