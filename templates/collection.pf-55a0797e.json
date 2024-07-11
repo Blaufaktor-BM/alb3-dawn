@@ -1,0 +1,183 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrump_h9gr8Y": {
+      "type": "breadcrump",
+      "settings": {
+      }
+    },
+    "rich_text_zRfwMF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jAPgmp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Zubehör kaufen<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h1",
+            "heading_size": "h1",
+            "font_weight": "300"
+          }
+        },
+        "text_zBeB3L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Passendes Zubehör für Ihren Dusch- oder Trinkwasserfilter. Ob Abstandshalter bei zu engen Platzverhältnissen in der Dusche oder einer Wandhalterung zur sicheren Montage. hier werden Sie fündig.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jAPgmp",
+        "text_zBeB3L"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_WTFwpR": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/titel-zubehor-kaufen-shop-2-1639736790239.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": true,
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product_list_yXxBPr": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Zubehör Haushalt",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "alb-filtergehause-duo-edelstahl",
+          "alb-filtergehause-element-edelstahl",
+          "alb-connect-edelstahl",
+          "vorfilter-protect-mit-wechselpad-edelstahl",
+          "alb-anschluss-set-20cm-unterspuele",
+          "alb-filter-anschluss-set-20cm-schnellkupplung-fur-unterspule",
+          "alb-filter-anschluss-set-40-cm-schnellkupplung-fur-unterspule",
+          "alb-wandhalterung",
+          "ersatzteil-alb-filter-duo-bypass",
+          "distanzhalter-fur-wandanschlusse",
+          "alb-winkelabstandsadapter-s"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_EkBNEh": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Camping Zubehör",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "trinkwasserschlauch-set-wohnmobil",
+          "alb-filter-flextube-befullschlauch",
+          "alb-filter-clean-tankreiniger",
+          "geka-camping-adapter-set",
+          "alb-filtergehause-element",
+          "alb-filter-protect",
+          "alb-connect",
+          "neoprenhulle",
+          "alb-filtergehause-element-edelstahl",
+          "vorfilter-protect-mit-wechselpad-edelstahl",
+          "alb-connect-edelstahl",
+          "camping-koffer",
+          "alb-wandhalterung",
+          "alb-filter-visio-sichtdeckel-element"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "breadcrump_h9gr8Y",
+    "rich_text_zRfwMF",
+    "image_banner_WTFwpR",
+    "product_list_yXxBPr",
+    "product_list_EkBNEh",
+    "banner",
+    "product-grid"
+  ]
+}
