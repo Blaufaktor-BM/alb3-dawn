@@ -254,7 +254,7 @@
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
-        "image_bg": "",
+        "image_bg": "#fafafa",
         "content_bg": "#f1faff",
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
