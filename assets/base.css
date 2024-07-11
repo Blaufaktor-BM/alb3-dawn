@@ -4394,11 +4394,11 @@ slideshow-component .banner__heading.h1 {
   }
 
   .large-image-content.remove_content_spacing .main-custom-image_text {
-    max-width: calc(50% -15px);
+    max-width: calc(50% - 15px);
   }
 
   .large-image-content.remove_content_spacing .media-custom_image_text {
-    max-width: calc(50% -15px);
+    max-width: calc(50% - 15px);
   }
 }
 
