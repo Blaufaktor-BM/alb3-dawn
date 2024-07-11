@@ -5913,4 +5913,122 @@ ul.breadcrumb li a:hover {
 }
 
 /* second contact */
+/* second product compare */
+.wrapper-second-product_compare {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-second-product_compare {
+  padding: 10px;
+  width: 100%;
+}
+
+.item-second-product_compare-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 174px;
+  margin: 0 auto;
+}
+
+.wrapper-second-product_compare.mobile2 .item-second-product_compare {
+  max-width: 50%;
+}
+
+.item-second-product_compare-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.item-second-product_compare-subtitle {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item-second-product_compare-icon_title {
+  margin-bottom: 20px;
+}
+
+.item-second-product_compare-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.item-second-product_compare-icons img {
+  width: 35px;
+  height: 35px;
+  display: block;
+  object-fit: contain;
+}
+
+.item-second-product_compare-info svg {
+  display: block;
+  width: 16px;
+  color: #4a90e2;
+  margin: 0 auto 5px;
+}
+
+.item-second-product_compare-infos {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.item-second-product_compare-info:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.item-second-product_compare-btn a {
+  justify-content: center;
+}
+
+@media only screen and (min-width: 750px) {
+  .wrapper-second-product_compare.desktop6 .item-second-product_compare {
+    max-width: 50%;
+  }
+
+  .wrapper-second-product_compare.desktop5 .item-second-product_compare {
+    max-width: 50%;
+  }
+
+  .wrapper-second-product_compare.desktop4 .item-second-product_compare {
+    max-width: 50%;
+  }
+
+  .wrapper-second-product_compare.desktop3 .item-second-product_compare {
+    max-width: 50%;
+  }
+
+  .wrapper-second-product_compare.desktop2 .item-second-product_compare {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper-second-product_compare.desktop6 .item-second-product_compare {
+    max-width: 16.66%;
+  }
+
+  .wrapper-second-product_compare.desktop5 .item-second-product_compare {
+    max-width: 20%;
+  }
+
+  .wrapper-second-product_compare.desktop4 .item-second-product_compare {
+    max-width: 25%;
+  }
+
+  .wrapper-second-product_compare.desktop3 .item-second-product_compare {
+    max-width: 33.33%;
+  }
+
+  .wrapper-second-product_compare.desktop2 .item-second-product_compare {
+    max-width: 50%;
+  }
+}
+
+/* second product compare */
 /* additional css */

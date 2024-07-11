@@ -1,0 +1,305 @@
+{% if section.blocks.size > 0 %}
+  {%- liquid
+    assign fetch_priority = 'auto'
+  -%}
+  {%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    {% if section.settings.link_color != blank %}
+    #shopify-section-{{ section.id }} a {
+      color: {{ section.settings.link_color }};
+    }
+    {% endif %}
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+  <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+    <div class="page-width">
+      <div
+        class="wrapper-second-product_compare second-font center desktop{{ section.settings.desktop_column }} mobile{{ section.settings.mobile_column }}"
+        {% if section.settings.text_color != blank %}
+          style="color: {{ section.settings.text_color }}"
+        {% endif %}
+      >
+        {% for block in section.blocks %}
+          <div class="item-second-product_compare{% if block.settings.enable_active %} recommend-item{% endif %}">
+            {% if block.settings.image != blank %}
+              <div class="item-second-product_compare-media">
+                {% if block.settings.url != blank %}
+                  <a href="{{ block.settings.url }}">
+                {% endif %}
+                {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                {%- capture sizes -%}
+                (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 1500
+                  | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                }}
+                {% if block.settings.url != blank %}
+                  </a>
+                {% endif %}
+              </div>
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <h3
+                class="item-second-product_compare-title second-font"
+                {% if section.settings.text_color != blank %}
+                  style="color: {{ section.settings.text_color }}"
+                {% endif %}
+              >
+                {{ block.settings.title }}
+              </h3>
+            {% endif %}
+            {% if block.settings.subtitle != blank %}
+              <h4
+                class="item-second-product_compare-subtitle second-font"
+                {% if section.settings.text_color != blank %}
+                  style="color: {{ section.settings.text_color }}"
+                {% endif %}
+              >
+                {{ block.settings.subtitle }}
+              </h4>
+            {% endif %}
+            {% if block.settings.icon_title != blank %}
+              <div class="item-second-product_compare-icon_title">{{ block.settings.icon_title }}</div>
+            {% endif %}
+            <div class="item-second-product_compare-icons">
+              {% for i in (1..3) %}
+                {% capture icon %}icon{{ i }}{% endcapture %}
+                {% if block.settings[icon] != blank %}
+                  <div class="item-second-product_compare-icon">
+                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                    {%- capture sizes -%}
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                  (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+              {%- endcapture -%}
+                    {{
+                      block.settings[icon]
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="item-second-product_compare-infos">
+              {% for i in (1..5) %}
+                {% capture info %}info{{ i }}{% endcapture %}
+                {% if block.settings[info] != blank %}
+                  <div class="item-second-product_compare-info">
+                    <div class="item-second-product_compare-info-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                      </svg>
+                    </div>
+                    <div class="item-second-product_compare-info-text">
+                      {{ block.settings[info] }}
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% if block.settings.btn_text != blank %}
+              <div class="item-second-product_compare-btn">
+                <a href="{{ block.settings.url }}" class="btn-second second-font">
+                  {{- block.settings.btn_text }}
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
+                  </svg>
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "Second Product Compare",
+  "settings": [
+    {
+      "type": "range",
+      "id": "desktop_column",
+      "label": "Desktop Column",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "select",
+      "id": "mobile_column",
+      "label": "Mobile Column",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 column"
+        },
+        {
+          "value": "2",
+          "label": "2 columns"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link Color",
+      "default": "#0081be"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "enable_active",
+          "label": "Enable Active"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "Trinkwasserfilter"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle",
+          "label": "Subtitle",
+          "default": "ACTIVE"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "icon_title",
+          "label": "Icon Title",
+          "default": "Geeignet für:"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon1",
+          "label": "Icon1"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "Icon2"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon3",
+          "label": "Icon3"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "info1",
+          "label": "Info1",
+          "default": "Frischer Trinkgenuss"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "info2",
+          "label": "Info2",
+          "default": "Reduziert Schadstoffe"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "info3",
+          "label": "Info3"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "info4",
+          "label": "Info4"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "info5",
+          "label": "Info5"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "btn_text",
+          "label": "Button Text",
+          "default": "Mehr erfahren"
+        },
+        {
+          "type": "url",
+          "label": "URL",
+          "id": "url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Second Product Compare",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
