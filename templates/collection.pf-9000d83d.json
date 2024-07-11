@@ -161,7 +161,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen",
+        "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -170,10 +170,11 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active",
-          "wasserfilter-kartusche-nano",
-          "wasserfilter-kartuschen-set-fusion",
-          "alb-filter-protect-wechselpads-3er-pack"
+          "neoprenhulle",
+          "alb-wandhalterung",
+          "alb-filter-erweiterungs-set-active",
+          "alb-filter-erweiterungs-set-nano",
+          "alb-filter-clean-tankreiniger"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
