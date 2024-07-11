@@ -110,6 +110,34 @@
         "padding_bottom": 40
       }
     },
+    "product_list_bD9a9C": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Nano Duschfilter",
+        "enable_border": true,
+        "enable_center": false,
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "alb-duschfilter-nano"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
     "second_contact_CV8QkP": {
       "type": "second-contact",
       "settings": {
@@ -159,6 +187,7 @@
     "rich_text_zRfwMF",
     "product_list_yXxBPr",
     "product_list_EkBNEh",
+    "product_list_bD9a9C",
     "second_contact_CV8QkP",
     "banner",
     "product-grid"
