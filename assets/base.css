@@ -4376,6 +4376,14 @@ slideshow-component .banner__heading.h1 {
   .media-custom_image_text.add_spacing img {
     padding: 40px;
   }
+
+  .large-image-content .media-custom_image_text {
+    max-width: 50%;
+  }
+
+  .large-image-content .main-custom-image_text {
+    max-width: 50%;
+  }
 }
 
 @media only screen and (min-width: 990px) {
@@ -4386,11 +4394,11 @@ slideshow-component .banner__heading.h1 {
   }
 
   .large-image-content .media-custom_image_text {
-    max-width: calc(60% - 15px);
+    max-width: 60%;
   }
 
   .large-image-content .main-custom-image_text {
-    max-width: calc(40% - 15px);
+    max-width: 40%;
   }
 }
 
