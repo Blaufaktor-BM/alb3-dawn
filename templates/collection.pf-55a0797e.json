@@ -14,53 +14,54 @@
       "settings": {
       }
     },
-    "rich_text_zRfwMF": {
-      "type": "rich-text",
+    "image_banner_WTFwpR": {
+      "type": "image-banner",
       "blocks": {
-        "heading_jAPgmp": {
+        "heading_NzJCQT": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Zubehör kaufen<\/p>",
-            "color": "#003e5f",
-            "heading_tag": "h1",
+            "second_font": false,
+            "heading": "<p>Gewinde-Adapter<br\/>Alb Filter® DUO<\/p>",
+            "heading_tag": "h2",
             "heading_size": "h1",
-            "font_weight": "300"
+            "heading_weight": "700"
           }
         },
-        "text_zBeB3L": {
+        "text_jKXhCp": {
           "type": "text",
           "settings": {
-            "text": "<p>Passendes Zubehör für Ihren Dusch- oder Trinkwasserfilter. Ob Abstandshalter bei zu engen Platzverhältnissen in der Dusche oder einer Wandhalterung zur sicheren Montage. hier werden Sie fündig.<\/p>"
+            "text": "<p>Sollte Ihr Alb Filter® DUO Wasserhahnfilter nicht standardmäßig schon an die Armatur passen haben wir hier eine große Auswahl gängiger Gewindeadapter mit denen Sie Ihren Filter auch an nicht standardisierte Hähne anbringen können. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_aLQyp8": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Hilfe benötigt? Zum Gewinde Ratgeber",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
-        "heading_jAPgmp",
-        "text_zBeB3L"
+        "heading_NzJCQT",
+        "text_jKXhCp",
+        "buttons_aLQyp8"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
-        "full_width": true,
-        "content_full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 28
-      }
-    },
-    "image_banner_WTFwpR": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/titel-zubehor-kaufen-shop-2-1639736790239.jpg",
+        "image": "shopify:\/\/shop_images\/titel-adapter-kaufen-shop-2-1639745773436.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
-        "enable_section_container": true,
+        "enable_section_container": false,
         "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -226,7 +227,6 @@
   },
   "order": [
     "breadcrump_h9gr8Y",
-    "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
     "product_list_EkBNEh",
