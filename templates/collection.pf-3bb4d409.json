@@ -72,7 +72,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Trinkwasserfilter",
+        "heading": "Mobil (extern)",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -81,7 +81,10 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active"
+          "camping-wasserfilter-fusion-mobil",
+          "camping-wasserfilter-active-mobil",
+          "camping-wasserfilter-nano-mobil",
+          "alb-filter-mobil-anschluss-set-geka"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
