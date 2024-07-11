@@ -225,7 +225,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Balance<\/strong>",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "heading_size": "h1"
           }
         },
@@ -336,21 +336,21 @@
         "heading_hFwBHw": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Untertisch Active Plus+<\/strong>",
-            "heading_tag": "h2",
-            "heading_size": "h2"
+            "heading": "<strong>Shungit<\/strong>",
+            "heading_tag": "h3",
+            "heading_size": "h1"
           }
         },
         "subtitle_aUr3DM": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Das Plus gegen Bakterien und Keime"
+            "subtitle": "Wertvolles Shungit Gestein für die Dusche"
           }
         },
         "text_DyBekM": {
           "type": "text",
           "settings": {
-            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von<strong>0,7 µm<\/strong>effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die<strong>innovative 2-fach Enthärterstufe<\/strong>reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
+            "text": "<p>Der Shungit Duschfilter erfüllt den Wunsch vieler Kunden nach energetischem, vitalisierendem und strukturiertem Wasser. Die Eigenschaften von Shungit basieren auf Erfahrungen vieler Anwender, stellen jedoch keine wissenschaftliche Aussage dar.<br\/><\/p><p>Die Mikrobenzahl von mit Shungit gefiltertem Wasser kann bis zu zwölfmal kleiner sein als bei herkömmlich gefiltertem Wasser. Außerdem kann dieser Trübungen sowie Fremdgerüche verringern.<\/p>",
             "text_style": "body"
           }
         },
@@ -358,18 +358,18 @@
           "type": "icon_text",
           "settings": {
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
-            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
-            "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
-            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-28-radicals_dark-blue.svg",
+            "text1": "Bindung von freien Radikalen",
+            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-27-adsorptiv_dark-blue.svg",
+            "text2": "Adsorptiv, katalytisch und bakterizid",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-17-6month_dark-blue.svg",
+            "text3": "Kartuschenwechsel alle 6 Monate",
             "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "Reduzierung von Mikroplastik",
+            "text4": "",
             "image5": "shopify:\/\/shop_images\/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
-            "text5": "Reduzierung von Bakterien und Keime bis 0.7 µm",
+            "text5": "",
             "image6": "shopify:\/\/shop_images\/pf-7c162f46--albfiltericonsetparameters07lime.svg",
-            "text6": "Kalkreduktion (Wasserenthärtung)"
+            "text6": ""
           }
         },
         "icon_text_acc_rhxpii": {
@@ -377,18 +377,18 @@
           "settings": {
             "heading": "Filtereigenschaften",
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-28-radicals-mk_dark-blue_7bbd1241-35d4-46c0-86cb-81b96bb262c4.svg",
+            "text1": "<p><strong>Binden von freien Radikalen<\/strong><\/p><p>Aufgrund des Molekülaufbaus soll Shungit in der Lage sein, freie Radikale aufzunehmen und zu binden, die für den Alterungsprozess der Haut mit verantwortlich sind.<\/p>",
+            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-27-adsorptiv-mk_dark-blue_9f3ea214-f457-4ffc-812d-7ba0736975fd.svg",
+            "text2": "<p><strong>Adsorptiv, katalytische und bakterizid<\/strong><\/p><p>Studien von Krutous und Rysev, Khadartsev3 sprechen von Shungit eine hohe adsorptive, katalytische und bakterizide Aktivität zu.<\/p>",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-17-6month-mk_dark-blue_938cbeaa-5f5a-4a51-bf86-79a4df0db875.svg",
+            "text3": "<p><strong>Kartuschenwechsel nur 2x im Jahr<\/strong><\/p><p>Schneller, einfacher Wechsel – Dauer: 2 min. Empfehlung gemäß 6 Monate.<\/p>",
             "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "text4": "",
             "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
+            "text5": "",
             "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
-            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<\/strong><\/p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "text6": "",
             "text7": "",
             "text8": "",
             "text9": "",
@@ -399,17 +399,17 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial: <\/strong>Bioton<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>3,0 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>6 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>"
+            "top_text": "<p><strong>Filtermaterial: <\/strong>Shungit Gestein<\/p><p><strong>Wechselinterval: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,0 Bar<\/p><p><strong>Durchfluss: <\/strong>15 l\/min<\/p>",
+            "bottom_text": ""
           }
         },
         "button_97ULJk": {
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
+            "button_link1": "shopify:\/\/products\/alb-duschfilter-shungit",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+            "button_link2": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
           }
         }
       },
@@ -423,7 +423,7 @@
         "button_97ULJk"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactiveplusfilterkartusche-1639472477710.jpg",
+        "image": "shopify:\/\/shop_images\/alb-filter-duschfilter-shungit-edelstahl-natur-4260590614865-475.jpg",
         "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
