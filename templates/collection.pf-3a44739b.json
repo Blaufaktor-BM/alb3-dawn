@@ -138,7 +138,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -147,14 +147,14 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
+          "alb-filtergehause-element",
+          "neoprenhulle",
+          "trinkwasserschlauch-set-wohnmobil",
+          "alb-filter-flextube-befullschlauch",
+          "alb-filtergehause-element-edelstahl",
+          "alb-filter-clean-tankreiniger",
+          "camping-koffer",
+          "geka-camping-adapter-set"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
