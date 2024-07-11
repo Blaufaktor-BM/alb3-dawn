@@ -6055,4 +6055,11 @@ ul.breadcrumb li a:hover {
 }
 
 /* image banner */
+/* multi column */
+.multicolumn-card>a {
+  text-decoration: none;
+  color: rgba(var(--color-foreground), 1);
+}
+
+/* multi column */
 /* additional css */
