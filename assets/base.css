@@ -4346,14 +4346,6 @@ slideshow-component .banner__heading.h1 {
     gap: 30px;
   }
 
-  .large-image-content .media-custom_image_text {
-    max-width: calc(60% - 15px);
-  }
-
-  .large-image-content .main-custom-image_text {
-    max-width: calc(40% - 15px);
-  }
-
   .small-image-content .media-custom_image_text {
     max-width: calc(40% - 15px);
   }
@@ -4391,6 +4383,14 @@ slideshow-component .banner__heading.h1 {
   .main-custom-image_text,
   .media-custom_image_text {
     max-width: 50%;
+  }
+
+  .large-image-content .media-custom_image_text {
+    max-width: calc(60% - 15px);
+  }
+
+  .large-image-content .main-custom-image_text {
+    max-width: calc(40% - 15px);
   }
 }
 
@@ -5902,7 +5902,7 @@ ul.breadcrumb li a:hover {
   display: none;
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 990px) {
   .left_second_text-content {
     max-width: 180px;
   }
