@@ -1,0 +1,269 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrump_Ktxj9R": {
+      "type": "breadcrump",
+      "settings": {
+      }
+    },
+    "rich_text_zRfwMF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jAPgmp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ersatzkartuschen für Wasserfilter kaufen<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h1",
+            "heading_size": "h1",
+            "font_weight": "300"
+          }
+        },
+        "text_zBeB3L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Passende Ersatzkartuschen für deinen Dusch- oder Trinkwasserfilter. Unsere Active, ActivePlus und Nano-Kartuschen wurden speziell entwickelt, um die Wasserqualität zu verbessern.<br\/><br\/>Die Active Kartusche nutzt gesinterte Blockaktivkohle, während ActivePlus auf Polymeren basiert, um die Wasserfiltration zu optimieren. Für noch mehr Schutz bietet unsere Nano Kartusche eine effektive Keim- und Legionellenfilterung.<br\/><br\/>Die Filter-Kartuschen zur Trinkwasseraufbereitung sollten je nach Modell alle 4-6 Monate getauscht werden um mögliche Verkeimungen innerhalb des Filters zu vermeiden. Mit unserem praktischen <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Kartuschen-Abo <\/a>bekommst du deine Ersatzkartuschen immer rechtzeitig, versandkostenfrei und ohne jegliche Verpflichtungen. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jAPgmp",
+        "text_zBeB3L"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_WTFwpR": {
+      "type": "image-banner",
+      "blocks": {
+        "text_F8GCcJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Verpassen Sie keinen<br\/>Kartuschenwechsel mit dem<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "text_WrrV9X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alb Filter®<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_Q48Pb3": {
+          "type": "heading",
+          "settings": {
+            "second_font": true,
+            "heading": "<p>KARTUSCHEN<br\/>ABO<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "heading_weight": "400"
+          }
+        },
+        "buttons_WbU6cN": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Weitere Infos",
+            "button_link_2": "shopify:\/\/pages\/wasserfilter-spar-abo",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "text_F8GCcJ",
+        "text_WrrV9X",
+        "heading_Q48Pb3",
+        "buttons_WbU6cN"
+      ],
+      "custom_css": [
+        ".banner__heading {margin-top: -10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/titelersatzkartuschenkaufen1170x400overlay-1669128102735.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "enable_section_container": true,
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product_list_yXxBPr": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Ersatzkartuschen Trinkwasserfilter",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "wasserfilter-kartusche-active"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_EkBNEh": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Ersatzkartuschen Duschfilter",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "wasserfilter-kartusche-balance",
+          "wasserfilter-kartusche-nano",
+          "alb-filterkartusche-shungit"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_WQAXYz": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "wasserfilter-kartusche-active-2er-set",
+          "wasserfilter-kartusche-active-3er-set",
+          "wasserfilter-kartusche-active-plus-2er-set",
+          "wasserfilter-kartusche-active-plus-3er-set",
+          "wasserfilter-kartusche-nano-2er-set",
+          "wasserfilter-kartuschen-set-fusion",
+          "wasserfilter-kartusche-balance-2er-set",
+          "wasserfilter-kartusche-balance-3er-set"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_jjakWr": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Zubehör",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "vorfilter-fur-alb-filter-duo-nano"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "breadcrump_Ktxj9R",
+    "rich_text_zRfwMF",
+    "image_banner_WTFwpR",
+    "product_list_yXxBPr",
+    "product_list_EkBNEh",
+    "product_list_WQAXYz",
+    "product_list_jjakWr",
+    "banner",
+    "product-grid"
+  ]
+}
