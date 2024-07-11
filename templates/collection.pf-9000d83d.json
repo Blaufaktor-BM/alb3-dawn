@@ -51,7 +51,8 @@
     "image_banner_WTFwpR": {
       "type": "image-banner",
       "custom_css": [
-        ".banner__heading {margin-top: -10px;}"
+        ".media {background: transparent;}",
+        "img {object-fit: contain;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/albfilteredelstahlfusion_mit_schnitt_kartuscheninfo-1637137409374.jpg",
