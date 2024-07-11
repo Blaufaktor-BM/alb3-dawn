@@ -253,8 +253,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
-        "image_ratio": "3_2",
-        "image_contain": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
         "remove_content_spacing": false,
