@@ -103,7 +103,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Duschfilter",
+        "heading": "Travel (intern)",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -112,9 +112,10 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-balance",
-          "wasserfilter-kartusche-nano",
-          "alb-filterkartusche-shungit"
+          "camping-wasserfilter-fusion-travel",
+          "camping-wasserfilter-active-travel",
+          "camping-wasserfilter-nano-travel",
+          "alb-campingfilter-anschluss-set-travel"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
