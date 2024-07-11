@@ -225,15 +225,17 @@
         "item_WVTGGB": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
-            "url": ""
+            "url": "shopify:\/\/pages\/faq-trinkwasser"
           }
         },
         "item_tQr9gW": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "text": "Hilfe und Kontakt",
+            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
           }
         }
       },
@@ -254,7 +256,7 @@
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 49
       }
     },
     "banner": {
