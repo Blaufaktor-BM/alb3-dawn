@@ -82,7 +82,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Active Campingfilter",
+        "heading": "Nano Campingfilter",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -91,8 +91,8 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "camping-wasserfilter-active-mobil",
-          "camping-wasserfilter-active-travel",
+          "camping-wasserfilter-nano-mobil",
+          "camping-wasserfilter-nano-travel",
           "camping-wasserfilter-fusion-mobil",
           "camping-wasserfilter-fusion-travel",
           "pro-camper-set"
