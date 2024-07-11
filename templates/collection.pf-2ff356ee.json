@@ -383,16 +383,20 @@
           "type": "item",
           "settings": {
             "enable_active": false,
-            "title": "Trinkwasserfilter",
-            "subtitle": "ACTIVE",
+            "image": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "title": "Bakterienfilter",
+            "subtitle": "<strong>NANO<\/strong>",
             "icon_title": "Geeignet für:",
-            "info1": "Frischer Trinkgenuss",
-            "info2": "Reduziert Schadstoffe",
-            "info3": "",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "info1": "<strong>Zertifizierte Keimsperre<\/strong>",
+            "info2": "<strong>Für Trinkwasser und Dusche<\/strong>",
+            "info3": "<strong>Schutz vor E. Coli, Legionellen, uvm.<\/strong>",
             "info4": "",
             "info5": "",
             "btn_text": "Mehr erfahren",
-            "url": ""
+            "url": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
           }
         },
         "item_JKqE8t": {
