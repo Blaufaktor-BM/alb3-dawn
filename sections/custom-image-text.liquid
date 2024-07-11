@@ -30,7 +30,12 @@
       <div
         class="wrapper-custom_image_text{% if section.settings.image_contain %} image_contain{% endif %}{% if section.settings.small_content_image %} small-content-image{% endif %}{% if section.settings.remove_content_spacing %} remove_content_spacing{% endif %}{% if section.settings.top_radius %} top_radius{% endif %}{% if section.settings.row_reverse %} row_reverse{% endif %} isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
       >
-        <div class="media-custom_image_text">
+        <div
+          class="media-custom_image_text{% if section.settings.add_image_spacing %} add_spacing{% endif %}"
+          {% if section.settings.image_bg != 'blank' %}
+            style="background-color: {{ section.settings.image_bg }}"
+          {% endif %}
+        >
           {%- if section.settings.image != blank -%}
             {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
             {%- capture sizes -%}
@@ -57,10 +62,7 @@
               {%- if section.settings.content_image != blank -%}
                 <div class="media-wrapper_content-custom_image_text">
                   <div
-                    class="media_content-custom_image_text{% if section.settings.add_image_spacing %} add_spacing{% endif %}"
-                    {% if section.settings.image_bg != 'blank' %}
-                      style="background-color: {{ section.settings.image_bg }}"
-                    {% endif %}
+                    class="media_content-custom_image_text"
                   >
                     {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                     {%- capture sizes -%}
