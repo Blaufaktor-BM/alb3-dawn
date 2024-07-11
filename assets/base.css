@@ -6040,4 +6040,19 @@ ul.breadcrumb li a:hover {
 }
 
 /* second product compare */
+/* image banner */
+.banner--thin .banner__content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner--thin .banner__media img {
+  object-position: bottom center;
+}
+
+.banner.bottom-shadow {
+  box-shadow: rgba(0, 0, 0, .25) 4px 5px 8px;
+}
+
+/* image banner */
 /* additional css */
