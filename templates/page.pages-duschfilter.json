@@ -102,7 +102,7 @@
         "icon_text_8qFpLX": {
           "type": "icon_text",
           "settings": {
-            "image_width": 84,
+            "image_width": 80,
             "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin_dark-blue.svg",
             "text1": "Tägliche Wellness für Haut und Haar",
             "image2": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
@@ -125,7 +125,7 @@
         "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU-v02.png",
         "image_ratio": "1_1",
         "image_contain": true,
-        "small_content_image": false,
+        "small_content_image": true,
         "row_reverse": true,
         "remove_content_spacing": true,
         "top_radius": false,
@@ -138,7 +138,7 @@
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 60
       }
     },
     "custom_image_text_aQ4HxB": {
@@ -245,7 +245,7 @@
         "icon_text_agxb7L": {
           "type": "icon_text",
           "settings": {
-            "image_width": 50,
+            "image_width": 60,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Aktivkohle gegen Geruch, Geschmack und Trübung des Wassers",
             "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-25-dermapearls_dark-blue.svg",
@@ -357,7 +357,7 @@
         "icon_text_GehLFm": {
           "type": "icon_text",
           "settings": {
-            "image_width": 50,
+            "image_width": 60,
             "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-28-radicals_dark-blue.svg",
             "text1": "Bindung von freien Radikalen",
             "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-27-adsorptiv_dark-blue.svg",
@@ -463,7 +463,7 @@
         "icon_text_yL6LGK": {
           "type": "icon_text",
           "settings": {
-            "image_width": 50,
+            "image_width": 60,
             "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
             "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
             "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-04-microplastics_dark-blue.svg",

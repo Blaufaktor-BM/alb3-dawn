@@ -42,7 +42,7 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB ELEMENT<\/p>",
+            "heading": "<p>ALB CAMPING<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
@@ -52,7 +52,7 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Duschfilter<\/strong><\/p>",
+            "heading": "<h1>Wasserfilter für Wohnmobil, Camper und Boot<\/h1><p><\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -62,14 +62,14 @@
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Wasserfilter für die Dusche, Kalkfilter, Legionellenfilter: Für ein besonderes Duscherlebnis<\/p><p>Gönne Dir tägliche Wellness für Haut und Haar mit den Duschfiltern von Alb. Unsere Kunden freuen sich über ein weiches Hautgefühl, geschmeidigere Haaren und sogar Linderung bei Hautbeschwerden. Die zertifizierte Nano-Kartusche bietet außerdem präventiven und akuten Schutz vor Legionellen. <br\/><\/p>"
+            "text": "<p>Ob im Wohnmobil, Camper, Segel- oder Motorboot – die Versorgung mit sauberem Frischwasser ist auf Reisen unerlässlich. An Wasser-Zapfstellen, auf Campingplätzen, in Häfen oder in der freien Natur bleibt die Wasserqualität oft ungewiss. Die Alb Filter® MOBIL, TRAVEL und PRO CAMPER Sets bieten eine einfache und sichere Lösung für beste Wasserqualität immer und überall.<\/p>"
           }
         },
         "button_RNbMXW": {
           "type": "button",
           "settings": {
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/duschfilter",
+            "button_link": "shopify:\/\/collections\/camping-wasserfilter",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": ""
