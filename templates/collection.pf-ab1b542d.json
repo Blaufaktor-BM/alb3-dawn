@@ -133,7 +133,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading": "Wasserfilter Untertisch Schnellkupplungs-Set",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -142,14 +142,10 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
+          "alb-filter-active-untertisch-komplett-set-schnellkupplung",
+          "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
+          "alb-filter-untertisch-komplett-set-schnellkupplung",
+          "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
