@@ -4169,6 +4169,10 @@ slideshow-component .banner__heading.h1 {
   padding: 30px;
 }
 
+.media_content-custom_image_text.add_spacing {
+  padding: 40px;
+}
+
 .media_content-custom_image_text img {
   display: block;
   width: 100%;

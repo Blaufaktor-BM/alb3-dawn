@@ -56,7 +56,12 @@
             <div class="content-custom-image_text">
               {%- if section.settings.content_image != blank -%}
                 <div class="media-wrapper_content-custom_image_text">
-                  <div class="media_content-custom_image_text">
+                  <div
+                    class="media_content-custom_image_text{% if section.settings.add_image_spacing %} add_spacing{% endif %}"
+                    {% if section.settings.image_bg != 'blank' %}
+                      style="background-color: {{ section.settings.image_bg }}"
+                    {% endif %}
+                  >
                     {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                     {%- capture sizes -%}
                       (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
@@ -308,6 +313,11 @@
     },
     {
       "type": "checkbox",
+      "id": "add_image_spacing",
+      "label": "Add Image Spacing"
+    },
+    {
+      "type": "checkbox",
       "id": "remove_content_spacing",
       "label": "Remove Content Spacing"
     },
@@ -320,6 +330,11 @@
       "type": "color",
       "id": "background_color",
       "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "image_bg",
+      "label": "Image Background Color"
     },
     {
       "type": "color",
