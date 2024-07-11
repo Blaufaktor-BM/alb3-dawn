@@ -23,8 +23,10 @@
         "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
         "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "small",
         "desktop_content_position": "middle-center",
+        "enable_section_container": false,
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -40,8 +42,9 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "ALB ELEMENT",
+            "heading": "<p>ALB ELEMENT<\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h0",
             "font_weight": "200"
           }
@@ -49,8 +52,9 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duschfilter<\/strong>",
+            "heading": "<p><strong>Duschfilter<\/strong><\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "font_weight": "700"
           }
@@ -68,8 +72,7 @@
             "button_link": "shopify:\/\/collections\/duschfilter",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link_2": ""
           }
         }
       },
@@ -86,7 +89,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "full_width": true,
         "content_full_width": true,
         "padding_top": 40,
@@ -100,15 +103,15 @@
           "type": "icon_text",
           "settings": {
             "image_width": 84,
-            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin-mk_dark-blue.svg",
+            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin_dark-blue.svg",
             "text1": "Tägliche Wellness für Haut und Haar",
             "image2": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
             "text2": "Zuverlässiger Schutz vor Legionellen (Kartusche Alb Filter® NANO)",
-            "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-35-filtercartridge_dark-blue.svg",
             "text3": "Ein Gehäuse, unterschiedliche Kartuschen. Sie haben die Wahl zwischen der Duschkartusche Balance, Shungit oder Nano",
-            "image4": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month.svg",
+            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
             "text4": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit. ",
-            "image5": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
+            "image5": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month.svg",
             "text5": "Wechsel der Filterkartuschen nur alle 6 Monaten",
             "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
             "text6": "Design, Fertigung und Produktion in Süddeutschland"
@@ -120,6 +123,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU-v02.png",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": true,
@@ -144,6 +148,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Modularer Wasserfilter<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2"
           }
         },
@@ -156,7 +161,7 @@
         "text_iQQ9Me": {
           "type": "text",
           "settings": {
-            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle in der Element-Variante zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<br\/><br\/>In der Fusion-Variante werden zwei Element Gehäuse mit einer Active und Nano Kartusche kombiniert. Daraus ergibt sich ein größtmögliches Filterspektrum und somit höchste Sicherheit für das Trinkwasser.<\/p>",
+            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Duschfiltern Balance und Shungit sowie dem Legionellenfilter Nano.<\/p>",
             "text_style": "body"
           }
         }
@@ -167,7 +172,8 @@
         "text_iQQ9Me"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/UNTERTISCH-Element-Fusion-Varianten_2000x_1.webp",
+        "image": "shopify:\/\/shop_images\/DUSCHFILTER-Element-Varianten_2000x_bd4f6377-689a-4141-bc4c-808cc5218d71.webp",
+        "image_ratio": "1_1",
         "image_contain": false,
         "small_content_image": false,
         "row_reverse": true,
@@ -181,8 +187,8 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "rich_text_h7N8FR": {
@@ -191,8 +197,9 @@
         "heading_mR8NNx": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Alb Untertisch-Wasserfilter im Überblick<\/strong>",
+            "heading": "<p><strong>Alb Duschfilter im Überblick<\/strong><\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "font_weight": "700"
           }
@@ -217,14 +224,21 @@
         "heading_cDwzCP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Untertisch Active<\/strong>",
-            "heading_size": "h2"
+            "heading": "<strong>Balance<\/strong>",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_MTfEmx": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Der Schadstofffilter für die Dusche"
           }
         },
         "text_7ABmMX": {
           "type": "text",
           "settings": {
-            "text": "<p>Schadstoffrückhalt und erfrischender Trinkgenuss.<\/p><p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text": "<p>Das Leitungswasser in Deutschland unterliegt strengsten Kontrollen. Dennoch gibt es gute Gründe auch das Duschwasser zu filtern: durch Chlorung und Schadstoffe, veraltete Hausleitungen können Fremdstoffe in Ihr Leitungswasser gelangen.<br\/><br\/>Neben der Reduzierung von Schadstoffen sowie Geruch, Geschmack und Trübungen bescheinigen uns viele Kunden dank der eingearbeiteten Mineralisierungsstufe ein angenehmes und weiches Hautgefühl während und nach dem Duschen.<br\/><br\/>Alb-Kundenstimmen: Unsere Kundenerfahrungen zeigen, dass der Duschfilter Alb Balance kraftvolles, glänzendes Haar sowie eine weiche Haut fördern kann.<\/p>",
             "text_style": "body"
           }
         },
@@ -233,15 +247,17 @@
           "settings": {
             "image_width": 50,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
-            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
-            "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
-            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "Reduzierung von Mikroplastik",
-            "text5": "",
-            "text6": ""
+            "text1": "Aktivkohle gegen Geruch, Geschmack und Trübung des Wassers",
+            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-25-dermapearls_dark-blue.svg",
+            "text2": "Alb DERMA Perlen - Mineralienmix",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin_dark-blue.svg",
+            "text3": "Sediement-Vlies zur Feinfiltration ",
+            "image4": "shopify:\/\/shop_images\/pf-44d97bf6--albfiltericonsetparameters24schadstoffbindung.svg",
+            "text4": "Bindung von Schadstoffen im Wasser",
+            "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-26-phfix_dark-blue.svg",
+            "text5": "Alb pH-FIX Perlen - pH-Stabilisierung",
+            "image6": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-23-stars_dark-blue.svg",
+            "text6": "Hunderte von positiven Kundenerfahrungen "
           }
         },
         "icon_text_acc_kzayFQ": {
@@ -250,15 +266,17 @@
             "heading": "Filtereigenschaften:",
             "image_width": 50,
             "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "text5": "",
-            "text6": "",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Aktivkohlegranulat filtert Geruch (z.B. Chlor), Geschmack und Farbveränderungen im Wasser. Zudem können Arzneimittelrückstände und verwandte Schadstoffe reduziert werden.<\/p>",
+            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-25-dermapearls-mk_dark-blue_9011ba67-d43d-43e5-8f39-d54f3facc076.svg",
+            "text2": "<p><strong>Mineralisierung des Wassers durch DERMA-Perlen<\/strong><\/p><p>DERMA Perlen bestehen aus über 30 Mineralien, u.a. aus Selen, Mangan, Zink, Eisen, Magnesium, Phosphor, Calcium, Kalium und deren Verbindungen.<\/p>",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin-mk_dark-blue.svg",
+            "text3": "<p><strong>Sediement-Vlies zur Feinfiltration<\/strong><\/p><p>Das Filtervlies sorgt für ein sanftes Duscherlebnis durch Filtration grober Partikel wie Sediment, Sand und Leitungsabrieb.<\/p>",
+            "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-24-bindings-mk_dark-blue.svg",
+            "text4": "<p><strong>Reduzierung von Schwermetallen<\/strong><\/p><p>Die adsorptive Wirkung von Aktivkohle in Kombination mit KDF bindet Schwermetalle wie etwa Blei und Kupfer im Wasser.<\/p>",
+            "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-26-phfix-mk_dark-blue_e4a9a8a9-8084-4d55-95a5-2dc3947fbc59.svg",
+            "text5": "<p><strong>pH-FIX Perlen zur Stabilisierung des Wassers<\/strong><\/p><p>Alb Filter pH-FIX Perlen dienen zur pH-Stabilisierung des Wassers. Enthaltendes Kalzium- und Magnesiumcarbonat kann Kalk in eine weniger anhaftende Struktur umwandeln.<\/p>",
+            "image6": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-17-6month-mk_dark-blue.svg",
+            "text6": "<p><strong>Kartuschenwechsel<\/strong><\/p><p>Wechselintervall 6 Monate - abhängig von der Qualität des Eingangswassers.<\/p>",
             "text7": "",
             "text8": "",
             "text9": "",
@@ -269,22 +287,23 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss Blockaktivkohle (gesintert)<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,8 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>7 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>"
+            "top_text": "<p><strong>Filtermaterial: <\/strong>Aktivkohle (granuliert), KDF, DERMA Perlen, pH-Fix Perlen<\/p><p><strong>Wechselinterval: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,0 Bar<\/p><p><strong>Durchfluss: <\/strong>15 l\/min<\/p>",
+            "bottom_text": ""
           }
         },
         "button_YRcafF": {
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-active-untertisch-komplett-set-schnellkupplung",
+            "button_link1": "shopify:\/\/products\/alb-duschfilter-balance",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+            "button_link2": "shopify:\/\/pages\/balance-duschfilter-kartusche"
           }
         }
       },
       "block_order": [
         "heading_cDwzCP",
+        "subtitle_MTfEmx",
         "text_7ABmMX",
         "icon_text_agxb7L",
         "icon_text_acc_kzayFQ",
@@ -292,7 +311,8 @@
         "button_YRcafF"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactivefilterkartusche-1639472477696.jpg",
+        "image": "shopify:\/\/shop_images\/alb-filter-duschfilter-balance-edelstahl-natur-4260590614858-753.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -317,6 +337,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Untertisch Active Plus+<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2"
           }
         },
@@ -403,6 +424,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactiveplusfilterkartusche-1639472477710.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -427,6 +449,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Untertisch Nano<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2"
           }
         },
@@ -503,6 +526,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -527,6 +551,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Untertisch Fusion<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2"
           }
         },
@@ -615,6 +640,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/albfusionedelstahlwasserfiltergehausemitfilterkartuschenschwarz-1639472477774.jpg",
+        "image_ratio": "1_1",
         "image_contain": true,
         "small_content_image": false,
         "row_reverse": false,
@@ -639,6 +665,7 @@
           "type": "alb_comparison",
           "settings": {
             "heading": "<strong>Welche Wasserfilter Variante soll ich kaufen?<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
             "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
@@ -792,6 +819,7 @@
       "settings": {
         "list_option": "4",
         "text_color": "#2d2d2d",
+        "show_button": true,
         "btn_text": "Kaufen",
         "btn_bg": "#0081be",
         "btn_color": "#ffffff",
@@ -813,6 +841,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserfilter Untertisch<br\/><strong>Installation<\/strong><\/p>",
+            "heading_tag": "h3",
             "heading_size": "h2",
             "heading_color": "#003e5f"
           }
@@ -847,6 +876,7 @@
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "mobile_center": true,
@@ -864,8 +894,9 @@
         "heading_HRCb7R": {
           "type": "heading",
           "settings": {
-            "heading": "Kundenstimmen zu unseren Untertischfilter",
+            "heading": "<p>Kundenstimmen zu unseren Untertischfilter<\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "font_weight": "700"
           }
@@ -901,28 +932,36 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>"
+            "title": "",
+            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
+            "url": ""
           }
         },
         "item_BgLVxn": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>"
+            "title": "",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
           }
         },
         "item_WQPn8H": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>"
+            "title": "",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "url": ""
           }
         },
         "item_D7YKAq": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>"
+            "title": "",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "url": ""
           }
         }
       },
@@ -934,8 +973,12 @@
       ],
       "settings": {
         "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
+        "title_color": "#003e5f",
+        "column_count": 4,
         "full_width": true,
         "image_white": true,
+        "large_image": false,
+        "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 0
       }
@@ -968,6 +1011,7 @@
         "background_color": "#fafafa",
         "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
         "heading": "Noch Fragen zum Produkt?",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#616161",
         "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
@@ -1059,6 +1103,7 @@
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
         "heading": "Fragen und Antworten",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "heading_alignment": "left",
@@ -1102,6 +1147,7 @@
         "content_wrapper": false,
         "background_color": "",
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "mobile_center": false,
