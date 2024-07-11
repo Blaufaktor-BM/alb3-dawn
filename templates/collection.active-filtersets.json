@@ -112,67 +112,17 @@
         "padding_bottom": 40
       }
     },
-    "product_list_WQAXYz": {
-      "type": "product-list",
+    "second_contact_CV8QkP": {
+      "type": "second-contact",
       "settings": {
-        "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
-    "product_list_jjakWr": {
-      "type": "product-list",
-      "settings": {
-        "second_font": true,
-        "heading": "Zubehör",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "vorfilter-fur-alb-filter-duo-nano"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
+        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?<\/strong><\/p><p>Rufe uns gerne an oder schreib uns eine <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email<\/a>!<\/p>",
+        "icon": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+        "contact": "<p><strong>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/strong><\/p>",
+        "background_color": "#fafafa",
+        "text_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "banner": {
@@ -211,8 +161,7 @@
     "rich_text_zRfwMF",
     "product_list_yXxBPr",
     "product_list_EkBNEh",
-    "product_list_WQAXYz",
-    "product_list_jjakWr",
+    "second_contact_CV8QkP",
     "banner",
     "product-grid"
   ]
