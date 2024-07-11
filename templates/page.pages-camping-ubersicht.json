@@ -216,7 +216,7 @@
           "settings": {
             "heading": "Befüllfilter Mobil",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_WzawLM": {
@@ -248,7 +248,7 @@
         "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
         "image_ratio": "1_1",
         "image_contain": true,
-        "small_content_image": true,
+        "image_width": "large",
         "row_reverse": false,
         "add_image_spacing": true,
         "remove_content_spacing": false,
