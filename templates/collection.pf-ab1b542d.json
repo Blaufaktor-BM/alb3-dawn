@@ -102,7 +102,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Duschfilter",
+        "heading": "Wasserfilter Untertisch Komplett Set",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -111,9 +111,10 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-balance",
-          "wasserfilter-kartusche-nano",
-          "alb-filterkartusche-shungit"
+          "alb-filter-untertisch-komplett-set",
+          "alb-filter-activeplus-untertisch-komplett-set",
+          "alb-filter-nano-untertisch-komplett-set",
+          "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
