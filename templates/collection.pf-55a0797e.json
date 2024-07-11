@@ -118,7 +118,9 @@
           "alb_gewindeadapter_m20_ag",
           "alb_gewindeadapter_m21_ag",
           "alb_gewindeadapter_m22ag-m21-5ag",
-          "alb_gewindeadapter_m22_ag"
+          "alb_gewindeadapter_m22_ag",
+          "alb_gewindeadapter_m24_ag",
+          "alb_gewindeadapter_m28_ag"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
