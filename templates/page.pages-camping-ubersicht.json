@@ -227,6 +227,9 @@
         "text_WzawLM",
         "button_Qah8e8"
       ],
+      "custom_css": [
+        "img {padding: 40px; background-color: #fafafa;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
         "image_ratio": "3_2",
@@ -235,8 +238,8 @@
         "row_reverse": false,
         "remove_content_spacing": false,
         "top_radius": false,
-        "background_color": "",
-        "content_bg": "",
+        "background_color": "rgba(0,0,0,0)",
+        "content_bg": "#f1faff",
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
         "text_color": "#616161",

@@ -732,7 +732,7 @@
         "heading_P6TC9E": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Filter®",
+            "heading": "<p>Alb Filter®<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -776,6 +776,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "title": "",
             "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
             "url": "shopify:\/\/blogs\/ratgeber\/nickel-im-trinkwasser"
           }
@@ -784,6 +785,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "title": "",
             "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
             "url": ""
           }
@@ -792,6 +794,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "title": "",
             "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
             "url": ""
           }
@@ -800,6 +803,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "title": "",
             "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
             "url": ""
           }
@@ -813,8 +817,12 @@
       ],
       "settings": {
         "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "title_color": "#003e5f",
+        "column_count": 4,
         "full_width": false,
         "image_white": false,
+        "large_image": false,
+        "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -825,7 +833,7 @@
         "heading_jtryLr": {
           "type": "heading",
           "settings": {
-            "heading": "Das sagen unsere Kunden",
+            "heading": "<p>Das sagen unsere Kunden<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
