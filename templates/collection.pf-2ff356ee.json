@@ -365,16 +365,18 @@
           "type": "item",
           "settings": {
             "enable_active": false,
+            "image": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
             "title": "Trinkwasserfilter",
-            "subtitle": "ACTIVE",
+            "subtitle": "<strong>ACTIVE PLUS+<\/strong>",
             "icon_title": "Geeignet für:",
-            "info1": "Frischer Trinkgenuss",
-            "info2": "Reduziert Schadstoffe",
-            "info3": "",
-            "info4": "",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "info1": "<strong>Frischer Trinkgenuss<\/strong>",
+            "info2": "<strong>Reduziert Schadstoffe<\/strong>",
+            "info3": "<strong>Filtert Bakterien bis 0,7 µm<\/strong>",
+            "info4": "<strong>Reduziert Kalk<\/strong>",
             "info5": "",
             "btn_text": "Mehr erfahren",
-            "url": ""
+            "url": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
           }
         },
         "item_hDBhte": {
