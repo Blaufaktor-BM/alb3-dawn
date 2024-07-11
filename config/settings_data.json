@@ -279,8 +279,8 @@
           "text": "#333333",
           "button": "#333333",
           "button_label": "#ffffff",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#ffffff"
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
         }
       },
       "scheme-2": {
