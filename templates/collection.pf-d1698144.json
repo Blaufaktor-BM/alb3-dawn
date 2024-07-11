@@ -103,7 +103,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Wasserfilter Untertisch Komplett Set",
+        "heading": "Zubehör & Aufrüst Sets",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -112,10 +112,14 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "alb-filter-untertisch-komplett-set",
-          "alb-filter-activeplus-untertisch-komplett-set",
-          "alb-filter-nano-untertisch-komplett-set",
-          "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung"
+          "vorfilter-protect-mit-wechselpad-edelstahl",
+          "alb-filter-erweiterungs-set-active",
+          "alb-filter-erweiterungs-set-nano",
+          "alb-connect-edelstahl",
+          "alb-campingfilter-anschluss-set-travel",
+          "alb-wandhalterung",
+          "alb-filtergehause-element-edelstahl",
+          "alb-filter-clean-tankreiniger"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
