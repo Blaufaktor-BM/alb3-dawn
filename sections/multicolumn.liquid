@@ -76,6 +76,9 @@
             {% endif %}
           >
             <div class="multicolumn-card content-container">
+              {%- if block.settings.url != blank -%}
+                <a href="{{ block.settings.url }}">
+              {%- endif -%}
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -120,9 +123,24 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <{{ block.settings.heading_tag }} class="inline-richtext {{ block.settings.heading_size }}">
+                  <{{ block.settings.heading_tag }}
+                    class="inline-richtext {{ block.settings.heading_size }}"
+                    {% if block.settings.heading_color != blank %}
+                      style="color: {{ block.settings.heading_color }}"
+                    {% endif %}
+                  >
                     {{- block.settings.title -}}
                   </{{ block.settings.heading_tag }}>
+                {%- endif -%}
+                {%- if block.settings.subtitle != blank -%}
+                  <{{ block.settings.subtitle_tag }}
+                    class="inline-richtext {{ block.settings.subtitle_size }}"
+                    {% if block.settings.subtitle_color != blank %}
+                      style="color: {{ block.settings.subtitle_color }}"
+                    {% endif %}
+                  >
+                    {{- block.settings.subtitle -}}
+                  </{{ block.settings.subtitle_tag }}>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -141,6 +159,9 @@
                   >
                 {%- endif -%}
               </div>
+              {%- if block.settings.url != blank -%}
+                </a>
+              {%- endif -%}
             </div>
           </li>
         {%- endfor -%}
@@ -459,28 +480,102 @@
           "id": "heading_size",
           "options": [
             {
-              "value": "h2",
+              "value": "h3",
               "label": "t:sections.all.heading_size.options__1.label"
             },
             {
-              "value": "h1",
+              "value": "h2",
               "label": "t:sections.all.heading_size.options__2.label"
             },
             {
-              "value": "h0",
+              "value": "h1",
               "label": "t:sections.all.heading_size.options__3.label"
             },
             {
-              "value": "hxl",
+              "value": "h0",
               "label": "t:sections.all.heading_size.options__4.label"
             },
             {
-              "value": "hxxl",
+              "value": "hxl",
               "label": "t:sections.all.heading_size.options__5.label"
             }
           ],
-          "default": "h1",
+          "default": "h3",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading Color",
+          "default": "#616161"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle",
+          "label": "Sub title",
+          "default": "Sub title"
+        },
+        {
+          "type": "select",
+          "id": "subtitle_tag",
+          "label": "Subtitle Tag",
+          "options": [
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "label": "P",
+              "value": "p"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "select",
+          "id": "subtitle_size",
+          "options": [
+            {
+              "value": "h4",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h3",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h3",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "subtitle_color",
+          "label": "Subtitle Color",
+          "default": "#616161"
         },
         {
           "type": "richtext",
