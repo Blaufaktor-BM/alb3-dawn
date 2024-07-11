@@ -445,7 +445,7 @@
       ],
       "settings": {
         "desktop_column": 5,
-        "mobile_column": "2",
+        "mobile_column": "1",
         "text_color": "#616161",
         "link_color": "#0081be",
         "padding_top": 36,
