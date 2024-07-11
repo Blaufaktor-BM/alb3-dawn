@@ -20,7 +20,7 @@
         "heading_NzJCQT": {
           "type": "heading",
           "settings": {
-            "second_font": false,
+            "second_font": true,
             "heading": "<p>Gewinde-Adapter<br\/>Alb Filter® DUO<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
