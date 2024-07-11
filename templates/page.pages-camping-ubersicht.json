@@ -20,8 +20,7 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
-        "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
+        "image": "shopify:\/\/shop_images\/BG-Camper-Strand_02.webp",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -250,6 +249,61 @@
         "image_contain": true,
         "image_width": "large",
         "row_reverse": false,
+        "add_image_spacing": true,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "image_bg": "#fafafa",
+        "content_bg": "#f1faff",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_7Lab7w": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_PR94yy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Befüllfilter Mobil",
+            "heading_tag": "h2",
+            "heading_size": "h2"
+          }
+        },
+        "text_q68dJB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs.<br\/><br\/>Die verschiedenen Filtertypen Active, Nano und Fusion bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. Auf eine regelmäßige Tankreinigung kann bei einem neuen bzw. gut gepflegten Wassersystem und der Verwendung des Fusion Sets (beide Filterstufen) verzichtet werden. <br\/><\/p><ul><li>Empfohlen bei kleinen\/mittleren Wassertanks (bis 120 Liter) und Kanistern<\/li><li>Mit einem Klick verbunden.<\/li><li>Kompatibel zu Gardena® Kupplungen<\/li><li>Optimal für neue bzw. regelmäßig gereinigte Systeme. <\/li><li>Gute Tankhygiene erforderlich.<\/li><li>Einmalige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>.<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "button_fLjzYm": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/collections\/camping-mobil",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-mobil"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PR94yy",
+        "text_q68dJB",
+        "button_fLjzYm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "large",
+        "row_reverse": true,
         "add_image_spacing": true,
         "remove_content_spacing": false,
         "top_radius": false,
@@ -786,6 +840,7 @@
     "rich_text_At8QpH",
     "multicolumn_3d7368",
     "custom_image_text_eTtJLz",
+    "custom_image_text_7Lab7w",
     "product_compare_3zPw6T",
     "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
