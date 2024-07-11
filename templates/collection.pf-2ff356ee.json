@@ -382,7 +382,7 @@
         "item_hDBhte": {
           "type": "item",
           "settings": {
-            "enable_active": false,
+            "enable_active": true,
             "image": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
             "title": "Bakterienfilter",
             "subtitle": "<strong>NANO<\/strong>",
