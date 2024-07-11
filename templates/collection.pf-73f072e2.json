@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ersatzkartuschen für Wasserfilter kaufen<\/p>",
+            "heading": "<p>Trinkwasserfilter kaufen<\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -30,7 +30,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Passende Ersatzkartuschen für deinen Dusch- oder Trinkwasserfilter. Unsere Active, ActivePlus und Nano-Kartuschen wurden speziell entwickelt, um die Wasserqualität zu verbessern.<br\/><br\/>Die Active Kartusche nutzt gesinterte Blockaktivkohle, während ActivePlus auf Polymeren basiert, um die Wasserfiltration zu optimieren. Für noch mehr Schutz bietet unsere Nano Kartusche eine effektive Keim- und Legionellenfilterung.<br\/><br\/>Die Filter-Kartuschen zur Trinkwasseraufbereitung sollten je nach Modell alle 4-6 Monate getauscht werden um mögliche Verkeimungen innerhalb des Filters zu vermeiden. Mit unserem praktischen <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Kartuschen-Abo <\/a>bekommst du deine Ersatzkartuschen immer rechtzeitig, versandkostenfrei und ohne jegliche Verpflichtungen. <\/p>"
+            "text": "<p>Frisches Wasser direkt aus der Leitung? Mit dem Trinkwasserfilter von Alb Filter ist das überall jederzeit möglich. Kein Flaschentragen mehr: Unsere hochwertigen Produkte veredeln Ihr Leitungswasser.<\/p>"
           }
         }
       },
@@ -50,54 +50,11 @@
     },
     "image_banner_WTFwpR": {
       "type": "image-banner",
-      "blocks": {
-        "text_F8GCcJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Verpassen Sie keinen<br\/>Kartuschenwechsel mit dem<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "text_WrrV9X": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Alb Filter®<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "heading_Q48Pb3": {
-          "type": "heading",
-          "settings": {
-            "second_font": true,
-            "heading": "<p>KARTUSCHEN<br\/>ABO<\/p>",
-            "heading_tag": "h2",
-            "heading_size": "h1",
-            "heading_weight": "400"
-          }
-        },
-        "buttons_WbU6cN": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Weitere Infos",
-            "button_link_2": "shopify:\/\/pages\/wasserfilter-spar-abo",
-            "second_btn_color": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_F8GCcJ",
-        "text_WrrV9X",
-        "heading_Q48Pb3",
-        "buttons_WbU6cN"
-      ],
       "custom_css": [
         ".banner__heading {margin-top: -10px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/titelersatzkartuschenkaufen1170x400overlay-1669128102735.jpg",
+        "image": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
@@ -115,14 +72,18 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Trinkwasserfilter",
+        "heading": "Wasserhahnfilter",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active"
+          "wasserfilter-wasserhahn-duo-active",
+          "wasserfilter-wasserhahn-duo-active-plus",
+          "wasserfilter-wasserhahn-duo-nano"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -141,16 +102,18 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Duschfilter",
+        "heading": "Wasserfilter Unterspüle (ohne Anschluss Set)",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-balance",
-          "wasserfilter-kartusche-nano",
-          "alb-filterkartusche-shungit"
+          "trinkwasserfilter-element-active",
+          "trinkwasserfilter-element-active-plus",
+          "alb-duschfilter-nano"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -169,21 +132,18 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading": "Wasserfilter Unterspüle Komplett Set",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
+          "alb-filter-untertisch-komplett-set",
+          "alb-filter-activeplus-untertisch-komplett-set",
+          "alb-filter-nano-untertisch-komplett-set"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -202,14 +162,49 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Zubehör",
+        "heading": "Wasserfilter Unterspüle Schnellkupplungs-Set",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "vorfilter-fur-alb-filter-duo-nano"
+          "alb-filter-active-untertisch-komplett-set-schnellkupplung",
+          "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
+          "alb-filter-untertisch-komplett-set-schnellkupplung"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_mcNiAF": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Zubehör",
+        "enable_border": true,
+        "enable_center": false,
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "alb-connect-edelstahl",
+          "vorfilter-protect-mit-wechselpad-edelstahl",
+          "alb-filtergehause-duo-edelstahl",
+          "alb-filtergehause-element-edelstahl"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -263,6 +258,7 @@
     "product_list_EkBNEh",
     "product_list_WQAXYz",
     "product_list_jjakWr",
+    "product_list_mcNiAF",
     "banner",
     "product-grid"
   ]
