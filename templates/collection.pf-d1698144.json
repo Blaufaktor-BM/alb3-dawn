@@ -134,37 +134,6 @@
         "padding_bottom": 40
       }
     },
-    "product_list_WQAXYz": {
-      "type": "product-list",
-      "settings": {
-        "second_font": true,
-        "heading": "Wasserfilter Untertisch Schnellkupplungs-Set",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "alb-filter-active-untertisch-komplett-set-schnellkupplung",
-          "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
-          "alb-filter-untertisch-komplett-set-schnellkupplung",
-          "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
@@ -179,47 +148,9 @@
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active",
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
           "wasserfilter-kartusche-nano",
-          "wasserfilter-kartusche-nano-2er-set"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
-    "product_list_AHJXLD": {
-      "type": "product-list",
-      "settings": {
-        "second_font": true,
-        "heading": "Zubehör",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "alb-connect-edelstahl",
-          "vorfilter-protect-mit-wechselpad-edelstahl",
-          "alb-wandhalterung",
-          "alb-anschluss-set-20cm-unterspuele",
-          "alb-filter-anschluss-set-20cm-schnellkupplung-fur-unterspule",
-          "alb-filter-anschluss-set-40-cm-schnellkupplung-fur-unterspule",
-          "alb-filtergehause-element-edelstahl"
+          "wasserfilter-kartuschen-set-fusion",
+          "alb-filter-protect-wechselpads-3er-pack"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -271,9 +202,7 @@
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
     "product_list_EkBNEh",
-    "product_list_WQAXYz",
     "product_list_jjakWr",
-    "product_list_AHJXLD",
     "banner",
     "product-grid"
   ]
