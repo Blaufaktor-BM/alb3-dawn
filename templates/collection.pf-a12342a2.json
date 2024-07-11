@@ -102,7 +102,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Duschfilter",
+        "heading": "Trinkwasserfilter Active Wasserhahn",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -111,9 +111,7 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-balance",
-          "wasserfilter-kartusche-nano",
-          "alb-filterkartusche-shungit"
+          "wasserfilter-wasserhahn-duo-active-plus"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
