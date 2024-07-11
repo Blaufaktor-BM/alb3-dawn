@@ -214,21 +214,15 @@
         "heading_czijVB": {
           "type": "heading",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "Befüllfilter Mobil",
             "heading_tag": "h2",
             "heading_size": "h1"
-          }
-        },
-        "subtitle_6MEwxe": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Ein Glas Leitungswasser bitte!"
           }
         },
         "text_WzawLM": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs.<br\/><br\/>Die verschiedenen Filtertypen Active, Nano und Fusion bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. Auf eine regelmäßige Tankreinigung kann bei einem neuen bzw. gut gepflegten Wassersystem und der Verwendung des Fusion Sets (beide Filterstufen) verzichtet werden. <br\/><\/p><ul><li>Empfohlen bei kleinen\/mittleren Wassertanks (bis 120 Liter) und Kanistern<\/li><li>Mit einem Klick verbunden.<\/li><li>Kompatibel zu Gardena® Kupplungen<\/li><li>Optimal für neue bzw. regelmäßig gereinigte Systeme. <\/li><li>Gute Tankhygiene erforderlich.<\/li><li>Einmalige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>.<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -244,7 +238,6 @@
       },
       "block_order": [
         "heading_czijVB",
-        "subtitle_6MEwxe",
         "text_WzawLM",
         "button_Qah8e8"
       ],
