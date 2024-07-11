@@ -164,7 +164,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Zubehör",
+        "heading": "Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -173,7 +173,14 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "vorfilter-fur-alb-filter-duo-nano"
+          "wasserfilter-kartusche-active",
+          "wasserfilter-kartusche-active-2er-set",
+          "wasserfilter-kartusche-active-3er-set",
+          "wasserfilter-kartusche-active-plus",
+          "wasserfilter-kartusche-active-plus-3er-set",
+          "wasserfilter-kartusche-active-plus-2er-set",
+          "wasserfilter-kartusche-nano",
+          "wasserfilter-kartusche-nano-2er-set"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
