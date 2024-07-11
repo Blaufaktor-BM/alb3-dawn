@@ -67,8 +67,8 @@
         "button_RNbMXW": {
           "type": "button",
           "settings": {
-            "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/camping-wasserfilter",
+            "button_label": "Campingfilter kaufen",
+            "button_link": "\/products",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": ""
