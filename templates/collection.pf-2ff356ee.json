@@ -403,32 +403,36 @@
           "type": "item",
           "settings": {
             "enable_active": false,
-            "title": "Trinkwasserfilter",
-            "subtitle": "ACTIVE",
+            "image": "shopify:\/\/shop_images\/filterkartusche-balance-single-1639472314759.jpg",
+            "title": "Duschfilter",
+            "subtitle": "<strong>BALANCE<\/strong>",
             "icon_title": "Geeignet für:",
-            "info1": "Frischer Trinkgenuss",
-            "info2": "Reduziert Schadstoffe",
-            "info3": "",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "info1": "<strong>Reduziert Schadstoffe<\/strong>",
+            "info2": "<strong>Mineralisierend<\/strong>",
+            "info3": "<strong>pH-Stabilisierend<\/strong>",
             "info4": "",
             "info5": "",
             "btn_text": "Mehr erfahren",
-            "url": ""
+            "url": "shopify:\/\/pages\/balance-duschfilter-kartusche"
           }
         },
-        "item_YEdCzF": {
+        "item_AJ4qpe": {
           "type": "item",
           "settings": {
             "enable_active": false,
-            "title": "Trinkwasserfilter",
-            "subtitle": "ACTIVE",
+            "image": "shopify:\/\/shop_images\/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
+            "title": "Duschfilter",
+            "subtitle": "<strong>SHUNGIT<\/strong>",
             "icon_title": "Geeignet für:",
-            "info1": "Frischer Trinkgenuss",
-            "info2": "Reduziert Schadstoffe",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "info1": "<strong>Aus Schungitkohle<\/strong>",
+            "info2": "<strong>Energetisierend<\/strong>",
             "info3": "",
             "info4": "",
             "info5": "",
             "btn_text": "Mehr erfahren",
-            "url": ""
+            "url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
           }
         }
       },
@@ -437,7 +441,7 @@
         "item_AwWGne",
         "item_hDBhte",
         "item_JKqE8t",
-        "item_YEdCzF"
+        "item_AJ4qpe"
       ],
       "settings": {
         "desktop_column": 5,
