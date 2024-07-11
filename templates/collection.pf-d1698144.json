@@ -51,7 +51,7 @@
     "image_banner_WTFwpR": {
       "type": "image-banner",
       "custom_css": [
-
+        ".media {background: transparent;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/wohnmobil-ben-travel-overlay-1645434666814.png",
