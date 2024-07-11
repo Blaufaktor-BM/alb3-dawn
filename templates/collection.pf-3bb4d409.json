@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ersatzkartuschen für Wasserfilter kaufen<\/p>",
+            "heading": "<p>Wasserfilter für Wohnmobil und Camper<\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -30,7 +30,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Passende Ersatzkartuschen für deinen Dusch- oder Trinkwasserfilter. Unsere Active, ActivePlus und Nano-Kartuschen wurden speziell entwickelt, um die Wasserqualität zu verbessern.<br\/><br\/>Die Active Kartusche nutzt gesinterte Blockaktivkohle, während ActivePlus auf Polymeren basiert, um die Wasserfiltration zu optimieren. Für noch mehr Schutz bietet unsere Nano Kartusche eine effektive Keim- und Legionellenfilterung.<br\/><br\/>Die Filter-Kartuschen zur Trinkwasseraufbereitung sollten je nach Modell alle 4-6 Monate getauscht werden um mögliche Verkeimungen innerhalb des Filters zu vermeiden. Mit unserem praktischen <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Kartuschen-Abo <\/a>bekommst du deine Ersatzkartuschen immer rechtzeitig, versandkostenfrei und ohne jegliche Verpflichtungen. <\/p>"
+            "text": "<p>Wasserfilter für Wohnmobile, Camper und Boote. Perfekt für Reisende, die sauberes und gesundes Wasser wollen. Wir bieten verschiedene Sets an. Unsere Mobile-Filter werden vor dem Wassertank eingesetzt, die Travel-Filter zwischen Wassertank und Wasserhahn. Die Pro-Camper-Version kombiniert externe und interne Filterung.<\/p>"
           }
         }
       },
@@ -50,54 +50,11 @@
     },
     "image_banner_WTFwpR": {
       "type": "image-banner",
-      "blocks": {
-        "text_F8GCcJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Verpassen Sie keinen<br\/>Kartuschenwechsel mit dem<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "text_WrrV9X": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Alb Filter®<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "heading_Q48Pb3": {
-          "type": "heading",
-          "settings": {
-            "second_font": true,
-            "heading": "<p>KARTUSCHEN<br\/>ABO<\/p>",
-            "heading_tag": "h2",
-            "heading_size": "h1",
-            "heading_weight": "400"
-          }
-        },
-        "buttons_WbU6cN": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Weitere Infos",
-            "button_link_2": "shopify:\/\/pages\/wasserfilter-spar-abo",
-            "second_btn_color": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_F8GCcJ",
-        "text_WrrV9X",
-        "heading_Q48Pb3",
-        "buttons_WbU6cN"
-      ],
       "custom_css": [
         ".banner__heading {margin-top: -10px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/titelersatzkartuschenkaufen1170x400overlay-1669128102735.jpg",
+        "image": "shopify:\/\/shop_images\/pf-173c967e--albfiltermobilfusionschmal.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
@@ -116,6 +73,8 @@
       "settings": {
         "second_font": true,
         "heading": "Ersatzkartuschen Trinkwasserfilter",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
@@ -142,6 +101,8 @@
       "settings": {
         "second_font": true,
         "heading": "Ersatzkartuschen Duschfilter",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
@@ -170,6 +131,8 @@
       "settings": {
         "second_font": true,
         "heading": "Ersatzkartuschen Spar-Sets",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
@@ -203,6 +166,8 @@
       "settings": {
         "second_font": true,
         "heading": "Zubehör",
+        "enable_border": true,
+        "enable_center": false,
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "400",
