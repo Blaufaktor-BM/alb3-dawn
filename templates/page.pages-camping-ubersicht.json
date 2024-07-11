@@ -251,7 +251,7 @@
         "small_content_image": false,
         "row_reverse": false,
         "add_image_spacing": true,
-        "remove_content_spacing": false,
+        "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "",
