@@ -76,8 +76,8 @@
             {% endif %}
           >
             <div class="multicolumn-card content-container">
-              {%- if block.settings.url != blank -%}
-                <a href="{{ block.settings.url }}">
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}">
               {%- endif -%}
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
@@ -146,20 +146,15 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a
+                  <span
                     class="link animate-arrow"
-                    {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.link }}"
-                    {% endif %}
                   >
                     {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
+                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></span
                   >
                 {%- endif -%}
               </div>
-              {%- if block.settings.url != blank -%}
+              {%- if block.settings.link != blank -%}
                 </a>
               {%- endif -%}
             </div>
@@ -569,7 +564,7 @@
             }
           ],
           "default": "h3",
-          "label": "t:sections.all.heading_size.label"
+          "label": "Subtitle Size"
         },
         {
           "type": "color",
