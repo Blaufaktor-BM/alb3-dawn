@@ -102,7 +102,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Aufrüst Sets",
+        "heading": "Camping",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -111,14 +111,8 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "alb-filter-protect",
-          "vorfilter-protect-mit-wechselpad-edelstahl",
-          "alb-filter-mobil-anschluss-set-geka",
-          "alb-filter-erweiterungs-set-active",
-          "alb-connect",
-          "alb-connect-edelstahl",
-          "alb-filter-erweiterungs-set-nano",
-          "alb-filter-visio-sichtdeckel-element"
+          "camping-wasserfilter-fusion-mobil",
+          "camping-wasserfilter-fusion-travel"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
