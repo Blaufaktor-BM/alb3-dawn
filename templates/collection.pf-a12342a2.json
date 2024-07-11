@@ -72,7 +72,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Trinkwasserfilter",
+        "heading": "Trinkwasserfilter Active Unterspüle",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -81,7 +81,9 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active"
+          "trinkwasserfilter-element-active-plus",
+          "alb-filter-activeplus-untertisch-komplett-set",
+          "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
