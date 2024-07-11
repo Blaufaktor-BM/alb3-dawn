@@ -130,7 +130,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading": "Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -139,42 +139,9 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
+          "wasserfilter-kartusche-active-plus",
           "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
-    "product_list_jjakWr": {
-      "type": "product-list",
-      "settings": {
-        "second_font": true,
-        "heading": "Zubehör",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "vorfilter-fur-alb-filter-duo-nano"
+          "wasserfilter-kartusche-active-plus-3er-set"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -227,7 +194,6 @@
     "product_list_yXxBPr",
     "product_list_EkBNEh",
     "product_list_WQAXYz",
-    "product_list_jjakWr",
     "banner",
     "product-grid"
   ]
