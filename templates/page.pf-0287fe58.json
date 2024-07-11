@@ -23,8 +23,10 @@
         "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
         "image_2": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "small",
         "desktop_content_position": "middle-center",
+        "enable_section_container": false,
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -40,7 +42,7 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "ALB DUO",
+            "heading": "<p>ALB DUO<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
@@ -50,7 +52,7 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "Wasserfilter für den Wasserhahn",
+            "heading": "<p>Wasserfilter für den Wasserhahn<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -123,11 +125,13 @@
         "image": "shopify:\/\/shop_images\/output_kqe1Mg.gif",
         "image_ratio": "1_1",
         "image_contain": false,
-        "small_content_image": true,
+        "image_width": "small",
         "row_reverse": true,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -173,11 +177,13 @@
         "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
         "image_ratio": "1_1",
         "image_contain": false,
-        "small_content_image": false,
+        "image_width": "medium",
         "row_reverse": true,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "#fafafa",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -281,11 +287,13 @@
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
         "image_ratio": "1_1",
         "image_contain": true,
-        "small_content_image": false,
+        "image_width": "medium",
         "row_reverse": false,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -393,11 +401,13 @@
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
         "image_ratio": "1_1",
         "image_contain": true,
-        "small_content_image": false,
+        "image_width": "medium",
         "row_reverse": false,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -502,11 +512,13 @@
         "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
         "image_ratio": "1_1",
         "image_contain": true,
-        "small_content_image": false,
+        "image_width": "medium",
         "row_reverse": false,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -685,7 +697,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-4730ce14--messen1gewinderatgeber.png",
-            "image_width": 200
+            "image_width": 200,
+            "enable_border": true
           }
         },
         "heading_6BHqNx": {
@@ -693,6 +706,7 @@
           "settings": {
             "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
             "color": "#ffffff",
+            "second_font": false,
             "heading_tag": "h2",
             "heading_size": "h1"
           }
@@ -729,6 +743,7 @@
         "button_NfU937"
       ],
       "settings": {
+        "content_position": "left",
         "background_color": "#003e5f",
         "btn_bg": "#0081be",
         "btn_color": "#ffffff",
@@ -753,28 +768,36 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>"
+            "title": "",
+            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
+            "url": ""
           }
         },
         "item_BgLVxn": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>"
+            "title": "",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
           }
         },
         "item_WQPn8H": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>"
+            "title": "",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "url": ""
           }
         },
         "item_D7YKAq": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>"
+            "title": "",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "url": ""
           }
         }
       },
@@ -786,8 +809,12 @@
       ],
       "settings": {
         "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
+        "title_color": "#003e5f",
+        "column_count": 4,
         "full_width": true,
         "image_white": true,
+        "large_image": false,
+        "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 0
       }
