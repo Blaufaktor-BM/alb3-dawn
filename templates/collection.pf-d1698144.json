@@ -72,7 +72,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Wasserfilter Untertisch (ohne Anschluss Set)",
+        "heading": "Travel Sets",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -81,9 +81,10 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "trinkwasserfilter-element-active",
-          "trinkwasserfilter-element-active-plus",
-          "trinkwasserfilter-element-nano"
+          "pro-camper-set",
+          "camping-wasserfilter-fusion-travel",
+          "camping-wasserfilter-active-travel",
+          "camping-wasserfilter-nano-travel"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
