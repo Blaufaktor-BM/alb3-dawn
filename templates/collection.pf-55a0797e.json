@@ -52,7 +52,7 @@
         "buttons_aLQyp8"
       ],
       "custom_css": [
-        "@media (min-width: 750px) {.banner__text {max-width: 50%; }}"
+        "@media (min-width: 750px) {.banner__text {max-width: 70%; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/titel-adapter-kaufen-shop-2-1639745773436.jpg",
