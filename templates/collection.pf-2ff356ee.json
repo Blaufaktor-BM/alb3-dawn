@@ -339,6 +339,109 @@
         "padding_bottom": 52
       }
     },
+    "second_product_compare_AcDdaJ": {
+      "type": "second-product-compare",
+      "blocks": {
+        "item_yEacCL": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "image": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "title": "Trinkwasserfilter",
+            "subtitle": "ACTIVE",
+            "icon_title": "Geeignet für:",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "info1": "Frischer Trinkgenuss",
+            "info2": "Reduziert Schadstoffe",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": ""
+          }
+        },
+        "item_AwWGne": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "title": "Trinkwasserfilter",
+            "subtitle": "ACTIVE",
+            "icon_title": "Geeignet für:",
+            "info1": "Frischer Trinkgenuss",
+            "info2": "Reduziert Schadstoffe",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": ""
+          }
+        },
+        "item_hDBhte": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "title": "Trinkwasserfilter",
+            "subtitle": "ACTIVE",
+            "icon_title": "Geeignet für:",
+            "info1": "Frischer Trinkgenuss",
+            "info2": "Reduziert Schadstoffe",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": ""
+          }
+        },
+        "item_JKqE8t": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "title": "Trinkwasserfilter",
+            "subtitle": "ACTIVE",
+            "icon_title": "Geeignet für:",
+            "info1": "Frischer Trinkgenuss",
+            "info2": "Reduziert Schadstoffe",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": ""
+          }
+        },
+        "item_YEdCzF": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "title": "Trinkwasserfilter",
+            "subtitle": "ACTIVE",
+            "icon_title": "Geeignet für:",
+            "info1": "Frischer Trinkgenuss",
+            "info2": "Reduziert Schadstoffe",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_yEacCL",
+        "item_AwWGne",
+        "item_hDBhte",
+        "item_JKqE8t",
+        "item_YEdCzF"
+      ],
+      "settings": {
+        "desktop_column": 5,
+        "mobile_column": "1",
+        "text_color": "#616161",
+        "link_color": "#0081be",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -379,6 +482,7 @@
     "product_list_yXxBPr",
     "second_contact_63DDyD",
     "rich_text_9QCVWL",
+    "second_product_compare_AcDdaJ",
     "banner",
     "product-grid"
   ]
