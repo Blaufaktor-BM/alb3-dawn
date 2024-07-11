@@ -134,7 +134,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading": "Pro Camper",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
@@ -143,14 +143,7 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
+          "pro-camper-set"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -178,7 +171,15 @@
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "vorfilter-fur-alb-filter-duo-nano"
+          "alb-filtergehause-element",
+          "alb-connect",
+          "alb-filter-protect",
+          "neoprenhulle",
+          "camping-koffer",
+          "alb-wandhalterung",
+          "trinkwasserschlauch-set-wohnmobil",
+          "alb-filter-clean-tankreiniger",
+          "alb-filter-visio-sichtdeckel-element"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
