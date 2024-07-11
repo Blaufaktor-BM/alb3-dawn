@@ -4178,6 +4178,10 @@ slideshow-component .banner__heading.h1 {
 }
 
 .custom_image_text-heading {
+  margin-top: 0;
+}
+
+.custom_image_text-heading.remove_spacing {
   margin: 0;
 }
 
