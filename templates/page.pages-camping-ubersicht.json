@@ -180,460 +180,71 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "color_scheme": "scheme-49b9cfb6-2b4a-4225-aae8-597032b481ab",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "custom_image_text_UxTBxU": {
+    "custom_image_text_eTtJLz": {
       "type": "custom-image-text",
       "blocks": {
-        "icon_text_8qFpLX": {
-          "type": "icon_text",
-          "settings": {
-            "image_width": 80,
-            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin_dark-blue.svg",
-            "text1": "Tägliche Wellness für Haut und Haar",
-            "image2": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text2": "Zuverlässiger Schutz vor Legionellen (Kartusche Alb Filter® NANO)",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-35-filtercartridge_dark-blue.svg",
-            "text3": "Ein Gehäuse, unterschiedliche Kartuschen. Sie haben die Wahl zwischen der Duschkartusche Balance, Shungit oder Nano",
-            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
-            "text4": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit. ",
-            "image5": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month.svg",
-            "text5": "Wechsel der Filterkartuschen nur alle 6 Monaten",
-            "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
-            "text6": "Design, Fertigung und Produktion in Süddeutschland"
-          }
-        }
-      },
-      "block_order": [
-        "icon_text_8qFpLX"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU-v02.png",
-        "image_ratio": "1_1",
-        "image_contain": true,
-        "small_content_image": true,
-        "row_reverse": true,
-        "remove_content_spacing": true,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
-    "custom_image_text_aQ4HxB": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_RgJXtJ": {
+        "heading_czijVB": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Modularer Wasserfilter<\/strong>",
+            "heading": "Bild mit Text",
             "heading_tag": "h2",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "subtitle_CdNkDb": {
+        "subtitle_6MEwxe": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "1 Gehäuse – 3 Kartuschen."
+            "subtitle": "Ein Glas Leitungswasser bitte!"
           }
         },
-        "text_iQQ9Me": {
+        "text_WzawLM": {
           "type": "text",
           "settings": {
-            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Duschfiltern Balance und Shungit sowie dem Legionellenfilter Nano.<\/p>",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
             "text_style": "body"
+          }
+        },
+        "button_Qah8e8": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Schaltflächenbeschriftung",
+            "button_link1": "",
+            "button_label2": "Mehr erfahren",
+            "button_link2": ""
           }
         }
       },
       "block_order": [
-        "heading_RgJXtJ",
-        "subtitle_CdNkDb",
-        "text_iQQ9Me"
+        "heading_czijVB",
+        "subtitle_6MEwxe",
+        "text_WzawLM",
+        "button_Qah8e8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DUSCHFILTER-Element-Varianten_2000x_bd4f6377-689a-4141-bc4c-808cc5218d71.webp",
-        "image_ratio": "1_1",
+        "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
+        "image_ratio": "3_2",
         "image_contain": false,
         "small_content_image": false,
-        "row_reverse": true,
-        "remove_content_spacing": true,
-        "top_radius": false,
-        "background_color": "#fafafa",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "rich_text_h7N8FR": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mR8NNx": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Alb Duschfilter im Überblick<\/strong><\/p>",
-            "color": "#003e5f",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "font_weight": "700"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mR8NNx"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "content_full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "custom_image_text_ziYULU": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_cDwzCP": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Balance<\/strong>",
-            "heading_tag": "h3",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_MTfEmx": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Der Schadstofffilter für die Dusche"
-          }
-        },
-        "text_7ABmMX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Das Leitungswasser in Deutschland unterliegt strengsten Kontrollen. Dennoch gibt es gute Gründe auch das Duschwasser zu filtern: durch Chlorung und Schadstoffe, veraltete Hausleitungen können Fremdstoffe in Ihr Leitungswasser gelangen.<br\/><br\/>Neben der Reduzierung von Schadstoffen sowie Geruch, Geschmack und Trübungen bescheinigen uns viele Kunden dank der eingearbeiteten Mineralisierungsstufe ein angenehmes und weiches Hautgefühl während und nach dem Duschen.<br\/><br\/>Alb-Kundenstimmen: Unsere Kundenerfahrungen zeigen, dass der Duschfilter Alb Balance kraftvolles, glänzendes Haar sowie eine weiche Haut fördern kann.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "icon_text_agxb7L": {
-          "type": "icon_text",
-          "settings": {
-            "image_width": 60,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
-            "text1": "Aktivkohle gegen Geruch, Geschmack und Trübung des Wassers",
-            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-25-dermapearls_dark-blue.svg",
-            "text2": "Alb DERMA Perlen - Mineralienmix",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin_dark-blue.svg",
-            "text3": "Sediement-Vlies zur Feinfiltration ",
-            "image4": "shopify:\/\/shop_images\/pf-44d97bf6--albfiltericonsetparameters24schadstoffbindung.svg",
-            "text4": "Bindung von Schadstoffen im Wasser",
-            "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-26-phfix_dark-blue.svg",
-            "text5": "Alb pH-FIX Perlen - pH-Stabilisierung",
-            "image6": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-23-stars_dark-blue.svg",
-            "text6": "Hunderte von positiven Kundenerfahrungen "
-          }
-        },
-        "icon_text_acc_kzayFQ": {
-          "type": "icon_text_acc",
-          "settings": {
-            "heading": "Filtereigenschaften:",
-            "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Aktivkohlegranulat filtert Geruch (z.B. Chlor), Geschmack und Farbveränderungen im Wasser. Zudem können Arzneimittelrückstände und verwandte Schadstoffe reduziert werden.<\/p>",
-            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-25-dermapearls-mk_dark-blue_9011ba67-d43d-43e5-8f39-d54f3facc076.svg",
-            "text2": "<p><strong>Mineralisierung des Wassers durch DERMA-Perlen<\/strong><\/p><p>DERMA Perlen bestehen aus über 30 Mineralien, u.a. aus Selen, Mangan, Zink, Eisen, Magnesium, Phosphor, Calcium, Kalium und deren Verbindungen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin-mk_dark-blue.svg",
-            "text3": "<p><strong>Sediement-Vlies zur Feinfiltration<\/strong><\/p><p>Das Filtervlies sorgt für ein sanftes Duscherlebnis durch Filtration grober Partikel wie Sediment, Sand und Leitungsabrieb.<\/p>",
-            "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-24-bindings-mk_dark-blue.svg",
-            "text4": "<p><strong>Reduzierung von Schwermetallen<\/strong><\/p><p>Die adsorptive Wirkung von Aktivkohle in Kombination mit KDF bindet Schwermetalle wie etwa Blei und Kupfer im Wasser.<\/p>",
-            "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-26-phfix-mk_dark-blue_e4a9a8a9-8084-4d55-95a5-2dc3947fbc59.svg",
-            "text5": "<p><strong>pH-FIX Perlen zur Stabilisierung des Wassers<\/strong><\/p><p>Alb Filter pH-FIX Perlen dienen zur pH-Stabilisierung des Wassers. Enthaltendes Kalzium- und Magnesiumcarbonat kann Kalk in eine weniger anhaftende Struktur umwandeln.<\/p>",
-            "image6": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-17-6month-mk_dark-blue.svg",
-            "text6": "<p><strong>Kartuschenwechsel<\/strong><\/p><p>Wechselintervall 6 Monate - abhängig von der Qualität des Eingangswassers.<\/p>",
-            "text7": "",
-            "text8": "",
-            "text9": "",
-            "text10": ""
-          }
-        },
-        "text_acc_VUtbKY": {
-          "type": "text_acc",
-          "settings": {
-            "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial: <\/strong>Aktivkohle (granuliert), KDF, DERMA Perlen, pH-Fix Perlen<\/p><p><strong>Wechselinterval: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,0 Bar<\/p><p><strong>Durchfluss: <\/strong>15 l\/min<\/p>",
-            "bottom_text": ""
-          }
-        },
-        "button_YRcafF": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-duschfilter-balance",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/balance-duschfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cDwzCP",
-        "subtitle_MTfEmx",
-        "text_7ABmMX",
-        "icon_text_agxb7L",
-        "icon_text_acc_kzayFQ",
-        "text_acc_VUtbKY",
-        "button_YRcafF"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duschfilter-balance-edelstahl-natur-4260590614858-753.jpg",
-        "image_ratio": "1_1",
-        "image_contain": true,
-        "small_content_image": false,
         "row_reverse": false,
-        "remove_content_spacing": true,
+        "remove_content_spacing": false,
         "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
+        "background_color": "",
         "content_bg": "",
         "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
+        "subtitle_color": "#003e5f",
         "text_color": "#616161",
-        "btn_color": "#ffffff",
+        "btn_color": "#fff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
-        "padding_top": 0,
-        "padding_bottom": 30
-      }
-    },
-    "custom_image_text_QfzwTP": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_hFwBHw": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Shungit<\/strong>",
-            "heading_tag": "h3",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_aUr3DM": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Wertvolles Shungit Gestein für die Dusche"
-          }
-        },
-        "text_DyBekM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Der Shungit Duschfilter erfüllt den Wunsch vieler Kunden nach energetischem, vitalisierendem und strukturiertem Wasser. Die Eigenschaften von Shungit basieren auf Erfahrungen vieler Anwender, stellen jedoch keine wissenschaftliche Aussage dar.<br\/><\/p><p>Die Mikrobenzahl von mit Shungit gefiltertem Wasser kann bis zu zwölfmal kleiner sein als bei herkömmlich gefiltertem Wasser. Außerdem kann dieser Trübungen sowie Fremdgerüche verringern.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "icon_text_GehLFm": {
-          "type": "icon_text",
-          "settings": {
-            "image_width": 60,
-            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-28-radicals_dark-blue.svg",
-            "text1": "Bindung von freien Radikalen",
-            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-27-adsorptiv_dark-blue.svg",
-            "text2": "Adsorptiv, katalytisch und bakterizid",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-17-6month_dark-blue.svg",
-            "text3": "Kartuschenwechsel alle 6 Monate",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "",
-            "image5": "shopify:\/\/shop_images\/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
-            "text5": "",
-            "image6": "shopify:\/\/shop_images\/pf-7c162f46--albfiltericonsetparameters07lime.svg",
-            "text6": ""
-          }
-        },
-        "icon_text_acc_rhxpii": {
-          "type": "icon_text_acc",
-          "settings": {
-            "heading": "Filtereigenschaften",
-            "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-28-radicals-mk_dark-blue_7bbd1241-35d4-46c0-86cb-81b96bb262c4.svg",
-            "text1": "<p><strong>Binden von freien Radikalen<\/strong><\/p><p>Aufgrund des Molekülaufbaus soll Shungit in der Lage sein, freie Radikale aufzunehmen und zu binden, die für den Alterungsprozess der Haut mit verantwortlich sind.<\/p>",
-            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-27-adsorptiv-mk_dark-blue_9f3ea214-f457-4ffc-812d-7ba0736975fd.svg",
-            "text2": "<p><strong>Adsorptiv, katalytische und bakterizid<\/strong><\/p><p>Studien von Krutous und Rysev, Khadartsev3 sprechen von Shungit eine hohe adsorptive, katalytische und bakterizide Aktivität zu.<\/p>",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-17-6month-mk_dark-blue_938cbeaa-5f5a-4a51-bf86-79a4df0db875.svg",
-            "text3": "<p><strong>Kartuschenwechsel nur 2x im Jahr<\/strong><\/p><p>Schneller, einfacher Wechsel – Dauer: 2 min. Empfehlung gemäß 6 Monate.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "",
-            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text5": "",
-            "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
-            "text6": "",
-            "text7": "",
-            "text8": "",
-            "text9": "",
-            "text10": ""
-          }
-        },
-        "text_acc_xkX3wh": {
-          "type": "text_acc",
-          "settings": {
-            "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial: <\/strong>Shungit Gestein<\/p><p><strong>Wechselinterval: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,0 Bar<\/p><p><strong>Durchfluss: <\/strong>15 l\/min<\/p>",
-            "bottom_text": ""
-          }
-        },
-        "button_97ULJk": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-duschfilter-shungit",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_hFwBHw",
-        "subtitle_aUr3DM",
-        "text_DyBekM",
-        "icon_text_GehLFm",
-        "icon_text_acc_rhxpii",
-        "text_acc_xkX3wh",
-        "button_97ULJk"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duschfilter-shungit-edelstahl-natur-4260590614865-475.jpg",
-        "image_ratio": "1_1",
-        "image_contain": true,
-        "small_content_image": false,
-        "row_reverse": false,
-        "remove_content_spacing": true,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "custom_image_text_kGTRkj": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_jdANAe": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Untertisch Nano<\/strong>",
-            "heading_tag": "h2",
-            "heading_size": "h2"
-          }
-        },
-        "text_tecytA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.<\/p><p>Schützt vor einer Verkeimung mit Bakterien, Keimen, Schimmelpilzen und Legionellen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
-            "text_style": "body"
-          }
-        },
-        "icon_text_yL6LGK": {
-          "type": "icon_text",
-          "settings": {
-            "image_width": 60,
-            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
-            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-04-microplastics_dark-blue.svg",
-            "text2": "Mikroplastik",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-08-performance_dark-blue.svg",
-            "text3": " Hochleistungsmembran",
-            "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-09-filtercapacity_dark-blue.svg",
-            "text4": "Große Filterkapazität",
-            "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-10-security_dark-blue.svg",
-            "text5": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
-            "text6": ""
-          }
-        },
-        "icon_text_acc_yxFNe9": {
-          "type": "icon_text_acc",
-          "settings": {
-            "heading": "Filtereigenschaften",
-            "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text4": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
-            "text6": "",
-            "text7": "",
-            "text8": "",
-            "text9": "",
-            "text10": ""
-          }
-        },
-        "text_acc_MF99Aj": {
-          "type": "text_acc",
-          "settings": {
-            "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselinterval<\/strong>[1]<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>[2]<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>[3]<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>[4]<strong> <\/strong>11 l\/min<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>"
-          }
-        },
-        "button_QY3TrU": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-untertisch-komplett-set-schnellkupplung",
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jdANAe",
-        "text_tecytA",
-        "icon_text_yL6LGK",
-        "icon_text_acc_yxFNe9",
-        "text_acc_MF99Aj",
-        "button_QY3TrU"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
-        "image_ratio": "1_1",
-        "image_contain": true,
-        "small_content_image": false,
-        "row_reverse": false,
-        "remove_content_spacing": true,
-        "top_radius": false,
-        "background_color": "rgba(0,0,0,0)",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#616161",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "product_compare_3zPw6T": {
@@ -1155,12 +766,7 @@
     "rich_text_zjmbJz",
     "rich_text_At8QpH",
     "multicolumn_3d7368",
-    "custom_image_text_UxTBxU",
-    "custom_image_text_aQ4HxB",
-    "rich_text_h7N8FR",
-    "custom_image_text_ziYULU",
-    "custom_image_text_QfzwTP",
-    "custom_image_text_kGTRkj",
+    "custom_image_text_eTtJLz",
     "product_compare_3zPw6T",
     "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
