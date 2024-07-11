@@ -356,8 +356,8 @@
           "text": "#003e5f",
           "button": "#0081be",
           "button_label": "#ffffff",
-          "secondary_button_label": "#333333",
-          "shadow": "#333333"
+          "secondary_button_label": "rgba(0,0,0,0)",
+          "shadow": "rgba(0,0,0,0)"
         }
       },
       "scheme-49b9cfb6-2b4a-4225-aae8-597032b481ab": {
