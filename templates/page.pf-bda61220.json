@@ -23,8 +23,10 @@
         "image": "shopify:\/\/shop_images\/DUO-E-Montage_Kuche_Madchen.webp",
         "image_2": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "small",
         "desktop_content_position": "top-center",
+        "enable_section_container": false,
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -40,8 +42,9 @@
         "heading_AUcqNV": {
           "type": "heading",
           "settings": {
-            "heading": "TRINKWASSERFILTER",
+            "heading": "<p>TRINKWASSERFILTER<\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h0",
             "font_weight": "200"
           }
@@ -49,8 +52,9 @@
         "heading_zFpYUx": {
           "type": "heading",
           "settings": {
-            "heading": "Wasserfilter für Trinkwasser",
+            "heading": "<p>Wasserfilter für Trinkwasser<\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "font_weight": "700"
           }
@@ -68,8 +72,7 @@
             "button_link": "shopify:\/\/collections\/trinkwasserfilter",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link_2": ""
           }
         }
       },
@@ -101,6 +104,7 @@
             "image": "shopify:\/\/shop_images\/duo-element-spule-wasserhahn-1644225658263.png",
             "image_url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
             "heading": "Wasserfilter am Wasserhahn",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
@@ -116,6 +120,7 @@
             "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
             "image_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
             "heading": "Wasserfilter Untertisch",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
@@ -133,6 +138,7 @@
       "settings": {
         "heading": "Produktübersicht Trinkwasserfilter",
         "color": "#003e5f",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "img_bg": "#f2f2f2",
         "content_bg": "#fafafa",
@@ -152,6 +158,7 @@
           "type": "alb_comparison",
           "settings": {
             "heading": "<strong>Alb Trinkwasserfilter Vergleich<\/strong>",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
             "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
@@ -261,25 +268,6 @@
             "title4": "~6 l\/min"
           }
         },
-        "filter_product_set_U6xiLQ": {
-          "type": "filter_product_set",
-          "settings": {
-            "title": "<strong>Untertisch Komplett-Set<\/strong>",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil. <\/p>",
-            "product1": "alb-filter-untertisch-komplett-set",
-            "text1": "",
-            "image1": "shopify:\/\/shop_images\/Active_Anschlussset.jpg",
-            "product2": "alb-filter-activeplus-untertisch-komplett-set",
-            "text2": "",
-            "image2": "shopify:\/\/shop_images\/Active_Anschlussset_e5ebc204-0dce-481a-b2c8-a17940255c9c.jpg",
-            "product3": "alb-filter-nano-untertisch-komplett-set",
-            "text3": "",
-            "image3": "shopify:\/\/shop_images\/Nano-Anschlussset.jpg",
-            "product4": "alb-trinkwasserfilter-fusion-untertisch",
-            "text4": "",
-            "image4": "shopify:\/\/shop_images\/Fusion_Schwarz_Anschlussset.jpg"
-          }
-        },
         "filter_product_set_pMgNqg": {
           "type": "filter_product_set",
           "settings": {
@@ -336,7 +324,6 @@
         "filter_properties_gmKNk4",
         "filter_properties_4zERK7",
         "filter_properties_pwa7Rf",
-        "filter_product_set_U6xiLQ",
         "filter_product_set_pMgNqg",
         "filter_product_set_A49VwL",
         "description_wghk9A"
@@ -344,6 +331,7 @@
       "settings": {
         "list_option": "4",
         "text_color": "#616161",
+        "show_button": true,
         "btn_text": "Kaufen",
         "btn_bg": "#0081be",
         "btn_color": "#ffffff",
@@ -357,8 +345,9 @@
         "heading_ifbUyJ": {
           "type": "heading",
           "settings": {
-            "heading": "Kundenstimmen zu unseren Trinkwasserfiltern",
+            "heading": "<p>Kundenstimmen zu unseren Trinkwasserfiltern<\/p>",
             "color": "#003e5f",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "font_weight": "700"
           }
@@ -394,28 +383,36 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
-            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>"
+            "title": "",
+            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
+            "url": ""
           }
         },
         "item_GM9hMV": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>"
+            "title": "",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
           }
         },
         "item_TAFUCd": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>"
+            "title": "",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "url": ""
           }
         },
         "item_7KnPrh": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>"
+            "title": "",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "url": ""
           }
         }
       },
@@ -427,8 +424,12 @@
       ],
       "settings": {
         "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
+        "title_color": "#003e5f",
+        "column_count": 4,
         "full_width": true,
         "image_white": true,
+        "large_image": false,
+        "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 0
       }
@@ -461,6 +462,7 @@
         "background_color": "#fafafa",
         "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
         "heading": "Noch Fragen zum Produkt?",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#616161",
         "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
@@ -552,6 +554,7 @@
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
         "heading": "Fragen und Antworten",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "heading_alignment": "left",
@@ -595,6 +598,7 @@
         "content_wrapper": false,
         "background_color": "",
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "mobile_center": false,
