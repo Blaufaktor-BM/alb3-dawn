@@ -445,11 +445,11 @@
       ],
       "settings": {
         "desktop_column": 5,
-        "mobile_column": "1",
+        "mobile_column": "2",
         "text_color": "#616161",
         "link_color": "#0081be",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 88
       }
     },
     "banner": {
