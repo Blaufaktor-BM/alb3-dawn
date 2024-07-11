@@ -55,7 +55,7 @@
         "image": "shopify:\/\/shop_images\/titel-adapter-kaufen-shop-2-1639745773436.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "enable_section_container": false,
         "show_text_box": false,
         "desktop_content_alignment": "left",
