@@ -4296,8 +4296,8 @@ slideshow-component .banner__heading.h1 {
 
 .icon_text-media.media_empty {
   display: block !important;
-  padding-bottom: 100%;
-  background-color: #fafafa;
+  height: 75px;
+  background-color: #eaeaea;
 }
 
 .icon_text-media svg,
