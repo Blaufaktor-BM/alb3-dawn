@@ -264,7 +264,7 @@
                             <div class="custom-icon_text-item">
                               <div
                                 class="icon_text-media{% if block.settings[image] == blank %} media_empty{% endif %}"
-                                style="max-width: {{ block.settings.image_width }}px"
+                                style="max-width: {{ block.settings.image_width }}px; min-width: {{ block.settings.image_width }}px;"
                               >
                                 {% if block.settings[image] != blank %}
                                   {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
