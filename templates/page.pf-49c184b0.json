@@ -445,7 +445,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Alb Filter Mobil\/Travel<br\/>Installation<\/p>",
-            "heading_tag": "p",
+            "heading_tag": "h2",
             "heading_size": "h1",
             "heading_color": "#003e5f"
           }
