@@ -6056,13 +6056,17 @@ ul.breadcrumb li a:hover {
   margin: 0;
 }
 
+.multicolumn-card__info .rte {
+  margin-top: 20px;
+}
+
 .multicolumn-card__info .multi-column_subtitle {
   margin-top: 10px;
   margin-bottom: 0;
 }
 
 .multicolumn-card__info .btn-second {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .multicolumn-list__item.center .btn-second {
