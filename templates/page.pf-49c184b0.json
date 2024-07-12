@@ -318,6 +318,63 @@
         "padding_bottom": 0
       }
     },
+    "custom_image_text_PWYLJb": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_HkkAzE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kombifilter Pro Camper",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "remove_spacing": false
+          }
+        },
+        "text_Y69JEW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reisen ohne Einschränkungen durch eine Kombination eines Mobil- und Travel-Sets. Mit dem Pro Camper Set können Sie sich und Ihr Equipment vor organischen Schadstoffen, geschmacklichen Beeinträchtigungen und sogar vor gesundheitsschädlichen Keimen und Bakterien schützen. Reduzieren Sie Ihren Plastikmüll auf ein Minimum indem Sie das frisch gefilterte Wasser aus ihrem Tank genießen.<br\/><br\/>Mikrobiologische Verunreinigungen werden direkt vor der Entnahme gefiltert wodurch lästige und zum Teil gefährliche Magen-Darm Erkrankungen vermieden werden können. Durch die zusätzliche Filtration des Wassers mit einer Aktivkohle-Kartusche beim Tankvorgang, reduzieren Sie unerwünschte Schadstoffe und Sedimente noch bevor diese Ihren Wassertank verunreinigen. <\/p><ul><li><strong>Empfohlen bei mittleren\/großen Wassertanks (120 bis 200 Liter)<\/strong><\/li><li>Keimsperre nach dem Wassertank.<\/li><li>Optimal für ältere bzw. nicht ­gereinigte Systeme. <\/li><li>Filtert Sand, Sediment und organische <\/li><li>erunreinigungen vor dem Tank. <\/li><li>Druckanforderung &gt; 2,1 bar<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "button_GKbKUz": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/collections\/camping-mobil",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-mobil"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HkkAzE",
+        "text_Y69JEW",
+        "button_GKbKUz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pro_Camper_72c94c76-5f2d-4285-9781-195fcefdb798.svg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "large",
+        "row_reverse": false,
+        "add_image_spacing": true,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "rgba(0,0,0,0)",
+        "image_bg": "#fafafa",
+        "content_bg": "#f1faff",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
@@ -839,6 +896,7 @@
     "multicolumn_3d7368",
     "custom_image_text_eTtJLz",
     "custom_image_text_7Lab7w",
+    "custom_image_text_PWYLJb",
     "product_compare_3zPw6T",
     "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
