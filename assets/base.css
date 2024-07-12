@@ -4286,6 +4286,7 @@ slideshow-component .banner__heading.h1 {
 .custom-icon_text-item {
   display: flex;
   gap: 10px;
+  padding-left: 20px;
   align-items: center;
 }
 
@@ -4293,6 +4294,7 @@ slideshow-component .banner__heading.h1 {
   width: 100%;
 }
 
+.icon_text-media svg,
 .icon_text-media img {
   width: 100%;
   height: auto;

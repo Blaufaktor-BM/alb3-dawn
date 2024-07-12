@@ -262,8 +262,8 @@
                           {% capture text %}text{{ i }}{% endcapture %}
                           {% if block.settings[text] != blank %}
                             <div class="custom-icon_text-item">
-                              {% if block.settings[image] != blank %}
-                                <div class="icon_text-media" style="max-width: {{ block.settings.image_width }}px">
+                              <div class="icon_text-media" style="max-width: {{ block.settings.image_width }}px">
+                                {% if block.settings[image] != blank %}
                                   {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                                   {%- capture sizes -%}
                                                         (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
@@ -274,8 +274,10 @@
                                     | image_url: width: 1500
                                     | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                                   }}
-                                </div>
-                              {% endif %}
+                                {% else %}
+                                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                {% endif %}
+                              </div>
                               <div
                                 class="icon_text-text rte"
                                 style="font-size: {{ section.settings.icon_text_font_size }}px"
