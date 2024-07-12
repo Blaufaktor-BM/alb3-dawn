@@ -137,8 +137,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
             "title": "Befüllfilter Mobil",
-            "subtitle": "",
-            "text": "<p><strong>Der Portable - Betankung von außen. <\/strong><\/p><p>Einfacher geht es nicht. Anstecken und loslegen. Mit den Mobil-Sets fließt nur noch gefilterte Wasser in den Wassertank - für bestes Trinkwasser und einen sauberen Tank. <\/p>",
+            "subtitle": "Der Portable - Betankung von außen.",
+            "text": "<p>Einfacher geht es nicht. Anstecken und loslegen. Mit den Mobil-Sets fließt nur noch gefilterte Wasser in den Wassertank - für bestes Trinkwasser und einen sauberen Tank. <\/p>",
             "link_label": "Mehr erfahren",
             "link": "shopify:\/\/pages\/camping-wasserfilter-mobil"
           }
@@ -183,9 +183,9 @@
         "column_heading_size": "h2",
         "column_heading_weight": "700",
         "column_heading_color": "#003e5f",
-        "column_subtitle_second": false,
+        "column_subtitle_second": true,
         "column_subtitle_tag": "h3",
-        "column_subtitle_weight": "700",
+        "column_subtitle_weight": "400",
         "column_subtitle_size": "h3",
         "column_subtitle_color": "#616161",
         "column_text_second": true,
