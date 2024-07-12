@@ -674,9 +674,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-camping-broschure-banner_v04_e896e9b9-4326-4af9-8ecb-0279819206c5.jpg",
-        "enable_image_ratio": false,
-        "image_ratio": "1_1",
-        "image_contain": false,
+        "enable_image_ratio": true,
+        "image_ratio": "16_9",
+        "image_contain": true,
         "image_width": "large",
         "row_reverse": false,
         "add_image_spacing": false,
