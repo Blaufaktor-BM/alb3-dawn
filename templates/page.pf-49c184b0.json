@@ -423,6 +423,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/Q1_WWbCxMpw",
+        "cover_image": "shopify:\/\/shop_images\/maxresdefault.webp",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -440,12 +441,12 @@
             "image_width": 70
           }
         },
-        "heading_E6Hkyi": {
+        "heading_6iMpet": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Filter® Mobil\/Travel Installation<\/p>",
-            "heading_tag": "h3",
-            "heading_size": "h2",
+            "heading": "<p>Alb Filter Mobil\/Travel<br\/>Installation<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h1",
             "heading_color": "#003e5f"
           }
         },
@@ -470,7 +471,7 @@
       },
       "block_order": [
         "image_bHgKcn",
-        "heading_E6Hkyi",
+        "heading_6iMpet",
         "text_YKGgrb",
         "button_ntQcyx"
       ],
@@ -504,10 +505,10 @@
         "heading_dNG36k": {
           "type": "heading",
           "settings": {
-            "heading": "<h2><strong>Alb Dusch - & Badfilter<br\/>Installation<\/strong><\/h2>",
-            "heading_tag": "h2",
-            "heading_size": "h1",
-            "heading_color": "#003e5f"
+            "heading": "<p>Alb Dusch - & Badfilter<br\/>Installation<\/p>",
+            "heading_tag": "h1",
+            "heading_size": "h2",
+            "heading_color": "#0081be"
           }
         },
         "text_wAkrTw": {
@@ -699,7 +700,7 @@
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "icon_text_font_size": 16,
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
