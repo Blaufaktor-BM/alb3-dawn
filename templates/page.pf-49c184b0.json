@@ -653,15 +653,15 @@
         "text_thhxeU": {
           "type": "text",
           "settings": {
-            "text": "<p>Die gedruckte Alb Filter Camping Broschüre zum nachlesen als PDF.<br\/><br\/><\/p>",
+            "text": "<p>Die gedruckte Alb Filter Camping Broschüre zum nachlesen als PDF.<\/p>",
             "text_style": "body"
           }
         },
         "button_txVEB8": {
           "type": "button",
           "settings": {
-            "button_label1": "Schaltflächenbeschriftung",
-            "button_link1": "",
+            "button_label1": "Alb Filter Camping Broschüre 2023\/24 (PDF)",
+            "button_link1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/2023-Broschure-Camping_ALU_EDEL_v03_kompr.pdf?v=1708340672",
             "button_label2": "",
             "button_link2": ""
           }
