@@ -424,6 +424,65 @@
         "padding_bottom": 36
       }
     },
+    "small_image_text_qR4wDj": {
+      "type": "small-image-text",
+      "blocks": {
+        "image_bHgKcn": {
+          "type": "image",
+          "settings": {
+            "image_width": 120
+          }
+        },
+        "heading_E6Hkyi": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alb Filter® Mobil\/Travel Installation<\/p>",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "heading_color": "#003e5f"
+          }
+        },
+        "text_YKGgrb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unsere Schritt für Schritt-Anleitungen unterstützen Sie bei der Installation Ihres Alb Filter® Mobil und Travel. <\/p>",
+            "text_style": "body",
+            "color": "#616161"
+          }
+        },
+        "button_ntQcyx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "color": "#0081be",
+            "primary_btn": false,
+            "primary_bg": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "image_bHgKcn",
+        "heading_E6Hkyi",
+        "text_YKGgrb",
+        "button_ntQcyx"
+      ],
+      "settings": {
+        "image_right": false,
+        "content_wrapper": true,
+        "background_color": "",
+        "heading": "",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "mobile_center": false,
+        "image_width": 200,
+        "image_mobile_width": 285,
+        "image_round": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
@@ -948,6 +1007,7 @@
     "custom_image_text_PWYLJb",
     "rich_text_UVxjMz",
     "video_ee7kX7",
+    "small_image_text_qR4wDj",
     "product_compare_3zPw6T",
     "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
