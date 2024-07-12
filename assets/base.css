@@ -6073,5 +6073,15 @@ ul.breadcrumb li a:hover {
   justify-content: center;
 }
 
+.multicolumn-card {
+  transition-duration: .3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.multicolumn-card:hover {
+  transform: translateY(-8px);
+}
+
 /* multi column */
 /* additional css */
