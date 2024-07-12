@@ -15,9 +15,74 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_PaxKwM": {
+      "type": "image-banner",
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Camping-Mobil-Frau-Tanken-2500x600.webp",
+        "image_overlay_opacity": 0,
+        "enable_shadow": true,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "column_image_text_VaCBE4": {
+      "type": "column-image-text",
+      "blocks": {
+        "heading_GzLjGx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Camping-Wasserfilter",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_cJifHK": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Für die externe Betankung von Wohnmobilen, Campern und Booten."
+          }
+        },
+        "text_VKRVpM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs. Die verschiedenen Filtertypen, wie Active, Nano und Fusion, bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_A4kba7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Shop",
+            "button_link": "shopify:\/\/collections\/camping-mobil"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzLjGx",
+        "subtitle_cJifHK",
+        "text_VKRVpM",
+        "button_A4kba7"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "image_height": 250,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_PaxKwM",
+    "column_image_text_VaCBE4"
   ]
 }
