@@ -471,7 +471,7 @@
       "settings": {
         "image_right": true,
         "content_wrapper": true,
-        "background_color": "",
+        "background_color": "#fafafa",
         "heading": "",
         "heading_tag": "h2",
         "heading_size": "h1",
