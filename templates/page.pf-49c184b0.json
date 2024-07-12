@@ -453,10 +453,10 @@
         "button_ntQcyx": {
           "type": "button",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
+            "button_label": "Anleitung Mobil \/ Travel (PDF)",
             "button_link": "",
-            "color": "#0081be",
-            "primary_btn": false,
+            "color": "#ffffff",
+            "primary_btn": true,
             "primary_bg": "#0081be"
           }
         }
