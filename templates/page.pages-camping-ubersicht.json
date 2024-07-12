@@ -137,7 +137,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
             "title": "Befüllfilter Mobil",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#616161",
             "subtitle": "",
@@ -190,7 +190,7 @@
         "column_fjEQ6B"
       ],
       "settings": {
-        "title": "",
+        "title": "ssss",
         "heading_tag": "h2",
         "heading_size": "h1",
         "image_width": "full",
