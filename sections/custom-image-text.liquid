@@ -1,7 +1,34 @@
 {%- liquid
   assign fetch_priority = 'auto'
+  if section.settings.enable_image_ratio
+    if section.settings.image_ratio == '1_1'
+      assign image_height = 100
+    elsif section.settings.image_ratio == '2_3'
+      assign image_height = 150
+    elsif section.settings.image_ratio == '3_2'
+      assign image_height = 66.66
+    elsif section.settings.image_ratio == '16_9'
+      assign image_height = 56.25
+    elsif section.settings.image_ratio == '9_16'
+      assign image_height = 177.77
+    endif
+  endif
 -%}
 {%- style -%}
+  {%- if section.settings.enable_image_ratio -%}
+    #shopify-section-{{ section.id }} .media-custom_image_text {
+      position: relative;
+      height: 0;
+      padding-bottom: {{ image_height }}%;
+    }
+    #shopify-section-{{ section.id }} .media-custom_image_text img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+  {%- endif -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -264,6 +291,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_image_ratio",
+      "label": "Image Ratio"
     },
     {
       "type": "select",
