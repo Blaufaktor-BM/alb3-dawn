@@ -225,6 +225,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-mobil",
+            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/camping-wasserfilter-mobil"
           }
@@ -285,6 +286,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-travel",
+            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/camping-wasserfilter-travel"
           }
@@ -342,6 +344,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/pro-camper-set",
+            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set"
           }
@@ -662,6 +665,7 @@
           "settings": {
             "button_label1": "Alb Filter Camping Broschüre 2023\/24 (PDF)",
             "button_link1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/2023-Broschure-Camping_ALU_EDEL_v03_kompr.pdf?v=1708340672",
+            "hide_icon": true,
             "button_label2": "",
             "button_link2": ""
           }
