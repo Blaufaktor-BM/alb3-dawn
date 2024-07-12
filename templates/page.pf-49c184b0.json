@@ -209,7 +209,7 @@
           "settings": {
             "heading": "Befüllfilter Mobil",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "remove_spacing": false
           }
         },
@@ -241,7 +241,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
-        "enable_image_ratio": true,
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
         "image_width": "large",
@@ -251,13 +251,14 @@
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "#fafafa",
-        "content_bg": "#f1faff",
+        "content_bg": "#ebf4f9",
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
         "text_color": "#616161",
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -270,7 +271,7 @@
           "settings": {
             "heading": "Einbaufilter Travel",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "remove_spacing": false
           }
         },
@@ -300,7 +301,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Travel_Fusion_8620052a-a92c-4a8e-b2ac-a3ad81f95b2f.svg",
         "enable_image_ratio": false,
-        "image_ratio": "1_1",
+        "image_ratio": "2_3",
         "image_contain": true,
         "image_width": "large",
         "row_reverse": true,
@@ -309,13 +310,14 @@
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "#fafafa",
-        "content_bg": "#f1faff",
+        "content_bg": "#ebf4f9",
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
         "text_color": "#616161",
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -328,7 +330,7 @@
           "settings": {
             "heading": "Kombifilter Pro Camper",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "remove_spacing": false
           }
         },
@@ -357,8 +359,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pro_Camper_72c94c76-5f2d-4285-9781-195fcefdb798.svg",
-        "enable_image_ratio": true,
-        "image_ratio": "1_1",
+        "enable_image_ratio": false,
+        "image_ratio": "2_3",
         "image_contain": true,
         "image_width": "large",
         "row_reverse": false,
@@ -367,13 +369,14 @@
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "#fafafa",
-        "content_bg": "#f1faff",
+        "content_bg": "#ebf4f9",
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
         "text_color": "#616161",
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -695,6 +698,7 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 0,
         "padding_bottom": 0
       }
