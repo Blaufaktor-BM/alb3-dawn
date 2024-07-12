@@ -455,7 +455,7 @@
           "type": "button",
           "settings": {
             "button_label": "Anleitung Mobil \/ Travel (PDF)",
-            "button_link": "",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/MOBIL-TRAVEL-Manual_V1.1_GER_FINAL_WEB.pdf",
             "color": "#ffffff",
             "primary_btn": true,
             "primary_bg": "#0081be"
