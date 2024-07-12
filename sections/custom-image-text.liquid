@@ -17,12 +17,12 @@
 {%- style -%}
   {%- if section.settings.enable_image_ratio -%}
     @media only screen and (min-width: 750px) {
-      #shopify-section-{{ section.id }} .media-custom_image_text {
+      #shopify-section-{{ section.id }} .media-wrapper-custom_image_text {
         position: relative;
         height: 0;
         padding-bottom: {{ image_height }}%;
       }
-      #shopify-section-{{ section.id }} .media-custom_image_text img {
+      #shopify-section-{{ section.id }} .media-wrapper-custom_image_text img {
         position: absolute;
         top: 0;
         left: 0;
@@ -65,6 +65,9 @@
             style="background-color: {{ section.settings.image_bg }}"
           {% endif %}
         >
+          {%- if section.settings.enable_image_ratio -%}
+            <div class="media-wrapper-custom_image_text">
+          {%- endif -%}
           {%- if section.settings.image != blank -%}
             {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
             {%- capture sizes -%}
@@ -78,6 +81,9 @@
             }}
           {%- else -%}
             {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+          {%- if section.settings.enable_image_ratio -%}
+            </div>
           {%- endif -%}
         </div>
         {%- if section.blocks.size > 0 -%}
