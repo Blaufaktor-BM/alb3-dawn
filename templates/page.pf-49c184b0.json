@@ -648,7 +648,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "text": "Duschfilter",
+            "text": "Sie haben Fragen?",
             "url": "shopify:\/\/pages\/faq-duschfilter"
           }
         },
@@ -671,8 +671,8 @@
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
         "heading_size": "h2",
-        "heading_color": "#616161",
-        "text": "<p>Hier erhältst du wichtige Informationen zu unseren <a href=\"\/pages\/faq-duschfilter\" title=\"FAQ - Duschfilter\">Duschfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "heading_color": "#003e5f",
+        "text": "<p>Erhalten Sie hier Antworten zu unseren <a href=\"\/pages\/faq-camping\" title=\"FAQ - Camping\">Campingfiltern <\/a>oder <br\/>besuchen Sie unsere <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Hilfe und Kontakt <\/a>Seite für weitere Fragen.<\/p>",
         "text_color": "#616161",
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
