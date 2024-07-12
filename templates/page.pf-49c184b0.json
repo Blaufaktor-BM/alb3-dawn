@@ -492,6 +492,72 @@
         "padding_bottom": 10
       }
     },
+    "custom_image_text_CJhTV9": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_bA3JXy": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Optionales Zubehör"
+          }
+        },
+        "heading_TebUwL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flex Tube",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
+          }
+        },
+        "text_3wzBpe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Alb Filter Flextube ist eine innovative Lösung für Wohnmobilbesitzer, die sich beim Betanken ihres Fahrzeugs nicht mehr mit schmutzigen Schläuchen herumschlagen möchten.<\/p><p>Dank seiner praktischen Tasche bleibt der lebensmittelechte Schlauch stets sauber und hygienisch.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YyXACH": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-flextube-befullschlauch",
+            "hide_icon": false,
+            "button_label2": "Weiteres Zubehör",
+            "button_link2": "shopify:\/\/collections\/zubehor"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_bA3JXy",
+        "heading_TebUwL",
+        "text_3wzBpe",
+        "button_YyXACH"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-filterr-flextube-befuellschlauch-4260590615824-963.webp",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "custom_image_text_BdpBUm": {
       "type": "custom-image-text",
       "blocks": {
@@ -706,72 +772,6 @@
         "padding_bottom": 52
       }
     },
-    "custom_image_text_CJhTV9": {
-      "type": "custom-image-text",
-      "blocks": {
-        "subtitle_bA3JXy": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Optionales Zubehör"
-          }
-        },
-        "heading_TebUwL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Flex Tube",
-            "heading_tag": "h2",
-            "heading_size": "h1",
-            "remove_spacing": false
-          }
-        },
-        "text_3wzBpe": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Der Alb Filter Flextube ist eine innovative Lösung für Wohnmobilbesitzer, die sich beim Betanken ihres Fahrzeugs nicht mehr mit schmutzigen Schläuchen herumschlagen möchten.<\/p><p>Dank seiner praktischen Tasche bleibt der lebensmittelechte Schlauch stets sauber und hygienisch.<br\/><\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_YyXACH": {
-          "type": "button",
-          "settings": {
-            "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-flextube-befullschlauch",
-            "hide_icon": false,
-            "button_label2": "Weiteres Zubehör",
-            "button_link2": "shopify:\/\/collections\/zubehor"
-          }
-        }
-      },
-      "block_order": [
-        "subtitle_bA3JXy",
-        "heading_TebUwL",
-        "text_3wzBpe",
-        "button_YyXACH"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-filterr-flextube-befuellschlauch-4260590615824-963.webp",
-        "enable_image_ratio": false,
-        "image_ratio": "1_1",
-        "image_contain": false,
-        "image_width": "medium",
-        "row_reverse": false,
-        "add_image_spacing": false,
-        "remove_content_spacing": false,
-        "top_radius": false,
-        "background_color": "",
-        "image_bg": "",
-        "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#fff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_QY3y6B": {
       "type": "rich-text",
       "blocks": {
@@ -976,11 +976,11 @@
     "rich_text_UVxjMz",
     "video_ee7kX7",
     "small_image_text_qR4wDj",
+    "custom_image_text_CJhTV9",
     "custom_image_text_BdpBUm",
     "rich_text_RAmCU9",
     "multicolumn_qnByqx",
     "rich_text_KqB4ww",
-    "custom_image_text_CJhTV9",
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
