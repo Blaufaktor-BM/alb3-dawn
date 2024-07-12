@@ -430,7 +430,8 @@
         "image_bHgKcn": {
           "type": "image",
           "settings": {
-            "image_width": 120
+            "image": "shopify:\/\/shop_images\/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
+            "image_width": 70
           }
         },
         "heading_E6Hkyi": {
