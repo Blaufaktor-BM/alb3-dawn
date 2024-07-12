@@ -445,7 +445,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Alb Filter Mobil\/Travel<br\/>Installation<\/p>",
-            "heading_tag": "h2",
+            "heading_tag": "p",
             "heading_size": "h1",
             "heading_color": "#003e5f"
           }
@@ -550,7 +550,7 @@
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
         "text_color": "#616161",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "icon_text_font_size": 16,
@@ -624,7 +624,7 @@
         "heading_color": "#003e5f",
         "subtitle_color": "#003e5f",
         "text_color": "#616161",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "icon_text_font_size": 16,
