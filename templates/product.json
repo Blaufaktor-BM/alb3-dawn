@@ -91,7 +91,7 @@
           "type": "complementary",
           "settings": {
             "block_heading": "Passend dazu:",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 3,
             "products_per_page": 3,
