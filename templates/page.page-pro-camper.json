@@ -20,7 +20,7 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
+        "image": "shopify:\/\/shop_images\/Campervan-Familie-Picknick-Feuer_Topbanner-Landing-2500x600.webp",
         "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
@@ -42,7 +42,7 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB ELEMENT<\/p>",
+            "heading": "<p>PRO CAMPER<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
@@ -52,24 +52,31 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Duschfilter<\/strong><\/p>",
+            "heading": "<h1><strong>Kombi Camping-Wasserfilter<br\/><\/strong><\/h1><p><\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
             "font_weight": "700"
           }
         },
+        "subtitle_iLh4NJ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Kombination aus Einbau und Befüll-Filter - optimale Trinkwasseraufbereitung im Wohnmobil",
+            "color": "#003e5f"
+          }
+        },
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Wasserfilter für die Dusche, Kalkfilter, Legionellenfilter: Für ein besonderes Duscherlebnis<\/p><p>Gönne Dir tägliche Wellness für Haut und Haar mit den Duschfiltern von Alb. Unsere Kunden freuen sich über ein weiches Hautgefühl, geschmeidigere Haaren und sogar Linderung bei Hautbeschwerden. Die zertifizierte Nano-Kartusche bietet außerdem präventiven und akuten Schutz vor Legionellen. <br\/><\/p>"
+            "text": "<p>Reisen ohne Einschränkungen durch eine Kombination eines Mobil- und Travel-Sets. Mit dem Pro Camper Set schützen Sie sich und Ihr Equipment vor organischen Schadstoffen, geschmacklichen Beeinträchtigungen und vor gesundheitsschädlichen Keimen und Bakterien. Reduzieren Sie Ihren Plastikmüll auf ein Minimum indem Sie das frisch gefilterte Wasser aus ihrem Tank genießen.<\/p><p>Mikrobiologische Verunreinigungen werden direkt vor der Entnahme gefiltert wodurch lästige und zum Teil gefährliche Magen-Darm Erkrankungen vermieden werden können. Durch die zusätzliche Filtration des Wassers mit einer Aktivkohle-Kartusche beim Tankvorgang, reduzieren Sie unerwünschte Schadstoffe und Sedimente noch bevor diese Ihren Wassertank verunreinigen. <\/p>"
           }
         },
         "button_RNbMXW": {
           "type": "button",
           "settings": {
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/duschfilter",
+            "button_link": "shopify:\/\/products\/pro-camper-set",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": ""
@@ -79,6 +86,7 @@
       "block_order": [
         "heading_rfqkqJ",
         "heading_LaNE8f",
+        "subtitle_iLh4NJ",
         "text_jiew46",
         "button_RNbMXW"
       ],
@@ -103,16 +111,16 @@
           "type": "icon_text",
           "settings": {
             "image_width": 80,
-            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-19-skin_dark-blue.svg",
-            "text1": "Tägliche Wellness für Haut und Haar",
-            "image2": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text2": "Zuverlässiger Schutz vor Legionellen (Kartusche Alb Filter® NANO)",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-35-filtercartridge_dark-blue.svg",
-            "text3": "Ein Gehäuse, unterschiedliche Kartuschen. Sie haben die Wahl zwischen der Duschkartusche Balance, Shungit oder Nano",
-            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
-            "text4": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit. ",
-            "image5": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month.svg",
-            "text5": "Wechsel der Filterkartuschen nur alle 6 Monaten",
+            "image1": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-10-security_dark-blue.svg",
+            "text1": "Hoher Schutz und Hygiene",
+            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-38-clean-tank_dark-blue.svg",
+            "text2": "Sauberer Tank",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
+            "text3": "Keimfreies Wasser ohne Silberionen",
+            "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-42-all-inclusive_dark-blue.svg",
+            "text4": "Komplett-Set. Alle Teile zur Montage sind im Set enthalten. ",
+            "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-18-universal-2_dark-blue.svg",
+            "text5": "Einzigartiges, modulares Design",
             "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
             "text6": "Design, Fertigung und Produktion in Süddeutschland"
           }
@@ -122,13 +130,17 @@
         "icon_text_8qFpLX"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU-v02.png",
+        "image": "shopify:\/\/shop_images\/Pro_Camper_72c94c76-5f2d-4285-9781-195fcefdb798.svg",
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
+        "image_width": "medium",
         "row_reverse": true,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -136,8 +148,122 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 0,
         "padding_bottom": 60
+      }
+    },
+    "custom_image_text_MyLhWJ": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_jVmwRC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Filterstufe 1 und 2"
+          }
+        },
+        "heading_eW8jGy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alb Filter Mobil Protect - Befüllfilter",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
+          }
+        },
+        "text_7pyExT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit der Alb Filter ­ACTIVE Kartusche und dem PROTECT Vorfilter filtern Sie bei der Betankung unter anderem Sediment, geschmackliche Beeinträchtigungen sowie organische, nicht reproduzierbare Stoffe.<\/p><p><strong>1: Protect Feststofffilter<br\/><\/strong>Vorfilter zum Schutz der nachfolgenden Filterkartuschen.<\/p><p><strong>2: Active Breitbandfilter<br\/><\/strong>Die Aktivkohlekartusche reduziert organische Schadstoffe und schlechten Geschmack.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_jVmwRC",
+        "heading_eW8jGy",
+        "text_7pyExT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pro-camper-set-einzeln-mobil_Edelstahl.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_8LA6Tb": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_xhGT4V": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Filterstufe 3"
+          }
+        },
+        "heading_WPtXBk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alb Filter Travel - Nach dem Wassertank festverbaut",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
+          }
+        },
+        "text_fV9XHN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ergänzend verbauen Sie nach dem Tank die Alb Filter Kartusche NANO - eine hochwirksame Keimsperre. Diese schützt Ihr Wasser zuverlässig vor einer möglichen Verkeimung durch Krankheitserreger bzw. Bakterien direkt vor der Entnahme.<\/p><p><strong>3: Nano Keimsperre<br\/><\/strong>Die zertifizierte Nano Kartusche ­filtert ­Keime und Bakterien – zum Beispiel Legionellen– direkt vor der ­Entnahme für den bestmöglichen Schutz Ihrer Gesundheit.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_xhGT4V",
+        "heading_WPtXBk",
+        "text_fV9XHN"
+      ],
+      "custom_css": [
+        "{margin-top: -200px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pro-camper-set-einzeln-travel_Edelstahl.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "custom_image_text_aQ4HxB": {
@@ -148,7 +274,8 @@
           "settings": {
             "heading": "<strong>Modularer Wasserfilter<\/strong>",
             "heading_tag": "h2",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "remove_spacing": false
           }
         },
         "subtitle_CdNkDb": {
@@ -172,12 +299,16 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DUSCHFILTER-Element-Varianten_2000x_bd4f6377-689a-4141-bc4c-808cc5218d71.webp",
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
+        "image_width": "medium",
         "row_reverse": true,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "#fafafa",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -185,6 +316,7 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 30,
         "padding_bottom": 30
       }
@@ -224,7 +356,8 @@
           "settings": {
             "heading": "<strong>Balance<\/strong>",
             "heading_tag": "h3",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "remove_spacing": false
           }
         },
         "subtitle_MTfEmx": {
@@ -294,6 +427,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-duschfilter-balance",
+            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/balance-duschfilter-kartusche"
           }
@@ -310,12 +444,16 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duschfilter-balance-edelstahl-natur-4260590614858-753.jpg",
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
+        "image_width": "medium",
         "row_reverse": false,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -323,6 +461,7 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 0,
         "padding_bottom": 30
       }
@@ -335,7 +474,8 @@
           "settings": {
             "heading": "<strong>Shungit<\/strong>",
             "heading_tag": "h3",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "remove_spacing": false
           }
         },
         "subtitle_aUr3DM": {
@@ -405,6 +545,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-duschfilter-shungit",
+            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
           }
@@ -421,12 +562,16 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-duschfilter-shungit-edelstahl-natur-4260590614865-475.jpg",
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
+        "image_width": "medium",
         "row_reverse": false,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -434,6 +579,7 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 30,
         "padding_bottom": 30
       }
@@ -446,7 +592,8 @@
           "settings": {
             "heading": "<strong>Untertisch Nano<\/strong>",
             "heading_tag": "h2",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "remove_spacing": false
           }
         },
         "text_tecytA": {
@@ -508,6 +655,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-filter-untertisch-komplett-set-schnellkupplung",
+            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
           }
@@ -523,12 +671,16 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
+        "image_width": "medium",
         "row_reverse": false,
+        "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
+        "image_bg": "",
         "content_bg": "",
         "heading_color": "#003e5f",
         "subtitle_color": "#616161",
@@ -536,6 +688,7 @@
         "btn_color": "#ffffff",
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
         "padding_top": 30,
         "padding_bottom": 30
       }
@@ -1058,6 +1211,8 @@
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
     "custom_image_text_UxTBxU",
+    "custom_image_text_MyLhWJ",
+    "custom_image_text_8LA6Tb",
     "custom_image_text_aQ4HxB",
     "rich_text_h7N8FR",
     "custom_image_text_ziYULU",
