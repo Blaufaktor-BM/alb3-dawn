@@ -245,7 +245,7 @@
         "image_contain": true,
         "image_width": "large",
         "row_reverse": false,
-        "add_image_spacing": true,
+        "add_image_spacing": false,
         "remove_content_spacing": false,
         "top_radius": false,
         "background_color": "rgba(0,0,0,0)",
