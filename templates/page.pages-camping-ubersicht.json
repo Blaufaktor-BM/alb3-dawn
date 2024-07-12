@@ -240,6 +240,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
+        "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": true,
         "image_width": "large",
@@ -296,6 +297,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Travel_Fusion_8620052a-a92c-4a8e-b2ac-a3ad81f95b2f.svg",
+        "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
         "image_width": "large",
