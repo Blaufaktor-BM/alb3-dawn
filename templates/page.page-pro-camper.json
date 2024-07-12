@@ -240,7 +240,7 @@
         "text_fV9XHN"
       ],
       "custom_css": [
-        "{margin-top: -200px;}"
+        "@media screen and (max-width: 768px) {section-custom_image_text {margin-top: -200px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Pro-camper-set-einzeln-travel_Edelstahl.jpg",
