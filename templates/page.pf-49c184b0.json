@@ -489,68 +489,287 @@
         "image_mobile_width": 285,
         "image_round": false,
         "padding_top": 10,
-        "padding_bottom": 0
+        "padding_bottom": 10
       }
     },
-    "small_image_text_YwVdRj": {
-      "type": "small-image-text",
+    "custom_image_text_BdpBUm": {
+      "type": "custom-image-text",
       "blocks": {
-        "image_m9qM3W": {
-          "type": "image",
+        "subtitle_nw4ATT": {
+          "type": "subtitle",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
-            "image_width": 120
+            "subtitle": "Tankreinigung"
           }
         },
-        "heading_dNG36k": {
+        "heading_63bxN9": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Dusch - & Badfilter<br\/>Installation<\/p>",
-            "heading_tag": "h1",
-            "heading_size": "h2",
-            "heading_color": "#0081be"
+            "heading": "Alb Clean",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
           }
         },
-        "text_wAkrTw": {
+        "text_tjdnza": {
           "type": "text",
           "settings": {
-            "text": "<p>Nützliche Anleitungen, Videos zum Einbau und Kartuschenwechsel Ihres Alb Filters.<\/p>",
-            "text_style": "body",
-            "color": "#616161"
+            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate).<strong><br\/><\/strong><\/p>",
+            "text_style": "body"
           }
         },
-        "button_yBdnGM": {
+        "text_aTwRad": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "button_zEd9jx": {
           "type": "button",
           "settings": {
-            "button_label": "Anleitungen",
-            "button_link": "shopify:\/\/pages\/installation-duschfilter",
-            "color": "#ffffff",
-            "primary_btn": true,
-            "primary_bg": "#0081be"
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
+            "hide_icon": false,
+            "button_label2": "Weiteres Zubehör",
+            "button_link2": "shopify:\/\/collections\/zubehor"
           }
         }
       },
       "block_order": [
-        "image_m9qM3W",
-        "heading_dNG36k",
-        "text_wAkrTw",
-        "button_yBdnGM"
+        "subtitle_nw4ATT",
+        "heading_63bxN9",
+        "text_tjdnza",
+        "text_aTwRad",
+        "button_zEd9jx"
       ],
       "settings": {
-        "image_right": true,
-        "content_wrapper": true,
-        "background_color": "#fafafa",
-        "heading": "",
-        "heading_tag": "h2",
-        "heading_size": "h1",
+        "image": "shopify:\/\/shop_images\/alb-filter-clean-frischwassertank-reiniger-mit-aktivem-sauerstoff-4260590615862-180.webp",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
         "heading_color": "#003e5f",
-        "mobile_center": true,
-        "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU.png",
-        "image_width": 235,
-        "image_mobile_width": 220,
-        "image_round": false,
-        "padding_top": 43,
-        "padding_bottom": 10
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_RAmCU9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nMtBRy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Warum ist eine regelmäßige Tankreinigung wichtig?<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nMtBRy"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_qnByqx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mCqyTh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lene-Wassertank.webp",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Tx39Bh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lene-Wassertank-Clean.webp",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wem9Q7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lene-Wassertank-Wasserhahn.webp",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mCqyTh",
+        "column_Tx39Bh",
+        "column_Wem9Q7"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#000000",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_KqB4ww": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Ydc4nc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate)*. <br\/><br\/>Für eine schnelle und einfache Reinigung gibt es unser Reinigungsmittel \"Alb Clean\". Einfacher geht's nicht: Wasser auffüllen, Reiniger rein, 2h einwirken lassen, fertig. Ein weiterer Vorteil – pumpt ihr das Frischwasser nun über die Armatur in den Grauwassertank, wird dieser gleich mitgesäubert.<\/p>"
+          }
+        },
+        "button_L4VBfA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kaufen",
+            "button_link": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
+            "button_style_secondary": false,
+            "button_label_2": "Weiteres Zubehör",
+            "button_link_2": "shopify:\/\/collections\/zubehor"
+          }
+        },
+        "text_GWgRMK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>* Bei Nutzung des Alb Filter Mobil Fusion Sets in einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung grundsätzlich verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So werden Schadstoffe und Keime vor dem Tank gefiltert und es entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ydc4nc",
+        "button_L4VBfA",
+        "text_GWgRMK"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_image_text_CJhTV9": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_bA3JXy": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Optionales Zubehör"
+          }
+        },
+        "heading_TebUwL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Flex Tube",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
+          }
+        },
+        "text_3wzBpe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Alb Filter Flextube ist eine innovative Lösung für Wohnmobilbesitzer, die sich beim Betanken ihres Fahrzeugs nicht mehr mit schmutzigen Schläuchen herumschlagen möchten.<\/p><p>Dank seiner praktischen Tasche bleibt der lebensmittelechte Schlauch stets sauber und hygienisch.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YyXACH": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-flextube-befullschlauch",
+            "hide_icon": false,
+            "button_label2": "Weiteres Zubehör",
+            "button_link2": "shopify:\/\/collections\/zubehor"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_bA3JXy",
+        "heading_TebUwL",
+        "text_3wzBpe",
+        "button_YyXACH"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-filterr-flextube-befuellschlauch-4260590615824-963.webp",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "rich_text_QY3y6B": {
@@ -757,7 +976,11 @@
     "rich_text_UVxjMz",
     "video_ee7kX7",
     "small_image_text_qR4wDj",
-    "small_image_text_YwVdRj",
+    "custom_image_text_BdpBUm",
+    "rich_text_RAmCU9",
+    "multicolumn_qnByqx",
+    "rich_text_KqB4ww",
+    "custom_image_text_CJhTV9",
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
