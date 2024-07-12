@@ -99,11 +99,220 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_image_text_wRMLJj": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_iWMNMa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
+          }
+        },
+        "subtitle_JKpURf": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Ein Glas Leitungswasser bitte!"
+          }
+        },
+        "text_3FhmwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_RY3QAe": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Schaltflächenbeschriftung",
+            "button_link1": "",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWMNMa",
+        "subtitle_JKpURf",
+        "text_3FhmwU",
+        "button_RY3QAe"
+      ],
+      "settings": {
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "icon_text_font_size": 16,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "two_products_RFLRM8": {
+      "type": "two_products",
+      "blocks": {
+        "item_eR7J7H": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_q8FVqF": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_eR7J7H",
+        "item_q8FVqF"
+      ],
+      "settings": {
+        "heading": "Erzähle etwas über deine Marke",
+        "color": "#003e5f",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "img_bg": "#f2f2f2",
+        "content_bg": "#fafafa",
+        "title_color": "#003e5f",
+        "text_color": "#616161",
+        "first_btn_color": "#fff",
+        "first_btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "product_compare_Yehh4q": {
+      "type": "product-compare",
+      "blocks": {
+        "alb_comparison_h44FYY": {
+          "type": "alb_comparison",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_color": "#616161",
+            "text": "<p>Set mit Gehäuse und Kartusche<\/p>"
+          }
+        },
+        "filter_properties_hkjwqy": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Filtereigenschaften",
+            "title1": "Active",
+            "title2": "Active+",
+            "title3": "Nano",
+            "title4": "Fusion*"
+          }
+        },
+        "filter_product_set_WDADgH": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "text1": "",
+            "product2": "",
+            "text2": "",
+            "product3": "",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        },
+        "filter_product_set_rqnCFg": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "text1": "",
+            "product2": "",
+            "text2": "",
+            "product3": "",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        },
+        "filter_product_set_bkyErL": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "text1": "",
+            "product2": "",
+            "text2": "",
+            "product3": "",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        }
+      },
+      "block_order": [
+        "alb_comparison_h44FYY",
+        "filter_properties_hkjwqy",
+        "filter_product_set_WDADgH",
+        "filter_product_set_rqnCFg",
+        "filter_product_set_bkyErL"
+      ],
+      "settings": {
+        "list_option": "4",
+        "text_color": "#2d2d2d",
+        "show_button": true,
+        "btn_text": "Kaufen",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_rxGfzy",
-    "rich_text_XfqgzY"
+    "rich_text_XfqgzY",
+    "custom_image_text_wRMLJj",
+    "two_products_RFLRM8",
+    "product_compare_Yehh4q"
   ]
 }
