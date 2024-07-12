@@ -641,6 +641,70 @@
         "padding_bottom": 0
       }
     },
+    "custom_image_text_y6DDAn": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_4Wgwdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "remove_spacing": false
+          }
+        },
+        "subtitle_YCLHh4": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Ein Glas Leitungswasser bitte!"
+          }
+        },
+        "text_thhxeU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_txVEB8": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Schaltflächenbeschriftung",
+            "button_link1": "",
+            "button_label2": "Mehr erfahren",
+            "button_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4Wgwdb",
+        "subtitle_YCLHh4",
+        "text_thhxeU",
+        "button_txVEB8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-camping-broschure-banner_v04_e896e9b9-4326-4af9-8ecb-0279819206c5.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "large",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "#23a4dd",
+        "image_bg": "",
+        "content_bg": "",
+        "heading_color": "#003e5f",
+        "subtitle_color": "#003e5f",
+        "text_color": "#616161",
+        "btn_color": "#fff",
+        "btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "custom_contact_HqQUU4": {
       "type": "custom-contact",
       "blocks": {
@@ -680,122 +744,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "collapsible_content_9KRpAt": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_EKzC9r": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Warum soll ich mein Duschwasser überhaupt filtern?",
-            "icon": "none",
-            "row_content": "<p>Ein Duschfilter verbessert die Wasserqualität, indem er Verunreinigungen wie Chlor, Schwermetalle, Bakterien und andere Schadstoffe entfernt. Dies kann Hautirritationen und trockene Haare verhindern und insgesamt für eine gesündere Dusche sorgen.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_keewFU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Beeinflusst der Duschfilter den Wasserdruck?",
-            "icon": "none",
-            "row_content": "<p>Unsere Duschfilter sind so optimiert, dass der Wasserdruck so gering wie möglich reduziert wird. Die <a href=\"https:\/\/alb-filter.com\/pages\/balance-duschfilter-kartusche\" target=\"_self\">Balance<\/a>- und <a href=\"https:\/\/alb-filter.com\/pages\/shungit-duschfilter-kartusche\" target=\"_self\">Shungit-Duschfilter<\/a> haben eine Durchflussrate von 15 Litern pro Minute, während der <a href=\"https:\/\/alb-filter.com\/pages\/nano-wasserfilter-kartusche\">Nano Legionellen-Filter<\/a> eine maximale Durchflussrate von 14 Litern pro Minute erreicht.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_HAADA4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Bleiben wertvolle Mineralien erhalten?",
-            "icon": "none",
-            "row_content": "<p>Wasser filtern und wichtige Mineralien erhalten, das ist das Prinzip der Wasserfilter von Alb Filter: Dies ist ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\").<\/p><p><strong>Unsere Kartuschen belassen essentielle  Spurenelemente und Mineralien im Wasser und filtern diese nicht heraus<\/strong>.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_eWtQwk": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Ist der Duschfilter einfach zu installieren?",
-            "icon": "none",
-            "row_content": "<p>Ja, die meisten Duschfilter sind so konzipiert, dass sie einfach und ohne spezielles Werkzeug installiert werden können. Die Installation dauert in der Regel nur wenige Minuten und kann von jedem problemlos durchgeführt werden. Für Unterputz Armaturen haben wir auch verschiedene <a href=\"https:\/\/alb-filter.com\/collections\/adapter\" target=\"_self\">Adapter<\/a> im Angebot.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_Unyzp9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
-            "icon": "none",
-            "row_content": "<p>Beachten Sie die Wechselintervalle von 6 Monaten für alle Duschfilter Kartuschen. Damit vermeiden Sie eine Verkeimung der Kartuschen und daraus resultierende gesundheitliche Auswirkungen. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_EKzC9r",
-        "collapsible_row_keewFU",
-        "collapsible_row_HAADA4",
-        "collapsible_row_eWtQwk",
-        "collapsible_row_Unyzp9"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
-        "caption": "",
-        "heading": "Fragen und Antworten",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "heading_alignment": "left",
-        "open_first_collapsible_row": true,
-        "title_color": "#003e5f",
-        "title_bg": "#fafafa",
-        "text_color": "#616161",
-        "content_border_color": "#fafafa",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "small_image_text_B6V6Ck": {
-      "type": "small-image-text",
-      "blocks": {
-        "text_iLYBDP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.<\/p>",
-            "text_style": "body",
-            "color": "#616161"
-          }
-        },
-        "button_FNaVyd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Ratgeber",
-            "button_link": "shopify:\/\/blogs\/ratgeber\/inhalt",
-            "color": "#0081be",
-            "primary_btn": false,
-            "primary_bg": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_iLYBDP",
-        "button_FNaVyd"
-      ],
-      "settings": {
-        "image_right": false,
-        "content_wrapper": false,
-        "background_color": "",
-        "heading": "Mehr zum Thema Wasser und Wasserfilter",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "mobile_center": false,
-        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
-        "image_width": 200,
-        "image_mobile_width": 285,
-        "image_round": false,
-        "padding_top": 54,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -814,8 +762,7 @@
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
-    "custom_contact_HqQUU4",
-    "collapsible_content_9KRpAt",
-    "small_image_text_B6V6Ck"
+    "custom_image_text_y6DDAn",
+    "custom_contact_HqQUU4"
   ]
 }
