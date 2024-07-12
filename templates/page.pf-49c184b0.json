@@ -209,7 +209,7 @@
           "settings": {
             "heading": "Befüllfilter Mobil",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "remove_spacing": false
           }
         },
@@ -259,7 +259,7 @@
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "icon_text_font_size": 16,
-        "padding_top": 10,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
@@ -271,14 +271,14 @@
           "settings": {
             "heading": "Einbaufilter Travel",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "remove_spacing": false
           }
         },
         "text_q68dJB": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br\/><br\/>Durch den festen Einbau des Filters im Fahrzeug ist man maximal flexibel in der Wahl der Wasserquelle und nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, sind die Travel Wasserfilter die richtige Wahl.<br\/><\/p><ul><li>Empfohlen bei großen Wassertanks (größer 150 Liter)<\/li><li>Schnelle Betankung<\/li><li>Maximale Autarkie <\/li><li>Wasser wird direkt vor der Entnahme bzw. vor dem Verzehr gefiltert.<\/li><li>Wasser im Tank ungefiltert.<br\/>Regelmäßige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>. <\/li><li>Betankung mit Gießkanne möglich.<\/li><li>Druckanforderung  Wasserpumpe 2,1 - 3,1 bar<\/li><\/ul>",
+            "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br\/><br\/>Durch den festen Einbau des Filters im Fahrzeug ist man maximal flexibel in der Wahl der Wasserquelle und nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, sind die Travel Wasserfilter die richtige Wahl.<br\/><\/p><ul><li><strong>Empfohlen bei großen Wassertanks (größer 150 Liter)<\/strong><\/li><li>Schnelle Betankung<\/li><li><strong>Maximale Autarkie <\/strong><\/li><li>Wasser wird direkt vor der Entnahme bzw. vor dem Verzehr gefiltert.<\/li><li>Wasser im Tank ungefiltert.<br\/>Regelmäßige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>. <\/li><li>Betankung mit Gießkanne möglich.<\/li><li><strong>Druckanforderung  Wasserpumpe 2,1 - 3,1 bar<\/strong><\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -318,7 +318,7 @@
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "icon_text_font_size": 16,
-        "padding_top": 10,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
@@ -330,7 +330,7 @@
           "settings": {
             "heading": "Kombifilter Pro Camper",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "remove_spacing": false
           }
         },
@@ -377,7 +377,7 @@
         "btn_bg": "#0081be",
         "second_btn_color": "#0081be",
         "icon_text_font_size": 16,
-        "padding_top": 10,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
