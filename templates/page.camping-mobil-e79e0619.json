@@ -36,51 +36,6 @@
         "show_text_below": true
       }
     },
-    "column_image_text_VaCBE4": {
-      "type": "column-image-text",
-      "blocks": {
-        "heading_GzLjGx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Camping-Wasserfilter",
-            "heading_tag": "h2",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_cJifHK": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Für die externe Betankung von Wohnmobilen, Campern und Booten."
-          }
-        },
-        "text_VKRVpM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs. Die verschiedenen Filtertypen, wie Active, Nano und Fusion, bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_A4kba7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/camping-mobil"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GzLjGx",
-        "subtitle_cJifHK",
-        "text_VKRVpM",
-        "button_A4kba7"
-      ],
-      "settings": {
-        "section_color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
-        "image_height": 500,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_XfqgzY": {
       "type": "rich-text",
       "blocks": {
@@ -97,7 +52,7 @@
         "heading_nMUU4Y": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Camping-Wasserfilter<\/h1>",
+            "heading": "<h1>Camping Wasserfilter<\/h1>",
             "color": "#16334a",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -108,7 +63,7 @@
           "type": "subtitle",
           "settings": {
             "subtitle": "Für die externe Betankung von Wohnmobilen, Campern und Booten.",
-            "color": "#003e5f"
+            "color": "#333333"
           }
         },
         "text_Fz4feL": {
@@ -120,7 +75,7 @@
         "button_ypHhyg": {
           "type": "button",
           "settings": {
-            "button_label": "Zum Schop",
+            "button_label": "Zum Shop",
             "button_link": "shopify:\/\/collections\/camping-mobil",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -138,79 +93,17 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "content_full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "column_richtext_pnpzAr": {
-      "type": "column-richtext",
-      "blocks": {
-        "image_Jp96Rm": {
-          "type": "image",
-          "settings": {
-            "image_width": 200,
-            "enable_border": true
-          }
-        },
-        "heading_yG9EYw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Erzähle etwas über deine Marke",
-            "color": "#fff",
-            "second_font": false,
-            "heading_tag": "h2",
-            "heading_size": "h1"
-          }
-        },
-        "subheading_UXqXQx": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Gewinde-Ratgeber",
-            "color": "#fff"
-          }
-        },
-        "text_iydT9N": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
-            "color": "#fff"
-          }
-        },
-        "button_7rAetN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Jp96Rm",
-        "heading_yG9EYw",
-        "subheading_UXqXQx",
-        "text_iydT9N",
-        "button_7rAetN"
-      ],
-      "settings": {
-        "content_position": "left",
-        "background_color": "#003e5f",
-        "btn_bg": "#0081be",
-        "btn_color": "#fff",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
     "image_banner_rxGfzy",
-    "column_image_text_VaCBE4",
-    "rich_text_XfqgzY",
-    "column_richtext_pnpzAr"
+    "rich_text_XfqgzY"
   ]
 }
