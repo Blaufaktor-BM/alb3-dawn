@@ -276,7 +276,12 @@
                                   }}
                                 </div>
                               {% endif %}
-                              <div class="icon_text-text rte">{{ block.settings[text] }}</div>
+                              <div
+                                class="icon_text-text rte"
+                                style="font-size: {{ section.settings.icon_text_font_size }}px"
+                              >
+                                {{ block.settings[text] }}
+                              </div>
                             </div>
                           {% endif %}
                         {% endfor %}
@@ -437,6 +442,20 @@
       "id": "second_btn_color",
       "label": "Second Button Color",
       "default": "#0081be"
+    },
+    {
+      "type": "header",
+      "content": "Icon & Text"
+    },
+    {
+      "type": "range",
+      "id": "icon_text_font_size",
+      "label": "Font Size",
+      "min": 8,
+      "max": 30,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
     },
     {
       "type": "header",
