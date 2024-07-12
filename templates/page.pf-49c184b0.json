@@ -409,6 +409,21 @@
         "padding_bottom": 52
       }
     },
+    "video_ee7kX7": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/Q1_WWbCxMpw",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
@@ -932,6 +947,7 @@
     "custom_image_text_7Lab7w",
     "custom_image_text_PWYLJb",
     "rich_text_UVxjMz",
+    "video_ee7kX7",
     "product_compare_3zPw6T",
     "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
