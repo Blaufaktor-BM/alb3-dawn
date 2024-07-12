@@ -4294,6 +4294,12 @@ slideshow-component .banner__heading.h1 {
   width: 100%;
 }
 
+.icon_text-media.media_empty {
+  display: block !important;
+  padding-bottom: 100%;
+  background-color: #fafafa;
+}
+
 .icon_text-media svg,
 .icon_text-media img {
   width: 100%;

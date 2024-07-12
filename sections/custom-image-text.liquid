@@ -262,7 +262,10 @@
                           {% capture text %}text{{ i }}{% endcapture %}
                           {% if block.settings[text] != blank %}
                             <div class="custom-icon_text-item">
-                              <div class="icon_text-media" style="max-width: {{ block.settings.image_width }}px">
+                              <div
+                                class="icon_text-media{% if block.settings[image] == blank %} media_empty{% endif %}"
+                                style="max-width: {{ block.settings.image_width }}px"
+                              >
                                 {% if block.settings[image] != blank %}
                                   {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                                   {%- capture sizes -%}
@@ -274,8 +277,6 @@
                                     | image_url: width: 1500
                                     | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                                   }}
-                                {% else %}
-                                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                                 {% endif %}
                               </div>
                               <div
