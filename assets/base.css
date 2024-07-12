@@ -6061,5 +6061,13 @@ ul.breadcrumb li a:hover {
   margin-bottom: 0;
 }
 
+.multicolumn-card__info .btn-second {
+  margin-top: 15px;
+}
+
+.multicolumn-list__item.center .btn-second {
+  justify-content: center;
+}
+
 /* multi column */
 /* additional css */
