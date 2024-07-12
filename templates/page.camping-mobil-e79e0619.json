@@ -225,54 +225,117 @@
         "alb_comparison_h44FYY": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "<strong>Vergleich der Filtereigenschaften<\/strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#616161",
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>"
+            "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
+            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "image3": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg"
           }
         },
         "filter_properties_hkjwqy": {
           "type": "filter_properties",
           "settings": {
-            "title": "Filtereigenschaften",
+            "title": "<strong>Kartusche<\/strong>",
             "title1": "Active",
-            "title2": "Active+",
-            "title3": "Nano",
-            "title4": "Fusion*"
+            "title2": "Nano",
+            "title3": "Fusion*",
+            "title4": ""
           }
         },
-        "filter_product_set_WDADgH": {
-          "type": "filter_product_set",
+        "filter_properties_ftEXBA": {
+          "type": "filter_properties",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "text1": "",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
-            "product4": "",
-            "text4": ""
+            "title": "Mineralien bleiben erhalten",
+            "title1": "JA",
+            "title2": "JA",
+            "title3": "JA",
+            "title4": ""
           }
         },
-        "filter_product_set_rqnCFg": {
-          "type": "filter_product_set",
+        "filter_properties_EWpUEg": {
+          "type": "filter_properties",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "text1": "",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
-            "product4": "",
-            "text4": ""
+            "title": "Geruch, Geschmack, Trübungen, Chlor",
+            "title1": "+++",
+            "title2": "-",
+            "title3": "+++",
+            "title4": ""
           }
         },
-        "filter_product_set_bkyErL": {
+        "filter_properties_mBGC6R": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Schwermetalle",
+            "title1": "++",
+            "title2": "-",
+            "title3": "++",
+            "title4": ""
+          }
+        },
+        "filter_properties_UkwgRD": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Pestizide, Arzneimittelrückstände",
+            "title1": "+++",
+            "title2": "-",
+            "title3": "+++",
+            "title4": ""
+          }
+        },
+        "filter_properties_X9KxGx": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mikroplastik, Asbestfasern, Sedimente",
+            "title1": "+",
+            "title2": "+++",
+            "title3": "+++",
+            "title4": ""
+          }
+        },
+        "filter_properties_PzQ4qL": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Kalkreduktion",
+            "title1": "-",
+            "title2": "-",
+            "title3": "-",
+            "title4": ""
+          }
+        },
+        "filter_properties_MdkQQi": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Keime und Bakterien",
+            "title1": "-",
+            "title2": "+++",
+            "title3": "+++",
+            "title4": ""
+          }
+        },
+        "filter_properties_TdHqz3": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Wechselintervall",
+            "title1": "4 Monate",
+            "title2": "6 Monate",
+            "title3": "4\/6 Monate",
+            "title4": ""
+          }
+        },
+        "filter_properties_KtPEgF": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
+            "title1": "~7 l\/min",
+            "title2": "~11 l\/min",
+            "title3": "~6 l\/min",
+            "title4": ""
+          }
+        },
+        "filter_product_set_fqyUQL": {
           "type": "filter_product_set",
           "settings": {
             "title": "Untertisch Komplett-Set",
@@ -291,12 +354,19 @@
       "block_order": [
         "alb_comparison_h44FYY",
         "filter_properties_hkjwqy",
-        "filter_product_set_WDADgH",
-        "filter_product_set_rqnCFg",
-        "filter_product_set_bkyErL"
+        "filter_properties_ftEXBA",
+        "filter_properties_EWpUEg",
+        "filter_properties_mBGC6R",
+        "filter_properties_UkwgRD",
+        "filter_properties_X9KxGx",
+        "filter_properties_PzQ4qL",
+        "filter_properties_MdkQQi",
+        "filter_properties_TdHqz3",
+        "filter_properties_KtPEgF",
+        "filter_product_set_fqyUQL"
       ],
       "settings": {
-        "list_option": "4",
+        "list_option": "3",
         "text_color": "#2d2d2d",
         "show_button": true,
         "btn_text": "Kaufen",
