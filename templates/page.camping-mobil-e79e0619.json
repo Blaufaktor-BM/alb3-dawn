@@ -97,11 +97,76 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "column_image_slider_7cWjpj": {
+      "type": "column-image-slider",
+      "blocks": {
+        "item_LeX7eV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mobil_Active_db204cad-1f10-4797-8d79-7490c67da908.svg",
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "url": ""
+          }
+        },
+        "item_FmXidT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mobil_Active_Protect_a303b5ba-a627-433b-887c-4550ed922e5a.svg",
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
+            "text": "<p>Keine interne Pumpe erforderlich<\/p>",
+            "url": ""
+          }
+        },
+        "item_DfJqCR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mobil_Fusion_2522c840-d91e-41e6-996e-91550ae69f87.svg",
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
+            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "url": ""
+          }
+        },
+        "item_rV9fhb": {
+          "type": "item",
+          "settings": {
+            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "url": ""
+          }
+        },
+        "item_73hn88": {
+          "type": "item",
+          "settings": {
+            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_LeX7eV",
+        "item_FmXidT",
+        "item_DfJqCR",
+        "item_rV9fhb",
+        "item_73hn88"
+      ],
+      "settings": {
+        "image_ratio": "1_1",
+        "reverse": false,
+        "text_second_font": true,
+        "text_color": "#616161",
+        "background_color": "",
+        "content_bg": "",
+        "slide_bg": "",
+        "icon_width": 75,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_image_text_wRMLJj": {
@@ -495,6 +560,7 @@
     "main",
     "image_banner_rxGfzy",
     "rich_text_XfqgzY",
+    "column_image_slider_7cWjpj",
     "custom_image_text_wRMLJj",
     "two_products_RFLRM8",
     "product_compare_Yehh4q",
