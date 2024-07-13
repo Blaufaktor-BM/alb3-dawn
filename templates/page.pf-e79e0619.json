@@ -404,29 +404,47 @@
         "heading_iWMNMa": {
           "type": "heading",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "Mobil Active",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
+            "remove_spacing": true
           }
         },
         "subtitle_JKpURf": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Ein Glas Leitungswasser bitte!",
-            "subtitle_color": "#003e5f",
+            "subtitle": "Schadstoffrückhalt und erfrischender Trinkgenuss.",
+            "subtitle_color": "#616161",
             "second_font": true
           }
         },
         "text_3FhmwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
+          }
+        },
+        "icon_text_X3KpUX": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": true,
+            "font_size": 16,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-02-metals_dark-blue.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-03-drugs_dark-blue.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-04-microplastics_dark-blue.svg",
+            "text4": "Reduzierung von Mikroplastik",
+            "text5": "",
+            "text6": ""
           }
         },
         "button_RY3QAe": {
@@ -447,9 +465,11 @@
         "heading_iWMNMa",
         "subtitle_JKpURf",
         "text_3FhmwU",
+        "icon_text_X3KpUX",
         "button_RY3QAe"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
