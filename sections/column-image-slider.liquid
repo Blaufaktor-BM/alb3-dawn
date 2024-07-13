@@ -1,0 +1,293 @@
+{%- liquid
+  assign fetch_priority = 'auto'
+  if section.settings.image_ratio == '1_1'
+    assign image_height = 100
+  elsif section.settings.image_ratio == '2_3'
+    assign image_height = 150
+  elsif section.settings.image_ratio == '3_2'
+    assign image_height = 66.66
+  elsif section.settings.image_ratio == '16_9'
+    assign image_height = 56.25
+  elsif section.settings.image_ratio == '9_16'
+    assign image_height = 177.77
+  endif
+-%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+     #shopify-section-{{ section.id }} .media-column_image_slider {
+      padding-bottom: {{ image_height }}%;
+    }
+  }
+{%- endstyle -%}
+<div class="section-{{ section.id }}-padding">
+  <div
+    class="section-column-image-slider{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if section.settings.background_color != blank %}
+      style="background-color: {{ section.settings.background_color }}"
+    {% endif %}
+  >
+    <div class="page-width">
+      <div class="wrapper-column-image-slider{% if section.settings.reverse %} reverse{% endif %}">
+        <div
+          class="content-column_image_slider"
+          {% if section.settings.content_bg != blank %}
+            style="background-color: {{ section.settings.content_bg }}"
+          {% endif %}
+        >
+          <div class="content_wrapper-column_image_slider">
+            {% for block in section.blocks %}
+              {% if block.settings.url != blank %}
+                <a href="{{ block.settings.url }}">
+              {% endif %}
+              <div class="content_item-column_image_slider">
+                <div
+                  class="item_icon-column_image_slider{% if block.settings.icon == blank %} empty{% endif %}"
+                  style="max-width: {{ section.settings.icon_width }}px; min-width: {{ section.settings.icon_width }}px;"
+                >
+                  {% if block.settings.icon != blank %}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                    {{
+                      block.settings.icon
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {% endif %}
+                </div>
+                {% if block.settings.text != blank %}
+                  <div
+                    class="item_text-column_image_slider rte{% if section.settings.text_second_font %} second-font{% endif %}"
+                    {% if section.setting.text_color != blank %}
+                      style="color: {{ section.settings.text_color }}"
+                    {% endif %}
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {% endif %}
+              </div>
+              {% if block.settings.url != blank %}
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div
+          class="slide-column_image_slider"
+          {% if section.settings.slide_bg != blank %}
+            style="background-color: {{ section.settings.slide_bg }}"
+          {% endif %}
+        >
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                <div class="item-column_image_slider swiper-slide">
+                  <div class="media-column_image_slider">
+                    {% if block.settings.image != blank %}
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
+                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                          (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                      {%- endcapture -%}
+                      {{
+                        block.settings.image
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    {% else %}
+                      {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var mySwiper = new Swiper('#shopify-section-{{ section.id }} .swiper-container', {
+    speed: 100,
+    direction: 'horizontal',
+    effect: 'fade',
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    speed: 500,
+    spaceBetween: 0,
+    loop: true,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+  });
+</script>
+{% schema %}
+{
+  "name": "Column Image Slider",
+  "settings": [
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image Ratio",
+      "options": [
+        {
+          "value": "1_1",
+          "label": "1:1"
+        },
+        {
+          "value": "2_3",
+          "label": "2:3"
+        },
+        {
+          "value": "3_2",
+          "label": "3:2"
+        },
+        {
+          "value": "16_9",
+          "label": "16:9"
+        },
+        {
+          "value": "9_16",
+          "label": "9:16"
+        }
+      ],
+      "default": "1_1"
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse",
+      "label": "Reverse"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_second_font",
+      "label": "Text Second Font",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "content_bg",
+      "label": "Content Background Color"
+    },
+    {
+      "type": "color",
+      "id": "slide_bg",
+      "label": "Slide Background Color"
+    },
+    {
+      "type": "range",
+      "id": "icon_width",
+      "label": "Icon Width",
+      "min": 30,
+      "max": 130,
+      "step": 1,
+      "default": 75,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Slide Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>In wenigen Sekunden einsatzbereit</p>"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Column Image Slider",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
