@@ -130,14 +130,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Mobil_Fusion_2522c840-d91e-41e6-996e-91550ae69f87.svg",
             "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
-            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "text": "<p>Sauberer Tank<\/p>",
             "url": ""
           }
         },
         "item_rV9fhb": {
           "type": "item",
           "settings": {
-            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "text": "<p>Einzigartiges, modulares Design<\/p>",
             "url": ""
           }
         },
