@@ -44,32 +44,36 @@
           "settings": {
             "heading": "<p>ALB MOBIL<\/p>",
             "color": "#003e5f",
-            "heading_tag": "p",
-            "heading_size": "hxxl",
-            "font_weight": "200"
+            "heading_tag": "h2",
+            "heading_size": "h0",
+            "font_weight": "200",
+            "second_font": false
           }
         },
         "heading_nMUU4Y": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Camping Wasserfilter<\/h1>",
+            "heading": "<p>Camping-Wasserfilter<\/p>",
             "color": "#16334a",
             "heading_tag": "h1",
             "heading_size": "h1",
-            "font_weight": "700"
+            "font_weight": "700",
+            "second_font": false
           }
         },
         "subtitle_YCbbKf": {
           "type": "subtitle",
           "settings": {
             "subtitle": "Für die externe Betankung von Wohnmobilen, Campern und Booten.",
-            "color": "#333333"
+            "color": "#333333",
+            "second_font": true
           }
         },
         "text_Fz4feL": {
           "type": "text",
           "settings": {
-            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs. Die verschiedenen Filtertypen, wie Active, Nano und Fusion, bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. <\/p>"
+            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs. Die verschiedenen Filtertypen, wie Active, Nano und Fusion, bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. <\/p>",
+            "second_font": true
           }
         },
         "button_ypHhyg": {
@@ -109,20 +113,26 @@
             "heading": "Bild mit Text",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
             "remove_spacing": false
           }
         },
         "subtitle_JKpURf": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Ein Glas Leitungswasser bitte!"
+            "subtitle": "Ein Glas Leitungswasser bitte!",
+            "subtitle_color": "#003e5f",
+            "second_font": true
           }
         },
         "text_3FhmwU": {
           "type": "text",
           "settings": {
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_RY3QAe": {
@@ -130,9 +140,12 @@
           "settings": {
             "button_label1": "Schaltflächenbeschriftung",
             "button_link1": "",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
-            "button_link2": ""
+            "button_link2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -154,13 +167,6 @@
         "background_color": "",
         "image_bg": "",
         "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 10,
         "padding_bottom": 0
       }
