@@ -119,7 +119,7 @@
                   {% case block.type %}
                     {%- when 'heading' -%}
                       <{{ block.settings.heading_tag }}
-                        class="custom_image_text-heading inline-richtext {{ block.settings.heading_size }}{% if block.settings.remove_spacing %} remove_spacing{% endif %}"
+                        class="custom_image_text-heading inline-richtext{% if section.settings.heading_second_font %} second-font{% endif %} {{ block.settings.heading_size }}{% if block.settings.remove_spacing %} remove_spacing{% endif %}"
                         {{ block.shopify_attributes }}
                         style="color: {{ section.settings.heading_color }};"
                       >
@@ -127,7 +127,7 @@
                       </{{ block.settings.heading_tag }}>
                     {%- when 'subtitle' -%}
                       <p
-                        class="custom_image_text-subtitle second-font"
+                        class="custom_image_text-subtitle{% if section.settings.subtitle_second_font %} second-font{% endif %}"
                         {{ block.shopify_attributes }}
                         style="color: {{ section.settings.subtitle_color }};"
                       >
@@ -135,7 +135,7 @@
                       </p>
                     {%- when 'text' -%}
                       <div
-                        class="custom_image_text-text second-font rte {{ block.settings.text_style }}"
+                        class="custom_image_text-text{% if section.settings.text_second_font %} second-font{% endif %} rte {{ block.settings.text_style }}"
                         style="color: {{ section.settings.text_color }}"
                         {{ block.shopify_attributes }}
                       >
@@ -183,7 +183,7 @@
                           <summary
                             id="Summary-{{ block.id }}-{{ section.id }}"
                           >
-                            <div class="accordion__title inline-richtext second-font">
+                            <div class="accordion__title inline-richtext{% if section.settings.icon_text_acc_title_second_font %} second-font{% endif %}">
                               {{ block.settings.heading | default: block.settings.page.title | escape }}
                             </div>
                             {% render 'icon-caret' %}
@@ -216,7 +216,9 @@
                                       }}
                                     </div>
                                   {% endif %}
-                                  <div class="icon_text_acc-text rte">{{ block.settings[text] }}</div>
+                                  <div class="icon_text_acc-text rte{% if section.settings.icon_text_acc_text_second_font %} second-font{% endif %}">
+                                    {{ block.settings[text] }}
+                                  </div>
                                 </div>
                               {% endif %}
                             {% endfor %}
@@ -231,13 +233,13 @@
                           <summary
                             id="Summary-{{ block.id }}-{{ section.id }}"
                           >
-                            <div class="accordion__title inline-richtext second-font">
+                            <div class="accordion__title inline-richtext{% if section.settings.text_acc_title_second_font %} second-font{% endif %}">
                               {{ block.settings.heading | escape }}
                             </div>
                             {% render 'icon-caret' %}
                           </summary>
                           <div
-                            class="accordion__content rte second-font"
+                            class="accordion__content rte{% if section.settings.text_acc_text_second_font %} second-font{% endif %}"
                             id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
                             role="region"
                             aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
@@ -280,7 +282,7 @@
                                 {% endif %}
                               </div>
                               <div
-                                class="icon_text-text rte"
+                                class="icon_text-text rte{% if section.settings.icon_text_second_font %} second-font{% endif %}"
                                 style="font-size: {{ section.settings.icon_text_font_size }}px"
                               >
                                 {{ block.settings[text] }}
@@ -417,16 +419,33 @@
       "default": "#003e5f"
     },
     {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
+    },
+    {
       "type": "color",
       "id": "subtitle_color",
       "label": "Subtitle Color",
       "default": "#003e5f"
     },
     {
+      "type": "checkbox",
+      "id": "subtitle_second_font",
+      "label": "Subtitle Second Font",
+      "default": true
+    },
+    {
       "type": "color",
       "id": "text_color",
       "label": "Text Color",
       "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_second_font",
+      "label": "Text Second Font",
+      "default": true
     },
     {
       "type": "color",
@@ -459,6 +478,42 @@
       "step": 1,
       "default": 16,
       "unit": "px"
+    },
+    {
+      "type": "checkbox",
+      "id": "icon_text_second_font",
+      "label": "Icon Text Second Font"
+    },
+    {
+      "type": "header",
+      "content": "Icon Text Accordion"
+    },
+    {
+      "type": "checkbox",
+      "id": "icon_text_acc_title_second_font",
+      "label": "Icon Text Accordion Title Second Font",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "icon_text_acc_text_second_font",
+      "label": "Icon Text Accordion Text Second Font"
+    },
+    {
+      "type": "header",
+      "content": "Text List Accordion"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_acc_title_second_font",
+      "label": "Text List Title Second Font",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "text_acc_text_second_font",
+      "label": "Text List Text Second Font",
+      "default": true
     },
     {
       "type": "header",
@@ -516,10 +571,6 @@
             {
               "value": "h4",
               "label": "H4"
-            },
-            {
-              "value": "p",
-              "label": "P"
             }
           ],
           "default": "h2",

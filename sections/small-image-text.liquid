@@ -38,7 +38,7 @@
     <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %}{% if section.settings.mobile_center %} mobile-center{% endif %}">
       {%- if section.settings.heading != blank -%}
         <{{ section.settings.heading_tag }}
-          class="small_image_text-heading inline-richtext {{ section.settings.heading_size }}"
+          class="small_image_text-heading inline-richtext{% if section.settings.second_font %} second-font{% endif %} {{ section.settings.heading_size }}"
           style="color: {{ section.settings.heading_color }}"
         >
           {{ section.settings.heading }}
@@ -69,7 +69,7 @@
               {% case block.type %}
                 {%- when 'heading' -%}
                   <{{ block.settings.heading_tag }}
-                    class="small_image_text-title second-font rte {{ block.settings.heading_size }}"
+                    class="small_image_text-title{% if block.settings.second_font %} second-font{% endif %} rte {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                     style="color: {{ block.settings.heading_color }}"
                   >
@@ -77,7 +77,7 @@
                   </{{ block.settings.heading_tag }}>
                 {%- when 'text' -%}
                   <div
-                    class="small_image_text-text second-font rte {{ block.settings.text_style }}"
+                    class="small_image_text-text{% if block.settings.second_font %} second-font{% endif %} rte {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                     style="color: {{ block.settings.color }}"
                   >
@@ -171,10 +171,6 @@
         {
           "value": "h4",
           "label": "H4"
-        },
-        {
-          "value": "p",
-          "label": "P"
         }
       ],
       "default": "h2",
@@ -213,6 +209,11 @@
       "id": "heading_color",
       "label": "Heading Color",
       "default": "#003e5f"
+    },
+    {
+      "type": "checkbox",
+      "id": "second_font",
+      "label": "Second Font"
     },
     {
       "type": "checkbox",
@@ -310,10 +311,6 @@
             {
               "value": "h4",
               "label": "H4"
-            },
-            {
-              "value": "p",
-              "label": "P"
             }
           ],
           "default": "h3",
@@ -352,6 +349,12 @@
           "id": "heading_color",
           "label": "Heading Color",
           "default": "#003e5f"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Second Font",
+          "default": true
         }
       ]
     },
@@ -387,6 +390,11 @@
           "id": "color",
           "label": "Color",
           "default": "#616161"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Second Font"
         }
       ]
     },
