@@ -146,7 +146,9 @@
         "item_73hn88": {
           "type": "item",
           "settings": {
-            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "image": "shopify:\/\/shop_images\/Mobil_Nano_Protect_6b7f46b7-685e-46ae-b28d-e92e382373e4.svg",
+            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "text": "<p>Design, Fertigung und Produktion in Süddeutschland<\/p>",
             "url": ""
           }
         }
