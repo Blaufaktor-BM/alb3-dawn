@@ -324,43 +324,49 @@
         "item_DfU3C4": {
           "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "heading": "In wenigen Sekunden einsatzbereit",
             "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
           }
         },
         "item_8yHh4e": {
           "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
+            "heading": "Sauberer Tank",
+            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>"
           }
         },
         "item_QKhKcz": {
           "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
+            "heading": "Schwache Pumpe?",
+            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>"
           }
         },
         "item_qB8nVd": {
           "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
+            "heading": "Regelmäßige Tankreinigung? Nicht nötig!",
+            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
           }
         },
         "item_DhBq3R": {
           "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "heading": "Einzigartiges, modulares Design",
+            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>"
           }
         },
         "item_kgJiE4": {
           "type": "item",
           "settings": {
-            "heading": "Bild mit Text",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "heading": "Made in Germany",
+            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
           }
         }
       },
@@ -374,16 +380,16 @@
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "Bild mit Text",
+        "heading": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
         "heading_tag": "h2",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "heading_second_font": false,
         "column_count": 2,
         "item_heading_tag": "h3",
         "item_heading_size": "h2",
-        "item_heading_weight": "700",
+        "item_heading_weight": "400",
         "item_heading_color": "#616161",
         "item_heading_second_font": true,
         "item_text_color": "#616161",
