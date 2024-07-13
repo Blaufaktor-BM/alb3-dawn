@@ -45,40 +45,42 @@
         >
           <div class="content_wrapper-column_image_slider">
             {% for block in section.blocks %}
-              {% if block.settings.url != blank %}
-                <a href="{{ block.settings.url }}">
-              {% endif %}
-              <div class="content_item-column_image_slider">
-                <div
-                  class="item_icon-column_image_slider{% if block.settings.icon == blank %} empty{% endif %}"
-                  style="max-width: {{ section.settings.icon_width }}px; min-width: {{ section.settings.icon_width }}px;"
-                >
-                  {% if block.settings.icon != blank %}
-                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                    {%- capture sizes -%}
+              {% if block.type == 'icon_text' %}
+                {% if block.settings.url != blank %}
+                  <a href="{{ block.settings.url }}">
+                {% endif %}
+                <div class="content_item-column_image_slider">
+                  <div
+                    class="item_icon-column_image_slider{% if block.settings.icon == blank %} empty{% endif %}"
+                    style="max-width: {{ section.settings.icon_width }}px; min-width: {{ section.settings.icon_width }}px;"
+                  >
+                    {% if block.settings.icon != blank %}
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
-                    {{
-                      block.settings.icon
-                      | image_url: width: 1500
-                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                    }}
+                      {{
+                        block.settings.icon
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    {% endif %}
+                  </div>
+                  {% if block.settings.text != blank %}
+                    <div
+                      class="item_text-column_image_slider rte{% if section.settings.text_second_font %} second-font{% endif %}"
+                      {% if section.setting.text_color != blank %}
+                        style="color: {{ section.settings.text_color }}"
+                      {% endif %}
+                    >
+                      {{ block.settings.text }}
+                    </div>
                   {% endif %}
                 </div>
-                {% if block.settings.text != blank %}
-                  <div
-                    class="item_text-column_image_slider rte{% if section.settings.text_second_font %} second-font{% endif %}"
-                    {% if section.setting.text_color != blank %}
-                      style="color: {{ section.settings.text_color }}"
-                    {% endif %}
-                  >
-                    {{ block.settings.text }}
-                  </div>
+                {% if block.settings.url != blank %}
+                  </a>
                 {% endif %}
-              </div>
-              {% if block.settings.url != blank %}
-                </a>
               {% endif %}
             {% endfor %}
           </div>
@@ -92,24 +94,26 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               {% for block in section.blocks %}
-                <div class="item-column_image_slider swiper-slide">
-                  <div class="media-column_image_slider">
-                    {% if block.settings.image != blank %}
-                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                      {%- capture sizes -%}
+                {% if block.type == 'item' %}
+                  <div class="item-column_image_slider swiper-slide">
+                    <div class="media-column_image_slider">
+                      {% if block.settings.image != blank %}
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
                           (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                           (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                       {%- endcapture -%}
-                      {{
-                        block.settings.image
-                        | image_url: width: 1500
-                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                      }}
-                    {% else %}
-                      {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-                    {% endif %}
+                        {{
+                          block.settings.image
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {% else %}
+                        {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                      {% endif %}
+                    </div>
                   </div>
-                </div>
+                {% endif %}
               {% endfor %}
             </div>
             <div class="swiper-pagination"></div>
@@ -247,7 +251,13 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        },
+        }
+      ]
+    },
+    {
+      "type": "icon_text",
+      "name": "Icon & Text",
+      "settings": [
         {
           "type": "image_picker",
           "id": "icon",
@@ -285,6 +295,24 @@
         },
         {
           "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "icon_text"
+        },
+        {
+          "type": "icon_text"
+        },
+        {
+          "type": "icon_text"
+        },
+        {
+          "type": "icon_text"
+        },
+        {
+          "type": "icon_text"
         }
       ]
     }

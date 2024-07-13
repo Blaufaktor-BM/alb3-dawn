@@ -95,6 +95,19 @@
               >
                 {{ block.settings.text }}
               </div>
+            {%- when 'small_text' -%}
+              {% if block.settings.small_text != blank %}
+                <div
+                  class="rich-text_small_text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% if block.settings.second_font %} second-font{% endif %}"
+                  {{ block.shopify_attributes }}
+                  {% if settings.animations_reveal_on_scroll %}
+                    data-cascade
+                    style="--animation-order: {{ forloop.index }};"
+                  {% endif %}
+                >
+                  {{ block.settings.small_text }}
+                </div>
+              {% endif %}
             {%- when 'button' -%}
               <div
                 class="rich-text__buttons{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -412,6 +425,23 @@
           "id": "text",
           "default": "t:sections.rich-text.blocks.text.settings.text.default",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Second Font",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "small_text",
+      "name": "Small Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "small_text",
+          "label": "Small Text"
         },
         {
           "type": "checkbox",
