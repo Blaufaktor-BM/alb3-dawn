@@ -6166,6 +6166,14 @@ ul.breadcrumb li a:hover {
   margin-right: 10px;
 }
 
+.item-column_image_slider.swiper-slide {
+  opacity: 0 !important;
+}
+
+.item-column_image_slider.swiper-slide.swiper-slide-active {
+  opacity: 1 !important;
+}
+
 @media only screen and (min-width: 750px) {
 
   .slide-column_image_slider,
