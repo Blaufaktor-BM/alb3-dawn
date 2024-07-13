@@ -151,6 +151,13 @@
             "text": "<p>Design, Fertigung und Produktion in Süddeutschland<\/p>",
             "url": ""
           }
+        },
+        "item_XFQ9Eb": {
+          "type": "item",
+          "settings": {
+            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -158,7 +165,8 @@
         "item_FmXidT",
         "item_DfJqCR",
         "item_rV9fhb",
-        "item_73hn88"
+        "item_73hn88",
+        "item_XFQ9Eb"
       ],
       "settings": {
         "image_ratio": "1_1",
