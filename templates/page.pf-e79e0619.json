@@ -823,6 +823,12 @@
             "product4": "",
             "text4": ""
           }
+        },
+        "description_KyRa6Y": {
+          "type": "description",
+          "settings": {
+            "description": "<p>* Active- und Nano-Kartusche sind bei der Fusion Variante hintereinander in einem Doppelgehäuse positioniert um die Filterleistungen beider Kartiuschen zu kombinieren.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -837,7 +843,8 @@
         "filter_properties_MdkQQi",
         "filter_properties_TdHqz3",
         "filter_properties_KtPEgF",
-        "filter_product_set_fqyUQL"
+        "filter_product_set_fqyUQL",
+        "description_KyRa6Y"
       ],
       "settings": {
         "list_option": "3",
