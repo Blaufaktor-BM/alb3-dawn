@@ -318,86 +318,6 @@
         "padding_bottom": 36
       }
     },
-    "multi_icon_text_iDwrbJ": {
-      "type": "multi-icon_text",
-      "blocks": {
-        "item_DfU3C4": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
-            "heading": "In wenigen Sekunden einsatzbereit",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
-          }
-        },
-        "item_8yHh4e": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
-            "heading": "Sauberer Tank",
-            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>"
-          }
-        },
-        "item_QKhKcz": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
-            "heading": "Schwache Pumpe?",
-            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>"
-          }
-        },
-        "item_qB8nVd": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
-            "heading": "Regelmäßige Tankreinigung? Nicht nötig!",
-            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
-          }
-        },
-        "item_DhBq3R": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
-            "heading": "Einzigartiges, modulares Design",
-            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>"
-          }
-        },
-        "item_kgJiE4": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
-            "heading": "Made in Germany",
-            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_DfU3C4",
-        "item_8yHh4e",
-        "item_QKhKcz",
-        "item_qB8nVd",
-        "item_DhBq3R",
-        "item_kgJiE4"
-      ],
-      "settings": {
-        "bg": "#fafafa",
-        "heading": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_weight": "700",
-        "heading_color": "#003e5f",
-        "heading_second_font": false,
-        "column_count": 2,
-        "item_heading_tag": "h3",
-        "item_heading_size": "h2",
-        "item_heading_weight": "400",
-        "item_heading_color": "#616161",
-        "item_heading_second_font": true,
-        "item_text_color": "#616161",
-        "item_textsecond_font": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_image_text_wRMLJj": {
       "type": "custom-image-text",
       "blocks": {
@@ -434,7 +354,7 @@
           "settings": {
             "image_width": 60,
             "second_font": true,
-            "font_size": 16,
+            "font_size": 14,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
             "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-02-metals_dark-blue.svg",
@@ -507,7 +427,7 @@
         "image": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
-        "image_contain": false,
+        "image_contain": true,
         "image_width": "medium",
         "row_reverse": false,
         "add_image_spacing": false,
@@ -520,56 +440,252 @@
         "padding_bottom": 0
       }
     },
-    "two_products_RFLRM8": {
-      "type": "two_products",
+    "custom_image_text_QKpHT7": {
+      "type": "custom-image-text",
       "blocks": {
-        "item_eR7J7H": {
-          "type": "item",
+        "heading_FHpRnQ": {
+          "type": "heading",
           "settings": {
-            "image_url": "",
-            "heading": "Bild mit Text",
+            "heading": "Mobil Nano",
             "heading_tag": "h2",
-            "heading_size": "h2",
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
-            "content_url": "",
-            "first_btn": "Kaufen",
-            "first_btn_url": "",
-            "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
           }
         },
-        "item_q8FVqF": {
-          "type": "item",
+        "subtitle_zHbeqm": {
+          "type": "subtitle",
           "settings": {
-            "image_url": "",
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
-            "content_url": "",
-            "first_btn": "Kaufen",
-            "first_btn_url": "",
-            "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
+            "subtitle": "Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.",
+            "subtitle_color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_FqyHHc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schützt bei akutem Legionellen-Alarm oder vor einer Verkeimung mit Bakterien, Keimen und Schimmelpilzen in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "icon_text_bUwr4M": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": true,
+            "font_size": 14,
+            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "text2": "Hochleistungsmembran",
+            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "text3": " Große Filterkapazität",
+            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text4": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
+            "text5": "",
+            "text6": ""
+          }
+        },
+        "icon_text_acc_9KwcGY": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "title_second_font": true,
+            "text_second_font": false,
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text4": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "text5": "",
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
+          }
+        },
+        "text_acc_fqWP7L": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>",
+            "title_second_font": true,
+            "text_second_font": true
+          }
+        },
+        "button_KYMC6w": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-nano-mobil",
+            "btn_color": "#ffffff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
+            "second_btn_color": "#3c3c3c"
           }
         }
       },
       "block_order": [
-        "item_eR7J7H",
-        "item_q8FVqF"
+        "heading_FHpRnQ",
+        "subtitle_zHbeqm",
+        "text_FqyHHc",
+        "icon_text_bUwr4M",
+        "icon_text_acc_9KwcGY",
+        "text_acc_fqWP7L",
+        "button_KYMC6w"
       ],
       "settings": {
-        "heading": "Erzähle etwas über deine Marke",
-        "color": "#003e5f",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "img_bg": "#f2f2f2",
-        "content_bg": "#fafafa",
-        "title_color": "#003e5f",
-        "text_color": "#616161",
-        "first_btn_color": "#ffffff",
-        "first_btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
+        "image": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616135-516_1024x1024_2x_e7b355c1-a042-43f9-afa8-c16f292aa4e5.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_w7NPpX": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_tFYkJW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mobil Fusion",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
+          }
+        },
+        "subtitle_KJwF3r": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Die rundum sorglos Variante.",
+            "subtitle_color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_KpqbhW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. So werden neben Schadstoffen auch zuverlässig Keime und Bakterien aus dem Wasser gefiltert. Dies sorgt für höchste Sicherheit und besten Trinkgenuss.<br\/><br\/>In einem neuen bzw. gut gepflegten Wassersystem kann, durch die doppelte Filterung vor dem Tank, grundsätzlich auf eine regelmäßige Tankreinigung verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung z.B. mit Alb Clean und eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "icon_text_hiBU6K": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": true,
+            "font_size": 14,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "<strong> Filterung von kleinsten Mikroplastikteilchen<\/strong>",
+            "image5": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "image6": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text6": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>"
+          }
+        },
+        "icon_text_acc_YyCPrj": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "title_second_font": true,
+            "text_second_font": false,
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche (Active)<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle (Active)<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text3": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden (Active)<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text4": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln (Nano)<\/strong><\/p><p>Durch die ultra feine Struktur der Hohlfasern, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Schutz vor Mikroorganismen (Nano)<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen. Aber auch Mikroplastik und andere mikroskopisch kleine Partikel werden mechanisch aus dem Wasser gefiltert.<\/p>",
+            "image6": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text6": "<p><strong>Schutz vor Legionellen (Nano)<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
+            "image7": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "text7": "<p><strong>Höchste Sicherheit (Nano)<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
+            "image8": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text8": "<p><strong>Zertifiziert (Nano)<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "text9": "",
+            "text10": ""
+          }
+        },
+        "text_acc_xkYK9k": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial<\/strong><br\/>Active:<strong> <\/strong>Kokosnuss Blockaktivkohle (gesintert)<br\/>Nano: Hohlfasermembrane<br\/><\/p><p><strong>Wechselintervall<\/strong>1<br\/>Active: 6 Monate (nur in Verbindung mir der Nano Kartusche)<br\/>Nano: 6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <br\/><\/strong>Active: 3000 L<br\/>Nano: 5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <br\/><\/strong>Fusion: 3,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<br\/>Fusion 6 l\/min5<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "title_second_font": true,
+            "text_second_font": true
+          }
+        },
+        "button_RhEMEK": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-fusion-mobil",
+            "btn_color": "#ffffff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "second_btn_color": "#3c3c3c"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tFYkJW",
+        "subtitle_KJwF3r",
+        "text_KpqbhW",
+        "icon_text_hiBU6K",
+        "icon_text_acc_YyCPrj",
+        "text_acc_xkYK9k",
+        "button_RhEMEK"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-fusion-active-und-nano-trinkwasserfilter-camping-set-mobil-edelstahl-natur-4260590615404-136_1024x1024_2x_2cfb5895-d870-45d1-8fd3-89e51b35f138.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -583,7 +699,7 @@
             "heading": "<strong>Vergleich der Filtereigenschaften<\/strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
-            "heading_color": "#616161",
+            "heading_color": "#003e5f",
             "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
@@ -693,16 +809,25 @@
         "filter_product_set_fqyUQL": {
           "type": "filter_product_set",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "text1": "",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
+            "title": "",
+            "text": "",
+            "product1": "camping-wasserfilter-active-mobil",
+            "text1": "<strong>Mobil Active<\/strong>",
+            "image1": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
+            "product2": "camping-wasserfilter-nano-mobil",
+            "text2": "<strong>Mobil Nano<\/strong>",
+            "image2": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616135-516_1024x1024_2x_e7b355c1-a042-43f9-afa8-c16f292aa4e5.jpg",
+            "product3": "camping-wasserfilter-fusion-mobil",
+            "text3": "<strong>Mobil Fusion<\/strong>",
+            "image3": "shopify:\/\/shop_images\/alb-filter-fusion-active-und-nano-trinkwasserfilter-camping-set-mobil-edelstahl-natur-4260590615404-136_1024x1024_2x_2cfb5895-d870-45d1-8fd3-89e51b35f138.jpg",
             "product4": "",
             "text4": ""
+          }
+        },
+        "description_KyRa6Y": {
+          "type": "description",
+          "settings": {
+            "description": "<p>* Active- und Nano-Kartusche sind bei der Fusion Variante hintereinander in einem Doppelgehäuse positioniert um die Filterleistungen beider Kartiuschen zu kombinieren.<\/p>"
           }
         }
       },
@@ -718,7 +843,8 @@
         "filter_properties_MdkQQi",
         "filter_properties_TdHqz3",
         "filter_properties_KtPEgF",
-        "filter_product_set_fqyUQL"
+        "filter_product_set_fqyUQL",
+        "description_KyRa6Y"
       ],
       "settings": {
         "list_option": "3",
@@ -728,113 +854,85 @@
         "btn_bg": "#0081be",
         "btn_color": "#ffffff",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 87
       }
     },
-    "multicolumn_iTGxCe": {
-      "type": "multicolumn",
+    "multi_icon_text_iDwrbJ": {
+      "type": "multi-icon_text",
       "blocks": {
-        "column_Mcz4f8": {
-          "type": "column",
+        "item_DfU3C4": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-36-fast_dark-blue.svg",
-            "title": "In wenigen Sekunden einsatzbereit",
-            "subtitle": "",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "heading": "In wenigen Sekunden einsatzbereit",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
           }
         },
-        "column_3XLM7g": {
-          "type": "column",
+        "item_8yHh4e": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-38-clean-tank_dark-blue.svg",
-            "title": "Sauberer Tank",
-            "subtitle": "",
-            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
+            "heading": "Sauberer Tank",
+            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>"
           }
         },
-        "column_Bq8cjb": {
-          "type": "column",
+        "item_QKhKcz": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-37-weak-pump_dark-blue.svg",
-            "title": "Schwache Pumpe?",
-            "subtitle": "",
-            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
+            "heading": "Schwache Pumpe?",
+            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>"
           }
         },
-        "column_aLieWC": {
-          "type": "column",
+        "item_qB8nVd": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
-            "title": "Regelmäßige Tankreinigung? Nicht nötig!",
-            "subtitle": "",
-            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
+            "heading": "Regelmäßige Tankreinigung? Nicht nötig!",
+            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
           }
         },
-        "column_cBNq6H": {
-          "type": "column",
+        "item_DhBq3R": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-18-universal-2_dark-blue.svg",
-            "title": "Einzigartiges, modulares Design",
-            "subtitle": "",
-            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "heading": "Einzigartiges, modulares Design",
+            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>"
           }
         },
-        "column_Kf9GMT": {
-          "type": "column",
+        "item_kgJiE4": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-14-germany-2_dark-blue.svg",
-            "title": "Made in Germany",
-            "subtitle": "",
-            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "heading": "Made in Germany",
+            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
           }
         }
       },
       "block_order": [
-        "column_Mcz4f8",
-        "column_3XLM7g",
-        "column_Bq8cjb",
-        "column_aLieWC",
-        "column_cBNq6H",
-        "column_Kf9GMT"
+        "item_DfU3C4",
+        "item_8yHh4e",
+        "item_QKhKcz",
+        "item_qB8nVd",
+        "item_DhBq3R",
+        "item_kgJiE4"
       ],
       "settings": {
-        "title": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
-        "heading_tag": "h3",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_heading_second": false,
-        "column_heading_tag": "h3",
-        "column_heading_size": "h3",
-        "column_heading_weight": "700",
-        "column_heading_color": "#333333",
-        "column_subtitle_second": false,
-        "column_subtitle_tag": "p",
-        "column_subtitle_weight": "700",
-        "column_subtitle_size": "h3",
-        "column_subtitle_color": "#616161",
-        "column_text_second": true,
-        "btn_color": "#0081be",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "bg": "#fafafa",
+        "heading": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "column_count": 2,
+        "item_heading_tag": "h3",
+        "item_heading_size": "h2",
+        "item_heading_weight": "400",
+        "item_heading_color": "#616161",
+        "item_heading_second_font": true,
+        "item_text_color": "#616161",
+        "item_textsecond_font": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -847,10 +945,10 @@
     "column_image_slider_7cWjpj",
     "rich_text_bVtKfF",
     "multicolumn_7eV4Dq",
-    "multi_icon_text_iDwrbJ",
     "custom_image_text_wRMLJj",
-    "two_products_RFLRM8",
+    "custom_image_text_QKpHT7",
+    "custom_image_text_w7NPpX",
     "product_compare_Yehh4q",
-    "multicolumn_iTGxCe"
+    "multi_icon_text_iDwrbJ"
   ]
 }
