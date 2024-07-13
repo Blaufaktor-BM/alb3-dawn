@@ -526,12 +526,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-active-mobil",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-nano-mobil",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
+            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
             "second_btn_color": "#3c3c3c"
           }
         }
