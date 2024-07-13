@@ -318,6 +318,80 @@
         "padding_bottom": 36
       }
     },
+    "multi_icon_text_iDwrbJ": {
+      "type": "multi-icon_text",
+      "blocks": {
+        "item_DfU3C4": {
+          "type": "item",
+          "settings": {
+            "heading": "Bild mit Text",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        },
+        "item_8yHh4e": {
+          "type": "item",
+          "settings": {
+            "heading": "Bild mit Text",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        },
+        "item_QKhKcz": {
+          "type": "item",
+          "settings": {
+            "heading": "Bild mit Text",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        },
+        "item_qB8nVd": {
+          "type": "item",
+          "settings": {
+            "heading": "Bild mit Text",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        },
+        "item_DhBq3R": {
+          "type": "item",
+          "settings": {
+            "heading": "Bild mit Text",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        },
+        "item_kgJiE4": {
+          "type": "item",
+          "settings": {
+            "heading": "Bild mit Text",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DfU3C4",
+        "item_8yHh4e",
+        "item_QKhKcz",
+        "item_qB8nVd",
+        "item_DhBq3R",
+        "item_kgJiE4"
+      ],
+      "settings": {
+        "bg": "#fafafa",
+        "heading": "Bild mit Text",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "column_count": 2,
+        "item_heading_tag": "h3",
+        "item_heading_size": "h2",
+        "item_heading_weight": "700",
+        "item_heading_color": "#616161",
+        "item_heading_second_font": true,
+        "item_text_color": "#616161",
+        "item_textsecond_font": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_image_text_wRMLJj": {
       "type": "custom-image-text",
       "blocks": {
@@ -712,6 +786,7 @@
     "column_image_slider_7cWjpj",
     "rich_text_bVtKfF",
     "multicolumn_7eV4Dq",
+    "multi_icon_text_iDwrbJ",
     "custom_image_text_wRMLJj",
     "two_products_RFLRM8",
     "product_compare_Yehh4q",
