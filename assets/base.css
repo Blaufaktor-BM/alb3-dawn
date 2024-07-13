@@ -6106,7 +6106,7 @@ ul.breadcrumb li a:hover {
   width: 100%;
   padding: 15px;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .content_item-column_image_slider {
