@@ -252,38 +252,41 @@
         "column_xk4UBp": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_PXnJHg": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/MOBIL_Active.jpg",
+            "title": "Mobil Active",
+            "subtitle": "",
+            "text": "<p>Der Breitbandfilter.<br\/><br\/>Der gesinterte Aktivkohlekern, ist in der Lage, Chlor, organische Schadstoffe, diverse medikamentöse Rückstände, leichte Kohlenwasserstoffe, Lösungsmittel, Pestizide, Aromen und feine Partikel wie Rost, Kalkflocken und Sand aus dem Wasser zu filtrieren. <\/p>",
+            "link_label": "Mehr erfahren",
             "link": ""
           }
         },
         "column_dzpdQ4": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/MOBIL_Nano.jpg",
+            "title": "Mobil Nano",
+            "subtitle": "",
+            "text": "<p>Die absolute Keimsperre. <br\/><br\/>Einsatz bei Bakterien- bzw. Keimbelastung im Wasser mit höchsten Ansprüchen an Material und Qualität der 0.1 µm Hohlfasermembran. Die zertifizierte Qualitäts-Lösung bietet unter anderem höchsten Schutz vor Legionellen, E-Coli, Vibrio Cholarae, Shigellen und Salmonellen.<\/p>",
+            "link_label": "Mehr erfahren",
+            "link": ""
+          }
+        },
+        "column_8RcacM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOBIL_Fusion_Active_Nano_Silber.jpg",
+            "title": "Mobil Fusion",
+            "subtitle": "",
+            "text": "<p>Die rundum sorglos Variante.<br\/><br\/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die positiven Eigenschaften beider Kartusche für höchste Sicherheit und Trinkgenuss.<\/p>",
+            "link_label": "Mehr erfahren",
             "link": ""
           }
         }
       },
       "block_order": [
         "column_xk4UBp",
-        "column_PXnJHg",
-        "column_dzpdQ4"
+        "column_dzpdQ4",
+        "column_8RcacM"
       ],
       "settings": {
         "title": "Mit mehreren Spalten",
@@ -294,19 +297,19 @@
         "columns_desktop": 3,
         "column_heading_second": false,
         "column_heading_tag": "h3",
-        "column_heading_size": "h3",
+        "column_heading_size": "h2",
         "column_heading_weight": "700",
-        "column_heading_color": "#616161",
+        "column_heading_color": "#003e5f",
         "column_subtitle_second": false,
         "column_subtitle_tag": "h3",
         "column_subtitle_weight": "700",
         "column_subtitle_size": "h3",
         "column_subtitle_color": "#616161",
         "column_text_second": true,
-        "btn_color": "#0081be",
+        "btn_color": "#616161",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Schaltflächenbeschriftung",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
