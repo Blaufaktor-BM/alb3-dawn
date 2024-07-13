@@ -354,7 +354,7 @@
           "settings": {
             "image_width": 60,
             "second_font": true,
-            "font_size": 16,
+            "font_size": 14,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
             "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-02-metals_dark-blue.svg",
@@ -425,6 +425,128 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_text_QKpHT7": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_FHpRnQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mobil Nano",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
+          }
+        },
+        "subtitle_zHbeqm": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.",
+            "subtitle_color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_FqyHHc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schützt bei akutem Legionellen-Alarm oder vor einer Verkeimung mit Bakterien, Keimen und Schimmelpilzen in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "icon_text_bUwr4M": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": true,
+            "font_size": 14,
+            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "text2": "Hochleistungsmembran",
+            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "text3": " Große Filterkapazität",
+            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text4": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
+            "text5": "",
+            "text6": ""
+          }
+        },
+        "icon_text_acc_9KwcGY": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "title_second_font": true,
+            "text_second_font": false,
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text4": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "text5": "",
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
+          }
+        },
+        "text_acc_fqWP7L": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>",
+            "title_second_font": true,
+            "text_second_font": true
+          }
+        },
+        "button_KYMC6w": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-active-mobil",
+            "btn_color": "#ffffff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
+            "second_btn_color": "#3c3c3c"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FHpRnQ",
+        "subtitle_zHbeqm",
+        "text_FqyHHc",
+        "icon_text_bUwr4M",
+        "icon_text_acc_9KwcGY",
+        "text_acc_fqWP7L",
+        "button_KYMC6w"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616135-516_1024x1024_2x_e7b355c1-a042-43f9-afa8-c16f292aa4e5.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -848,6 +970,7 @@
     "rich_text_bVtKfF",
     "multicolumn_7eV4Dq",
     "custom_image_text_wRMLJj",
+    "custom_image_text_QKpHT7",
     "multi_icon_text_iDwrbJ",
     "two_products_RFLRM8",
     "product_compare_Yehh4q",
