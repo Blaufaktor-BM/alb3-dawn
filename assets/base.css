@@ -6214,7 +6214,7 @@ ul.breadcrumb li a:hover {
 }
 
 .icon_wrapper-multi_icon_text.empty {
-  height: 120px;
+  padding-bottom: 100%;
   display: block !important;
   background-color: #eaeaea;
   margin-right: 10px;
