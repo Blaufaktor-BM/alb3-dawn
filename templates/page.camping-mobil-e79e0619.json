@@ -110,53 +110,37 @@
         "item_LeX7eV": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobil_Active_db204cad-1f10-4797-8d79-7490c67da908.svg",
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
-            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/Mobil_Active_db204cad-1f10-4797-8d79-7490c67da908.svg"
           }
         },
         "item_FmXidT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobil_Active_Protect_a303b5ba-a627-433b-887c-4550ed922e5a.svg",
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
-            "text": "<p>Keine interne Pumpe erforderlich<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/Mobil_Active_Protect_a303b5ba-a627-433b-887c-4550ed922e5a.svg"
           }
         },
         "item_DfJqCR": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobil_Fusion_2522c840-d91e-41e6-996e-91550ae69f87.svg",
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
-            "text": "<p>Sauberer Tank<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/Mobil_Fusion_2522c840-d91e-41e6-996e-91550ae69f87.svg"
           }
         },
         "item_rV9fhb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
-            "text": "<p>Einzigartiges, modulares Design<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg"
           }
         },
         "item_73hn88": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mobil_Nano_Protect_6b7f46b7-685e-46ae-b28d-e92e382373e4.svg",
-            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
-            "text": "<p>Design, Fertigung und Produktion in Süddeutschland<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/Mobil_Nano_Protect_6b7f46b7-685e-46ae-b28d-e92e382373e4.svg"
           }
         },
         "item_XFQ9Eb": {
           "type": "item",
           "settings": {
-            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/Mobil_Nano_8c328850-2903-416c-9c05-bbc37eb31c4f.svg"
           }
         }
       },
@@ -217,7 +201,7 @@
           "settings": {
             "button_label1": "Schaltflächenbeschriftung",
             "button_link1": "",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
