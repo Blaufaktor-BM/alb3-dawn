@@ -936,114 +936,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn_iTGxCe": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Mcz4f8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-36-fast_dark-blue.svg",
-            "title": "In wenigen Sekunden einsatzbereit",
-            "subtitle": "",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3XLM7g": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-38-clean-tank_dark-blue.svg",
-            "title": "Sauberer Tank",
-            "subtitle": "",
-            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Bq8cjb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-37-weak-pump_dark-blue.svg",
-            "title": "Schwache Pumpe?",
-            "subtitle": "",
-            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_aLieWC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
-            "title": "Regelmäßige Tankreinigung? Nicht nötig!",
-            "subtitle": "",
-            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cBNq6H": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-18-universal-2_dark-blue.svg",
-            "title": "Einzigartiges, modulares Design",
-            "subtitle": "",
-            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Kf9GMT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-14-germany-2_dark-blue.svg",
-            "title": "Made in Germany",
-            "subtitle": "",
-            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_Mcz4f8",
-        "column_3XLM7g",
-        "column_Bq8cjb",
-        "column_aLieWC",
-        "column_cBNq6H",
-        "column_Kf9GMT"
-      ],
-      "settings": {
-        "title": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
-        "heading_tag": "h3",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_heading_second": false,
-        "column_heading_tag": "h3",
-        "column_heading_size": "h3",
-        "column_heading_weight": "700",
-        "column_heading_color": "#333333",
-        "column_subtitle_second": false,
-        "column_subtitle_tag": "p",
-        "column_subtitle_weight": "700",
-        "column_subtitle_size": "h3",
-        "column_subtitle_color": "#616161",
-        "column_text_second": true,
-        "btn_color": "#0081be",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1057,7 +949,6 @@
     "custom_image_text_QKpHT7",
     "custom_image_text_w7NPpX",
     "product_compare_Yehh4q",
-    "multi_icon_text_iDwrbJ",
-    "multicolumn_iTGxCe"
+    "multi_icon_text_iDwrbJ"
   ]
 }
