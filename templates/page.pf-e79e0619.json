@@ -210,6 +210,111 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_bVtKfF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J3PhNB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Befüll Wasserfilter für Wohnmobile, Camper und Boote<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_aNNPgr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit den Mobil Wasserfilter-Sets betanken Sie Ihr Wohnmobil, Camper oder Boot von außen und verhindern, dass Schadstoffe in den Tank gelangen.<br\/>Das Mobil Komplett-Set besteht aus einem Filtergehäuse mit Filterkartusche (Active oder Nano) und dem Mobil Anschluss-Set. Das Anschluss-Set umfasst zwei Hahnstecker, zwei Gerätestecker und einen Trinkwasserschlauch 30 cm. Erhältlich ist der Mobil Wasserfilter in den Varianten Active, Nano und Fusion (Kombination beider Kartuschen).<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_J3PhNB",
+        "text_aNNPgr"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_7eV4Dq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xk4UBp": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "subtitle": "Sub title",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PXnJHg": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "subtitle": "Sub title",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dzpdQ4": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "subtitle": "Sub title",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xk4UBp",
+        "column_PXnJHg",
+        "column_dzpdQ4"
+      ],
+      "settings": {
+        "title": "Mit mehreren Spalten",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#616161",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_image_text_wRMLJj": {
       "type": "custom-image-text",
       "blocks": {
@@ -602,6 +707,8 @@
     "image_banner_rxGfzy",
     "rich_text_XfqgzY",
     "column_image_slider_7cWjpj",
+    "rich_text_bVtKfF",
+    "multicolumn_7eV4Dq",
     "custom_image_text_wRMLJj",
     "two_products_RFLRM8",
     "product_compare_Yehh4q",
