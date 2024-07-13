@@ -644,8 +644,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>",
+            "top_text": "<p><strong>Filtermaterial<\/strong><br\/>Active:<strong> <\/strong>Kokosnuss Blockaktivkohle (gesintert)<br\/>Nano: Hohlfasermembrane<br\/><\/p><p><strong>Wechselintervall<\/strong>1<br\/>Active: 6 Monate (nur in Verbindung mir der Nano Kartusche)<br\/>Nano: 6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <br\/><\/strong>Active: 3000 L<br\/>Nano: 5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <br\/><\/strong>Fusion: 3,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<br\/>Fusion 6 l\/min5<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
             "title_second_font": true,
             "text_second_font": true
           }
