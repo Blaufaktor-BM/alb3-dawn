@@ -142,6 +142,46 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Mobil_Nano_8c328850-2903-416c-9c05-bbc37eb31c4f.svg"
           }
+        },
+        "icon_text_RdUgny": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "text": "<p>In wenigen Sekunden einsatzbereit<\/p>",
+            "url": ""
+          }
+        },
+        "icon_text_XUAVcE": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
+            "text": "<p>Keine interne Pumpe erforderlich<\/p>",
+            "url": ""
+          }
+        },
+        "icon_text_deN7dw": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
+            "text": "<p>Sauberer Tank<\/p>",
+            "url": ""
+          }
+        },
+        "icon_text_PUXtK8": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "text": "<p>Einzigartiges, modulares Design<\/p>",
+            "url": ""
+          }
+        },
+        "icon_text_bEBjiP": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "text": "<p>Design, Fertigung und Produktion in Süddeutschland<\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -150,7 +190,12 @@
         "item_DfJqCR",
         "item_rV9fhb",
         "item_73hn88",
-        "item_XFQ9Eb"
+        "item_XFQ9Eb",
+        "icon_text_RdUgny",
+        "icon_text_XUAVcE",
+        "icon_text_deN7dw",
+        "icon_text_PUXtK8",
+        "icon_text_bEBjiP"
       ],
       "settings": {
         "image_ratio": "1_1",
