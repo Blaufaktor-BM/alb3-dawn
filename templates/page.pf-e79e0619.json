@@ -690,140 +690,6 @@
         "padding_bottom": 0
       }
     },
-    "multi_icon_text_iDwrbJ": {
-      "type": "multi-icon_text",
-      "blocks": {
-        "item_DfU3C4": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
-            "heading": "In wenigen Sekunden einsatzbereit",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
-          }
-        },
-        "item_8yHh4e": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
-            "heading": "Sauberer Tank",
-            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>"
-          }
-        },
-        "item_QKhKcz": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
-            "heading": "Schwache Pumpe?",
-            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>"
-          }
-        },
-        "item_qB8nVd": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
-            "heading": "Regelmäßige Tankreinigung? Nicht nötig!",
-            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
-          }
-        },
-        "item_DhBq3R": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
-            "heading": "Einzigartiges, modulares Design",
-            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>"
-          }
-        },
-        "item_kgJiE4": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
-            "heading": "Made in Germany",
-            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_DfU3C4",
-        "item_8yHh4e",
-        "item_QKhKcz",
-        "item_qB8nVd",
-        "item_DhBq3R",
-        "item_kgJiE4"
-      ],
-      "settings": {
-        "bg": "#fafafa",
-        "heading": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_weight": "700",
-        "heading_color": "#003e5f",
-        "heading_second_font": false,
-        "column_count": 2,
-        "item_heading_tag": "h3",
-        "item_heading_size": "h2",
-        "item_heading_weight": "400",
-        "item_heading_color": "#616161",
-        "item_heading_second_font": true,
-        "item_text_color": "#616161",
-        "item_textsecond_font": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "two_products_RFLRM8": {
-      "type": "two_products",
-      "blocks": {
-        "item_eR7J7H": {
-          "type": "item",
-          "settings": {
-            "image_url": "",
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
-            "content_url": "",
-            "first_btn": "Kaufen",
-            "first_btn_url": "",
-            "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
-          }
-        },
-        "item_q8FVqF": {
-          "type": "item",
-          "settings": {
-            "image_url": "",
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
-            "content_url": "",
-            "first_btn": "Kaufen",
-            "first_btn_url": "",
-            "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_eR7J7H",
-        "item_q8FVqF"
-      ],
-      "settings": {
-        "heading": "Erzähle etwas über deine Marke",
-        "color": "#003e5f",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "img_bg": "#f2f2f2",
-        "content_bg": "#fafafa",
-        "title_color": "#003e5f",
-        "text_color": "#616161",
-        "first_btn_color": "#ffffff",
-        "first_btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "product_compare_Yehh4q": {
       "type": "product-compare",
       "blocks": {
@@ -833,7 +699,7 @@
             "heading": "<strong>Vergleich der Filtereigenschaften<\/strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
-            "heading_color": "#616161",
+            "heading_color": "#003e5f",
             "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
@@ -943,14 +809,17 @@
         "filter_product_set_fqyUQL": {
           "type": "filter_product_set",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "text1": "",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
+            "title": "",
+            "text": "",
+            "product1": "camping-wasserfilter-active-mobil",
+            "text1": "<strong>Mobil Active<\/strong>",
+            "image1": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
+            "product2": "camping-wasserfilter-nano-mobil",
+            "text2": "<strong>Mobil Nano<\/strong>",
+            "image2": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616135-516_1024x1024_2x_e7b355c1-a042-43f9-afa8-c16f292aa4e5.jpg",
+            "product3": "camping-wasserfilter-fusion-mobil",
+            "text3": "<strong>Mobil Fusion<\/strong>",
+            "image3": "shopify:\/\/shop_images\/alb-filter-fusion-active-und-nano-trinkwasserfilter-camping-set-mobil-edelstahl-natur-4260590615404-136_1024x1024_2x_2cfb5895-d870-45d1-8fd3-89e51b35f138.jpg",
             "product4": "",
             "text4": ""
           }
@@ -979,6 +848,86 @@
         "btn_color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "multi_icon_text_iDwrbJ": {
+      "type": "multi-icon_text",
+      "blocks": {
+        "item_DfU3C4": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "heading": "In wenigen Sekunden einsatzbereit",
+            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
+          }
+        },
+        "item_8yHh4e": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
+            "heading": "Sauberer Tank",
+            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>"
+          }
+        },
+        "item_QKhKcz": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
+            "heading": "Schwache Pumpe?",
+            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>"
+          }
+        },
+        "item_qB8nVd": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
+            "heading": "Regelmäßige Tankreinigung? Nicht nötig!",
+            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
+          }
+        },
+        "item_DhBq3R": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "heading": "Einzigartiges, modulares Design",
+            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>"
+          }
+        },
+        "item_kgJiE4": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "heading": "Made in Germany",
+            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DfU3C4",
+        "item_8yHh4e",
+        "item_QKhKcz",
+        "item_qB8nVd",
+        "item_DhBq3R",
+        "item_kgJiE4"
+      ],
+      "settings": {
+        "bg": "#fafafa",
+        "heading": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "column_count": 2,
+        "item_heading_tag": "h3",
+        "item_heading_size": "h2",
+        "item_heading_weight": "400",
+        "item_heading_color": "#616161",
+        "item_heading_second_font": true,
+        "item_text_color": "#616161",
+        "item_textsecond_font": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_iTGxCe": {
@@ -1100,9 +1049,8 @@
     "custom_image_text_wRMLJj",
     "custom_image_text_QKpHT7",
     "custom_image_text_w7NPpX",
-    "multi_icon_text_iDwrbJ",
-    "two_products_RFLRM8",
     "product_compare_Yehh4q",
+    "multi_icon_text_iDwrbJ",
     "multicolumn_iTGxCe"
   ]
 }
