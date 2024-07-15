@@ -1168,7 +1168,7 @@
         "subtitle_yjxXaH": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Zum Schutz vor groben Verunreinigungen",
+            "subtitle": "Anschluss-Set für die externe Betankung von Fahrzeugen",
             "subtitle_color": "#003e5f",
             "second_font": true
           }
@@ -1176,9 +1176,9 @@
         "heading_NhAnqm": {
           "type": "heading",
           "settings": {
-            "heading": "ALB PROTECT VORFILTER",
+            "heading": "Mobil Anschluss-Set GEKA (ohne Filter)",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": false
@@ -1187,7 +1187,7 @@
         "text_yPE9xR": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. <\/p>",
+            "text": "<p>Mit dem Anschluss-Set Mobil können Sie Ihren Filter ganz einfach zu einem mobilen Reisefilter umbauen. Enthalten sind:<br\/><br\/>30 cm DVGW Trinkwasserschlauch<br\/>Je 1x DVGW Hahn- & Gerätestecker (Gardena kompatibel)<br\/>2x DVGW GEKA Schnell-Kupplungen (Gardena kompatibel)<\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -1197,12 +1197,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/vorfilter-protect-mit-wechselpad-edelstahl",
+            "button_link1": "shopify:\/\/products\/alb-filter-mobil-anschluss-set-geka",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
-            "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/protect-vorfilter",
+            "button_label2": "Weiteres Zubehör",
+            "button_link2": "shopify:\/\/collections\/zubehor",
             "second_btn_color": "#0081be"
           }
         }
@@ -1214,7 +1214,7 @@
         "button_bN4a6z"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Element-Protect-Explosion_Filterpad-Icon_1500x_682030e4-7d81-48f1-b47b-2811db2aa97a.jpg",
+        "image": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-4260590616135-972.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": true,
