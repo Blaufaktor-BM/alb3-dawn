@@ -869,36 +869,28 @@
     "multi_icon_text_iDwrbJ": {
       "type": "multi-icon_text",
       "blocks": {
-        "item_DfU3C4": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
-            "heading": "In wenigen Sekunden einsatzbereit",
-            "text": "<p>Mit nur einem Klick verbinden Sie den Alb Filter Mobil mit Ihrem Wasserschlauch und frisch gefiltertes Wasser kann sofort in Ihren Tank gefüllt werden. Unsere GEKA Adapter sind zu 100% kompatibel mit Gardena, sodass Sie Ihre Gardena Wasserschläuche weiterhin verwenden können.<\/p>"
-          }
-        },
         "item_8yHh4e": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters39tank-1675246989152.svg",
-            "heading": "Sauberer Tank",
-            "text": "<p>Halten Sie Ihren Tank frei von Schadstoffen, Sediment, Schmutz und Bakterien. Bei konsequenter Filtration mit dem Fusion Set und vorheriger Reinigung des Tanks entsteht kein Biofilm.<\/p>"
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-43-corrosion-protect_dark-blue.svg",
+            "heading": "Unsichtbarer Schutz",
+            "text": "<p>Die Travel Sets filtern jeden Tropfen Wasser im Inneren des Campers direkt vor der Entnahme. Dadurch wird auch länger stehendes und potenziell verkeimtes Wasser kein Problem für Ihre Gesundheit (bei Verwendung der Nano-Kartusche).<\/p>"
           }
         },
         "item_QKhKcz": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters38pumpe-1675243919200.svg",
-            "heading": "Schwache Pumpe?",
-            "text": "<p>Kein Problem! Das gefilterte Wasser bleibt in einem sauberen Tank mehrere Tage frisch. So ist eine weitere Filtration nach dem Tank nicht zwingend erforderlich. (Bitte achten Sie auf eine gute Tankhygiene!)<\/p>"
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-40-independent_dark-blue.svg",
+            "heading": "Maximale Unabhängigkeit",
+            "text": "<p>Den Tank mit der Gießkanne befüllen? Kein Problem! Durch die feste Installation des Filters nach dem Wassertank spielt der Wasserdruck beim Befüllen des Tanks keine Rolle.<\/p>"
           }
         },
         "item_qB8nVd": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-46-tank-cleaning_dark-blue_9d3ef183-2fcb-450c-8476-c48055829287.svg",
-            "heading": "Regelmäßige Tankreinigung? Nicht nötig!",
-            "text": "<p>Bei Nutzung des Fusion-Sets und einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung verzichtet werden. Wichtig ist eine gründliche Tankreinigung vor der ersten Verwendung. Eine regelmäßige Kontrolle des Tanks wird empfohlen sowie eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
+            "heading": "Keimfreies Wasser ohne Silberionen",
+            "text": "<p>Die nach dem Tank verbaute Nano-Kartusche filtert 99,9% aller schädlichen Keime und Bakterien direkt vor der Entnahme aus dem Wasser. Dadurch ist es möglich, auf ein entkeimendes Verfahren mit Silberionen im Tank zu verzichten.<\/p>"
           }
         },
         "item_DhBq3R": {
@@ -906,7 +898,15 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
             "heading": "Einzigartiges, modulares Design",
-            "text": "<p>Ein Design das auffällt. Schlank, elegant und dabei komplett modular. An jedem Wohnmobil ein echter Hingucker. <\/p>"
+            "text": "<p>Unsere modular aufgebauten Filtergehäuse lassen sich schnell und einfach installieren. Sie können den Filter in den meisten Fällen entweder direkt nach dem Wassertank (in der Druckstufe nach der Wasserpumpe) oder unter der Spüle vor der Entnahmestelle (Armatur) einbauen.<\/p>"
+          }
+        },
+        "item_DfU3C4": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "heading": "Schneller Tankvorgang",
+            "text": "<p>Ein fest verbauter Wasserfilter nach dem Tank ermöglicht das gewohnte Zapfen des Wassers beim Befüllen des Tanks, ohne den Wasserdruck zu mindern. Das ist besonders vorteilhaft bei großen Tanks ab 150 Litern und mehr, da ein Wasserfilter den Tankvorgang nicht merklich verlangsamt.<\/p>"
           }
         },
         "item_kgJiE4": {
@@ -919,16 +919,16 @@
         }
       },
       "block_order": [
-        "item_DfU3C4",
         "item_8yHh4e",
         "item_QKhKcz",
         "item_qB8nVd",
         "item_DhBq3R",
+        "item_DfU3C4",
         "item_kgJiE4"
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "Gute Gründe für einen Befüll-Wasserfilter (Mobil)",
+        "heading": "Gute Gründe für einen Einbau Wasserfilter (Travel)",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
