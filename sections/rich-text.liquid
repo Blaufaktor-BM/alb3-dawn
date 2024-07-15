@@ -171,6 +171,9 @@
                       href="{{ block.settings.button_link_2 }}"
                     {% endif %}
                     class="btn-second second-font"
+                    {% if block.settings.second_btn_color != blank %}
+                      style="color: {{ block.settings.second_btn_color }}"
+                    {% endif %}
                   >
                     {{- block.settings.button_label_2 | escape -}}
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -520,6 +523,12 @@
           "type": "url",
           "id": "button_link_2",
           "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "color",
+          "id": "second_btn_color",
+          "label": "Second Button Color",
+          "default": "#0081be"
         }
       ]
     },
