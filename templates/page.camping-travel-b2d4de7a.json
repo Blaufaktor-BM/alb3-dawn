@@ -577,7 +577,7 @@
         "heading_tFYkJW": {
           "type": "heading",
           "settings": {
-            "heading": "TravelFusion",
+            "heading": "Travel Fusion",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -820,15 +820,15 @@
           "settings": {
             "title": "",
             "text": "",
-            "product1": "camping-wasserfilter-active-mobil",
-            "text1": "<strong>Mobil Active<\/strong>",
-            "image1": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
-            "product2": "camping-wasserfilter-nano-mobil",
-            "text2": "<strong>Mobil Nano<\/strong>",
-            "image2": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616135-516_1024x1024_2x_e7b355c1-a042-43f9-afa8-c16f292aa4e5.jpg",
-            "product3": "camping-wasserfilter-fusion-mobil",
-            "text3": "<strong>Mobil Fusion<\/strong>",
-            "image3": "shopify:\/\/shop_images\/alb-filter-fusion-active-und-nano-trinkwasserfilter-camping-set-mobil-edelstahl-natur-4260590615404-136_1024x1024_2x_2cfb5895-d870-45d1-8fd3-89e51b35f138.jpg",
+            "product1": "camping-wasserfilter-active-travel",
+            "text1": "<strong>Travel Active<\/strong>",
+            "image1": "shopify:\/\/shop_images\/TRAVEL_Active.jpg",
+            "product2": "camping-wasserfilter-nano-travel",
+            "text2": "<strong>Travel Nano<\/strong>",
+            "image2": "shopify:\/\/shop_images\/TRAVEL_Nano.jpg",
+            "product3": "camping-wasserfilter-fusion-travel",
+            "text3": "<strong>Travel Fusion<\/strong>",
+            "image3": "shopify:\/\/shop_images\/TRAVEL_Fusion_Active_Nano_Silber.jpg",
             "product4": "",
             "text4": ""
           }
