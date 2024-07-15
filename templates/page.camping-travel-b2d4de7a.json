@@ -946,6 +946,68 @@
         "padding_bottom": 36
       }
     },
+    "video_EdKEdt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "column_image_text_BcPexT": {
+      "type": "column-image-text",
+      "blocks": {
+        "heading_QMgrLM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Einfache Installation",
+            "heading_tag": "h3",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_wcUkMF": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": ""
+          }
+        },
+        "text_T3XT3y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_X3jehQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QMgrLM",
+        "subtitle_wcUkMF",
+        "text_T3XT3y",
+        "button_X3jehQ"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "image": "shopify:\/\/shop_images\/Travel-Ani-03-ezgif.com-video-to-webp-converter.webp",
+        "image_height": 250,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "column_richtext_GjitiY": {
       "type": "column-richtext",
       "blocks": {
@@ -1184,6 +1246,8 @@
     "custom_image_text_w7NPpX",
     "product_compare_Yehh4q",
     "multi_icon_text_iDwrbJ",
+    "video_EdKEdt",
+    "column_image_text_BcPexT",
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",
     "rich_text_ttbYAU",
