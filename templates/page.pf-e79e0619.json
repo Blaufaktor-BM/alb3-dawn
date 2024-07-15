@@ -1036,70 +1036,6 @@
         "padding_bottom": 52
       }
     },
-    "column_richtext_cjj9tz": {
-      "type": "column-richtext",
-      "blocks": {
-        "image_nL9EGU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-fusion-activenano-trinkwasserfilter-camping-set-travel-4260590614599-344.jpg",
-            "image_width": 500,
-            "enable_border": false
-          }
-        },
-        "heading_XNHhzJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Erzähle etwas über deine Marke",
-            "color": "#16334a",
-            "second_font": false,
-            "heading_tag": "h2",
-            "heading_size": "h1"
-          }
-        },
-        "subheading_WrUMQV": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Gewinde-Ratgeber",
-            "color": "#16334a"
-          }
-        },
-        "text_n8E4Nw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
-            "color": "#616161"
-          }
-        },
-        "button_C6zw7D": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_nL9EGU",
-        "heading_XNHhzJ",
-        "subheading_WrUMQV",
-        "text_n8E4Nw",
-        "button_C6zw7D"
-      ],
-      "custom_css": [
-        "img {height: 1000px; width: 1000px;}"
-      ],
-      "settings": {
-        "content_position": "left",
-        "background_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "btn_color": "#fff",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_text_list_xX8pn6": {
       "type": "image-text-list",
       "blocks": {
@@ -1242,7 +1178,6 @@
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",
     "rich_text_ttbYAU",
-    "column_richtext_cjj9tz",
     "image_text_list_xX8pn6",
     "custom_image_text_ifP3rc"
   ]
