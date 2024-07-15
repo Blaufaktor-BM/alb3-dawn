@@ -930,9 +930,9 @@
         "item_heading_size": "h2",
         "item_heading_weight": "400",
         "item_heading_color": "#616161",
-        "item_heading_second_font": true,
+        "item_heading_second_font": false,
         "item_text_color": "#616161",
-        "item_textsecond_font": true,
+        "item_textsecond_font": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -998,7 +998,7 @@
             "text": "<p>Die <strong>Fusion Ausführung<\/strong> vereinigt die Active und Nano Kartusche zu einem leistungsstarken System. Diese kann sowohl für die Betankung von außen (<strong>Mobil<\/strong>) oder für die feste Montage im Innenraum (<strong>Travel<\/strong>) eingesetzt werden. <\/p><p>Mit dem Alb Filter Fusion decken Sie das gesamte Filterspektrum der <strong>Active <\/strong>und <strong>Nano <\/strong>Kartusche ab. Hiermit erreichen wir die bestmögliche Filterleistung bei einer guten Durchflussgeschwindigkeit.<\/p>",
             "text_style": "body",
             "text_color": "#616161",
-            "second_font": true
+            "second_font": false
           }
         },
         "button_Bb3DY4": {
@@ -1122,7 +1122,7 @@
             "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. <\/p>",
             "text_style": "body",
             "text_color": "#616161",
-            "second_font": true
+            "second_font": false
           }
         },
         "button_8tqAFg": {
@@ -1190,7 +1190,7 @@
             "text": "<p>Mit dem Anschluss-Set Mobil können Sie Ihren Filter ganz einfach zu einem mobilen Reisefilter umbauen. Enthalten sind:<br\/><br\/>30 cm DVGW Trinkwasserschlauch<br\/>Je 1x DVGW Hahn- & Gerätestecker (Gardena kompatibel)<br\/>2x DVGW GEKA Schnell-Kupplungen (Gardena kompatibel)<\/p>",
             "text_style": "body",
             "text_color": "#616161",
-            "second_font": true
+            "second_font": false
           }
         },
         "button_bN4a6z": {
