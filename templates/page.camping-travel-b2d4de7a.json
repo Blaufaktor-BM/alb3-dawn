@@ -1234,7 +1234,7 @@
             "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. <\/p>",
             "text_style": "body",
             "text_color": "#616161",
-            "second_font": true
+            "second_font": false
           }
         },
         "button_8tqAFg": {
@@ -1273,6 +1273,74 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "custom_image_text_PzPzzk": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_jiCpyn": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Anschluss-Set für den festen Einbau",
+            "subtitle_color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "heading_DRyDhX": {
+          "type": "heading",
+          "settings": {
+            "heading": "TRAVEL Anschluss-Set GEKA (ohne Filter)",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "text_tUrnXE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Sie haben bereits einen Alb Filter? <\/strong>Bauen Sie Ihr bestehendes Filtergehäuse einfach mit Hilfe des GEKA Adapter-Sets im Wohnmobil ein. Entweder nach der Pumpe um alle Entnahmestellen in ihrem Wohnmobil mit gefiltertem Wasser zu versorgen oder direkt vor der Armatur um nur das Trinkwasser zu filtern. Das GEKA Adapter-Set besteht aus einem Hahnstecker, einem Gerätestecker und zwei GEKA Schlauchverbinder mit Wasserstopfunktion. Diese werden einfach in Ihrem bestehenden Schlauchsystem (10 mm oder 12 mm) zwischengeschaltet. <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": false
+          }
+        },
+        "button_ymJqLa": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-campingfilter-anschluss-set-travel",
+            "btn_color": "#ffffff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Weiteres Zubehör",
+            "button_link2": "shopify:\/\/collections\/zubehor",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_jiCpyn",
+        "heading_DRyDhX",
+        "text_tUrnXE",
+        "button_ymJqLa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NUR_Anschlussset.jpg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -1295,6 +1363,7 @@
     "rich_text_ttbYAU",
     "custom_image_text_ygaGqh",
     "image_text_list_xX8pn6",
-    "custom_image_text_ifP3rc"
+    "custom_image_text_ifP3rc",
+    "custom_image_text_PzPzzk"
   ]
 }
