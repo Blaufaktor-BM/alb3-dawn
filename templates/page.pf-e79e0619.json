@@ -79,6 +79,7 @@
         "button_ypHhyg": {
           "type": "button",
           "settings": {
+            "center": false,
             "button_label": "Zum Shop",
             "button_link": "shopify:\/\/collections\/camping-mobil",
             "button_style_secondary": false,
@@ -1006,7 +1007,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/fusion",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
@@ -1034,6 +1035,42 @@
         "content_bg": "",
         "padding_top": 10,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_JYQNfz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cMiYKL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die <strong>Fusion Ausführung<\/strong> vereinigt die Active und Nano Kartusche zu einem leistungsstarken System. Diese kann sowohl für die Betankung von außen (<strong>Mobil<\/strong>) oder für die feste Montage im Innenraum (<strong>Travel<\/strong>) eingesetzt werden. <\/p><p>Mit dem Alb Filter Fusion decken Sie das gesamte Filterspektrum der <strong>Active <\/strong>und <strong>Nano <\/strong>Kartusche ab. Hiermit erreichen wir die bestmögliche Filterleistung bei einer guten Durchflussgeschwindigkeit.<\/p>",
+            "second_font": true
+          }
+        },
+        "button_g8XkyK": {
+          "type": "button",
+          "settings": {
+            "center": true,
+            "button_label": "Kaufen",
+            "button_link": "shopify:\/\/collections\/fusion",
+            "button_style_secondary": false,
+            "button_label_2": "Mehr erfahern",
+            "button_link_2": "shopify:\/\/pages\/fusion-doppelstufenfilter"
+          }
+        }
+      },
+      "block_order": [
+        "text_cMiYKL",
+        "button_g8XkyK"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_text_list_xX8pn6": {
@@ -1286,6 +1323,7 @@
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",
     "custom_image_text_6Ge3Ew",
+    "rich_text_JYQNfz",
     "image_text_list_xX8pn6",
     "custom_image_text_ifP3rc",
     "custom_image_text_83ymeM",
