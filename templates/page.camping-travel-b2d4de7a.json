@@ -946,29 +946,13 @@
         "padding_bottom": 36
       }
     },
-    "video_EdKEdt": {
-      "type": "video",
-      "settings": {
-        "heading": "Einfache Instation",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_x8YmLQ": {
       "type": "rich-text",
       "blocks": {
-        "heading_WMhHmX": {
+        "heading_NN4mcF": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<p>Einfache Installation<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -982,24 +966,56 @@
             "text": "<p>Der Travel Wasserfilter lässt sich mit dem im Lieferumfang enthaltenen Zubehör einfach installieren.<\/p>",
             "second_font": true
           }
-        },
-        "text_JXUWtw": {
+        }
+      },
+      "block_order": [
+        "heading_NN4mcF",
+        "text_tbhhyX"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_EdKEdt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_raNjCX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nK3DaX": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Travel Wasserfilter lässt sich mit dem im Lieferumfang enthaltenen Zubehör einfach installieren.<\/p><p><strong>Vorgehensweise: <\/strong><\/p><ol><li>Finden einer geeigneten Stelle zur Montage des Filters (Zwischen Pumpe und Wasserhahn)<\/li><li>Durchtrennen des vorhandenen Schlauchsystems<\/li><li>Überstülpen der beiden Rohrschellen auf die Schlauchenden. <\/li><li>Aufstecken der beiden GEKA®-Schlauchverbinder (10-13 mm Stufentüllen)<\/li><li>Platzieren und Festschrauben der Rohrschellen<\/li><li>Montage der Wandhalterung<\/li><li>Einsetzen der Filterkartusche(n) im Filtergehäuse <\/li><li>Einsetzten des Travel Wasserfilters inkl. Geräte- und Hahnstecker in die Wandhalterung<\/li><li>Anschließen an die Schlauchverbinder <\/li><\/ol>",
+            "text": "<p><strong>Vorgehensweise: <\/strong><\/p><ol><li>Finden einer geeigneten Stelle zur Montage des Filters (Zwischen Pumpe und Wasserhahn)<\/li><li>Durchtrennen des vorhandenen Schlauchsystems<\/li><li>Überstülpen der beiden Rohrschellen auf die Schlauchenden. <\/li><li>Aufstecken der beiden GEKA®-Schlauchverbinder (10-13 mm Stufentüllen)<\/li><li>Platzieren und Festschrauben der Rohrschellen<\/li><li>Montage der Wandhalterung<\/li><li>Einsetzen der Filterkartusche(n) im Filtergehäuse <\/li><li>Einsetzten des Travel Wasserfilters inkl. Geräte- und Hahnstecker in die Wandhalterung<\/li><li>Anschließen an die Schlauchverbinder <\/li><\/ol>",
             "second_font": true
           }
         }
       },
       "block_order": [
-        "heading_WMhHmX",
-        "text_tbhhyX",
-        "text_JXUWtw"
+        "text_nK3DaX"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "content_full_width": false,
         "padding_top": 40,
@@ -1244,8 +1260,9 @@
     "custom_image_text_w7NPpX",
     "product_compare_Yehh4q",
     "multi_icon_text_iDwrbJ",
-    "video_EdKEdt",
     "rich_text_x8YmLQ",
+    "video_EdKEdt",
+    "rich_text_raNjCX",
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",
     "rich_text_ttbYAU",
