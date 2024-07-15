@@ -1047,6 +1047,14 @@
             "second_font": true
           }
         },
+        "image_fdEgNE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/albfilteredelstahlfusion_mit_schnitt_kartuscheninfo-1637137409374.jpg",
+            "image_width": 700,
+            "full_width": false
+          }
+        },
         "button_g8XkyK": {
           "type": "button",
           "settings": {
@@ -1061,6 +1069,7 @@
       },
       "block_order": [
         "text_cMiYKL",
+        "image_fdEgNE",
         "button_g8XkyK"
       ],
       "settings": {
