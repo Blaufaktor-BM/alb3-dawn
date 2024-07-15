@@ -225,7 +225,7 @@
         "heading_J3PhNB": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Befüll Wasserfilter für Wohnmobile, Camper und Boote<\/p>",
+            "heading": "<p>Einbau Wasserfilter für Wohnmobile, Camper und Boote<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
@@ -236,7 +236,7 @@
         "text_aNNPgr": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit den Mobil Wasserfilter-Sets betanken Sie Ihr Wohnmobil, Camper oder Boot von außen und verhindern, dass Schadstoffe in den Tank gelangen.<br\/>Das Mobil Komplett-Set besteht aus einem Filtergehäuse mit Filterkartusche (Active oder Nano) und dem Mobil Anschluss-Set. Das Anschluss-Set umfasst zwei Hahnstecker, zwei Gerätestecker und einen Trinkwasserschlauch 30 cm. Erhältlich ist der Mobil Wasserfilter in den Varianten Active, Nano und Fusion (Kombination beider Kartuschen).<\/p>",
+            "text": "<p>Der Alb Trinkwasserfilter inkl. Travel Anschluss-Set ermöglicht die einfache Installation des Filters im Wohnmobil, Camper oder Boot. Sie können das Set entweder kurz nach der Pumpe installieren, um alle Entnahmestellen mit gefiltertem Wasser zu versorgen, oder direkt vor der Armatur, um nur das Trinkwasser zu filtern.<br\/><br\/>Das Set besteht aus einem Filtergehäuse mit Filterkartusche (Active oder Nano) und dem GEKA Anschluss-Set. Das Anschluss-Set umfasst einen Hahnstecker, einen Gerätestecker und zwei GEKA Schlauchverbinder mit Wasserstopfunktion.<br\/><br\/>Der exklusiv für Alb Filter entwickelte Schlauchverbinder ist zu 100% kompatibel mit unserem Mobil Anschluss-Set. Die Stufentüllen am Schlauchverbinder passen zu allen gängigen 10mm und 12mm Schlauchsystemen.<\/p>",
             "second_font": true
           }
         }
@@ -261,34 +261,34 @@
         "column_xk4UBp": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOBIL_Active.jpg",
-            "title": "Mobil Active",
+            "image": "shopify:\/\/shop_images\/TRAVEL_Active.jpg",
+            "title": "Travel Active",
             "subtitle": "",
             "text": "<p>Der Breitbandfilter.<br\/><br\/>Der gesinterte Aktivkohlekern, ist in der Lage, Chlor, organische Schadstoffe, diverse medikamentöse Rückstände, leichte Kohlenwasserstoffe, Lösungsmittel, Pestizide, Aromen und feine Partikel wie Rost, Kalkflocken und Sand aus dem Wasser zu filtrieren. <\/p>",
             "link_label": "Mehr erfahren",
-            "link": ""
+            "link": "shopify:\/\/products\/camping-wasserfilter-active-travel"
           }
         },
         "column_dzpdQ4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOBIL_Nano.jpg",
-            "title": "Mobil Nano",
+            "image": "shopify:\/\/shop_images\/TRAVEL_Nano.jpg",
+            "title": "Travel Nano",
             "subtitle": "",
             "text": "<p>Die absolute Keimsperre. <br\/><br\/>Einsatz bei Bakterien- bzw. Keimbelastung im Wasser mit höchsten Ansprüchen an Material und Qualität der 0.1 µm Hohlfasermembran. Die zertifizierte Qualitäts-Lösung bietet unter anderem höchsten Schutz vor Legionellen, E-Coli, Vibrio Cholarae, Shigellen und Salmonellen.<\/p>",
             "link_label": "Mehr erfahren",
-            "link": ""
+            "link": "shopify:\/\/products\/camping-wasserfilter-nano-travel"
           }
         },
         "column_8RcacM": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOBIL_Fusion_Active_Nano_Silber.jpg",
-            "title": "Mobil Fusion",
+            "image": "shopify:\/\/shop_images\/TRAVEL_Fusion_Active_Nano_Silber.jpg",
+            "title": "Travel Fusion",
             "subtitle": "",
             "text": "<p>Die rundum sorglos Variante.<br\/><br\/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die positiven Eigenschaften beider Kartusche für höchste Sicherheit und Trinkgenuss.<\/p>",
             "link_label": "Mehr erfahren",
-            "link": ""
+            "link": "shopify:\/\/products\/camping-wasserfilter-fusion-travel"
           }
         }
       },
@@ -298,7 +298,7 @@
         "column_8RcacM"
       ],
       "settings": {
-        "title": "Mit mehreren Spalten",
+        "title": "",
         "heading_tag": "h2",
         "heading_size": "h1",
         "image_width": "full",
