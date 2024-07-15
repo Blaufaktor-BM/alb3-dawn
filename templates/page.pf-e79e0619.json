@@ -989,51 +989,51 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_ttbYAU": {
-      "type": "rich-text",
+    "custom_image_text_6Ge3Ew": {
+      "type": "custom-image-text",
       "blocks": {
-        "heading_hkdtBB": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
-            "color": "#003e5f",
-            "heading_tag": "h2",
-            "heading_size": "h1",
-            "font_weight": "700",
-            "second_font": false
-          }
-        },
-        "text_wrbwDW": {
+        "text_HQ8Fiy": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Die <strong>Fusion Ausführung<\/strong> vereinigt die Active und Nano Kartusche zu einem leistungsstarken System. Diese kann sowohl für die Betankung von außen (<strong>Mobil<\/strong>) oder für die feste Montage im Innenraum (<strong>Travel<\/strong>) eingesetzt werden. <\/p><p>Mit dem Alb Filter Fusion decken Sie das gesamte Filterspektrum der <strong>Active <\/strong>und <strong>Nano <\/strong>Kartusche ab. Hiermit erreichen wir die bestmögliche Filterleistung bei einer guten Durchflussgeschwindigkeit.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
             "second_font": true
           }
         },
-        "button_QQYq7R": {
+        "button_Bb3DY4": {
           "type": "button",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": ""
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/collections\/fusion",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
-        "heading_hkdtBB",
-        "text_wrbwDW",
-        "button_QQYq7R"
+        "text_HQ8Fiy",
+        "button_Bb3DY4"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
-        "full_width": false,
-        "content_full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify:\/\/shop_images\/albfilteredelstahlfusion_mit_schnitt_kartuscheninfo-1637137409374.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "image_text_list_xX8pn6": {
@@ -1285,7 +1285,7 @@
     "multi_icon_text_iDwrbJ",
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",
-    "rich_text_ttbYAU",
+    "custom_image_text_6Ge3Ew",
     "image_text_list_xX8pn6",
     "custom_image_text_ifP3rc",
     "custom_image_text_83ymeM",
