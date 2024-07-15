@@ -936,6 +936,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "column_richtext_GjitiY": {
+      "type": "column-richtext",
+      "blocks": {
+        "image_nJhzyJ": {
+          "type": "image",
+          "settings": {
+            "image_width": 200,
+            "enable_border": true
+          }
+        },
+        "heading_kwT8fU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alb Filter Fusion",
+            "color": "#fff",
+            "second_font": false,
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "subheading_rQf7GT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "All-In-One Doppelfilter - Für den extra Schutz",
+            "color": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "image_nJhzyJ",
+        "heading_kwT8fU",
+        "subheading_rQf7GT"
+      ],
+      "settings": {
+        "content_position": "left",
+        "background_color": "#003e5f",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "column_image_text_Cbkyz6": {
+      "type": "column-image-text",
+      "settings": {
+        "section_color_scheme": "",
+        "image": "shopify:\/\/shop_images\/pf-173c967e--albfiltermobilfusionschmal.jpg",
+        "image_height": 350,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -949,6 +1001,8 @@
     "custom_image_text_QKpHT7",
     "custom_image_text_w7NPpX",
     "product_compare_Yehh4q",
-    "multi_icon_text_iDwrbJ"
+    "multi_icon_text_iDwrbJ",
+    "column_richtext_GjitiY",
+    "column_image_text_Cbkyz6"
   ]
 }
