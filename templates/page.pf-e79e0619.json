@@ -988,6 +988,179 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "rich_text_ttbYAU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hkdtBB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_wrbwDW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "second_font": true
+          }
+        },
+        "button_QQYq7R": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_hkdtBB",
+        "text_wrbwDW",
+        "button_QQYq7R"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "full_width": false,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_text_list_xX8pn6": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_XUNM7Y": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Made_in_Germany-weiss.svg",
+            "title": "",
+            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
+            "url": ""
+          }
+        },
+        "item_HEGXw3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
+            "title": "",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
+          }
+        },
+        "item_btfYwJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
+            "title": "",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "url": ""
+          }
+        },
+        "item_XNtAnq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
+            "title": "",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XUNM7Y",
+        "item_HEGXw3",
+        "item_btfYwJ",
+        "item_XNtAnq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
+        "title_color": "#003e5f",
+        "column_count": 4,
+        "full_width": true,
+        "image_white": false,
+        "large_image": false,
+        "content_second_font": false,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "custom_image_text_ifP3rc": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_HK37qd": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Zum Schutz vor groben Verunreinigungen",
+            "subtitle_color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "heading_aYaBrz": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALB PROTECT VORFILTER",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "text_YMjWek": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "button_8tqAFg": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/vorfilter-protect-mit-wechselpad-edelstahl",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/protect-vorfilter",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_HK37qd",
+        "heading_aYaBrz",
+        "text_YMjWek",
+        "button_8tqAFg"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Element-Protect-Explosion_Filterpad-Icon_1500x_682030e4-7d81-48f1-b47b-2811db2aa97a.jpg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1003,6 +1176,9 @@
     "product_compare_Yehh4q",
     "multi_icon_text_iDwrbJ",
     "column_richtext_GjitiY",
-    "column_image_text_Cbkyz6"
+    "column_image_text_Cbkyz6",
+    "rich_text_ttbYAU",
+    "image_text_list_xX8pn6",
+    "custom_image_text_ifP3rc"
   ]
 }
