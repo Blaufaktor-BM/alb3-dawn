@@ -1341,6 +1341,46 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "custom_contact_aqktMq": {
+      "type": "custom-contact",
+      "blocks": {
+        "item_zed6QN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "text": "Campingfilter",
+            "url": "shopify:\/\/pages\/faq-camping"
+          }
+        },
+        "item_bkLrbH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "text": "Hilfe und Kontakt",
+            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+          }
+        }
+      },
+      "block_order": [
+        "item_zed6QN",
+        "item_bkLrbH"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "heading": "Sie haben Fragen?",
+        "heading_tag": "h4",
+        "heading_size": "h2",
+        "heading_color": "#616161",
+        "text": "<p>Hier erhalten Sie wichtige Inforamtionen zu unseren Trinkwasserfiltern<br\/>oder können mit uns in Kontakt treten. <\/p>",
+        "text_color": "#616161",
+        "item_bg": "#ffffff",
+        "item_text_color": "#003e5f",
+        "item_border_color": "#003e5f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1364,6 +1404,7 @@
     "custom_image_text_ygaGqh",
     "image_text_list_xX8pn6",
     "custom_image_text_ifP3rc",
-    "custom_image_text_PzPzzk"
+    "custom_image_text_PzPzzk",
+    "custom_contact_aqktMq"
   ]
 }
