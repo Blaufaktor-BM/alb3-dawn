@@ -1005,12 +1005,15 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Vorgehensweise: <\/strong><\/p><ol><li>Finden einer geeigneten Stelle zur Montage des Filters (Zwischen Pumpe und Wasserhahn)<\/li><li>Durchtrennen des vorhandenen Schlauchsystems<\/li><li>Überstülpen der beiden Rohrschellen auf die Schlauchenden. <\/li><li>Aufstecken der beiden GEKA®-Schlauchverbinder (10-13 mm Stufentüllen)<\/li><li>Platzieren und Festschrauben der Rohrschellen<\/li><li>Montage der Wandhalterung<\/li><li>Einsetzen der Filterkartusche(n) im Filtergehäuse <\/li><li>Einsetzten des Travel Wasserfilters inkl. Geräte- und Hahnstecker in die Wandhalterung<\/li><li>Anschließen an die Schlauchverbinder <\/li><\/ol>",
-            "second_font": true
+            "second_font": false
           }
         }
       },
       "block_order": [
         "text_nK3DaX"
+      ],
+      "custom_css": [
+        "li{line-height: 2; }"
       ],
       "settings": {
         "desktop_content_position": "left",
