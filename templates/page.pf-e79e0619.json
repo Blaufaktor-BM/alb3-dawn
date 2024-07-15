@@ -1153,13 +1153,13 @@
         "image_width": "small",
         "row_reverse": false,
         "add_image_spacing": false,
-        "remove_content_spacing": false,
+        "remove_content_spacing": true,
         "top_radius": false,
         "background_color": "",
         "image_bg": "",
         "content_bg": "",
-        "padding_top": 10,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
