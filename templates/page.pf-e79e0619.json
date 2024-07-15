@@ -951,7 +951,7 @@
           "type": "heading",
           "settings": {
             "heading": "Alb Filter Fusion",
-            "color": "#fff",
+            "color": "#ffffff",
             "second_font": false,
             "heading_tag": "h2",
             "heading_size": "h1"
@@ -961,7 +961,7 @@
           "type": "subheading",
           "settings": {
             "subheading": "All-In-One Doppelfilter - Für den extra Schutz",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         }
       },
@@ -974,7 +974,7 @@
         "content_position": "left",
         "background_color": "#003e5f",
         "btn_bg": "#0081be",
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "padding_top": 30,
         "padding_bottom": 0
       }
@@ -1130,7 +1130,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/vorfilter-protect-mit-wechselpad-edelstahl",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
@@ -1161,6 +1161,114 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "custom_image_text_83ymeM": {
+      "type": "custom-image-text",
+      "blocks": {
+        "subtitle_yjxXaH": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Zum Schutz vor groben Verunreinigungen",
+            "subtitle_color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "heading_NhAnqm": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALB PROTECT VORFILTER",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "text_yPE9xR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "button_bN4a6z": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/vorfilter-protect-mit-wechselpad-edelstahl",
+            "btn_color": "#ffffff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/protect-vorfilter",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_yjxXaH",
+        "heading_NhAnqm",
+        "text_yPE9xR",
+        "button_bN4a6z"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Element-Protect-Explosion_Filterpad-Icon_1500x_682030e4-7d81-48f1-b47b-2811db2aa97a.jpg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_contact_TUathE": {
+      "type": "custom-contact",
+      "blocks": {
+        "item_JVQfk7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "text": "FAQ Campingfilter",
+            "url": "shopify:\/\/pages\/faq-camping"
+          }
+        },
+        "item_XyqQQA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "text": "Hilfe und Kontakt",
+            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+          }
+        }
+      },
+      "block_order": [
+        "item_JVQfk7",
+        "item_XyqQQA"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "heading": "Sie haben Fragen?",
+        "heading_tag": "h4",
+        "heading_size": "h2",
+        "heading_color": "#616161",
+        "text": "<p>Erhalten Sie hier Antworten zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-camping\" target=\"_self\">Campingfiltern<\/a> oder <br\/>besuchen Sie unsere <a href=\"https:\/\/alb-filter.com\/pages\/hilfe-und-kontakt\" target=\"_self\">Hilfe und Kontakte<\/a> Seite für weitere Fragen.<\/p>",
+        "text_color": "#616161",
+        "item_bg": "#ffffff",
+        "item_text_color": "#003e5f",
+        "item_border_color": "#003e5f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1179,6 +1287,8 @@
     "column_image_text_Cbkyz6",
     "rich_text_ttbYAU",
     "image_text_list_xX8pn6",
-    "custom_image_text_ifP3rc"
+    "custom_image_text_ifP3rc",
+    "custom_image_text_83ymeM",
+    "custom_contact_TUathE"
   ]
 }
