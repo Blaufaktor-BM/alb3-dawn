@@ -84,6 +84,37 @@
                   }}
                 {%- endif -%}
               </div>
+            {%- when 'image' -%}
+              <div
+                class="rich-text__image{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                <div
+                  class="rich-text__image-wrapper"
+                  {% unless block.settings.full_width %}
+                    style="max-width: {{ block.settings.image_width }}px"
+                  {% endunless %}
+                >
+                  {%- if block.settings.image != blank -%}
+                    {%- assign fetch_priority = 'auto' -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                      (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                      (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+
+                    {{
+                      block.settings.image
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {%- endif -%}
+                </div>
+              </div>
             {%- when 'text' -%}
               <div
                 class="rich-text__text{% if block.settings.second_font %} second-font{% endif %} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -110,7 +141,7 @@
               {% endif %}
             {%- when 'button' -%}
               <div
-                class="rich-text__buttons{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__buttons{% if block.settings.center %} center{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -457,6 +488,11 @@
       "limit": 2,
       "settings": [
         {
+          "type": "checkbox",
+          "id": "center",
+          "label": "Center"
+        },
+        {
           "type": "text",
           "id": "button_label",
           "default": "t:sections.rich-text.blocks.buttons.settings.button_label_1.default",
@@ -521,6 +557,32 @@
           "type": "image_picker",
           "id": "image",
           "label": "Icon"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image Width",
+          "min": 100,
+          "max": 1000,
+          "step": 10,
+          "default": 700,
+          "unit": "px"
+        },
+        {
+          "type": "checkbox",
+          "id": "full_width",
+          "label": "Full Width"
         }
       ]
     }
