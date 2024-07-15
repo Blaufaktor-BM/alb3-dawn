@@ -228,7 +228,7 @@
             "heading": "<p>Einbau Wasserfilter für Wohnmobile, Camper und Boote<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "font_weight": "700",
             "second_font": false
           }
@@ -333,7 +333,7 @@
         "heading_iWMNMa": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Active",
+            "heading": "Travel Active",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -352,7 +352,7 @@
         "text_3FhmwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text": "<p>Trinkwasser genießen ohne Kompromisse! Der Alb Travel Active Einbau Wasserfilter überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -413,7 +413,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-active-mobil",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-active-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
@@ -433,7 +433,7 @@
         "button_RY3QAe"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-mobil-active-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616128-142_1024x1024_2x_d4f4b082-8237-4f70-b8f2-8ba86e01bb81.jpg",
+        "image": "shopify:\/\/shop_images\/TRAVEL-Active-Schlauch50_08a9597a-d493-4940-b7aa-f54b701214cb.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -455,7 +455,7 @@
         "heading_FHpRnQ": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Nano",
+            "heading": "Travel Nano",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -474,7 +474,7 @@
         "text_FqyHHc": {
           "type": "text",
           "settings": {
-            "text": "<p>Schützt bei akutem Legionellen-Alarm oder vor einer Verkeimung mit Bakterien, Keimen und Schimmelpilzen in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
+            "text": "<p>Der Travel Nano Einbau-Wasserfilter schützt bei akutem Legionellen-Alarm oder vor einer Verkeimung mit Bakterien, Keimen und Schimmelpilzen in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -535,7 +535,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-nano-mobil",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-nano-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
@@ -555,7 +555,7 @@
         "button_KYMC6w"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-filterr-mobil-nano-trinkwasserfilter-mit-geka-anschluss-edelstahl-natur-4260590616135-516_1024x1024_2x_e7b355c1-a042-43f9-afa8-c16f292aa4e5.jpg",
+        "image": "shopify:\/\/shop_images\/TRAVEL_Nano_Schlauch.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -577,7 +577,7 @@
         "heading_tFYkJW": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Fusion",
+            "heading": "TravelFusion",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -596,7 +596,7 @@
         "text_KpqbhW": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. So werden neben Schadstoffen auch zuverlässig Keime und Bakterien aus dem Wasser gefiltert. Dies sorgt für höchste Sicherheit und besten Trinkgenuss.<br\/><br\/>In einem neuen bzw. gut gepflegten Wassersystem kann, durch die doppelte Filterung vor dem Tank, grundsätzlich auf eine regelmäßige Tankreinigung verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung z.B. mit Alb Clean und eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
+            "text": "<p>Die Fusion Variante des Travel Einbau-Wasserfilters besteht aus zwei in Reihe geschalteten Filtereinheiten. So werden neben Schadstoffen auch zuverlässig Keime und Bakterien aus dem Wasser gefiltert. Dies sorgt für höchste Sicherheit und besten Trinkgenuss.<br\/><br\/>In einem neuen bzw. gut gepflegten Wassersystem kann, durch die doppelte Filterung vor dem Tank, grundsätzlich auf eine regelmäßige Tankreinigung verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung z.B. mit Alb Clean und eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -663,7 +663,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-fusion-mobil",
+            "button_link1": "shopify:\/\/products\/camping-wasserfilter-fusion-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
@@ -683,7 +683,7 @@
         "button_RhEMEK"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-fusion-active-und-nano-trinkwasserfilter-camping-set-mobil-edelstahl-natur-4260590615404-136_1024x1024_2x_2cfb5895-d870-45d1-8fd3-89e51b35f138.jpg",
+        "image": "shopify:\/\/shop_images\/TRAVEL_Fusion_Active_Nano_Schlauch_Silber.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
