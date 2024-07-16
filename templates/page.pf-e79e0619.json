@@ -84,7 +84,8 @@
             "button_link": "shopify:\/\/collections\/camping-mobil",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": ""
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -1064,7 +1065,8 @@
             "button_link": "shopify:\/\/collections\/fusion",
             "button_style_secondary": false,
             "button_label_2": "Mehr erfahern",
-            "button_link_2": "shopify:\/\/pages\/fusion-doppelstufenfilter"
+            "button_link_2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -1225,7 +1227,7 @@
           "settings": {
             "heading": "Mobil Anschluss-Set GEKA (ohne Filter)",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": false
@@ -1266,7 +1268,7 @@
         "image_ratio": "1_1",
         "image_contain": true,
         "image_width": "small",
-        "row_reverse": false,
+        "row_reverse": true,
         "add_image_spacing": false,
         "remove_content_spacing": true,
         "top_radius": false,
