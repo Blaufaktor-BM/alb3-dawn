@@ -980,7 +980,7 @@
           "settings": {
             "heading": "Welche Pumpe benötige ich?",
             "icon": "none",
-            "row_content": "<p>Die Auswahl der Pumpe ist davon abhängig wie die Filter verbaut bzw. verwendet werden. Jedoch empfehlen wir eine Druck- bzw. Membranpumpe mit einer Leistung von mindestens <strong>2,1 bar <\/strong>beim Festeinbau (Nano-Kartusche). Für die Active-Kartusche wird ein Druck von mindestens <strong>2,8 bar <\/strong>empfohlen.<\/p><p>Durchflussdiagramm Active Kartusche <\/p>",
+            "row_content": "<p>Die Auswahl der Pumpe ist davon abhängig wie die Filter verbaut bzw. verwendet werden. Jedoch empfehlen wir eine Druck- bzw. Membranpumpe mit einer Leistung von mindestens <strong>2,1 bar <\/strong>beim Festeinbau (Nano-Kartusche). Für die Active-Kartusche wird ein Druck von mindestens <strong>2,8 bar <\/strong>empfohlen.<\/p>",
             "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
             "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
             "small_text1": "",
