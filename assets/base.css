@@ -6357,21 +6357,22 @@ ul.breadcrumb li a:hover {
   width: 100%;
 }
 
+.multi_icon_text_subtitles {
+  display: flex;
+  align-items: center;
+}
+
+.multi_icon_text_subtitle {
+  width: 100%;
+}
+
 @media only screen and (min-width: 750px) {
   .column2 .item-multi_icon_text {
     max-width: 50%;
   }
 
-  .column3 .item-multi_icon_text {
-    max-width: 33.33%;
-  }
-
-  .column4 .item-multi_icon_text {
-    max-width: 25%;
-  }
-
-  .column5 .item-multi_icon_text {
-    max-width: 20%;
+  .column2 .multi_icon_text_subtitle {
+    max-width: 100%;
   }
 }
 
