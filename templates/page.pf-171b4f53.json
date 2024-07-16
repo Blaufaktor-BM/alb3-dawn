@@ -993,11 +993,13 @@
         "collapsible_row_keewFU": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Beeinflusst der Duschfilter den Wasserdruck?",
+            "heading": "Wie lagere ich meine Kartuschen richtig?",
             "icon": "none",
-            "row_content": "<p>Unsere Duschfilter sind so optimiert, dass der Wasserdruck so gering wie möglich reduziert wird. Die <a href=\"https:\/\/alb-filter.com\/pages\/balance-duschfilter-kartusche\" target=\"_self\">Balance<\/a>- und <a href=\"https:\/\/alb-filter.com\/pages\/shungit-duschfilter-kartusche\" target=\"_self\">Shungit-Duschfilter<\/a> haben eine Durchflussrate von 15 Litern pro Minute, während der <a href=\"https:\/\/alb-filter.com\/pages\/nano-wasserfilter-kartusche\">Nano Legionellen-Filter<\/a> eine maximale Durchflussrate von 14 Litern pro Minute erreicht.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
+            "row_content": "<p>Hier geben wir Ihnen nützliche Tipps, wie Sie Ihre Kartuschen richtig Lagern. Durch eine gute Pflege schützen Sie die Kartuschen vor einer möglichen Verkeimung und können so die volle Kapazität der Active- und Nano-Kartusche ausschöpfen. <\/p><p><strong>VORAB <br\/><br\/><\/strong>Ein feuchtes, geschlossenes System bietet Keimen und Bakterien einen idealen Nährboden um sich zu vermehren. So kann auch in unseren Kartuschen nicht ausgeschlossen werden, dass es zu einer Vermehrung von Keimen kommt falls die Kartusche über eine längere Zeit ungenutzt im Gehäuse verbleibt. Daher empfehlen wir, die Kartuschen bei einer längeren Nutzungspause aus dem Filtergehäuse zu nehmen und gut zu trocknen, um der Verkeimung sowie einer möglichen Schimmelbildung vorzubeugen.<br\/><br\/><strong>WANN SOLLTEN SIE DIE KARTUSCHEN AUS DEM GEHÄUSE NEHMEN?<br\/><br\/><\/strong>Bei einer <strong>Nutzungspause von 5–7 Tagen<\/strong> (abhängig von der Umgebungstemperatur) sollten die Kartuschen zum Schutz vor Verkeimung und Schimmelbildung aus dem Gehäuse genommen werden. Anschließend können sie gut getrocknet gelagert werden. <strong><br\/><\/strong><\/p><p><strong>WIE TROCKNE ICH DIE KARTUSCHEN RICHTIG?<\/strong><\/p>",
+            "small_image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "small_text1": "<p><strong>ACTIVE: <\/strong>Die Active-Kartusche trocknet an einem gut durchlüfteten, schattigem Ort innerhalb von 2-3 Tagen komplett durch. Wichtig ist, die gesamte Restfeuchte aus der Aktivkohle zu bekommen um eine mögliche Verkeimung zu verhindern. Alternativ lässt sich die Kartusche für 5-6 Stunden bei 50°C in einem Backofen trocknen. Anschließend lagern Sie die Kartusche an einem kühlen, trockenen Ort.<\/p>",
+            "small_image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "small_text2": "<p><strong>NANO:<\/strong> Die Hohlfasermembrane der Nano-Kartusche sind sehr empfindlich. Daher wird diese ausschließlich an der frischen Luft getrocknet. Wie auch bei der Active-Kartusche empfehlen wir einen gut belüfteten, schattig Ort zum trocknen und eine kühlen und trockenen Lagerung.<\/p>",
             "bottom_text": "",
             "exclamation_list": "",
             "page": ""
