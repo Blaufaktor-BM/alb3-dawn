@@ -6294,4 +6294,17 @@ ul.breadcrumb li a:hover {
 }
 
 /* column icon text */
+/* cart drawer upsell */
+.upsell_list {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.upsell-item {
+  max-width: calc(50% - 10px);
+  min-width: calc(50% - 10px);
+}
+
+/* cart drawer upsell */
 /* additional css */
