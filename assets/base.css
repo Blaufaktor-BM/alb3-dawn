@@ -5350,12 +5350,17 @@ slideshow-component .banner__heading.h1 {
   display: block;
   width: 100%;
   height: auto;
-  max-width: 80px;
+  max-width: 80px !important;
+  margin: 0 auto;
 }
 
 .collapse-small_image_text-text {
   width: 100%;
   padding: 15px;
+}
+
+.collapse-exclamation_list ul {
+  padding: 0;
 }
 
 .collapse-exclamation_list ul li {
@@ -5364,13 +5369,20 @@ slideshow-component .banner__heading.h1 {
   padding-left: 31px;
 }
 
+.collapse-exclamation_list ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .collapse-exclamation_list ul li:before {
   content: "";
   position: absolute;
-  background-image: url(https://cdn.shopifycdn.net/s/files/1/0278/5483/1715/files/exclamation.svg?v=1721146281), no-repeat;
-  width: 26px;
-  height: 26px;
+  background-image: url(https://cdn.shopifycdn.net/s/files/1/0278/5483/1715/files/exclamation.svg?v=1721146281);
+  width: 16px;
+  height: 16px;
   background-size: 16px;
+  left: 5px;
+  background-repeat: no-repeat;
+  top: 5px;
 }
 
 @media only screen and (min-width: 750px) {
