@@ -600,49 +600,97 @@
         "item_Gr7HgG": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-10-security_dark-blue.svg",
-            "heading": "Hoher Schutz und Hygiene durch getrennte Filterstufen",
-            "text": "<p>Durch das Befüllen mit der Active Kartusche werden unerwünschte Stoffe schon vor dem Tank gefiltert. Die nach dem Tank installierte Nano Kartusche dient als Keimsperre direkt bei jeder Entnahme. Somit bietet das Pro Camper Set einen hohen Schutz für Ihr Trinkwasser.<\/p>"
+            "icon": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "heading": "Entnahme von schlechtem Geschmack und Gerüchen",
+            "text": "<p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>"
           }
         },
         "item_gGDrqW": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-38-clean-tank_dark-blue.svg",
-            "heading": "Sauberer Tank",
-            "text": "<p>Schadstoffe, Sediment und Schmutz werden vor dem Tank gefiltert. Das erleichtert die Tankreinigung und schont Tank, Schlauchsystem und Pumpe. Möchten Sie auch Bakterien vor dem Tank filtern um möglichst einen Biofilm im System zu vermeiden empfehlen wir die <a href=\"https:\/\/alb-filter.com\/pages\/camping-wasserfilter-mobil\" target=\"_self\">Mobil<\/a> Variante. <\/p>"
+            "icon": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "heading": "Filtration kleinster Mikroorganismen",
+            "text": "<p>Der Schwerpunkt von Nano liegt bei der Filtrierung von <strong>Keimen und Bakterien<\/strong> in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>"
           }
         },
         "item_K7f7PW": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
-            "heading": "Keimfreies Wasser ohne Silberionen",
-            "text": "<p>Die nach dem Tank verbaute Nano Kartusche bewirkt, dass 99,9% aller schädlichen Keime und Bakterien direkt vor der Entnahme aus dem Wasser gefiltert werden. Somit kann auf ein keimstabilisierendes Verfahren mit Silberionen im Tank verzichtet werden.<\/p>"
+            "icon": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "heading": "Reduzierung von Schwermetallen",
+            "text": "<p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>"
           }
         },
         "item_ezfERj": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-42-all-inclusive_dark-blue.svg",
-            "heading": "All inclusive",
-            "text": "<p>Das Pro Camper Set beinhaltet alle Teile, um direkt mit dem Einbau des Nano Filters zu beginnen. Sie benötigen lediglich ein scharfes Messer um den vorhandenen Schlauch zu durchtrennen sowie einen Schraubenzieher für die Rohrschellen und die Verschraubung der Wandhalterung. Gegebenenfalls benötigen Sie eine Bohrmaschine um Löcher für die Wandhalterung vorzubohren. <\/p>"
+            "icon": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "heading": "Hochleistungsmembrane",
+            "text": "<p>Durch geeignete Bündelung von Hohlfasern erfolgt eine Durchflussleistung bis zu 11 Liter\/min.<\/p>"
           }
         },
         "item_xYnMPh": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
-            "heading": "Einzigartiges, modulares Design",
-            "text": "<p>Unsere Filtergehäuse sind komplett modular aufgebaut und lassen sich schnell und einfach installieren. Der Einbau des Nano Filters erfolgt in den meisten Fällen direkt nach dem Wassertank (d.h. in der Druckstufe nach der Wasserpumpe) oder unter der Spüle vor der Entnahmestelle (Armatur).<\/p>"
+            "icon": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "heading": "Filtrierung von Mikroplastik",
+            "text": "<p>Durch die ultrafeine Struktur der gesinterten Aktivkohle, werden mikroskopisch kleine Plastikteilchen zuverlässig zurück gehalten.<\/p>"
           }
         },
         "item_CRaMAF": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-14-germany-2_dark-blue.svg",
+            "icon": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "heading": "Hohe Filterkapazität",
+            "text": "<p>Bei Einsatz der Nano Kartusche in optisch klarem Wasser, bei gleichzeitiger Kontamination mit Bakterien und Keimen, besitzt die Nano eine extrem hohe Lebensdauer.<\/p>"
+          }
+        },
+        "item_qUaV36": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "heading": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "text": "<p>Bei Einsatz der Nano Kartusche in optisch klarem Wasser, bei gleichzeitiger Kontamination mit Bakterien und Keimen, besitzt die Nano eine extrem hohe Lebensdauer.<\/p>"
+          }
+        },
+        "item_FHCkhM": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "heading": "Höchste Sicherheit",
+            "text": "<p>Automatische sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>"
+          }
+        },
+        "item_kJ7hCW": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-02e484c5--albfiltericonsetparameters164month.svg",
+            "heading": "Kartuschenwechsel",
+            "text": "<p>Wechselintervall 4 Monate - abhängig von der Qualität des Eingangswassers.<\/p>"
+          }
+        },
+        "item_kpEwwa": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "heading": "Zertifiziert",
+            "text": "<p>Höchste zertifizierte Sicherheit nach <strong>ASTM F838-15A<\/strong><\/p>"
+          }
+        },
+        "item_HYVjBm": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
             "heading": "Made in Germany",
-            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
+            "text": "<p>Langlebige und robuste Qualität von der Schwäbischen Alb (Baden-Württemberg).<\/p>"
+          }
+        },
+        "item_yAFztg": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month_4e9f93f7-538b-40de-bac2-9f31bbcf702b.svg",
+            "heading": "Kartuschenwechsel",
+            "text": "<p>Wechselintervall 6 Monate - abhängig von der Qualität des Eingangswassers.<\/p>"
           }
         }
       },
@@ -652,11 +700,17 @@
         "item_K7f7PW",
         "item_ezfERj",
         "item_xYnMPh",
-        "item_CRaMAF"
+        "item_CRaMAF",
+        "item_qUaV36",
+        "item_FHCkhM",
+        "item_kJ7hCW",
+        "item_kpEwwa",
+        "item_HYVjBm",
+        "item_yAFztg"
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "Gute Gründe für einen Kombi Wasserfilter (Pro Camper)",
+        "heading": "",
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_weight": "700",
@@ -665,9 +719,9 @@
         "column_count": 2,
         "item_heading_tag": "h3",
         "item_heading_size": "h3",
-        "item_heading_weight": "700",
+        "item_heading_weight": "500",
         "item_heading_color": "#616161",
-        "item_heading_second_font": false,
+        "item_heading_second_font": true,
         "item_text_color": "#616161",
         "item_textsecond_font": true,
         "padding_top": 36,
