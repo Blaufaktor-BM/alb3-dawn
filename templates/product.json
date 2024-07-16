@@ -12,11 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "rating_FVKcLB": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -26,6 +21,11 @@
         },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "rating_FVKcLB": {
+          "type": "rating",
           "settings": {
           }
         },
@@ -45,12 +45,6 @@
           "type": "sku",
           "settings": {
             "text_style": "uppercase"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Teilen"
           }
         },
         "variant_picker": {
@@ -87,6 +81,12 @@
             "heading_3": "Einfache Zahlung auch auf Rechnung"
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        },
         "complementary_ptQFWL": {
           "type": "complementary",
           "settings": {
@@ -102,17 +102,17 @@
         }
       },
       "block_order": [
-        "rating_FVKcLB",
         "vendor",
         "title",
+        "rating_FVKcLB",
         "text_FQL9Cj",
         "price",
         "sku_4U6KpL",
-        "share",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "icon_with_text_fP6tNW",
+        "share",
         "complementary_ptQFWL"
       ],
       "settings": {
@@ -193,146 +193,184 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_BFNBPA": {
-      "type": "image-with-text",
+    "custom_image_text_AEnKQk": {
+      "type": "custom-image-text",
       "blocks": {
-        "heading_JLCHN9": {
+        "heading_C7QD96": {
           "type": "heading",
           "settings": {
             "heading": "10 Jahre Garantie",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#222222",
+            "remove_spacing": false
           }
         },
-        "text_TVP8XD": {
+        "text_LntgEQ": {
           "type": "text",
           "settings": {
             "text": "<p>Qualität zahlt sich aus. Unsere Edelstahlgehäuse sind aus hochwertigem 1.4404 Edelstahl (V4A) gefertig. Dies erhöht die mechanische Stabilität und macht den Filter widerstandsfähig gegenüber Korossion und anderen Umwelteinflüssen. Grund genug für uns, Dir eine erweiterte Garantie von 10 Jahren auf Dein Edelstahlgehäuse zu geben. <\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
-        "button_GJeFKq": {
-          "type": "button",
+        "subtitle_VGJNmj": {
+          "type": "subtitle",
           "settings": {
-            "button_label": "Mehr erfahren",
-            "button_link": "",
-            "button_style_secondary": true
+            "subtitle": "150.000 Filter",
+            "subtitle_color": "#222222",
+            "second_font": false
+          }
+        },
+        "text_4RMGUr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir sind sehr stolz, mittlerweile mehr als 150.000 individuelle Alb Wasserfilter an diversen Wasserhähnen, Untertischen, Duschen und als Camping-Varianten auf der ganzen Welt im Einsatz zu wissen.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         }
       },
       "block_order": [
-        "heading_JLCHN9",
-        "text_TVP8XD",
-        "button_GJeFKq"
+        "heading_C7QD96",
+        "text_LntgEQ",
+        "subtitle_VGJNmj",
+        "text_4RMGUr"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Desktop-Garantie-Batch.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "image_with_text_rEiTnm": {
-      "type": "image-with-text",
+    "custom_image_text_Dwwwjr": {
+      "type": "custom-image-text",
       "blocks": {
-        "heading_inPhqE": {
+        "heading_YGEaTi": {
           "type": "heading",
           "settings": {
-            "heading": "Made in Germany",
+            "heading": "Made in Süddeutschland",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#222222",
+            "remove_spacing": false
           }
         },
-        "text_tr9AYk": {
+        "text_gtV8AR": {
           "type": "text",
           "settings": {
-            "text": "<p>In einer Zeit, in der jedes noch so kleine Teil aus Fernost zu kommen scheint, stehen wir von Alb Filter® für Qualität aus dem Herzen der Schwäbischen Alb. Ein Fertigungsstandort in Süd-Deutschland, welcher sich durch höchste Standards und Präzision in vielen Bereichen auszeichnet.<\/p><p><br\/><\/p><p>Wir fühlen uns unserer Region verpflichtet und fertigen ­unsere Produkte mit unseren Partnern in nächster Um­gebung. <\/p><p><br\/><\/p><p>Ein echtes Stück Heimat - <strong>Made in Germany<\/strong>.<\/p>",
-            "text_style": "body"
+            "text": "<p>In einer Zeit, in der jedes noch so kleine Teil aus Fernost zu kommen scheint, stehen wir von Alb Filter® für Qualität aus dem Herzen der Schwäbischen Alb. Ein Fertigungsstandort in Süd-Deutschland, welcher sich durch höchste Standards und Präzision in vielen Bereichen auszeichnet.<\/p><p><br\/><\/p><p>Wir fühlen uns unserer Region verpflichtet und fertigen ­unsere Produkte mit unseren Partnern in nächster Um­gebung. <\/p><p><br\/><\/p><p>Ein echtes Stück Heimat - <strong>Made in Germany<\/strong><\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
-        "button_emDiBA": {
+        "button_7wzDzD": {
           "type": "button",
           "settings": {
-            "button_label": "Mehr erfahren",
-            "button_link": "",
-            "button_style_secondary": true
+            "button_label1": "",
+            "button_link1": "",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
-        "heading_inPhqE",
-        "text_tr9AYk",
-        "button_emDiBA"
+        "heading_YGEaTi",
+        "text_gtV8AR",
+        "button_7wzDzD"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Karte-Talheim_02.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "right",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "medium",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "image_with_text_4kkK3L": {
-      "type": "image-with-text",
+    "custom_image_text_n34j4E": {
+      "type": "custom-image-text",
       "blocks": {
-        "heading_zxrUpH": {
+        "heading_wEjAty": {
           "type": "heading",
           "settings": {
-            "heading": "Made in Germany",
+            "heading": "Wir sind für Sie da!",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#222222",
+            "remove_spacing": false
           }
         },
-        "text_wUdcXb": {
+        "text_3UnQXN": {
           "type": "text",
           "settings": {
-            "text": "<p>Qualität zahlt sich aus. Unsere Edelstahlgehäuse sind aus hochwertigem 1.4404 Edelstahl (V4A) gefertig. Dies erhöht die mechanische Stabilität und macht den Filter widerstandsfähig gegenüber Korossion und anderen Umwelteinflüssen. Grund genug für uns, Dir eine erweiterte Garantie von 10 Jahren auf Dein Edelstahlgehäuse zu geben. <\/p>",
-            "text_style": "body"
+            "text": "<p>Sie haben fragen zu Alb FIlter und unseren Produkten? Wir freuen uns von Ihnen zu hören. <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
-        "button_BpUHRC": {
+        "button_dL4YpQ": {
           "type": "button",
           "settings": {
-            "button_label": "Mehr erfahren",
-            "button_link": "",
-            "button_style_secondary": true
+            "button_label1": "",
+            "button_link1": "",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "",
+            "button_link2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
-        "heading_zxrUpH",
-        "text_wUdcXb",
-        "button_BpUHRC"
+        "heading_wEjAty",
+        "text_3UnQXN",
+        "button_dL4YpQ"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Alb-Teamfoto-Tob-Ben-Pat_trans.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -360,9 +398,9 @@
   "order": [
     "main",
     "collapsible_content_abfFcz",
-    "image_with_text_BFNBPA",
-    "image_with_text_rEiTnm",
-    "image_with_text_4kkK3L",
+    "custom_image_text_AEnKQk",
+    "custom_image_text_Dwwwjr",
+    "custom_image_text_n34j4E",
     "related-products"
   ]
 }

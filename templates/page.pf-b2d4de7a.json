@@ -79,11 +79,13 @@
         "button_ypHhyg": {
           "type": "button",
           "settings": {
+            "center": false,
             "button_label": "Zum Shop",
             "button_link": "shopify:\/\/collections\/camping-travel",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": ""
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -170,7 +172,7 @@
         "icon_text_mrRwbb": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-40-independent-mk_dark-blue.svg",
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-40-independent_dark-blue.svg",
             "text": "<p>Maximale Unabhängigkeit<\/p>",
             "url": ""
           }
@@ -992,7 +994,7 @@
         "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -1118,7 +1120,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/fusion",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
