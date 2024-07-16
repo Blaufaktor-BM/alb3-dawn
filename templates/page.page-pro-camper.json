@@ -978,9 +978,9 @@
         "collapsible_row_EKzC9r": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Warum soll ich mein Duschwasser überhaupt filtern?",
+            "heading": "Welche Pumpe benötige ich?",
             "icon": "none",
-            "row_content": "<p>Ein Duschfilter verbessert die Wasserqualität, indem er Verunreinigungen wie Chlor, Schwermetalle, Bakterien und andere Schadstoffe entfernt. Dies kann Hautirritationen und trockene Haare verhindern und insgesamt für eine gesündere Dusche sorgen.<\/p>",
+            "row_content": "<p>Die Auswahl der Pumpe ist davon abhängig wie die Filter verbaut bzw. verwendet werden. Jedoch empfehlen wir eine Druck- bzw. Membranpumpe mit einer Leistung von mindestens <strong>2,1 bar <\/strong>beim Festeinbau (Nano-Kartusche). Für die Active-Kartusche wird ein Druck von mindestens <strong>2,8 bar <\/strong>empfohlen.<\/p><p>Durchflussdiagramm Active Kartusche <\/p>",
             "page": ""
           }
         },
