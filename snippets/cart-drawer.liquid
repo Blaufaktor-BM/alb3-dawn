@@ -457,7 +457,7 @@
         <div class="upsell_list">
           {% for upsell_product in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
             {%- for item in cart.items -%}
-              {%- cart_product = item.product -%}
+              {%- assign cart_product = item.product -%}
               {%- unless upsell_product.title == cart_product.title -%}
                 <div class="upsell-item">
                   {% render 'card-product',
