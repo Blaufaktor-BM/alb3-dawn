@@ -981,6 +981,12 @@
             "heading": "Welche Pumpe benötige ich?",
             "icon": "none",
             "row_content": "<p>Die Auswahl der Pumpe ist davon abhängig wie die Filter verbaut bzw. verwendet werden. Jedoch empfehlen wir eine Druck- bzw. Membranpumpe mit einer Leistung von mindestens <strong>2,1 bar <\/strong>beim Festeinbau (Nano-Kartusche). Für die Active-Kartusche wird ein Druck von mindestens <strong>2,8 bar <\/strong>empfohlen.<\/p><p>Durchflussdiagramm Active Kartusche <\/p>",
+            "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
+            "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -990,6 +996,10 @@
             "heading": "Beeinflusst der Duschfilter den Wasserdruck?",
             "icon": "none",
             "row_content": "<p>Unsere Duschfilter sind so optimiert, dass der Wasserdruck so gering wie möglich reduziert wird. Die <a href=\"https:\/\/alb-filter.com\/pages\/balance-duschfilter-kartusche\" target=\"_self\">Balance<\/a>- und <a href=\"https:\/\/alb-filter.com\/pages\/shungit-duschfilter-kartusche\" target=\"_self\">Shungit-Duschfilter<\/a> haben eine Durchflussrate von 15 Litern pro Minute, während der <a href=\"https:\/\/alb-filter.com\/pages\/nano-wasserfilter-kartusche\">Nano Legionellen-Filter<\/a> eine maximale Durchflussrate von 14 Litern pro Minute erreicht.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -999,6 +1009,10 @@
             "heading": "Bleiben wertvolle Mineralien erhalten?",
             "icon": "none",
             "row_content": "<p>Wasser filtern und wichtige Mineralien erhalten, das ist das Prinzip der Wasserfilter von Alb Filter: Dies ist ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\").<\/p><p><strong>Unsere Kartuschen belassen essentielle  Spurenelemente und Mineralien im Wasser und filtern diese nicht heraus<\/strong>.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -1008,6 +1022,10 @@
             "heading": "Ist der Duschfilter einfach zu installieren?",
             "icon": "none",
             "row_content": "<p>Ja, die meisten Duschfilter sind so konzipiert, dass sie einfach und ohne spezielles Werkzeug installiert werden können. Die Installation dauert in der Regel nur wenige Minuten und kann von jedem problemlos durchgeführt werden. Für Unterputz Armaturen haben wir auch verschiedene <a href=\"https:\/\/alb-filter.com\/collections\/adapter\" target=\"_self\">Adapter<\/a> im Angebot.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -1017,6 +1035,10 @@
             "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
             "icon": "none",
             "row_content": "<p>Beachten Sie die Wechselintervalle von 6 Monaten für alle Duschfilter Kartuschen. Damit vermeiden Sie eine Verkeimung der Kartuschen und daraus resultierende gesundheitliche Auswirkungen. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         }
