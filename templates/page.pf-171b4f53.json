@@ -1008,35 +1008,9 @@
         "collapsible_row_HAADA4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Bleiben wertvolle Mineralien erhalten?",
+            "heading": "Sind die GEKA-Adapter kompatibel zu GARDENA?",
             "icon": "none",
-            "row_content": "<p>Wasser filtern und wichtige Mineralien erhalten, das ist das Prinzip der Wasserfilter von Alb Filter: Dies ist ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\").<\/p><p><strong>Unsere Kartuschen belassen essentielle  Spurenelemente und Mineralien im Wasser und filtern diese nicht heraus<\/strong>.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_eWtQwk": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Ist der Duschfilter einfach zu installieren?",
-            "icon": "none",
-            "row_content": "<p>Ja, die meisten Duschfilter sind so konzipiert, dass sie einfach und ohne spezielles Werkzeug installiert werden können. Die Installation dauert in der Regel nur wenige Minuten und kann von jedem problemlos durchgeführt werden. Für Unterputz Armaturen haben wir auch verschiedene <a href=\"https:\/\/alb-filter.com\/collections\/adapter\" target=\"_self\">Adapter<\/a> im Angebot.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Unyzp9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
-            "icon": "none",
-            "row_content": "<p>Beachten Sie die Wechselintervalle von 6 Monaten für alle Duschfilter Kartuschen. Damit vermeiden Sie eine Verkeimung der Kartuschen und daraus resultierende gesundheitliche Auswirkungen. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
+            "row_content": "<p><strong>Ja!<\/strong> Unser Camping Filter (Mobil\/Travel\/Pro Camper) sind alle kompatibel zu Gardena. Unsere GEKA Stecker und Adapter wie auch die mitgelieferten Schläuche sind alle Lebensmittelecht und für Trinkwasser zugelassen. Wir empfehlen nach Filtration mit der Active Kartusche ausschließlich Lebensmittelechte Adapter und Schläuche zu verwenden.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1048,9 +1022,7 @@
       "block_order": [
         "collapsible_row_EKzC9r",
         "collapsible_row_keewFU",
-        "collapsible_row_HAADA4",
-        "collapsible_row_eWtQwk",
-        "collapsible_row_Unyzp9"
+        "collapsible_row_HAADA4"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
