@@ -283,8 +283,8 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": false,
+        "color_scheme": "scheme-1",
+        "full_width": true,
         "content_full_width": true,
         "padding_top": 72,
         "padding_bottom": 52
@@ -939,8 +939,8 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "text": "Duschfilter",
-            "url": "shopify:\/\/pages\/faq-duschfilter"
+            "text": "Campingfilter",
+            "url": "shopify:\/\/pages\/faq-camping"
           }
         },
         "item_T6rxdT": {
@@ -963,12 +963,12 @@
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#616161",
-        "text": "<p>Hier erhältst du wichtige Informationen zu unseren <a href=\"\/pages\/faq-duschfilter\" title=\"FAQ - Duschfilter\">Duschfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Erhalten Sie hier Antworten zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-camping\" target=\"_self\">Campingfiltern<\/a> oder <br\/>besuchen Sie unsere <a href=\"https:\/\/alb-filter.com\/pages\/hilfe-und-kontakt\" target=\"_self\">Hilfe und Kontakt<\/a> Seite für weitere Fragen.<\/p>",
         "text_color": "#616161",
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
-        "padding_top": 0,
+        "padding_top": 8,
         "padding_bottom": 0
       }
     },
