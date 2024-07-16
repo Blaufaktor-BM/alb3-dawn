@@ -458,8 +458,9 @@
           {% for upsell_product in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
             {%- for item in cart.items -%}
               {%- assign cart_product = item.product -%}
-
-              {%- if upsell_product.title == cart_product.title -%}
+              {%- assign cart_product_title = cart_product.title | remove: ' ' -%}
+              {%- assign upsell_product_title = upsell_product.title | remove: ' ' -%}
+              {%- unless upsell_product_title == cart_product_title -%}
                 <div class="upsell-item">
                   {% render 'card-product',
                     card_product: upsell_product,
@@ -473,7 +474,7 @@
                     quick_add: 'standard'
                   %}
                 </div>
-              {%- endif -%}
+              {%- endunless -%}
             {%- endfor -%}
           {%- endfor -%}
         </div>
