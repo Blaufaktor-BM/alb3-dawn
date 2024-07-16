@@ -451,9 +451,9 @@
       {%- for item in cart.items -%}
         {% if forloop.index == 1 %}
           {% assign product = item.product %}
-          {% if product.metafields['shopify--discovery--product_recommendation'].related_products != blank %}
+          {% if product.metafields['shopify--discovery--product_recommendation'].complementary_products != blank %}
             <div class="upsell_list">
-              {% for upsell_product in product.metafields['shopify--discovery--product_recommendation'].related_products.value %}
+              {% for upsell_product in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
                 <div class="upsell-item">
                   {% render 'card-product',
                     card_product: upsell_product,
