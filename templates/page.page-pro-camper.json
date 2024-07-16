@@ -79,11 +79,13 @@
         "button_RNbMXW": {
           "type": "button",
           "settings": {
+            "center": false,
             "button_label": "Zum Shop",
             "button_link": "shopify:\/\/products\/pro-camper-set",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": ""
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -263,81 +265,29 @@
         "padding_bottom": 0
       }
     },
-    "multi_content_eqe6QR": {
-      "type": "multi-content",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Pro_camper_set_grafik_web_01.webp",
-        "background_color": "#ffffff",
-        "heading": "",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "subtitle": "",
-        "subtitle_color": "#003e5f",
-        "text": "",
-        "text_color": "#616161",
-        "btn_text": "",
-        "btn_url": "",
-        "btn_bg_color": "#0081be",
-        "btn_color": "#fff",
-        "bottom_bg_color": "#ffffff",
-        "bottom_text_color": "#fff",
-        "padding_top": 70,
-        "padding_bottom": 0
-      }
-    },
-    "custom_image_text_aQ4HxB": {
-      "type": "custom-image-text",
+    "rich_text_rAnfrk": {
+      "type": "rich-text",
       "blocks": {
-        "heading_RgJXtJ": {
-          "type": "heading",
+        "image_ExyBdg": {
+          "type": "image",
           "settings": {
-            "heading": "<strong>Modularer Wasserfilter<\/strong>",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "second_font": false,
-            "heading_color": "#003e5f",
-            "remove_spacing": false
-          }
-        },
-        "subtitle_CdNkDb": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "1 Gehäuse – 3 Kartuschen.",
-            "subtitle_color": "#003e5f",
-            "second_font": true
-          }
-        },
-        "text_iQQ9Me": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Duschfiltern Balance und Shungit sowie dem Legionellenfilter Nano.<\/p>",
-            "text_style": "body",
-            "text_color": "#616161",
-            "second_font": true
+            "image": "shopify:\/\/shop_images\/pro_camper_set_grafik_web_02.webp",
+            "image_width": 1000,
+            "full_width": true
           }
         }
       },
       "block_order": [
-        "heading_RgJXtJ",
-        "subtitle_CdNkDb",
-        "text_iQQ9Me"
+        "image_ExyBdg"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DUSCHFILTER-Element-Varianten_2000x_bd4f6377-689a-4141-bc4c-808cc5218d71.webp",
-        "enable_image_ratio": false,
-        "image_ratio": "1_1",
-        "image_contain": false,
-        "image_width": "medium",
-        "row_reverse": true,
-        "add_image_spacing": false,
-        "remove_content_spacing": true,
-        "top_radius": false,
-        "background_color": "#fafafa",
-        "image_bg": "",
-        "content_bg": "",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_h7N8FR": {
@@ -461,7 +411,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-duschfilter-balance",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
@@ -502,23 +452,43 @@
         "alb_comparison_dHz78d": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "<strong>Welchen Duschfilter soll ich kaufen?<\/strong>",
+            "heading": "<strong>Filtereigenschaften<\/strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
-            "image1": "shopify:\/\/shop_images\/filterkartusche-balance-single-1639472314759.jpg",
-            "image2": "shopify:\/\/shop_images\/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
+            "text": "<p>Pro Camper Set<\/p>",
+            "image1": "shopify:\/\/shop_images\/Alb-Filterpads-Einzel_1500x_4b6f7b35-c0d8-473e-abfe-5854401c77c6.jpg",
+            "image2": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
             "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
           }
         },
         "filter_properties_cPUEFG": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Filtereigenschaften<\/strong>",
-            "title1": "<strong>Balance<\/strong>",
-            "title2": "<strong>Shungit[1]<\/strong>",
+            "title": "<strong>Kartusche\/Filter<\/strong>",
+            "title1": "<strong>Protect<\/strong>",
+            "title2": "<strong>Active<\/strong>",
             "title3": "<strong>Nano<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_Twkgfj": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mineralien bleiben erhalten",
+            "title1": "<strong>Ja<\/strong>",
+            "title2": "<strong>Ja<\/strong>",
+            "title3": "<strong>Ja<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_qTzd3V": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Grobe Partikel, Sediment",
+            "title1": "<strong>+ + <\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
             "title4": ""
           }
         },
@@ -526,48 +496,8 @@
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack, Trübungen, Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": ""
-          }
-        },
-        "filter_properties_Twkgfj": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "Mineralisierung",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": ""
-          }
-        },
-        "filter_properties_qTzd3V": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "pH- Neutralisierung",
-            "title1": "<strong>+ +<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": ""
-          }
-        },
-        "filter_properties_nDiihM": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "Bindung von freien Radikalen[2]",
             "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": ""
-          }
-        },
-        "filter_properties_majFxV": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "Adsorptiv und katalythische Filtration",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ +<\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
           }
@@ -575,9 +505,19 @@
         "filter_properties_hDYaAc": {
           "type": "filter_properties",
           "settings": {
-            "title": "Bakterizid (z.B. Schimmelbildung)",
+            "title": "Schwermetalle",
             "title1": "<strong>-<\/strong>",
             "title2": "<strong>+ +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_nDiihM": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Pestizide, Arzneimittelrückstände",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
           }
@@ -585,8 +525,8 @@
         "filter_properties_rLBA7C": {
           "type": "filter_properties",
           "settings": {
-            "title": "Mikroplastik, Sedimente",
-            "title1": "<strong>+<\/strong>",
+            "title": "Mikroplastik, Asbestfasern, feine Partikel",
+            "title1": "<strong>-<\/strong>",
             "title2": "<strong>+<\/strong>",
             "title3": "<strong>+ + +<\/strong>",
             "title4": ""
@@ -596,7 +536,7 @@
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>+<\/strong>",
+            "title1": "<strong>-<\/strong>",
             "title2": "<strong>-<\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
@@ -612,22 +552,12 @@
             "title4": ""
           }
         },
-        "filter_properties_TBMKqk": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "Legionellen",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
-            "title4": ""
-          }
-        },
         "filter_properties_yVCbHX": {
           "type": "filter_properties",
           "settings": {
             "title": "Wechselintervall",
-            "title1": "6 Monate",
-            "title2": "6 Monate",
+            "title1": "Bei Bedarf*",
+            "title2": "4 Monate",
             "title3": "6 Monate",
             "title4": ""
           }
@@ -636,8 +566,8 @@
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "15 l\/min",
-            "title2": "15 l\/min",
+            "title1": "20 l\/min",
+            "title2": "7 l\/min",
             "title3": "11 l\/min",
             "title4": ""
           }
@@ -645,17 +575,15 @@
         "filter_product_set_6VQXPC": {
           "type": "filter_product_set",
           "settings": {
-            "title": "<strong>Duschfilter-Set<\/strong>",
-            "text": "<p>Gehäuse und Kartusche. Passt an alle Standard-Armaturen mit 1\/2 Zoll Gewinde. <\/p>",
-            "product1": "alb-duschfilter-balance",
+            "title": "<strong>Pro Camper Set<\/strong>",
+            "text": "",
+            "product1": "pro-camper-set",
             "text1": "",
-            "image1": "shopify:\/\/shop_images\/alb-filter-duschfilter-balance-edelstahl-natur-4260590614858-753.jpg",
-            "product2": "alb-duschfilter-shungit",
+            "image1": "shopify:\/\/shop_images\/Pro-Camper-Set-Edelstahl.jpg",
+            "product2": "",
             "text2": "",
-            "image2": "shopify:\/\/shop_images\/alb-filter-duschfilter-shungit-edelstahl-natur-4260590614865-475.jpg",
-            "product3": "alb-duschfilter-nano",
+            "product3": "",
             "text3": "",
-            "image3": "shopify:\/\/shop_images\/alb-filter-trinkwasserfilter-nano-edelstahl-natur-4260590614780-665.jpg",
             "product4": "",
             "text4": ""
           }
@@ -663,23 +591,21 @@
         "description_AWH4Gf": {
           "type": "description",
           "settings": {
-            "description": "<p>1 Leistungsmerkmale laut Studien der Yonsei Univerity, Alexey Rybakov, V.A. Khromushin, Krutous und Rysev, Khadartsev3 <br\/>2  Laut einer Studie der Yonsei University \/ Korea, ist Shungit in der Lage, freie Radikale aufzunehmen und zu binden. Dies trägt zur Verringerung von oxidativem Stress und Entzündungen bei, die durch UVB-Strahlung verursacht werden. Eine verminderung freier Radikale haben einen positiven Effekt auf den Alterungsprozess der Haut.<\/p>"
+            "description": "<p>* Wechsel bei vermindertem Wasserdurchfluss oder bei sichtbarer Verschmutzung. <\/p>"
           }
         }
       },
       "block_order": [
         "alb_comparison_dHz78d",
         "filter_properties_cPUEFG",
-        "filter_properties_FQM9e6",
         "filter_properties_Twkgfj",
         "filter_properties_qTzd3V",
-        "filter_properties_nDiihM",
-        "filter_properties_majFxV",
+        "filter_properties_FQM9e6",
         "filter_properties_hDYaAc",
+        "filter_properties_nDiihM",
         "filter_properties_rLBA7C",
         "filter_properties_krFcit",
         "filter_properties_ymT6b9",
-        "filter_properties_TBMKqk",
         "filter_properties_yVCbHX",
         "filter_properties_HEjVtU",
         "filter_product_set_6VQXPC",
@@ -694,6 +620,141 @@
         "btn_color": "#ffffff",
         "padding_top": 30,
         "padding_bottom": 91
+      }
+    },
+    "multi_icon_text_mK8cCK": {
+      "type": "multi-icon_text",
+      "blocks": {
+        "item_Gr7HgG": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-10-security_dark-blue.svg",
+            "heading": "Hoher Schutz und Hygiene durch getrennte Filterstufen",
+            "text": "<p>Durch das Befüllen mit der Active Kartusche werden unerwünschte Stoffe schon vor dem Tank gefiltert. Die nach dem Tank installierte Nano Kartusche dient als Keimsperre direkt bei jeder Entnahme. Somit bietet das Pro Camper Set einen hohen Schutz für Ihr Trinkwasser.<\/p>"
+          }
+        },
+        "item_gGDrqW": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-38-clean-tank_dark-blue.svg",
+            "heading": "Sauberer Tank",
+            "text": "<p>Schadstoffe, Sediment und Schmutz werden vor dem Tank gefiltert. Das erleichtert die Tankreinigung und schont Tank, Schlauchsystem und Pumpe. Möchten Sie auch Bakterien vor dem Tank filtern um möglichst einen Biofilm im System zu vermeiden empfehlen wir die <a href=\"https:\/\/alb-filter.com\/pages\/camping-wasserfilter-mobil\" target=\"_self\">Mobil<\/a> Variante. <\/p>"
+          }
+        },
+        "item_K7f7PW": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
+            "heading": "Keimfreies Wasser ohne Silberionen",
+            "text": "<p>Die nach dem Tank verbaute Nano Kartusche bewirkt, dass 99,9% aller schädlichen Keime und Bakterien direkt vor der Entnahme aus dem Wasser gefiltert werden. Somit kann auf ein keimstabilisierendes Verfahren mit Silberionen im Tank verzichtet werden.<\/p>"
+          }
+        },
+        "item_ezfERj": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-42-all-inclusive_dark-blue.svg",
+            "heading": "All inclusive",
+            "text": "<p>Das Pro Camper Set beinhaltet alle Teile, um direkt mit dem Einbau des Nano Filters zu beginnen. Sie benötigen lediglich ein scharfes Messer um den vorhandenen Schlauch zu durchtrennen sowie einen Schraubenzieher für die Rohrschellen und die Verschraubung der Wandhalterung. Gegebenenfalls benötigen Sie eine Bohrmaschine um Löcher für die Wandhalterung vorzubohren. <\/p>"
+          }
+        },
+        "item_xYnMPh": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "heading": "Einzigartiges, modulares Design",
+            "text": "<p>Unsere Filtergehäuse sind komplett modular aufgebaut und lassen sich schnell und einfach installieren. Der Einbau des Nano Filters erfolgt in den meisten Fällen direkt nach dem Wassertank (d.h. in der Druckstufe nach der Wasserpumpe) oder unter der Spüle vor der Entnahmestelle (Armatur).<\/p>"
+          }
+        },
+        "item_CRaMAF": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-14-germany-2_dark-blue.svg",
+            "heading": "Made in Germany",
+            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Gr7HgG",
+        "item_gGDrqW",
+        "item_K7f7PW",
+        "item_ezfERj",
+        "item_xYnMPh",
+        "item_CRaMAF"
+      ],
+      "settings": {
+        "bg": "#fafafa",
+        "heading": "Gute Gründe für einen Kombi Wasserfilter (Pro Camper)",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "column_count": 2,
+        "item_heading_tag": "h3",
+        "item_heading_size": "h3",
+        "item_heading_weight": "700",
+        "item_heading_color": "#616161",
+        "item_heading_second_font": false,
+        "item_text_color": "#616161",
+        "item_textsecond_font": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_text_list_nbrNhg": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_EqiUzr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Made_in_Germany-weiss.svg",
+            "title": "",
+            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
+            "url": ""
+          }
+        },
+        "item_eHq4Tg": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
+          }
+        },
+        "item_Q8QGL9": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        },
+        "item_nAy3VY": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_EqiUzr",
+        "item_eHq4Tg",
+        "item_Q8QGL9",
+        "item_nAy3VY"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
+        "title_color": "#003e5f",
+        "column_count": 4,
+        "full_width": true,
+        "image_white": false,
+        "large_image": false,
+        "content_second_font": false,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "small_image_text_YwVdRj": {
@@ -1022,11 +1083,12 @@
     "custom_image_text_UxTBxU",
     "custom_image_text_MyLhWJ",
     "custom_image_text_8LA6Tb",
-    "multi_content_eqe6QR",
-    "custom_image_text_aQ4HxB",
+    "rich_text_rAnfrk",
     "rich_text_h7N8FR",
     "custom_image_text_ziYULU",
     "product_compare_3zPw6T",
+    "multi_icon_text_mK8cCK",
+    "image_text_list_nbrNhg",
     "small_image_text_YwVdRj",
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
