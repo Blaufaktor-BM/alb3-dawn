@@ -5343,7 +5343,7 @@ slideshow-component .banner__heading.h1 {
 
 .collapse-small_image_text-media {
   width: 100%;
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .collapse-small_image_text-media img {
@@ -5356,7 +5356,7 @@ slideshow-component .banner__heading.h1 {
 
 .collapse-small_image_text-text {
   width: 100%;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .collapse-exclamation_list ul {
@@ -5392,11 +5392,14 @@ slideshow-component .banner__heading.h1 {
 
   .collapse-small_image_text-media {
     max-width: 8.33%;
+    padding: 15px;
   }
 
   .collapse-small_image_text-text {
     max-width: 91.66%;
+    padding: 15px;
   }
+
 }
 
 /* collapse */
