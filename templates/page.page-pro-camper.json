@@ -157,23 +157,23 @@
     "custom_image_text_MyLhWJ": {
       "type": "custom-image-text",
       "blocks": {
-        "subtitle_jVmwRC": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Filterstufe 1 und 2",
-            "subtitle_color": "#003e5f",
-            "second_font": true
-          }
-        },
         "heading_eW8jGy": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Filter Mobil Protect - Befüllfilter",
+            "heading": "Befüllfilter",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
+            "remove_spacing": true
+          }
+        },
+        "subtitle_jVmwRC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Filterstufe 1 und 2 - Alb Filter Mobil Protect",
+            "subtitle_color": "#003e5f",
+            "second_font": false
           }
         },
         "text_7pyExT": {
@@ -187,8 +187,8 @@
         }
       },
       "block_order": [
-        "subtitle_jVmwRC",
         "heading_eW8jGy",
+        "subtitle_jVmwRC",
         "text_7pyExT"
       ],
       "settings": {
@@ -211,23 +211,23 @@
     "custom_image_text_8LA6Tb": {
       "type": "custom-image-text",
       "blocks": {
-        "subtitle_xhGT4V": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Filterstufe 3",
-            "subtitle_color": "#003e5f",
-            "second_font": true
-          }
-        },
         "heading_WPtXBk": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Filter Travel - Nach dem Wassertank festverbaut",
+            "heading": "Einbaufilter",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
+            "remove_spacing": true
+          }
+        },
+        "subtitle_xhGT4V": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Filterstufe 3 - Alb Filter Travel",
+            "subtitle_color": "#003e5f",
+            "second_font": false
           }
         },
         "text_fV9XHN": {
@@ -241,8 +241,8 @@
         }
       },
       "block_order": [
-        "subtitle_xhGT4V",
         "heading_WPtXBk",
+        "subtitle_xhGT4V",
         "text_fV9XHN"
       ],
       "custom_css": [
@@ -272,8 +272,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pro_camper_set_grafik_web_02.webp",
-            "image_width": 1000,
-            "full_width": true
+            "image_width": 800,
+            "full_width": false
           }
         }
       },
@@ -286,36 +286,8 @@
         "color_scheme": "",
         "full_width": false,
         "content_full_width": true,
-        "padding_top": 40,
+        "padding_top": 72,
         "padding_bottom": 52
-      }
-    },
-    "rich_text_h7N8FR": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mR8NNx": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Alb Duschfilter im Überblick<\/strong><\/p>",
-            "color": "#003e5f",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "font_weight": "700",
-            "second_font": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_mR8NNx"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "content_full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "custom_image_text_ziYULU": {
@@ -362,11 +334,11 @@
             "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-03-drugs_dark-blue.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
             "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-04-microplastics_dark-blue.svg",
-            "text4": "<strong>Filterung von kleinsten Mikroplastikteilchen<\/strong>",
+            "text4": "Filterung von kleinsten Mikroplastikteilchen",
             "image5": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-06-legionella_dark-blue.svg",
-            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
+            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) E. coli Bakterien, Vibrio Cholerae, Shigellen, Salmonellen uvm.",
             "image6": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-10-security_dark-blue.svg",
-            "text6": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>"
+            "text6": "Höchste zertifizierte Sicherheit nach ASTM F838-15A"
           }
         },
         "icon_text_acc_kzayFQ": {
@@ -400,7 +372,7 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial<\/strong><br\/>Active:<strong> <\/strong>Kokosnuss Blockaktivkohle (gesintert)<br\/>Nano: Hohlfasermembrane<br\/><\/p><p><strong>Wechselintervall<\/strong>[1]<br\/>Active: 6 Monate nur in Kombination mit der Nano Kartusche<br\/>Nano: 6 Monate<\/p><p><strong>Filterkapazität<\/strong>[2]<strong> <br\/><\/strong>Active: 3000 L<br\/>Nano: 5000 L<\/p><p><strong>Druckanforderung<\/strong>[3]<strong> <br\/><\/strong>Active: 2,9 Bar<br\/>Nano: 2,1 Bar<br\/><\/p><p><strong>Durchfluss<\/strong>[4]<br\/>Active: 7 l\/min[5]<br\/>Nano: 11 l\/min<\/p>",
+            "top_text": "<p><strong>Filtermaterial<\/strong><br\/>Active:<strong> <\/strong>Kokosnuss Blockaktivkohle (gesintert)<br\/>Nano: Hohlfasermembrane<br\/><\/p><p><strong>Wechselintervall<\/strong>¹<br\/>Active: 6 Monate nur in Kombination mit der Nano Kartusche<br\/>Nano: 6 Monate<\/p><p><strong>Filterkapazität<\/strong>²<strong> <br\/><\/strong>Active: 3000 L<br\/>Nano: 5000 L<\/p><p><strong>Druckanforderung<\/strong>³<strong> <br\/><\/strong>Active: 2,9 Bar<br\/>Nano: 2,1 Bar<br\/><\/p><p><strong>Durchfluss<\/strong>⁴<br\/>Active: 7 l\/min⁵<br\/>Nano: 11 l\/min<\/p>",
             "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
             "title_second_font": true,
             "text_second_font": true
@@ -410,11 +382,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-duschfilter-balance",
+            "button_link1": "shopify:\/\/products\/pro-camper-set",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
-            "button_label2": "Mehr erfahren",
+            "button_label2": "",
             "button_link2": "shopify:\/\/pages\/balance-duschfilter-kartusche",
             "second_btn_color": "#0081be"
           }
@@ -442,7 +414,7 @@
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "",
         "content_bg": "",
-        "padding_top": 0,
+        "padding_top": 90,
         "padding_bottom": 30
       }
     },
@@ -717,6 +689,7 @@
         "item_eHq4Tg": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
             "title": "",
             "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
             "url": ""
@@ -725,16 +698,18 @@
         "item_Q8QGL9": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
             "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
             "url": ""
           }
         },
         "item_nAy3VY": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
             "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
             "url": ""
           }
         }
@@ -757,68 +732,108 @@
         "padding_bottom": 52
       }
     },
-    "small_image_text_YwVdRj": {
-      "type": "small-image-text",
+    "rich_text_EpCtxT": {
+      "type": "rich-text",
       "blocks": {
-        "image_m9qM3W": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
-            "image_width": 120
-          }
-        },
-        "heading_dNG36k": {
+        "heading_Y8YcQ8": {
           "type": "heading",
           "settings": {
-            "heading": "<h2><strong>Alb Dusch - & Badfilter<br\/>Installation<\/strong><\/h2>",
+            "heading": "<p>Alles was Sie für Ihre Reise benötigen.<\/p>",
+            "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
-            "heading_color": "#003e5f",
-            "second_font": true
-          }
-        },
-        "text_wAkrTw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nützliche Anleitungen, Videos zum Einbau und Kartuschenwechsel Ihres Alb Filters.<\/p>",
-            "text_style": "body",
-            "color": "#616161",
+            "font_weight": "700",
             "second_font": false
           }
         },
-        "button_yBdnGM": {
-          "type": "button",
+        "text_za4HW3": {
+          "type": "text",
           "settings": {
-            "button_label": "Anleitungen",
-            "button_link": "shopify:\/\/pages\/installation-duschfilter",
-            "color": "#ffffff",
-            "primary_btn": true,
-            "primary_bg": "#0081be"
+            "text": "<p>Das Pro Camper Set beinhaltet ein Alb Filter Mobil Active Set inkl. dem Protect Vorfiltermodul mit Wechselpads. Die intern verbaute Filterstufe umfasst das Alb Filter Travel Nano Set inkl. einer Wandhalterung. Nach der Installation des Travel Nano hinter der Pumpe ist das Set direkt einsatzbereit. Die Filtergehäuse sind aus hochwertigem Edelstahl gefertigt und überzeugen mit höchster Fertigungsqualität, einer langen Lebensdauer und bestem Korrosionsschutz auch bei Wasser mit erhöhtem Mineral- und Salzgehalt.<\/p>",
+            "second_font": true
           }
         }
       },
       "block_order": [
-        "image_m9qM3W",
-        "heading_dNG36k",
-        "text_wAkrTw",
-        "button_yBdnGM"
+        "heading_Y8YcQ8",
+        "text_za4HW3"
       ],
       "settings": {
-        "image_right": true,
-        "content_wrapper": true,
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "custom_image_text_gLchUU": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_QUyQNG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alb Filter Pro Camper Set<\/strong>",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
+          }
+        },
+        "subtitle_xfKMy9": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Lieferumfang",
+            "subtitle_color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "text_6dcxy6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2x Alb Filter Element Gehäuse<br\/>1x Alb Filter Active Kartusche<br\/>1x Alb Filter Nano Kartusche<br\/>1x Alb filter Protect mit Wechselpad<br\/>1x Alb Filter Mobil Anschluss-Set1x Alb Filter Travel Anschluss-Set<br\/>1 x Alb Filter Wandhalterung<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "button_DCgV98": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/pro-camper-set",
+            "btn_color": "#ffffff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "",
+            "button_link2": "shopify:\/\/products\/pro-camper-set",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUyQNG",
+        "subtitle_xfKMy9",
+        "text_6dcxy6",
+        "button_DCgV98"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pro-Camper-Set-Edelstahl.jpg",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": true,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": true,
+        "remove_content_spacing": true,
+        "top_radius": false,
         "background_color": "#fafafa",
-        "heading": "",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "second_font": false,
-        "mobile_center": true,
-        "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU.png",
-        "image_width": 235,
-        "image_mobile_width": 220,
-        "image_round": false,
-        "padding_top": 43,
-        "padding_bottom": 10
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 30
       }
     },
     "rich_text_QY3y6B": {
@@ -943,8 +958,8 @@
       ],
       "settings": {
         "background_color": "#fafafa",
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
-        "heading": "Noch Fragen zum Produkt?",
+        "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "heading": "Sie haben Fragen?",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#616161",
@@ -1084,12 +1099,12 @@
     "custom_image_text_MyLhWJ",
     "custom_image_text_8LA6Tb",
     "rich_text_rAnfrk",
-    "rich_text_h7N8FR",
     "custom_image_text_ziYULU",
     "product_compare_3zPw6T",
     "multi_icon_text_mK8cCK",
     "image_text_list_nbrNhg",
-    "small_image_text_YwVdRj",
+    "rich_text_EpCtxT",
+    "custom_image_text_gLchUU",
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
