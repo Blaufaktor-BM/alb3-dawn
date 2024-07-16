@@ -14,7 +14,7 @@
     }
   }
 {%- endstyle -%}
-
+{%- assign fetch_priority = 'auto' -%}
 <div class="collapsible-content isolate content-container content-container--full-width">
   <div class="collapsible-content__wrapper section-{{ section.id }}-padding">
     <div class="page-width">
@@ -87,7 +87,100 @@
                   aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                   style="color: {{ section.settings.text_color }};border-color: {{ section.settings.content_border_color }}"
                 >
-                  {{ block.settings.row_content }}
+                  {% if block.settings.row_content != blank %}
+                    {{ block.settings.row_content }}
+                  {% endif %}
+                  {% if block.settings.image1 != blank or block.settings.image2 != blank %}
+                    <div class="collapse_image_list{% if block.settings.image1 != blank and block.settings.image2 != blank %} two_column{% endif %}">
+                      {% if block.settings.image1 != blank %}
+                        <div class="collapse_image_item">
+                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                          {%- capture sizes -%}
+                                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+
+                          {{
+                            block.settings.image1
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                      {% endif %}
+                      {% if block.settings.image2 != blank %}
+                        <div class="collapse_image_item">
+                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                          {%- capture sizes -%}
+                                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+
+                          {{
+                            block.settings.image2
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+
+                  {% if block.settings.small_image1 != blank or block.settings.small_text1 != blank %}
+                    <div class="collapse-small_image_text-item">
+                      {% if block.settings.small_image1 != blank %}
+                        <div class="collapse-small_image_text-media">
+                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                          {%- capture sizes -%}
+                                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+
+                          {{
+                            block.settings.small_image1
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                      {% endif %}
+                      {% if block.settings.small_image1 != blank %}
+                        <div class="collapse-small_image_text-text rte">
+                          {{ block.settings.small_image1 }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.small_image2 != blank or block.settings.small_text2 != blank %}
+                    <div class="collapse-small_image_text-item">
+                      {% if block.settings.small_image2 != blank %}
+                        <div class="collapse-small_image_text-media">
+                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                          {%- capture sizes -%}
+                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                  {%- endcapture -%}
+
+                          {{
+                            block.settings.small_image2
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                      {% endif %}
+                      {% if block.settings.small_image2 != blank %}
+                        <div class="collapse-small_image_text-text rte">
+                          {{ block.settings.small_image2 }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.bottom_text != blank %}
+                    <div class="collapse-bottom_text rte">{{ block.settings.bottom_text }}</div>
+                  {% endif %}
+                  {% if block.settings.exclamation_list != blank %}
+                    <div class="collapse-exclamation_list rte">
+                      {{ block.settings.exclamation_list }}
+                    </div>
+                  {% endif %}
                   {{ block.settings.page.content }}
                 </div>
               </details>
@@ -465,6 +558,46 @@
           "type": "richtext",
           "id": "row_content",
           "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image2"
+        },
+        {
+          "type": "image_picker",
+          "id": "small_image1",
+          "label": "Small Image1"
+        },
+        {
+          "type": "richtext",
+          "id": "small_text1",
+          "label": "Small Text1"
+        },
+        {
+          "type": "image_picker",
+          "id": "small_image2",
+          "label": "Small Image2"
+        },
+        {
+          "type": "richtext",
+          "id": "small_text2",
+          "label": "Small Text2"
+        },
+        {
+          "type": "richtext",
+          "id": "bottom_text",
+          "label": "Bottom Text"
+        },
+        {
+          "type": "richtext",
+          "id": "exclamation_list",
+          "label": "Exclamation List"
         },
         {
           "type": "page",
