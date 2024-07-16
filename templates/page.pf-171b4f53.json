@@ -938,7 +938,7 @@
         "item_cTmKmp": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
             "text": "Campingfilter",
             "url": "shopify:\/\/pages\/faq-camping"
           }
@@ -1027,7 +1027,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
-        "heading": "Fragen und Antworten",
+        "heading": "Fragen & Antworten",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
@@ -1039,51 +1039,6 @@
         "content_border_color": "#fafafa",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "small_image_text_B6V6Ck": {
-      "type": "small-image-text",
-      "blocks": {
-        "text_iLYBDP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.<\/p>",
-            "text_style": "body",
-            "color": "#616161",
-            "second_font": false
-          }
-        },
-        "button_FNaVyd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Ratgeber",
-            "button_link": "shopify:\/\/blogs\/ratgeber\/inhalt",
-            "color": "#0081be",
-            "primary_btn": false,
-            "primary_bg": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_iLYBDP",
-        "button_FNaVyd"
-      ],
-      "settings": {
-        "image_right": false,
-        "content_wrapper": false,
-        "background_color": "",
-        "heading": "Mehr zum Thema Wasser und Wasserfilter",
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "second_font": false,
-        "mobile_center": false,
-        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
-        "image_width": 200,
-        "image_mobile_width": 285,
-        "image_round": false,
-        "padding_top": 54,
-        "padding_bottom": 100
       }
     }
   },
@@ -1105,7 +1060,6 @@
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
     "custom_contact_HqQUU4",
-    "collapsible_content_9KRpAt",
-    "small_image_text_B6V6Ck"
+    "collapsible_content_9KRpAt"
   ]
 }
