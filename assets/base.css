@@ -5526,6 +5526,51 @@ slideshow-component .banner__heading.h1 {
   display: flex;
 }
 
+.item-alb_comparison .item-list {
+  flex-direction: column;
+}
+
+.item-alb_comparison .alb-item_list {
+  display: flex;
+  width: 100%;
+}
+
+.item-alb_comparison .alb-subtitles {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.item-alb_comparison .alb-subtitle {
+  width: 100%;
+  border-bottom: 1px dashed;
+  padding-bottom: 10px;
+}
+
+.list_option2 .item-alb_comparison .alb-subtitle.column1 {
+  max-width: 50%;
+}
+
+.list_option3 .item-alb_comparison .alb-subtitle.column1 {
+  max-width: 33.33%;
+}
+
+.list_option3 .item-alb_comparison .alb-subtitle.column2 {
+  max-width: 66.66%;
+}
+
+.list_option4 .item-alb_comparison .alb-subtitle.column1 {
+  max-width: 25%;
+}
+
+.list_option4 .item-alb_comparison .alb-subtitle.column2 {
+  max-width: 50%;
+}
+
+.list_option4 .item-alb_comparison .alb-subtitle.column3 {
+  max-width: 75%;
+}
+
 .item-content {
   width: 100%;
   padding: 5px;
@@ -6136,42 +6181,6 @@ ul.breadcrumb li a:hover {
   margin-top: 10px;
 }
 
-.item-list_subtitles {
-  display: flex;
-  width: 100%;
-  gap: 10px;
-  text-align: center;
-}
-
-.subtitle-item_subtitle {
-  width: 100%;
-  padding-bottom: 10px;
-}
-
-.list_option2 .subtitle-item_subtitle.column1 {
-  max-width: 50%;
-}
-
-.list_option3 .subtitle-item_subtitle.column1 {
-  max-width: 33.33%;
-}
-
-.list_option3 .subtitle-item_subtitle.column2 {
-  max-width: 66.66%;
-}
-
-.list_option4 .subtitle-item_subtitle.column1 {
-  max-width: 25%;
-}
-
-.list_option4 .subtitle-item_subtitle.column2 {
-  max-width: 50%;
-}
-
-.list_option4 .subtitle-item_subtitle.column3 {
-  max-width: 75%;
-}
-
 @media only screen and (min-width: 750px) {
   .wrapper-second-product_compare.desktop6 .item-second-product_compare {
     max-width: 50%;
@@ -6205,23 +6214,6 @@ ul.breadcrumb li a:hover {
     border-bottom: 1px dashed;
   }
 
-  .item-subtitles {
-    gap: 10px;
-    flex-wrap: nowrap;
-    border-top: none !important;
-    padding: 0 !important;
-  }
-
-  .item-subtitles .item-header {
-    padding-bottom: 10px;
-    border-bottom: 1px dashed;
-    display: block !important;
-  }
-
-  .item-subtitles+div {
-    border: none !important;
-    margin: 0 !important;
-  }
 }
 
 @media only screen and (min-width: 1024px) {

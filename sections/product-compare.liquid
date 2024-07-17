@@ -53,23 +53,39 @@
                   {%- endif -%}
                 </div>
                 <div class="item-list">
-                  {%- for i in (1..4) -%}
-                    {% capture image %}image{{i}}{% endcapture %}
-                    {%- if block.settings[image] != blank -%}
-                      <div class="item-content">
-                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                        {%- capture sizes -%}
+                  <div class="alb-item_list">
+                    {%- for i in (1..4) -%}
+                      {% capture image %}image{{i}}{% endcapture %}
+                      {%- if block.settings[image] != blank -%}
+                        <div class="item-content">
+                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                          {%- capture sizes -%}
                                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                                 {%- endcapture -%}
-                        {{
-                          block.settings[image]
-                          | image_url: width: 1500
-                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                        }}
-                      </div>
-                    {%- endif -%}
-                  {%- endfor -%}
+                          {{
+                            block.settings[image]
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </div>
+                  {% if block.settings.subtitle1 != blank or block.settings.subtitle2 != blank %}
+                    <div class="alb-subtitles">
+                      {% if block.settings.subtitle1 != blank %}
+                        <div class="alb-subtitle column{{ block.settings.subtitle_range1 }}">
+                          {{ block.settings.subtitle1 }}
+                        </div>
+                      {% endif %}
+                      {% if block.settings.subtitle2 != blank %}
+                        <div class="alb-subtitle column{{ block.settings.subtitle_range2 }}">
+                          {{ block.settings.subtitle2 }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
                 </div>
               </div>
             {%- when 'filter_properties' -%}
@@ -228,32 +244,6 @@
                         {%- endif -%}
                       {% endif %}
                     </div>
-                  </div>
-                </div>
-              </div>
-            {% when 'filter_subtitles' %}
-              <div class="item-product_compare item-subtitles{% if block.settings.responsive == 'desktop' %} small-hide{% else %} desktop-hide{% endif %}">
-                <div class="item-header">
-                  {%- if block.settings.title != blank -%}
-                    <div
-                      class="title-item_subtitle"
-                    >
-                      {{ block.settings.title }}
-                    </div>
-                  {%- endif -%}
-                </div>
-                <div class="item-list">
-                  <div class="item-list_subtitles">
-                    {% if block.settings.subtitle1 != blank %}
-                      <div class="subtitle-item_subtitle column{{ block.settings.subtitle_range1 }}">
-                        {{ block.settings.subtitle1 }}
-                      </div>
-                    {% endif %}
-                    {% if block.settings.subtitle2 != blank %}
-                      <div class="subtitle-item_subtitle column{{ block.settings.subtitle_range2 }}">
-                        {{ block.settings.subtitle2 }}
-                      </div>
-                    {% endif %}
                   </div>
                 </div>
               </div>
@@ -445,6 +435,34 @@
           "type": "image_picker",
           "id": "image4",
           "label": "Image4"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle1",
+          "label": "Subtitle1"
+        },
+        {
+          "type": "range",
+          "id": "subtitle_range1",
+          "label": "Subtitle Range1",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 2
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle2",
+          "label": "Subtitle2"
+        },
+        {
+          "type": "range",
+          "id": "subtitle_range2",
+          "label": "Subtitle Range2",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 1
         }
       ]
     },
@@ -599,63 +617,6 @@
           "type": "product",
           "id": "product",
           "label": "Product"
-        }
-      ]
-    },
-    {
-      "type": "filter_subtitles",
-      "name": "Filter Subtitles",
-      "settings": [
-        {
-          "type": "inline_richtext",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "subtitle1",
-          "label": "Subtitle1",
-          "default": "Beim Befüllen"
-        },
-        {
-          "type": "range",
-          "id": "subtitle_range1",
-          "label": "Subtitle Range1",
-          "min": 1,
-          "max": 4,
-          "step": 1,
-          "default": 2
-        },
-        {
-          "type": "inline_richtext",
-          "id": "subtitle2",
-          "label": "Subtitle2",
-          "default": "Verbaut"
-        },
-        {
-          "type": "range",
-          "id": "subtitle_range2",
-          "label": "Subtitle Range2",
-          "min": 1,
-          "max": 4,
-          "step": 1,
-          "default": 1
-        },
-        {
-          "type": "select",
-          "id": "responsive",
-          "label": "Responsive",
-          "options": [
-            {
-              "value": "desktop",
-              "label": "Desktop Show"
-            },
-            {
-              "value": "mobile",
-              "label": "Mobile Show"
-            }
-          ],
-          "default": "desktop"
         }
       ]
     }
