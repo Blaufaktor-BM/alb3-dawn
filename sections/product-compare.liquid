@@ -232,7 +232,7 @@
                 </div>
               </div>
             {% when 'filter_subtitles' %}
-              <div class="item-product_compare item-subtitles">
+              <div class="item-product_compare item-subtitles{% if block.settings.responsive == 'desktop' %} small-hide{% else %} desktop-hide{% endif %}">
                 <div class="item-header">
                   {%- if block.settings.title != blank -%}
                     <div
@@ -640,6 +640,22 @@
           "max": 4,
           "step": 1,
           "default": 1
+        },
+        {
+          "type": "select",
+          "id": "responsive",
+          "label": "Responsive",
+          "options": [
+            {
+              "value": "desktop",
+              "label": "Desktop Show"
+            },
+            {
+              "value": "mobile",
+              "label": "Mobile Show"
+            }
+          ],
+          "default": "desktop"
         }
       ]
     }
