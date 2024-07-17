@@ -233,26 +233,18 @@
         "heading_WPtXBk": {
           "type": "heading",
           "settings": {
-            "heading": "Einbaufilter",
+            "heading": "Alb Filter Travel - Nach dem Wassertank festverbaut",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": true
-          }
-        },
-        "subtitle_xhGT4V": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Filterstufe 3 - Alb Filter Travel",
-            "subtitle_color": "#003e5f",
-            "second_font": false
+            "remove_spacing": false
           }
         },
         "text_fV9XHN": {
           "type": "text",
           "settings": {
-            "text": "<p>Ergänzend verbauen Sie nach dem Tank die Alb Filter Kartusche NANO - eine hochwirksame Keimsperre. Diese schützt Ihr Wasser zuverlässig vor einer möglichen Verkeimung durch Krankheitserreger bzw. Bakterien direkt vor der Entnahme.<\/p><p><strong>3: Nano Keimsperre<br\/><\/strong>Die zertifizierte Nano Kartusche ­filtert ­Keime und Bakterien – zum Beispiel Legionellen– direkt vor der ­Entnahme für den bestmöglichen Schutz Ihrer Gesundheit.<\/p>",
+            "text": "<p>Ergänzend verbauen Sie nach dem Tank die Alb Filter Kartusche NANO - eine hochwirksame Keimsperre. Diese schützt Ihr Wasser zuverlässig vor einer möglichen Verkeimung durch Krankheitserreger bzw. Bakterien direkt vor der Entnahme.<\/p><p><strong>3: Nano Keimsperre<\/strong><br\/>Die zertifizierte Nano Kartusche ­filtert ­Keime und Bakterien – zum Beispiel Legionellen– direkt vor der ­Entnahme für den bestmöglichen Schutz Ihrer Gesundheit.<\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -261,7 +253,6 @@
       },
       "block_order": [
         "heading_WPtXBk",
-        "subtitle_xhGT4V",
         "text_fV9XHN"
       ],
       "custom_css": [
