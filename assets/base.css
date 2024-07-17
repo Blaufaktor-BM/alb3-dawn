@@ -5513,7 +5513,6 @@ slideshow-component .banner__heading.h1 {
 .item-list,
 .item-header {
   width: 100%;
-  padding: 0 5px;
 }
 
 .item-header {
@@ -6149,7 +6148,7 @@ ul.breadcrumb li a:hover {
   padding-bottom: 10px;
 }
 
-.item-subtitles .item-header {
+.item-subtitles .title-item_subtitle {
   padding-bottom: 10px;
   border-bottom: 1px dashed;
   display: block !important;
