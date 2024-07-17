@@ -23,14 +23,16 @@
             "heading": "<p>Wasserfilter mit Active Kartusche <\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
-            "heading_size": "h1",
-            "font_weight": "300"
+            "heading_size": "h0",
+            "font_weight": "600",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Active-Wasserfiltersets von Alb Filter bieten eine herausragende Lösung für die Wasseraufbereitung in verschiedenen Anwendungen, sei es am Wasserhahn, unter der Spüle oder beim Camping. Die Active-Kartusche verwendet hochwertige gesinterte Aktivkohle aus Kokosnüssen, die effektiv Chlor, Pestizide, Medikamentenrückstände, Schwermetalle und Mikroplastik aus dem Wasser entfernt.<br\/><br\/>Diese Technologie sorgt nicht nur für besseren Geschmack und Geruch, sondern auch für eine signifikante Reduzierung von Schadstoffen. Mit einer Adsorptionskapazität, die der Oberfläche eines Fußballfeldes entspricht, gewährleistet die Active-Kartusche sauberes und gesundes Trinkwasser.<\/p>"
+            "text": "<p>Die Active-Wasserfiltersets von Alb Filter bieten eine herausragende Lösung für die Wasseraufbereitung in verschiedenen Anwendungen, sei es am Wasserhahn, unter der Spüle oder beim Camping. Die Active-Kartusche verwendet hochwertige gesinterte Aktivkohle aus Kokosnüssen, die effektiv Chlor, Pestizide, Medikamentenrückstände, Schwermetalle und Mikroplastik aus dem Wasser entfernt.<br\/><br\/>Diese Technologie sorgt nicht nur für besseren Geschmack und Geruch, sondern auch für eine signifikante Reduzierung von Schadstoffen. Mit einer Adsorptionskapazität, die der Oberfläche eines Fußballfeldes entspricht, gewährleistet die Active-Kartusche sauberes und gesundes Trinkwasser.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -55,8 +57,8 @@
         "heading": "Active Trinkwasserfilter",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
@@ -87,8 +89,8 @@
         "heading": "Active Campingfilter",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
