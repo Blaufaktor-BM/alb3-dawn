@@ -289,44 +289,12 @@
             "second_btn_text": "Mehr erfahren",
             "second_btn_url": ""
           }
-        },
-        "item_eVnXez": {
-          "type": "item",
-          "settings": {
-            "subtitle": "Trinkwasserkartusche",
-            "heading": "Active",
-            "heading_size": "h2",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
-            "icon_title": "Anwendungsbereich",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
-            "btn_text": "Kaufen",
-            "btn_url": "",
-            "second_btn_text": "Mehr erfahren",
-            "second_btn_url": ""
-          }
-        },
-        "item_bm9jGp": {
-          "type": "item",
-          "settings": {
-            "subtitle": "Trinkwasserkartusche",
-            "heading": "Active",
-            "heading_size": "h2",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
-            "icon_title": "Anwendungsbereich",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
-            "btn_text": "Kaufen",
-            "btn_url": "",
-            "second_btn_text": "Mehr erfahren",
-            "second_btn_url": ""
-          }
         }
       },
       "block_order": [
         "item_jhFmBn",
         "item_hChQUt",
-        "item_f8DHU9",
-        "item_eVnXez",
-        "item_bm9jGp"
+        "item_f8DHU9"
       ],
       "settings": {
         "top_bg_color": "#e7edef",
