@@ -5526,8 +5526,8 @@ slideshow-component .banner__heading.h1 {
   display: flex;
 }
 
-.item-alb_comparison .item-list {
-  flex-direction: column;
+.item-alb_border .item-list {
+  flex-direction: column-reverse;
 }
 
 .item-alb_comparison .alb-item_list {
@@ -5695,6 +5695,10 @@ slideshow-component .banner__heading.h1 {
   .item-alb_border+div {
     border: none !important;
     margin: 0 !important;
+  }
+
+  .item-alb_border .item-list {
+    flex-direction: column;
   }
 }
 
