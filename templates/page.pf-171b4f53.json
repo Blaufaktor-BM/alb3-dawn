@@ -154,13 +154,41 @@
         "padding_bottom": 60
       }
     },
+    "rich_text_rCYf6Y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rnteXj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Aufbau des Pro Camper Set<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rnteXj"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_image_text_MyLhWJ": {
       "type": "custom-image-text",
       "blocks": {
         "heading_eW8jGy": {
           "type": "heading",
           "settings": {
-            "heading": "Befüllfilter",
+            "heading": "Alb Filter Mobil Protect - Befüllfilter",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -168,18 +196,10 @@
             "remove_spacing": true
           }
         },
-        "subtitle_jVmwRC": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Filterstufe 1 und 2 - Alb Filter Mobil Protect",
-            "subtitle_color": "#003e5f",
-            "second_font": false
-          }
-        },
         "text_7pyExT": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit der Alb Filter ­ACTIVE Kartusche und dem PROTECT Vorfilter filtern Sie bei der Betankung unter anderem Sediment, geschmackliche Beeinträchtigungen sowie organische, nicht reproduzierbare Stoffe.<\/p><p><strong>1: Protect Feststofffilter<br\/><\/strong>Vorfilter zum Schutz der nachfolgenden Filterkartuschen.<\/p><p><strong>2: Active Breitbandfilter<br\/><\/strong>Die Aktivkohlekartusche reduziert organische Schadstoffe und schlechten Geschmack.<\/p>",
+            "text": "<p>Mit der Alb Filter ­ACTIVE Kartusche und dem PROTECT Vorfilter filtern Sie bei der Betankung unter anderem Sediment, geschmackliche Beeinträchtigungen sowie organische, nicht reproduzierbare Stoffe.<\/p><p><strong>1: Protect Feststofffilter<\/strong><br\/>Vorfilter zum Schutz der nachfolgenden Filterkartuschen.<\/p><p><strong>2: Active Breitbandfilter<\/strong><br\/>Die Aktivkohlekartusche reduziert organische Schadstoffe und schlechten Geschmack.<\/p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -188,7 +208,6 @@
       },
       "block_order": [
         "heading_eW8jGy",
-        "subtitle_jVmwRC",
         "text_7pyExT"
       ],
       "settings": {
@@ -1188,6 +1207,7 @@
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
     "custom_image_text_UxTBxU",
+    "rich_text_rCYf6Y",
     "custom_image_text_MyLhWJ",
     "custom_image_text_8LA6Tb",
     "rich_text_rAnfrk",
