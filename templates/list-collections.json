@@ -9,18 +9,505 @@
 */
 {
   "sections": {
-    "main": {
-      "type": "main-list-collections",
+    "breadcrump_mPengH": {
+      "type": "breadcrump",
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
+      }
+    },
+    "column_richtext_4XmfJA": {
+      "type": "column-richtext",
+      "blocks": {
+        "image_pUAhjc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-6d506524--albfilterlogobild.svg",
+            "image_width": 65,
+            "enable_border": true
+          }
+        },
+        "heading_ePU3JA": {
+          "type": "heading",
+          "settings": {
+            "heading": "WASSERFILTER KAUFEN",
+            "color": "#003e5f",
+            "second_font": false,
+            "heading_tag": "h1",
+            "heading_size": "hxl"
+          }
+        },
+        "heading_47xVbz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wasserfilter für Trinkwasser, Dusche, Camping & mehr",
+            "color": "#003e5f",
+            "second_font": false,
+            "heading_tag": "h2",
+            "heading_size": "h2"
+          }
+        },
+        "subheading_TPzRBb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "color": "#003e5f"
+          }
+        },
+        "text_m4dbDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wähle im Online-Shop aus folgenden Kategorien<\/p>",
+            "color": "#616161"
+          }
+        }
+      },
+      "block_order": [
+        "image_pUAhjc",
+        "heading_ePU3JA",
+        "heading_47xVbz",
+        "subheading_TPzRBb",
+        "text_m4dbDB"
+      ],
+      "custom_css": [
+        ".subheading-column_richtext {margin-bottom: 5px;}"
+      ],
+      "settings": {
+        "content_position": "center",
+        "background_color": "#ffffff",
+        "btn_bg": "#0081be",
+        "btn_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_text_list_p73tci": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_C34WRc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-untertisch-1640356052660.jpg",
+            "title": "<p>TRINKWASSERFILTER<\/p>",
+            "text": "<p>Untertisch - Küche<\/p>",
+            "url": "shopify:\/\/collections\/wasserfilter-untertisch"
+          }
+        },
+        "item_qwMyDM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-trinkwasser-wasserhahn-edelstahl-1650957074470.jpg",
+            "title": "<p>TRINKWASSERFILTER<\/p>",
+            "text": "<p>Wasserhahn - Küche<\/p>",
+            "url": "shopify:\/\/collections\/wasserhahnfilter"
+          }
+        },
+        "item_8TbiGJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-duschwasserfilter-1640356052657.jpg",
+            "title": "<p>DUSCHFILTER<\/p>",
+            "text": "<p>Badezimmer<\/p>",
+            "url": "shopify:\/\/collections\/duschfilter"
+          }
+        },
+        "item_c6UwpN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-camping-extern-01-1651662648162.jpg",
+            "title": "<p>CAMPINGFILTER<\/p>",
+            "text": "<p>Externe Betankung<\/p>",
+            "url": "shopify:\/\/collections\/camping-mobil"
+          }
+        },
+        "item_TgKaUY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-camping-intern-01-1651662648168.jpg",
+            "title": "<p>CAMPINGFILTER<\/p>",
+            "text": "<p>Festeinbau<\/p>",
+            "url": "shopify:\/\/collections\/camping-travel"
+          }
+        },
+        "item_cVwy3a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-pro-camper-1675764175164.jpg",
+            "title": "<p>PRO CAMPER SET<\/p>",
+            "text": "<p>Kombi-Filter<\/p>",
+            "url": "shopify:\/\/collections\/pro-camper"
+          }
+        },
+        "item_nLYLCU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-ersatzkartuschen-1640356052658.jpg",
+            "title": "<p>WASSERFILTER KARTUSCHEN<\/p>",
+            "text": "",
+            "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
+          }
+        },
+        "item_NbVwQj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-zubehor-1651820561554.jpg",
+            "title": "<p>ZUBEHÖR<\/p>",
+            "text": "",
+            "url": "shopify:\/\/collections\/zubehor"
+          }
+        },
+        "item_XGRF8L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschau-adapter-01-1651661922980.jpg",
+            "title": "<p>ADAPTER<\/p>",
+            "text": "",
+            "url": "shopify:\/\/collections\/adapter"
+          }
+        }
+      },
+      "block_order": [
+        "item_C34WRc",
+        "item_qwMyDM",
+        "item_8TbiGJ",
+        "item_c6UwpN",
+        "item_TgKaUY",
+        "item_cVwy3a",
+        "item_nLYLCU",
+        "item_NbVwQj",
+        "item_XGRF8L"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title_color": "#003e5f",
+        "column_count": 6,
+        "full_width": true,
+        "image_white": false,
+        "large_image": true,
+        "content_second_font": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_YH33wK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gh776d": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasserfilter hergestellt in Süddeutschland<\/p>",
+            "color": "#121212",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "400",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gh776d"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "image_text_list_FVC79E": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_MLpHE3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-versand-4-1672736067608.png",
+            "title": "<p>Versandkostenfrei<\/p>",
+            "text": "<p><\/p><p>Innerhalb von Deutschland mit unserem Versandpartner DHL.<\/p>",
+            "url": "shopify:\/\/collections\/wasserfilter-untertisch"
+          }
+        },
+        "item_hGx9Yj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/abo-lieferung-1669116131786.png",
+            "title": "<p>Schnelle Lieferung<\/p><p><\/p>",
+            "text": "<p><\/p><p>Versand mit DHL dauert in der Regel nur 1-2 Tage innerhalb Deutschlands.<\/p>",
+            "url": "shopify:\/\/collections\/wasserhahnfilter"
+          }
+        },
+        "item_wLHRdk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-zahlung-1672734729172.png",
+            "title": "<p>Einfache Zahlung<\/p>",
+            "text": "<p><\/p><p>Nutze Zahlungsarten wie Kreditkartenzahlung, Paypal oder Sofortüberweisung<\/p>",
+            "url": "shopify:\/\/collections\/duschfilter"
+          }
+        },
+        "item_zKzhAC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-sicher-1672734729170.png",
+            "title": "<p>Sicher durch SSL Zertifikate<\/p>",
+            "text": "<p><\/p><p>Geschützt durch eine 256-Bit Verschlüsselung. Kaufe sicher<br\/>bei uns ein.<\/p>",
+            "url": "shopify:\/\/collections\/camping-mobil"
+          }
+        }
+      },
+      "block_order": [
+        "item_MLpHE3",
+        "item_hGx9Yj",
+        "item_wLHRdk",
+        "item_zKzhAC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title_color": "#121212",
+        "column_count": 4,
+        "full_width": true,
+        "image_white": false,
+        "large_image": false,
+        "content_second_font": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "product_list_yXxBPr": {
+      "type": "product-list",
+      "settings": {
+        "second_font": true,
+        "heading": "Unsere Bestseller",
+        "enable_border": false,
+        "enable_center": true,
+        "heading_tag": "h3",
+        "heading_size": "h1",
+        "heading_weight": "400",
+        "heading_color": "#003e5f",
+        "border_color": "#cccccc",
+        "product_list": [
+          "wasserfilter-wasserhahn-duo-active-plus",
+          "trinkwasserfilter-element-nano",
+          "camping-wasserfilter-fusion-mobil",
+          "alb-duschfilter-balance"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "second_contact_63DDyD": {
+      "type": "second-contact",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?<\/strong><\/p><p>Rufe uns gerne an oder schreib uns eine <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email<\/a>!<\/p>",
+        "icon": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+        "contact": "<p><strong>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/strong><\/p>",
+        "background_color": "#fafafa",
+        "text_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_9QCVWL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_drgFbk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WASSERFILTER KARTUSCHEN<\/p>",
+            "color": "#333333",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "400",
+            "second_font": false
+          }
+        },
+        "text_yyL8CB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir unterscheiden hierbei zwischen Trinkwasser- und Duschfilter. Erfahre alles über unsere Kartuschen und welche für Deinen Zweck am Besten geeignet ist.<\/p><h3>Die Kartusche bestimmt den Einsatzzweck<\/h3><p>Unsere Wasserfilter sind modulare Filter. Das bedeutet: Du kaufst das Filtergehäuse nur ein einziges Mal und wechselst später lediglich die im Inneren befindliche Kartusche je nach Anwendungszweck.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_drgFbk",
+        "text_yyL8CB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "second_product_compare_AcDdaJ": {
+      "type": "second-product-compare",
+      "blocks": {
+        "item_yEacCL": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "image": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "title": "Trinkwasserfilter",
+            "subtitle": "<strong>ACTIVE<\/strong>",
+            "icon_title": "Geeignet für:",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "info1": "<strong>Frischer Trinkgenuss<\/strong>",
+            "info2": "<strong>Reduziert Schadstoffe<\/strong>",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+          }
+        },
+        "item_AwWGne": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "image": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
+            "title": "Trinkwasserfilter",
+            "subtitle": "<strong>ACTIVE PLUS+<\/strong>",
+            "icon_title": "Geeignet für:",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "info1": "<strong>Frischer Trinkgenuss<\/strong>",
+            "info2": "<strong>Reduziert Schadstoffe<\/strong>",
+            "info3": "<strong>Filtert Bakterien bis 0,7 µm<\/strong>",
+            "info4": "<strong>Reduziert Kalk<\/strong>",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+          }
+        },
+        "item_hDBhte": {
+          "type": "item",
+          "settings": {
+            "enable_active": true,
+            "image": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "title": "Bakterienfilter",
+            "subtitle": "<strong>NANO<\/strong>",
+            "icon_title": "Geeignet für:",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "info1": "<strong>Zertifizierte Keimsperre<\/strong>",
+            "info2": "<strong>Für Trinkwasser und Dusche<\/strong>",
+            "info3": "<strong>Schutz vor E. Coli, Legionellen, uvm.<\/strong>",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+          }
+        },
+        "item_JKqE8t": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "image": "shopify:\/\/shop_images\/filterkartusche-balance-single-1639472314759.jpg",
+            "title": "Duschfilter",
+            "subtitle": "<strong>BALANCE<\/strong>",
+            "icon_title": "Geeignet für:",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "info1": "<strong>Reduziert Schadstoffe<\/strong>",
+            "info2": "<strong>Mineralisierend<\/strong>",
+            "info3": "<strong>pH-Stabilisierend<\/strong>",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": "shopify:\/\/pages\/balance-duschfilter-kartusche"
+          }
+        },
+        "item_AJ4qpe": {
+          "type": "item",
+          "settings": {
+            "enable_active": false,
+            "image": "shopify:\/\/shop_images\/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
+            "title": "Duschfilter",
+            "subtitle": "<strong>SHUNGIT<\/strong>",
+            "icon_title": "Geeignet für:",
+            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "info1": "<strong>Aus Schungitkohle<\/strong>",
+            "info2": "<strong>Energetisierend<\/strong>",
+            "info3": "",
+            "info4": "",
+            "info5": "",
+            "btn_text": "Mehr erfahren",
+            "url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
+          }
+        }
+      },
+      "block_order": [
+        "item_yEacCL",
+        "item_AwWGne",
+        "item_hDBhte",
+        "item_JKqE8t",
+        "item_AJ4qpe"
+      ],
+      "settings": {
+        "desktop_column": 5,
+        "mobile_column": "1",
+        "text_color": "#616161",
+        "link_color": "#0081be",
+        "padding_top": 36,
+        "padding_bottom": 88
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "breadcrump_mPengH",
+    "column_richtext_4XmfJA",
+    "image_text_list_p73tci",
+    "rich_text_YH33wK",
+    "image_text_list_FVC79E",
+    "product_list_yXxBPr",
+    "second_contact_63DDyD",
+    "rich_text_9QCVWL",
+    "second_product_compare_AcDdaJ",
+    "banner",
+    "product-grid"
   ]
 }
