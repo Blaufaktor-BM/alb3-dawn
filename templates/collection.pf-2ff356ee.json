@@ -30,15 +30,25 @@
           "settings": {
             "heading": "WASSERFILTER KAUFEN",
             "color": "#003e5f",
-            "second_font": true,
+            "second_font": false,
+            "heading_tag": "h1",
+            "heading_size": "hxl"
+          }
+        },
+        "heading_47xVbz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wasserfilter für Trinkwasser, Dusche, Camping & mehr",
+            "color": "#003e5f",
+            "second_font": false,
             "heading_tag": "h2",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "subheading_TPzRBb": {
           "type": "subheading",
           "settings": {
-            "subheading": "Wasserfilter für Trinkwasser, Dusche, Camping & mehr",
+            "subheading": "",
             "color": "#003e5f"
           }
         },
@@ -53,6 +63,7 @@
       "block_order": [
         "image_pUAhjc",
         "heading_ePU3JA",
+        "heading_47xVbz",
         "subheading_TPzRBb",
         "text_m4dbDB"
       ],
@@ -183,7 +194,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserfilter hergestellt in Süddeutschland<\/p>",
-            "color": "#003e5f",
+            "color": "#121212",
             "heading_tag": "h2",
             "heading_size": "h2",
             "font_weight": "400",
@@ -270,7 +281,7 @@
         "enable_border": false,
         "enable_center": true,
         "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
@@ -313,7 +324,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>WASSERFILTER KARTUSCHEN<\/p>",
-            "color": "#616161",
+            "color": "#333333",
             "heading_tag": "h2",
             "heading_size": "h1",
             "font_weight": "400",
