@@ -24,13 +24,15 @@
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
-            "font_weight": "300"
+            "font_weight": "600",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Alb Camping Mobil Wasserfilter sind speziell für den Einsatz auf Reisen entwickelt. Die Filter werden direkt bei der Befüllung des Wassertanks eingesetzt und sorgen so für sauberes Trinkwasser auf Reisen. Wähle zwischen Active, Nano oder Fusion, um genau das richtige Set für deine Ansprüche zu finden. Mit einem Wasserfilter von Alb bist du auf Reisen sicher vor Schadstoffen, Bakterien und andere Rückständen im Wasser.<\/p>"
+            "text": "<p>Unsere Alb Camping Mobil Wasserfilter sind speziell für den Einsatz auf Reisen entwickelt. Die Filter werden direkt bei der Befüllung des Wassertanks eingesetzt und sorgen so für sauberes Trinkwasser auf Reisen. Wähle zwischen Active, Nano oder Fusion, um genau das richtige Set für deine Ansprüche zu finden. Mit einem Wasserfilter von Alb bist du auf Reisen sicher vor Schadstoffen, Bakterien und andere Rückständen im Wasser.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -56,6 +58,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/mobil-fusion-caravan-1645109587034.jpg",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "small",
         "desktop_content_position": "middle-right",
         "enable_section_container": true,

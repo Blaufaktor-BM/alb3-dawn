@@ -24,13 +24,15 @@
             "color": "#003e5f",
             "heading_tag": "h1",
             "heading_size": "h1",
-            "font_weight": "300"
+            "font_weight": "600",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Erleben Sie erfrischenden Trinkgenuss mit dem PLUS an Sicherheit dank der ActivePlus-Wasserfilterkartusche von Alb Filter. Diese Kartusche bietet flitert zusätzlich eine Vielzahl von Bakterien und rezuziert den Kalkgehalt im Wasser. Weitere Vorteile umfassen die effektive Filtration und Reduktion von Geruch, Geschmack, Trübung, Chlor, Pestiziden, Mikroplastik und mehr. Genießen Sie sauberes, gesundes Wasser direkt aus dem Hahn mit der ActivePlus-Kartusche. Die ActivePlus-Kartusche ist sowohl für Wasserhahnfilter als auch als Untertisch-Variante verfügbar, um Ihnen maximale Flexibilität zu bieten.<\/p>"
+            "text": "<p>Erleben Sie erfrischenden Trinkgenuss mit dem PLUS an Sicherheit dank der ActivePlus-Wasserfilterkartusche von Alb Filter. Diese Kartusche bietet flitert zusätzlich eine Vielzahl von Bakterien und rezuziert den Kalkgehalt im Wasser. Weitere Vorteile umfassen die effektive Filtration und Reduktion von Geruch, Geschmack, Trübung, Chlor, Pestiziden, Mikroplastik und mehr. Genießen Sie sauberes, gesundes Wasser direkt aus dem Hahn mit der ActivePlus-Kartusche. Die ActivePlus-Kartusche ist sowohl für Wasserhahnfilter als auch als Untertisch-Variante verfügbar, um Ihnen maximale Flexibilität zu bieten.<\/p>",
+            "second_font": true
           }
         }
       },
