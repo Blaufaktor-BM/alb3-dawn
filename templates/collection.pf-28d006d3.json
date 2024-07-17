@@ -21,7 +21,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Ersatzkartuschen für Wasserfilter kaufen<\/p>",
-            "color": "#003e5f",
+            "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
             "heading_size": "h0",
             "font_weight": "600",
@@ -43,7 +43,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "content_full_width": true,
         "padding_top": 16,
@@ -124,7 +124,7 @@
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active",
@@ -154,7 +154,7 @@
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-balance",
@@ -184,7 +184,7 @@
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active-2er-set",
@@ -219,7 +219,7 @@
         "heading_tag": "h3",
         "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "vorfilter-fur-alb-filter-duo-nano",
