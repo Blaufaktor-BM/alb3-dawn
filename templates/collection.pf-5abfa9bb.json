@@ -21,16 +21,18 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserhahnfilter kaufen<\/p>",
-            "color": "#003e5f",
+            "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
-            "heading_size": "h1",
-            "font_weight": "300"
+            "heading_size": "h0",
+            "font_weight": "300",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Frisches Wasser direkt aus der Leitung? Mit dem Trinkwasserfilter von Alb Filter ist das überall jederzeit möglich. Kein Flaschentragen mehr: Unsere hochwertigen Produkte veredeln Ihr Leitungswasser.<\/p>"
+            "text": "<p>Frisches Wasser direkt aus der Leitung? Mit dem Trinkwasserfilter von Alb Filter ist das überall jederzeit möglich. Kein Flaschentragen mehr: Unsere hochwertigen Produkte veredeln Ihr Leitungswasser.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -41,7 +43,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "content_full_width": true,
         "padding_top": 16,
@@ -56,6 +58,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
         "enable_section_container": true,
@@ -72,13 +75,13 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Wasserhahnfilter",
+        "heading": "Wasserhahnfilter DUO",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-wasserhahn-duo-active",
@@ -106,7 +109,7 @@
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
@@ -142,12 +145,15 @@
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
-          "alb-filtergehause-duo-edelstahl"
+          "alb-filtergehause-duo-edelstahl",
+          "alb_gewindeadapter_m28_ag",
+          "alb-buchse-m22",
+          "alb_gewindeadapter_m24_ag"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
