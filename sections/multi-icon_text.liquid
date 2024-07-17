@@ -30,72 +30,193 @@
           {{ section.settings.heading }}
         </{{ section.settings.heading_tag }}>
       {% endif %}
-      {% if section.settings.subtitle1 != blank or section.settings.subtitle2 != blank %}
-        <div class="multi_icon_text_subtitles">
-          {% if section.settings.subtitle1 != blank %}
-            <{{ section.settings.subtitle_tag }}
-              class="multi_icon_text_subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
-              {% if section.settings.subtitle_color != blank %}
-                style="color: {{ section.settings.subtitle_color }}"
-              {% endif %}
-            >
-              {{ section.settings.subtitle1 }}
-            </{{ section.settings.subtitle_tag }}>
-          {% endif %}
-          {% if section.settings.subtitle2 != blank and section.settings.column_count == '2' %}
-            <{{ section.settings.subtitle_tag }}
-              class="multi_icon_text_subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
-              {% if section.settings.subtitle_color != blank %}
-                style="color: {{ section.settings.subtitle_color }}"
-              {% endif %}
-            >
-              {{ section.settings.subtitle2 }}
-            </{{ section.settings.subtitle_tag }}>
-          {% endif %}
-        </div>
-      {% endif %}
-      <div class="list-multi_icon_text">
-        {% for block in section.blocks %}
-          <div class="item-multi_icon_text">
-            <div class="icon-multi_icon_text">
-              <div class="icon_wrapper-multi_icon_text{% if block.settings.icon == blank %} empty{% endif %}">
-                {% if block.settings.icon != blank %}
-                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                  {%- capture sizes -%}
+
+      {% if section.settings.column_count == 2 or section.settings.subtitle2 != blank %}
+        <div class="list-multi_icon_text">
+          <div class="list-multi_icon_text-item">
+            {% if section.settings.subtitle1 != blank %}
+              <{{ section.settings.subtitle_tag }}
+                class="multi_icon_text_subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
+                {% if section.settings.subtitle_color != blank %}
+                  style="color: {{ section.settings.subtitle_color }}"
+                {% endif %}
+              >
+                {{ section.settings.subtitle1 }}
+              </{{ section.settings.subtitle_tag }}>
+            {% endif %}
+            {% assign count = 0 %}
+
+            {% for block in section.blocks %}
+              {% assign count = count | plus: 1 %}
+              {% assign odd_index = count | modulo: 2 %}
+              {% if odd_index == 1 %}
+                <div class="item-multi_icon_text">
+                  <div class="icon-multi_icon_text">
+                    <div class="icon_wrapper-multi_icon_text{% if block.settings.icon == blank %} empty{% endif %}">
+                      {% if block.settings.icon != blank %}
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
                   (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                   (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
               {%- endcapture -%}
-                  {{
-                    block.settings.icon
-                    | image_url: width: 1500
-                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                  }}
+                        {{
+                          block.settings.icon
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="content-multi_icon_text">
+                    {% if block.settings.heading != blank %}
+                      <{{ section.settings.item_heading_tag }}
+                        class="subheading-multi_icon_text {{ section.settings.item_heading_size }}{% if section.settings.item_heading_second_font %} second-font{% endif %}"
+                        style="font-weight: {{ section.settings.item_heading_weight }};{% if section.settings.item_heading_color != blank %} color: {{ section.settings.item_heading_color }}{% endif %}"
+                      >
+                        {{ block.settings.heading }}
+                      </{{ section.settings.item_heading_tag }}>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                      <div
+                        class="text-multi_icon_text rte{% if section.settings.item_textsecond_font %} second-font{% endif %}"
+                        {% if section.settings.item_text_color != blank %}
+                          style="color: {{ section.settings.item_text_color }}"
+                        {% endif %}
+                      >
+                        {{ block.settings.text }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="list-multi_icon_text-item">
+            {% if section.settings.subtitle2 != blank %}
+              <{{ section.settings.subtitle_tag }}
+                class="multi_icon_text_subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
+                {% if section.settings.subtitle_color != blank %}
+                  style="color: {{ section.settings.subtitle_color }}"
+                {% endif %}
+              >
+                {{ section.settings.subtitle2 }}
+              </{{ section.settings.subtitle_tag }}>
+            {% endif %}
+            {% assign count = 0 %}
+            {% for block in section.blocks %}
+              {% assign count = count | plus: 1 %}
+              {% assign odd_index = count | modulo: 2 %}
+              {% if odd_index == 0 %}
+                <div class="item-multi_icon_text">
+                  <div class="icon-multi_icon_text">
+                    <div class="icon_wrapper-multi_icon_text{% if block.settings.icon == blank %} empty{% endif %}">
+                      {% if block.settings.icon != blank %}
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+              {%- endcapture -%}
+                        {{
+                          block.settings.icon
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="content-multi_icon_text">
+                    {% if block.settings.heading != blank %}
+                      <{{ section.settings.item_heading_tag }}
+                        class="subheading-multi_icon_text {{ section.settings.item_heading_size }}{% if section.settings.item_heading_second_font %} second-font{% endif %}"
+                        style="font-weight: {{ section.settings.item_heading_weight }};{% if section.settings.item_heading_color != blank %} color: {{ section.settings.item_heading_color }}{% endif %}"
+                      >
+                        {{ block.settings.heading }}
+                      </{{ section.settings.item_heading_tag }}>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                      <div
+                        class="text-multi_icon_text rte{% if section.settings.item_textsecond_font %} second-font{% endif %}"
+                        {% if section.settings.item_text_color != blank %}
+                          style="color: {{ section.settings.item_text_color }}"
+                        {% endif %}
+                      >
+                        {{ block.settings.text }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        {% if section.settings.subtitle1 != blank or section.settings.subtitle2 != blank %}
+          <div class="multi_icon_text_subtitles">
+            {% if section.settings.subtitle1 != blank %}
+              <{{ section.settings.subtitle_tag }}
+                class="multi_icon_text_subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
+                {% if section.settings.subtitle_color != blank %}
+                  style="color: {{ section.settings.subtitle_color }}"
+                {% endif %}
+              >
+                {{ section.settings.subtitle1 }}
+              </{{ section.settings.subtitle_tag }}>
+            {% endif %}
+            {% if section.settings.subtitle2 != blank and section.settings.column_count == '2' %}
+              <{{ section.settings.subtitle_tag }}
+                class="multi_icon_text_subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
+                {% if section.settings.subtitle_color != blank %}
+                  style="color: {{ section.settings.subtitle_color }}"
+                {% endif %}
+              >
+                {{ section.settings.subtitle2 }}
+              </{{ section.settings.subtitle_tag }}>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="list-multi_icon_text">
+          {% for block in section.blocks %}
+            <div class="item-multi_icon_text">
+              <div class="icon-multi_icon_text">
+                <div class="icon_wrapper-multi_icon_text{% if block.settings.icon == blank %} empty{% endif %}">
+                  {% if block.settings.icon != blank %}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                    {{
+                      block.settings.icon
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {% endif %}
+                </div>
+              </div>
+              <div class="content-multi_icon_text">
+                {% if block.settings.heading != blank %}
+                  <{{ section.settings.item_heading_tag }}
+                    class="subheading-multi_icon_text {{ section.settings.item_heading_size }}{% if section.settings.item_heading_second_font %} second-font{% endif %}"
+                    style="font-weight: {{ section.settings.item_heading_weight }};{% if section.settings.item_heading_color != blank %} color: {{ section.settings.item_heading_color }}{% endif %}"
+                  >
+                    {{ block.settings.heading }}
+                  </{{ section.settings.item_heading_tag }}>
+                {% endif %}
+                {% if block.settings.text != blank %}
+                  <div
+                    class="text-multi_icon_text rte{% if section.settings.item_textsecond_font %} second-font{% endif %}"
+                    {% if section.settings.item_text_color != blank %}
+                      style="color: {{ section.settings.item_text_color }}"
+                    {% endif %}
+                  >
+                    {{ block.settings.text }}
+                  </div>
                 {% endif %}
               </div>
             </div>
-            <div class="content-multi_icon_text">
-              {% if block.settings.heading != blank %}
-                <{{ section.settings.item_heading_tag }}
-                  class="subheading-multi_icon_text {{ section.settings.item_heading_size }}{% if section.settings.item_heading_second_font %} second-font{% endif %}"
-                  style="font-weight: {{ section.settings.item_heading_weight }};{% if section.settings.item_heading_color != blank %} color: {{ section.settings.item_heading_color }}{% endif %}"
-                >
-                  {{ block.settings.heading }}
-                </{{ section.settings.item_heading_tag }}>
-              {% endif %}
-              {% if block.settings.text != blank %}
-                <div
-                  class="text-multi_icon_text rte{% if section.settings.item_textsecond_font %} second-font{% endif %}"
-                  {% if section.settings.item_text_color != blank %}
-                    style="color: {{ section.settings.item_text_color }}"
-                  {% endif %}
-                >
-                  {{ block.settings.text }}
-                </div>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>

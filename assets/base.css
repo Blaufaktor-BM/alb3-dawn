@@ -6366,9 +6366,25 @@ ul.breadcrumb li a:hover {
   width: 100%;
 }
 
+.list-multi_icon_text-item {
+  width: 100%;
+}
+
+.multi_icon_text_subtitle {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 750px) {
   .column2 .item-multi_icon_text {
     max-width: 50%;
+  }
+
+  .column2 .list-multi_icon_text-item {
+    max-width: 50%;
+  }
+
+  .column2 .list-multi_icon_text-item .item-multi_icon_text {
+    max-width: 100%;
   }
 
   .column2 .multi_icon_text_subtitle {
