@@ -6208,7 +6208,7 @@ ul.breadcrumb li a:hover {
   .item-subtitles {
     gap: 10px;
     flex-wrap: nowrap;
-    border-top: none !important;
+    border-top: none;
     padding: 0;
   }
 
