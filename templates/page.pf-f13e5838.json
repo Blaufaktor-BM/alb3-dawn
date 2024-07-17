@@ -157,7 +157,7 @@
       "settings": {
         "title": "",
         "heading_tag": "h2",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
