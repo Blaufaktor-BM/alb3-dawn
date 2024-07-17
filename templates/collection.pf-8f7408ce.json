@@ -137,7 +137,7 @@
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
