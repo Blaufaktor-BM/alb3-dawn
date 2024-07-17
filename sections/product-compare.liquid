@@ -231,6 +231,32 @@
                   </div>
                 </div>
               </div>
+            {% when 'filter_subtitles' %}
+              <div class="item-product_compare item-subtitles">
+                <div class="item-header">
+                  {%- if block.settings.title != blank -%}
+                    <div
+                      class="title-item_subtitle"
+                    >
+                      {{ block.settings.title }}
+                    </div>
+                  {%- endif -%}
+                </div>
+                <div class="item-list">
+                  <div class="item-list_subtitles">
+                    {% if block.settings.subtitle1 != blank %}
+                      <div class="subtitle-item_subtitle column{{ block.settings.subtitle_range1 }}">
+                        {{ block.settings.subtitle1 }}
+                      </div>
+                    {% endif %}
+                    {% if block.settings.subtitle2 != blank %}
+                      <div class="subtitle-item_subtitle column{{ block.settings.subtitle_range2 }}">
+                        {{ block.settings.subtitle2 }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -573,6 +599,47 @@
           "type": "product",
           "id": "product",
           "label": "Product"
+        }
+      ]
+    },
+    {
+      "type": "filter_subtitles",
+      "name": "Filter Subtitles",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle1",
+          "label": "Subtitle1",
+          "default": "Beim Befüllen"
+        },
+        {
+          "type": "range",
+          "id": "subtitle_range1",
+          "label": "Subtitle Range1",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 2
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subtitle2",
+          "label": "Subtitle2",
+          "default": "Verbaut"
+        },
+        {
+          "type": "range",
+          "id": "subtitle_range2",
+          "label": "Subtitle Range2",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 1
         }
       ]
     }
