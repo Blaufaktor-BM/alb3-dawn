@@ -5689,6 +5689,7 @@ slideshow-component .banner__heading.h1 {
     height: 1px;
     border-bottom: 1px dashed;
     display: block !important;
+    width: calc(100% - 10px);
   }
 
   .item-alb_border+div {
