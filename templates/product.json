@@ -245,7 +245,7 @@
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
-        "image_width": "small",
+        "image_width": "medium",
         "row_reverse": false,
         "add_image_spacing": false,
         "remove_content_spacing": false,
@@ -285,7 +285,7 @@
           "settings": {
             "button_label1": "",
             "button_link1": "",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "",
@@ -344,7 +344,7 @@
           "settings": {
             "button_label1": "",
             "button_link1": "",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "",
