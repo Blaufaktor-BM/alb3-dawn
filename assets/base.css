@@ -6437,17 +6437,11 @@ ul.breadcrumb li a:hover {
   max-width: 25%;
 }
 
-.column1 .icon-multi_icon_text {
-  max-width: 16%;
-}
 
 .content-multi_icon_text {
   max-width: 75%;
 }
 
-.column1 .content-multi_icon_text {
-  max-width: 84%;
-}
 
 .icon_wrapper-multi_icon_text.empty {
   padding-bottom: 100%;
@@ -6510,6 +6504,30 @@ ul.breadcrumb li a:hover {
 
   .column2 .multi_icon_text_subtitle {
     max-width: 100%;
+  }
+
+  .column1 .icon-multi_icon_text {
+    max-width: 16%;
+  }
+
+  .column1 .content-multi_icon_text {
+    max-width: 84%;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .wrapper-multi_icon_text {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .multi_icon_text_subtitle,
+  .heading-multi_icon_text {
+    padding: 0 15px;
+  }
+
+  .list-multi_icon_text {
+    padding: 0;
   }
 }
 
