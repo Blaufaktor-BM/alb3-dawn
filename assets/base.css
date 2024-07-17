@@ -5513,6 +5513,7 @@ slideshow-component .banner__heading.h1 {
 .item-list,
 .item-header {
   width: 100%;
+  padding: 0 5px;
 }
 
 .item-header {
