@@ -251,6 +251,7 @@
             "subtitle": "Trinkwasserkartusche",
             "heading": "Active",
             "heading_size": "h2",
+            "image": "shopify:\/\/shop_images\/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
             "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
             "icon_title": "Anwendungsbereich",
             "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
@@ -306,7 +307,7 @@
         "subtitle_color": "#003e5f",
         "text": "<p>Die Alb Trinkwasserfilter-Kartuschen werden überall dort eingesetzt, wo Trinkwasser für den Konsum aufbereitet werden soll. Neben der Filtration von Schadstoffen steht mit der Nano-Kartusche auch eine Bakterienfilter zur Verfügung. Unsere Kartuschen zur Trinkwasseraufbereitung sind sowohl in der heimischen Küche als auch in mobilen Bereichen, wie Campern, Wohnwagen oder Booten, im Einsatz.<\/p>",
         "text_color": "#616161",
-        "bottom_bg_color": "#F3F3F3",
+        "bottom_bg_color": "#f3f3f3",
         "btn_text": "",
         "btn_url": "",
         "btn_color": "#0081be",
@@ -316,7 +317,7 @@
         "item_text_color": "#2d2d2d",
         "item_bottom_color": "#616161",
         "item_btn_bg": "#0081be",
-        "item_btn_color": "#fff",
+        "item_btn_color": "#ffffff",
         "second_btn_color": "#3c3c3c",
         "padding_top": 0,
         "padding_bottom": 0
@@ -479,75 +480,82 @@
         "padding_bottom": 0
       }
     },
-    "column_richtext_U7dYTt": {
-      "type": "column-richtext",
+    "custom_image_text_Peqmwn": {
+      "type": "custom-image-text",
       "blocks": {
-        "image_RQFcBn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-4730ce14--messen1gewinderatgeber.png",
-            "image_width": 200,
-            "enable_border": true
-          }
-        },
-        "heading_6BHqNx": {
+        "heading_piqaNn": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
-            "color": "#ffffff",
-            "second_font": false,
+            "heading": "Unsere Kartuschen gibt es auch im Spar-Abo",
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
           }
         },
-        "subheading_CxfYm7": {
-          "type": "subheading",
+        "subtitle_gnFPeY": {
+          "type": "subtitle",
           "settings": {
-            "subheading": "Gewinde-Ratgeber",
-            "color": "#ffffff"
+            "subtitle": "Ein Glas Leitungswasser bitte!",
+            "subtitle_color": "#003e5f",
+            "second_font": true
           }
         },
-        "text_KzRCVd": {
+        "text_tKkyQh": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Ja!<\/strong>In 85% der Fälle hast Du vermutlich entweder einen Wasserhahn mit einem M22- oder M24-Gewindeanschluss. Im Lieferumfang enthalten ist ein zusätzlicher Edelstahl-Adapter für M24-Gewinde. Für alle anderen Wasserhähne haben wir weitere Adapter in unserem Shop.<br\/><br\/>Am Besten misst Du schon vor Deiner Bestellung das Gewinde deines Wasserhahns und wählst den entsprechenden Adapter direkt bei der Bestellung mit aus. Dann bekommst du den richtigen Adapter kostenfrei zu deiner Bestellung dazu. Mit unserem kleinen Ratgeber kannst Du einfach prüfen welchen Adapter Du benötigst.<br\/><br\/>Alternativ kannst Du Dich auch telefonisch oder per Email beraten lassen. Wir helfen Dir gerne.<\/p>",
-            "color": "#ffffff"
+            "text": "<p>Jeder Wasserfilter braucht in bestimmten Zeitabständen neue Kartuschen. Für die Aufnahmekappen der Active und Active Plus Kartuschen wird ein Biokunststoff (und kein Erdöl!) verwendet.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
-        "button_NfU937": {
+        "button_exPpRN": {
           "type": "button",
           "settings": {
-            "button_label": "Zum Gewinderatgeber",
-            "button_link": "shopify:\/\/pages\/gewinde-ratgeber",
-            "button_label_2": "Montagevideos auf Youtube",
-            "button_link_2": "https:\/\/www.youtube.com\/channel\/UCShDFKD0lWAvwysE0StHbVA"
+            "button_label1": "",
+            "button_link1": "",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "",
+            "second_btn_color": "#0081be"
+          }
+        },
+        "text_ftdFEc": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Gehe auf www.alb-filter.com unter Shop – <a href=\"https:\/\/alb-filter.com\/collections\/wasserfilter-kartuschen\" target=\"_self\">Ersatzkartuschen<\/a><\/li><li>Wähle die gewünschte Filterkartusche und klicke bei Kaufoptionen auf Spar-Abo.<\/li><li>Lege das Spar-Abo in den Warenkorb und schließe die ­Bestellung ab.<\/li><\/ol>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         }
       },
       "block_order": [
-        "image_RQFcBn",
-        "heading_6BHqNx",
-        "subheading_CxfYm7",
-        "text_KzRCVd",
-        "button_NfU937"
+        "heading_piqaNn",
+        "subtitle_gnFPeY",
+        "text_tKkyQh",
+        "button_exPpRN",
+        "text_ftdFEc"
       ],
       "settings": {
-        "content_position": "left",
-        "background_color": "#003e5f",
-        "btn_bg": "#0081be",
-        "btn_color": "#ffffff",
-        "padding_top": 58,
-        "padding_bottom": 53
-      }
-    },
-    "video_popup_Xhjrwg": {
-      "type": "video-popup",
-      "settings": {
-        "video_url": "https:\/\/youtu.be\/WREorMeHM88",
-        "cover_image": "shopify:\/\/shop_images\/alb-filter-duo-video-vorschaubild.jpg",
-        "description": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image": "shopify:\/\/shop_images\/Kartuschenabo_Schmetterling_Kartusche_Kreis_02.webp",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": true,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "#f1f7ff",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "image_text_list_xt6hCi": {
@@ -608,62 +616,6 @@
         "padding_bottom": 0
       }
     },
-    "small_image_text_YwVdRj": {
-      "type": "small-image-text",
-      "blocks": {
-        "heading_wFiUKT": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
-            "heading_tag": "h3",
-            "heading_size": "h2",
-            "heading_color": "#003e5f",
-            "second_font": true
-          }
-        },
-        "text_wAkrTw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
-            "text_style": "body",
-            "color": "#616161",
-            "second_font": false
-          }
-        },
-        "button_yBdnGM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Anleitungen",
-            "button_link": "shopify:\/\/pages\/installation-wasserhahnfilter",
-            "color": "#ffffff",
-            "primary_btn": true,
-            "primary_bg": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wFiUKT",
-        "text_wAkrTw",
-        "button_yBdnGM"
-      ],
-      "settings": {
-        "image_right": false,
-        "content_wrapper": true,
-        "background_color": "#fafafa",
-        "heading": "",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "second_font": false,
-        "mobile_center": true,
-        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
-        "image_width": 235,
-        "image_mobile_width": 220,
-        "image_round": true,
-        "padding_top": 0,
-        "padding_bottom": 10
-      }
-    },
     "custom_contact_HqQUU4": {
       "type": "custom-contact",
       "blocks": {
@@ -691,16 +643,16 @@
       "settings": {
         "background_color": "#fafafa",
         "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
-        "heading": "Noch Fragen zum Produkt?",
+        "heading": "Noch Fragen zu unseren Kartuschen?",
         "heading_tag": "h2",
         "heading_size": "h1",
-        "heading_color": "#616161",
-        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "heading_color": "#003e5f",
+        "text": "<p>Hier erhältst du wichtige Informationen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br\/><\/a>oder kannst mit uns in Kontakt treten. <\/p>",
         "text_color": "#616161",
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
-        "padding_top": 0,
+        "padding_top": 8,
         "padding_bottom": 0
       }
     },
@@ -739,10 +691,8 @@
     "rich_text_RrKDby",
     "product_slider_iwcCEe",
     "product_compare_3zPw6T",
-    "column_richtext_U7dYTt",
-    "video_popup_Xhjrwg",
+    "custom_image_text_Peqmwn",
     "image_text_list_xt6hCi",
-    "small_image_text_YwVdRj",
     "custom_contact_HqQUU4",
     "multi_image_text_BzK4Mg"
   ]
