@@ -431,17 +431,6 @@
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
-        "filter_subtitles_BDELWr": {
-          "type": "filter_subtitles",
-          "settings": {
-            "title": "",
-            "subtitle1": "Beim Befüllen",
-            "subtitle_range1": 2,
-            "subtitle2": "Verbaut",
-            "subtitle_range2": 1,
-            "responsive": "mobile"
-          }
-        },
         "alb_comparison_dHz78d": {
           "type": "alb_comparison",
           "settings": {
@@ -453,17 +442,6 @@
             "image1": "shopify:\/\/shop_images\/Alb-Filterpads-Einzel_1500x_4b6f7b35-c0d8-473e-abfe-5854401c77c6.jpg",
             "image2": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
             "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
-          }
-        },
-        "filter_subtitles_q4eeKh": {
-          "type": "filter_subtitles",
-          "settings": {
-            "title": "",
-            "subtitle1": "Beim Befüllen",
-            "subtitle_range1": 2,
-            "subtitle2": "Verbaut",
-            "subtitle_range2": 1,
-            "responsive": "desktop"
           }
         },
         "filter_properties_cPUEFG": {
@@ -593,9 +571,7 @@
         }
       },
       "block_order": [
-        "filter_subtitles_BDELWr",
         "alb_comparison_dHz78d",
-        "filter_subtitles_q4eeKh",
         "filter_properties_cPUEFG",
         "filter_properties_Twkgfj",
         "filter_properties_qTzd3V",
