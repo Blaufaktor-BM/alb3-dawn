@@ -21,16 +21,18 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Pro Camper Set kaufen<\/p>",
-            "color": "#003e5f",
+            "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
-            "heading_size": "h1",
-            "font_weight": "300"
+            "heading_size": "h0",
+            "font_weight": "300",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Trinkwasserfilter für Wohnmobil, Camper oder Boot. Das Pro Camper Set ist eine Kombination aus Mobil und Travel Filter, d.h. ein Filter für die Betankung von Außen und einen für den Festeinbau. Damit kannst du Reisen dein Trinkwasser direkt aus dem Wasserhahn genießen - ohne Einschränkungen.<\/p>"
+            "text": "<p>Trinkwasserfilter für Wohnmobil, Camper oder Boot. Das Pro Camper Set ist eine Kombination aus Mobil und Travel Filter, d.h. ein Filter für die Betankung von Außen und einen für den Festeinbau. Damit kannst du Reisen dein Trinkwasser direkt aus dem Wasserhahn genießen - ohne Einschränkungen.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -41,7 +43,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "content_full_width": true,
         "padding_top": 16,
@@ -56,6 +58,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/titelbildprocampersetfrauincamper-1663089404330.jpg",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "small",
         "desktop_content_position": "middle-right",
         "enable_section_container": true,
@@ -75,10 +78,10 @@
         "heading": "Pro Camper Set",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "pro-camper-set",
@@ -106,9 +109,9 @@
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "geka-camping-adapter-set",
@@ -116,69 +119,6 @@
           "trinkwasserschlauch-set-wohnmobil",
           "alb-filter-clean-tankreiniger",
           "neoprenhulle"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
-    "product_list_WQAXYz": {
-      "type": "product-list",
-      "settings": {
-        "second_font": true,
-        "heading": "Ersatzkartuschen Spar-Sets",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "wasserfilter-kartusche-active-2er-set",
-          "wasserfilter-kartusche-active-3er-set",
-          "wasserfilter-kartusche-active-plus-2er-set",
-          "wasserfilter-kartusche-active-plus-3er-set",
-          "wasserfilter-kartusche-nano-2er-set",
-          "wasserfilter-kartuschen-set-fusion",
-          "wasserfilter-kartusche-balance-2er-set",
-          "wasserfilter-kartusche-balance-3er-set"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
-    "product_list_jjakWr": {
-      "type": "product-list",
-      "settings": {
-        "second_font": true,
-        "heading": "Zubehör",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
-        "heading_weight": "400",
-        "heading_color": "#003e5f",
-        "border_color": "#cccccc",
-        "product_list": [
-          "vorfilter-fur-alb-filter-duo-nano"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -230,8 +170,6 @@
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
     "product_list_EkBNEh",
-    "product_list_WQAXYz",
-    "product_list_jjakWr",
     "banner",
     "product-grid"
   ]
