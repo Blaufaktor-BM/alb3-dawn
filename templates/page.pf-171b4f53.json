@@ -396,9 +396,9 @@
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
-            "button_label2": "",
-            "button_link2": "shopify:\/\/pages\/balance-duschfilter-kartusche",
-            "second_btn_color": "#0081be"
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "second_btn_color": "#616161"
           }
         }
       },
