@@ -5690,6 +5690,11 @@ slideshow-component .banner__heading.h1 {
     border-bottom: 1px dashed;
     display: block !important;
   }
+
+  .item-alb_border+div {
+    border: none !important;
+    margin: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 749px) {
