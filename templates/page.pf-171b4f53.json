@@ -238,7 +238,7 @@
             "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
+            "remove_spacing": true
           }
         },
         "text_fV9XHN": {
