@@ -6148,7 +6148,7 @@ ul.breadcrumb li a:hover {
   padding-bottom: 10px;
 }
 
-.item-subtitles .title-item_subtitle {
+.item-subtitles .item-header {
   padding-bottom: 10px;
   border-bottom: 1px dashed;
   display: block !important;
@@ -6181,6 +6181,7 @@ ul.breadcrumb li a:hover {
 .item-subtitles {
   border-top: none;
   padding: 0;
+  gap: 10px;
 }
 
 .item-subtitles+div {

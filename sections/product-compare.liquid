@@ -234,13 +234,13 @@
             {% when 'filter_subtitles' %}
               <div class="item-product_compare item-subtitles">
                 <div class="item-header">
-                  <div
-                    class="title-item_subtitle"
-                  >
-                    {%- if block.settings.title != blank -%}
+                  {%- if block.settings.title != blank -%}
+                    <div
+                      class="title-item_subtitle"
+                    >
                       {{ block.settings.title }}
-                    {%- endif -%}
-                  </div>
+                    </div>
+                  {%- endif -%}
                 </div>
                 <div class="item-list">
                   <div class="item-list_subtitles">
