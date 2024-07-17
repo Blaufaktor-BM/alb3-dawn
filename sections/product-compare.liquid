@@ -194,7 +194,7 @@
                                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                                 {%- endcapture -%}
                         {{
-                          block.settings[image]
+                          block.settings.image
                           | image_url: width: 1500
                           | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                         }}

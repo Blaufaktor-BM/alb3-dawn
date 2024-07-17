@@ -6110,6 +6110,31 @@ ul.breadcrumb li a:hover {
   border-right: 1px solid #9b9b9b;
 }
 
+.item-product_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 100%;
+  text-align: center;
+}
+
+.item-product_content>div {
+  width: 100%;
+  padding: 5px;
+}
+
+.item-product_content-img img {
+  max-width: 150px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.item-product-subtitle {
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 750px) {
   .wrapper-second-product_compare.desktop6 .item-second-product_compare {
     max-width: 50%;
@@ -6129,6 +6154,14 @@ ul.breadcrumb li a:hover {
 
   .wrapper-second-product_compare.desktop2 .item-second-product_compare {
     max-width: 50%;
+  }
+
+  .item-product_content {
+    text-align: left;
+  }
+
+  .item-product_content>div {
+    max-width: 100%;
   }
 }
 
@@ -6326,8 +6359,16 @@ ul.breadcrumb li a:hover {
   max-width: 25%;
 }
 
+.column1 .icon-multi_icon_text {
+  max-width: 16%;
+}
+
 .content-multi_icon_text {
   max-width: 75%;
+}
+
+.column1 .content-multi_icon_text {
+  max-width: 84%;
 }
 
 .icon_wrapper-multi_icon_text.empty {
