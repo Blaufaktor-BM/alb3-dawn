@@ -431,6 +431,17 @@
     "product_compare_3zPw6T": {
       "type": "product-compare",
       "blocks": {
+        "filter_subtitles_BDELWr": {
+          "type": "filter_subtitles",
+          "settings": {
+            "title": "",
+            "subtitle1": "Beim Befüllen",
+            "subtitle_range1": 2,
+            "subtitle2": "Verbaut",
+            "subtitle_range2": 1,
+            "responsive": "desktop"
+          }
+        },
         "alb_comparison_dHz78d": {
           "type": "alb_comparison",
           "settings": {
@@ -444,14 +455,15 @@
             "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
           }
         },
-        "filter_subtitles_BDELWr": {
+        "filter_subtitles_q4eeKh": {
           "type": "filter_subtitles",
           "settings": {
             "title": "",
             "subtitle1": "Beim Befüllen",
             "subtitle_range1": 2,
             "subtitle2": "Verbaut",
-            "subtitle_range2": 1
+            "subtitle_range2": 1,
+            "responsive": "mobile"
           }
         },
         "filter_properties_cPUEFG": {
@@ -581,8 +593,9 @@
         }
       },
       "block_order": [
-        "alb_comparison_dHz78d",
         "filter_subtitles_BDELWr",
+        "alb_comparison_dHz78d",
+        "filter_subtitles_q4eeKh",
         "filter_properties_cPUEFG",
         "filter_properties_Twkgfj",
         "filter_properties_qTzd3V",
