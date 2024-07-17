@@ -6209,7 +6209,7 @@ ul.breadcrumb li a:hover {
     gap: 10px;
     flex-wrap: nowrap;
     border-top: none !important;
-    padding: 0;
+    padding: 0 !important;
   }
 
   .item-subtitles .item-header {
