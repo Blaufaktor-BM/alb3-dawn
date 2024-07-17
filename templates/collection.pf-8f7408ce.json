@@ -23,14 +23,16 @@
             "heading": "<p>Alb Trinkwasserfilter Active<\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
-            "heading_size": "h1",
-            "font_weight": "300"
+            "heading_size": "h0",
+            "font_weight": "300",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Effektive Trinkwasser Reinigung durch Aktivkohle. Unsere Active Wasserfilter verbessern nicht nur den Geschmack des Wassers, sondern reduzieren im gleichen Zug Schadstoffe wie Pestizide und Arzneimittelrückstände,  Schwermetalle oder Mikroplastik.<\/p>"
+            "text": "<p>Effektive Trinkwasser Reinigung durch Aktivkohle. Unsere Active Wasserfilter verbessern nicht nur den Geschmack des Wassers, sondern reduzieren im gleichen Zug Schadstoffe wie Pestizide und Arzneimittelrückstände,  Schwermetalle oder Mikroplastik.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -41,7 +43,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "content_full_width": true,
         "padding_top": 16,
@@ -56,6 +58,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Top-Banner_Shop-Collection-Active.jpg",
         "image_overlay_opacity": 0,
+        "enable_shadow": false,
         "image_height": "small",
         "desktop_content_position": "middle-right",
         "enable_section_container": true,
@@ -75,10 +78,10 @@
         "heading": "Trinkwasserfilter Active Unterspüle",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
-        "heading_color": "#003e5f",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
           "trinkwasserfilter-element-active",
@@ -105,8 +108,8 @@
         "heading": "Trinkwasserfilter Active Wasserhahn",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
@@ -130,7 +133,7 @@
       "type": "product-list",
       "settings": {
         "second_font": true,
-        "heading": "Ersatzkartuschen",
+        "heading": "Active Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
