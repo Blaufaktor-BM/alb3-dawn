@@ -23,14 +23,16 @@
             "heading": "<p>Wasserfilter mit Nano Kartusche<\/p>",
             "color": "#003e5f",
             "heading_tag": "h1",
-            "heading_size": "h1",
-            "font_weight": "300"
+            "heading_size": "h0",
+            "font_weight": "600",
+            "second_font": false
           }
         },
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Nano-Wasserfilterkartuschen von Alb Filter bieten umfassenden Schutz vor Mikroorganismen, Bakterien und Schadstoffen und garantieren somit reines und gesundes Trinkwasser. Dank der ultrafeinen Filtertechnologie mit einer Porengröße von nur 0,1 µm sind diese Kartuschen besonders wirksam bei akuten Legionellen-Alarmen oder Verkeimungen in den Rohrleitungen.<br\/><br\/>Dank der innovativen Nano-Membrantechnologie wird das Wasser gründlich gereinigt und gleichzeitig wichtige Mineralien erhalten. Die Kartusche ist vielseitig einsetzbar und findet verwendung in unseren Filtersystemen für den Wasserhahn, Untertisch, für die Dusche und im Camping Bereich.<\/p>"
+            "text": "<p>Die Nano-Wasserfilterkartuschen von Alb Filter bieten umfassenden Schutz vor Mikroorganismen, Bakterien und Schadstoffen und garantieren somit reines und gesundes Trinkwasser. Dank der ultrafeinen Filtertechnologie mit einer Porengröße von nur 0,1 µm sind diese Kartuschen besonders wirksam bei akuten Legionellen-Alarmen oder Verkeimungen in den Rohrleitungen.<br\/><br\/>Dank der innovativen Nano-Membrantechnologie wird das Wasser gründlich gereinigt und gleichzeitig wichtige Mineralien erhalten. Die Kartusche ist vielseitig einsetzbar und findet verwendung in unseren Filtersystemen für den Wasserhahn, Untertisch, für die Dusche und im Camping Bereich.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -55,8 +57,8 @@
         "heading": "Nano Trinkwasserfilter",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h2",
+        "heading_tag": "h2",
+        "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
