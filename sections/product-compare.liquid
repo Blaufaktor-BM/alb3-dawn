@@ -34,7 +34,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {% when 'alb_comparison' %}
-              <div class="item-product_compare item-alb_comparison">
+              <div class="item-product_compare item-alb_comparison{% if block.settings.subtitle1 != blank or block.settings.subtitle2 != blank %} item-alb_border{% endif %}">
                 <div class="item-header">
                   {%- if block.settings.heading != blank -%}
                     <{{ block.settings.heading_tag }}
@@ -51,6 +51,9 @@
                       {{ block.settings.text }}
                     </div>
                   {%- endif -%}
+                  {% if block.settings.subtitle1 != blank or block.settings.subtitle2 != blank %}
+                    <div class="item-header-border"></div>
+                  {% endif %}
                 </div>
                 <div class="item-list">
                   <div class="alb-item_list">
