@@ -629,14 +629,6 @@
     "custom_contact_HqQUU4": {
       "type": "custom-contact",
       "blocks": {
-        "item_cTmKmp": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "text": "Trinkwasserfilter",
-            "url": "shopify:\/\/pages\/faq-trinkwasser"
-          }
-        },
         "item_T6rxdT": {
           "type": "item",
           "settings": {
@@ -647,7 +639,6 @@
         }
       },
       "block_order": [
-        "item_cTmKmp",
         "item_T6rxdT"
       ],
       "settings": {
@@ -657,7 +648,7 @@
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
-        "text": "<p>Hier erhältst du wichtige Informationen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br\/><\/a>oder kannst mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Du bist Dir unsicher welche Kartusche für Dich die Richtige ist? Wir beraten Dich gerne, schreib uns dafür einfach eine E-Mail über unser Kontaktformular oder melde Dich telefonisch bei uns.<\/p>",
         "text_color": "#616161",
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
