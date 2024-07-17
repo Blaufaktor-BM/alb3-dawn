@@ -6148,12 +6148,6 @@ ul.breadcrumb li a:hover {
   padding-bottom: 10px;
 }
 
-.item-subtitles .item-header {
-  padding-bottom: 10px;
-  border-bottom: 1px dashed;
-  display: block !important;
-}
-
 .list_option2 .subtitle-item_subtitle.column1 {
   max-width: 50%;
 }
@@ -6181,10 +6175,6 @@ ul.breadcrumb li a:hover {
 .item-subtitles {
   border-top: none;
   padding: 0;
-}
-
-.item-subtitles+div {
-  border: none;
 }
 
 @media only screen and (min-width: 750px) {
@@ -6223,6 +6213,17 @@ ul.breadcrumb li a:hover {
   .item-subtitles {
     gap: 10px;
     flex-wrap: nowrap;
+  }
+
+  .item-subtitles .item-header {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed;
+    display: block !important;
+  }
+
+  .item-subtitles+div {
+    border: none !important;
+    margin: 0 !important;
   }
 }
 
