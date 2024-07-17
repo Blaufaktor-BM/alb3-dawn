@@ -544,22 +544,6 @@
             "title4": ""
           }
         },
-        "filter_product_set_6VQXPC": {
-          "type": "filter_product_set",
-          "settings": {
-            "title": "<strong>Pro Camper Set<\/strong>",
-            "text": "",
-            "product1": "pro-camper-set",
-            "text1": "",
-            "image1": "shopify:\/\/shop_images\/Pro-Camper-Set-Edelstahl.jpg",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
-            "product4": "",
-            "text4": ""
-          }
-        },
         "filter_product_iP4nPE": {
           "type": "filter_product",
           "settings": {
@@ -589,7 +573,6 @@
         "filter_properties_ymT6b9",
         "filter_properties_yVCbHX",
         "filter_properties_HEjVtU",
-        "filter_product_set_6VQXPC",
         "filter_product_iP4nPE",
         "description_AWH4Gf"
       ],
