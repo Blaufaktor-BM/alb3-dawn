@@ -21,10 +21,10 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Duschfilter kaufen<\/p>",
-            "color": "#003e5f",
+            "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
             "heading_size": "h0",
-            "font_weight": "600",
+            "font_weight": "300",
             "second_font": false
           }
         },
@@ -138,7 +138,7 @@
         "heading": "Duschfilter Zubehör",
         "enable_border": true,
         "enable_center": false,
-        "heading_tag": "h3",
+        "heading_tag": "h2",
         "heading_size": "h1",
         "heading_weight": "400",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
