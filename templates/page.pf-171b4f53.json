@@ -441,7 +441,11 @@
             "text": "<p>Pro Camper Set<\/p>",
             "image1": "shopify:\/\/shop_images\/Alb-Filterpads-Einzel_1500x_4b6f7b35-c0d8-473e-abfe-5854401c77c6.jpg",
             "image2": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "subtitle1": "<strong>Beim Befüllen<\/strong>",
+            "subtitle_range1": 2,
+            "subtitle2": "<strong>Verbaut<\/strong>",
+            "subtitle_range2": 1
           }
         },
         "filter_properties_cPUEFG": {
