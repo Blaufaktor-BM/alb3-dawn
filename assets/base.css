@@ -6133,6 +6133,7 @@ ul.breadcrumb li a:hover {
 
 .item-product-subtitle {
   font-size: 18px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 750px) {
@@ -6161,7 +6162,7 @@ ul.breadcrumb li a:hover {
   }
 
   .item-product_content>div {
-    max-width: 100%;
+    max-width: 50%;
   }
 }
 
