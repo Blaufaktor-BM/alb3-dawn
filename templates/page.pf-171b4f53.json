@@ -444,6 +444,16 @@
             "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
           }
         },
+        "filter_subtitles_BDELWr": {
+          "type": "filter_subtitles",
+          "settings": {
+            "title": "",
+            "subtitle1": "Beim Befüllen",
+            "subtitle_range1": 2,
+            "subtitle2": "Verbaut",
+            "subtitle_range2": 1
+          }
+        },
         "filter_properties_cPUEFG": {
           "type": "filter_properties",
           "settings": {
@@ -572,6 +582,7 @@
       },
       "block_order": [
         "alb_comparison_dHz78d",
+        "filter_subtitles_BDELWr",
         "filter_properties_cPUEFG",
         "filter_properties_Twkgfj",
         "filter_properties_qTzd3V",
