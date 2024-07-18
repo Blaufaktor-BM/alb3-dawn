@@ -35,10 +35,72 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_az7rhD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QVnkRh": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ALB DUO<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "hxl",
+            "font_weight": "200",
+            "second_font": false
+          }
+        },
+        "heading_L8UzMX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasserfilter für den Untertisch<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_yXVURT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "second_font": true
+          }
+        },
+        "button_knAB6Y": {
+          "type": "button",
+          "settings": {
+            "center": false,
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QVnkRh",
+        "heading_L8UzMX",
+        "text_yXVURT",
+        "button_knAB6Y"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_VXphJg"
+    "image_banner_VXphJg",
+    "rich_text_az7rhD"
   ]
 }
