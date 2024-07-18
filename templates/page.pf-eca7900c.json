@@ -34,65 +34,6 @@
         "show_text_below": true
       }
     },
-    "rich_text_zjmbJz": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rfqkqJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "ALB DUO",
-            "color": "#003e5f",
-            "heading_size": "h0",
-            "font_weight": "200"
-          }
-        },
-        "heading_LaNE8f": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Wasserfilter für den Untertisch<\/strong>",
-            "color": "#003e5f",
-            "heading_size": "h1",
-            "font_weight": "700"
-          }
-        },
-        "text_jiew46": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bei jedem Tropfen frisch gefiltertes Trinkwasser<\/p><p>Den Wasserfilter für Ihren Untertisch installieren Sie am Unterbau, direkt unter der Spüle. Dort sorgt der Alb Filter Element für frisch gefilterten Trinkgenuss direkt aus dem Wasserhahn. <\/p>"
-          }
-        },
-        "button_RNbMXW": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/wasserfilter-untertisch",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_rfqkqJ",
-        "heading_LaNE8f",
-        "text_jiew46",
-        "button_RNbMXW"
-      ],
-      "custom_css": [
-        "h2:nth-child(2) {margin: 0;}",
-        ".rich-text__text {margin-top: 5px;}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
-        "full_width": true,
-        "content_full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "custom_image_text_UxTBxU": {
       "type": "custom-image-text",
       "blocks": {
