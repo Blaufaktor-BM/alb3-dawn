@@ -792,19 +792,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "<strong>Kartusche<\/strong>",
-            "title1": "<strong>Active<\/strong>",
-            "title2": "<strong>Active+<\/strong>",
+            "title1": "<strong>Balance<\/strong>",
+            "title2": "<strong>Shungit1<\/strong>",
             "title3": "<strong>Nano<\/strong>",
-            "title4": ""
-          }
-        },
-        "filter_properties_KPt9Gb": {
-          "type": "filter_properties",
-          "settings": {
-            "title": "Mineralien bleiben erhalten",
-            "title1": "<strong>Ja<\/strong>",
-            "title2": "<strong>Ja<\/strong>",
-            "title3": "<strong>Ja<\/strong>",
             "title4": ""
           }
         },
@@ -813,7 +803,7 @@
           "settings": {
             "title": "Geruch, Geschmack, Trübungen, Chlor",
             "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + <\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
           }
@@ -821,8 +811,8 @@
         "filter_properties_bpeDdY": {
           "type": "filter_properties",
           "settings": {
-            "title": "Schwermetalle",
-            "title1": "<strong>+ +<\/strong>",
+            "title": "Mineralisierung",
+            "title1": "<strong>+ + +<\/strong>",
             "title2": "<strong>+ +<\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
@@ -831,9 +821,9 @@
         "filter_properties_VMYfGK": {
           "type": "filter_properties",
           "settings": {
-            "title": "Pestizide, Arzneimittelrückstände",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
+            "title": "pH- Neutralisierung",
+            "title1": "<strong>+ + <\/strong>",
+            "title2": "<strong>+ <\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
           }
@@ -841,10 +831,10 @@
         "filter_properties_w8NVWa": {
           "type": "filter_properties",
           "settings": {
-            "title": "Mikroplastik, Asbestfasern, Sedimente",
-            "title1": "<strong>+<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title": "Bindung von freien Radikalen2",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
             "title4": ""
           }
         },
@@ -907,7 +897,6 @@
       "block_order": [
         "alb_comparison_aBKwyY",
         "filter_properties_rGR948",
-        "filter_properties_KPt9Gb",
         "filter_properties_wc4nN6",
         "filter_properties_bpeDdY",
         "filter_properties_VMYfGK",
