@@ -1294,20 +1294,12 @@
         "heading_piqaNn": {
           "type": "heading",
           "settings": {
-            "heading": "Unsere Kartuschen gibt es auch im Spar-Abo",
+            "heading": "Unsere Kartuschen gibt es auch imSpar-Abo",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
-          }
-        },
-        "subtitle_gnFPeY": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "Ein Glas Leitungswasser bitte!",
-            "subtitle_color": "#003e5f",
-            "second_font": true
+            "remove_spacing": true
           }
         },
         "text_tKkyQh": {
@@ -1332,6 +1324,14 @@
             "second_btn_color": "#0081be"
           }
         },
+        "subtitle_ym8Y8r": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Zum Einrichten des Spar-Abos:",
+            "subtitle_color": "#003e5f",
+            "second_font": false
+          }
+        },
         "text_ftdFEc": {
           "type": "text",
           "settings": {
@@ -1344,9 +1344,9 @@
       },
       "block_order": [
         "heading_piqaNn",
-        "subtitle_gnFPeY",
         "text_tKkyQh",
         "button_exPpRN",
+        "subtitle_ym8Y8r",
         "text_ftdFEc"
       ],
       "settings": {
