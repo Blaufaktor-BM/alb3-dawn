@@ -259,9 +259,11 @@
                   </div>
                 {%- endfor -%}
               </div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-pagination"></div>
+              {%- unless section.block.size == section.settings.slide_count -%}
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+              {%- endunless -%}
             </div>
           </div>
         {%- endif -%}
