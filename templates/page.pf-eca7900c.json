@@ -151,12 +151,67 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "custom_image_text_fmXCQp": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_7gV4bT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modularer Wasserfilter",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "subtitle_mX67G8": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Ein Gehäuse für alle Alb Filterkartuschen",
+            "subtitle_color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_cxEdHN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Element-Variante: Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<br\/><br\/>Fusion-Variante: Kombiniert zwei Element-Gehäuse mit einer Active und einer Nano Kartusche, um ein größtmögliches Filterspektrum und höchste Sicherheit für das Trinkwasser zu bieten.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7gV4bT",
+        "subtitle_mX67G8",
+        "text_cxEdHN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/UNTERTISCH-Element-Fusion-Varianten_2000x_1.webp",
+        "enable_image_ratio": false,
+        "image_ratio": "3_2",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "#fafafa",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_VXphJg",
     "rich_text_az7rhD",
-    "custom_image_text_zBEYVc"
+    "custom_image_text_zBEYVc",
+    "custom_image_text_fmXCQp"
   ]
 }
