@@ -808,6 +808,16 @@
             "title4": "4\/6 Mon."
           }
         },
+        "filter_properties_MbMyCy": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
+            "title1": "~7 l\/min",
+            "title2": "~6 l\/min",
+            "title3": "~11 l\/min",
+            "title4": "~6 l\/min"
+          }
+        },
         "filter_product_set_DDQ83y": {
           "type": "filter_product_set",
           "settings": {
@@ -865,6 +875,7 @@
         "filter_properties_6pLe3Y",
         "filter_properties_anEHTN",
         "filter_properties_EKWgGy",
+        "filter_properties_MbMyCy",
         "filter_product_set_DDQ83y",
         "filter_product_set_a96PjC",
         "filter_product_set_wPV3qi"
