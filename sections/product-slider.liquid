@@ -51,7 +51,7 @@
           {%- endif -%}
         </div>
         {%- if section.blocks.size > 0 -%}
-          <div class="products-product_slider">
+          <div class="products-product_slider {{ section.block.size }}">
             <div class="swiper-container">
               <div class="slider-product_slider swiper-wrapper">
                 {%- for block in section.blocks -%}
@@ -259,12 +259,9 @@
                   </div>
                 {%- endfor -%}
               </div>
-              {{ section.blocks.size }} - {{ section.settings.slide_count }}
-              {%- unless section.block.size == section.settings.slide_count -%}
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-              {%- endunless -%}
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         {%- endif -%}
@@ -329,7 +326,6 @@
   var mySwiper = new Swiper('#shopify-section-{{ section.id }} .swiper-container', {
     speed: {{ section.settings.slide_speed |  times: 1000 |  split: "." | first }},
     direction: 'horizontal',
-    {%- unless section.block.size == section.settings.slide_count -%}
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -338,7 +334,6 @@
       el: '.swiper-pagination',
   	  clickable: true,
     },
-    {%- endunless -%}
     speed: 500,
     spaceBetween: 15,
     loop: false,
