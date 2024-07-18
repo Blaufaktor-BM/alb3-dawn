@@ -933,6 +933,44 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "rich_text_JehDXz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kRKhJ8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kundenstimmen zu unseren Untertischfilter<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kRKhJ8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_kVbCWJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "page_width": true,
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -947,6 +985,8 @@
     "custom_image_text_6fjxHW",
     "custom_image_text_zFwchw",
     "product_compare_UaxmYf",
-    "small_image_text_y6paK3"
+    "small_image_text_y6paK3",
+    "rich_text_JehDXz",
+    "custom_liquid_kVbCWJ"
   ]
 }
