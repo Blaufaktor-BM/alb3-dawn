@@ -225,7 +225,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
             "image_width": 610,
-            "full_width": true
+            "full_width": true,
+            "remove_spacing": true,
+            "top_radius": true,
+            "bottom_radius": false
           }
         }
       },
@@ -336,7 +339,11 @@
             "text": "<p>Alb Trinkwasserfilter-Kartuschen<\/p>",
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png"
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "subtitle1": "",
+            "subtitle_range1": 2,
+            "subtitle2": "",
+            "subtitle_range2": 1
           }
         },
         "filter_properties_cPUEFG": {
@@ -516,7 +523,7 @@
           "settings": {
             "button_label1": "",
             "button_link1": "",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
