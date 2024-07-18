@@ -11,13 +11,34 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_VXphJg": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ELEMENT-Untertisch-Kuche-Panorama-Kuche_Topbanner-Landing_01.webp",
+        "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
+        "image_overlay_opacity": 0,
+        "enable_shadow": false,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_VXphJg"
   ]
 }
