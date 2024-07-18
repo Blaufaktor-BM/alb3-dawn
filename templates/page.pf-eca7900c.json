@@ -1044,8 +1044,9 @@
         "item_fcxm87": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
             "text": "Trinkwasserfilter",
-            "url": ""
+            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
           }
         }
       },
