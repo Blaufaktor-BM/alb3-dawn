@@ -5116,6 +5116,12 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
+.top_bg-product_slider img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 989px) {
   .section-product_slider .page-width {
     padding: 0;
