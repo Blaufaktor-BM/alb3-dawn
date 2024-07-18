@@ -463,6 +463,121 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "custom_image_text_6fjxHW": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_WWmKrt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Untertisch Nano",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
+          }
+        },
+        "text_azzQDm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.<br\/><br\/>Schützt vor einer Verkeimung mit Bakterien, Keimen, Schimmelpilzen und Legionellen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <br\/><br\/><\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "icon_text_xkj9wt": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": false,
+            "font_size": 16,
+            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) E. coli Bakterien, Vibrio Cholerae, Shigellen, Salmonellen uvm.",
+            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "text2": "Hochleistungsmembran",
+            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "text3": "Große Filterkapazität",
+            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text4": "Höchste zertifizierte Sicherheit nach ASTM F838-15A",
+            "text5": "",
+            "text6": ""
+          }
+        },
+        "icon_text_acc_Cxeemj": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "title_second_font": true,
+            "text_second_font": true,
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
+            "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
+            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<br\/><\/strong><br\/>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
+          }
+        },
+        "text_acc_BJCQe8": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial:<\/strong> Bioton<br\/><br\/><strong>Wechselinterval1 <\/strong>4 Monate<br\/><br\/><strong>Filterkapazität2 <\/strong>3000 L<br\/><br\/><strong>Druckanforderung3 <\/strong>3,0 Bar<br\/><br\/><strong>Durchfluss4 <\/strong>6 l\/min5<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "title_second_font": true,
+            "text_second_font": true
+          }
+        },
+        "button_taT3Ry": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WWmKrt",
+        "text_azzQDm",
+        "icon_text_xkj9wt",
+        "icon_text_acc_Cxeemj",
+        "text_acc_BJCQe8",
+        "button_taT3Ry"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -473,6 +588,7 @@
     "custom_image_text_fmXCQp",
     "rich_text_3tbPcD",
     "custom_image_text_WY8KbW",
-    "custom_image_text_FMmA8y"
+    "custom_image_text_FMmA8y",
+    "custom_image_text_6fjxHW"
   ]
 }
