@@ -1120,6 +1120,207 @@
         "padding_bottom": 0
       }
     },
+    "product_compare_Nzahni": {
+      "type": "product-compare",
+      "blocks": {
+        "alb_comparison_FffAbK": {
+          "type": "alb_comparison",
+          "settings": {
+            "heading": "Vergleich der Filtereigenschaften",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_color": "#003e5f",
+            "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
+            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "image3": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "subtitle1": "",
+            "subtitle_range1": 2,
+            "subtitle2": "",
+            "subtitle_range2": 1
+          }
+        },
+        "filter_properties_8rMHjM": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "<strong>Kartusche<\/strong>",
+            "title1": "<strong>Balance<\/strong>",
+            "title2": "<strong>Shungit1<\/strong>",
+            "title3": "<strong>Nano<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_m6Lwze": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Geruch, Geschmack, Trübungen, Chlor",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + <\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_f7nLe3": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mineralisierung",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_9QcmqJ": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "pH- Neutralisierung",
+            "title1": "<strong>+ + <\/strong>",
+            "title2": "<strong>+ <\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_NxmjCe": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Bindung von freien Radikalen2",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_Yf3xPp": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Adsorptiv und katalythische Filtration",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_8rRb6m": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Bakterizid (z.B. Schimmelbildung)",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+ +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_kFxfqg": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mikroplastik, Sedimente",
+            "title1": "<strong>+<\/strong>",
+            "title2": "<strong>+<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_mNdi6X": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Kalkreduktion",
+            "title1": "<strong>+<\/strong>",
+            "title2": "<strong>-<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_x6cEL7": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Keime und Bakterien",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>-<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_3Pa4Yc": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Legionellen",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>-<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_JjMnAk": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Wechselintervall",
+            "title1": "6 Monate",
+            "title2": "6 Monate",
+            "title3": "6 Monate",
+            "title4": ""
+          }
+        },
+        "filter_properties_radgrr": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
+            "title1": "15 l\/min",
+            "title2": "15 l\/min",
+            "title3": "11 l\/min",
+            "title4": ""
+          }
+        },
+        "filter_product_set_rELzaJ": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "",
+            "text": "",
+            "product1": "wasserfilter-kartusche-balance",
+            "text1": "",
+            "product2": "alb-filterkartusche-shungit",
+            "text2": "",
+            "product3": "wasserfilter-kartusche-nano",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        },
+        "description_dMhF6R": {
+          "type": "description",
+          "settings": {
+            "description": "<p>1 Leistungsmerkmale laut Studien der Yonsei Univerity, Alexey Rybakov, V.A. Khromushin, Krutous und Rysev, Khadartsev3 <br\/>2  Laut einer Studie der Yonsei University \/ Korea, ist Shungit in der Lage, freie Radikale aufzunehmen und zu binden. Dies trägt zur Verringerung von oxidativem Stress und Entzündungen bei, die durch UVB-Strahlung verursacht werden. Eine verminderung freier Radikale haben einen positiven Effekt auf den Alterungsprozess der Haut.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "alb_comparison_FffAbK",
+        "filter_properties_8rMHjM",
+        "filter_properties_m6Lwze",
+        "filter_properties_f7nLe3",
+        "filter_properties_9QcmqJ",
+        "filter_properties_NxmjCe",
+        "filter_properties_Yf3xPp",
+        "filter_properties_8rRb6m",
+        "filter_properties_kFxfqg",
+        "filter_properties_mNdi6X",
+        "filter_properties_x6cEL7",
+        "filter_properties_3Pa4Yc",
+        "filter_properties_JjMnAk",
+        "filter_properties_radgrr",
+        "filter_product_set_rELzaJ",
+        "description_dMhF6R"
+      ],
+      "settings": {
+        "list_option": "3",
+        "text_color": "#2d2d2d",
+        "show_button": true,
+        "btn_text": "Kaufen",
+        "btn_bg": "#0081be",
+        "btn_color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
     "custom_image_text_Peqmwn": {
       "type": "custom-image-text",
       "blocks": {
@@ -1337,6 +1538,7 @@
     "product_compare_8Tmhic",
     "rich_text_pwVc6V",
     "product_slider_CVMRzt",
+    "product_compare_Nzahni",
     "custom_image_text_Peqmwn",
     "custom_liquid_XHBMWN",
     "image_text_list_xt6hCi",
