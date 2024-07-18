@@ -298,6 +298,16 @@
             "text10": ""
           }
         },
+        "text_acc_hA93Tt": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss <strong>Blockaktivkohle <\/strong>(gesintert)<br\/><br\/><strong>Wechselinterval1 <\/strong>4 Monate<br\/><br\/><strong>Filterkapazität2 <\/strong>3000 L<br\/><br\/><strong>Druckanforderung3 <\/strong>2,8 Bar<br\/><br\/><strong>Durchfluss4 <\/strong>7 l\/min5<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "title_second_font": true,
+            "text_second_font": true
+          }
+        },
         "button_tALwYh": {
           "type": "button",
           "settings": {
@@ -317,6 +327,7 @@
         "text_7xdnWt",
         "icon_text_NCbFxy",
         "icon_text_acc_fhMiej",
+        "text_acc_hA93Tt",
         "button_tALwYh"
       ],
       "settings": {
