@@ -346,6 +346,119 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "custom_image_text_FMmA8y": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_UTCXwQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Untertisch Active Plus+",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
+          }
+        },
+        "text_LxdLGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das Plus gegen Bakterien und Keime<br\/><br\/>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von 0,7 µm effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die innovative 2-fach Enthärterstufe reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "icon_text_TztDpF": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": false,
+            "font_size": 16,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "Reduzierung von Mikroplastik",
+            "text5": "",
+            "text6": ""
+          }
+        },
+        "icon_text_acc_dHzt8H": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "title_second_font": true,
+            "text_second_font": true,
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "text5": "",
+            "text6": "",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
+          }
+        },
+        "text_acc_pgrYQx": {
+          "type": "text_acc",
+          "settings": {
+            "heading": "Technische Daten",
+            "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss <strong>Blockaktivkohle <\/strong>(gesintert)<br\/><br\/><strong>Wechselinterval1 <\/strong>4 Monate<br\/><br\/><strong>Filterkapazität2 <\/strong>3000 L<br\/><br\/><strong>Druckanforderung3 <\/strong>2,8 Bar<br\/><br\/><strong>Durchfluss4 <\/strong>7 l\/min5<\/p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "title_second_font": true,
+            "text_second_font": true
+          }
+        },
+        "button_zAFMz8": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-active-untertisch-komplett-set-schnellkupplung",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UTCXwQ",
+        "text_LxdLGG",
+        "icon_text_TztDpF",
+        "icon_text_acc_dHzt8H",
+        "text_acc_pgrYQx",
+        "button_zAFMz8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactiveplusfilterkartusche-1639472477710.jpg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -355,6 +468,7 @@
     "custom_image_text_zBEYVc",
     "custom_image_text_fmXCQp",
     "rich_text_3tbPcD",
-    "custom_image_text_WY8KbW"
+    "custom_image_text_WY8KbW",
+    "custom_image_text_FMmA8y"
   ]
 }
