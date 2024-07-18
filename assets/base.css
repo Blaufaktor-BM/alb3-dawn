@@ -4607,23 +4607,6 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
-/* richtext */
-.rich-text__icon img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-width: 80px;
-  margin: 0 auto;
-}
-
-.rich-text__blocks .rich-text__subtitle {
-  margin: 0;
-}
-
-.rich-text__blocks .rich-text__icon+h2 {
-  margin: 0;
-}
-
 .rich-text__image-wrapper {
   width: 100%;
   margin: 0 auto;
@@ -4637,6 +4620,10 @@ slideshow-component .banner__heading.h1 {
 
 .rich-text__blocks.content_full_width {
   max-width: 100%;
+}
+
+.rich-text__blocks.content_full_width .rich-text__wrapper {
+  width: 100%;
 }
 
 .rich-text__blocks.content_full_width .rich-text__buttons {
