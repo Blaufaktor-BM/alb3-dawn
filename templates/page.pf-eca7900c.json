@@ -61,10 +61,18 @@
             "second_font": false
           }
         },
+        "subtitle_xBM4gR": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Bei jedem Tropfen frisch gefiltertes Trinkwasser",
+            "color": "#3c3c3c",
+            "second_font": false
+          }
+        },
         "text_yXVURT": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Den Wasserfilter für Ihren Untertisch installieren Sie am Unterbau, direkt unter der Spüle. Dort sorgt der Alb Filter Element für frisch gefilterten Trinkgenuss direkt aus dem Wasserhahn. <\/p>",
             "second_font": true
           }
         },
@@ -72,8 +80,8 @@
           "type": "button",
           "settings": {
             "center": false,
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
+            "button_label": "Zum Shop",
+            "button_link": "shopify:\/\/collections\/wasserfilter-untertisch",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -84,6 +92,7 @@
       "block_order": [
         "heading_QVnkRh",
         "heading_L8UzMX",
+        "subtitle_xBM4gR",
         "text_yXVURT",
         "button_knAB6Y"
       ],
