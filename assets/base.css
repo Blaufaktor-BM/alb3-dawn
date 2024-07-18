@@ -5108,6 +5108,10 @@ slideshow-component .banner__heading.h1 {
   display: block !important;
 }
 
+.product-slider__acc summary svg {
+  right: 0;
+}
+
 @media only screen and (max-width: 989px) {
   .section-product_slider .page-width {
     padding: 0;
