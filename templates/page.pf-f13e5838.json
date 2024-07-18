@@ -932,6 +932,12 @@
             "product4": "",
             "text4": ""
           }
+        },
+        "description_CTUXPj": {
+          "type": "description",
+          "settings": {
+            "description": "<p>1 Leistungsmerkmale laut Studien der Yonsei Univerity, Alexey Rybakov, V.A. Khromushin, Krutous und Rysev, Khadartsev3 <br\/>2  Laut einer Studie der Yonsei University \/ Korea, ist Shungit in der Lage, freie Radikale aufzunehmen und zu binden. Dies trägt zur Verringerung von oxidativem Stress und Entzündungen bei, die durch UVB-Strahlung verursacht werden. Eine verminderung freier Radikale haben einen positiven Effekt auf den Alterungsprozess der Haut.<br\/><\/p>"
+          }
         }
       },
       "block_order": [
@@ -949,7 +955,8 @@
         "filter_properties_RrcQri",
         "filter_properties_WpNq94",
         "filter_properties_hxCCm6",
-        "filter_product_set_qmFHFX"
+        "filter_product_set_qmFHFX",
+        "description_CTUXPj"
       ],
       "settings": {
         "list_option": "3",
