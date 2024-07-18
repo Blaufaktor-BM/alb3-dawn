@@ -205,6 +205,112 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "rich_text_3tbPcD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XnipEy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alb Untertisch-Wasserfilter im Überblick<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XnipEy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 48
+      }
+    },
+    "custom_image_text_WY8KbW": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_knck3B": {
+          "type": "heading",
+          "settings": {
+            "heading": "Untertisch Active",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": true
+          }
+        },
+        "text_7xdnWt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schadstoffrückhalt und erfrischender Trinkgenuss.<br\/><br\/>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "icon_text_NCbFxy": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 60,
+            "second_font": false,
+            "font_size": 16,
+            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
+            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "text2": "Reduzierung von Schwermetallen",
+            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
+            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "Reduzierung von Mikroplastik",
+            "text5": "",
+            "text6": ""
+          }
+        },
+        "button_tALwYh": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Schaltflächenbeschriftung",
+            "button_link1": "",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Mehr erfahren",
+            "button_link2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_knck3B",
+        "text_7xdnWt",
+        "icon_text_NCbFxy",
+        "button_tALwYh"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactivefilterkartusche-1639472477696.jpg",
+        "enable_image_ratio": true,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -212,6 +318,8 @@
     "image_banner_VXphJg",
     "rich_text_az7rhD",
     "custom_image_text_zBEYVc",
-    "custom_image_text_fmXCQp"
+    "custom_image_text_fmXCQp",
+    "rich_text_3tbPcD",
+    "custom_image_text_WY8KbW"
   ]
 }
