@@ -311,8 +311,8 @@
         "button_tALwYh": {
           "type": "button",
           "settings": {
-            "button_label1": "Schaltflächenbeschriftung",
-            "button_link1": "",
+            "button_label1": "Kaufen",
+            "button_link1": "shopify:\/\/products\/alb-filter-active-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
             "hide_icon": false,
