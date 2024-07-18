@@ -51,7 +51,7 @@
           {%- endif -%}
         </div>
         {%- if section.blocks.size > 0 -%}
-          <div class="products-product_slider {{section.settings.slide_count}}{% if section.blocks.size == section.settings.slide_count %} desktop-control-hide{% endif %}">
+          <div class="products-product_slider {% if section.blocks.size == section.settings.slide_count %} desktop-control-hide{% endif %}">
             <div class="swiper-container">
               <div class="slider-product_slider swiper-wrapper">
                 {%- for block in section.blocks -%}

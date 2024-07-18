@@ -5134,6 +5134,15 @@ slideshow-component .banner__heading.h1 {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+
+  .desktop-control-hide .swiper-button-prev,
+  .desktop-control-hide .swiper-button-next,
+  .desktop-control-hide .swiper-pagination {
+    display: none !important;
+  }
+}
+
 /* product slider */
 /* instagram */
 .wrapper-instagram {
