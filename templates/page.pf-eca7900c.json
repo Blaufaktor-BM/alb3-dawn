@@ -275,6 +275,28 @@
             "text6": ""
           }
         },
+        "icon_text_acc_fhMiej": {
+          "type": "icon_text_acc",
+          "settings": {
+            "heading": "Filtereigenschaften",
+            "title_second_font": true,
+            "text_second_font": true,
+            "image_width": 50,
+            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
+            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
+            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
+            "text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden<\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "text5": "<p>Gegen Bakterien und Keime<\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
+            "text6": "<p>Kalkreduktion \/ Wasserenthärtung<\/p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "text7": "",
+            "text8": "",
+            "text9": "",
+            "text10": ""
+          }
+        },
         "button_tALwYh": {
           "type": "button",
           "settings": {
@@ -293,6 +315,7 @@
         "heading_knck3B",
         "text_7xdnWt",
         "icon_text_NCbFxy",
+        "icon_text_acc_fhMiej",
         "button_tALwYh"
       ],
       "settings": {
