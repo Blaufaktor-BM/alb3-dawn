@@ -51,7 +51,7 @@
           {%- endif -%}
         </div>
         {%- if section.blocks.size > 0 -%}
-          <div class="products-product_slider {% if section.blocks.size == section.settings.slide_count %} desktop-control-hide{% endif %}">
+          <div class="products-product_slider{% if section.blocks.size == section.settings.slide_count %} desktop-control-hide{% endif %}">
             <div class="swiper-container">
               <div class="slider-product_slider swiper-wrapper">
                 {%- for block in section.blocks -%}
@@ -340,9 +340,11 @@
     slidesPerView: {{ section.settings.slide_count }},
     slidesPerGroup: 1,
     breakpoints: {
+      {% if section.blocks.size > 2 %}
       1200: {
         slidesPerView: 2.3,
       },
+      {% endif %}
       750: {
         slidesPerView: 1.3,
         centeredSlides: true,
