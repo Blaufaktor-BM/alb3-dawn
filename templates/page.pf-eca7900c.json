@@ -96,6 +96,9 @@
         "text_yXVURT",
         "button_knAB6Y"
       ],
+      "custom_css": [
+        "h2 {margin: 0}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
