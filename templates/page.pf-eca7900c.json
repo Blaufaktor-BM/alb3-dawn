@@ -108,11 +108,55 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_image_text_zBEYVc": {
+      "type": "custom-image-text",
+      "blocks": {
+        "icon_text_k64xdq": {
+          "type": "icon_text",
+          "settings": {
+            "image_width": 90,
+            "second_font": false,
+            "font_size": 16,
+            "image1": "shopify:\/\/shop_images\/pf-352dc002--albfiltericonsetparameters13cornervalve.svg",
+            "text1": "Anschluss direkt am Kaltwasser-Eckventil",
+            "image2": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
+            "text2": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
+            "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
+            "text3": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit.",
+            "image4": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month_4e9f93f7-538b-40de-bac2-9f31bbcf702b.svg",
+            "text4": "Filterkartuschen mit einer Höchstnutzungsdauer von 6 Monaten",
+            "image5": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "text5": "Design, Fertigung und Produktion in Süddeutschland",
+            "text6": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_k64xdq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "small",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_VXphJg",
-    "rich_text_az7rhD"
+    "rich_text_az7rhD",
+    "custom_image_text_zBEYVc"
   ]
 }
