@@ -841,9 +841,9 @@
         "filter_properties_3RQPfp": {
           "type": "filter_properties",
           "settings": {
-            "title": "Kalkreduktion",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
+            "title": "Adsorptiv und katalythische Filtration",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
             "title3": "<strong>-<\/strong>",
             "title4": ""
           }
@@ -851,30 +851,70 @@
         "filter_properties_9J37qN": {
           "type": "filter_properties",
           "settings": {
-            "title": "Keime und Bakterien",
+            "title": "Bakterizid (z.B. Schimmelbildung)",
             "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ +<\/strong>",
+            "title3": "<strong>-<\/strong>",
             "title4": ""
           }
         },
         "filter_properties_L7mF48": {
           "type": "filter_properties",
           "settings": {
-            "title": "Wechselintervall",
-            "title1": "4 Monate",
-            "title2": "4 Monate",
-            "title3": "6 Mon.",
+            "title": "Mikroplastik, Sedimente",
+            "title1": "<strong>+<\/strong>",
+            "title2": "<strong>+<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
             "title4": ""
           }
         },
         "filter_properties_8U3LBx": {
           "type": "filter_properties",
           "settings": {
+            "title": "Kalkreduktion",
+            "title1": "<strong>+<\/strong>",
+            "title2": "<strong>-<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_G8CDNU": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Keime und Bakterien",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>-<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_RrcQri": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Legionellen",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>-<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_WpNq94": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Wechselintervall",
+            "title1": "6 Monate",
+            "title2": "6 Monate",
+            "title3": "6 Monate",
+            "title4": ""
+          }
+        },
+        "filter_properties_hxCCm6": {
+          "type": "filter_properties",
+          "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~6 l\/min",
-            "title3": "~11 l\/min",
+            "title1": "15 l\/min",
+            "title2": "15 l\/min",
+            "title3": "11 l\/min",
             "title4": ""
           }
         },
@@ -883,9 +923,9 @@
           "settings": {
             "title": "",
             "text": "",
-            "product1": "wasserfilter-kartusche-active",
+            "product1": "wasserfilter-kartusche-balance",
             "text1": "",
-            "product2": "wasserfilter-kartusche-active-plus",
+            "product2": "wasserfilter-kartusche-nano",
             "text2": "",
             "product3": "wasserfilter-kartusche-nano",
             "text3": "",
@@ -905,6 +945,10 @@
         "filter_properties_9J37qN",
         "filter_properties_L7mF48",
         "filter_properties_8U3LBx",
+        "filter_properties_G8CDNU",
+        "filter_properties_RrcQri",
+        "filter_properties_WpNq94",
+        "filter_properties_hxCCm6",
         "filter_product_set_qmFHFX"
       ],
       "settings": {
