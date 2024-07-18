@@ -388,6 +388,7 @@
       ],
       "settings": {
         "top_bg_color": "#e7edef",
+        "top_bg": "shopify:\/\/shop_images\/Pfeil-Lang-blue_v4.png",
         "heading": "Kartuschen für Trinkwasser",
         "heading_tag": "h2",
         "heading_size": "h1",
