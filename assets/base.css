@@ -4622,7 +4622,7 @@ slideshow-component .banner__heading.h1 {
   max-width: 100%;
 }
 
-.rich-text__blocks.content_full_width .rich-text__wrapper {
+.rich-text--full-width .rich-text__wrapper {
   width: 100%;
 }
 
