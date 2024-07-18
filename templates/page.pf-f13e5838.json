@@ -1376,117 +1376,63 @@
         "padding_bottom": 52
       }
     },
-    "image_text_list_xt6hCi": {
-      "type": "image-text-list",
+    "custom_image_text_cEMzUH": {
+      "type": "custom-image-text",
       "blocks": {
-        "item_yymzUE": {
-          "type": "item",
+        "heading_XVRLky": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
-            "title": "",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
-            "url": ""
+            "heading": "Filterwechsel",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
           }
         },
-        "item_BgLVxn": {
-          "type": "item",
+        "text_KiR3e6": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
-            "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "url": ""
+            "text": "<p>Mehr Information zum Thema Filterwechsel finden Sie auf unserer Website unter der Rubrik Installationsanleitungen<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
-        "item_WQPn8H": {
-          "type": "item",
+        "button_my8zML": {
+          "type": "button",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
-            "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "url": ""
-          }
-        },
-        "item_D7YKAq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
-            "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "url": ""
+            "button_label1": "",
+            "button_link1": "",
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "hide_icon": false,
+            "button_label2": "Videoanleitungen",
+            "button_link2": "shopify:\/\/blogs\/ratgeber\/installation",
+            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
-        "item_yymzUE",
-        "item_BgLVxn",
-        "item_WQPn8H",
-        "item_D7YKAq"
+        "heading_XVRLky",
+        "text_KiR3e6",
+        "button_my8zML"
       ],
       "settings": {
-        "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
-        "title_color": "#003e5f",
-        "column_count": 4,
-        "full_width": true,
-        "image_white": true,
-        "large_image": false,
-        "content_second_font": false,
-        "padding_top": 40,
+        "image": "shopify:\/\/shop_images\/filterwechsel-vector-element-active-1669384591035.png",
+        "enable_image_ratio": false,
+        "image_ratio": "1_1",
+        "image_contain": false,
+        "image_width": "medium",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
         "padding_bottom": 0
-      }
-    },
-    "custom_contact_HqQUU4": {
-      "type": "custom-contact",
-      "blocks": {
-        "item_T6rxdT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
-            "text": "Hilfe und Kontakt",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
-          }
-        }
-      },
-      "block_order": [
-        "item_T6rxdT"
-      ],
-      "settings": {
-        "background_color": "#fafafa",
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
-        "heading": "Noch Fragen zu unseren Kartuschen?",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "text": "<p>Du bist Dir unsicher welche Kartusche für Dich die Richtige ist? Wir beraten Dich gerne, schreib uns dafür einfach eine E-Mail über unser Kontaktformular oder melde Dich telefonisch bei uns.<\/p>",
-        "text_color": "#616161",
-        "item_bg": "#ffffff",
-        "item_text_color": "#003e5f",
-        "item_border_color": "#003e5f",
-        "padding_top": 8,
-        "padding_bottom": 0
-      }
-    },
-    "multi_image_text_BzK4Mg": {
-      "type": "multi-image-text",
-      "settings": {
-        "top_image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
-        "top_range": 120,
-        "top_mobile_range": 120,
-        "text_color": "#616161",
-        "image_right": true,
-        "middle_title": "Aus unserem Ratgeber",
-        "middle_subtitle": "Warum Wasser filtern?",
-        "middle_text": "<p>Gerade in Deutschland herrscht die landläufige Meinung dass unser Trinkwasser eine tadellose Qualität aufweist. Was spricht dann überhaupt für den Kauf eines Trinkwasserfilters? Warum werden lediglich ca. 60 Schadstoffe von der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung<\/a> erfasst? <a href=\"\/blogs\/ratgeber\/warum-wasser-filtern\" title=\"Warum Wasser filtern?\">Hier erfahren Sie mehr.<\/a><\/p><h3>Welche Inhaltstoffe befinden sich in unserem Leitungswasser?<\/h3><p>Wir klären auf, welche Schadstoffe aber auch gesundheitlich relevanten Stoffe sich in unserem Wasser befinden. Dabei klären wir auch wie die Schadstoffe überhaupt in das Wasser gelangen, welche Auswirkungen diese auf unsere Gesundheit haben und wie Schädliches aus dem Wasser reduziert werden können. <a href=\"\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" title=\"Inhaltsstoffe im Leitungswasser\">Hier erfahren Sie mehr.<\/a><\/p>",
-        "middle_image": "shopify:\/\/shop_images\/pf-3b6e8717--chlorelementimwasser-Edited.jpg",
-        "middle_range": 250,
-        "middle_mobile_range": 200,
-        "bottom_subtitle": "Wie sinnvoll sind Wasserfilter?",
-        "bottom_text": "<p>Das <a href=\"\/blogs\/ratgeber\/unser-leitungswasser\" title=\"Unser Leitungswasser\">Leitungswasser in Deutschland <\/a>wird zwar streng kontrolliert, weist allerdings in der Praxis zumindest zeitweise <strong>gravierende Mängel <\/strong>auf. Das liegt mitunter daran, dass viele Stoffkonzentrationen, wie etwa Schwermetall- oder Medikamentenrückstände, Hormone, Mikroplastik und Pestizide, von der deutschen <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung <\/a>weder gelistet noch berücksichtigt werden.<br\/><br\/>Aus diesem Grund sollten Sie immer, wenn Sie Ihr Leitungswasser trinken oder damit Lebensmittel reinigen bzw. zubereiten möchten, <strong>gefiltertes Wasser <\/strong>verwenden. Zum Abspülen oder Hände waschen reicht auch ungefiltertes Wasser.<\/p>",
-        "btn_text": "Zu unserem Wasser Ratgeber",
-        "btn_url": "shopify:\/\/blogs\/ratgeber\/inhalt",
-        "btn_bg": "#0081be",
-        "btn_color": "#ffffff",
-        "padding_top": 51,
-        "padding_bottom": 100
       }
     }
   },
@@ -1508,8 +1454,6 @@
     "product_compare_Nzahni",
     "custom_image_text_Peqmwn",
     "custom_liquid_XHBMWN",
-    "image_text_list_xt6hCi",
-    "custom_contact_HqQUU4",
-    "multi_image_text_BzK4Mg"
+    "custom_image_text_cEMzUH"
   ]
 }
