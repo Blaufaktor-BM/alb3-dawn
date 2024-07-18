@@ -265,6 +265,20 @@
             </div>
           </div>
         {%- endif -%}
+        {% if section.settings.top_bg != blank %}
+          <div class="top_bg-product_slider">
+            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+            {%- capture sizes -%}
+                              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                          {%- endcapture -%}
+            {{
+              section.settings.top_bg
+              | image_url: width: 1500
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          </div>
+        {% endif %}
       </div>
       <div class="bottom-product_slider" style="background-color: {{ section.settings.bottom_bg_color }};">
         {%- if section.settings.icon != blank -%}
@@ -354,6 +368,11 @@
       "id": "top_bg_color",
       "label": "Top Background Color",
       "default": "#f2f2f2"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_bg",
+      "label": "Top Background Image"
     },
     {
       "type": "text",
