@@ -321,10 +321,12 @@
     </div>
   </div>
 </div>
+
 <script>
   var mySwiper = new Swiper('#shopify-section-{{ section.id }} .swiper-container', {
     speed: {{ section.settings.slide_speed |  times: 1000 |  split: "." | first }},
     direction: 'horizontal',
+    {%- unless section.block.size == section.settings.slide_count -%}
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -333,6 +335,7 @@
       el: '.swiper-pagination',
   	  clickable: true,
     },
+    {%- endunless -%}
     speed: 500,
     spaceBetween: 15,
     loop: false,
