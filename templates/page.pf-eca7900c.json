@@ -837,34 +837,10 @@
             "image4": "shopify:\/\/shop_images\/Fusion_Schwarz_Schnellanschlussset.jpg"
           }
         },
-        "filter_product_set_a96PjC": {
-          "type": "filter_product_set",
+        "description_mjRKkG": {
+          "type": "description",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "text1": "",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
-            "product4": "",
-            "text4": ""
-          }
-        },
-        "filter_product_set_wPV3qi": {
-          "type": "filter_product_set",
-          "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
-            "text1": "",
-            "product2": "",
-            "text2": "",
-            "product3": "",
-            "text3": "",
-            "product4": "",
-            "text4": ""
+            "description": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.<\/p>"
           }
         }
       },
@@ -881,8 +857,7 @@
         "filter_properties_EKWgGy",
         "filter_properties_MbMyCy",
         "filter_product_set_DDQ83y",
-        "filter_product_set_a96PjC",
-        "filter_product_set_wPV3qi"
+        "description_mjRKkG"
       ],
       "settings": {
         "list_option": "4",
