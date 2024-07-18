@@ -86,7 +86,7 @@
               </div>
             {%- when 'image' -%}
               <div
-                class="rich-text__image{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__image{% if block.settings.remove_spacing and block.settings.full_width %} remove_spacing{% endif %}{% if block.settings.top_radius %} top_radius{% endif %}{% if block.settings.bottom_radius %} bottom_radius{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -94,7 +94,7 @@
                 {% endif %}
               >
                 <div
-                  class="rich-text__image-wrapper{% if block.settings.remove_spacing and block.settings.full_width %} remove_spacing{% endif %}{% if block.settings.top_radius %} top_radius{% endif %}{% if block.settings.bottom_radius %} bottom_radius{% endif %}"
+                  class="rich-text__image-wrapper"
                   {% unless block.settings.full_width %}
                     style="max-width: {{ block.settings.image_width }}px"
                   {% endunless %}
