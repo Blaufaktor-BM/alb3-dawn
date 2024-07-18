@@ -768,6 +768,167 @@
         "padding_bottom": 0
       }
     },
+    "product_compare_8Tmhic": {
+      "type": "product-compare",
+      "blocks": {
+        "alb_comparison_aBKwyY": {
+          "type": "alb_comparison",
+          "settings": {
+            "heading": "Vergleich der Filtereigenschaften",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_color": "#003e5f",
+            "text": "<p>Alb Trinkwasserfilter-Kartuschen<\/p>",
+            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "subtitle1": "",
+            "subtitle_range1": 2,
+            "subtitle2": "",
+            "subtitle_range2": 1
+          }
+        },
+        "filter_properties_rGR948": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "<strong>Kartusche<\/strong>",
+            "title1": "<strong>Active<\/strong>",
+            "title2": "<strong>Active+<\/strong>",
+            "title3": "<strong>Nano<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_KPt9Gb": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mineralien bleiben erhalten",
+            "title1": "<strong>Ja<\/strong>",
+            "title2": "<strong>Ja<\/strong>",
+            "title3": "<strong>Ja<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_wc4nN6": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Geruch, Geschmack, Trübungen, Chlor",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_bpeDdY": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Schwermetalle",
+            "title1": "<strong>+ +<\/strong>",
+            "title2": "<strong>+ +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_VMYfGK": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Pestizide, Arzneimittelrückstände",
+            "title1": "<strong>+ + +<\/strong>",
+            "title2": "<strong>+ + +<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_w8NVWa": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Mikroplastik, Asbestfasern, Sedimente",
+            "title1": "<strong>+<\/strong>",
+            "title2": "<strong>+ +<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_3RQPfp": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Kalkreduktion",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+<\/strong>",
+            "title3": "<strong>-<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_9J37qN": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Keime und Bakterien",
+            "title1": "<strong>-<\/strong>",
+            "title2": "<strong>+<\/strong>",
+            "title3": "<strong>+ + +<\/strong>",
+            "title4": ""
+          }
+        },
+        "filter_properties_L7mF48": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Wechselintervall",
+            "title1": "4 Monate",
+            "title2": "4 Monate",
+            "title3": "6 Mon.",
+            "title4": ""
+          }
+        },
+        "filter_properties_8U3LBx": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
+            "title1": "~7 l\/min",
+            "title2": "~6 l\/min",
+            "title3": "~11 l\/min",
+            "title4": ""
+          }
+        },
+        "filter_product_set_qmFHFX": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "",
+            "text": "",
+            "product1": "wasserfilter-kartusche-active",
+            "text1": "",
+            "product2": "wasserfilter-kartusche-active-plus",
+            "text2": "",
+            "product3": "wasserfilter-kartusche-nano",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        }
+      },
+      "block_order": [
+        "alb_comparison_aBKwyY",
+        "filter_properties_rGR948",
+        "filter_properties_KPt9Gb",
+        "filter_properties_wc4nN6",
+        "filter_properties_bpeDdY",
+        "filter_properties_VMYfGK",
+        "filter_properties_w8NVWa",
+        "filter_properties_3RQPfp",
+        "filter_properties_9J37qN",
+        "filter_properties_L7mF48",
+        "filter_properties_8U3LBx",
+        "filter_product_set_qmFHFX"
+      ],
+      "settings": {
+        "list_option": "3",
+        "text_color": "#2d2d2d",
+        "show_button": true,
+        "btn_text": "Kaufen",
+        "btn_bg": "#0081be",
+        "btn_color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
     "custom_image_text_Peqmwn": {
       "type": "custom-image-text",
       "blocks": {
@@ -982,6 +1143,7 @@
     "product_compare_3zPw6T",
     "rich_text_pFEgnD",
     "product_slider_HgKXnV",
+    "product_compare_8Tmhic",
     "custom_image_text_Peqmwn",
     "custom_liquid_XHBMWN",
     "image_text_list_xt6hCi",
