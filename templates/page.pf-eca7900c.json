@@ -971,6 +971,64 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
+    },
+    "image_text_list_WjgfW8": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_nMqngL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "title": "",
+            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
+            "url": ""
+          }
+        },
+        "item_xitqBU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "title": "",
+            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "url": ""
+          }
+        },
+        "item_8ekaN3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "title": "",
+            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "url": ""
+          }
+        },
+        "item_kVYWjj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "title": "",
+            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_nMqngL",
+        "item_xitqBU",
+        "item_8ekaN3",
+        "item_kVYWjj"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
+        "title_color": "#003e5f",
+        "column_count": 4,
+        "full_width": true,
+        "image_white": true,
+        "large_image": false,
+        "content_second_font": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -987,6 +1045,7 @@
     "product_compare_UaxmYf",
     "small_image_text_y6paK3",
     "rich_text_JehDXz",
-    "custom_liquid_kVbCWJ"
+    "custom_liquid_kVbCWJ",
+    "image_text_list_WjgfW8"
   ]
 }
