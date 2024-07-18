@@ -419,7 +419,7 @@
         "alb_comparison_dHz78d": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "<strong>Vergleich der Filtereigenschaften<\/strong>",
+            "heading": "Vergleich der Filtereigenschaften",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
