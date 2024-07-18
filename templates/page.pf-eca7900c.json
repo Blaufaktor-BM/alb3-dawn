@@ -821,12 +821,14 @@
         "filter_product_set_DDQ83y": {
           "type": "filter_product_set",
           "settings": {
-            "title": "Untertisch Komplett-Set",
-            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
-            "product1": "",
+            "title": "<strong>Komplett-Sets Untertisch<\/strong>",
+            "text": "<p>Montageset mit Schnellkupplungen für einen einfachen Filterwechsel.<\/p>",
+            "product1": "alb-filter-active-untertisch-komplett-set-schnellkupplung",
             "text1": "",
-            "product2": "",
+            "image1": "shopify:\/\/shop_images\/Active_Schnellanschlussset_2981f629-8f73-48eb-89ce-76f080e9b6b9.jpg",
+            "product2": "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
             "text2": "",
+            "image2": "shopify:\/\/shop_images\/Active_Schnellanschlussset.jpg",
             "product3": "",
             "text3": "",
             "product4": "",
