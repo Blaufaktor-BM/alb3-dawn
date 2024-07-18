@@ -5112,7 +5112,7 @@ slideshow-component .banner__heading.h1 {
   right: 0;
 }
 
-.product-slider__acc:last-child {
+.custom-image-text__text-acc.product-slider__acc {
   margin: 0;
 }
 
