@@ -880,10 +880,20 @@
             "image_width": 120
           }
         },
+        "heading_DNcQV9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasserfilter Untertisch<br\/><strong>Installation<\/strong><\/p>",
+            "heading_tag": "h3",
+            "heading_size": "h1",
+            "heading_color": "#003e5f",
+            "second_font": true
+          }
+        },
         "text_KqmncA": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Nützliche Anleitungen, Videos zum Einbau und Kartuschenwechsel Ihres Alb Filters.<\/p>",
             "text_style": "body",
             "color": "#616161",
             "second_font": false
@@ -893,15 +903,16 @@
           "type": "button",
           "settings": {
             "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "color": "#0081be",
-            "primary_btn": false,
+            "button_link": "shopify:\/\/pages\/installation-untertisch",
+            "color": "#fafafa",
+            "primary_btn": true,
             "primary_bg": "#0081be"
           }
         }
       },
       "block_order": [
         "image_pzLRGe",
+        "heading_DNcQV9",
         "text_KqmncA",
         "button_qzYLUH"
       ],
