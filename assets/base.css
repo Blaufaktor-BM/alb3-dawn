@@ -4524,6 +4524,7 @@ slideshow-component .banner__heading.h1 {
 .item-image_text_list {
   padding: 15px;
   width: 100%;
+  max-width: 50%;
 }
 
 .item-image_text_list a {
