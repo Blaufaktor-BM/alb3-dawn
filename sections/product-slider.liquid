@@ -135,6 +135,90 @@
                             {{ block.settings.bottom_text }}
                           </div>
                         {%- endif -%}
+                        {%- if block.settings.enable_icon_text_acc -%}
+                          <div class="custom-image-text__icon-text-acc">
+                            <details
+                              id="Details-{{ block.id }}-{{ section.id }}"
+                            >
+                              <summary
+                                id="Summary-{{ block.id }}-{{ section.id }}"
+                              >
+                                <div class="accordion__title inline-richtext{% if block.settings.icon_text_acc_heading_second_font %} second-font{% endif %}">
+                                  {{ block.settings.icon_text_acc_heading }}
+                                </div>
+                                {% render 'icon-caret' %}
+                              </summary>
+                              <div
+                                class="accordion__content rte second-font"
+                                id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                                role="region"
+                                aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                              >
+                                {% for i in (1..10) %}
+                                  {% capture image %}icon_text_acc_icon{{ i }}{% endcapture %}
+                                  {% capture text %}icon_text_acc_text{{ i }}{% endcapture %}
+                                  {% if block.settings[text] != blank %}
+                                    <div class="icon_text_acc-item">
+                                      {% if block.settings[image] != blank %}
+                                        <div
+                                          class="icon_text_acc-media"
+                                          style="max-width: {{ block.settings.icon_text_acc_image_width }}px"
+                                        >
+                                          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                                          {%- capture sizes -%}
+                                                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                                            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                                        {%- endcapture -%}
+                                          {{
+                                            block.settings[image]
+                                            | image_url: width: 1500
+                                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                          }}
+                                        </div>
+                                      {% endif %}
+                                      <div class="icon_text_acc-text rte{% if block.settings.icon_text_acc_text_second_font %} second-font{% endif %}">
+                                        {{ block.settings[text] }}
+                                      </div>
+                                    </div>
+                                  {% endif %}
+                                {% endfor %}
+                              </div>
+                            </details>
+                          </div>
+                        {%- endif -%}
+                        {% if block.settings.enable_text_list_acc %}
+                          <div class="custom-image-text__text-acc">
+                            <details
+                              id="Details-{{ block.id }}-{{ section.id }}"
+                            >
+                              <summary
+                                id="Summary-{{ block.id }}-{{ section.id }}"
+                              >
+                                <div class="accordion__title inline-richtext{% if block.settings.text_list_acc_title_second_font %} second-font{% endif %}">
+                                  {{ block.settings.text_list_acc_heading | escape }}
+                                </div>
+                                {% render 'icon-caret' %}
+                              </summary>
+                              <div
+                                class="accordion__content rte{% if block.settings.text_list_acc_text_second_font %} second-font{% endif %}"
+                                id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                                role="region"
+                                aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                              >
+                                {% if block.settings.text_list_acc_top_text != blank %}
+                                  <div class="top-text rte">
+                                    {{ block.settings.text_list_acc_top_text }}
+                                  </div>
+                                {% endif %}
+                                {% if block.settings.text_list_acc_bottom_text != blank %}
+                                  <div class="bottom-text rte">
+                                    {{ block.settings.text_list_acc_bottom_text }}
+                                  </div>
+                                {% endif %}
+                              </div>
+                            </details>
+                          </div>
+                        {% endif %}
                       </div>
                       {%- if block.settings.btn_text != blank or block.settings.second_btn_text != blank -%}
                         <div class="btns_item-product_slider">
@@ -557,6 +641,187 @@
           "id": "bottom_text",
           "label": "Bottom Text",
           "default": "<ul><li>Frischer Trinkgenuss</li><li>Reduziert Schadstoffe</li></ul>"
+        },
+        {
+          "type": "header",
+          "content": "Icon Text Accordion"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_icon_text_acc",
+          "label": "Enable Icon Text Accordion"
+        },
+        {
+          "type": "text",
+          "id": "icon_text_acc_heading",
+          "label": "Icon Text Accordion Heading",
+          "default": "Filtereigenschaften"
+        },
+        {
+          "type": "checkbox",
+          "id": "icon_text_acc_heading_second_font",
+          "label": "Icon Text Accordion Heading Second Font",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "icon_text_acc_text_second_font",
+          "label": "Text Second Font"
+        },
+        {
+          "type": "range",
+          "id": "icon_text_acc_image_width",
+          "label": "Icon Text Accordion Icon Width",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "default": 75,
+          "unit": "px"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon1",
+          "label": "Icon1"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text1",
+          "label": "Text1",
+          "default": "<p>Filtert schlechten Geschmack und Gerüche</p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon2",
+          "label": "Icon2"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text2",
+          "label": "Text2",
+          "default": "<p>Reduziert Schwermetalle</p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon3",
+          "label": "Icon3"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text3",
+          "label": "Text3",
+          "default": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln</p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon4",
+          "label": "Icon4"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text4",
+          "label": "Text4",
+          "default": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden</p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon5",
+          "label": "Icon5"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text5",
+          "label": "Text5",
+          "default": "<p>Gegen Bakterien und Keime</p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon6",
+          "label": "Icon6"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text6",
+          "label": "Text6",
+          "default": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon7",
+          "label": "Icon7"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text7",
+          "label": "Text7"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon8",
+          "label": "Icon8"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text8",
+          "label": "Text8"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon9",
+          "label": "Icon9"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text9",
+          "label": "Text9"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_text_acc_icon10",
+          "label": "Icon10"
+        },
+        {
+          "type": "richtext",
+          "id": "icon_text_acc_text10",
+          "label": "Text10"
+        },
+        {
+          "type": "header",
+          "content": "Text List Accordion"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_text_list_acc",
+          "label": "Enable Text List Accordion"
+        },
+        {
+          "type": "text",
+          "id": "text_list_acc_heading",
+          "label": "Text List Accodion Heading",
+          "default": "Technische Daten"
+        },
+        {
+          "type": "richtext",
+          "id": "text_list_acc_top_text",
+          "label": "Text List Accordion Top Text",
+          "default": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "text_list_acc_bottom_text",
+          "label": "Text List Accordion Bottom Text",
+          "default": "<p>1: Bei durchgängiger Nutzung.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_list_acc_title_second_font",
+          "label": "Title Second Font",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "text_list_acc_text_second_font",
+          "label": "Text Second Font",
+          "default": true
         },
         {
           "type": "text",
