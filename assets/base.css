@@ -5112,6 +5112,10 @@ slideshow-component .banner__heading.h1 {
   right: 0;
 }
 
+.product-slider__acc:last-child {
+  margin: 0;
+}
+
 @media only screen and (max-width: 989px) {
   .section-product_slider .page-width {
     padding: 0;
