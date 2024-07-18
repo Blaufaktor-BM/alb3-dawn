@@ -1069,6 +1069,85 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "collapsible_content_wQrN66": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bLPemq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Warum Leitungswasser filtern? Sieht die Trinkwasserverordnung nicht strenge Kontrollen vor?",
+            "icon": "none",
+            "row_content": "<p>Unser<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland<\/a>wird zwar streng kontrolliert, doch die Realität zeigt oft ein anderes Bild. Die Qualität beruht auf Grenzwerten für derzeit ca. 60 Schadstoffe, die in der<a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_self\">Trinkwasserverordnung<\/a>festgelegt wurden.<br\/><br\/>Viele Stoffkonzentrationen wie etwa Medikamentenrückstände, Hormone, Mikroplastik und Pestizide u.v.m. werden von der Trinkwasserverordnung nicht erfasst!<br\/><br\/>Jährlich häufen sich in Deutschland Meldungen über<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\" target=\"_self\">Legionellen<\/a>im Trinkwasser. Und auch geringfügige Stoffkonzentrationen von etwa<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\" target=\"_self\">Schwermetallen<\/a>oder<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" target=\"_self\">Mikroplastik<\/a>werden von der Trinkwasserverordnung nicht berücksichtigt.<br\/><br\/>Die Wasserqualität wird zudem meist nur an den Verteilerzentren gemessen, nicht am Hausanschluss. Das bedeutet, dass das Leitungswasser auf dem Weg zu deinem Wasserhahn verschiedene Verunreinigungen aus dem Leitungsnetz aufnehmen kann.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KRwwmr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Bleiben wertvolle Mineralien erhalten wenn ich das Wasser filter?",
+            "icon": "none",
+            "row_content": "<p>Wasser filtern und lebenswichtige Mineralien erhalten, das ist das Prinzip der Trinkwasserfilter von Alb Filter.<br\/><br\/>Ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\") ist, dass unsere  Kartuschen  essentielle  Spurenelemente und Mineralien im Wasser belassen und diese nicht heraus filtern.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_XCDAHU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wann sollte ich das Wasser filtern und wann nicht?",
+            "icon": "none",
+            "row_content": "<p>Immer, wenn Sie das Wasser trinken, Getränke oder Lebensmittel zubereiten möchten, macht es Sinn gefiltertes Wasser zu verwenden. Zum Abspülen oder Händewaschen reicht auch ungefiltertes Wasser. Generell ist das Wasser aus Sprudelflaschen oft nicht besser als ungefiltertes Leitungswasser. Mit einem guten Wasserfilter erreichen Sie somit deutlich gesünderes, von Schadstoffen befreites Wasser.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_EftLXq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was ist der Unterschied zwischen Active & Active Plus+?",
+            "icon": "none",
+            "row_content": "<p>Die<strong>Active Plus+<\/strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine<strong>Kalkreduktion um ca. 4 - 7 dH°<\/strong>.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bLPemq",
+        "collapsible_row_KRwwmr",
+        "collapsible_row_XCDAHU",
+        "collapsible_row_EftLXq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
+        "caption": "",
+        "heading": "Fragen und Antworten",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1087,6 +1166,7 @@
     "rich_text_JehDXz",
     "custom_liquid_kVbCWJ",
     "image_text_list_WjgfW8",
-    "custom_contact_9QqF6k"
+    "custom_contact_9QqF6k",
+    "collapsible_content_wQrN66"
   ]
 }
