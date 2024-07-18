@@ -255,13 +255,15 @@
             "heading": "Active",
             "heading_size": "h2",
             "image": "shopify:\/\/shop_images\/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung.<\/p>",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. Sie filtert zuverlässig Schadstoffe und verbessert den Geschmack sowie das Aussehen des Wassers.<\/p>",
             "icon_title": "Anwendungsbereich",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><\/ul>",
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "bottom_text": "",
             "btn_text": "Kaufen",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": ""
+            "second_btn_url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
           }
         },
         "item_hChQUt": {
