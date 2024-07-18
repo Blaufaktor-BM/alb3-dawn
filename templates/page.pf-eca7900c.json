@@ -696,6 +696,101 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "product_compare_UaxmYf": {
+      "type": "product-compare",
+      "blocks": {
+        "alb_comparison_PqCUiU": {
+          "type": "alb_comparison",
+          "settings": {
+            "heading": "Welche Wasserfilter Variante soll ich kaufen?",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_color": "#003e5f",
+            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
+            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "subtitle1": "",
+            "subtitle_range1": 2,
+            "subtitle2": "",
+            "subtitle_range2": 1
+          }
+        },
+        "filter_properties_hipaUE": {
+          "type": "filter_properties",
+          "settings": {
+            "title": "Filtereigenschaften",
+            "title1": "Active",
+            "title2": "Active+",
+            "title3": "Nano",
+            "title4": "Fusion*"
+          }
+        },
+        "filter_product_set_DDQ83y": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "text1": "",
+            "product2": "",
+            "text2": "",
+            "product3": "",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        },
+        "filter_product_set_a96PjC": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "text1": "",
+            "product2": "",
+            "text2": "",
+            "product3": "",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        },
+        "filter_product_set_wPV3qi": {
+          "type": "filter_product_set",
+          "settings": {
+            "title": "Untertisch Komplett-Set",
+            "text": "<p>Komplett-Set mit Schlauchstück und Adapter für die Montage am Eckventil.<\/p>",
+            "product1": "",
+            "text1": "",
+            "product2": "",
+            "text2": "",
+            "product3": "",
+            "text3": "",
+            "product4": "",
+            "text4": ""
+          }
+        }
+      },
+      "block_order": [
+        "alb_comparison_PqCUiU",
+        "filter_properties_hipaUE",
+        "filter_product_set_DDQ83y",
+        "filter_product_set_a96PjC",
+        "filter_product_set_wPV3qi"
+      ],
+      "settings": {
+        "list_option": "4",
+        "text_color": "#2d2d2d",
+        "show_button": true,
+        "btn_text": "Kaufen",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -708,6 +803,7 @@
     "custom_image_text_WY8KbW",
     "custom_image_text_FMmA8y",
     "custom_image_text_6fjxHW",
-    "custom_image_text_zFwchw"
+    "custom_image_text_zFwchw",
+    "product_compare_UaxmYf"
   ]
 }
