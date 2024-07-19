@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Mobile Campingfilter kaufen<\/p>",
+            "heading": "<p>Mobil Campingfilter kaufen<\/p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h1",
@@ -85,10 +85,10 @@
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
-          "pro-camper-set",
-          "camping-wasserfilter-fusion-mobil",
           "camping-wasserfilter-active-mobil",
-          "camping-wasserfilter-nano-mobil"
+          "camping-wasserfilter-nano-mobil",
+          "camping-wasserfilter-fusion-mobil",
+          "pro-camper-set"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -151,14 +151,14 @@
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
-          "alb-filtergehause-element",
+          "alb-filter-clean-tankreiniger",
+          "alb-filter-flextube-befullschlauch",
           "neoprenhulle",
           "trinkwasserschlauch-set-wohnmobil",
-          "alb-filter-flextube-befullschlauch",
-          "alb-filtergehause-element-edelstahl",
-          "alb-filter-clean-tankreiniger",
+          "geka-camping-adapter-set",
           "camping-koffer",
-          "geka-camping-adapter-set"
+          "alb-filtergehause-element",
+          "alb-filtergehause-element-edelstahl"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
