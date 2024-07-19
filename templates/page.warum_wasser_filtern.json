@@ -81,6 +81,12 @@
     "rich_text_RqMXdb": {
       "type": "rich-text",
       "blocks": {
+        "border_Vwn9JH": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
         "heading_jKJRib": {
           "type": "heading",
           "settings": {
@@ -115,6 +121,7 @@
         }
       },
       "block_order": [
+        "border_Vwn9JH",
         "heading_jKJRib",
         "text_NecD4z",
         "image_XGTCah"
