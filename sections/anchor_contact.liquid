@@ -1,0 +1,130 @@
+{%- liquid
+  assign fetch_priority = 'auto'
+-%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-anchor_contact section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div
+      class="wrapper-anchor_contact isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    ></div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Anchor & Contact",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Autor: Benjamin Maywald<br>Position: Co-Founder Alb Filter<br>Aktualisiert am:</p>"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "social_title",
+      "label": "Social Title",
+      "default": "Jetzt teilen!"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon1",
+      "label": "Icon1"
+    },
+    {
+      "type": "url",
+      "id": "url1",
+      "label": "URL1"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon2",
+      "label": "Icon2"
+    },
+    {
+      "type": "url",
+      "id": "url2",
+      "label": "URL2"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon3",
+      "label": "Icon3"
+    },
+    {
+      "type": "url",
+      "id": "url3",
+      "label": "URL3"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon4",
+      "label": "Icon4"
+    },
+    {
+      "type": "url",
+      "id": "url4",
+      "label": "URL4"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon5",
+      "label": "Icon5"
+    },
+    {
+      "type": "url",
+      "id": "url5",
+      "label": "URL5"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Anchor & Contact"
+    }
+  ]
+}
+{% endschema %}
