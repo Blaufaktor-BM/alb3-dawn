@@ -17,20 +17,19 @@
         "padding_bottom": 28
       }
     },
+    "column_image_text_Xwha8K": {
+      "type": "column-image-text",
+      "settings": {
+        "section_color_scheme": "",
+        "image": "shopify:\/\/shop_images\/alter-wasserhan-1651236537191.jpg",
+        "image_height": 450,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_6ARgta": {
       "type": "rich-text",
       "blocks": {
-        "image_WNme3c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alter-wasserhan-1651236537191.jpg",
-            "image_width": 700,
-            "full_width": true,
-            "remove_spacing": false,
-            "top_radius": false,
-            "bottom_radius": false
-          }
-        },
         "heading_dXmHcb": {
           "type": "heading",
           "settings": {
@@ -63,7 +62,6 @@
         }
       },
       "block_order": [
-        "image_WNme3c",
         "heading_dXmHcb",
         "text_j3LtWw",
         "button_CmFyqr"
@@ -73,7 +71,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": true,
+        "content_full_width": false,
         "padding_top": 0,
         "padding_bottom": 52
       }
@@ -81,6 +79,7 @@
   },
   "order": [
     "main",
+    "column_image_text_Xwha8K",
     "rich_text_6ARgta"
   ]
 }
