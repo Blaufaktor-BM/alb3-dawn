@@ -61,7 +61,7 @@
             {% endif %}
           {%- when 'heading' -%}
             <{{ block.settings.heading_tag }}
-              class="heading-column_richtext{% if block.settings.second_font %} second-font{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="heading-column_richtext{% if block.settings.second_font %} second-font{% endif %} {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
@@ -263,7 +263,34 @@
           "default": "h2",
           "label": "Heading Tag"
         },
-
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h3",
+              "label": "Extra Small"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
         {
           "type": "checkbox",
           "id": "second_font",
