@@ -21,10 +21,11 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserfilter mit Active Kartusche <\/p>",
+            "remove_spacing": false,
             "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
-            "heading_size": "h0",
-            "font_weight": "300",
+            "heading_size": "h2",
+            "font_weight": "700",
             "second_font": false
           }
         },
