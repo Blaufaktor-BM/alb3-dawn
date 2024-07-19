@@ -45,13 +45,6 @@
             "heading_size": "h2"
           }
         },
-        "subheading_TPzRBb": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "",
-            "color": "#003e5f"
-          }
-        },
         "text_m4dbDB": {
           "type": "text",
           "settings": {
@@ -64,7 +57,6 @@
         "image_pUAhjc",
         "heading_ePU3JA",
         "heading_47xVbz",
-        "subheading_TPzRBb",
         "text_m4dbDB"
       ],
       "custom_css": [
