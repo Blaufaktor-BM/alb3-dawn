@@ -119,7 +119,7 @@
       "type": "product-list",
       "settings": {
         "second_font": false,
-        "heading": "Ersatzkartuschen Trinkwasserfilter",
+        "heading": "Trinkwasserfilter Kartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
@@ -149,7 +149,7 @@
       "type": "product-list",
       "settings": {
         "second_font": false,
-        "heading": "Ersatzkartuschen Duschfilter",
+        "heading": "Duschfilter Kartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
@@ -179,7 +179,7 @@
       "type": "product-list",
       "settings": {
         "second_font": false,
-        "heading": "Ersatzkartuschen Spar-Sets",
+        "heading": "Wasserfilter Kartuschen Spar-Sets",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
