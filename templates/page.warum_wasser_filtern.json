@@ -226,6 +226,30 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_QkX4Qb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ptyML3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Veraltete und marode Wasserleitungen im eigenen Haus stellen ein hohes Risiko für die Wasserqualität und damit für Ihre Gesundheit dar. Diese Gefahr wird meist unterschätzt. Doch wenn man mit dem Trinkwasser regelmäßig Schwermetalle wie Kupfer, Blei oder Bakterien und Keime aufnimmt, kann dies erhebliche gesundheitliche Folgen haben:<\/p><ul><li>Besonders Babys, Kinder und immungeschwächte Menschen sind hier gefährdet.<\/li><li>Häufig werden Beschwerden, Symptome und Erkrankungen erst spät oder gar nicht mit dem belasteten Leitungswasser in Verbindung gebracht.<\/li><\/ul><h3>Stagnationswasser und Wassertemperatur<\/h3><p>Ein weiteres Problem sind selten genutzte Wasserleitungen, in denen das Wasser „stagniert”. Je länger Wasser in der Leitung steht, desto mehr Stoffe nimmt es aus Leitungen und Armaturen auf. Aus selten genutzten Wasserhähnen gelangt z. B. Nickel aus den Legierungen ins Wasser.<br\/><br\/>Ist die Wassertemperatur im System zudem höher als 20 Grad, begünstigt das die Bildung von Bakterien und Keimen, vor allem Legionellen. Diese vermehren sich in lauwarmem Wasser explosionsartig. Legionellen und andere Bakterien finden hier unter Umständen hervorragende Bedingungen zur Vermehrung vor.<br\/><br\/>Die Gefahr droht nicht nur in der Warmwasserleitung, sondern gerade in Altbauten auch durch ein schlecht isoliertes Kaltwassernetz, das von einer nahe gelegenen Warmwasserleitung erwärmt wird. Das merkt man z. B. daran, dass das Wasser aus der Kaltwasserleitung zu Beginn relativ warm aus dem Hahn strömt.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "text_ptyML3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -233,6 +257,7 @@
     "column_image_text_Xwha8K",
     "rich_text_6ARgta",
     "rich_text_RqMXdb",
-    "rich_text_WaVXXx"
+    "rich_text_WaVXXx",
+    "rich_text_QkX4Qb"
   ]
 }
