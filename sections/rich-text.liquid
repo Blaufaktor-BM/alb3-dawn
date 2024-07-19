@@ -86,7 +86,7 @@
               </div>
             {%- when 'image' -%}
               <div
-                class="rich-text__image{% if block.settings.remove_spacing and block.settings.full_width %} remove_spacing{% endif %}{% if block.settings.top_radius %} top_radius{% endif %}{% if block.settings.bottom_radius %} bottom_radius{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% if block.settings.image_des != blank %} image-shadow{% endif %}"
+                class="rich-text__image{% if block.settings.remove_spacing and block.settings.full_width %} remove_spacing{% endif %}{% if block.settings.top_radius %} top_radius{% endif %}{% if block.settings.bottom_radius %} bottom_radius{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% if block.settings.enable_shadow %} image-shadow{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -638,6 +638,11 @@
           "type": "checkbox",
           "id": "bottom_radius",
           "label": "Bottom Radius"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_shadow",
+          "label": "Enable Shadow"
         },
         {
           "type": "richtext",
