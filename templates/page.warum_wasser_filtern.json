@@ -33,7 +33,18 @@
         "heading_dXmHcb": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
+            "heading": "<p>RATGEBER<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "hxl",
+            "font_weight": "200",
+            "second_font": false
+          }
+        },
+        "heading_gNHpMg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Warum Wasser filtern?<\/p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -44,27 +55,15 @@
         "text_j3LtWw": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Die Vorteile von gefiltertem Wasser und einem Wasserfilter<br\/>Gehört unser Leitungswasser wirklich zu den am strengsten regulierten Lebensmitteln? Jein! In der Trinkwasserverordnung existieren zwar strenge Grenzwerte für etwa 50 Schadstoffe, aber andere Stoffkonzentrationen, die sich im Trinkwasser befinden können, werden gar nicht erst gelistet – darunter Rückstände von Medikamenten, Pestiziden, Hormonen und Mikroplastik. Es stellt sich also die Frage: Sollte man Leitungswasser filtern?<\/p><p>In diesem Ratgeber erfahren Sie, …<br\/>… ob Sie Wasser filtern müssen,<br\/>… welche Gründe dafür sprechen, das Trinkwasser zu filtern,<br\/>… ob Wasserfilter sinnvoll sind,<br\/>… inwiefern Vorurteile gegen Wasserfilter stimmen oder nicht stimmen,<br\/>… was Wasserfilter überhaupt filtern,<br\/>… worauf Sie bei einem Wasserfilter achten müssen<br\/>… und ob Flaschenwasser eine gute Alternative zu Wasserfiltern ist.<\/p>",
             "second_font": true
-          }
-        },
-        "button_CmFyqr": {
-          "type": "button",
-          "settings": {
-            "center": false,
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
         "heading_dXmHcb",
-        "text_j3LtWw",
-        "button_CmFyqr"
+        "heading_gNHpMg",
+        "text_j3LtWw"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -72,7 +71,7 @@
         "color_scheme": "",
         "full_width": true,
         "content_full_width": false,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 52
       }
     }
