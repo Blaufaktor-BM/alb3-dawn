@@ -4643,6 +4643,10 @@ slideshow-component .banner__heading.h1 {
   justify-content: center;
 }
 
+.rich-text__heading.remove_spacing {
+  margin: 0;
+}
+
 @media only screen and (max-width: 989px) {
   .rich-text__image.remove_spacing {
     margin-left: -30px;
