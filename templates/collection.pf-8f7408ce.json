@@ -76,7 +76,7 @@
       "type": "product-list",
       "settings": {
         "second_font": false,
-        "heading": "Trinkwasserfilter Active Untertisch",
+        "heading": "Active Trinkwasserfilter Untertisch",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
@@ -105,13 +105,13 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
-        "heading": "Trinkwasserfilter Active Wasserhahn",
+        "second_font": false,
+        "heading": "Active Trinkwasserfilter Wasserhahn",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
@@ -133,13 +133,13 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Active Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
