@@ -21,10 +21,11 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Trinkwasserfilter kaufen<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h1",
-            "heading_size": "h0",
-            "font_weight": "300",
+            "heading_size": "h1",
+            "font_weight": "700",
             "second_font": false
           }
         },
@@ -74,13 +75,13 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Wasserhahnfilter DUO",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -104,13 +105,13 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Wasserfilter Unterspüle (ohne Anschluss Set)",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -134,13 +135,13 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Wasserfilter Unterspüle Komplett Set",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -164,13 +165,13 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Wasserfilter Unterspüle Schnellkupplungs-Set",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -194,13 +195,13 @@
     "product_list_mcNiAF": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
         "border_color": "#cccccc",
         "product_list": [
