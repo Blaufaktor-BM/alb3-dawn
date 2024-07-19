@@ -4647,6 +4647,18 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
+.rich-text__image_des {
+  padding: 10px;
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.rich-text__image.image-shadow {
+  box-shadow: rgba(0, 0, 0, .05) 0 2px 7px;
+  background-color: #fff;
+}
+
 @media only screen and (max-width: 989px) {
   .rich-text__image.remove_spacing {
     margin-left: -30px;
@@ -4665,15 +4677,6 @@ slideshow-component .banner__heading.h1 {
 
   .rich-text__image.image-shadow {
     padding: 5px;
-    box-shadow: rgba(0, 0, 0, .05) 0 2px 7px;
-    background-color: #fff;
-  }
-
-  .rich-text__image_des {
-    padding: 10px;
-    max-width: 680px;
-    margin: 0 auto;
-    font-size: 14px;
   }
 }
 
