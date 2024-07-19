@@ -23,8 +23,8 @@
             "second_font": true,
             "heading": "<p>Gewinde-Adapter für<br\/>Alb Filter DUO<\/p>",
             "heading_tag": "h1",
-            "heading_size": "h0",
-            "heading_weight": "400"
+            "heading_size": "h1",
+            "heading_weight": "700"
           }
         },
         "text_jKXhCp": {
@@ -73,13 +73,13 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Adapter Innengewinde",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -106,13 +106,13 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Adapter Außengewinde",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -143,13 +143,13 @@
     "product_list_KH89HN": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Adapter Grobgewinde",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -173,13 +173,13 @@
     "product_list_PyE8dM": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Spezialadapter",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
