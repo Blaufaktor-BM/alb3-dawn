@@ -103,41 +103,6 @@
         "padding_bottom": 40
       }
     },
-    "product_list_EkBNEh": {
-      "type": "product-list",
-      "settings": {
-        "second_font": false,
-        "heading": "Aufrüst Sets",
-        "enable_border": true,
-        "enable_center": false,
-        "heading_tag": "h3",
-        "heading_size": "h3",
-        "heading_weight": "700",
-        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
-        "border_color": "#cccccc",
-        "product_list": [
-          "alb-filter-protect",
-          "vorfilter-protect-mit-wechselpad-edelstahl",
-          "alb-filter-mobil-anschluss-set-geka",
-          "alb-filter-erweiterungs-set-active",
-          "alb-connect",
-          "alb-connect-edelstahl",
-          "alb-filter-erweiterungs-set-nano",
-          "alb-filter-visio-sichtdeckel-element"
-        ],
-        "content_color": "#616161",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "padding_top": 38,
-        "padding_bottom": 40
-      }
-    },
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
@@ -154,11 +119,45 @@
           "alb-filter-clean-tankreiniger",
           "alb-filter-flextube-befullschlauch",
           "neoprenhulle",
+          "vorfilter-protect-mit-wechselpad-edelstahl",
+          "alb-filter-protect",
           "trinkwasserschlauch-set-wohnmobil",
           "geka-camping-adapter-set",
-          "camping-koffer",
-          "alb-filtergehause-element",
-          "alb-filtergehause-element-edelstahl"
+          "camping-koffer"
+        ],
+        "content_color": "#616161",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_EkBNEh": {
+      "type": "product-list",
+      "settings": {
+        "second_font": false,
+        "heading": "Aufrüst Sets",
+        "enable_border": true,
+        "enable_center": false,
+        "heading_tag": "h3",
+        "heading_size": "h3",
+        "heading_weight": "700",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "border_color": "#cccccc",
+        "product_list": [
+          "alb-filter-erweiterungs-set-active",
+          "alb-filter-erweiterungs-set-nano",
+          "alb-connect-edelstahl",
+          "alb-connect",
+          "alb-filter-visio-sichtdeckel-element",
+          "alb-filter-mobil-anschluss-set-geka",
+          "alb-campingfilter-anschluss-set-travel"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -240,8 +239,8 @@
     "rich_text_zRfwMF",
     "image_banner_WTFwpR",
     "product_list_yXxBPr",
-    "product_list_EkBNEh",
     "product_list_WQAXYz",
+    "product_list_EkBNEh",
     "product_list_jjakWr",
     "banner",
     "product-grid"
