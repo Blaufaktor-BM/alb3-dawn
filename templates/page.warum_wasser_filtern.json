@@ -17,27 +17,70 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_yfzRVC": {
-      "type": "image-banner",
+    "rich_text_6ARgta": {
+      "type": "rich-text",
+      "blocks": {
+        "image_WNme3c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alter-wasserhan-1651236537191.jpg",
+            "image_width": 700,
+            "full_width": true,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false
+          }
+        },
+        "heading_dXmHcb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_j3LtWw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "second_font": true
+          }
+        },
+        "button_CmFyqr": {
+          "type": "button",
+          "settings": {
+            "center": false,
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "image_WNme3c",
+        "heading_dXmHcb",
+        "text_j3LtWw",
+        "button_CmFyqr"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alter-wasserhan-1651236537191.jpg",
-        "image_overlay_opacity": 0,
-        "enable_shadow": false,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "enable_section_container": false,
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "image_banner_yfzRVC"
+    "rich_text_6ARgta"
   ]
 }
