@@ -74,7 +74,7 @@
             </{{ block.settings.heading_tag }}>
           {%- when 'subheading' -%}
             <h3
-              class="subheading-column_richtext{% if block.settings.second_font %} second-font{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="subheading-column_richtext{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
@@ -87,7 +87,7 @@
             </h3>
           {%- when 'text' -%}
             <div
-              class="text-column_richtext{% if block.settings.second_font %} second-font{% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="text-column_richtext second-font {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
@@ -258,6 +258,10 @@
             {
               "value": "h4",
               "label": "H4"
+            },
+            {
+              "value": "p",
+              "label": "P"
             }
           ],
           "default": "h2",
@@ -290,11 +294,6 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "second_font",
-          "label": "Second Font"
         }
       ]
     },
@@ -314,11 +313,6 @@
           "id": "color",
           "label": "Color",
           "default": "#fff"
-        },
-        {
-          "type": "checkbox",
-          "id": "second_font",
-          "label": "Second Font"
         }
       ]
     },
@@ -338,12 +332,6 @@
           "id": "color",
           "label": "Color",
           "default": "#fff"
-        },
-        {
-          "type": "checkbox",
-          "id": "second_font",
-          "label": "Second Font",
-          "default": true
         }
       ]
     },
