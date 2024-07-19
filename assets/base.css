@@ -4647,6 +4647,14 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
+.rich-text__border-wrapper {
+  display: block !important;
+  height: 10px;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 .rich-text__image_des {
   padding: 10px;
   max-width: 680px;
