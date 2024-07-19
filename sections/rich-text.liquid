@@ -86,7 +86,7 @@
               </div>
             {%- when 'image' -%}
               <div
-                class="rich-text__image{% if block.settings.remove_spacing and block.settings.full_width %} remove_spacing{% endif %}{% if block.settings.top_radius %} top_radius{% endif %}{% if block.settings.bottom_radius %} bottom_radius{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__image{% if block.settings.remove_spacing and block.settings.full_width %} remove_spacing{% endif %}{% if block.settings.top_radius %} top_radius{% endif %}{% if block.settings.bottom_radius %} bottom_radius{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% if block.settings.image_des != blank %} image-shadow{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -114,6 +114,16 @@
                     }}
                   {%- endif -%}
                 </div>
+                {% if block.settings.image_des != blank %}
+                  <div
+                    class="rich-text__image_des rte center"
+                    {% if block.settings.text_color != 'blank' %}
+                      style="color: {{ block.settings.text_color }}"
+                    {% endif %}
+                  >
+                    {{ block.settings.image_des }}
+                  </div>
+                {% endif %}
               </div>
             {%- when 'text' -%}
               <div
@@ -612,6 +622,17 @@
           "type": "checkbox",
           "id": "bottom_radius",
           "label": "Bottom Radius"
+        },
+        {
+          "type": "richtext",
+          "id": "image_des",
+          "label": "Description"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#616161"
         }
       ]
     }
