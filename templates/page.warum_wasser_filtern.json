@@ -38,7 +38,7 @@
             "remove_spacing": true,
             "color": "#003e5f",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "hxl",
             "font_weight": "200",
             "second_font": false
           }
