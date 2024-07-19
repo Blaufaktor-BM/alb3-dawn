@@ -199,6 +199,13 @@
             "image_des": "",
             "text_color": "#616161"
           }
+        },
+        "text_yfTkbX": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Marode Wasserleitungen<\/h3><p><a href=\"https:\/\/www.bayerische-staatszeitung.de\/staatszeitung\/kommunales\/detailansicht-kommunales\/artikel\/tausende-kilometer-wasserrohre-muessen-bald-ausgetauscht-werden.html#topPosition\" target=\"_blank\">Meldungen zu maroden Wasserleitungen<\/a> gibt es in deutschen Städten immer wieder und so manche Wasserleitung in Wohnhäusern besteht immer noch aus Blei <a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q7\" target=\"_self\">[7]<\/a>. Gerade <a href=\"https:\/\/www.sueddeutsche.de\/geld\/altbauten-gefahr-durch-bleirohre-1.3182377\" target=\"_blank\">Leitungen in Altbauten<\/a> (vor 1973) sind oft belastet durch „stehendes Wasser“ oder Schwermetalle <a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q8\" target=\"_self\">[8]<\/a>. Während Bleileitungen seit den 70er-Jahren verboten sind, werden auch heute häufig noch solche aus Kupfer verbaut. Doch auch Kupfer gibt Spuren ans Trinkwasser ab, vor allem dann, wenn der <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/ph-wert-wasser\" target=\"_self\">pH-Wert<\/a> unter 7 liegt.<\/p>",
+            "second_font": true
+          }
         }
       },
       "block_order": [
@@ -207,7 +214,8 @@
         "text_7frX99",
         "image_Cz6Mdn",
         "text_cMQkhk",
-        "image_wJHViN"
+        "image_wJHViN",
+        "text_yfTkbX"
       ],
       "settings": {
         "desktop_content_position": "center",
