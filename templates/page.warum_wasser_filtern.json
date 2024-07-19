@@ -34,6 +34,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>RATGEBER<\/p>",
+            "remove_spacing": true,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "hxl",
@@ -45,6 +46,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Warum Wasser filtern?<\/p>",
+            "remove_spacing": true,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
