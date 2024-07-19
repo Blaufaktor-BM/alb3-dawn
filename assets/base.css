@@ -4685,7 +4685,7 @@ slideshow-component .banner__heading.h1 {
   padding: 24px;
 }
 
-.wrapper-column_image_text {
+.wrapper-column_image_text.enable_border {
   border-radius: 3px;
   overflow: hidden;
 }
