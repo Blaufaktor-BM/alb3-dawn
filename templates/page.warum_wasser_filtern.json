@@ -23,6 +23,7 @@
         "section_color_scheme": "",
         "image": "shopify:\/\/shop_images\/alter-wasserhan-1651236537191.jpg",
         "image_height": 450,
+        "enable_border": false,
         "padding_top": 10,
         "padding_bottom": 0
       }
