@@ -21,10 +21,11 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Travel Campingfilter kaufen<\/p>",
+            "remove_spacing": false,
             "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
-            "heading_size": "h0",
-            "font_weight": "300",
+            "heading_size": "h1",
+            "font_weight": "700",
             "second_font": false
           }
         },
@@ -74,13 +75,13 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Travel Sets (Einbau Wasserfilter)",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -105,13 +106,13 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Zubehör & Aufrüst Sets",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
@@ -140,13 +141,13 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": true,
+        "second_font": false,
         "heading": "Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
         "heading_tag": "h3",
-        "heading_size": "h1",
-        "heading_weight": "400",
+        "heading_size": "h3",
+        "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "border_color": "#cccccc",
         "product_list": [
