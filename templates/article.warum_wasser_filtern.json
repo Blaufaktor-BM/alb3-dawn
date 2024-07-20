@@ -49,42 +49,6 @@
     },
     "column_image_text_rTMRVg": {
       "type": "column-image-text",
-      "blocks": {
-        "heading_DEWYAm": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_jzXQ4J": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
-          }
-        },
-        "text_Rbbiry": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_b8Cmew": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_DEWYAm",
-        "subtitle_jzXQ4J",
-        "text_Rbbiry",
-        "button_b8Cmew"
-      ],
       "settings": {
         "section_color_scheme": "",
         "image": "shopify:\/\/shop_images\/alter-wasserhan-1651236537191.jpg",
@@ -93,10 +57,61 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "rich_text_QdHjb9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ciRJMm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>RATGEBER<\/p>",
+            "remove_spacing": true,
+            "color": "#003e5f",
+            "heading_tag": "h1",
+            "heading_size": "hxl",
+            "font_weight": "100",
+            "second_font": true
+          }
+        },
+        "text_C9VKEW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "second_font": true
+          }
+        },
+        "button_CajnzB": {
+          "type": "button",
+          "settings": {
+            "center": false,
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ciRJMm",
+        "text_C9VKEW",
+        "button_CajnzB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "column_image_text_rTMRVg"
+    "column_image_text_rTMRVg",
+    "rich_text_QdHjb9"
   ]
 }
