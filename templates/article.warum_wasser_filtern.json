@@ -70,33 +70,33 @@
             "heading_tag": "h1",
             "heading_size": "hxl",
             "font_weight": "100",
-            "second_font": true
+            "second_font": false
+          }
+        },
+        "heading_kxJRBJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Warum Wasser filtern?<\/p>",
+            "remove_spacing": true,
+            "color": "#003e5f",
+            "heading_tag": "h1",
+            "heading_size": "h0",
+            "font_weight": "700",
+            "second_font": false
           }
         },
         "text_C9VKEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Die Vorteile von gefiltertem Wasser und einem Wasserfilter<br\/>Gehört unser Leitungswasser wirklich zu den am strengsten regulierten Lebensmitteln? Jein! In der Trinkwasserverordnung existieren zwar strenge Grenzwerte für etwa 50 Schadstoffe, aber andere Stoffkonzentrationen, die sich im Trinkwasser befinden können, werden gar nicht erst gelistet – darunter Rückstände von Medikamenten, Pestiziden, Hormonen und Mikroplastik. Es stellt sich also die Frage: Sollte man Leitungswasser filtern?<\/p><p>In diesem Ratgeber erfahren Sie, …<\/p>",
             "second_font": true
-          }
-        },
-        "button_CajnzB": {
-          "type": "button",
-          "settings": {
-            "center": false,
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "second_btn_color": "#0081be"
           }
         }
       },
       "block_order": [
         "heading_ciRJMm",
-        "text_C9VKEW",
-        "button_CajnzB"
+        "heading_kxJRBJ",
+        "text_C9VKEW"
       ],
       "settings": {
         "desktop_content_position": "center",
