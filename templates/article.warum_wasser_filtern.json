@@ -112,12 +112,70 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_FfeGkc": {
+      "type": "rich-text",
+      "blocks": {
+        "border_FHwpYg": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
+        "heading_D8mx8A": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Kurz und knapp: Muss man Leitungswasser filtern?<\/p>",
+            "remove_spacing": false,
+            "color": "{{ shop.brand.colors.primary[0].background }}",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_CHCKdF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ja, es gibt viele gute Gründe, Wasser zu Hause selbst noch einmal zu filtern – und das, obwohl der Großteil der Bevölkerung vermeintlich sauberes Leitungswasser von einem Trinkwasserversorger bezieht. Dieses Leitungswasser wird in einem Wasserwerk bereits gereinigt und aufbereitet. Dann sollte es doch eigentlich am Wasserhahn sauber aus der Leitung fließen, oder? Hier der Haken:<br\/><\/p><ol><li>Bei der Qualitätskontrolle sowie Aufbereitung werden nur Grenzwerte von etwa 50 Stoffkonzentrationen berücksichtigt, die so in der Trinkwasserverordnung stehen [1]. Rückstände z. B. von Pestiziden oder Hormonen sind nicht darunter.<\/li><li>Ihr Trinkwasser legt einen Weg von mehreren Kilometern zurück, ehe es aus Ihrer Leitung sprudelt. Auf diesem Weg kann es z. B. durch ein marodes Trinkwassernetz oder durch zu alte Rohre im Wohnhaus (stark) belastet werden.<\/li><\/ol><p>Trotz Reinigung und Aufbereitung im Wasserwerk können also zahlreiche Schadstoffe in Ihr Trinkwasser gelangen. Dazu gehören unter anderem Folgende:<br\/><br\/><\/p>",
+            "second_font": true
+          }
+        },
+        "button_CDGN88": {
+          "type": "button",
+          "settings": {
+            "center": false,
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "border_FHwpYg",
+        "heading_D8mx8A",
+        "text_CHCKdF",
+        "button_CDGN88"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "breadcrump_CXC8ft",
     "column_image_text_rTMRVg",
-    "rich_text_QdHjb9"
+    "rich_text_QdHjb9",
+    "rich_text_FfeGkc"
   ]
 }
