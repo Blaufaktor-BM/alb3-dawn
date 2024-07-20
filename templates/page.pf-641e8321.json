@@ -17,79 +17,21 @@
         "padding_bottom": 28
       }
     },
-    "column_richtext_6E7Qba": {
-      "type": "column-richtext",
-      "blocks": {
-        "image_8hxkJ8": {
-          "type": "image",
-          "settings": {
-            "image_width": 200,
-            "enable_border": true
-          }
-        },
-        "heading_UntmYq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Hilfe und Kontakt",
-            "color": "{{ shop.brand.colors.primary[0].background }}",
-            "second_font": false,
-            "heading_tag": "h2",
-            "heading_size": "h1"
-          }
-        },
-        "subheading_LQCKah": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Unser Ziel ist es, Ihre Fragen und Probleme so schnell wie möglich zu lösen!",
-            "color": "{{ shop.brand.colors.primary[0].background }}"
-          }
-        },
-        "text_gCrUTB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Auf dieser Seite finden Sie Hilfe und Support für alle Fragen rund um Alb Filter, unsere Filtersysteme Installationsanleitungen und Ihre Bestellungen. <\/p>",
-            "color": "{{ shop.brand.colors.primary[1].background }}"
-          }
-        },
-        "button_nKCARR": {
-          "type": "button",
-          "settings": {
-            "button_label": "Meine Bestellung",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_8hxkJ8",
-        "heading_UntmYq",
-        "subheading_LQCKah",
-        "text_gCrUTB",
-        "button_nKCARR"
-      ],
-      "settings": {
-        "content_position": "left",
-        "background_color": "rgba(0,0,0,0)",
-        "btn_bg": "#0081be",
-        "btn_color": "#fff",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_multi_tex_Q6iMrH": {
       "type": "image-multi-tex",
       "blocks": {
         "item_y9ffPT": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/abo-lieferung-1669116131786.png",
+            "text": "Bestellung",
             "url": ""
           }
         },
-        "item_WMkCJ8": {
+        "item_tKcVDX": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
             "url": ""
           }
@@ -97,35 +39,37 @@
         "item_RUj9KM": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "text": "Campingfilter",
             "url": ""
           }
         },
         "item_LMEymR": {
           "type": "item",
           "settings": {
-            "text": "Trinkwasserfilter",
+            "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "text": "Duschfilter",
             "url": ""
           }
         }
       },
       "block_order": [
         "item_y9ffPT",
-        "item_WMkCJ8",
+        "item_tKcVDX",
         "item_RUj9KM",
         "item_LMEymR"
       ],
       "settings": {
         "section_color_scheme": "",
-        "title": "<h1>Alb Filter<\/h1>",
-        "heading_tag": "h2",
-        "title_size": "hxl",
-        "sub_title": "<h2>Hilfe und Kontakt<\/h2>",
-        "subtitle_size": "h1",
-        "text": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.<\/p>",
-        "btn_text": "Zum Shop",
+        "title": "<h1>Hilfe und Kontakt<\/h1>",
+        "heading_tag": "h1",
+        "title_size": "h1",
+        "sub_title": "<p>Unser Ziel ist es, Ihre Fragen und Probleme so schnell wie möglich zu lösen!<\/p>",
+        "subtitle_size": "h3",
+        "text": "<p>Auf dieser Seite finden Sie Hilfe und Support für alle Fragen rund um Alb Filter, unsere Filtersysteme Installationsanleitungen und Ihre Bestellungen. <\/p>",
+        "btn_text": "",
         "btn_url": "",
-        "info_text": "Unsere Produktkategorien:",
+        "info_text": "<strong>FAQS:<\/strong>",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -297,15 +241,197 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "two_products_c97XxC": {
+      "type": "two_products",
+      "blocks": {
+        "item_FxKcEP": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        },
+        "item_3HiikH": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FxKcEP",
+        "item_3HiikH"
+      ],
+      "settings": {
+        "heading": "Erzähle etwas über deine Marke",
+        "color": "#003e5f",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "img_bg": "#f2f2f2",
+        "content_bg": "#fafafa",
+        "title_color": "#003e5f",
+        "text_color": "#616161",
+        "first_btn_color": "#fff",
+        "first_btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "small_image_text_43qRXE": {
+      "type": "small-image-text",
+      "blocks": {
+        "text_LirTYw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body",
+            "color": "#616161",
+            "second_font": false
+          }
+        },
+        "button_fYXbrV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "color": "#0081be",
+            "primary_btn": false,
+            "primary_bg": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "text_LirTYw",
+        "button_fYXbrV"
+      ],
+      "settings": {
+        "image_right": false,
+        "content_wrapper": false,
+        "background_color": "",
+        "heading": "Bild mit Text",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "second_font": false,
+        "mobile_center": false,
+        "image_width": 200,
+        "image_mobile_width": 285,
+        "image_round": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "multi_text_k3RjEN": {
+      "type": "multi-text",
+      "blocks": {
+        "item_rgeBbf": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        },
+        "item_yTY4Q8": {
+          "type": "item",
+          "settings": {
+            "text": "Geruch, Geschmack und Trübungen"
+          }
+        }
+      },
+      "block_order": [
+        "item_rgeBbf",
+        "item_yTY4Q8"
+      ],
+      "settings": {
+        "heading": "Warum Wasser filtern?",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "subtitle": "(Einige) gute Gründe Wasser zu filtern",
+        "subtitle_color": "#003e5f",
+        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<\/p>",
+        "text_color": "#616161",
+        "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
+        "listtitle_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "column_image_text_cbRVM4": {
+      "type": "column-image-text",
+      "blocks": {
+        "heading_dtGCxY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h1"
+          }
+        },
+        "subtitle_7AB3XE": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
+          }
+        },
+        "text_JqxP7g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_p7rmUj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_dtGCxY",
+        "subtitle_7AB3XE",
+        "text_JqxP7g",
+        "button_p7rmUj"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "image_height": 250,
+        "enable_border": true,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "column_richtext_6E7Qba",
     "image_multi_tex_Q6iMrH",
     "multicolumn_nxJCaj",
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
-    "custom_contact_VfwffN"
+    "custom_contact_VfwffN",
+    "two_products_c97XxC",
+    "small_image_text_43qRXE",
+    "multi_text_k3RjEN",
+    "column_image_text_cbRVM4"
   ]
 }
