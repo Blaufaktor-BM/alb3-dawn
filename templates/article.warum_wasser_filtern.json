@@ -141,16 +141,18 @@
             "second_font": true
           }
         },
-        "button_CDGN88": {
-          "type": "button",
+        "image_gXQcTx": {
+          "type": "image",
           "settings": {
-            "center": false,
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "second_btn_color": "#0081be"
+            "image": "shopify:\/\/shop_images\/schadstoffe-im-leitungswasser_6a787fc7-0fe1-4090-8054-f6d17c61be51.png",
+            "image_width": 700,
+            "full_width": true,
+            "remove_spacing": true,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": true,
+            "image_des": "<p>Nur mit einem hochwertigen Trinkwasserfilter können diese Schadstoffe aus dem Trinkwasser gefiltert und sauberes Wasser genossen werden!<\/p>",
+            "text_color": "#616161"
           }
         }
       },
@@ -158,7 +160,7 @@
         "border_FHwpYg",
         "heading_D8mx8A",
         "text_CHCKdF",
-        "button_CDGN88"
+        "image_gXQcTx"
       ],
       "settings": {
         "desktop_content_position": "center",
