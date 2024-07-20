@@ -80,6 +80,17 @@
         "column_jUdKnA": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/abo-lieferung-1669116131786.png",
+            "title": "Bestellung",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XbWkCw": {
+          "type": "column",
+          "settings": {
             "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
             "title": "Trinkwasserfilter",
             "subtitle": "",
@@ -113,16 +124,17 @@
       },
       "block_order": [
         "column_jUdKnA",
+        "column_XbWkCw",
         "column_mwUp33",
         "column_xJKG4M"
       ],
       "settings": {
-        "title": "FINDEN SIE HIER ALLE FRAGEN ZU",
+        "title": "ALLE FRAGFEN UND ANTWORTEN ZU",
         "heading_tag": "h1",
         "heading_size": "h3",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_heading_second": false,
         "column_heading_tag": "h2",
         "column_heading_size": "h3",
@@ -149,6 +161,16 @@
     "multicolumn_e8NJXM": {
       "type": "multicolumn",
       "blocks": {
+        "column_HJgNnL": {
+          "type": "column",
+          "settings": {
+            "title": "Heading",
+            "subtitle": "Subheading",
+            "text": "<p>Unsere Ratgeber bieten umfassende Informationen zu Wasser, Wasserfiltern und Wasseraufbereitung. Egal, ob du die Qualität deines Leitungswassers steigern, dich über Wasserverschmutzung informieren oder die optimale Lösung für sauberes und gesundes Trinkwasser finden möchtest – wir haben die Antworten für dich.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_xpjWzm": {
           "type": "column",
           "settings": {
@@ -162,15 +184,16 @@
         }
       },
       "block_order": [
+        "column_HJgNnL",
         "column_xpjWzm"
       ],
       "settings": {
         "title": "Ratgeber rund um das Thema Wasser",
-        "heading_tag": "h1",
-        "heading_size": "h3",
-        "image_width": "third",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "column_heading_second": false,
         "column_heading_tag": "h2",
         "column_heading_size": "h3",
@@ -231,194 +254,25 @@
         "image": "shopify:\/\/shop_images\/pf-6f9070de--wasserfilterlogoinstallationdark.png",
         "heading": "Sie benötigen Hilfe bei der Installation?",
         "heading_tag": "h2",
-        "heading_size": "h3",
-        "heading_color": "#616161",
+        "heading_size": "h2",
+        "heading_color": "{{ shop.brand.colors.primary[0].background }}",
         "text": "<p>Neben <strong>Bedienungsanleitungen <\/strong>und <strong>Installationsvideos <\/strong>finden Sie hier auch nützliche Helfer wie zum Beispiel unseren <a href=\"https:\/\/alb-filter.com\/pages\/gewinde-ratgeber\" target=\"_self\">Gewinderatgeber<\/a>. <\/p>",
         "text_color": "#616161",
-        "item_bg": "#ffffff",
-        "item_text_color": "#003e5f",
-        "item_border_color": "#003e5f",
+        "item_bg": "#0081be",
+        "item_text_color": "#ffffff",
+        "item_border_color": "rgba(0,0,0,0)",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "two_products_c97XxC": {
-      "type": "two_products",
-      "blocks": {
-        "item_FxKcEP": {
-          "type": "item",
-          "settings": {
-            "image_url": "",
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
-            "content_url": "",
-            "first_btn": "Kaufen",
-            "first_btn_url": "",
-            "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
-          }
-        },
-        "item_3HiikH": {
-          "type": "item",
-          "settings": {
-            "image_url": "",
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
-            "content_url": "",
-            "first_btn": "Kaufen",
-            "first_btn_url": "",
-            "second_btn": "Mehr erfahren",
-            "second_btn_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_FxKcEP",
-        "item_3HiikH"
-      ],
+    "custom_liquid_qeEiYn": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "Erzähle etwas über deine Marke",
-        "color": "#003e5f",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "img_bg": "#f2f2f2",
-        "content_bg": "#fafafa",
-        "title_color": "#003e5f",
-        "text_color": "#616161",
-        "first_btn_color": "#fff",
-        "first_btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
-    "small_image_text_43qRXE": {
-      "type": "small-image-text",
-      "blocks": {
-        "text_LirTYw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body",
-            "color": "#616161",
-            "second_font": false
-          }
-        },
-        "button_fYXbrV": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "color": "#0081be",
-            "primary_btn": false,
-            "primary_bg": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_LirTYw",
-        "button_fYXbrV"
-      ],
-      "settings": {
-        "image_right": false,
-        "content_wrapper": false,
-        "background_color": "",
-        "heading": "Bild mit Text",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "second_font": false,
-        "mobile_center": false,
-        "image_width": 200,
-        "image_mobile_width": 285,
-        "image_round": false,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
-    "multi_text_k3RjEN": {
-      "type": "multi-text",
-      "blocks": {
-        "item_rgeBbf": {
-          "type": "item",
-          "settings": {
-            "text": "Geruch, Geschmack und Trübungen"
-          }
-        },
-        "item_yTY4Q8": {
-          "type": "item",
-          "settings": {
-            "text": "Geruch, Geschmack und Trübungen"
-          }
-        }
-      },
-      "block_order": [
-        "item_rgeBbf",
-        "item_yTY4Q8"
-      ],
-      "settings": {
-        "heading": "Warum Wasser filtern?",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "subtitle": "(Einige) gute Gründe Wasser zu filtern",
-        "subtitle_color": "#003e5f",
-        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<\/p>",
-        "text_color": "#616161",
-        "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
-        "listtitle_color": "#003e5f",
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
-    "column_image_text_cbRVM4": {
-      "type": "column-image-text",
-      "blocks": {
-        "heading_dtGCxY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bild mit Text",
-            "heading_tag": "h2",
-            "heading_size": "h1"
-          }
-        },
-        "subtitle_7AB3XE": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "EEinsatz von Biokunststoffen aus Lignin"
-          }
-        },
-        "text_JqxP7g": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_p7rmUj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_dtGCxY",
-        "subtitle_7AB3XE",
-        "text_JqxP7g",
-        "button_p7rmUj"
-      ],
-      "settings": {
-        "section_color_scheme": "",
-        "image_height": 250,
-        "enable_border": true,
-        "padding_top": 10,
-        "padding_bottom": 0
+        "page_width": true,
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Contact Form<\/title>\n    <style>\n        body {\n            font-family: Montserrat, sans-serif;\n        }\n\n        form {\n            width: 100%;\n            max-width: 1000;\n            margin: 0 auto;\n            padding: 20px;\n            border: 1px solid #ccc;\n            border-radius: 0px;\n            background-color: #f9f9f9;\n        }\n\n        h2 {\n            text-align: left;\n        }\n\n        label {\n            display: block;\n            margin-top: 10px;\n            font-weight: bold;\n        }\n\n        input, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            border: px solid #ccc;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n\n        textarea {\n            height: 100px;\n            resize: vertical;\n        }\n\n        .subject-options {\n            display: flex;\n            flex-direction: none;\n            margin-top: 10px;\n            \n\n        }\n\n        .subject-option {\n            display: block;\n            align-items: left;\n            margin-left: 10px;\nmargin-bottom: 10px;\n        }\n\n        .subject-option input {\n            margin-right: 10px;\n        }\n\n        .subject-option label {\n            margin: 0;\n        }\n\n        button {\n            width: 100%;\n            padding: 10px;\n            margin-top: 20px;\n            border: none;\n            border-radius: 5px;\n            background-color: #0081be;\n            color: #fff;\n            font-size: 16px;\n            cursor: pointer;\n        }\n\n        button:hover {\n            background-color: #0056b3;\n        }\n    <\/style>\n<\/head>\n<body>\n    <form action=\"your_form_submission_url\" method=\"POST\">\n        <h2>Manche Anliegen lassen sich besser in einer persönlichen Nachricht klären!<\/h2>\n        <p>Bei individuellen Fragen senden Sie uns gerne eine Nachricht über unser Kontaktformular. Ergänzende Bilder schicken Sie uns bitte an <a href=\"mailto:info@alb-filter.com\">info@alb-filter.com<\/a>.<\/p>\n        \n        <label for=\"firstname\">Vorname*<\/label>\n        <input type=\"text\" id=\"firstname\" name=\"firstname\" required>\n        \n        <label for=\"lastname\">Nachname*<\/label>\n        <input type=\"text\" id=\"lastname\" name=\"lastname\" required>\n        \n        <label for=\"email\">E-Mail*<\/label>\n        <input type=\"email\" id=\"email\" name=\"email\" required>\n        \n        <p>Bitte wählen Sie den Grund Ihrer Nachricht<\/p>\n        <div class=\"subject-options\">\n            <div class=\"subject-option\">\n                <input type=\"radio\" id=\"order\" name=\"subject\" value=\"Ihre Bestellung\" required>\n                <label for=\"order\">Ihre Bestellung<\/label>\n            <\/div>\n            <div class=\"subject-option\">\n                <input type=\"radio\" id=\"household\" name=\"subject\" value=\"Haushaltsprodukte\">\n                <label for=\"household\">Haushaltsprodukte<\/label>\n            <\/div>\n            <div class=\"subject-option\">\n                <input type=\"radio\" id=\"camping\" name=\"subject\" value=\"Campingprodukte\">\n                <label for=\"camping\">Campingprodukte<\/label>\n            <\/div>\n            <div class=\"subject-option\">\n                <input type=\"radio\" id=\"feedback\" name=\"subject\" value=\"Anregung\/Kritik\">\n                <label for=\"feedback\">Anregung\/Kritik<\/label>\n            <\/div>\n            <div class=\"subject-option\">\n                <input type=\"radio\" id=\"others\" name=\"subject\" value=\"Sonstiges\">\n                <label for=\"others\">Sonstiges<\/label>\n            <\/div>\n        <\/div>\n        \n        <label for=\"customer-number\">Kundennummer (falls verfügbar)<\/label>\n        <input type=\"text\" id=\"customer-number\" name=\"customer-number\">\n        \n        <label for=\"order-number\">Bestellnummer (falls verfügbar)<\/label>\n        <input type=\"text\" id=\"order-number\" name=\"order-number\">\n        \n        <label for=\"message\">Nachricht*<\/label>\n        <textarea id=\"message\" name=\"message\" required><\/textarea>\n        \n        <button type=\"submit\">Senden<\/button>\n    <\/form>\n<\/body>\n<\/html>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -429,9 +283,6 @@
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
     "custom_contact_VfwffN",
-    "two_products_c97XxC",
-    "small_image_text_43qRXE",
-    "multi_text_k3RjEN",
-    "column_image_text_cbRVM4"
+    "custom_liquid_qeEiYn"
   ]
 }
