@@ -47,6 +47,11 @@
       "settings": {
       }
     },
+    "breadcrump_CXC8ft": {
+      "type": "breadcrump",
+      "settings": {
+      }
+    },
     "column_image_text_rTMRVg": {
       "type": "column-image-text",
       "settings": {
@@ -111,6 +116,7 @@
   },
   "order": [
     "main",
+    "breadcrump_CXC8ft",
     "column_image_text_rTMRVg",
     "rich_text_QdHjb9"
   ]
