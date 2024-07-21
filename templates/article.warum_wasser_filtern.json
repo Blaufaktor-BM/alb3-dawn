@@ -810,6 +810,43 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_BMEPaj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LtckYX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasser filtern? Es lohnt sich!<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_8PihW8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Während die Trinkwasserverordnung in Deutschland zwar Grenzwerte für einige Schadstoffe festlegt, gibt es zahlreiche Verunreinigungen, die unberücksichtigt bleiben. Auch die zum Teil mangelhafte Wasseraufbereitung und -verteilung stellen ein zunehmendes Problem dar.<br\/><br\/>Wasserfilter können dazu beitragen, diese Rückstände und Schadstoffe zu reduzieren und somit die Qualität des Trinkwassers erheblich verbessern. Indem Sie Ihr Wasser filtern, können Sie sicherstellen, dass Sie sauberes und gesundes Leitungswasser zu sich nehmen – und das alles auf umweltschonende und kostensparende Weise!<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_LtckYX",
+        "text_8PihW8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -828,6 +865,7 @@
     "rich_text_KkzRF4",
     "rich_text_KLrgmU",
     "rich_text_jEJEMT",
-    "rich_text_fjdji8"
+    "rich_text_fjdji8",
+    "rich_text_BMEPaj"
   ]
 }
