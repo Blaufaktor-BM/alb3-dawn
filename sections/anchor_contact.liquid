@@ -14,7 +14,12 @@
     }
   }
 {%- endstyle -%}
-<div class="section-anchor_contact section-{{ section.id }}-padding">
+<div
+  class="section-anchor_contact section-{{ section.id }}-padding"
+  {% if section.settings.color != blank %}
+    style="color: {{ section.settings.color }}"
+  {% endif %}
+>
   <div class="page-width">
     <div
       class="wrapper-anchor_contact isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -155,6 +160,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Color",
+      "default": "#616161"
+    },
     {
       "type": "image_picker",
       "id": "image",
