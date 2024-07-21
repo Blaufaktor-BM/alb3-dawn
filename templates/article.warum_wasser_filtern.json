@@ -575,13 +575,28 @@
             "text": "<p>So kommt bei Tisch- bzw. Kannenfiltern geschüttetes, loses Aktivkohlegranulat zum Einsatz. Dieses wird vom Wasser umströmt und setzt seine adsorptiven sowie katalytischen Eigenschaften ein, um das Wasser zu reinigen. Allerdings ist die Leistung von Tisch- bzw. Kannenfiltern stark eingeschränkt. Zudem besteht ein erhöhtes<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/hohes-verkeimungsrisiko-bei-kannen-bzw-tischwasserfiltern\" target=\"_self\">Verkeimungsrisiko<\/a>, sobald die Kapazität der Filter aufgebraucht ist.<br\/><br\/>Gesinterte Aktivkohle-Blockfilter hingegen, wie jene von Alb Filter, reinigen das Wasser auf dreifache Weise und sind damit leistungsstärker. Sie reduzieren so eine Vielzahl der Verunreinigungen und belassen dabei Mineralien sowie Spurenelemente im Wasser.<\/p>",
             "second_font": true
           }
+        },
+        "icon_content_r4nAdG": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
+            "title": "GUT ZU WISSEN!",
+            "heading_size": "h1",
+            "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
+            "second_font": true,
+            "background_color": "#93d4ff",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "#93d4ff"
+          }
         }
       },
       "block_order": [
         "border_7hryUx",
         "heading_7Vb4tK",
         "text_xrRLhc",
-        "text_7pQeN4"
+        "text_7pQeN4",
+        "icon_content_r4nAdG"
       ],
       "settings": {
         "desktop_content_position": "center",
