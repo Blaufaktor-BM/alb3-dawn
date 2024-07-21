@@ -6653,6 +6653,11 @@ ul.breadcrumb li a:hover {
   height: auto;
 }
 
+.anchor_contact-social_title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
 .anchor_contact-social_list {
   display: flex;
   gap: 4px;
