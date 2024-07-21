@@ -96,12 +96,20 @@
             "text": "<p>Die Vorteile von gefiltertem Wasser und einem Wasserfilter<br\/>Gehört unser Leitungswasser wirklich zu den am strengsten regulierten Lebensmitteln? Jein! In der Trinkwasserverordnung existieren zwar strenge Grenzwerte für etwa 50 Schadstoffe, aber andere Stoffkonzentrationen, die sich im Trinkwasser befinden können, werden gar nicht erst gelistet – darunter Rückstände von Medikamenten, Pestiziden, Hormonen und Mikroplastik. Es stellt sich also die Frage: Sollte man Leitungswasser filtern?<\/p><p>In diesem Ratgeber erfahren Sie, …<\/p>",
             "second_font": true
           }
+        },
+        "text_pjn98V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>… ob Sie Wasser filtern müssen,<\/p><p>… welche Gründe dafür sprechen, das Trinkwasser zu filtern,<\/p><p>… ob Wasserfilter sinnvoll sind,<\/p><p>… inwiefern Vorurteile gegen Wasserfilter stimmen oder nicht stimmen,<\/p><p>… was Wasserfilter überhaupt filtern,<\/p><p>… worauf Sie bei einem Wasserfilter achten müssen<\/p><p>… und ob Flaschenwasser eine gute Alternative zu Wasserfiltern ist.<\/p>",
+            "second_font": true
+          }
         }
       },
       "block_order": [
         "heading_ciRJMm",
         "heading_kxJRBJ",
-        "text_C9VKEW"
+        "text_C9VKEW",
+        "text_pjn98V"
       ],
       "settings": {
         "desktop_content_position": "center",
