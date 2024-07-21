@@ -501,6 +501,58 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_GpMRUX": {
+      "type": "rich-text",
+      "blocks": {
+        "border_7hryUx": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
+        "heading_7Vb4tK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasserfilter ist nicht gleich Wasserfilter! Über Vorurteile und Mythen...<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_xrRLhc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trotz alledem genießen Wasserfilter in der deutschen Presselandschaft keinen allzu guten Ruf. Teilweise raten sogar Verbraucherschützer davon ab. Wie lauten ihre Argumente?<\/p><ul><li>Der Nutzen von Wasserfiltern sei umstritten.<\/li><li>Leitungswasser sei gesundheitlich unbedenklich.<\/li><li>Wichtige Nährstoffe würden von den Wasserfiltern herausgefiltert.<\/li><li>Last but not least: Wasserfilter könnten sogar krank machen.<\/li><\/ul><p>Diese – insbesondere vom <a href=\"https:\/\/www.stern.de\/gesundheit\/wasserfilter--die-wahrheit-ueber-teure-filter-und-ihren-nutzen-7652762.html\" target=\"_blank\">Stern<\/a> – verbreiteten Vorurteile beziehen sich einzig und allein auf Tisch- bzw. Kannenfilter (von handelsüblichen Marken). Tisch- bzw. Kannenfilter haben aber beispielsweise mit den <a href=\"https:\/\/alb-filter.com\/pages\/trinkwasserfilter\" target=\"_self\">Trinkwasserfiltern von Alb Filter<\/a> überhaupt nichts gemeinsam <a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q9\" target=\"_self\">[9]<\/a>. Die <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/filtermedien-ueberblick\" target=\"_self\">Filtrationstechnologien, Filterverfahren und Filtermedien<\/a> dahinter unterscheiden sich deutlich.<\/p>",
+            "second_font": true
+          }
+        },
+        "text_7pQeN4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>So kommt bei Tisch- bzw. Kannenfiltern geschüttetes, loses Aktivkohlegranulat zum Einsatz. Dieses wird vom Wasser umströmt und setzt seine adsorptiven sowie katalytischen Eigenschaften ein, um das Wasser zu reinigen. Allerdings ist die Leistung von Tisch- bzw. Kannenfiltern stark eingeschränkt. Zudem besteht ein erhöhtes<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/hohes-verkeimungsrisiko-bei-kannen-bzw-tischwasserfiltern\" target=\"_self\">Verkeimungsrisiko<\/a>, sobald die Kapazität der Filter aufgebraucht ist.<br\/><br\/>Gesinterte Aktivkohle-Blockfilter hingegen, wie jene von Alb Filter, reinigen das Wasser auf dreifache Weise und sind damit leistungsstärker. Sie reduzieren so eine Vielzahl der Verunreinigungen und belassen dabei Mineralien sowie Spurenelemente im Wasser.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "border_7hryUx",
+        "heading_7Vb4tK",
+        "text_xrRLhc",
+        "text_7pQeN4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -513,6 +565,7 @@
     "rich_text_QMdWXW",
     "rich_text_KUHf8f",
     "rich_text_qVfNWA",
-    "rich_text_ttA7Hm"
+    "rich_text_ttA7Hm",
+    "rich_text_GpMRUX"
   ]
 }
