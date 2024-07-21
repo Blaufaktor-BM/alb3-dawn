@@ -4687,6 +4687,7 @@ slideshow-component .banner__heading.h1 {
   flex-wrap: wrap;
   gap: 10px;
   padding: 35px 20px 35px;
+  border-top: 3px solid;
 }
 
 .rich-text__icon_content-wrapper>div {
