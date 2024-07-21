@@ -6701,11 +6701,12 @@ h5 {
 
 #toc {
   border-bottom: 1px solid;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .anchor_contact-info {
   text-align: center;
+  padding-top: 30px;
 }
 
 @media only screen and (min-width: 750px) {
@@ -6725,6 +6726,7 @@ h5 {
   .anchor_contact-info {
     padding-left: 15px;
     text-align: left;
+    padding-top: 0;
   }
 
   #toc {
