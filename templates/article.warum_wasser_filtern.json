@@ -849,11 +849,26 @@
             "text": "<p>Sauberes Trinkwasser in unbegrenzter Menge aus der Leitung gilt in Deutschland als selbstverständlicher Standard. Und im Vergleich zu Trinkwasser aus Flaschen bekommt man es zu einem unschlagbaren Preis, auch wenn dieser abhängig von der Region und dem Versorger durchaus variieren kann.<\/p>",
             "second_font": true
           }
+        },
+        "icon_content_B4eaLK": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
+            "title": "RECHENBEISPIEL",
+            "heading_size": "h2",
+            "text": "<p>Im Jahr 2022 lag der durchschnittliche Preis für 1 m3 Leitungswasser (1.000 Liter)<a href=\"https:\/\/www.destatis.de\/DE\/Themen\/Gesellschaft-Umwelt\/Umwelt\/Wasserwirtschaft\/Tabellen\/tw-08-entgelt-trinkwasserversorgung-tarifgeb-nach-tariftypen-2020-2022-land-bund.html\" target=\"_blank\">in Baden-Württemberg<\/a>bei 2,33 EUR. Das ergibt 0,233 Cent pro Liter<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q15\" target=\"_self\">[15]<\/a>.<br\/><br\/>Flaschenwasser kostet ein Vielfaches. Preiswertes Mineralwasser bekommt man ab 18 Cent pro Liter (z. B. Quellbrunn bei Aldi), also ca. 77 Mal mehr. Bekannte Wassermarken (z. B. Adelholzener bei REWE) bieten ihr Flaschenwasser für etwa 60 Cent pro Liter an, was ca. 257 Mal teurer ist als Leitungswasser.<\/p>",
+            "second_font": true,
+            "background_color": "#93d4ff",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "#93d4ff"
+          }
         }
       },
       "block_order": [
         "heading_iUJwtB",
-        "text_pYE4Qf"
+        "text_pYE4Qf",
+        "icon_content_B4eaLK"
       ],
       "settings": {
         "desktop_content_position": "center",
