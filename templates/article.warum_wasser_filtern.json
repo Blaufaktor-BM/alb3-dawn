@@ -123,6 +123,8 @@
     "anchor_contact_mrjehn": {
       "type": "anchor_contact",
       "settings": {
+        "color": "#616161",
+        "border_color": "#93d4ff",
         "image": "shopify:\/\/shop_images\/albfilter-portrait-ben.png",
         "text": "<p><strong>Autor:<\/strong> Benjamin Maywald<br\/><strong>Position:<\/strong> Co-Founder Alb Filter<br\/><strong>Aktualisiert am:<\/strong><\/p>",
         "social_title": "<strong>Jetzt teilen!<\/strong>",
@@ -390,6 +392,20 @@
             "second_font": true
           }
         },
+        "icon_content_G9jUa9": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
+            "title": "GUT ZU WISSEN!",
+            "heading_size": "h2",
+            "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
+            "second_font": true,
+            "background_color": "#93d4ff",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "#93d4ff"
+          }
+        },
         "text_wxHthr": {
           "type": "text",
           "settings": {
@@ -401,6 +417,7 @@
       "block_order": [
         "heading_aWLgGP",
         "text_7PACfU",
+        "icon_content_G9jUa9",
         "text_wxHthr"
       ],
       "settings": {
