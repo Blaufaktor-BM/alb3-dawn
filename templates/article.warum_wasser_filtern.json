@@ -847,6 +847,84 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "collapsible_content_933AM9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4BcrrJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist Leitungswasser filtern sinnvoll?",
+            "icon": "none",
+            "row_content": "<p>Da es<strong>immer wieder zu Verunreinigungen des Trinkwassers<\/strong>kommt, ist es durchaus sinnvoll, Leitungswasser zu filtern. Mit einem hochwertigen Wasserfilter können Sie sicherstellen, dass Sie stets sauberes und<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/ist-leitungswasser-gesund\" target=\"_self\">gesundes Leitungswasser<\/a>zu sich nehmen.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RfHqJ3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist gefiltertes Wasser besser als Leitungswasser?",
+            "icon": "none",
+            "row_content": "<p>Gefiltertes Wasser ist<strong>im Regelfall besser als Leitungswasser<\/strong>, da es keine Schadstoffe oder Verunreinigungen enthält. Dies ist jedoch von der jeweiligen<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/filtermedien-ueberblick\" target=\"_self\">Filtrationstechnologie<\/a>abhängig und setzt eine regelmäßige Wartung des Filters voraus.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_e4bEBN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie kann man Wasser filtern?",
+            "icon": "none",
+            "row_content": "<p>Es gibt<strong>verschiedene Arten von Wasserfiltern<\/strong>, die je nach Bedarf eingesetzt werden können. Die<a href=\"https:\/\/alb-filter.com\/pages\/trinkwasserfilter\" target=\"_self\">Trinkwasserfilter von Alb Filter<\/a>beispielsweise reinigen das Wasser auf dreifache Weise und entfernen somit eine Vielzahl aller Verunreinigungen. Andere Optionen sind zum Beispiel Umkehrosmose, Ionenaustausch-Filter oder Destillation.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RQmNti": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welches Wasserfiltersystem ist das beste?",
+            "icon": "none",
+            "row_content": "<p>Welches Wasserfiltersystem das beste ist, hängt ganz<strong>von den individuellen Anforderungen<\/strong>ab. Denn die verschiedenen Filtertypen reinigen das Wasser auf unterschiedliche Weise und filtern daher nicht alle die gleichen Stoffe aus dem Wasser. Allgemein hat sich <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/was-ist-aktivkohle\" target=\"_self\">Aktivkohle <\/a>als Filtermedium bisher sehr gut bewährt, da es eine Vielzahl an Stoffen zuverlässig aus dem Wasser filtert.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4BcrrJ",
+        "collapsible_row_RfHqJ3",
+        "collapsible_row_e4bEBN",
+        "collapsible_row_RQmNti"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -866,6 +944,7 @@
     "rich_text_KLrgmU",
     "rich_text_jEJEMT",
     "rich_text_fjdji8",
-    "rich_text_BMEPaj"
+    "rich_text_BMEPaj",
+    "collapsible_content_933AM9"
   ]
 }
