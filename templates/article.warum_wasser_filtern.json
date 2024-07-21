@@ -128,9 +128,9 @@
         "social_title": "<strong>Jetzt teilen!<\/strong>",
         "linkedin": "https:\/\/www.linkedin.com\/shareArticle?mini=true&url=alb-filter.com\/a\/pf_preview",
         "facebook": "https:\/\/www.facebook.com\/sharer\/sharer.php?u=alb-filter.com\/a\/pf_preview",
-        "twitter": "",
-        "pinterest": "",
-        "mail": "",
+        "twitter": "https:\/\/twitter.com\/intent\/tweet?url=alb-filter.com\/a\/pf_preview",
+        "pinterest": "https:\/\/pinterest.com\/pin\/create\/button\/?url=alb-filter.com\/a\/pf_preview",
+        "mail": "mailto:info@alb-filter.com?&subject=Alb Filter Ratgeber Link&cc=&bcc=&body=Alb Filter Ratgeber Link: alb-filter.com\/a\/pf_preview",
         "padding_top": 10,
         "padding_bottom": 0
       }
