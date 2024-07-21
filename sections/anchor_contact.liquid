@@ -18,9 +18,107 @@
   <div class="page-width">
     <div
       class="wrapper-anchor_contact isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    ></div>
+    >
+      <div class="anchor_contact-list">
+        <div id="toc"></div>
+      </div>
+      <div class="anchor_contact-info">
+        {% if section.settings.image != blank %}
+          <div class="anchor_contact-img">
+            {%- assign fetch_priority = 'auto' -%}
+            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+            {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+            {%- endcapture -%}
+
+            {{
+              section.settings.image
+              | image_url: width: 1500
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          </div>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <div class="anchor_contact-text rte">{{ section.settings.text }}</div>
+        {% endif %}
+        {% if section.settings.social_title != blank %}
+          <div class="anchor_contact-social_title">{{ section.settings.social_title }}</div>
+        {% endif %}
+        <div class="anchor_contact-social_list">
+          {% for i in (1..5) %}
+            {% capture icon %} icon{{ forloop.index }} {% endcapture %}
+            {% capture url %} url{{ forloop.index }} {% endcapture %}
+            {% if icon != blank %}
+              <a class="social-item" href="{{ section.settings[url] }}">{{ section.settings[icon] }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<script>
+  function getToC() {
+    var title,
+      link,
+      iter = 0,
+      tocfound = false;
+
+    // alle Heading Element sammeln
+    var hElements = [];
+    $('.main-content h2, .main-content h3, .main-content h4').each(function (i, e) {
+      hElements.push($(this));
+    });
+    hElements = unique(hElements);
+    //console.log(hElements);
+
+    // ToC wrapper
+    var ToC = "<nav role='navigation'>";
+    ToC += '<ul style="--text-indent: 0px; --line-spacing: 3px;">';
+
+    $(hElements).each(function (i, e) {
+      lastHeadingIndex = typeof hElements[i - 1] === 'undefined' ? 0 : hElements[i - 1].prop('tagName').substring(1);
+      currentHeadingIndex = e.prop('tagName').substring(1);
+      nextHeadingIndex = typeof hElements[i + 1] === 'undefined' ? 0 : hElements[i + 1].prop('tagName').substring(1);
+
+      // toc-found = TOC Verzeichnis erst erstellen mit Überschriften nach dem Inhaltsverzeichnis
+      if (e.attr('id') == 'toc') tocfound = true;
+
+      e.attr('id', 'nav_' + i); // überschriften mit anker elementen versehen
+      title = e.text();
+      link = '#' + e.attr('id');
+
+      if (e.prop('nodeName') != 'H1') {
+        if (nextHeadingIndex > currentHeadingIndex) {
+          ToC += '<li><a href="' + link + '">' + title + '</a>';
+          ToC += '<ul class="subtoc">';
+        }
+        if (nextHeadingIndex == currentHeadingIndex) {
+          ToC += '<li><a href="' + link + '">' + title + '</a></li>';
+        }
+        if (nextHeadingIndex < currentHeadingIndex) {
+          ToC += '<li><a href="' + link + '">' + title + '</a></li>';
+          ToC += '</ul>';
+          if (currentHeadingIndex - nextHeadingIndex == 2) {
+            // sprung von h4 auf h2
+            ToC += '</li></ul>';
+          }
+        }
+      }
+      iter++;
+    });
+
+    // ToC Wrapper Close
+    ToC += '</ul></nav>';
+    if (iter > 1) return ToC;
+    else return '';
+  }
+
+  document.addEventListener('DOMContentLoaded', function (event) {
+    deferAutorbox();
+  });
+</script>
 {% schema %}
 {
   "name": "Anchor & Contact",
