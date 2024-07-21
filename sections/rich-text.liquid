@@ -219,6 +219,50 @@
               >
                 {{ block.settings.dot_list }}
               </div>
+            {%- when 'icon_content' -%}
+              <div
+                class="rich-text__icon_content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                <div
+                  class="rich-text__icon_content-wrapper"
+                  style="{% if block.settings.background_color != blank %}background-color: {{ block.settings.background_color }};{% endif %}{% if block.settings.border_color != blank %} border-color: {{ block.settings.border_color }};{% endif %}"
+                >
+                  {% if block.settings.image != blank %}
+                    <div class="rich-text_icon_content_media">
+                      {%- assign fetch_priority = 'auto' -%}
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                      {%- endcapture -%}
+
+                      {{
+                        block.settings.image
+                        | image_url: width: 1500
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    </div>
+                  {% endif %}
+                  <div
+                    class="rich-text__icon_content-des"
+                    {% if block.settings.text_color != blank %}
+                      style="color: {{ block.settings.text_color }}"
+                    {% endif %}
+                  >
+                    {% if block.settings.title != blank %}
+                      <div class="rich-text__icon_content-title">{{ block.settings.title }}</div>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                      <div class="rich-text__icon_content-text rte">{{ block.settings.text }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -688,6 +732,53 @@
           "type": "richtext",
           "id": "dot_list",
           "label": "Dot List"
+        }
+      ]
+    },
+    {
+      "type": "icon_content",
+      "name": "Icon & Content",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "GUT ZU WISSEN!"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Enable Text Second Font",
+          "default": true
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "default": "#93d4ff12"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#616161"
+        },
+        {
+          "type": "color",
+          "id": "border_color",
+          "label": "Border Color",
+          "default": "#93d4ff"
         }
       ]
     }
