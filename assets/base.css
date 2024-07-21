@@ -6688,7 +6688,16 @@ h2,
 h3,
 h4,
 h5 {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 70px;
+}
+
+.section-anchor_contact {
+  padding: 35px 0;
+}
+
+#toc {
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
 }
 
 @media only screen and (min-width: 750px) {
@@ -6699,6 +6708,17 @@ h5 {
 
   .anchor_contact-info {
     max-width: 30%;
+  }
+
+  .anchor_contact-list {
+    padding-right: 15px;
+  }
+
+  #toc {
+    padding-right: 15px;
+    border-right: 1px solid;
+    border-bottom: none;
+    padding-bottom: 0;
   }
 }
 
