@@ -633,6 +633,44 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "two_products_Dz4zeG": {
+      "type": "two_products",
+      "blocks": {
+        "item_qY3YeX": {
+          "type": "item",
+          "settings": {
+            "image_url": "",
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "content_url": "",
+            "first_btn": "Kaufen",
+            "first_btn_url": "",
+            "second_btn": "Mehr erfahren",
+            "second_btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_qY3YeX"
+      ],
+      "settings": {
+        "heading": "Erzähle etwas über deine Marke",
+        "color": "#003e5f",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "img_bg": "#f2f2f2",
+        "content_bg": "#fafafa",
+        "title_color": "#003e5f",
+        "text_color": "#616161",
+        "first_btn_color": "#fff",
+        "first_btn_bg": "#0081be",
+        "second_btn_color": "#0081be",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -648,6 +686,7 @@
     "rich_text_ttA7Hm",
     "rich_text_GpMRUX",
     "rich_text_egftRB",
-    "rich_text_KkzRF4"
+    "rich_text_KkzRF4",
+    "two_products_Dz4zeG"
   ]
 }
