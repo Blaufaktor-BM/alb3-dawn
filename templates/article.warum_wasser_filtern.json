@@ -120,6 +120,21 @@
         "padding_bottom": 52
       }
     },
+    "anchor_contact_mrjehn": {
+      "type": "anchor_contact",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/albfilter-portrait-ben.png",
+        "text": "<p><strong>Autor:<\/strong> Benjamin Maywald<br\/><strong>Position:<\/strong> Co-Founder Alb Filter<br\/><strong>Aktualisiert am:<\/strong><\/p>",
+        "social_title": "<strong>Jetzt teilen!<\/strong>",
+        "url1": "https:\/\/www.linkedin.com\/shareArticle?mini=true&url=alb-filter.com\/a\/pf_preview",
+        "url2": "",
+        "url3": "",
+        "url4": "",
+        "url5": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_FfeGkc": {
       "type": "rich-text",
       "blocks": {
@@ -976,6 +991,7 @@
     "breadcrump_CXC8ft",
     "column_image_text_rTMRVg",
     "rich_text_QdHjb9",
+    "anchor_contact_mrjehn",
     "rich_text_FfeGkc",
     "rich_text_axWYkM",
     "rich_text_QMdWXW",
