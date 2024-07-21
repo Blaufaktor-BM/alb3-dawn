@@ -397,7 +397,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
             "title": "GUT ZU WISSEN!",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
             "second_font": true,
             "background_color": "#93d4ff",
