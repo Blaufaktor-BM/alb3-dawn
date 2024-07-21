@@ -4682,6 +4682,11 @@ slideshow-component .banner__heading.h1 {
   content: "...";
 }
 
+.rich-text__icon_content {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .rich-text__icon_content-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -4706,6 +4711,10 @@ slideshow-component .banner__heading.h1 {
   margin: 0 auto;
 }
 
+.rich-text__icon_content-des {
+  text-align: center;
+}
+
 @media only screen and (max-width: 989px) {
   .rich-text__image.remove_spacing {
     margin-left: -30px;
@@ -4728,6 +4737,7 @@ slideshow-component .banner__heading.h1 {
 
   .rich-text__icon_content-des {
     max-width: calc(100% - 66px);
+    text-align: left;
   }
 
   .rich-text__icon_content-title {
@@ -4745,6 +4755,10 @@ slideshow-component .banner__heading.h1 {
 
   .rich-text_icon_content_media img {
     margin-left: 0;
+  }
+
+  .rich-text__icon_content {
+    margin: 0;
   }
 }
 
