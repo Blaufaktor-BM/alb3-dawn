@@ -97,11 +97,10 @@
             "second_font": true
           }
         },
-        "text_pjn98V": {
-          "type": "text",
+        "dot_list_KAXjdB": {
+          "type": "dot_list",
           "settings": {
-            "text": "<p>… ob Sie Wasser filtern müssen,<\/p><p>… welche Gründe dafür sprechen, das Trinkwasser zu filtern,<\/p><p>… ob Wasserfilter sinnvoll sind,<\/p><p>… inwiefern Vorurteile gegen Wasserfilter stimmen oder nicht stimmen,<\/p><p>… was Wasserfilter überhaupt filtern,<\/p><p>… worauf Sie bei einem Wasserfilter achten müssen<\/p><p>… und ob Flaschenwasser eine gute Alternative zu Wasserfiltern ist.<\/p>",
-            "second_font": true
+            "dot_list": "<ul><li>ob Sie Wasser filtern müssen,<\/li><li>welche Gründe dafür sprechen, das Trinkwasser zu filtern,<\/li><li>ob Wasserfilter sinnvoll sind,<\/li><li>inwiefern Vorurteile gegen Wasserfilter stimmen oder nicht stimmen,<\/li><li>was Wasserfilter überhaupt filtern,<\/li><li>worauf Sie bei einem Wasserfilter achten müssen<\/li><li>und ob Flaschenwasser eine gute Alternative zu Wasserfiltern ist.<\/li><\/ul>"
           }
         }
       },
@@ -109,7 +108,7 @@
         "heading_ciRJMm",
         "heading_kxJRBJ",
         "text_C9VKEW",
-        "text_pjn98V"
+        "dot_list_KAXjdB"
       ],
       "settings": {
         "desktop_content_position": "center",
