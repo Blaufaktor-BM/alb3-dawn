@@ -6686,7 +6686,7 @@ ul.breadcrumb li a:hover {
 
 body {
   scroll-margin-top: 70px;
-  writing-mode: vertical-rl;
+  writing-mode: horizontal-tb;
   scroll-snap-align: start none;
 }
 
