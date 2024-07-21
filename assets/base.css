@@ -6684,9 +6684,9 @@ ul.breadcrumb li a:hover {
   color: #0081be;
 }
 
-body {
+h2,
+h3 {
   scroll-margin-top: 70px;
-  scroll-snap-align: start none;
 }
 
 @media only screen and (min-width: 750px) {
