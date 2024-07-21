@@ -6645,6 +6645,8 @@ ul.breadcrumb li a:hover {
   overflow: hidden;
   border: 3px solid;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .anchor_contact-img img {
@@ -6662,6 +6664,7 @@ ul.breadcrumb li a:hover {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .anchor_contact-social_list svg {
@@ -6673,6 +6676,7 @@ ul.breadcrumb li a:hover {
   list-style-position: outside;
   list-style-type: decimal-leading-zero;
   font-size: 14px;
+  margin: 0;
 }
 
 #toc ul a {
@@ -6700,6 +6704,10 @@ h5 {
   padding-bottom: 15px;
 }
 
+.anchor_contact-info {
+  text-align: center;
+}
+
 @media only screen and (min-width: 750px) {
 
   .anchor_contact-list {
@@ -6711,7 +6719,12 @@ h5 {
   }
 
   .anchor_contact-list {
-    padding-right: 15px;
+    padding-right: 20px;
+  }
+
+  .anchor_contact-info {
+    padding-left: 15px;
+    text-align: left;
   }
 
   #toc {
@@ -6719,6 +6732,14 @@ h5 {
     border-right: 1px solid;
     border-bottom: none;
     padding-bottom: 0;
+  }
+
+  .anchor_contact-img {
+    margin-left: 0;
+  }
+
+  .anchor_contact-social_list {
+    justify-content: flex-start;
   }
 }
 
