@@ -6625,6 +6625,46 @@ ul.breadcrumb li a:hover {
 }
 
 /* column icon text */
+/* anchor contact */
+.wrapper-anchor_contact {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.anchor_contact-info,
+.anchor_contact-list {
+  width: 100%;
+}
+
+.anchor_contact-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid;
+  margin-bottom: 20px;
+}
+
+.anchor_contact-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 750px) {
+
+  .anchor_contact-list {
+    max-width: 70%;
+  }
+
+  .anchor_contact-info {
+    max-width: 30%;
+  }
+}
+
+/* anchor contact */
 /* cart drawer upsell */
 .upsell_list {
   display: flex;
