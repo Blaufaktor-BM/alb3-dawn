@@ -73,7 +73,7 @@ function getToC() {
         hElements.push($(this));
     });
     hElements = unique(hElements);
-    //console.log(hElements);
+    console.log(hElements);
 
     // ToC wrapper
     var ToC = "<nav role='navigation'>";
@@ -84,7 +84,6 @@ function getToC() {
         lastHeadingIndex = (typeof hElements[i-1] === 'undefined') ? 0 : hElements[i-1].prop('tagName').substring(1);
         currentHeadingIndex = e.prop('tagName').substring(1);
         nextHeadingIndex = (typeof hElements[i+1] === 'undefined') ? 0 : hElements[i+1].prop('tagName').substring(1);
-        console.log(lastHeadingIndex);
 
         // toc-found = TOC Verzeichnis erst erstellen mit Überschriften nach dem Inhaltsverzeichnis
         if(e.attr('id') == 'toc')
