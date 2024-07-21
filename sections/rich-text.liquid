@@ -229,7 +229,7 @@
                 {% endif %}
               >
                 {% assign bg_color = block.settings.background_color | color_to_rgb %}
-                {% assign opacity = block.settings.background_color_opacity %}
+                {% assign opacity = block.settings.background_color_opacity | divided_by: 100.00 %}
                 {% assign opacityWithEndBracket = ', ' | append: opacity | append: ')' %}
                 {% assign rgba = bg_color | replace: 'rgb', 'rgba' | replace: ')', opacityWithEndBracket %}
                 <div
