@@ -255,7 +255,9 @@
                     {% endif %}
                   >
                     {% if block.settings.title != blank %}
-                      <div class="rich-text__icon_content-title">{{ block.settings.title }}</div>
+                      <div class="rich-text__icon_content-title {{ block.settings.heading_size }}">
+                        {{ block.settings.title }}
+                      </div>
                     {% endif %}
                     {% if block.settings.text != blank %}
                       <div class="rich-text__icon_content-text rte">{{ block.settings.text }}</div>
@@ -751,6 +753,34 @@
           "default": "GUT ZU WISSEN!"
         },
         {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h3",
+              "label": "Extra Small"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
           "type": "richtext",
           "id": "text",
           "label": "Text",
@@ -766,7 +796,16 @@
           "type": "color",
           "id": "background_color",
           "label": "Background Color",
-          "default": "#93d4ff12"
+          "default": "#93d4ff"
+        },
+        {
+          "type": "range",
+          "id": "background_color_opacity",
+          "label": "Background Color Opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 7
         },
         {
           "type": "color",
