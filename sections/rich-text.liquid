@@ -230,7 +230,7 @@
               >
                 <div
                   class="rich-text__icon_content-wrapper"
-                  style="{% if block.settings.background_color != blank %}background-color: rgba({{ block.settings.background_color }}, {{ block.settings.background_color_opacity | divided_by: 100.00 }});{% endif %}{% if block.settings.border_color != blank %} border-color: {{ block.settings.border_color }};{% endif %}"
+                  style="{% if block.settings.background_color != blank %}background-color: rgba({{ block.settings.background_color | color_to_rgb }}, {{ block.settings.background_color_opacity | divided_by: 100.00 }});{% endif %}{% if block.settings.border_color != blank %} border-color: {{ block.settings.border_color }};{% endif %}"
                 >
                   {% if block.settings.image != blank %}
                     <div class="rich-text_icon_content_media">

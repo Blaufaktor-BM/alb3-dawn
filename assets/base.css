@@ -4737,7 +4737,7 @@ slideshow-component .banner__heading.h1 {
     padding: 25px 65px 35px;
   }
 
-  .rich-text_icon_content_media {
+  .rich-text__icon_content-wrapper>div.rich-text_icon_content_media {
     display: inline-block;
     width: auto;
   }
