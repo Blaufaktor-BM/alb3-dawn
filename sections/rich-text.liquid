@@ -208,6 +208,17 @@
                   {% endif %}
                 ></div>
               </div>
+            {%- when 'dot_list' -%}
+              <div
+                class="rich-text__dot-list rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {{ block.settings.dot_list }}
+              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -666,6 +677,17 @@
           "id": "border_color",
           "label": "Border Color",
           "default": "#93d4ff"
+        }
+      ]
+    },
+    {
+      "type": "dot_list",
+      "name": "Dot List",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "dot_list",
+          "label": "Dot List"
         }
       ]
     }

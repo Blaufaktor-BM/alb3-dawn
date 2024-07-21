@@ -4667,6 +4667,18 @@ slideshow-component .banner__heading.h1 {
   background-color: #fff;
 }
 
+.rich-text__dot-list ul {
+  list-style: none;
+}
+
+.rich-text__dot-list li {
+  position: relative;
+}
+
+.rich-text__dot-list li:before {
+  content: "...";
+}
+
 @media only screen and (max-width: 989px) {
   .rich-text__image.remove_spacing {
     margin-left: -30px;
