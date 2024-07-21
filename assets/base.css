@@ -6685,8 +6685,10 @@ ul.breadcrumb li a:hover {
 }
 
 h2,
-h3 {
-  scroll-margin-top: 70px;
+h3,
+h4,
+h5 {
+  scroll-margin-top: 100px;
 }
 
 @media only screen and (min-width: 750px) {
