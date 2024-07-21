@@ -4667,12 +4667,15 @@ slideshow-component .banner__heading.h1 {
   background-color: #fff;
 }
 
+.rich-text__dot-list ol,
 .rich-text__dot-list ul {
   list-style: none;
 }
 
 .rich-text__dot-list li {
   position: relative;
+  display: flex;
+  gap: 5px;
 }
 
 .rich-text__dot-list li:before {
