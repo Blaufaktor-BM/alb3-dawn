@@ -69,11 +69,11 @@ function getToC() {
 
     // alle Heading Element sammeln
     var hElements = [];
-    $('#main-content h2, #main-content h3, #main-content h4').each(function(i,e) {
+    $('#MainContent h2, #MainContent h3, #MainContent h4').each(function(i,e) {
         hElements.push($(this));
     });
     hElements = unique(hElements);
-    console.log(hElements);
+    // console.log(hElements);
 
     // ToC wrapper
     var ToC = "<nav role='navigation'>";
