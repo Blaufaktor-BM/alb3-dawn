@@ -6669,6 +6669,21 @@ ul.breadcrumb li a:hover {
   height: 18px;
 }
 
+#toc ul {
+  list-style-position: outside;
+  list-style-type: decimal-leading-zero;
+  font-size: 14px;
+}
+
+#toc ul a {
+  text-decoration: none;
+  color: #616161;
+}
+
+#toc ul a:hover {
+  color: #0081be;
+}
+
 @media only screen and (min-width: 750px) {
 
   .anchor_contact-list {
