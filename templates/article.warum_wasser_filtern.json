@@ -442,6 +442,65 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_ttA7Hm": {
+      "type": "rich-text",
+      "blocks": {
+        "border_Jg6EDU": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
+        "heading_QjhiCQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Sind Wasserfilter sinnvoll?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_DrkL6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In Deutschland, wo mehr als 90 Prozent der Verbraucher an das öffentliche Trinkwassernetz angeschlossen sind, hängt die Trinkwasserhygiene von einer sorgfältigen Aufbereitung, dem Zustand des Wassernetzes und der häuslichen Installation ab. So verbleiben – je nach Region – mehr oder weniger Verunreinigungen in Ihrem Leitungswasser.<br\/><br\/>Um sich trotz dieser möglichen Beeinträchtigungen auf hygienisch einwandfreies Trinkwasser verlassen zu können, ist eine erneute Filterung mittels Wasserfilter direkt am Entnahmepunkt unverzichtbar. Nur durch diese wiederholte Filterung können Sie das Trinkwasser zuverlässig von Schadstoffen befreien.<br\/><br\/>Verwenden Sie keinen Wasserfilter, so gehen Sie das Risiko ein, unbemerkt belastetes Leitungswasser zu trinken! Insbesondere wenn Kinder, Schwangere oder Menschen mit gesundheitlichen Beeinträchtigungen im Haushalt leben, sind Wasserfilter sehr zu empfehlen. Dabei sind die Filter im Verhältnis zu Flaschenwasser zudem um einiges günstiger sowie umweltschonender und somit die beste Methode, um sauberes Wasser zu trinken.<\/p>",
+            "second_font": true
+          }
+        },
+        "image_aCanCX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/warum-sind-wasserfilter-sinnvoll.png",
+            "image_width": 680,
+            "full_width": true,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": true,
+            "image_des": "",
+            "text_color": "#616161"
+          }
+        }
+      },
+      "block_order": [
+        "border_Jg6EDU",
+        "heading_QjhiCQ",
+        "text_DrkL6B",
+        "image_aCanCX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -453,6 +512,7 @@
     "rich_text_axWYkM",
     "rich_text_QMdWXW",
     "rich_text_KUHf8f",
-    "rich_text_qVfNWA"
+    "rich_text_qVfNWA",
+    "rich_text_ttA7Hm"
   ]
 }
