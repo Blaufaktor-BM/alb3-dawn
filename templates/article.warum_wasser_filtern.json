@@ -126,11 +126,11 @@
         "image": "shopify:\/\/shop_images\/albfilter-portrait-ben.png",
         "text": "<p><strong>Autor:<\/strong> Benjamin Maywald<br\/><strong>Position:<\/strong> Co-Founder Alb Filter<br\/><strong>Aktualisiert am:<\/strong><\/p>",
         "social_title": "<strong>Jetzt teilen!<\/strong>",
-        "url1": "https:\/\/www.linkedin.com\/shareArticle?mini=true&url=alb-filter.com\/a\/pf_preview",
-        "url2": "",
-        "url3": "",
-        "url4": "",
-        "url5": "",
+        "linkedin": "https:\/\/www.linkedin.com\/shareArticle?mini=true&url=alb-filter.com\/a\/pf_preview",
+        "facebook": "",
+        "twitter": "",
+        "pinterest": "",
+        "mail": "",
         "padding_top": 10,
         "padding_bottom": 0
       }
