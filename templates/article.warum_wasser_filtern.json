@@ -633,6 +633,183 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_KLrgmU": {
+      "type": "rich-text",
+      "blocks": {
+        "border_yr948Y": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
+        "heading_bhgYb7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Leitungswasser filtern vs. Mineralwasser kaufen: Was ist besser?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_yxVexf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Viele Menschen greifen<strong>aus Angst vor Verunreinigungen im Leitungswasser<\/strong>auf Wasser in Flaschen zurück. Allein in Deutschland werden jedes Jahr<a href=\"https:\/\/www.duh.de\/mehrweg-klimaschutz0\/einweg-plastikflaschen\/\" target=\"_blank\">17,4 Milliarden Plastikflaschen<\/a>gekauft, die meisten gefüllt mit Mineralwasser<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q10\" target=\"_self\">[10]<\/a>. Würde man all diese Flaschen aufeinander stapeln, so würden sie<strong>beinahe 15 Mal von der Erde bis zum Mond<\/strong>reichen! Aneinandergelegt könnte man mit den Flaschen die Erde ca. 143 Mal umrunden!<br\/><br\/><strong>Fakt ist jedoch<\/strong>: Flaschenwasser ist<strong>weder gesünder noch umweltschonender oder sparsamer<\/strong>als Leitungswasser. Sehen wir uns das ganze etwas genauer an:<\/p>",
+            "second_font": true
+          }
+        },
+        "image_fEaBt4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flasche-und-Glas-02.jpg",
+            "image_width": 700,
+            "full_width": true,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": true,
+            "image_des": "",
+            "text_color": "#616161"
+          }
+        }
+      },
+      "block_order": [
+        "border_yr948Y",
+        "heading_bhgYb7",
+        "text_yxVexf",
+        "image_fEaBt4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_jEJEMT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DMncjA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Flaschenwasser ist nicht vor Verunreinigungen sicher<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_3ekczW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Viele Menschen bevorzugen in Flaschen abgefülltes Wasser, weil sie glauben, dass es keine Verunreinigungen und Schadstoffe enthält. Da Mineralwasser aus unterirdischen Wasservorkommen in größeren Tiefen gewonnen wird, scheint es für viele vor Verunreinigungen besser geschützt. Doch auch hier werden regelmäßig Schadstoffe, Rückstände von Pflanzenschutzmitteln und Keime nachgewiesen. Zudem kann Wasser aus Plastikflaschen unter Umständen Weichmacher und Mikroplastikpartikel enthalten.<\/p>",
+            "second_font": true
+          }
+        },
+        "heading_QkK7Ka": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wasser aus Plastikflaschen hat eine schlechtere Klimabilanz<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_kgzPUM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unabhängig von Aspekten wie Geschmack und Hygiene hat Flaschenwasser einen miserablen ökologischen Fußabdruck. Das wenigste Wasser wird heute noch in Mehrwegflaschen abgefüllt. Der<a href=\"https:\/\/www.umweltbundesamt.de\/sites\/default\/files\/medien\/479\/publikationen\/texte_148-2022_foerderung_von_mehrwegverpackungssystemen_zur_verringerung_des_verpackungsverbrauchs.pdf\" target=\"_blank\">Anteil von Mehrwegflaschen<\/a>aus Glas oder PET-Kunststoff ist von über 90 Prozent in den 90er-Jahren auf heute knapp 40 Prozent gesunken<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q11\" target=\"_self\">[11]<\/a>.<br\/><br\/>Die Herstellung der Plastikflaschen benötigt Unmengen an fossilen Rohstoffen – genauer gesagt ca. 438.000 Tonnen Rohöl und Erdgaskondensate. Auch die Befüllung und der Transport der Flaschen in den Supermarkt verbraucht Energie. Die anschließende Entsorgung der Plastikflaschen sorgt zusätzlich für eine negative Umweltbilanz und verursacht allein in Deutschland pro Jahr 450.000 Tonnen Müll.<br\/><br\/>Das<a href=\"https:\/\/www.gesetze-im-internet.de\/verpackg\/\" target=\"_blank\">Deutsche Verpackungsgesetz<\/a>hat zwar das Ziel, die Mehrwegquote wieder zu erhöhen, doch würde jeder Verbraucher statt Mineralwasser in Plastikflaschen einfach Leitungswasser trinken, wäre die Menge an eingespartem CO2 um ein Vielfaches höher<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q12\" target=\"_self\">[12]<\/a>. Denn sowohl Einweg- als auch Mehrwegflaschen haben einen<a href=\"https:\/\/www.c7-consult.at\/app\/download\/7937994756\/ALPLA+LCA+Packaging+Report+und+Review+%281.0%29.pdf?t=1560413847\" target=\"_blank\">enorm hohen CO2-Fußabdruck<\/a><a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q13\" target=\"_self\">[13]<\/a>.<\/p>",
+            "second_font": true
+          }
+        },
+        "image_U3qgfA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/co2-fussabdruck-im-vergleich.png",
+            "image_width": 700,
+            "full_width": true,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": true,
+            "image_des": "",
+            "text_color": "#616161"
+          }
+        },
+        "text_7HfBCY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leitungswasser hat im Vergleich einen sehr geringen CO2-Fußabdruck. Zwar kostet auch die Trinkwasseraufbereitung Energie, jedoch relativ wenig. Einer<a href=\"https:\/\/esu-services.ch\/fileadmin\/download\/jungbluth-2014-Artikel-OEkobilanz-Trinkwasser.pdf\" target=\"_blank\">Studie des Instituts ESU-services<\/a>zufolge hat stilles Mineralwasser in der Flasche eine 90- bis 1.000-fach höhere Umweltbelastung als Leitungswasser<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q14\" target=\"_self\">[14]<\/a>. Die genaue Höhe hängt dabei von der Distanz ab, die das Wasser bis zum Endverbraucher zurücklegen muss.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DMncjA",
+        "text_3ekczW",
+        "heading_QkK7Ka",
+        "text_kgzPUM",
+        "image_U3qgfA",
+        "text_7HfBCY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_fjdji8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iUJwtB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Leitungswasser ist günstiger<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_pYE4Qf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sauberes Trinkwasser in unbegrenzter Menge aus der Leitung gilt in Deutschland als selbstverständlicher Standard. Und im Vergleich zu Trinkwasser aus Flaschen bekommt man es zu einem unschlagbaren Preis, auch wenn dieser abhängig von der Region und dem Versorger durchaus variieren kann.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_iUJwtB",
+        "text_pYE4Qf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -648,6 +825,9 @@
     "rich_text_ttA7Hm",
     "rich_text_GpMRUX",
     "rich_text_egftRB",
-    "rich_text_KkzRF4"
+    "rich_text_KkzRF4",
+    "rich_text_KLrgmU",
+    "rich_text_jEJEMT",
+    "rich_text_fjdji8"
   ]
 }
