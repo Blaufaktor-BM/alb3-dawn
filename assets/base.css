@@ -4702,6 +4702,7 @@ slideshow-component .banner__heading.h1 {
   width: 100%;
   height: auto;
   max-width: 56px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 989px) {
@@ -4734,6 +4735,15 @@ slideshow-component .banner__heading.h1 {
 
   .rich-text__icon_content-wrapper {
     padding: 25px 65px 35px;
+  }
+
+  .rich-text_icon_content_media {
+    display: inline-block;
+    width: auto;
+  }
+
+  .rich-text_icon_content_media img {
+    margin-left: 0;
   }
 }
 
