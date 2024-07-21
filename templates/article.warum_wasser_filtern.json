@@ -553,6 +553,86 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_egftRB": {
+      "type": "rich-text",
+      "blocks": {
+        "border_PpxARn": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
+        "heading_PAJjpF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Was filtert ein Aktivkohle-Blockfilter?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "border_PpxARn",
+        "heading_PAJjpF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_KkzRF4": {
+      "type": "rich-text",
+      "blocks": {
+        "border_YVW8YA": {
+          "type": "border",
+          "settings": {
+            "border_color": "#93d4ff"
+          }
+        },
+        "heading_Pnxdrz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Trinkwasser filtern: Was muss ich bei einem Wasserfilter beachten?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_rVYWbB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ob Wasserfilter gut oder schlecht sind, hängt immer vom Einzelfall ab. Denn <strong>nicht jeder Wasserfilter funktioniert gleich<\/strong>. Da der Markt schier überflutet wird von unterschiedlichen Filtertypen, ist es enorm wichtig, hier genau hinzusehen. Bei der Entscheidung für einen Wasserfilter sollten Sie daher <strong>unbedingt folgende Fragen beachten<\/strong>:<\/p><ul><li>Welche Filtrationstechnologie und welches Filtermedium werden verwendet?<\/li><li>Passt der Filter zu Ihren Bedürfnissen?<\/li><li>Welcher Wirkungsgrad wird vom Hersteller garantiert?<\/li><li>Wie hoch ist die Filterleistung?<\/li><li>Ist der Filter zertifiziert?<\/li><li>Muss der Filter irgendwo eingebaut werden?<\/li><li>Werden alle Voraussetzungen für den Einbau eines Wasserfilters erfüllt?<\/li><li>Wie oft müssen der Filter bzw. die Kartuschen gewechselt werden?<\/li><li>Handelt es sich um einen umweltfreundlichen und recyclebaren Wasserfilter?<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "border_YVW8YA",
+        "heading_Pnxdrz",
+        "text_rVYWbB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -566,6 +646,8 @@
     "rich_text_KUHf8f",
     "rich_text_qVfNWA",
     "rich_text_ttA7Hm",
-    "rich_text_GpMRUX"
+    "rich_text_GpMRUX",
+    "rich_text_egftRB",
+    "rich_text_KkzRF4"
   ]
 }
