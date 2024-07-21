@@ -4697,6 +4697,13 @@ slideshow-component .banner__heading.h1 {
   margin-bottom: 30px;
 }
 
+.rich-text_icon_content_media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 56px;
+}
+
 @media only screen and (max-width: 989px) {
   .rich-text__image.remove_spacing {
     margin-left: -30px;
@@ -4715,10 +4722,6 @@ slideshow-component .banner__heading.h1 {
 
   .rich-text__image.image-shadow {
     padding: 5px;
-  }
-
-  .rich-text_icon_content_media {
-    max-width: 56px;
   }
 
   .rich-text__icon_content-des {
