@@ -902,7 +902,7 @@
         "text_7HfBCY": {
           "type": "text",
           "settings": {
-            "text": "<p>Leitungswasser hat im Vergleich einen sehr geringen CO2-Fußabdruck. Zwar kostet auch die Trinkwasseraufbereitung Energie, jedoch relativ wenig. Einer<a href=\"https:\/\/esu-services.ch\/fileadmin\/download\/jungbluth-2014-Artikel-OEkobilanz-Trinkwasser.pdf\" target=\"_blank\">Studie des Instituts ESU-services<\/a>zufolge hat stilles Mineralwasser in der Flasche eine 90- bis 1.000-fach höhere Umweltbelastung als Leitungswasser<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q14\" target=\"_self\">[14]<\/a>. Die genaue Höhe hängt dabei von der Distanz ab, die das Wasser bis zum Endverbraucher zurücklegen muss.<\/p>",
+            "text": "<p>Leitungswasser hat im Vergleich einen sehr geringen CO2-Fußabdruck. Zwar kostet auch die Trinkwasseraufbereitung Energie, jedoch relativ wenig. Einer <a href=\"https:\/\/esu-services.ch\/fileadmin\/download\/jungbluth-2014-Artikel-OEkobilanz-Trinkwasser.pdf\" target=\"_blank\">Studie des Instituts ESU-services <\/a>zufolge hat stilles Mineralwasser in der Flasche eine 90- bis 1.000-fach höhere Umweltbelastung als Leitungswasser <a href=\"#q14\" title=\"#q14\">[14]<\/a>. Die genaue Höhe hängt dabei von der Distanz ab, die das Wasser bis zum Endverbraucher zurücklegen muss.<\/p>",
             "second_font": true
           }
         }
@@ -953,7 +953,7 @@
             "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
             "title": "RECHENBEISPIEL",
             "heading_size": "h2",
-            "text": "<p>Im Jahr 2022 lag der durchschnittliche Preis für 1 m3 Leitungswasser (1.000 Liter)<a href=\"https:\/\/www.destatis.de\/DE\/Themen\/Gesellschaft-Umwelt\/Umwelt\/Wasserwirtschaft\/Tabellen\/tw-08-entgelt-trinkwasserversorgung-tarifgeb-nach-tariftypen-2020-2022-land-bund.html\" target=\"_blank\">in Baden-Württemberg<\/a>bei 2,33 EUR. Das ergibt 0,233 Cent pro Liter<a href=\"https:\/\/alb-filter.com\/a\/pf_preview?id=58d06c6d-cd6a-437c-9f67-6c370c2cea51#q15\" target=\"_self\">[15]<\/a>.<br\/><br\/>Flaschenwasser kostet ein Vielfaches. Preiswertes Mineralwasser bekommt man ab 18 Cent pro Liter (z. B. Quellbrunn bei Aldi), also ca. 77 Mal mehr. Bekannte Wassermarken (z. B. Adelholzener bei REWE) bieten ihr Flaschenwasser für etwa 60 Cent pro Liter an, was ca. 257 Mal teurer ist als Leitungswasser.<\/p>",
+            "text": "<p>Im Jahr 2022 lag der durchschnittliche Preis für 1 m3 Leitungswasser (1.000 Liter) <a href=\"https:\/\/www.destatis.de\/DE\/Themen\/Gesellschaft-Umwelt\/Umwelt\/Wasserwirtschaft\/Tabellen\/tw-08-entgelt-trinkwasserversorgung-tarifgeb-nach-tariftypen-2020-2022-land-bund.html\" target=\"_blank\">in Baden-Württemberg <\/a>bei 2,33 EUR. Das ergibt 0,233 Cent pro Liter <a href=\"#q15\" title=\"#q15\">[15]<\/a>.<br\/><br\/>Flaschenwasser kostet ein Vielfaches. Preiswertes Mineralwasser bekommt man ab 18 Cent pro Liter (z. B. Quellbrunn bei Aldi), also ca. 77 Mal mehr. Bekannte Wassermarken (z. B. Adelholzener bei REWE) bieten ihr Flaschenwasser für etwa 60 Cent pro Liter an, was ca. 257 Mal teurer ist als Leitungswasser.<\/p>",
             "second_font": true,
             "background_color": "#93d4ff",
             "background_color_opacity": 7,
