@@ -1084,11 +1084,11 @@
         "heading_size": "h1",
         "heading_color": "#3c3c3c",
         "heading_alignment": "left",
-        "open_first_collapsible_row": false,
-        "title_color": "#003e5f",
-        "title_bg": "#fafafa",
+        "open_first_collapsible_row": true,
+        "title_color": "#616161",
+        "title_bg": "#ffffff",
         "text_color": "#616161",
-        "content_border_color": "#fafafa",
+        "content_border_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
       }
