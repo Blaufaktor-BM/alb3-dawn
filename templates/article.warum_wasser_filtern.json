@@ -1104,8 +1104,8 @@
             "title": "Wie misst man die Wasserqualität",
             "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
             "btn_text": "Weiterlesen",
-            "url": "",
-            "content_url": "",
+            "url": "shopify:\/\/blogs\/ratgeber\/wie-misst-man-die-wasserqualitaet",
+            "content_url": "shopify:\/\/blogs\/ratgeber\/ph-wert-wasser",
             "border_color": "#9b9b9b"
           }
         },
