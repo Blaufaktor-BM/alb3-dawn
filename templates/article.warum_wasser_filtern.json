@@ -767,7 +767,7 @@
           "settings": {
             "button_text": "Wasserfilter kaufen",
             "button_url": "\/products",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#ffa726"
           }
         }
@@ -1079,6 +1079,7 @@
       "settings": {
         "caption": "",
         "heading": "FAQs",
+        "enable_icon": true,
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
