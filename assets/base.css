@@ -6844,6 +6844,38 @@ h5 {
 }
 
 /* anchor contact */
+/* two column content */
+.wrapper-two_column_content:not(.full_width) {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.wrapper-two_column_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.item-two_column_content {
+  width: 100%;
+  border-top: 2px solid;
+  padding: 35px 70px;
+}
+
+@media only screen and (min-width: 750px) {
+  .wrapper-two_column_content {
+    gap: 60px;
+    margin: 0;
+  }
+
+  .wrapper-two_column_content.two_columns .item-two_column_content {
+    max-width: calc(50% - 30px);
+  }
+}
+
+/* two column content */
 /* cart drawer upsell */
 .upsell_list {
   display: flex;

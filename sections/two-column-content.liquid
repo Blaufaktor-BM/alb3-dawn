@@ -1,0 +1,155 @@
+{%- liquid
+  assign fetch_priority = 'auto'
+-%}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="section-two_column_content section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div
+      class="wrapper-two_column_content isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% if section.settings.full_width %} full_width{% endif %}{% if section.blocks.size > 1 %} two_columns{% endif %}"
+    >
+      {% for block in section.blocks %}
+        {% assign bg_color = block.settings.background_color | color_to_rgb %}
+        {% assign opacity = block.settings.background_color_opacity | divided_by: 100.00 %}
+        {% assign opacityWithEndBracket = ', ' | append: opacity | append: ')' %}
+        {% assign rgba = bg_color | replace: 'rgb', 'rgba' | replace: ')', opacityWithEndBracket %}
+        {% style %}
+          #{{block.id}} a {
+              color: {{ block.settings.color }}
+          }
+        {% endstyle %}
+        <div
+          id="{{block.id}}"
+          class="item-two_column_content"
+          style="
+            {% if block.settings.border_color != blank %}border-color: {{ block.settings.border_color }};{% endif %}
+            {% if block.settings.background_color != blank %} background-color: {{ rgba }};{% endif %}
+            {% if block.settings.color != blank %} color: {{ block.settings.color }};{% endif %}
+          "
+        >
+          {% if block.settings.heading != blank %}
+            <div class="heading-two_column_content rte">
+              {{ block.settings.heading }}
+            </div>
+          {% endif %}
+          {% if block.settings.content != blank %}
+            <div class="content-two_column_content rte second-font">
+              {{ block.settings.content }}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Two Column Content",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Enable Full Width"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "<p>Ein Aktivkohleblock <br><strong>filtert</strong></p>"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<ul><li>Chlor</li></ul>"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Content Color",
+          "default": "#93d4ff"
+        },
+        {
+          "type": "color",
+          "id": "border_color",
+          "label": "Border Color",
+          "default": "#93d4ff"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "default": "#93d4ff"
+        },
+        {
+          "type": "range",
+          "id": "background_color_opacity",
+          "label": "Background Color Opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 7
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Column Content",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
