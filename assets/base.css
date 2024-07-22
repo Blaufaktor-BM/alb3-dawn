@@ -6861,7 +6861,20 @@ h5 {
 .item-two_column_content {
   width: 100%;
   border-top: 2px solid;
-  padding: 35px 70px;
+  padding: 35px 20px 35px 70px;
+}
+
+.heading-two_column_content {
+  font-size: 19px;
+}
+
+.content-two_column_content {
+  margin-top: 30px;
+}
+
+.bottom_content-two_column_content {
+  margin-top: 30px;
+  margin-right: 50px;
 }
 
 @media only screen and (min-width: 750px) {

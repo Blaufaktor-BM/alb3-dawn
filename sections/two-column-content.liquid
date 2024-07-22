@@ -48,6 +48,11 @@
               {{ block.settings.content }}
             </div>
           {% endif %}
+          {% if block.settings.bottom_content != blank %}
+            <div class="bottom_content-two_column_content rte second-font">
+              {{ block.settings.bottom_content }}
+            </div>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
@@ -107,6 +112,11 @@
           "id": "content",
           "label": "Content",
           "default": "<ul><li>Chlor</li></ul>"
+        },
+        {
+          "type": "richtext",
+          "id": "bottom_content",
+          "label": "Bottom Content"
         },
         {
           "type": "color",
