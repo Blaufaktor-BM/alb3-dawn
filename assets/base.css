@@ -5471,6 +5471,11 @@ slideshow-component .banner__heading.h1 {
 
 /* custom contact */
 /* collapse */
+.collapsible-content__heading svg {
+  max-width: 36px;
+  margin-right: 10px;
+}
+
 .collapsible-content__media {
   margin-bottom: 20px;
 }
