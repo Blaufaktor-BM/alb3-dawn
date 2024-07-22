@@ -1187,7 +1187,7 @@
           "type": "item",
           "settings": {
             "id": "q2",
-            "text": "ÖkotestTrinkwasser aus 69: <a href=\"https:\/\/www.oekotest.de\/essen-trinken\/Trinkwasser-aus-69-Grossstaedten-im-Test_104627_1.html\" target=\"_blank\">Trinkwasser aus Großstädten im Test<\/a>"
+            "text": "ÖkotestTrinkwasser aus 69: <a href=\"https:\/\/www.oekotest.de\/essen-trinken\/Trinkwasser-aus-69-Grossstaedten-im-Test_104627_1.html\" target=\"_blank\" title=\"https:\/\/www.oekotest.de\/essen-trinken\/Trinkwasser-aus-69-Grossstaedten-im-Test_104627_1.html\">Trinkwasser aus Großstädten im Test<\/a>"
           }
         },
         "item_e4Pb4q": {
