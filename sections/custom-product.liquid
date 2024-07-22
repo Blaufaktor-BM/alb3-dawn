@@ -6,15 +6,6 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-    {% if section.blocks.type == "button" %}
-  #shopify-section-{{ section.id }} .button:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ block.settings.btn_bg }};
-  }
-  #shopify-section-{{ section.id }} .button:hover:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ block.settings.btn_bg }};
-    --border-offset: 1.3px;
-  }
-  {% endif %}
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -88,8 +79,17 @@
               {% endif %}
             </div>
           {% when 'button' %}
+            {% style %}
+              #shopify-section-{{ section.id }} .button:after {
+                box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ block.settings.btn_bg }};
+              }
+              #shopify-section-{{ section.id }} .button:hover:after {
+                box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ block.settings.btn_bg }};
+                --border-offset: 1.3px;
+              }
+            {% endstyle %}
             {% if block.settings.button_text != blank %}
-              <div class="button-custom_product">
+              <div class="button-custom_product center">
                 <a
                   {% if block.settings.button_url == blank %}
                     role="link" aria-disabled="true"
@@ -219,6 +219,7 @@
     {
       "type": "button",
       "name": "Button",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
