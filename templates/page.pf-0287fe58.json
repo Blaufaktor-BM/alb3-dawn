@@ -25,7 +25,7 @@
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "top-center",
         "enable_section_container": false,
         "show_text_box": true,
         "desktop_content_alignment": "center",
