@@ -575,8 +575,7 @@
             "image1": "shopify:\/\/shop_images\/pf-bcc80d94--albfilterratgeberaktivkohlegeschuettet.jpg",
             "text1": "Aktivkohlegranulat (Tisch- bzw. Kannenfilter)",
             "image2": "shopify:\/\/shop_images\/pf-6ea05bad--albfilterratgeberaktivkohlegesintert.jpg",
-            "text2": "Gesinterter Aktivkohleblock (Alb Filter)",
-            "enable_shaow": true
+            "text2": "Gesinterter Aktivkohleblock (Alb Filter)"
           }
         },
         "text_7pQeN4": {
@@ -653,6 +652,42 @@
         "content_full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "two_column_content_7MhGFm": {
+      "type": "two-column-content",
+      "blocks": {
+        "item_tg3phy": {
+          "type": "item",
+          "settings": {
+            "heading": "<p>Ein Aktivkohleblock <br\/><strong>filtert<\/strong><\/p>",
+            "content": "<ul><li><a href=\"\/blogs\/ratgeber\/chlor\" title=\"Chlor\">Chlor<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\" title=\"Schwermetalle\">Schwermetalle (Blei, Kupfer, ...)<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\" title=\"Arzneimittelrückstände\">Medikamentenrückstände<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/hormone-im-leitungswasser\" title=\"Hormone im Leitungswasser\">Hormone<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\" title=\"Pestizide\/Pflanzenschutzmittel\">Pestizide<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/asbest\" title=\"Asbest\">Asbestfasern<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/legionellen-im-wasser\" title=\"Legionellen\">Legionellen<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/bakterien-im-leitungswasser\" title=\"Bakterien im Leitungswasser\">Keime & Bakterien<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\" title=\"Pestizide\/Pflanzenschutzmittel\">Pflanzenschutzmittel<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" title=\"Mikroplastik im Leitungswasser\">Mikroplastik<\/a><\/li><li>Geschmack & Gerüche<\/li><\/ul>",
+            "color": "#616161",
+            "border_color": "#93d4ff",
+            "background_color": "#93d4ff",
+            "background_color_opacity": 7
+          }
+        },
+        "item_p9r3xc": {
+          "type": "item",
+          "settings": {
+            "heading": "<p>Ein Aktivkohleblock <br\/><strong>filtert<\/strong><\/p>",
+            "content": "<ul><li>Chlor<\/li><\/ul>",
+            "color": "#93d4ff",
+            "border_color": "#93d4ff",
+            "background_color": "#93d4ff",
+            "background_color_opacity": 7
+          }
+        }
+      },
+      "block_order": [
+        "item_tg3phy",
+        "item_p9r3xc"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "rich_text_KkzRF4": {
@@ -1058,6 +1093,7 @@
     "rich_text_ttA7Hm",
     "rich_text_GpMRUX",
     "rich_text_egftRB",
+    "two_column_content_7MhGFm",
     "rich_text_KkzRF4",
     "rich_text_KLrgmU",
     "rich_text_jEJEMT",
