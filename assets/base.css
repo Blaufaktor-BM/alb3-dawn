@@ -6922,6 +6922,7 @@ h5 {
 
 .icon-custom_product {
   padding: 0 10px;
+  width: 100%;
 }
 
 .icon-custom_product:not(:first-child) {
@@ -6938,6 +6939,7 @@ h5 {
   margin: 20px 0;
 }
 
+.media-custom_product svg,
 .media-custom_product img {
   width: 100%;
   height: auto;
