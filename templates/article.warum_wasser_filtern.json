@@ -575,7 +575,8 @@
             "image1": "shopify:\/\/shop_images\/pf-bcc80d94--albfilterratgeberaktivkohlegeschuettet.jpg",
             "text1": "Aktivkohlegranulat (Tisch- bzw. Kannenfilter)",
             "image2": "shopify:\/\/shop_images\/pf-6ea05bad--albfilterratgeberaktivkohlegesintert.jpg",
-            "text2": "Gesinterter Aktivkohleblock (Alb Filter)"
+            "text2": "Gesinterter Aktivkohleblock (Alb Filter)",
+            "enable_shadow": false
           }
         },
         "text_7pQeN4": {
@@ -662,6 +663,7 @@
           "settings": {
             "heading": "<p>Ein Aktivkohleblock <br\/><strong>filtert<\/strong><\/p>",
             "content": "<ul><li><a href=\"\/blogs\/ratgeber\/chlor\" title=\"Chlor\">Chlor<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\" title=\"Schwermetalle\">Schwermetalle (Blei, Kupfer, ...)<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\" title=\"Arzneimittelrückstände\">Medikamentenrückstände<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/hormone-im-leitungswasser\" title=\"Hormone im Leitungswasser\">Hormone<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\" title=\"Pestizide\/Pflanzenschutzmittel\">Pestizide<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/asbest\" title=\"Asbest\">Asbestfasern<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/legionellen-im-wasser\" title=\"Legionellen\">Legionellen<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/bakterien-im-leitungswasser\" title=\"Bakterien im Leitungswasser\">Keime & Bakterien<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\" title=\"Pestizide\/Pflanzenschutzmittel\">Pflanzenschutzmittel<\/a><\/li><li><a href=\"\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" title=\"Mikroplastik im Leitungswasser\">Mikroplastik<\/a><\/li><li>Geschmack & Gerüche<\/li><\/ul>",
+            "bottom_content": "",
             "color": "#616161",
             "border_color": "#93d4ff",
             "background_color": "#93d4ff",
@@ -673,6 +675,7 @@
           "settings": {
             "heading": "<p>Ein Aktivkohleblock<br\/><strong>filtert nicht<\/strong><\/p>",
             "content": "<ul><li><a href=\"\/blogs\/ratgeber\/mineralien-im-leitungswasser\" title=\"Mineralien\">Mineralien*<\/a> <\/li><li>Spurenelemente*<\/li><li><a href=\"\/blogs\/ratgeber\/kalk-im-wasser\" title=\"Kalk im Wasser: Ärgernis oder auch gesund?\">Kalk (nur bedingt)<\/a><\/li><li>Ammoniak<\/li><li>Nitrate<\/li><li>Tenside<\/li><\/ul>",
+            "bottom_content": "<p>*für Wasserfilter ein positiver Effekt, da die Mineralien und Spurenelemente sehr gut und wichtig für den Körper sind.  <\/p>",
             "color": "#616161",
             "border_color": "#d0021b",
             "background_color": "#d0021b",
