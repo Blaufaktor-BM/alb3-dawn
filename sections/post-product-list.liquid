@@ -26,10 +26,10 @@
 {%- endstyle -%}
 <div class="section-post-product-list section-{{ section.id }}-padding">
   <div class="page-width">
-    <div class="wrapper-post-product-list">
+    <div class="wrapper-post-product-list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {% if section.settings.heading != blank %}
         <{{ section.settings.heading_tag }}
-          class="heading-post-product-list {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="heading-post-product-list {{ section.settings.heading_size }}"
           style="color: {{ section.settings.heading_color }}"
         >
           {{ section.settings.heading }}
@@ -42,8 +42,9 @@
               {% for block in section.blocks %}
                 <div
                   class="item-post-product swiper-slide"
+                  style="border-color: {{ block.settings.border_color }}"
                 >
-                  <div class="item-wrapper-post-product" style="border-color: {{ block.settings.border_color }}">
+                  <div class="item-wrapper-post-product">
                     {% if block.settings.content_url != blank %}
                       <a href="{{ block.settings.content_url }}">
                     {% endif %}
