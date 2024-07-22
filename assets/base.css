@@ -7058,6 +7058,16 @@ h5 {
   padding-bottom: 20px;
 }
 
+.item-question {
+  scroll-margin-top: 55px;
+}
+
+@media only screen and (min-width: 750px) {
+  .item-question {
+    scroll-margin-top: 70px;
+  }
+}
+
 /* post product list */
 /* question list */
 .heading-question-list {
