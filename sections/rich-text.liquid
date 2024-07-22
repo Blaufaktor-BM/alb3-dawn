@@ -269,6 +269,64 @@
                   </div>
                 </div>
               </div>
+            {% when 'two_images' %}
+              <div
+                class="rich-text__two_images{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                <div clss="rich-text__two_images-wrapper{% if block.settings.image2 != blank %} two_column{% endif %}{% if block.settings.enable_shadow %} column_shadow{% endif %}">
+                  {% if block.settings.image1 != blank %}
+                    <div class="rich-text__two_images-item">
+                      <div class="rich-text__two_images-media">
+                        {%- assign fetch_priority = 'auto' -%}
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
+                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                          (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                        {%- endcapture -%}
+
+                        {{
+                          block.settings.image1
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                      {% if block.settings.text1 != blank %}
+                        <div class="rich-text__two_images-text center second-font">
+                          {{ block.settings.text1 }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.image2 != blank %}
+                    <div class="rich-text__two_images-item">
+                      <div class="rich-text__two_images-media">
+                        {%- assign fetch_priority = 'auto' -%}
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
+                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                          (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                        {%- endcapture -%}
+
+                        {{
+                          block.settings.image2
+                          | image_url: width: 1500
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                      {% if block.settings.text2 != blank %}
+                        <div class="rich-text__two_images-text center second-font">
+                          {{ block.settings.text2 }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -715,6 +773,39 @@
           "id": "text_color",
           "label": "Text Color",
           "default": "#616161"
+        }
+      ]
+    },
+    {
+      "type": "two_images",
+      "name": "Two Images",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image1"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text1",
+          "label": "Text1",
+          "default": "Aktivkohlegranulat (Tisch- bzw. Kannenfilter)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image2"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text2",
+          "label": "Text2",
+          "default": "Gesinterter Aktivkohleblock (Alb Filter)"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_shaow",
+          "label": "Enable Shadow"
         }
       ]
     },
