@@ -32,6 +32,7 @@
           class="heading-post-product-list {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           style="color: {{ section.settings.heading_color }}"
         >
+          {{ section.settings.heading }}
         </{{ section.settings.heading_tag }}>
       {% endif %}
       {% if section.blocks.size > 0 %}
@@ -46,7 +47,7 @@
                     {% if block.settings.content_url != blank %}
                       <a href="{{ block.settings.content_url }}">
                     {% endif %}
-                    <div class="media-post-product" style="padding-bottom: {{ image_height }}">
+                    <div class="media-post-product" style="padding-bottom: {{ image_height }}%">
                       {% if block.settings.image != blank %}
                         {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                         {%- capture sizes -%}
