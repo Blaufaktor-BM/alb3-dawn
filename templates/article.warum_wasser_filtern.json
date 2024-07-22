@@ -743,13 +743,16 @@
         "title_ebBC9p": {
           "type": "title",
           "settings": {
-            "heading": "Schützen Sie sich mit einem Wasserfilter!",
+            "heading": "<strong>Schützen Sie sich mit einem Wasserfilter!<\/strong>",
             "text_color": "#3c3c3c"
           }
         },
         "icon_h4CYdK": {
           "type": "icon",
           "settings": {
+            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg"
           }
         },
         "image_qCzq9k": {
