@@ -43,19 +43,21 @@
           "type": "heading",
           "settings": {
             "heading": "<p>ALB DUO<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
             "font_weight": "200",
-            "second_font": false
+            "second_font": true
           }
         },
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserfilter für den Wasserhahn<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "heading_size": "h1",
             "font_weight": "700",
             "second_font": false
@@ -286,7 +288,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
@@ -412,7 +414,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active-plus",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
@@ -535,7 +537,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-nano",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "hide_icon": false,
             "button_label2": "Mehr erfahren",
