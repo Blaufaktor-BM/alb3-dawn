@@ -569,6 +569,16 @@
             "second_font": true
           }
         },
+        "two_images_7dmxqh": {
+          "type": "two_images",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/pf-bcc80d94--albfilterratgeberaktivkohlegeschuettet.jpg",
+            "text1": "Aktivkohlegranulat (Tisch- bzw. Kannenfilter)",
+            "image2": "shopify:\/\/shop_images\/pf-6ea05bad--albfilterratgeberaktivkohlegesintert.jpg",
+            "text2": "Gesinterter Aktivkohleblock (Alb Filter)",
+            "enable_shaow": false
+          }
+        },
         "text_7pQeN4": {
           "type": "text",
           "settings": {
@@ -595,6 +605,7 @@
         "border_7hryUx",
         "heading_7Vb4tK",
         "text_xrRLhc",
+        "two_images_7dmxqh",
         "text_7pQeN4",
         "icon_content_r4nAdG"
       ],
