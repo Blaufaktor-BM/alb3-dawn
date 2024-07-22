@@ -209,10 +209,10 @@
           "settings": {
             "heading": "<strong>Duo Active<\/strong>",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
+            "remove_spacing": true
           }
         },
         "subtitle_kGFPC6": {
@@ -245,7 +245,7 @@
             "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
             "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "<strong> Reduzierung von Mikroplastik<\/strong>",
+            "text4": "<strong>Reduzierung von Mikroplastik<\/strong>",
             "text5": "",
             "text6": ""
           }
