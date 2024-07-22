@@ -3,6 +3,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  #shopify-section-{{ section.id }} a {
+    color: {{ section.settings.link_color }};
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -131,6 +134,12 @@
       "id": "content_color",
       "label": "Content Color",
       "default": "#4a4a4a"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link Color",
+      "default": "#003e5f"
     },
     {
       "type": "checkbox",

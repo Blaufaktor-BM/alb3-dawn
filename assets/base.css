@@ -7065,6 +7065,15 @@ h5 {
   margin-bottom: 30px;
 }
 
+.heading-question-list svg {
+  max-width: 26px;
+  margin-right: 5px;
+}
+
+.item-question a:not(:hover) {
+  text-decoration: none;
+}
+
 /* question list */
 /* cart drawer upsell */
 .upsell_list {
