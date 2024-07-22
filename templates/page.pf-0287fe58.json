@@ -109,7 +109,7 @@
         "icon_text_8qFpLX": {
           "type": "icon_text",
           "settings": {
-            "image_width": 75,
+            "image_width": 65,
             "second_font": false,
             "font_size": 16,
             "image1": "shopify:\/\/shop_images\/albfiltericonsetparameters11switch-1-1676297143101.svg",
@@ -235,8 +235,8 @@
         "icon_text_agxb7L": {
           "type": "icon_text",
           "settings": {
-            "image_width": 50,
-            "second_font": false,
+            "image_width": 60,
+            "second_font": true,
             "font_size": 16,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
@@ -357,8 +357,8 @@
         "icon_text_GehLFm": {
           "type": "icon_text",
           "settings": {
-            "image_width": 50,
-            "second_font": false,
+            "image_width": 60,
+            "second_font": true,
             "font_size": 16,
             "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
@@ -483,8 +483,8 @@
         "icon_text_yL6LGK": {
           "type": "icon_text",
           "settings": {
-            "image_width": 50,
-            "second_font": false,
+            "image_width": 60,
+            "second_font": true,
             "font_size": 16,
             "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
             "text1": "Filtration kleinster Mikroorganismen (~99,99%) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
