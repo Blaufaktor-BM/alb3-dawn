@@ -737,6 +737,50 @@
         "padding_bottom": 52
       }
     },
+    "custom_product_FCi3Bk": {
+      "type": "custom-product",
+      "blocks": {
+        "title_ebBC9p": {
+          "type": "title",
+          "settings": {
+            "heading": "Schützen Sie sich mit einem Wasserfilter!",
+            "text_color": "#3c3c3c"
+          }
+        },
+        "icon_h4CYdK": {
+          "type": "icon",
+          "settings": {
+          }
+        },
+        "image_qCzq9k": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "button_9KnVqB": {
+          "type": "button",
+          "settings": {
+            "button_text": "Wasserfilter kaufen",
+            "button_url": "",
+            "btn_color": "#fff",
+            "btn_bg": "#ffa726"
+          }
+        }
+      },
+      "block_order": [
+        "title_ebBC9p",
+        "icon_h4CYdK",
+        "image_qCzq9k",
+        "button_9KnVqB"
+      ],
+      "settings": {
+        "border_color": "#ffa726",
+        "icon_width": 50,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_KLrgmU": {
       "type": "rich-text",
       "blocks": {
@@ -1098,6 +1142,7 @@
     "rich_text_egftRB",
     "two_column_content_7MhGFm",
     "rich_text_KkzRF4",
+    "custom_product_FCi3Bk",
     "rich_text_KLrgmU",
     "rich_text_jEJEMT",
     "rich_text_fjdji8",
