@@ -766,7 +766,7 @@
           "type": "button",
           "settings": {
             "button_text": "Wasserfilter kaufen",
-            "button_url": "",
+            "button_url": "\/products",
             "btn_color": "#fff",
             "btn_bg": "#ffa726"
           }
