@@ -7059,6 +7059,13 @@ h5 {
 }
 
 /* post product list */
+/* question list */
+.heading-question-list {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* question list */
 /* cart drawer upsell */
 .upsell_list {
   display: flex;
