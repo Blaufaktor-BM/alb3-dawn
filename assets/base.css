@@ -4725,6 +4725,7 @@ slideshow-component .banner__heading.h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  align-items: flex-end;
 }
 
 .rich-text__two_images-item {
@@ -4737,7 +4738,7 @@ slideshow-component .banner__heading.h1 {
   height: auto;
 }
 
-.rich-text__two_images-wrapper.two_column .rich-text_icon_content_media {
+.rich-text__two_images-wrapper.two_column .rich-text__two_images-media {
   max-width: 306px;
   margin: 0 auto;
 }
