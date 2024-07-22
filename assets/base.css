@@ -7097,5 +7097,15 @@ h5 {
   min-width: calc(50% - 10px);
 }
 
+.upsell_list .quick-add__submit {
+  font-size: 13px;
+  padding: 0 10px;
+  min-height: 36px;
+}
+
+.upsell_list .card__heading {
+  font-size: 16px;
+}
+
 /* cart drawer upsell */
 /* additional css */
