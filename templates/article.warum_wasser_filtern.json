@@ -1173,41 +1173,55 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_JWBVJg": {
-      "type": "rich-text",
+    "question_list_tVwRET": {
+      "type": "question-list",
       "blocks": {
-        "heading_z8AXYc": {
-          "type": "heading",
+        "item_K8LrkL": {
+          "type": "item",
           "settings": {
-            "heading": "<p>Quellenangaben<\/p>",
-            "remove_spacing": false,
-            "color": "#003e5f",
-            "heading_tag": "h2",
-            "heading_size": "h1",
-            "font_weight": "700",
-            "second_font": false
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
           }
         },
-        "text_zUAGWy": {
-          "type": "text",
+        "item_zDqK7B": {
+          "type": "item",
           "settings": {
-            "text": "<ol><li>Deutsche Trinkwasserverordnung: <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2001\/BJNR095910001.html\" target=\"_blank\">Gesetzliche Fassung von 2001<\/a><\/li><li>ÖkotestTrinkwasser aus 69: <a href=\"https:\/\/www.oekotest.de\/essen-trinken\/Trinkwasser-aus-69-Grossstaedten-im-Test_104627_1.html\" target=\"_blank\">Trinkwasser aus Großstädten im Test<\/a><\/li><li>Stiftung Warentest: <a href=\"https:\/\/www.test.de\/Trinkwasser-im-Test-5049894-0\/\" target=\"_blank\">Wasser aus 20 Städten und Gemeinden auf dem Prüfstand<\/a><\/li><li>Verbraucherzentrale: <a href=\"https:\/\/www.verbraucherzentrale.nrw\/wissen\/umwelt-haushalt\/wasser\/sind-pestizide-und-medikamente-im-leitungswasser-34837\" target=\"_blank\">Sind Pestizide und Medikamente im Leitungswasser?<\/a><\/li><li>Spiegel: <a href=\"https:\/\/www.spiegel.de\/wissenschaft\/natur\/nitrat-im-grundwasser-deutschland-droht-strafe-von-850-000-euro-pro-tag-a-1278967.html\" target=\"_blank\">Zu viel Nitrat im Grundwasser<\/a><\/li><li>Handelsblatt: <a href=\"https:\/\/www.handelsblatt.com\/politik\/deutschland\/landwirtschaft-eu-verliert-geduld-mit-deutschland-zweite-klage-wegen-nitratbelastung-steht-bevor\/24694204.html?ticket=ST-2475824-izAeRRbx1SyQggMRt4Ee-ap1\" target=\"_blank\">EU verliert Geduld mit Deutschland<\/a><\/li><li>Bayerische Staatszeitung: <a href=\"https:\/\/www.bayerische-staatszeitung.de\/staatszeitung\/kommunales\/detailansicht-kommunales\/artikel\/tausende-kilometer-wasserrohre-muessen-bald-ausgetauscht-werden.html#topPosition\" target=\"_blank\">Tausende Kilometer Wasserrohre müssen bald ausgetauscht werden<\/a><\/li><li>Süddeutsche Zeitung: <a href=\"https:\/\/www.sueddeutsche.de\/geld\/altbauten-gefahr-durch-bleirohre-1.3182377\" target=\"_blank\">Gefahr durch Bleirohre<\/a><\/li><li>Stern: <a href=\"https:\/\/www.stern.de\/gesundheit\/wasserfilter--die-wahrheit-ueber-teure-filter-und-ihren-nutzen-7652762.html\" target=\"_blank\">Die Wahrheit über Wasserfilter<\/a><\/li><li>Deutsche Umwelthilfe:<a href=\"https:\/\/www.duh.de\/mehrweg-klimaschutz0\/einweg-plastikflaschen\/\" target=\"_blank\"> Problem Einweg-Plastikflaschen<\/a><\/li><li>Umweltbundesamt: <a href=\"https:\/\/xn--umweltbundesamt%20frderung%20von%20mehrwegverpackungssystemen%20zur%20verringerung%20des%20verpackungsverbrauchs-s5k\/\" target=\"_blank\">Förderung von Mehrwegverpackungssystemen zur Verringerung des Verpackungsverbrauchs<\/a><\/li><li>Deutsches Verpackungsgesetz: <a href=\"https:\/\/www.gesetze-im-internet.de\/verpackg\/\" target=\"_blank\">Gesetzliche Fassung von 2017<\/a><\/li><li>c7-consult: <a href=\"https:\/\/www.c7-consult.at\/app\/download\/7937994756\/ALPLA+LCA+Packaging+Report+und+Review+%281.0%29.pdf?t=1560413847\" target=\"_blank\">Ökobilanz für Gebinde aus PET und anderen Materialien<\/a><\/li><li>ESU-services: <a href=\"https:\/\/esu-services.ch\/fileadmin\/download\/jungbluth-2014-Artikel-OEkobilanz-Trinkwasser.pdf\" target=\"_blank\">Ökobilanz Trinkwasser<\/a><\/li><li>Statistisches Bundesamt: <a href=\"https:\/\/www.destatis.de\/DE\/Themen\/Gesellschaft-Umwelt\/Umwelt\/Wasserwirtschaft\/Tabellen\/tw-08-entgelt-trinkwasserversorgung-tarifgeb-nach-tariftypen-2020-2022-land-bund.html\" target=\"_blank\">Entgelt für die Trinkwasserversorgung in Tarifgebieten nach Tariftypen<\/a><\/li><\/ol>",
-            "second_font": true
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+          }
+        },
+        "item_e4Pb4q": {
+          "type": "item",
+          "settings": {
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+          }
+        },
+        "item_c9HePM": {
+          "type": "item",
+          "settings": {
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
           }
         }
       },
       "block_order": [
-        "heading_z8AXYc",
-        "text_zUAGWy"
+        "item_K8LrkL",
+        "item_zDqK7B",
+        "item_e4Pb4q",
+        "item_c9HePM"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "content_full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "heading": "Quellenangaben",
+        "enable_icon": true,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "second_font": false,
+        "heading_color": "#3c3c3c",
+        "content_color": "#69727b",
+        "enable_second_font": true,
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     }
   },
@@ -1234,6 +1248,6 @@
     "rich_text_BMEPaj",
     "collapsible_content_933AM9",
     "post_product_list_VD4Vbe",
-    "rich_text_JWBVJg"
+    "question_list_tVwRET"
   ]
 }
