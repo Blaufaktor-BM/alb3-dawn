@@ -451,12 +451,12 @@
       {%- if settings.show_related_products -%}
         {%- for item in cart.items -%}
           {%- if forloop.index == 1 -%}
-            {% assign product = item.product %}
+            {% assign pair_product = item.product %}
           {%- endif -%}
         {%- endfor -%}
-        {% if product.metafields['shopify--discovery--product_recommendation'].complementary_products != blank %}
+        {% if pair_product.metafields['shopify--discovery--product_recommendation'].complementary_products != blank %}
           <div class="upsell_list">
-            {% for upsell_product in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
+            {% for upsell_product in pair_product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
               {%- assign count = 0 -%}
               {%- assign cart_items = 0 -%}
               {%- for item in cart.items -%}
