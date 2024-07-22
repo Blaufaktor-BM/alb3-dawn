@@ -1093,6 +1093,82 @@
         "padding_bottom": 36
       }
     },
+    "post_product_list_VD4Vbe": {
+      "type": "post-product-list",
+      "blocks": {
+        "item_jK7ebU": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        },
+        "item_FKEJtq": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        },
+        "item_GiAW8J": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        },
+        "item_AbqGxt": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        }
+      },
+      "block_order": [
+        "item_jK7ebU",
+        "item_FKEJtq",
+        "item_GiAW8J",
+        "item_AbqGxt"
+      ],
+      "settings": {
+        "heading": "Verwandte Artikel und Produkte",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "second_font": false,
+        "heading_color": "#003e5f",
+        "slide_count": 3.3,
+        "image_ratio": "1_1",
+        "subtitle_color": "#3c3c3c",
+        "title_color": "#3c3c3c",
+        "title_size": "h2",
+        "content_color": "#4a4a4a",
+        "enable_second_font": true,
+        "btn_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_JWBVJg": {
       "type": "rich-text",
       "blocks": {
@@ -1153,6 +1229,7 @@
     "rich_text_fjdji8",
     "rich_text_BMEPaj",
     "collapsible_content_933AM9",
+    "post_product_list_VD4Vbe",
     "rich_text_JWBVJg"
   ]
 }
