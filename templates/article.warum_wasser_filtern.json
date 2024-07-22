@@ -671,11 +671,11 @@
         "item_p9r3xc": {
           "type": "item",
           "settings": {
-            "heading": "<p>Ein Aktivkohleblock <br\/><strong>filtert<\/strong><\/p>",
-            "content": "<ul><li>Chlor<\/li><\/ul>",
-            "color": "#93d4ff",
-            "border_color": "#93d4ff",
-            "background_color": "#93d4ff",
+            "heading": "<p>Ein Aktivkohleblock<br\/><strong>filtert nicht<\/strong><\/p>",
+            "content": "<ul><li><a href=\"\/blogs\/ratgeber\/mineralien-im-leitungswasser\" title=\"Mineralien\">Mineralien*<\/a> <\/li><li>Spurenelemente*<\/li><li><a href=\"\/blogs\/ratgeber\/kalk-im-wasser\" title=\"Kalk im Wasser: Ärgernis oder auch gesund?\">Kalk (nur bedingt)<\/a><\/li><li>Ammoniak<\/li><li>Nitrate<\/li><li>Tenside<\/li><\/ul>",
+            "color": "#616161",
+            "border_color": "#d0021b",
+            "background_color": "#d0021b",
             "background_color_opacity": 7
           }
         }
