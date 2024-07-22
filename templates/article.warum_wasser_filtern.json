@@ -1093,6 +1093,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_irNVVi": {
+      "type": "custom-liquid",
+      "settings": {
+        "page_width": true,
+        "custom_liquid": "<script type=\"application\/ld+json\">\n{\n  \"@context\": \"https:\/\/schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Welche Schadstoffe gibt es im Trinkwasser?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"<p>Unser Trinkwasser enth&auml;lt zahlreiche verschiedene <a href=\\\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\\\">Inhaltsstoffe<\/a>, darunter zum Teil auch einige Schadstoffe. Unerw&uuml;nschte Stoffe sind zum Beispiel: <strong>Arzneimittelr&uuml;ckst&auml;nde, Hormone, Mikroplastik, Pestizide und Schwermetalle<\/strong><\/p>\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Kann man Pestizide aus dem Trinkwasser filtern?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"<p>Ja, mit einem Aktivkohleblockfilter lassen sich R&uuml;ckst&auml;nde von Pestiziden aus dem Trinkwasser filtern. Bei Alb Filter finden Sie die beiden <a href=\\\"https:\/\/alb-filter.com\/pages\/trinkwasserfilter\\\">Trinkwasserfilter<\/a> Active und Active Plus+. Diese haben ein <strong>erweitertes Filterspektrum<\/strong> und k&ouml;nnen Pflanzenschutzmittel aus Ihrem Trinkwasser filtern.<\/p>\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was machen Pestizide im Körper?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"<p>Pestizide k&ouml;nnen im K&ouml;rper <strong>eine Reihe negativer Auswirkungen<\/strong> haben. Dazu z&auml;hlen zum Beispiel:&nbsp;<\/p>\n<ul>\n<li>St&ouml;rung der Zellteilung<\/li>\n<li>Beg&uuml;nstigung der Krebsentstehung<\/li>\n<li>Beeintr&auml;chtigungen des Immunsystems<\/li>\n<li>Eingreifen in das Hormonsystem<\/li>\n<\/ul>\"\n    }\n  }]\n}\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_JWBVJg": {
       "type": "rich-text",
       "blocks": {
@@ -1153,6 +1163,7 @@
     "rich_text_fjdji8",
     "rich_text_BMEPaj",
     "collapsible_content_933AM9",
+    "custom_liquid_irNVVi",
     "rich_text_JWBVJg"
   ]
 }
