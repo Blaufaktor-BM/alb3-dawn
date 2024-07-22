@@ -48,17 +48,23 @@
       </div>
       <div class="content-image_multi_text">
         {%- if section.settings.title != blank -%}
-          <{{ section.settings.heading_tag }} class="title-image_multi_text rte {{ section.settings.title_size }}">
+          <{{ section.settings.heading_tag }}
+            class="title-image_multi_text rte {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
+            style="font-weight: {{ section.settings.heading_weight }}"
+          >
             {{ section.settings.title }}
           </{{ section.settings.heading_tag }}>
         {%- endif -%}
         {%- if section.settings.sub_title != blank -%}
-          <h2 class="subtitle-image_multi_text rte {{ section.settings.subtitle_size }}">
+          <h2
+            class="subtitle-image_multi_text rte {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
+            style="font-weight: {{ section.settings.subtitle_weight }}"
+          >
             {{ section.settings.sub_title }}
           </h2>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
-          <div class="text-image_multi_text rte second-font">
+          <div class="text-image_multi_text rte{% if section.settings.text_second_font %} second-font{% endif %}">
             {{ section.settings.text }}
           </div>
         {%- endif -%}
@@ -79,7 +85,7 @@
           </a>
         {% endif %}
         {%- if section.settings.info_text != blank -%}
-          <div class="info_text-image_multi_text rte inline-richtext second-font">
+          <div class="info_text-image_multi_text rte inline-richtext{% if section.settings.info_text_second_font %} second-font{% endif %}">
             {{ section.settings.info_text }}
           </div>
         {%- endif -%}
@@ -103,7 +109,12 @@
                   }}
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <p class="info_list_text rte inline-richtext">{{ block.settings.text }}</p>
+                  <p
+                    class="info_list_text rte inline-richtext{% if section.settings.info_list_second_font %} second-font{% endif %}"
+                    style="font-weight: {{ section.settings.info_list_weight }}"
+                  >
+                    {{ block.settings.text }}
+                  </p>
                 {%- endif -%}
                 {%- if block.settings.url != blank -%}
                   </a>
@@ -203,6 +214,47 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Font weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "200"
+    },
+    {
+      "type": "checkbox",
+      "id": "title_second_font",
+      "label": "Title Second Font"
+    },
+    {
       "type": "richtext",
       "id": "sub_title",
       "label": "Subtitle",
@@ -237,10 +289,57 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
+      "type": "select",
+      "id": "subtitle_weight",
+      "label": "Subtitle Font weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "checkbox",
+      "id": "subtitle_second_font",
+      "label": "Subtitle Second Font"
+    },
+    {
       "type": "richtext",
       "id": "text",
       "label": "Text",
       "default": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_second_font",
+      "label": "Text Second Font",
+      "default": true
     },
     {
       "type": "text",
@@ -258,6 +357,57 @@
       "id": "info_text",
       "label": "Information Text",
       "default": "Unsere Produktkategorien:"
+    },
+    {
+      "type": "checkbox",
+      "id": "info_text_second_font",
+      "label": "Information Text Second Font",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Block List Style"
+    },
+    {
+      "type": "checkbox",
+      "id": "info_list_second_font",
+      "label": "Information List Second Font"
+    },
+    {
+      "type": "select",
+      "id": "info_list_weight",
+      "label": "Information List Font weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
     },
     {
       "type": "header",
