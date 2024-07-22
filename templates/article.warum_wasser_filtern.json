@@ -1099,6 +1099,7 @@
         "item_jK7ebU": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pf-aed3b8d8--mittdsmessgeraetqualitaetdeswassersmessen.jpg",
             "subtitle": "RATGEBER",
             "title": "Wie misst man die Wasserqualität",
             "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
@@ -1111,10 +1112,11 @@
         "item_FKEJtq": {
           "type": "item",
           "settings": {
-            "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
-            "btn_text": "Weiterlesen",
+            "image": "shopify:\/\/shop_images\/duomontage_kuche_steinfliesen_v1--edited-1646730217205.jpg",
+            "subtitle": "PRODUKT",
+            "title": "Alb Filter Duo",
+            "text": "<p>Alb Filter Duo mit hochwertiger gesinterter Aktivkohle made in Germany für den Einsatz direkt am Wasserhahn.  Kompatibel mit Active, Active Plus und Nano.<\/p>",
+            "btn_text": "Zum Produkt",
             "url": "",
             "content_url": "",
             "border_color": "#9b9b9b"
@@ -1123,9 +1125,10 @@
         "item_GiAW8J": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00039_f4d53dc8-aa10-4cf6-ac0e-bf7ce9b28676.jpg",
             "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "title": "Warum Wasser filtern?",
+            "text": "<p>Was kommt eigentlich aus unserer Wasserleitung? Unser Trinkwasser kann sehr gut sein, muss es aber nicht. Dieser Artikel gibt Antworten zum Thema Leitungswasser und Wasserfiltration. <\/p>",
             "btn_text": "Weiterlesen",
             "url": "",
             "content_url": "",
@@ -1135,9 +1138,10 @@
         "item_AbqGxt": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pf-acb284c4--sammlungchemischeelemente.jpg",
             "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "title": "Inhaltsstoffe im Leitungswasser",
+            "text": "<p>Hunderte Inhaltsstoffe finden wir in unserem Wasser. Doch welche davon sind gesund und welche schädlich?<\/p>",
             "btn_text": "Weiterlesen",
             "url": "",
             "content_url": "",
@@ -1161,7 +1165,7 @@
         "image_ratio": "1_1",
         "subtitle_color": "#3c3c3c",
         "title_color": "#3c3c3c",
-        "title_size": "h2",
+        "title_size": "h3",
         "content_color": "#4a4a4a",
         "enable_second_font": true,
         "btn_color": "#003e5f",
