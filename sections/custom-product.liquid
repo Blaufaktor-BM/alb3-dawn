@@ -41,7 +41,7 @@
                   class="icon-custom_product{% if block.settings[icon] == blank %} icon-empty{% endif %}"
                   style="max-width: {{ section.settings.icon_width }}px"
                 >
-                  {% capture icon %} icon{{ forloop.index }} {% endcapture %}
+                  {% capture icon %} icon{{ i }} {% endcapture %}
                   {% if block.settings[icon] != blank %}
                     {%- assign fetch_priority = 'auto' -%}
                     {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
