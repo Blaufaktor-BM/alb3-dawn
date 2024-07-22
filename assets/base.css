@@ -6845,10 +6845,6 @@ h5 {
 
 /* anchor contact */
 /* two column content */
-.wrapper-two_column_content:not(.full_width) {
-  max-width: 860px;
-  margin: 0 auto;
-}
 
 .wrapper-two_column_content {
   display: flex;
@@ -6861,7 +6857,7 @@ h5 {
 .item-two_column_content {
   width: 100%;
   border-top: 2px solid;
-  padding: 35px 20px 35px 70px;
+  padding: 35px 20px 75px 70px;
 }
 
 .heading-two_column_content {
@@ -6881,6 +6877,11 @@ h5 {
   .wrapper-two_column_content {
     gap: 60px;
     margin: 0;
+  }
+
+  .wrapper-two_column_content:not(.full_width) {
+    max-width: 860px;
+    margin: 0 auto;
   }
 
   .wrapper-two_column_content.two_columns .item-two_column_content {
