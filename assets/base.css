@@ -5407,8 +5407,7 @@ slideshow-component .banner__heading.h1 {
 
 .custom_contact-image img {
   width: 100%;
-  max-width: 150px;
-  height: 150px;
+  height: auto;
   display: block;
   border-radius: 50%;
   margin: 0 auto;

@@ -7,6 +7,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .section-{{ section.id }}-padding .custom_contact-image img {
+    max-width: {{ section.settings.image_width }}px;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -20,74 +24,79 @@
     style="background-color: {{ section.settings.background_color }};"
   >
     <div class="page-width">
-      {%- if section.settings.image != blank -%}
-        <div class="custom_contact-image">
-          {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-          {%- capture sizes -%}
+      <div class="main-custom_contact">
+        {%- if section.settings.image != blank -%}
+          <div class="custom_contact-image">
+            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+            {%- capture sizes -%}
                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
-          {{
-            section.settings.image
-            | image_url: width: 1500
-            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-          }}
-        </div>
-      {%- endif -%}
-      {%- if section.settings.heading != blank -%}
-        <{{ section.settings.heading_tag }}
-          class="custom_contact-heading inline-richtext {{ section.settings.heading_size }}"
-          style="color: {{ section.settings.heading_color }};"
-        >
-          {{ section.settings.heading }}
-        </{{ section.settings.heading_tag }}>
-      {%- endif -%}
-      {%- if section.settings.text != blank -%}
-        <div
-          class="custom_contact-text rte second-font"
-          style="color: {{ section.settings.text_color }};"
-        >
-          {{ section.settings.text }}
-        </div>
-      {%- endif -%}
-      {%- if section.blocks.size > 0 -%}
-        <div
-          class="custom_contact-btns"
-        >
-          {%- for block in section.blocks -%}
-            <div
-              class="custom_contact-item"
-              style="border-color: {{ section.settings.item_border_color }};background-color: {{ section.settings.item_bg }}"
-            >
-              {%- if block.settings.url != blank -%}
-                <a href="{{ block.settings.url }}">
-              {%- endif -%}
-              {%- if block.settings.image != blank -%}
-                <div class="custom_contact_item-image">
-                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                  {%- capture sizes -%}
+            {{
+              section.settings.image
+              | image_url: width: 1500
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.heading != blank -%}
+          <{{ section.settings.heading_tag }}
+            class="custom_contact-heading inline-richtext {{ section.settings.heading_size }}"
+            style="color: {{ section.settings.heading_color }};"
+          >
+            {{ section.settings.heading }}
+          </{{ section.settings.heading_tag }}>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <div
+            class="custom_contact-text rte second-font"
+            style="color: {{ section.settings.text_color }};"
+          >
+            {{ section.settings.text }}
+          </div>
+        {%- endif -%}
+        {%- if section.blocks.size > 0 -%}
+          <div
+            class="custom_contact-btns"
+          >
+            {%- for block in section.blocks -%}
+              <div
+                class="custom_contact-item"
+                style="border-color: {{ section.settings.item_border_color }};background-color: {{ section.settings.item_bg }}"
+              >
+                {%- if block.settings.url != blank -%}
+                  <a href="{{ block.settings.url }}">
+                {%- endif -%}
+                {%- if block.settings.image != blank -%}
+                  <div class="custom_contact_item-image">
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
                                         (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                                         (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                                     {%- endcapture -%}
-                  {{
-                    block.settings.image
-                    | image_url: width: 1500
-                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                  }}
-                </div>
-              {%- endif -%}
-              {%- if block.settings.text != blank -%}
-                <div class="custom_contact_item-text second-font" style="color: {{ section.settings.item_text_color }}">
-                  {{ block.settings.text }}
-                </div>
-              {%- endif -%}
-              {%- if block.settings.url != blank -%}
-                </a>
-              {%- endif -%}
-            </div>
-          {%- endfor -%}
-        </div>
-      {%- endif -%}
+                    {{
+                      block.settings.image
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div
+                    class="custom_contact_item-text second-font"
+                    style="color: {{ section.settings.item_text_color }}"
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.url != blank -%}
+                  </a>
+                {%- endif -%}
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
     </div>
   </div>
 </div>
@@ -109,6 +118,16 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "label": "Image Width",
+      "min": 50,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "default": 150
     },
     {
       "type": "inline_richtext",
