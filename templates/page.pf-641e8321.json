@@ -40,6 +40,7 @@
       "blocks": {
         "column_jUdKnA": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/abo-lieferung-1669116131786.png",
             "title": "Bestellung",
@@ -57,7 +58,7 @@
             "subtitle": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/faq-trinkwasser"
           }
         },
         "column_mwUp33": {
@@ -99,7 +100,7 @@
         "enable_item_border": true,
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_heading_second": false,
         "column_heading_tag": "h2",
         "column_heading_size": "h3",
