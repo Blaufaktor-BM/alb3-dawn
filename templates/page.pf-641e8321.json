@@ -35,6 +35,57 @@
         "show_text_below": true
       }
     },
+    "multi_content_contact_4tVVgM": {
+      "type": "multi-content-contact",
+      "blocks": {
+        "heading_cEpMCU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bild mit Text",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "heading_weight": "400",
+            "heading_color": "#003e5f",
+            "second_font": true,
+            "heading_mobile_center": true
+          }
+        },
+        "subtitle_TPmY3G": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Unser Ziel ist es, Ihre Fragen und Probleme so schnell wie möglich zu lösen!",
+            "subtitle_tag": "h3",
+            "subtitle_size": "h2",
+            "subtitle_weight": "400",
+            "subtitle_color": "#003e5f",
+            "subtitle_second_font": true
+          }
+        },
+        "text_EV8RPR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "color": "#616161",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cEpMCU",
+        "subtitle_TPmY3G",
+        "text_EV8RPR"
+      ],
+      "settings": {
+        "image_right": false,
+        "image_text": "Meine Bestellung",
+        "image_text_color": "#616161",
+        "image_text_second_font": false,
+        "url": "",
+        "image_width": 100,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_nxJCaj": {
       "type": "multicolumn",
       "blocks": {
@@ -341,6 +392,7 @@
   "order": [
     "main",
     "image_banner_dKUKWG",
+    "multi_content_contact_4tVVgM",
     "multicolumn_nxJCaj",
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
