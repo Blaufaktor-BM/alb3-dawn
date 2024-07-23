@@ -6518,7 +6518,7 @@ ul.breadcrumb li a:hover {
 }
 
 .remove_content_spacing .multicolumn-card__info {
-  padding: 0;
+  padding: 0 !important;
 }
 
 /* multi column */
