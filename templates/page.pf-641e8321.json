@@ -304,9 +304,10 @@
             "title": "WhatsApp",
             "text": "<p>Chatten Sie direkt mit unserem Kundenservice.<\/p>",
             "subtitle": "Der direkte Kontakt mit unserem WhatsApp Kundenservice",
-            "content": "<p>Sie erreichen uns über die Nummer +49 (0) 7420 920 921-1<\/p>",
+            "content": "<p>Sie erreichen uns über die Nummer <strong>+49 (0) 7420 920 921-1<\/strong><\/p><p>Unser Chat ist für Sie wie folgt erreichbar:<br\/><strong>Montag bis Donnerstag von 8:45 - 12:00 Uhr \/ 13:00 - 16:00 Uhr<br\/>Freitag 8:45 - 12:00 Uhr \/ 13:00 - 14:30 Uhr<\/strong><\/p>",
+            "barcode": "shopify:\/\/shop_images\/wattsapp_albfilter.jpg",
             "btn_text": "WhatsApp Chat",
-            "btn_url": ""
+            "btn_url": "https:\/\/wa.me\/4974209209211?text=Hallo%21%20Ich%20ben%C3%B6tige%20Hilfe.%20K%C3%B6nnten%20Sie%20mir%20bitte%20weiterhelfen%3F"
           }
         },
         "telephone_RX4CMq": {
