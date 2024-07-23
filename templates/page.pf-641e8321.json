@@ -226,8 +226,8 @@
         "item_bg": "#0070c9",
         "item_text_color": "#ffffff",
         "item_border_color": "rgba(0,0,0,0)",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "custom_liquid_qeEiYn": {
