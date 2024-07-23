@@ -90,6 +90,9 @@
         "column_mwUp33",
         "column_xJKG4M"
       ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 100px; padding: 5px;}"
+      ],
       "settings": {
         "title": "FINDEN SIE HIER ALLE FRAGEN ZU",
         "heading_tag": "h3",
