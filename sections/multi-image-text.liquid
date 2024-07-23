@@ -78,13 +78,28 @@
         %}
           <div class="multi-image-text__middle-content">
             {% if section.settings.middle_title != blank %}
-              <h2 class="multi-image-text__title h2">{{ section.settings.middle_title }}</h2>
+              <{{ section.settings.middle_title_tag }}
+                class="multi-image-text__title {{ section.settings.middle_title_size }}{% if section.settings.enable_middle_title_second_font %} second-font{% endif %}"
+                style="color: {{ section.settings.middle_title_color }}; font-weight: {{ section.settings.middle_title_weight }};"
+              >
+                {{- section.settings.middle_title -}}
+              </{{ section.settings.middle_title_tag }}>
             {% endif %}
             {% if section.settings.middle_subtitle != blank %}
-              <h3 class="multi-image-text__subtitle h3">{{ section.settings.middle_subtitle }}</h3>
+              <{{ section.settings.middle_subtitle_tag }}
+                class="multi-image-text__subtitle {{section.settings.middle_subtitle_size}}{% if section.settings.enable_middle_subtitle_second_font %} second-font{% endif %}"
+                style="color: {{ section.settings.middle_subtitle_color }}; font-weight: {{ section.settings.middle_subtitle_weight }}"
+              >
+                {{- section.settings.middle_subtitle -}}
+              </{{ section.settings.middle_subtitle_tag }}>
             {% endif %}
             {% if section.settings.middle_text != blank %}
-              <div class="multi-image-text__text rte">{{ section.settings.middle_text }}</div>
+              <div
+                class="multi-image-text__text rte{% if section.settings.enable_middle_text_second_font %} second-font{% endif %}"
+                style="color: {{ section.settings.middle_text_color }}"
+              >
+                {{ section.settings.middle_text }}
+              </div>
             {% endif %}
           </div>
         {% endif %}
@@ -93,10 +108,20 @@
     {% if section.settings.bottom_subtitle != blank or section.settings.bottom_text != blank %}
       <div class="multi-image-text__middle-bottom">
         {% if section.settings.bottom_subtitle != blank %}
-          <h3 class="multi-image-text__subtitle h3">{{ section.settings.bottom_subtitle }}</h3>
+          <{{ section.settings.bottom_subtitle_tag }}
+            class="multi-image-text__subtitle {{ section.settings.bottom_subtitle_size }}{% if section.settings.enable_bottom_subtitle_second_font %} second-font{% endif %}"
+            style="color: {{ section.settings.bottom_subtitle_color }}; font-weight: {{ section.settings.bottom_subtitle_weight }};"
+          >
+            {{- section.settings.bottom_subtitle -}}
+          </{{ section.settings.bottom_subtitle_tag }}>
         {% endif %}
         {% if section.settings.bottom_text != blank %}
-          <div class="multi-image-text__text rte">{{ section.settings.bottom_text }}</div>
+          <div
+            class="multi-image-text__text rte{% if section.settings.enable_bottom_text_second_font %} second-font{% endif %}"
+            style="color: {{ section.settings.bottom_text_color }}"
+          >
+            {{ section.settings.bottom_text }}
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -154,12 +179,6 @@
       "unit": "px"
     },
     {
-      "type": "color",
-      "id": "text_color",
-      "label": "Text Color",
-      "default": "#616161"
-    },
-    {
       "type": "checkbox",
       "id": "image_right",
       "label": "Image Right",
@@ -172,16 +191,233 @@
       "default": "Aus unserem Ratgeber"
     },
     {
+      "type": "select",
+      "id": "middle_title_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "P"
+        }
+      ],
+      "default": "h2",
+      "label": "Middle Title Tag"
+    },
+    {
+      "type": "select",
+      "id": "middle_title_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h1",
+      "label": "Middle Title Size"
+    },
+    {
+      "type": "select",
+      "id": "middle_title_weight",
+      "label": "Middle Title Font weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "color",
+      "id": "middle_title_color",
+      "label": "Middle Title Color",
+      "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_middle_title_second_font",
+      "label": "Enable Middle Title Second Font"
+    },
+    {
       "type": "inline_richtext",
       "id": "middle_subtitle",
       "label": "Middle Subtitle",
       "default": "Warum Wasser filtern?"
     },
     {
+      "type": "select",
+      "id": "middle_subtitle_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "P"
+        }
+      ],
+      "default": "h3",
+      "label": "Middle Subtitle Tag"
+    },
+    {
+      "type": "select",
+      "id": "middle_subtitle_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h2",
+      "label": "Middle Subtitle Size"
+    },
+    {
+      "type": "select",
+      "id": "middle_subtitle_weight",
+      "label": "Middle Subtitle Font weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "color",
+      "id": "middle_subtitle_color",
+      "label": "Middle Subtitle Color",
+      "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_middle_subtitle_second_font",
+      "label": "Enable Middle Subtitle Second Font"
+    },
+    {
       "type": "richtext",
       "id": "middle_text",
       "label": "Middle Text",
       "default": "<p>Aus unserem Ratgeber</p>"
+    },
+    {
+      "type": "color",
+      "id": "middle_text_color",
+      "label": "Middle Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_middle_text_second_font",
+      "label": "Enable Middle Text Second Font"
     },
     {
       "type": "image_picker",
@@ -214,10 +450,124 @@
       "default": "Wie sinnvoll sind Wasserfilter?"
     },
     {
+      "type": "select",
+      "id": "bottom_subtitle_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "P"
+        }
+      ],
+      "default": "h3",
+      "label": "Middle Title Tag"
+    },
+    {
+      "type": "select",
+      "id": "bottom_subtitle_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h2",
+      "label": "Bottom Subtitle Size"
+    },
+    {
+      "type": "select",
+      "id": "bottom_subtitle_weight",
+      "label": "Bottom Subtitle Font weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "color",
+      "id": "bottom_subtitle_color",
+      "label": "Bottom Subtitle Color",
+      "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_bottom_subtitle_second_font",
+      "label": "Enable Bottom Subtitle Second Font"
+    },
+    {
       "type": "richtext",
       "id": "bottom_text",
       "label": "Bottom Text",
       "default": "<p>Aus unserem Ratgeber</p>"
+    },
+    {
+      "type": "color",
+      "id": "bottom_text_color",
+      "label": "Bottom Text Color",
+      "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_bottom_text_second_font",
+      "label": "Enable Bottom Text Second Font"
     },
     {
       "type": "text",
