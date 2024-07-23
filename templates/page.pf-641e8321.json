@@ -41,9 +41,9 @@
         "heading_cEpMCU": {
           "type": "heading",
           "settings": {
-            "heading": "Bild mit Text",
+            "heading": "Hilfe und Kontakt",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "heading_weight": "400",
             "heading_color": "#003e5f",
             "second_font": true,
@@ -55,7 +55,7 @@
           "settings": {
             "subtitle": "Unser Ziel ist es, Ihre Fragen und Probleme so schnell wie möglich zu lösen!",
             "subtitle_tag": "h3",
-            "subtitle_size": "h2",
+            "subtitle_size": "h3",
             "subtitle_weight": "400",
             "subtitle_color": "#003e5f",
             "subtitle_second_font": true
