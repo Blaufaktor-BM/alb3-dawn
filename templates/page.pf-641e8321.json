@@ -216,8 +216,8 @@
         "column_count": 3,
         "full_width": false,
         "image_white": false,
-        "large_image": false,
-        "content_second_font": false,
+        "large_image": true,
+        "content_second_font": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
