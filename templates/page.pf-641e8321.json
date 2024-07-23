@@ -67,7 +67,7 @@
         "enable_bottom_subtitle_second_font": false,
         "bottom_text": "<p>sssssssssssssssssssssss<\/p>",
         "bottom_text_color": "#0081be",
-        "enable_bottom_text_second_font": false,
+        "enable_bottom_text_second_font": true,
         "btn_text": "",
         "btn_url": "",
         "btn_bg": "#0081be",
