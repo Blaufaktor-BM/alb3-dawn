@@ -298,7 +298,9 @@
             "enable_contact": true,
             "icon1": "shopify:\/\/shop_images\/file-lines-solid.svg",
             "icon2": "shopify:\/\/shop_images\/glass-water-solid.svg",
-            "icon3": "shopify:\/\/shop_images\/caravan-solid.svg"
+            "icon3": "shopify:\/\/shop_images\/caravan-solid.svg",
+            "icon4": "shopify:\/\/shop_images\/comment-dots-solid.svg",
+            "icon5": "shopify:\/\/shop_images\/circle-dot-solid.svg"
           }
         },
         "whatsapp_ULJcbr": {
