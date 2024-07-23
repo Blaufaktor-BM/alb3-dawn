@@ -17,6 +17,24 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_dKUKWG": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
+        "image_overlay_opacity": 0,
+        "enable_shadow": true,
+        "image_height": "thin",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multi_image_text_JfGwXw": {
       "type": "multi-image-text",
       "settings": {
@@ -36,8 +54,8 @@
         "btn_url": "",
         "btn_bg": "#0081be",
         "btn_color": "#fff",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 38,
+        "padding_bottom": 45
       }
     },
     "small_image_text_HVTfjj": {
@@ -82,24 +100,6 @@
         "image_round": false,
         "padding_top": 10,
         "padding_bottom": 0
-      }
-    },
-    "image_banner_dKUKWG": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
-        "image_overlay_opacity": 0,
-        "enable_shadow": true,
-        "image_height": "thin",
-        "desktop_content_position": "middle-center",
-        "enable_section_container": false,
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "multicolumn_nxJCaj": {
@@ -405,9 +405,9 @@
   },
   "order": [
     "main",
+    "image_banner_dKUKWG",
     "multi_image_text_JfGwXw",
     "small_image_text_HVTfjj",
-    "image_banner_dKUKWG",
     "multicolumn_nxJCaj",
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
