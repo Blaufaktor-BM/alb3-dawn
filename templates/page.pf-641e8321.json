@@ -295,7 +295,10 @@
             "text": "<p>Wir beantworten Ihr Anliegen Werktags innerhalb von 24h.<\/p>",
             "subtitle": "Manche Anliegen lassen sich besser in einer persönlichen Nachricht klären!",
             "content": "<p>Bei individuellen Fragen senden Sie uns gerne eine Nachricht über unser Kontaktformular.<br\/>Ergänzende Bilder schicken Sie uns bitte an <a href=\"mailto:info@alb-filter.com\">info@alb-filter.com<\/a>.<\/p>",
-            "liquid": ""
+            "enable_contact": true,
+            "icon1": "shopify:\/\/shop_images\/file-lines-solid.svg",
+            "icon2": "shopify:\/\/shop_images\/glass-water-solid.svg",
+            "icon3": "shopify:\/\/shop_images\/caravan-solid.svg"
           }
         },
         "whatsapp_ULJcbr": {
@@ -348,7 +351,7 @@
         "subtitle_weight": "400",
         "subtitle_color": "#003e5f",
         "subtitle_second_font": true,
-        "btn_color": "#fff",
+        "btn_color": "#ffffff",
         "btn_bg": "#0070c9",
         "padding_top": 30,
         "padding_bottom": 30
