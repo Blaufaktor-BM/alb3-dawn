@@ -6502,8 +6502,18 @@ ul.breadcrumb li a:hover {
   transition-timing-function: ease-out;
 }
 
-.multicolumn-card:hover {
+.hover_animation .multicolumn-card:hover {
   transform: translateY(-8px);
+}
+
+.enable_border .multicolumn-card {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #003e5f;
+}
+
+.enable_border .multicolumn-card:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .5);
 }
 
 /* multi column */
