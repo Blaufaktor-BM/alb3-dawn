@@ -5405,6 +5405,12 @@ slideshow-component .banner__heading.h1 {
   padding: 35px 0;
 }
 
+.wrapper-custom_contact.content_border {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #003e5f;
+}
+
 .custom_contact-image img {
   width: 100%;
   height: auto;

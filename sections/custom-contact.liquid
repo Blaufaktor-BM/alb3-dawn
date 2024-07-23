@@ -20,11 +20,11 @@
 {%- endstyle -%}
 <div class="section-custom_contact section-{{ section.id }}-padding">
   <div
-    class="wrapper-custom_contact center isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     style="background-color: {{ section.settings.background_color }};"
   >
     <div class="page-width">
-      <div class="main-custom_contact">
+      <div class="wrapper-custom_contact center{% if section.settings.enable_border %} content_border{% endif %}">
         {%- if section.settings.image != blank -%}
           <div class="custom_contact-image">
             {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
@@ -113,6 +113,11 @@
       "id": "background_color",
       "label": "Background Color",
       "default": "#fafafa"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_border",
+      "label": "Enable Content Border"
     },
     {
       "type": "image_picker",
