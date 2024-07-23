@@ -293,13 +293,14 @@
             "title": "Kontaktformular",
             "text": "<p>Wir beantworten Ihr Anliegen Werktags innerhalb von 24h.<\/p>",
             "subtitle": "Manche Anliegen lassen sich besser in einer persönlichen Nachricht klären!",
-            "content": "<p>Bei individuellen Fragen senden Sie uns gerne eine Nachricht über unser Kontaktformular.<\/p>",
+            "content": "<p>Bei individuellen Fragen senden Sie uns gerne eine Nachricht über unser Kontaktformular.<br\/>Ergänzende Bilder schicken Sie uns bitte an<a href=\"mailto:info@alb-filter.com\">info@alb-filter.com<\/a>.<\/p>",
             "liquid": ""
           }
         },
         "whatsapp_ULJcbr": {
           "type": "whatsapp",
           "settings": {
+            "image": "shopify:\/\/shop_images\/whatsapp-brands-solid.svg",
             "title": "WhatsApp",
             "text": "<p>Chatten Sie direkt mit unserem Kundenservice.<\/p>",
             "subtitle": "Der direkte Kontakt mit unserem WhatsApp Kundenservice",
@@ -311,6 +312,7 @@
         "telephone_RX4CMq": {
           "type": "telephone",
           "settings": {
+            "image": "shopify:\/\/shop_images\/phone-solid.svg",
             "title": "Telefon",
             "text": "<p>Sind noch Fragen offen? Rufen Sie uns gerne an. <\/p>",
             "subtitle": "Unser Kundenservice ist auch telefonisch für sie erreichbar",
@@ -333,15 +335,15 @@
         "active_border_color": "#003e5f",
         "border_radius": 3,
         "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "700",
-        "second_font": false,
+        "heading_size": "h2",
+        "heading_weight": "400",
+        "second_font": true,
         "heading_color": "#003e5f",
         "text_color": "#616161",
         "text_second_font": true,
-        "subtitle_tag": "h2",
-        "subtitle_size": "h1",
-        "subtitle_weight": "700",
+        "subtitle_tag": "h3",
+        "subtitle_size": "h3",
+        "subtitle_weight": "400",
         "subtitle_color": "#003e5f",
         "subtitle_second_font": true,
         "btn_color": "#fff",
