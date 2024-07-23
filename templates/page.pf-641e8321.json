@@ -77,6 +77,7 @@
       ],
       "settings": {
         "image_right": true,
+        "image": "shopify:\/\/shop_images\/shop-lieferung-1672734729168.png",
         "image_text": "Meine Bestellung",
         "image_text_color": "#616161",
         "image_text_second_font": false,
