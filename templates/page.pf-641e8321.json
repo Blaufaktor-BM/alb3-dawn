@@ -76,7 +76,7 @@
         "text_EV8RPR"
       ],
       "settings": {
-        "image_right": false,
+        "image_right": true,
         "image_text": "Meine Bestellung",
         "image_text_color": "#616161",
         "image_text_second_font": false,
