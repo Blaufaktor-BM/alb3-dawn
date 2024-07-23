@@ -284,6 +284,24 @@
         "padding_bottom": 52
       }
     },
+    "image_banner_MEmWb9": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tastatur-Nah-Tippen_263903668_c7068f20-d70a-4928-8a2a-3859293a2b4c.jpg",
+        "image_overlay_opacity": 0,
+        "enable_shadow": false,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "contact_tab_j7xVKU": {
       "type": "contact-tab",
       "blocks": {
@@ -368,6 +386,7 @@
     "image_banner_n7cX4M",
     "custom_contact_VfwffN",
     "custom_liquid_qeEiYn",
+    "image_banner_MEmWb9",
     "contact_tab_j7xVKU"
   ]
 }
