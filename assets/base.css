@@ -7318,6 +7318,12 @@ h5 {
 
 .media-multi_content_contact.enable_link {
   padding: 0;
+  transition-duration: .3s;
+  transition-property: box-shadow;
+}
+
+.media-multi_content_contact.enable_link:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .5);
 }
 
 .media-multi_content_contact a {
@@ -7326,6 +7332,11 @@ h5 {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  text-decoration: none;
+}
+
+.media_text-multi_content_contact {
+  font-size: 20px;
 }
 
 .wrapper-multi_content_contact.row-reverse {
@@ -7347,6 +7358,16 @@ h5 {
 .media_text-multi_content_contact {
   text-align: center;
   width: 100%;
+}
+
+.multi_content_contact-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.multi_content_contact-subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
