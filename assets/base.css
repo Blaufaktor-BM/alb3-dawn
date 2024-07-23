@@ -7310,6 +7310,10 @@ h5 {
   border-radius: 3px;
 }
 
+.wrapper-multi_content_contact {
+  width: 100%;
+}
+
 .wrapper-multi_content_contact.row-reverse {
   flex-direction: column-reverse;
 }
@@ -7338,6 +7342,10 @@ h5 {
 
   .media-multi_content_contact {
     max-width: calc(25% - 15px);
+  }
+
+  .wrapper-multi_content_contact.row-reverse {
+    flex-direction: row-reverse;
   }
 }
 
