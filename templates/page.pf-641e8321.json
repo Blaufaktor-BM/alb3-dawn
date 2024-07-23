@@ -91,7 +91,7 @@
       ],
       "settings": {
         "title": "FINDEN SIE HIER ALLE FRAGEN ZU",
-        "heading_tag": "h1",
+        "heading_tag": "p",
         "heading_size": "h3",
         "image_width": "third",
         "image_ratio": "adapt",
