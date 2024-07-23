@@ -176,52 +176,6 @@
         "padding_bottom": 36
       }
     },
-    "image_text_list_tfzbJN": {
-      "type": "image-text-list",
-      "blocks": {
-        "item_DV8TC6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-14-germany-2-mk_dark-blue.svg",
-            "title": "<p>30 TAGE RÜCKGABERECHT<\/p>",
-            "text": "",
-            "url": "shopify:\/\/products\/alb-filter-anschluss-set-40-cm-schnellkupplung-fur-unterspule"
-          }
-        },
-        "item_EdWjhx": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
-            "url": ""
-          }
-        },
-        "item_qzWiba": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_DV8TC6",
-        "item_EdWjhx",
-        "item_qzWiba"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "title_color": "#003e5f",
-        "column_count": 3,
-        "full_width": false,
-        "image_white": false,
-        "large_image": true,
-        "content_second_font": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner_n7cX4M": {
       "type": "image-banner",
       "settings": {
@@ -380,7 +334,6 @@
     "image_banner_dKUKWG",
     "multicolumn_nxJCaj",
     "multicolumn_e8NJXM",
-    "image_text_list_tfzbJN",
     "image_banner_n7cX4M",
     "custom_contact_VfwffN",
     "custom_liquid_qeEiYn",
