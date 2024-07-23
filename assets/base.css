@@ -7309,13 +7309,30 @@ h5 {
   background-color: #fff;
   border-radius: 3px;
   width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-multi_content_contact.enable_link {
+  padding: 0;
+}
+
+.media-multi_content_contact a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .wrapper-multi_content_contact.row-reverse {
   flex-direction: column-reverse;
 }
 
-.media-multi_content_contact {
+.image-multi_content_contact {
   width: 100%;
   margin: 0 auto;
 }

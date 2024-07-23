@@ -20,7 +20,7 @@
     <div class="page-width">
       <div class="wrapper-multi_content_contact{% if section.settings.image_right %} row-reverse{% endif %}">
         <div
-          class="media-multi_content_contact"
+          class="media-multi_content_contact{% if section.settings.url != blank %} enable_link{% endif %}"
         >
           {% if section.settings.url != blank %}
             <a href="{{ section.settings.url }}">
