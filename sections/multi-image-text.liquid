@@ -36,7 +36,7 @@
     }
   }
 {%- endstyle -%}
-<div class="section-multi_image_text section-{{ section.id }}-padding second-font">
+<div class="section-multi_image_text section-{{ section.id }}-padding">
   <div class="page-width isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {% if section.settings.top_image != blank %}
       <div class="multi-image-text__top-image">
@@ -291,7 +291,8 @@
     {
       "type": "checkbox",
       "id": "enable_middle_title_second_font",
-      "label": "Enable Middle Title Second Font"
+      "label": "Enable Middle Title Second Font",
+      "default": true
     },
     {
       "type": "inline_richtext",
@@ -400,7 +401,8 @@
     {
       "type": "checkbox",
       "id": "enable_middle_subtitle_second_font",
-      "label": "Enable Middle Subtitle Second Font"
+      "label": "Enable Middle Subtitle Second Font",
+      "default": true
     },
     {
       "type": "richtext",
@@ -417,7 +419,8 @@
     {
       "type": "checkbox",
       "id": "enable_middle_text_second_font",
-      "label": "Enable Middle Text Second Font"
+      "label": "Enable Middle Text Second Font",
+      "default": true
     },
     {
       "type": "image_picker",
@@ -550,7 +553,8 @@
     {
       "type": "checkbox",
       "id": "enable_bottom_subtitle_second_font",
-      "label": "Enable Bottom Subtitle Second Font"
+      "label": "Enable Bottom Subtitle Second Font",
+      "default": true
     },
     {
       "type": "richtext",
@@ -567,7 +571,8 @@
     {
       "type": "checkbox",
       "id": "enable_bottom_text_second_font",
-      "label": "Enable Bottom Text Second Font"
+      "label": "Enable Bottom Text Second Font",
+      "default": true
     },
     {
       "type": "text",
