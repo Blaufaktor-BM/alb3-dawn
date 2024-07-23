@@ -93,7 +93,7 @@
       "settings": {
         "title": "FINDEN SIE HIER ALLE FRAGEN ZU",
         "heading_tag": "h3",
-        "heading_size": "h3",
+        "heading_size": "h2",
         "heading_weight": "400",
         "heading_second_font": true,
         "enable_hover_animation": false,
