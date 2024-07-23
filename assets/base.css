@@ -7319,10 +7319,16 @@ h5 {
   margin: 0 auto;
 }
 
+.media-multi_content_contact svg,
 .media-multi_content_contact img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.media_text-multi_content_contact {
+  text-align: center;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1024px) {
