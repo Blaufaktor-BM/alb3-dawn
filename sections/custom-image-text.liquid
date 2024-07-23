@@ -37,13 +37,6 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-  #shopify-section-{{ section.id }} .button:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ section.settings.btn_bg }};
-  }
-  #shopify-section-{{ section.id }} .button:hover:after {
-    box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ section.settings.btn_bg }};
-    --border-offset: 1.3px;
-  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -142,6 +135,15 @@
                         {{ block.settings.text }}
                       </div>
                     {%- when 'button' -%}
+                      {% style %}
+                        #shopify-section-{{ section.id }} .button:after {
+                          box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)), 0 0 0 var(--buttons-border-width) {{ block.settings.btn_bg }};
+                        }
+                        #shopify-section-{{ section.id }} .button:hover:after {
+                          box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(255,255,255, calc(1 - 1.0 )), 0 0 0 calc(var(--buttons-border-width) + 1px) {{ block.settings.btn_bg }};
+                          --border-offset: 1.3px;
+                        }
+                      {% endstyle %}
                       <div class="custom_image_text-btns">
                         {%- if block.settings.button_label1 != blank -%}
                           <a
