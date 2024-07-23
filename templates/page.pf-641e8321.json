@@ -215,6 +215,7 @@
       ],
       "settings": {
         "background_color": "rgba(0,0,0,0)",
+        "enable_border": true,
         "image": "shopify:\/\/shop_images\/pf-6f9070de--wasserfilterlogoinstallationdark.png",
         "image_width": 80,
         "heading": "Sie benötigen Hilfe bei der Installation?",
