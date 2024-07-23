@@ -22,7 +22,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
         "image_overlay_opacity": 0,
-        "enable_shadow": false,
+        "enable_shadow": true,
         "image_height": "thin",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
@@ -33,71 +33,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "image_multi_tex_Q6iMrH": {
-      "type": "image-multi-tex",
-      "blocks": {
-        "item_y9ffPT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/abo-lieferung-1669116131786.png",
-            "text": "Bestellung",
-            "url": ""
-          }
-        },
-        "item_tKcVDX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "text": "Trinkwasserfilter",
-            "url": ""
-          }
-        },
-        "item_RUj9KM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
-            "text": "Campingfilter",
-            "url": ""
-          }
-        },
-        "item_LMEymR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "text": "Duschfilter",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_y9ffPT",
-        "item_tKcVDX",
-        "item_RUj9KM",
-        "item_LMEymR"
-      ],
-      "settings": {
-        "section_color_scheme": "",
-        "title": "<p>Hilfe und Kontakt<\/p>",
-        "heading_tag": "h1",
-        "title_size": "h1",
-        "heading_weight": "200",
-        "title_second_font": false,
-        "sub_title": "<p>Unser Ziel ist es, Ihre Fragen und Probleme so schnell wie möglich zu lösen!<\/p>",
-        "subtitle_size": "h3",
-        "subtitle_weight": "700",
-        "subtitle_second_font": false,
-        "text": "<p>Auf dieser Seite finden Sie Hilfe und Support für alle Fragen rund um Alb Filter, unsere Filtersysteme Installationsanleitungen und Ihre Bestellungen. <\/p>",
-        "text_second_font": true,
-        "btn_text": "",
-        "btn_url": "",
-        "info_text": "<strong>FAQS:<\/strong>",
-        "info_text_second_font": true,
-        "info_list_second_font": false,
-        "info_list_weight": "400",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn_nxJCaj": {
@@ -155,7 +90,7 @@
         "column_xJKG4M"
       ],
       "settings": {
-        "title": "ALLE FRAGFEN UND ANTWORTEN ZU",
+        "title": "FINDEN SIE HIER ALLE FRAGEN ZU",
         "heading_tag": "h1",
         "heading_size": "h3",
         "image_width": "third",
@@ -399,7 +334,6 @@
   "order": [
     "main",
     "image_banner_dKUKWG",
-    "image_multi_tex_Q6iMrH",
     "multicolumn_nxJCaj",
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
