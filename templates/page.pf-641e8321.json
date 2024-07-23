@@ -229,71 +229,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_XActxY": {
-      "type": "rich-text",
-      "blocks": {
-        "image_6bTgQJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-6f9070de--wasserfilterlogoinstallationdark.png",
-            "image_width": 100,
-            "full_width": false,
-            "remove_spacing": false,
-            "top_radius": false,
-            "bottom_radius": false,
-            "enable_shadow": false,
-            "image_des": "",
-            "text_color": "#616161"
-          }
-        },
-        "heading_BMhHf8": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Sie benötigen Hilfe bei der Installation?<br\/><\/p>",
-            "remove_spacing": false,
-            "color": "#003e5f",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "font_weight": "400",
-            "second_font": true
-          }
-        },
-        "text_KQ6j8z": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Neben <strong>Bedienungsanleitungen <\/strong>und <strong>Installationsvideos <\/strong>finden Sie hier auch nützliche Helfer wie zum Beispiel unseren <a href=\"https:\/\/alb-filter.com\/pages\/gewinde-ratgeber\" target=\"_self\">Gewinderatgeber<\/a>. <\/p>",
-            "second_font": true
-          }
-        },
-        "button_m8DNpa": {
-          "type": "button",
-          "settings": {
-            "center": false,
-            "button_label": "Zu den Installationshilfen",
-            "button_link": "shopify:\/\/blogs\/ratgeber\/installation",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "second_btn_color": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "image_6bTgQJ",
-        "heading_BMhHf8",
-        "text_KQ6j8z",
-        "button_m8DNpa"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "content_full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "custom_liquid_qeEiYn": {
       "type": "custom-liquid",
       "disabled": true,
@@ -406,7 +341,6 @@
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
     "custom_contact_VfwffN",
-    "rich_text_XActxY",
     "custom_liquid_qeEiYn",
     "image_banner_MEmWb9",
     "contact_tab_j7xVKU"
