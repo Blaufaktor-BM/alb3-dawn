@@ -289,7 +289,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Tastatur-Nah-Tippen_263903668_c7068f20-d70a-4928-8a2a-3859293a2b4c.jpg",
         "image_overlay_opacity": 0,
-        "enable_shadow": false,
+        "enable_shadow": true,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
         "enable_section_container": false,
