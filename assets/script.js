@@ -39,6 +39,13 @@ $(document).ready(function() {
         $(this).parent().find('.menu-drawer__submenu').fadeIn();
       }
     });
+    $('.contact-tab-item').click(function() {
+      $('.contact-tab-item').removeClass('active');
+      $(this).addClass('active');
+      var index = $(this).index() + 1;
+      $('.contact-tab-content-item').removeClass('active');
+      $('.contact-tab-content-item:nth-child('+ index +')').addClass('active');
+    });
   });
 
 function deferAutorbox() {
