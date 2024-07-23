@@ -61,7 +61,7 @@
       ],
       "settings": {
         "section_color_scheme": "",
-        "title": "<h1>Hilfe und Kontakt<\/h1>",
+        "title": "<p>Hilfe und Kontakt<\/p>",
         "heading_tag": "h1",
         "title_size": "h1",
         "heading_weight": "200",
