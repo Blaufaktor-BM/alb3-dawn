@@ -127,16 +127,6 @@
     "multicolumn_e8NJXM": {
       "type": "multicolumn",
       "blocks": {
-        "column_HJgNnL": {
-          "type": "column",
-          "settings": {
-            "title": "Heading",
-            "subtitle": "Subheading",
-            "text": "<p>Unsere Ratgeber bieten umfassende Informationen zu Wasser, Wasserfiltern und Wasseraufbereitung. Egal, ob du die Qualität deines Leitungswassers steigern, dich über Wasserverschmutzung informieren oder die optimale Lösung für sauberes und gesundes Trinkwasser finden möchtest – wir haben die Antworten für dich.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_xpjWzm": {
           "type": "column",
           "settings": {
@@ -150,7 +140,6 @@
         }
       },
       "block_order": [
-        "column_HJgNnL",
         "column_xpjWzm"
       ],
       "settings": {
@@ -160,10 +149,10 @@
         "heading_weight": "700",
         "heading_second_font": false,
         "enable_hover_animation": true,
-        "enable_item_border": false,
-        "image_width": "half",
+        "enable_item_border": true,
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "column_heading_second": false,
         "column_heading_tag": "h2",
         "column_heading_size": "h3",
@@ -180,7 +169,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
