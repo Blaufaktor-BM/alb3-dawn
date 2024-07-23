@@ -282,6 +282,73 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "contact_tab_j7xVKU": {
+      "type": "contact-tab",
+      "blocks": {
+        "contact_PFfqxk": {
+          "type": "contact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/file-lines-solid.svg",
+            "title": "Kontaktformular",
+            "text": "<p>Wir beantworten Ihr Anliegen Werktags innerhalb von 24h.<\/p>",
+            "subtitle": "Manche Anliegen lassen sich besser in einer persönlichen Nachricht klären!",
+            "content": "<p>Bei individuellen Fragen senden Sie uns gerne eine Nachricht über unser Kontaktformular.<\/p>",
+            "liquid": ""
+          }
+        },
+        "whatsapp_ULJcbr": {
+          "type": "whatsapp",
+          "settings": {
+            "title": "WhatsApp",
+            "text": "<p>Chatten Sie direkt mit unserem Kundenservice.<\/p>",
+            "subtitle": "Der direkte Kontakt mit unserem WhatsApp Kundenservice",
+            "content": "<p>Sie erreichen uns über die Nummer +49 (0) 7420 920 921-1<\/p>",
+            "btn_text": "WhatsApp Chat",
+            "btn_url": ""
+          }
+        },
+        "telephone_RX4CMq": {
+          "type": "telephone",
+          "settings": {
+            "title": "Telefon",
+            "text": "<p>Sind noch Fragen offen? Rufen Sie uns gerne an. <\/p>",
+            "subtitle": "Unser Kundenservice ist auch telefonisch für sie erreichbar",
+            "content": "<p>Bitte kontaktieren Sie uns über die Nummer +49 (0) 7420 920 921-0<\/p>",
+            "btn_text": "Jetzt anrufen",
+            "btn_url": "",
+            "bottom_content": "<p>Schreiben Sie uns auch gerne eine E-Mail:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "contact_PFfqxk",
+        "whatsapp_ULJcbr",
+        "telephone_RX4CMq"
+      ],
+      "settings": {
+        "bg": "#003e5f",
+        "opacity": 10,
+        "border_color": "#d1d1d1",
+        "active_border_color": "#003e5f",
+        "border_radius": 3,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "second_font": false,
+        "heading_color": "#003e5f",
+        "text_color": "#616161",
+        "text_second_font": true,
+        "subtitle_tag": "h2",
+        "subtitle_size": "h1",
+        "subtitle_weight": "700",
+        "subtitle_color": "#003e5f",
+        "subtitle_second_font": true,
+        "btn_color": "#fff",
+        "btn_bg": "#0070c9",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
@@ -291,6 +358,7 @@
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
     "custom_contact_VfwffN",
-    "custom_liquid_qeEiYn"
+    "custom_liquid_qeEiYn",
+    "contact_tab_j7xVKU"
   ]
 }
