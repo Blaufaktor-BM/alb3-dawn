@@ -231,7 +231,7 @@
         "image": "shopify:\/\/shop_images\/Hose-Schraubenschlussel_589563588.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "enable_section_container": true,
         "show_text_box": true,
