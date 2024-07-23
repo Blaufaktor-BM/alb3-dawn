@@ -32,7 +32,10 @@
   >
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
-        <{{ section.settings.heading_tag }} class="title inline-richtext {{ section.settings.heading_size }}">
+        <{{ section.settings.heading_tag }}
+          class="title inline-richtext {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
+          style="font-weight: {{ section.settings.heading_weight }}"
+        >
           {{ section.settings.title }}
         </{{ section.settings.heading_tag }}>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -277,6 +280,47 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
     },
     {
       "type": "select",
