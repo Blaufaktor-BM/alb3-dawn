@@ -21,25 +21,26 @@
       <div class="wrapper-multi_content_contact{% if section.settings.image_right %} row-reverse{% endif %}">
         <div
           class="media-multi_content_contact"
-          style="max-width: {{ section.settings.image_width }}px"
         >
           {% if section.settings.url != blank %}
             <a href="{{ section.settings.url }}">
           {% endif %}
-          {%- if section.settings.image != blank -%}
-            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-            {%- capture sizes -%}
+          <div class="image-multi_content_contact" style="max-width: {{ section.settings.image_width }}px">
+            {%- if section.settings.image != blank -%}
+              {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+              {%- capture sizes -%}
                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
-            {{
-              section.settings.image
-              | image_url: width: 1500
-              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-            }}
-          {%- else -%}
-            {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
+              {{
+                section.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
+            {%- else -%}
+              {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+          </div>
           {% if section.settings.image_text != blank %}
             <div
               class="media_text-multi_content_contact{% if section.settings.image_text_second_font %} second-font{% endif %}"
