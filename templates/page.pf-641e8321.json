@@ -35,91 +35,6 @@
         "show_text_below": true
       }
     },
-    "multi_image_text_JfGwXw": {
-      "type": "multi-image-text",
-      "settings": {
-        "top_range": 120,
-        "top_mobile_range": 120,
-        "image_right": true,
-        "middle_title": "Hilfe und Kontakt",
-        "middle_title_tag": "h2",
-        "middle_title_size": "h1",
-        "middle_title_weight": "400",
-        "middle_title_color": "#0081be",
-        "enable_middle_title_second_font": false,
-        "middle_subtitle": "Unser Ziel ist es, Ihre Fragen und Probleme so schnell wie möglich zu lösen!",
-        "middle_subtitle_tag": "h3",
-        "middle_subtitle_size": "h3",
-        "middle_subtitle_weight": "200",
-        "middle_subtitle_color": "#0081be",
-        "enable_middle_subtitle_second_font": false,
-        "middle_text": "<p>Auf dieser Seite finden Sie Hilfe und Support für alle Fragen rund um Alb Filter, unsere Filtersysteme Installationsanleitungen und Ihre Bestellungen. <\/p>",
-        "middle_text_color": "#0081be",
-        "enable_middle_text_second_font": false,
-        "middle_image": "shopify:\/\/shop_images\/pf-aed3b8d8--mittdsmessgeraetqualitaetdeswassersmessen.jpg",
-        "middle_range": 275,
-        "middle_mobile_range": 100,
-        "bottom_subtitle": "sssss",
-        "bottom_subtitle_tag": "h3",
-        "bottom_subtitle_size": "h3",
-        "bottom_subtitle_weight": "400",
-        "bottom_subtitle_color": "#0081be",
-        "enable_bottom_subtitle_second_font": false,
-        "bottom_text": "<p>sssssssssssssssssssssss<\/p>",
-        "bottom_text_color": "#0081be",
-        "enable_bottom_text_second_font": true,
-        "btn_text": "",
-        "btn_url": "",
-        "btn_bg": "#0081be",
-        "btn_color": "#ffffff",
-        "padding_top": 38,
-        "padding_bottom": 45
-      }
-    },
-    "small_image_text_HVTfjj": {
-      "type": "small-image-text",
-      "blocks": {
-        "text_Ctb6Aw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "text_style": "body",
-            "color": "#616161",
-            "second_font": false
-          }
-        },
-        "button_4f94Fz": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "color": "#0081be",
-            "primary_btn": false,
-            "primary_bg": "#0081be"
-          }
-        }
-      },
-      "block_order": [
-        "text_Ctb6Aw",
-        "button_4f94Fz"
-      ],
-      "settings": {
-        "image_right": false,
-        "content_wrapper": false,
-        "background_color": "",
-        "heading": "Bild mit Text",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_color": "#003e5f",
-        "second_font": false,
-        "mobile_center": false,
-        "image_width": 200,
-        "image_mobile_width": 285,
-        "image_round": false,
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "multicolumn_nxJCaj": {
       "type": "multicolumn",
       "blocks": {
@@ -426,8 +341,6 @@
   "order": [
     "main",
     "image_banner_dKUKWG",
-    "multi_image_text_JfGwXw",
-    "small_image_text_HVTfjj",
     "multicolumn_nxJCaj",
     "multicolumn_e8NJXM",
     "image_banner_n7cX4M",
