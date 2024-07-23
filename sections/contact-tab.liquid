@@ -159,9 +159,138 @@
                   {{ block.settings.content }}
                 </div>
               {% endif %}
-              {% if block.settings.liquid != blank %}
+              {% if block.settings.enable_contact %}
                 <div class="contact-tab-form">
-                  {{ block.settings.liquid }}
+                  {%- form 'contact', id: 'ContactForm' -%}
+                    <div class="contact_fields">
+                      <div class="contact_field">
+                        <label for="firstname">Vorname*</label>
+                        <input type="text" id="firstname" name="contact[First Name]" required>
+                      </div>
+                      <div class="contact_field">
+                        <label for="lastname">Nachname*</label>
+                        <input type="text" id="lastname" name="contact[Last Name]" required>
+                      </div>
+                    </div>
+                    <div class="contact_field">
+                      <label for="email">E-Mail*</label>
+                      <input type="email" id="email" name="contact[email]" required>
+                    </div>
+                    <div class="contact_field">
+                      {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                      {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                      {%- endcapture -%}
+
+                      <span class="field__label-choice">Bitte wählen Sie den Grund Ihrer Nachricht</span>
+                      <div class="radio-list">
+                        <input
+                          type="radio"
+                          id="order"
+                          name="contact[Subject]"
+                          value="Ihre Bestellung"
+                          required
+                          class="hidden"
+                        >
+                        <label for="order">
+                          {% if block.settings.icon1 != blank %}
+                            {{
+                              block.settings.icon1
+                              | image_url: width: 1500
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          {% endif %}
+                          <span>Ihre Bestellung</span>
+                        </label>
+                        <input
+                          type="radio"
+                          id="household"
+                          name="contact[Subject]"
+                          value="Haushaltsprodukte"
+                          class="hidden"
+                        >
+                        <label for="household">
+                          {% if block.settings.icon2 != blank %}
+                            {{
+                              block.settings.icon2
+                              | image_url: width: 1500
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          {% endif %}
+                          <span>Haushaltsprodukte</span></label
+                        >
+                        <input type="radio" id="camping" name="contact[Subject]" value="Campingprodukte" class="hidden">
+                        <label for="camping">
+                          {% if block.settings.icon3 != blank %}
+                            {{
+                              block.settings.icon3
+                              | image_url: width: 1500
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          {% endif %}
+                          <span>Campingprodukte</span></label
+                        >
+
+                        <input
+                          type="radio"
+                          id="feedback"
+                          name="contact[Subject]"
+                          value="Anregung/Kritik"
+                          class="hidden"
+                        >
+                        <label for="feedback">
+                          {% if block.settings.icon4 != blank %}
+                            {{
+                              block.settings.icon4
+                              | image_url: width: 1500
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          {% endif %}
+                          <span>Anregung/Kritik</span></label
+                        >
+
+                        <input type="radio" id="others" name="contact[Subject]" value="Sonstiges" class="hidden">
+                        <label for="others">
+                          {% if block.settings.icon5 != blank %}
+                            {{
+                              block.settings.icon5
+                              | image_url: width: 1500
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          {% endif %}
+                          <span>Sonstiges</span></label
+                        >
+                      </div>
+                    </div>
+                    <div class="contact_fields">
+                      <div class="contact_field">
+                        <label for="customer-number">Kundennummer (falls verfügbar)</label>
+                        <input type="text" id="customer-number" name="contact[customer-number]">
+                      </div>
+
+                      <div class="contact_field">
+                        <label for="order-number">Bestellnummer (falls verfügbar)</label>
+                        <input type="text" id="order-number" name="contact[order-number]">
+                      </div>
+                    </div>
+                    <div class="contact_field">
+                      <label for="message">Nachricht*</label>
+                      <textarea id="message" name="contact[Comment]" required></textarea>
+                    </div>
+                    <div class="contact_button">
+                      <button
+                        type="submit"
+                        class="button button--primary"
+                        style="background-color: {{ section.settings.btn_bg }}; color: {{ section.settings.btn_color }}"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                          <path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                        </svg>
+                        Senden
+                      </button>
+                    </div>
+                  {%- endform -%}
                 </div>
               {% endif %}
             </div>
@@ -582,9 +711,35 @@
           "default": "<p>Bei individuellen Fragen senden Sie uns gerne eine Nachricht über unser Kontaktformular.</p>"
         },
         {
-          "type": "liquid",
-          "id": "liquid",
-          "label": "Liquid"
+          "type": "checkbox",
+          "id": "enable_contact",
+          "label": "Enable Contact",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "icon1",
+          "label": "Icon1"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon2",
+          "label": "Icon2"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon3",
+          "label": "Icon3"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon4",
+          "label": "Icon4"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon5",
+          "label": "Icon5"
         }
       ]
     },

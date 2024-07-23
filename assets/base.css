@@ -7173,6 +7173,91 @@ h5 {
   margin-top: 30px;
 }
 
+.contact_fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact_field {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact_field textarea,
+.contact_field input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 10px 8px;
+}
+
+.contact_field textarea {
+  height: 137px;
+}
+
+.contact_button {
+  margin-top: 20px;
+}
+
+.contact_field textarea:focus-visible,
+.contact_field input:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.radio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.radio-list label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 5px 5px 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  cursor: pointer;
+  transition-duration: .3s;
+  transition-property: box-shadow;
+}
+
+.radio-list input[type="radio"]:checked+label {
+  border: 2px solid rgb(0, 62, 95);
+}
+
+.radio-list label:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .5);
+}
+
+.radio-list img {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+@media (min-width: 750px) {
+  .contact_fields .contact_field {
+    max-width: calc(50% - 10px);
+  }
+
+  .radio-list label {
+    max-width: calc(50% - 5px);
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 5px 5px;
+  }
+}
+
+@media (min-width: 990px) {
+  .radio-list label {
+    max-width: calc(20% - 8px);
+  }
+}
+
 @media (max-width: 749px) {
 
   .contact-tab-item-title,
