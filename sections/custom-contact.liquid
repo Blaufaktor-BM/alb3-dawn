@@ -41,7 +41,7 @@
         {%- endif -%}
         {%- if section.settings.heading != blank -%}
           <{{ section.settings.heading_tag }}
-            class="custom_contact-heading inline-richtext {{ section.settings.heading_size }}"
+            class="custom_contact-heading inline-richtext {{ section.settings.heading_size }}{% if section.settings.enable_heading_second_font %} second-font{% endif %}"
             style="color: {{ section.settings.heading_color }};"
           >
             {{ section.settings.heading }}
@@ -49,7 +49,7 @@
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div
-            class="custom_contact-text rte second-font"
+            class="custom_contact-text rte{% if section.settings.enable_text_second_font %} second-font{% endif %}"
             style="color: {{ section.settings.text_color }};"
           >
             {{ section.settings.text }}
@@ -203,6 +203,11 @@
       "default": "#616161"
     },
     {
+      "type": "checkbox",
+      "id": "enable_heading_second_font",
+      "label": "Enable Heading Second Font"
+    },
+    {
       "type": "richtext",
       "id": "text",
       "label": "Text",
@@ -213,6 +218,12 @@
       "id": "text_color",
       "label": "Text Color",
       "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_text_second_font",
+      "label": "Enable Text Second Font",
+      "default": true
     },
     {
       "type": "header",
