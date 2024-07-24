@@ -1,1 +1,244 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_MpAExG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fYNhe7": {
+          "type": "heading",
+          "settings": {
+            "second_font": false,
+            "heading": "<h1>FAQ Campingfilter<\/h1>",
+            "heading_tag": "h1",
+            "heading_size": "h1",
+            "heading_weight": "700"
+          }
+        },
+        "text_BdrPTC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alle Fragen und Antworten zu den Alb Filter Camping-Sets den passenden Filterkartuschen sowie Informationen zu Einbau und Wechsel.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_RPpkxM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "FAQ Campingfilter",
+            "button_link_1": "shopify:\/\/pages\/faq-camping",
+            "button_style_secondary_1": true,
+            "button_label_2": "FAQ Duschfilter",
+            "button_link_2": "shopify:\/\/pages\/faq-duschfilter",
+            "second_btn_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fYNhe7",
+        "text_BdrPTC",
+        "buttons_RPpkxM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
+        "image_overlay_opacity": 0,
+        "enable_shadow": false,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collapsible_content_i66qXY": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_DFjfBA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Für welche Variante soll ich mich entscheiden? ",
+            "icon": "none",
+            "row_content": "<p>Bei der Auswahl des geeigneten Filters müssen grundsätzlich folgende Punkte beachtet werden:<\/p><ul><li>Größe des Tanks<\/li><li>Die bereits verbaute Pumpe (Tauchpumpe oder Membrandruckpumpe)<\/li><li>Hygienezustand des Tanks und der Leitungen<\/li><li>Persönlicher Anspruch: Soll das Wasser aus dem Tank ohne abkochen als Trinkwasser verwendet werden.<\/li><\/ul>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_PdYHqh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich ein vorhandenes System umrüsten oder erweitern?",
+            "icon": "none",
+            "row_content": "<p>Grundsätzlich ist die Entscheidung für ein bestimmtes Set kein endgültiger Schritt. Durch den modularen Aufbau der Gehäuse und Anschlüsse ist es jederzeit möglich, das Set umzurüsten. Das bedeutet, dass ein Befüll-Set (Mobil) auch im Innenraum verbaut werden kann und umgekehrt. Flexibilität bei der Anpassung des Systems ist somit gewährleistet.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_JNxe9k": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Benötige ich noch Zusätze (Silberionen) trotz Filter?",
+            "icon": "check_mark",
+            "row_content": "<p>Unser Anspruch besteht darin, auf jegliche Konservierungsmaßnahmen für den Tank zu verzichten. Mit der Nano Keimsperre filtern wir Bakterien rein mechanisch aus, sodass krankheitserregende Bakterien wie E.Coli, Legionellen oder Fäkalkeime zuverlässig entfernt werden.<\/p><p>Dadurch ist es auch möglich, auf den Einsatz von Silberionen und anderen antibakteriellen Mitteln <strong>zu verzichten.<\/strong><\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_hVArDq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist eine Tankreinigung vor dem Einsatz der Alb Filter nötig?",
+            "icon": "check_mark",
+            "row_content": "<p>Eine gründliche <strong>Tankreinigung<\/strong> ist unbedingt erforderlich, bevor das Wasser aus dem Tank kalt konsumiert wird und bevor mit der Filtration begonnen wird. Die Desinfektion gewährleistet, dass vorhandene pathogene Bakterien abgetötet werden und durch die Keimsperre von außen nichts mehr ins System gelangt. Zudem sorgt eine Reinigung dafür, dass sich die Lebensdauer der Filter erheblich verlängern kann.<\/p><p><br\/><\/p><p>Für die Desinfektion des Tanks bieten sich Reiniger auf Aktivsauerstoff-Basis an, die effektiv gegen Bakterien und andere Mikroorganismen wirken. Es können jedoch auch andere geeignete Reinigungsmittel verwendet werden, die eine wirksame Desinfektion gewährleisten. Es ist wichtig, die Anweisungen des Herstellers bezüglich Dosierung und Anwendung sorgfältig zu befolgen, um eine effektive Reinigung und Desinfektion zu erreichen.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_T7XKJG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Bleiben die Kartuschen während des Urlaubs im Gehäuse verbaut?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Ja<\/strong>, wir gehen davon aus, dass die Kartuschen regelmäßig verwendet werden, selbst bei einer Außenbetankung, bei der die Kartuschen alle 3-7 Tage benutzt werden. Nach dem Betanken empfehlen wir Ihnen, kurz die Deckel aufzuschrauben und das Wasser im Gehäuse abzulassen, <strong>während die Kartuschen verbaut bleiben<\/strong>. Anschließend sollten Sie den Deckel wieder schließen und den Filter an einem geeigneten Ort, wie beispielsweise in der Garage, aufbewahren. Dadurch können Sie die Keimbelastung verringern und die Lebensdauer der Kartuschen verlängern.<\/p>",
+            "small_text1": "",
+            "small_text2": "<p><strong>Generell:<\/strong><\/p><p>Jeder Wasserfilter, unabhängig von seiner Qualität, kann verkeimen. Um sich vor einer Verkeimung zu schützen, empfehlen wir immer, eine Keimsperre (Nano) Filterkartusche nachzuschalten. Darüber hinaus gibt es einige Tipps, um die Keimbelastung in den Kartuschen zu verringern und die Lebensdauer der Filter zu verlängern:<\/p>",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Dq8b6W": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Müssen die Kartuschen nach dem Urlaub ausgebaut werden?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Generell:<\/strong><\/p><p>Jeder Wasserfilter, unabhängig von seiner Qualität, kann verkeimen. Um sich vor einer Verkeimung zu schützen, empfehlen wir immer, eine Keimsperre (Nano) Filterkartusche nachzuschalten. Darüber hinaus gibt es einige Tipps, um die Keimbelastung in den Kartuschen zu verringern und die Lebensdauer der Filter zu verlängern:<\/p>",
+            "small_text1": "<p><strong>Vorgehensweise<\/strong>:<\/p><ol><li>Nach dem Urlaub oder einer längeren Nichtbenutzung des Filtersystems bauen Sie die Kartuschen aus. Stellen Sie sicher, dass sie gründlich getrocknet sind, bevor Sie sie lagern. Lassen Sie sie einfach an der Luft trocknen und bewahren Sie sie dann an einem kühlen, trockenen Ort auf.<br\/><\/li><li>Durch das Trocknen und die korrekte Lagerung der Kartuschen wird sichergestellt, dass sie nicht feucht werden und keine Keimbildung oder Schimmelbildung auftreten.<br\/><\/li><li>Um die Lebensdauer der Kartuschen zu verlängern und eine optimale Filterleistung sicherzustellen, empfehlen wir einen regelmäßigen Wechsel der Kartuschen alle 4 bis 6 Monate (abhängig von der spezifischen Kartusche und den Herstellerempfehlungen).<br\/><\/li><li>Alternativ können Sie das Filtersystem oder die Kartusche auch zu Hause in der Küche verwenden, um frisch gefiltertes Leitungswasser zu zapfen. Dadurch können Sie die Filterkapazität nutzen und kontinuierlich hochwertiges Wasser genießen.<\/li><\/ol><p><\/p>",
+            "small_text2": "",
+            "bottom_text": "<p><strong>Hinweis<\/strong>: Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<br\/><br\/><strong>Tipp<\/strong>: Beim Ein- und Ausbau sollten Sie die Kartusche mit leichten Drehbewegungen langsam herausziehen<\/p>",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_fnTcyM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lagere ich die Filterkartuschen nach dem Urlaub?",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "<p><strong>Richtig:<\/strong><\/p><ul><li>Kühl und trocken lagern. Es muss gut belüftet sein, damit kein Schimmel entstehen kann.<\/li><\/ul>",
+            "small_text2": "<p><strong>Falsch:<\/strong><\/p><ul><li>Verschlossene Plastiktüte<\/li><li>Aufbewahrung in einem Behälter mit Reis<\/li><li>Lagerung im Kühlschrank<\/li><\/ul>",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_hC89ar": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie müssen die benutzten Kartuschen entsorgt werden?",
+            "icon": "check_mark",
+            "row_content": "<p>Verbrauchte Kartuschen sollten tatsächlich im Restmüll entsorgt werden. Sie werden in der Regel verbrannt, da sich im Inneren der Kartuschen Schadstoffe angesammelt haben. Es ist wichtig, die Kartuschen nicht anderweitig zu entsorgen, sondern gemäß den örtlichen Bestimmungen im Restmüll zu entsorgen.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_xxLFWW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Verringert sich der Wasserdruck?",
+            "icon": "check_mark",
+            "row_content": "<p>Ja, jede Filterkartusche und ihr Filtermedium haben einen gewissen Einfluss auf den Wasserdruck und die Durchflussmenge. Bei einem Inneneinbau sollte daher eine Überprüfung der Pumpe in Betracht gezogen werden, um sicherzustellen, dass sie den erforderlichen Druck und Durchfluss liefern kann.<br\/><br\/>Darüber hinaus ist es richtig, dass sich die Betankungsdauer verlängert. In der Praxis kann bei Verwendung der maximalen Filterstufe (Protect + Active + Nano) mit einer durchschnittlichen Zeit von etwa 15 Minuten gerechnet werden, um einen 100 Liter Wassertank vollständig zu befüllen. Dies kann je nach System und Wasserdruck variieren.<\/p>",
+            "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
+            "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "<p>Vor allem Filter, die adsorptiv filtern, müssen eine geringe Porenfeinheit aufweisen, um eine gute Filterleistung zu erzielen. Aktivkohlefilter, die kaum einen Druckabfall erzeugen, bestehen meist aus einfachen Aktivkohlegranulaten, bei denen sich Wasserbrücken bilden und das Wasser kaum gefiltert wird.<br\/><br\/>Bei unseren Aktivkohleblöcken setzen wir auf eine gesinterte Form mit einem geringen Anteil an Bindemitteln. Dadurch wird die Filterleistung im Vergleich zu Granulaten deutlich verbessert.<br\/><br\/>Andere Filterkartuschen, wie zum Beispiel unsere Keimsperre (Nano), verwenden Hohlfasermembranen im Inneren, die stark gebündelt sind. Diese Kartuschen weisen zu Beginn kaum einen Druckabfall auf. Im Laufe der Zeit können sich jedoch die Poren nach und nach verschließen, wodurch der Druckabfall an der Kartusche zunimmt. Um die volle Kapazität der Kartusche dennoch nutzen zu können, empfehlen wir den Einsatz einer Membrandruckpumpe. Dadurch wird ein ausreichender Druck aufrechterhalten und die Effizienz der Kartusche gewährleistet.<\/p>",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_XEmFtr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Meine Filterkartusche ist verstopft - was nun?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Generell gilt<\/strong>: Eine verstopfte Kartusche ist kein Reklamationsgrund, sondern unterliegt dem normalen Verschleiß.<\/p><p>Alle unsere Filterkartuschen sind mit einer mechanischen Porenfeinheit ausgestattet, wodurch Partikel, Feststoffe und Bakterien die Poren der Kartuschen verstopfen können. Je klarer und reiner das Eingangswasser ist, desto länger dauert es, bis die Kartusche verstopft.<br\/><br\/>Die angegebene Standzeit von 4 oder 6 Monaten basiert in erster Linie auf hygienischen Gründen. Es ist wichtig, die Kartuschen regelmäßig auszutauschen, um eine optimale Filterleistung und hygienische Bedingungen aufrechtzuerhalten. Die angegebene Literzahl ist ein grober Durchschnittswert, da die Standzeit der Kartuschen je nach individuellen Wasserbedingungen variieren kann.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "<p><strong>Was ist zu tun wenn der Durchfluss verringert ist?<\/strong><\/p><p> Ermitteln Sie bei einem mehrstufigen System zuerst die betroffene Kartusche, indem jede Kartusche für sich einzeln getestet wird. <\/p><p><strong>Fall 1:<\/strong> <strong>Vorfilter<\/strong> (Protect) ist verstopft<br\/><br\/>Drehen Sie den Vorfilter einmal um und versuchen Sie, ihn wieder freizuspülen. Aus Erfahrung setzen sich die Partikel jedoch oft recht tief in die Poren ein, sodass in den meisten Fällen der Austausch der Filterscheibe empfohlen wird.<br\/><\/p><p><strong>Fall 2:<\/strong> <strong>Active<\/strong> Kartusche ist verstopft<br\/><br\/>Aus Erfahrung setzen sich die Partikel oft tief in die Poren ein, weshalb in den meisten Fällen ein Austausch des Filters empfohlen wird.<br\/><\/p><p><strong>Fall 3:<\/strong> <strong>Nano<\/strong> Kartusche ist verstopft<br\/><br\/>Die Kartusche sollte nach Möglichkeit immer in Kombination mit einem Vorfilter oder einer etwas gröberen Kartusche (wie Active) betrieben werden, da sie sehr empfindlich ist.<br\/><br\/>Es gibt zwei Möglichkeiten, um eine verstopfte Kartusche gegebenenfalls wieder freizubekommen:<br\/><br\/>- Kurzes Ausblasen mit Druckluft (maximal 2 bar) entgegen der Flussrichtung.<br\/><br\/>- Die Kartusche für maximal 15 Minuten in Ethanol einlegen, um sie zu reinigen.<\/p><p><strong>Langfristige Lösungen:<br\/><\/strong><br\/>- Versuchen Sie immer, Wasser aus dem öffentlichen Leitungsnetz zu tanken, da dies in der Regel eine deutlich bessere Qualität bietet als unsichere Quellen.<br\/><br\/>- Verwenden Sie nach Möglichkeit einen hochwertigen Vorfilter wie das <strong>Alb Filter Protect Modul.<\/strong><\/p>",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_DFjfBA",
+        "collapsible_row_PdYHqh",
+        "collapsible_row_JNxe9k",
+        "collapsible_row_hVArDq",
+        "collapsible_row_T7XKJG",
+        "collapsible_row_Dq8b6W",
+        "collapsible_row_fnTcyM",
+        "collapsible_row_hC89ar",
+        "collapsible_row_xxLFWW",
+        "collapsible_row_XEmFtr"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "HÄUFIGE FRAGEN",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "#ffffff",
+        "text_color": "#616161",
+        "content_border_color": "#f3f3f3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_MpAExG",
+    "collapsible_content_i66qXY"
+  ]
+}
