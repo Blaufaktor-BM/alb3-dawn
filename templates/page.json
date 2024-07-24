@@ -355,13 +355,55 @@
             "exclamation_list": "",
             "page": ""
           }
+        },
+        "collapsible_row_NNcWQY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "An welcher Stelle im Wasserstrang soll ich den Filter einbauen?",
+            "icon": "check_mark",
+            "row_content": "<p>Es ist empfehlenswert, den Filter direkt unter der Spüle zu installieren, also dort, wo das zu konsumierende Wasser entnommen wird. Diese Variante bietet den höchsten Schutz vor einer möglichen Verkeimung in den Wasserleitungen. Insbesondere in Vans und Kastenwägen wird oft aufgrund begrenzter Platzverhältnisse diese Variante realisiert.<br\/><br\/>Alternativ wird der Filter auch oft direkt nach der Pumpe positioniert, häufig nach der Abzweigung in den Kaltwasserstrang. Dadurch wird der gesamte Strang und alle Entnahmepunkte abgesichert, was einen weiteren Vorteil darstellt. Auch haben wir hier oft eine zugängliche Serviceklappe in der es ausreichend Platz zum Einbau gibt. <\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_WUbFzP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Starre Wasserschläuche im Camper - kann ich den Filter anschließen?",
+            "icon": "check_mark",
+            "row_content": "<p>Ja, in den meisten Fällen sind in solchen Systemen Kunststoffverbinder der Firmen <strong>John Guest<\/strong>,  <strong>Reich <\/strong>oder <strong>Whale<\/strong> verbaut. Um den Alb Filter in den bestehenden Wasserstrang integrieren zu können, sind Adapter erforderlich.<br\/><br\/>Bei Bedarf können Sie uns gerne eine Anfrage mit einem Bild des bestehenden Systems senden. Auf dieser Grundlage können wir Ihnen gegebenenfalls eine passende Lösung anbieten.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_QXNVDL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Spielt die Einbaulage des Gehäuses eine Rolle (Waagrecht, Senkrecht)?",
+            "icon": "check_mark",
+            "row_content": "<p>Die Einbaurichtung des Filtergehäuses hat keinen Einfluss auf die Filterleistung. Sie können das Gehäuse in jeder beliebigen Lage installieren.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_YUUbgc",
         "collapsible_row_ihBy7P",
         "collapsible_row_QAHDtD",
-        "collapsible_row_3UVF49"
+        "collapsible_row_3UVF49",
+        "collapsible_row_NNcWQY",
+        "collapsible_row_WUbFzP",
+        "collapsible_row_QXNVDL"
       ],
       "settings": {
         "caption": "FAQ Camping Filter",
