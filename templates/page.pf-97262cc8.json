@@ -77,12 +77,12 @@
         "collapsible_row_PdYHqh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Kann ich ein vorhandenes System umrüsten oder erweitern?",
+            "heading": "Wo wird das Filtergehäuse angebracht?",
             "icon": "check_mark",
-            "row_content": "<p>Grundsätzlich ist die Entscheidung für ein bestimmtes Set kein endgültiger Schritt. Durch den modularen Aufbau der Gehäuse und Anschlüsse ist es jederzeit möglich, das Set umzurüsten. Das bedeutet, dass ein Befüll-Set (Mobil) auch im Innenraum verbaut werden kann und umgekehrt. Flexibilität bei der Anpassung des Systems ist somit gewährleistet.<\/p>",
-            "small_text1": "",
+            "row_content": "<p>Die Montage eines Alb Filters in der Dusche ist im Allgemeinen recht einfach und erfordert nur wenige Schritte. Hier ist eine allgemeine Anleitung, wie Sie den Alb Filter installieren können. Bitte beachten Sie, dass die genauen Schritte je nach Modell des Alb Filters und der Art Ihrer Dusche variieren können:<\/p>",
+            "small_text1": "<ul><li><strong>Vorbereitung<\/strong>: Stellen Sie sicher, dass die Dusche ausgeschaltet ist, bevor Sie beginnen.<\/li><li><strong>Demontieren Sie den vorhandenen Duschschlauch<\/strong>: Je nach Modell Ihrer Dusche kann dies einfach durch Drehen im Uhrzeigersinn geschehen. In einigen Fällen müssen Sie vielleicht eine Zange verwenden. Seien Sie jedoch vorsichtig, um die Oberfläche nicht zu beschädigen.<\/li><li><strong>Montieren Sie den Alb Filter<\/strong>: Nehmen Sie den Alb Filter mit eingesetzter Kartusche und schrauben Sie ihn an die Mischarmatur. Achten Sie darauf, dass er fest sitzt, aber üben Sie nicht zu viel Druck aus, da dies zu Schäden führen kann.<\/li><li><strong>Montieren Sie den Duschschlauch am Filter<\/strong>: Schrauben Sie nun den Duschschlauch auf die Ausgangs-Seite des Alb Filters. Auch hier gilt: Fest genug, um eine gute Dichtung zu gewährleisten, aber nicht zu fest.<\/li><li><strong>Prüfen Sie auf Lecks<\/strong>: Schalten Sie das Wasser langsam an und prüfen Sie, ob Wasser aus der Verbindung zwischen Filter und Mischarmatur oder zwischen Filter und Duschschlauch austritt. Wenn ja, schalten Sie das Wasser aus und ziehen Sie die Verbindungen noch etwas fester an.<\/li><li><strong>Spülen Sie den Filter durch<\/strong>: Lassen Sie das Wasser etwa 1 min. laufen, um den Filter durchzuspülen. Dies entfernt etwaige Aktivkohle-Rückstände, die sich während der Herstellung oder Lagerung des Filters angesammelt haben könnten.<\/li><\/ul>",
             "small_text2": "",
-            "bottom_text": "",
+            "bottom_text": "<p>Manchmal kann es passieren, dass es, durch zu geringem Abstand des Gewindes zur Wand (kleiner 35 mm), nicht möglich ist den Alb Filter zu installieren. In diesem Fall wird ein Abstandsadapter benötigt, welcher <a href=\"https:\/\/alb-filter.com\/products\/alb-winkelabstandsadapter-s\" target=\"_self\">hier<\/a> zu finden ist.<br\/><br\/>Eine Videoanleitung ist hier zu finden (YouTube Link): <a href=\"https:\/\/youtu.be\/iDpiLLtlsgc\" title=\"Installation Duschfilter\">Installation Duschfilter<\/a><\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -90,9 +90,9 @@
         "collapsible_row_JNxe9k": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Benötige ich noch Zusätze (Silberionen) trotz Filter?",
+            "heading": "Ich habe nicht genügend Abstand zur Wand - was kann ich tun?",
             "icon": "check_mark",
-            "row_content": "<p>Unser Anspruch besteht darin, auf jegliche Konservierungsmaßnahmen für den Tank zu verzichten. Mit der Nano Keimsperre filtern wir Bakterien rein mechanisch aus, sodass krankheitserregende Bakterien wie E.Coli, Legionellen oder Fäkalkeime zuverlässig entfernt werden.<\/p><p>Dadurch ist es auch möglich, auf den Einsatz von Silberionen und anderen antibakteriellen Mitteln <strong>zu verzichten.<\/strong><\/p>",
+            "row_content": "<p>Manchmal kann es vorkommen, dass aufgrund des zu <strong>geringen Abstands des Gewindes<\/strong> zur Wand (weniger als 35 mm) die Installation des Alb Filters nicht möglich ist. Dies kann passieren, wenn die Wand zu nahe an der Duscharmatur liegt oder wenn der Wasseranschluss in einer Ecke oder Nische installiert wurde.<br\/><br\/>In solchen Fällen benötigen Sie einen Abstandsadapter. Dieser Adapter ist im Grunde ein kleines Verlängerungsstück, das zwischen das Gewinde Ihrer Duscharmatur und den Alb Filter geschraubt wird. Es verlängert das Gewinde Ihrer Armatur, sodass der Alb Filter genügend Platz zum Anschließen hat.<br\/><br\/>Dieser <a href=\"https:\/\/alb-filter.com\/products\/alb-winkelabstandsadapter-s\" target=\"_self\">Abstandsadapter<\/a> ist ein separat erhältliches Zubehör und kann auf unserer Webseite erworben werden. Bitte beachten Sie, dass die Verwendung eines Adapters die <strong>Gesamthöhe Ihrer Duscharmatur erhöhen<\/strong> wird, was je nach Ihrer spezifischen Duschsituation ein Problem darstellen könnte.<br\/><br\/>Wir empfehlen, den Abstand zwischen der Wand und dem Gewinde Ihrer Duscharmatur genau zu messen, bevor Sie den Alb Filter bestellen. Wenn der Abstand weniger als 35 mm beträgt, bestellen Sie bitte den Abstandsadapter zusammen mit dem Filter. Das stellt sicher, dass Sie den Filter problemlos installieren können, sobald er ankommt.<br\/><br\/><strong>Die Installation des Abstandsadapters ist einfach und erfordert keine speziellen Werkzeuge<\/strong>. Sie schrauben einfach den Adapter auf das Gewinde Ihrer Duscharmatur und dann den Alb Filter auf den Adapter. Sobald der Adapter installiert ist, sollte der Alb Filter genügend Platz zum Anschließen haben und ordnungsgemäß funktionieren.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -103,9 +103,9 @@
         "collapsible_row_hVArDq": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ist eine Tankreinigung vor dem Einsatz der Alb Filter nötig?",
+            "heading": "Verringert sich der Kalkgehalt im Wasser?",
             "icon": "check_mark",
-            "row_content": "<p>Eine gründliche <strong>Tankreinigung<\/strong> ist unbedingt erforderlich, bevor das Wasser aus dem Tank kalt konsumiert wird und bevor mit der Filtration begonnen wird. Die Desinfektion gewährleistet, dass vorhandene pathogene Bakterien abgetötet werden und durch die Keimsperre von außen nichts mehr ins System gelangt. Zudem sorgt eine Reinigung dafür, dass sich die Lebensdauer der Filter erheblich verlängern kann.<\/p><p><br\/><\/p><p>Für die Desinfektion des Tanks bieten sich Reiniger auf Aktivsauerstoff-Basis an, die effektiv gegen Bakterien und andere Mikroorganismen wirken. Es können jedoch auch andere geeignete Reinigungsmittel verwendet werden, die eine wirksame Desinfektion gewährleisten. Es ist wichtig, die Anweisungen des Herstellers bezüglich Dosierung und Anwendung sorgfältig zu befolgen, um eine effektive Reinigung und Desinfektion zu erreichen.<\/p>",
+            "row_content": "<p>Unser Hauptziel ist es, schädliche Stoffe aus dem Wasser zu reduzieren. Kalk, der aus Kalzium- und Magnesiumkarbonat besteht, gehört nicht dazu.<\/p><p><\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -116,11 +116,11 @@
         "collapsible_row_T7XKJG": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Bleiben die Kartuschen während des Urlaubs im Gehäuse verbaut?",
+            "heading": "Was ist zu beachten, wenn ich die Filter nicht benutze (Tage\/Wochen)?",
             "icon": "check_mark",
-            "row_content": "<p><strong>Ja<\/strong>, wir gehen davon aus, dass die Kartuschen regelmäßig verwendet werden, selbst bei einer Außenbetankung, bei der die Kartuschen alle 3-7 Tage benutzt werden. Nach dem Betanken empfehlen wir Ihnen, kurz die Deckel aufzuschrauben und das Wasser im Gehäuse abzulassen, <strong>während die Kartuschen verbaut bleiben<\/strong>. Anschließend sollten Sie den Deckel wieder schließen und den Filter an einem geeigneten Ort, wie beispielsweise in der Garage, aufbewahren. Dadurch können Sie die Keimbelastung verringern und die Lebensdauer der Kartuschen verlängern.<\/p>",
-            "small_text1": "",
-            "small_text2": "<p><strong>Generell:<\/strong><\/p><p>Jeder Wasserfilter, unabhängig von seiner Qualität, kann verkeimen. Um sich vor einer Verkeimung zu schützen, empfehlen wir immer, eine Keimsperre (Nano) Filterkartusche nachzuschalten. Darüber hinaus gibt es einige Tipps, um die Keimbelastung in den Kartuschen zu verringern und die Lebensdauer der Filter zu verlängern:<\/p>",
+            "row_content": "<p><strong>Generell<\/strong>: Jeder noch so gute Wasserfilter kann verkeimen. Desshalb ist es wichtig die angegebenen Tauschintervalle zu beachten und den Filter am besten täglich zu spülen<\/p><p>Ihr Alb Filter verliert nicht an Wirksamkeit, wenn Sie ihn einige Zeit nicht verwenden. Wir empfehlen den Filter bei längerer Abwesenheit auszubauen und ihn kühl und trocken zu lagern. <\/p>",
+            "small_text1": "<p><strong>Hinweis<\/strong>: Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<\/p>",
+            "small_text2": "",
             "bottom_text": "",
             "exclamation_list": "",
             "page": ""
@@ -129,12 +129,12 @@
         "collapsible_row_Dq8b6W": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Müssen die Kartuschen nach dem Urlaub ausgebaut werden?",
+            "heading": "Wie funktioniert ein Kartuschenwechsel und worauf ist zu achten?",
             "icon": "check_mark",
-            "row_content": "<p><strong>Generell:<\/strong><\/p><p>Jeder Wasserfilter, unabhängig von seiner Qualität, kann verkeimen. Um sich vor einer Verkeimung zu schützen, empfehlen wir immer, eine Keimsperre (Nano) Filterkartusche nachzuschalten. Darüber hinaus gibt es einige Tipps, um die Keimbelastung in den Kartuschen zu verringern und die Lebensdauer der Filter zu verlängern:<\/p>",
-            "small_text1": "<p><strong>Vorgehensweise<\/strong>:<\/p><ol><li>Nach dem Urlaub oder einer längeren Nichtbenutzung des Filtersystems bauen Sie die Kartuschen aus. Stellen Sie sicher, dass sie gründlich getrocknet sind, bevor Sie sie lagern. Lassen Sie sie einfach an der Luft trocknen und bewahren Sie sie dann an einem kühlen, trockenen Ort auf.<br\/><\/li><li>Durch das Trocknen und die korrekte Lagerung der Kartuschen wird sichergestellt, dass sie nicht feucht werden und keine Keimbildung oder Schimmelbildung auftreten.<br\/><\/li><li>Um die Lebensdauer der Kartuschen zu verlängern und eine optimale Filterleistung sicherzustellen, empfehlen wir einen regelmäßigen Wechsel der Kartuschen alle 4 bis 6 Monate (abhängig von der spezifischen Kartusche und den Herstellerempfehlungen).<br\/><\/li><li>Alternativ können Sie das Filtersystem oder die Kartusche auch zu Hause in der Küche verwenden, um frisch gefiltertes Leitungswasser zu zapfen. Dadurch können Sie die Filterkapazität nutzen und kontinuierlich hochwertiges Wasser genießen.<\/li><\/ol><p><\/p>",
+            "row_content": "<p>Hier sind allgemeine Schritte zum Wechseln einer Duschfilter Kartusche:<\/p><ul><li><strong>Vorbereitung<\/strong>: Stellen Sie sicher, dass Sie eine Duschfilter-Ersatzkartusche für Ihren Alb Duschfilter zur Hand haben und drehen Sie die Armatur zu.<\/li><li><strong>Gehäuse abschrauben und öffnen<\/strong>: Schrauben Sie das Duschfiltergehäuse von der Armatur und Duschschlauch ab und öffnen den Deckel ausgangsseitig (Deckel mit Außengewinde). Die alte Kartusche sollte nun zu sehen sein.<\/li><li><strong>Reinigen Sie das Gehäuse<\/strong>: Reinigen Sie das Innere des Duschfiltergehäuses, um sicherzustellen, dass keine Rückstände vorhanden sind, die die Leistung des neuen Filters beeinträchtigen könnten.<\/li><li><strong>Setzen Sie die neue Kartusche ein<\/strong>: Nehmen Sie die neue Kartusche und setzen Sie sie in das Gehäuse ein. Drücken Sie hierbei die Nase mit leichten Drehbewegungen in die Öffnung des unteren Deckels.<\/li><li><strong>Schrauben Sie den Deckel wieder an<\/strong>: Schrauben Sie den unteren Deckel des Filtergehäuses wieder an. Fest, aber auch nicht zu fest.<\/li><li><strong>Testen Sie den Filter<\/strong>: Schalten Sie das Wasser wieder ein und lassen Sie es eine Minute laufen. Überprüfen Sie auf Lecks und stellen Sie sicher, dass das Wasser sauber durchläuft.<\/li><li><strong>Regelmäßige Wartung<\/strong>: Denken Sie daran, die Kartusche regelmäßig zu wechseln. Wir empfehlen bei Duschfilterkartuschen einen Wechselintervall von 6 Monaten.<br\/><br\/>Unser <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Spar-Abo<\/a> kann Ihnen dabei helfen, die Wechselzeit nicht zu verspassen.<\/li><\/ul><p>Eine Videoanleitung ist hier zu finden (YouTube Link): <a href=\"https:\/\/youtu.be\/p0y6RtcUAM4\" title=\"Anleitung Kartuschenwechsel Duschfilter\">Anleitung Kartuschenwechsel Duschfilter<\/a><\/p>",
+            "small_text1": "<p><\/p><p><\/p>",
             "small_text2": "",
-            "bottom_text": "<p><strong>Hinweis<\/strong>: Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<br\/><br\/><strong>Tipp<\/strong>: Beim Ein- und Ausbau sollten Sie die Kartusche mit leichten Drehbewegungen langsam herausziehen<\/p>",
+            "bottom_text": "",
             "exclamation_list": "",
             "page": ""
           }
@@ -142,11 +142,11 @@
         "collapsible_row_fnTcyM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wie lagere ich die Filterkartuschen nach dem Urlaub?",
+            "heading": "Kann ich in einem Filtergehäuse unterschiedliche Kartuschen verwenden?",
             "icon": "check_mark",
-            "row_content": "",
-            "small_text1": "<p><strong>Richtig:<\/strong><\/p><ul><li>Kühl und trocken lagern. Es muss gut belüftet sein, damit kein Schimmel entstehen kann.<\/li><\/ul>",
-            "small_text2": "<p><strong>Falsch:<\/strong><\/p><ul><li>Verschlossene Plastiktüte<\/li><li>Aufbewahrung in einem Behälter mit Reis<\/li><li>Lagerung im Kühlschrank<\/li><\/ul>",
+            "row_content": "<p><strong>Ja,<\/strong> alle Kartuschen sind für das Filtergehäuse (<a href=\"https:\/\/alb-filter.com\/pages\/alb-element-wasserfiltergehaeuse\" target=\"_self\">Element<\/a>) konzipiert und können durch die verschiedenen Kartuschentypen (Nano, Balance oder Shungit) ausgetauscht werden. Diese Flexibilität ermöglicht es Ihnen, die Kartusche auszuwählen, die am besten zu Ihren spezifischen Wasserbedingungen passt.<br\/><br\/>Es ist wichtig zu beachten, dass verschiedene Kartuschen unterschiedliche Filtrationseigenschaften und Kapazitäten besitzen. So hat beispielsweise die Balance-Kartusche die Fähigkeit, insbesondere <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor-aus-wasser-filtern\" target=\"_self\">Chlor<\/a> zu reduzieren, jedoch verfügt sie nicht über die Fähigkeit, <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/keime-und-bakterien-im-leitungswasser\" target=\"_self\">Bakterien<\/a> zu filtern. Dies steht im Kontrast zur Nano-Kartusche, die speziell für die Bewältigung von keim- und bakterienbelastetem Wasser, einschließlich <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellenfilter\" target=\"_self\">Legionellen<\/a>, konzipiert wurde. Daher ist es von entscheidender Bedeutung, dass Sie die Kartusche entsprechend Ihren individuellen Wasserbedingungen und Bedürfnissen auswählen.<br\/><br\/>Vergessen Sie nicht, die Kartusche regelmäßig zu wechseln, um eine optimale Filtrationsleistung zu gewährleisten. Die empfohlene Austauschhäufigkeit liegt bei Duschfilterkartuschen bei 6 Monaten.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
             "bottom_text": "",
             "exclamation_list": "",
             "page": ""
@@ -157,38 +157,10 @@
           "settings": {
             "heading": "Wie müssen die benutzten Kartuschen entsorgt werden?",
             "icon": "check_mark",
-            "row_content": "<p>Verbrauchte Kartuschen sollten tatsächlich im Restmüll entsorgt werden. Sie werden in der Regel verbrannt, da sich im Inneren der Kartuschen Schadstoffe angesammelt haben. Es ist wichtig, die Kartuschen nicht anderweitig zu entsorgen, sondern gemäß den örtlichen Bestimmungen im Restmüll zu entsorgen.<\/p>",
+            "row_content": "<p>Verbrauchte Kartuschen müssen im Restmüll entsorgt werden. Hier werden die Kartuschen der Verbrennung zugeführt, da sich im Inneren Schadstoffe angesammelt haben, dürfen Sie die Kartuschen nicht anderweitig entsorgen.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_xxLFWW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Verringert sich der Wasserdruck?",
-            "icon": "check_mark",
-            "row_content": "<p>Ja, jede Filterkartusche und ihr Filtermedium haben einen gewissen Einfluss auf den Wasserdruck und die Durchflussmenge. Bei einem Inneneinbau sollte daher eine Überprüfung der Pumpe in Betracht gezogen werden, um sicherzustellen, dass sie den erforderlichen Druck und Durchfluss liefern kann.<br\/><br\/>Darüber hinaus ist es richtig, dass sich die Betankungsdauer verlängert. In der Praxis kann bei Verwendung der maximalen Filterstufe (Protect + Active + Nano) mit einer durchschnittlichen Zeit von etwa 15 Minuten gerechnet werden, um einen 100 Liter Wassertank vollständig zu befüllen. Dies kann je nach System und Wasserdruck variieren.<\/p>",
-            "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
-            "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "<p>Vor allem Filter, die adsorptiv filtern, müssen eine geringe Porenfeinheit aufweisen, um eine gute Filterleistung zu erzielen. Aktivkohlefilter, die kaum einen Druckabfall erzeugen, bestehen meist aus einfachen Aktivkohlegranulaten, bei denen sich Wasserbrücken bilden und das Wasser kaum gefiltert wird.<br\/><br\/>Bei unseren Aktivkohleblöcken setzen wir auf eine gesinterte Form mit einem geringen Anteil an Bindemitteln. Dadurch wird die Filterleistung im Vergleich zu Granulaten deutlich verbessert.<br\/><br\/>Andere Filterkartuschen, wie zum Beispiel unsere Keimsperre (Nano), verwenden Hohlfasermembranen im Inneren, die stark gebündelt sind. Diese Kartuschen weisen zu Beginn kaum einen Druckabfall auf. Im Laufe der Zeit können sich jedoch die Poren nach und nach verschließen, wodurch der Druckabfall an der Kartusche zunimmt. Um die volle Kapazität der Kartusche dennoch nutzen zu können, empfehlen wir den Einsatz einer Membrandruckpumpe. Dadurch wird ein ausreichender Druck aufrechterhalten und die Effizienz der Kartusche gewährleistet.<\/p>",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_XEmFtr": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Meine Filterkartusche ist verstopft - was nun?",
-            "icon": "check_mark",
-            "row_content": "<p><strong>Generell gilt<\/strong>: Eine verstopfte Kartusche ist kein Reklamationsgrund, sondern unterliegt dem normalen Verschleiß.<\/p><p>Alle unsere Filterkartuschen sind mit einer mechanischen Porenfeinheit ausgestattet, wodurch Partikel, Feststoffe und Bakterien die Poren der Kartuschen verstopfen können. Je klarer und reiner das Eingangswasser ist, desto länger dauert es, bis die Kartusche verstopft.<br\/><br\/>Die angegebene Standzeit von 4 oder 6 Monaten basiert in erster Linie auf hygienischen Gründen. Es ist wichtig, die Kartuschen regelmäßig auszutauschen, um eine optimale Filterleistung und hygienische Bedingungen aufrechtzuerhalten. Die angegebene Literzahl ist ein grober Durchschnittswert, da die Standzeit der Kartuschen je nach individuellen Wasserbedingungen variieren kann.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "<p><strong>Was ist zu tun wenn der Durchfluss verringert ist?<\/strong><\/p><p> Ermitteln Sie bei einem mehrstufigen System zuerst die betroffene Kartusche, indem jede Kartusche für sich einzeln getestet wird. <\/p><p><strong>Fall 1:<\/strong> <strong>Vorfilter<\/strong> (Protect) ist verstopft<br\/><br\/>Drehen Sie den Vorfilter einmal um und versuchen Sie, ihn wieder freizuspülen. Aus Erfahrung setzen sich die Partikel jedoch oft recht tief in die Poren ein, sodass in den meisten Fällen der Austausch der Filterscheibe empfohlen wird.<br\/><\/p><p><strong>Fall 2:<\/strong> <strong>Active<\/strong> Kartusche ist verstopft<br\/><br\/>Aus Erfahrung setzen sich die Partikel oft tief in die Poren ein, weshalb in den meisten Fällen ein Austausch des Filters empfohlen wird.<br\/><\/p><p><strong>Fall 3:<\/strong> <strong>Nano<\/strong> Kartusche ist verstopft<br\/><br\/>Die Kartusche sollte nach Möglichkeit immer in Kombination mit einem Vorfilter oder einer etwas gröberen Kartusche (wie Active) betrieben werden, da sie sehr empfindlich ist.<br\/><br\/>Es gibt zwei Möglichkeiten, um eine verstopfte Kartusche gegebenenfalls wieder freizubekommen:<br\/><br\/>- Kurzes Ausblasen mit Druckluft (maximal 2 bar) entgegen der Flussrichtung.<br\/><br\/>- Die Kartusche für maximal 15 Minuten in Ethanol einlegen, um sie zu reinigen.<\/p><p><strong>Langfristige Lösungen:<br\/><\/strong><br\/>- Versuchen Sie immer, Wasser aus dem öffentlichen Leitungsnetz zu tanken, da dies in der Regel eine deutlich bessere Qualität bietet als unsichere Quellen.<br\/><br\/>- Verwenden Sie nach Möglichkeit einen hochwertigen Vorfilter wie das <strong>Alb Filter Protect Modul.<\/strong><\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -202,9 +174,7 @@
         "collapsible_row_T7XKJG",
         "collapsible_row_Dq8b6W",
         "collapsible_row_fnTcyM",
-        "collapsible_row_hC89ar",
-        "collapsible_row_xxLFWW",
-        "collapsible_row_XEmFtr"
+        "collapsible_row_hC89ar"
       ],
       "settings": {
         "caption": "FAQ Duschfilter",
