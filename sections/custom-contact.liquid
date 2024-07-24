@@ -42,7 +42,7 @@
         {%- if section.settings.heading != blank -%}
           <{{ section.settings.heading_tag }}
             class="custom_contact-heading inline-richtext {{ section.settings.heading_size }}{% if section.settings.enable_heading_second_font %} second-font{% endif %}"
-            style="color: {{ section.settings.heading_color }};"
+            style="color: {{ section.settings.heading_color }}; font-weight: {{ section.settings.heading_weight }}"
           >
             {{ section.settings.heading }}
           </{{ section.settings.heading_tag }}>
@@ -195,6 +195,42 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Font Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
     },
     {
       "type": "color",

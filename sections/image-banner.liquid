@@ -112,7 +112,7 @@
             <{{ block.settings.heading_tag }}
               class="banner__heading inline-richtext rte {{ block.settings.heading_size }}{% if section.settings.second_font %} second-font{% endif %}"
               {{ block.shopify_attributes }}
-              style="font-weight: {{ block.settings.heading_weight }}"
+              style="font-weight: {{ block.settings.heading_weight }}; color: {{ block.settings.heading_color }}"
             >
               {{ block.settings.heading }}
             </{{ block.settings.heading_tag }}>
@@ -481,6 +481,12 @@
             }
           ],
           "default": "700"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading Color",
+          "default": "#616161"
         }
       ]
     },

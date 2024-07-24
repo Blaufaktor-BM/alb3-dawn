@@ -18,20 +18,20 @@
         {% case block.type %}
           {%- when 'heading' -%}
             <{{ block.settings.heading_tag }}
-              class="custom-newsletter__heading inline-richtext {{ block.settings.heading_size }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="custom-newsletter__heading inline-richtext {{ block.settings.heading_size }}{% if block.settings.second_font %} second-font{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
                 style="--animation-order: {{ forloop.index }};"
               {% endif %}
             >
-              <span style="color: {{ block.settings.color }};">
+              <span style="color: {{ block.settings.color }}; font-weight: {{ block.settings.heading_weight }};">
                 {{ block.settings.heading }}
               </span>
             </{{ block.settings.heading_tag }}>
           {%- when 'text' -%}
             <div
-              class="custom-newsletter__text rte second-font {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="custom-newsletter__text rte second-font {{ block.settings.text_style }}{% if block.settings.second_font %} second-font{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {{ block.shopify_attributes }}
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
@@ -199,10 +199,51 @@
           "label": "t:sections.all.heading_size.label"
         },
         {
+          "type": "select",
+          "id": "heading_weight",
+          "label": "Heading Font Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ],
+          "default": "700"
+        },
+        {
           "type": "color",
           "id": "color",
           "label": "Color",
           "default": "#003e5f"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Heading Second Font"
         }
       ]
     },
@@ -232,6 +273,11 @@
           ],
           "default": "body",
           "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_font",
+          "label": "Text Second Font"
         }
       ]
     },

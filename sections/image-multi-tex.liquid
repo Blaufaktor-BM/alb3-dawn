@@ -50,7 +50,7 @@
         {%- if section.settings.title != blank -%}
           <{{ section.settings.heading_tag }}
             class="title-image_multi_text rte {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
-            style="font-weight: {{ section.settings.heading_weight }}"
+            style="font-weight: {{ section.settings.heading_weight }}; color: {{ section.settings.title_color }}"
           >
             {{ section.settings.title }}
           </{{ section.settings.heading_tag }}>
@@ -58,7 +58,7 @@
         {%- if section.settings.sub_title != blank -%}
           <h2
             class="subtitle-image_multi_text rte {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
-            style="font-weight: {{ section.settings.subtitle_weight }}"
+            style="font-weight: {{ section.settings.subtitle_weight }}; color: {{ section.settings.subtitle_color }};"
           >
             {{ section.settings.sub_title }}
           </h2>
@@ -250,6 +250,12 @@
       "default": "200"
     },
     {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#003e5f"
+    },
+    {
       "type": "checkbox",
       "id": "title_second_font",
       "label": "Title Second Font"
@@ -328,6 +334,12 @@
       "type": "checkbox",
       "id": "subtitle_second_font",
       "label": "Subtitle Second Font"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle Color",
+      "default": "#003e5f"
     },
     {
       "type": "richtext",

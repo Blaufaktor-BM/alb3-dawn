@@ -3576,23 +3576,23 @@ details-disclosure>details {
 
 /* addition css */
 @font-face {
-  font-family: "Amis Pro Bold";
+  font-family: "Amis Bold";
   src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-bold.woff2?v=1699626855") format("woff2");
 }
 
 @font-face {
-  font-family: "Amis Pro Light";
+  font-family: "Amis Light";
   src: url("https://cdn.shopify.com/s/files/1/0278/5483/1715/files/amsi-light.woff2?v=1699626920") format("woff2");
 }
 
 .button,
 .second-font {
-  font-family: "Amis Pro Light";
+  font-family: "Amis Light";
   font-weight: 400;
 }
 
 .second-font strong {
-  font-family: "Amis Pro Bold";
+  font-family: "Amis Bold";
 }
 
 h1,
@@ -3627,6 +3627,10 @@ li:not(:last-child) {
   margin-bottom: 7px;
 }
 
+header li {
+  margin: 0;
+}
+
 @media only screen and (min-width: 750px) {
 
   .header:not(.drawer-menu).page-width,
@@ -3640,7 +3644,7 @@ li:not(:last-child) {
 .header__menu-item {
   padding: 2.2rem 1.2rem;
   color: rgba(var(--color-foreground));
-  font-family: "Amis Pro Light";
+  font-family: "Amis Light";
 }
 
 .header__submenu.list-menu {
@@ -3953,7 +3957,7 @@ summary.list-menu__item>a {
 }
 
 .footer-block__details-content {
-  font-family: "Amis Pro Light";
+  font-family: "Amis Light";
 }
 
 .footer-block__details-content .list-menu__item--link,
@@ -4937,7 +4941,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .item_title-multi_content strong {
-  font-family: "Amis Pro Light";
+  font-family: "Amis Light";
 }
 
 .item_subtitle-multi_content {
@@ -5616,7 +5620,7 @@ slideshow-component .banner__heading.h1 {
 
 .small_image_text-title strong {
   font-weight: bold;
-  font-family: "Amis Pro Light";
+  font-family: "Amis Light";
 }
 
 .wrapper-small_image_text {
