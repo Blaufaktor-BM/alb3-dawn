@@ -514,16 +514,81 @@
             "exclamation_list": "",
             "page": ""
           }
+        },
+        "collapsible_row_feAEgW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_bDPYiY",
         "collapsible_row_nmJzjL",
-        "collapsible_row_grEwhn"
+        "collapsible_row_grEwhn",
+        "collapsible_row_feAEgW"
       ],
       "settings": {
         "caption": "",
         "heading": "TECHNISCHE FRAGEN",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "rgba(0,0,0,0)",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_MMTxqQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_rEVF7z": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie hoch darf die Temperatur der Filterkartuschen sein?",
+            "icon": "check_mark",
+            "row_content": "<p><\/p><p>Das ist abhängig von der verbauten Filterkartusche. Folgende Temperaturen sollten eingehalten werden:<br\/><\/p><ul><li>Active (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Active + (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Nano 5 - 65 °C<\/li><\/ul>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_FW46qB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wieviel Liter Wasser kann eine Alb Trinkwasserfilter-Kartusche reinigen?",
+            "icon": "check_mark",
+            "row_content": "<p>Das ist in erster Linie abhängig von der Qualität des Eingangswassers und unterscheidet sich je nach verwendeter Filterkartusche. <br\/><br\/>Filterleistung Active Kartusche*: ⌀ 3000 Liter oder max. 4 Monate bei Dauereinsatz<br\/>Filterleistung Nano Kartusche*: ⌀ 5000 Liter oder max. 6 Monate bei Dauereinsatz<br\/><br\/>* Durchschnittswerte – Die Kapazität der Kartusche ist stark abhängig von der Qualität des Eingangswassers. <\/p>",
+            "small_text1": "<p><strong>Active Kartusche:<br\/><\/strong>Bei Kartuschen, die Schadstoffe adsorptiv und katalytisch filtern bzw. binden, tritt mit der Zeit eine Sättigung ein. Die Lebensdauer hängt jedoch davon ab, wie viele Schadstoffe im Wasser vorhanden sind. Bei deutschem Leitungswasser gehen wir im Durchschnitt von einer Kapazität von 2000-4000 Litern aus.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p><p><strong>Nano Kartusche:<br\/><\/strong>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.<br\/><br\/>Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<\/p><p><strong>Praxis beim Camping (kein Dauereinsatz):<br\/><\/strong>Wenn die Kartuschen nicht in Verwendung sind, ist es ratsam, sie nach dem Urlaub auszubauen und zu lagern. Genauere Informationen dazu finden Sie in unseren FAQ.<\/p>",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rEVF7z",
+        "collapsible_row_FW46qB"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FILTERKARTUSCHEN",
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
@@ -546,6 +611,7 @@
     "collapsible_content_XwQP9T",
     "collapsible_content_a8nkay",
     "collapsible_content_8wgiXk",
-    "collapsible_content_B7tWMq"
+    "collapsible_content_B7tWMq",
+    "collapsible_content_MMTxqQ"
   ]
 }
