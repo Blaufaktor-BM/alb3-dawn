@@ -6460,6 +6460,14 @@ ul.breadcrumb li a:hover {
   object-position: bottom center;
 }
 
+.banner--thin .banner__media {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 .banner.bottom-shadow {
   box-shadow: rgba(0, 0, 0, .25) 4px 5px 8px;
 }
