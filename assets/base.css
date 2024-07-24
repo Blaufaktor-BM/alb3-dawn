@@ -6798,6 +6798,9 @@ ul.breadcrumb li a:hover {
   list-style-position: outside;
   list-style-type: decimal-leading-zero;
   font-size: 14px;
+}
+
+#toc nav>ul {
   margin: 0;
 }
 
