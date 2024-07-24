@@ -90,12 +90,12 @@
         "collapsible_row_JNxe9k": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Benötige ich noch Zusätze (Silberionen) trotz Filter?",
+            "heading": "Was ist zu beachten, wenn ich die Filter nicht benutze (Tage\/Wochen)?",
             "icon": "check_mark",
-            "row_content": "<p>Unser Anspruch besteht darin, auf jegliche Konservierungsmaßnahmen für den Tank zu verzichten. Mit der Nano Keimsperre filtern wir Bakterien rein mechanisch aus, sodass krankheitserregende Bakterien wie E.Coli, Legionellen oder Fäkalkeime zuverlässig entfernt werden.<\/p><p>Dadurch ist es auch möglich, auf den Einsatz von Silberionen und anderen antibakteriellen Mitteln <strong>zu verzichten.<\/strong><\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
+            "row_content": "<p><strong>Generell<\/strong>: Jeder noch so gute Wasserfilter kann verkeimen. Deshalb ist es wichtig die angegebenen Tauschintervalle zu beachten.<br\/>Um sich vor einer Verkeimung zu schützen, raten wir immer dazu eine <strong>Keimsperre<\/strong> (Nano) Filterkartusche nachzuschalten. Um die Membran zu schonen und die Standzeit der Filterkartuschen zu verlängern ist es sinnvoll die Keimrate in den Kartuschen mit den Nachfolgenden Tipps zu verringern:<\/p><p><strong>Hinweis:<\/strong> Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<\/p><p><strong>Tipp<\/strong>: Beim Ein- und Ausbau sollten Sie die Kartusche mit leichten Drehbewegungen langsam herausziehen<\/p>",
+            "small_text1": "<p><strong>Filterkartusche Active, Nano<\/strong><\/p><p>Wir empfehlen generell die Kartuschen täglich zu spülen bzw. zu verwenden um einem Bakterienwachstum entgegen zu wirken.<\/p><p>- Bei längerer Nichtverwendung der Kartuschen, empfehlen wir diese aus den Gehäusen auszubauen und an der Luft zu trocknen. Unterstützend können die Kartuschen für 6 bis 8 Stunden bei 50 °C in den Backofen gelegt werden. Die Lagerung erfolgt ebenfalls an einem gut belüfteten und trockenen Ort. <\/p>",
+            "small_text2": "<p><strong>Filterkartusche Active Plus+ <\/strong><\/p><p>Die Active Plus+ Filterkartusche ist sehr empfindlich hinsichtlich einer Austrocknung und muss immer feucht bleiben. Daher kann diese Kartusche nicht getrocknet werden. Das neue Filtermedium Bioton hemmt jedoch von Haus aus die Verkeimung ohne den Einsatz einer antibakteriziden Beschichtung oder durch Einsatz von Silber.<\/p><p><\/p>",
+            "bottom_text": "<p>Wir empfehlen generell die Kartuschen täglich zu spülen bzw. zu verwenden um einem Bakterienwachstum entgegen zu wirken.<\/p><p>- Belassen Sie die Kartusche auch bei längerer Nichtbenutzung im Filtergehäuse. <\/p>",
             "exclamation_list": "",
             "page": ""
           }
