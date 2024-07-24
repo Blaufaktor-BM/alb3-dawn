@@ -64,12 +64,12 @@
         "collapsible_row_DFjfBA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Für welche Variante soll ich mich entscheiden? ",
+            "heading": "Für welches System soll ich mich entscheiden?",
             "icon": "check_mark",
-            "row_content": "<p>Bei der Auswahl des geeigneten Filters müssen grundsätzlich folgende Punkte beachtet werden:<\/p><ul><li>Größe des Tanks<\/li><li>Die bereits verbaute Pumpe (Tauchpumpe oder Membrandruckpumpe)<\/li><li>Hygienezustand des Tanks und der Leitungen<\/li><li>Persönlicher Anspruch: Soll das Wasser aus dem Tank ohne abkochen als Trinkwasser verwendet werden.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
+            "row_content": "<p>Bei der Auswahl des geeigneten Filters müssen grundsätzlich folgende Punkte beachtet werden:<\/p><ul><li>Welche Schadstoffe sollen gefiltert werden?<\/li><li>Soll der Filter Unter der Spüle (Element) oder direkt am Wasserhahn (Duo) verbaut werden?<\/li><li>Habe ich einen Boiler bzw. eine Niederdruckarmatur?<\/li><\/ul>",
+            "small_text1": "<p><strong>Wahl der Filterkartusche:<br\/><br\/>1. Active und Active Plus+<br\/><\/strong>Wir raten prinzipiell dazu mit einem Breitbandfilter wie bspw. der Active oder Active Plus zu starten. Diese Filter sind in der Lage Chlor, Geschmack, Chemische Verbindungen und hunderte an Schadstoffen aus dem Wasser zu filtern. Selbst mit einer unbedenklichen Wasseranalyse gibt es unzählige schädliche Inhaltsstoffe auf die nicht getestet wurde und mit dem Breitbandfilter tangiert werden kann. Darüber hinaus werden mit den Kartuschen auch Partikel wie Mikroplastik und Asbestfasern gefiltert.<br\/><br\/><strong>2. Nano <br\/><\/strong>Die Nano Keimsperre wird verwendet um zuverlässig Mikrobiologische Verunreinigungen wie bspw. Legionellen, E.Coli, Fäkalkeime aus dem Wasser zu filtern. Aber auch ultrafeine Partikel bis zu einer Größe von 0,1 µm werden damit gefiltert. <br\/><br\/><strong>3. Active\/Active Plus + Nano (Fusion)<br\/><\/strong>Sollen beide Kartuschen in Reihe geschaltet werden um das komplette Filterspektrum abzudecken, sollten Sie sich für das Fusion Untertisch Set entscheiden, da das Duo Wasserfiltergehäuse nur eine Kartusche beherbergen kann.<\/p><p><\/p>",
+            "small_text2": "<p><strong>Habe ich eine Niederdruckarmatur (Wasserhahn)?<br\/><\/strong><br\/>Eine Niederdruckarmatur verfügt über drei Anschlüsse: zwei für die Warm- und Kaltwasserzufuhr und einen für den Anschluss an einen separaten Warmwasserspeicher, wie beispielsweise einen Untertischboiler. Dies unterscheidet sie von herkömmlichen Hochdruckarmaturen, die nur zwei Anschlüsse haben.<br\/><strong><br\/><\/strong>Bei einer Niederdruckarmatur können Sie <strong>keinen Duo Wasserhahnfilter<\/strong> verbauen und sollten eine Untertisch Variante verbauen!<\/p>",
+            "bottom_text": "<p><\/p><p><strong>Zusammenfassung: <br\/><br\/><\/strong>Niederdruckarmatur vorhanden -&gt;<strong> <\/strong><a href=\"https:\/\/alb-filter.com\/collections\/wasserfilter-untertisch\" target=\"_self\"><strong>Untertisch<\/strong><\/a><strong><br\/><br\/><\/strong>Eine Kartusche verbauen -&gt; <a href=\"https:\/\/alb-filter.com\/collections\/wasserhahnfilter\" target=\"_self\"><strong>Wasserhahnfilter<\/strong><\/a> oder <a href=\"https:\/\/alb-filter.com\/collections\/wasserfilter-untertisch\" target=\"_self\"><strong>Untertisch<\/strong><\/a> <br\/><br\/>Zwei Kartuschen sollen verbaut werden -&gt; <a href=\"https:\/\/alb-filter.com\/collections\/wasserfilter-untertisch\" target=\"_self\"><strong>Untertisch<\/strong><\/a><\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -77,12 +77,12 @@
         "collapsible_row_PdYHqh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Kann ich ein vorhandenes System umrüsten oder erweitern?",
+            "heading": "Verringert sich der Kalkgehalt im Wasser?",
             "icon": "check_mark",
-            "row_content": "<p>Grundsätzlich ist die Entscheidung für ein bestimmtes Set kein endgültiger Schritt. Durch den modularen Aufbau der Gehäuse und Anschlüsse ist es jederzeit möglich, das Set umzurüsten. Das bedeutet, dass ein Befüll-Set (Mobil) auch im Innenraum verbaut werden kann und umgekehrt. Flexibilität bei der Anpassung des Systems ist somit gewährleistet.<\/p>",
-            "small_text1": "",
+            "row_content": "<p>Unser primäres Ziel besteht darin <strong>Schadstoffe<\/strong> effektiv zu filtern.<br\/><br\/>Kalk bzw. Kalzium- und Magnesiumkarbonat ist kein Schadstoff in dieser Hinsicht. Um Kalk jedoch messbar zu reduzieren, gibt es zwei praktikable Möglichkeiten:<\/p><ul><li>Umwandlung mittels <strong>Ionentausch<\/strong><\/li><li>Filtration mit einer Osmosemembran<\/li><\/ul><p>Die Active Plus+ Filterkartusche ist die einzige Kartusche welchen Kalk durch einen eingebauten <strong>Ionentauscher<\/strong> messbar verringert und soll hauptsächlich den Geschmack von Kaffee und Tee angleichen.<\/p>",
+            "small_text1": "<p><strong>Wichtig<\/strong>: Kalk wird nicht komplett umgewandelt, sondern je nach Wasserhärte reduziert. Eine komplette Umwandlung des Kalks ist technisch leider nicht möglich und auch nicht erwünscht, da durch die Umwandlung der Mineralien Natrium (Kochsalz) entsteht und sich dadurch der Geschmack des Wassers ändert.<\/p><p><\/p>",
             "small_text2": "",
-            "bottom_text": "",
+            "bottom_text": "<p>Es werden sich im Wasserkocher nach wie vor Kalkrückstände ansammeln. Schlieren im Tee können je nach Kalkanteil nach der Umwandlung sichtbar sein!<\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -207,7 +207,7 @@
         "collapsible_row_XEmFtr"
       ],
       "settings": {
-        "caption": "FAQ Camping Filter",
+        "caption": "FAQ Trinkwasserfilter",
         "heading": "HÄUFIGE FRAGEN",
         "enable_icon": false,
         "heading_tag": "h2",
