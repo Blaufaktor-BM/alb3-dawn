@@ -90,7 +90,7 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "gallery_layout": "thumbnail",
@@ -99,7 +99,7 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 28,
         "padding_bottom": 12
       }
     },
