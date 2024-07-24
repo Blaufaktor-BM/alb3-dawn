@@ -95,7 +95,7 @@
             "row_content": "<p><strong>Generell<\/strong>: Jeder noch so gute Wasserfilter kann verkeimen. Deshalb ist es wichtig die angegebenen Tauschintervalle zu beachten.<br\/>Um sich vor einer Verkeimung zu schützen, raten wir immer dazu eine <strong>Keimsperre<\/strong> (Nano) Filterkartusche nachzuschalten. Um die Membran zu schonen und die Standzeit der Filterkartuschen zu verlängern ist es sinnvoll die Keimrate in den Kartuschen mit den Nachfolgenden Tipps zu verringern:<\/p><p><strong>Hinweis:<\/strong> Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<\/p><p><strong>Tipp<\/strong>: Beim Ein- und Ausbau sollten Sie die Kartusche mit leichten Drehbewegungen langsam herausziehen<\/p>",
             "small_text1": "<p><strong>Filterkartusche Active, Nano<\/strong><\/p><p>Wir empfehlen generell die Kartuschen täglich zu spülen bzw. zu verwenden um einem Bakterienwachstum entgegen zu wirken.<\/p><p>- Bei längerer Nichtverwendung der Kartuschen, empfehlen wir diese aus den Gehäusen auszubauen und an der Luft zu trocknen. Unterstützend können die Kartuschen für 6 bis 8 Stunden bei 50 °C in den Backofen gelegt werden. Die Lagerung erfolgt ebenfalls an einem gut belüfteten und trockenen Ort. <\/p>",
             "small_text2": "<p><strong>Filterkartusche Active Plus+ <\/strong><\/p><p>Die Active Plus+ Filterkartusche ist sehr empfindlich hinsichtlich einer Austrocknung und muss immer feucht bleiben. Daher kann diese Kartusche nicht getrocknet werden. Das neue Filtermedium Bioton hemmt jedoch von Haus aus die Verkeimung ohne den Einsatz einer antibakteriziden Beschichtung oder durch Einsatz von Silber.<\/p><p><\/p>",
-            "bottom_text": "<p>Wir empfehlen generell die Kartuschen täglich zu spülen bzw. zu verwenden um einem Bakterienwachstum entgegen zu wirken.<\/p><p>- Belassen Sie die Kartusche auch bei längerer Nichtbenutzung im Filtergehäuse. <\/p>",
+            "bottom_text": "<p>Wir empfehlen generell die Kartuschen täglich zu spülen bzw. zu verwenden um einem Bakterienwachstum entgegen zu wirken. Belassen Sie die Kartusche auch bei längerer Nichtbenutzung im Filtergehäuse. <\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -103,9 +103,9 @@
         "collapsible_row_hVArDq": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ist eine Tankreinigung vor dem Einsatz der Alb Filter nötig?",
+            "heading": "Wie funktioniert ein Kartuschenwechsel und worauf ist zu achten?",
             "icon": "check_mark",
-            "row_content": "<p>Eine gründliche <strong>Tankreinigung<\/strong> ist unbedingt erforderlich, bevor das Wasser aus dem Tank kalt konsumiert wird und bevor mit der Filtration begonnen wird. Die Desinfektion gewährleistet, dass vorhandene pathogene Bakterien abgetötet werden und durch die Keimsperre von außen nichts mehr ins System gelangt. Zudem sorgt eine Reinigung dafür, dass sich die Lebensdauer der Filter erheblich verlängern kann.<\/p><p><br\/><\/p><p>Für die Desinfektion des Tanks bieten sich Reiniger auf Aktivsauerstoff-Basis an, die effektiv gegen Bakterien und andere Mikroorganismen wirken. Es können jedoch auch andere geeignete Reinigungsmittel verwendet werden, die eine wirksame Desinfektion gewährleisten. Es ist wichtig, die Anweisungen des Herstellers bezüglich Dosierung und Anwendung sorgfältig zu befolgen, um eine effektive Reinigung und Desinfektion zu erreichen.<\/p>",
+            "row_content": "<p>Ein Kartuschenwechsel ist bei Alb Filter ein Kinderspiel und lässt sich innerhalb von nur zwei Minuten erledigen. Hier finden Sie die Anleitung zum Kartuschenwechsel: <\/p><p>https:\/\/alb-filter.com\/blogs\/ratgeber\/installation<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
