@@ -337,188 +337,15 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_a8nkay": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_YUUbgc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind die Vorteile der Travel Variante?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre in der Nähe des Entnahmepunkts bietet einen zuverlässigen Schutz vor Keimen im System.<\/li><li>Der Active Breitbandfilter kann auch Schadstoffe filtern, die von Kunststofftanks ausgesondert werden.<\/li><li>Der Tankvorgang wird nicht zeitlich beeinträchtigt, da das Filtern innen erfolgt.<\/li><li>Es ist keine Zapfstelle mit Druck erforderlich.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_ihBy7P": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind die Nachteile der Travel Variante?",
-            "icon": "check_mark",
-            "row_content": "<p><\/p><ul><li>Starke Membrandruckpumpe mit ca. 3 Bar erforderlich<\/li><li>Der Filter muss in den Wasserstrang eingebaut werden.<\/li><li>Schmutziges Wasser gelangt ungefiltert in den Tank. Durch den Einsatz einer Umschaltvorrichtung kann dieser Nachteil behoben werden.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_QAHDtD": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Muss ich eine andere Pumpe verbauen?",
-            "icon": "check_mark",
-            "row_content": "<p>Eventuell! Abhängig von der gewählten Filterkartusche empfehlen wir eine entsprechende Pumpe:<\/p>",
-            "small_text1": "<p><strong>Alb Filter Travel ACTIVE<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2,5 Bar (36 psi)<\/strong><\/em> Wasserdruck<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel NANO<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2 Bar (29 psi)<\/strong><\/em> Wasserdruck.<br\/><br\/>Durch die starke Bündelung funktioniert zu Beginn auch eine starke Tauchpumpe. Es kann jedoch nur mit einer Membrandruckpumpe die gesamte Kapazität der Kartusche ausgenutzt werden.<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel FUSION (Active + Nano)<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em> mit mindestens <em><strong>3 Bar (43 psi)<\/strong><\/em> Wasserdruck.<\/p>",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_3UVF49": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Bei uns ist bereits ein Filter verbaut - was ist zu beachten?",
-            "icon": "check_mark",
-            "row_content": "<p>Oftmals sind in namhaften Wohnmobilen bereits Filter eingebaut. In solchen Fällen stellt sich die Frage, ob es sinnvoll ist, den vorhandenen Filter zu ergänzen und weiter zu verwenden oder ob ein vollständiger Ersatz erforderlich ist.<br\/><br\/>Wir helfen Ihnen gerne dabei, eine Einschätzung zu geben, welches Vorgehen in Ihrem konkreten Fall sinnvoll ist. Dazu sollten wir Informationen über den bereits eingebauten Filter sowie Ihre spezifischen Anforderungen und Bedürfnisse erhalten. Anhand dieser Informationen können wir gemeinsam eine fundierte Entscheidung treffen, ob eine Ergänzung des Filters oder ein vollständiger Austausch empfehlenswert ist.<\/p><p><strong>Ersetzen:<br\/><\/strong>Sollte der Filter ersetzt werden, kann an dessen Stelle ein Alb Filter eingebaut werden. Für bereits verbaute Filter werden häufig starre Osmoseschläuche und Verbinder der Firmen John Guest oder Reich verwendet.Um unseren Filter in das bestehende Leitungssystem zu integrieren, werden in der Regel nur zwei Adapter benötigt.<\/p><p><\/p><ul><li>1\/2 Zoll Außengewinde auf das vorhandene Schlauchsystem<\/li><li>1\/2 Zoll Innengewinde auf das vorhandene Schlauchsystem <\/li><\/ul><p><br\/>Eine Alternative besteht darin, die Osmoseschläuche bis zu dem Punkt zurückzubauen, an dem die üblichen flexiblen 10 mm Schläuche im Wohnmobil mit einer Tülle adaptiert wurden. Anschließend kann unser <strong>Travel Anschluss-Set <\/strong>angebracht werden. Dadurch wird eine einfache Integration unseres Filters in das bestehende Leitungssystem ermöglicht.<\/p>",
-            "image1": "shopify:\/\/shop_images\/AnschlussFilter.jpg",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_NNcWQY": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "An welcher Stelle im Wasserstrang soll ich den Filter einbauen?",
-            "icon": "check_mark",
-            "row_content": "<p>Es ist empfehlenswert, den Filter direkt unter der Spüle zu installieren, also dort, wo das zu konsumierende Wasser entnommen wird. Diese Variante bietet den höchsten Schutz vor einer möglichen Verkeimung in den Wasserleitungen. Insbesondere in Vans und Kastenwägen wird oft aufgrund begrenzter Platzverhältnisse diese Variante realisiert.<br\/><br\/>Alternativ wird der Filter auch oft direkt nach der Pumpe positioniert, häufig nach der Abzweigung in den Kaltwasserstrang. Dadurch wird der gesamte Strang und alle Entnahmepunkte abgesichert, was einen weiteren Vorteil darstellt. Auch haben wir hier oft eine zugängliche Serviceklappe in der es ausreichend Platz zum Einbau gibt. <\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_WUbFzP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Starre Wasserschläuche im Camper - kann ich den Filter anschließen?",
-            "icon": "check_mark",
-            "row_content": "<p>Ja, in den meisten Fällen sind in solchen Systemen Kunststoffverbinder der Firmen <strong>John Guest<\/strong>,  <strong>Reich <\/strong>oder <strong>Whale<\/strong> verbaut. Um den Alb Filter in den bestehenden Wasserstrang integrieren zu können, sind Adapter erforderlich.<br\/><br\/>Bei Bedarf können Sie uns gerne eine Anfrage mit einem Bild des bestehenden Systems senden. Auf dieser Grundlage können wir Ihnen gegebenenfalls eine passende Lösung anbieten.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_QXNVDL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Spielt die Einbaulage des Gehäuses eine Rolle (Waagrecht, Senkrecht)?",
-            "icon": "check_mark",
-            "row_content": "<p>Die Einbaurichtung des Filtergehäuses hat keinen Einfluss auf die Filterleistung. Sie können das Gehäuse in jeder beliebigen Lage installieren.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_YUUbgc",
-        "collapsible_row_ihBy7P",
-        "collapsible_row_QAHDtD",
-        "collapsible_row_3UVF49",
-        "collapsible_row_NNcWQY",
-        "collapsible_row_WUbFzP",
-        "collapsible_row_QXNVDL"
-      ],
-      "settings": {
-        "caption": "FAQ Camping Filter",
-        "heading": "EINBAUFILTER (TRAVEL) ",
-        "enable_icon": false,
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "heading_alignment": "left",
-        "open_first_collapsible_row": false,
-        "title_color": "#003e5f",
-        "title_bg": "#fafafa",
-        "text_color": "#616161",
-        "content_border_color": "#fafafa",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_8wgiXk": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_bQWLU6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind dieVorteiledes ProCamper Sets?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre, die nahe am Entnahmepunkt angebracht ist, bietet einen umfassenden Schutz vor Keimen im System.<\/li><li>Nicht reproduzierbare Schadstoffe werden im Vorfeld durch den Filter reduziert oder herausgefiltert.<\/li><li>Das Wasser gelangt bereits in einem sehr sauberen Zustand in den Tank.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_qnAqNW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind dieNachteile des ProCamper Sets?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine Membrandruckpumpe mit einem Druck von ca. 2 bar wird empfohlen.<\/li><li>Der Filter muss in den Wasserstrang integriert werden.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_bQWLU6",
-        "collapsible_row_qnAqNW"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "PRO CAMPER SET (KOMBINATION TRAVEL & MOBIL)",
-        "enable_icon": false,
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "heading_alignment": "left",
-        "open_first_collapsible_row": false,
-        "title_color": "#003e5f",
-        "title_bg": "rgba(0,0,0,0)",
-        "text_color": "#616161",
-        "content_border_color": "#fafafa",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_B7tWMq": {
       "type": "collapsible-content",
       "blocks": {
         "collapsible_row_bDPYiY": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Technische Daten Alb Filter ELEMENT Gehäuse?",
+            "heading": "Kann ich den Alb Filter Duo in Verbindung mit drucklosen Boilern ( Niederdruck Armaturen ) verwenden?",
             "icon": "check_mark",
-            "row_content": "<p><strong>Maße:<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht:<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart:<br\/><\/strong>1\/2 Zoll Innengewinde (Eingangsseite)<br\/>1\/2 Zoll Aussengewinde (Ausgangsseite).<\/p>",
+            "row_content": "<p>Beim Einsatz unseres Alb Filter Duo für den Wasserhahn, in Verbindung mit drucklosen Boilern ist zu beachten, dass aufgrund der hohen Feinheit der Patrone ein Druck vor dieser aufgebaut wird (etwa in Höhe des Netzdruckes), welcher sich nur langsam abbaut. Das kann unter Umständen zur Beschädigung des nicht druckfesten Boilers führen.<br\/><br\/>Es gibt allerdings auch druckfeste Boiler, für diese die genannten Einschränkungen nicht gelten. Sie erkennen diese z.B. am Typenschild „ max. Betriebsdruck … “. Dieser muss mindestens 4 bar betragen. Diese Boiler Typen sind in der Regel allerdings in der Anschaffung etwas teurer als die drucklosen.<br\/><br\/>Als Alternative bieten sich auch unsere Alb <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-untertisch\" target=\"_self\">Untertisch-Varianten<\/a> an, welche für den Einsatz an drucklosen Systemen zugelassen sind. <\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -531,7 +358,7 @@
           "settings": {
             "heading": "Haben die Alb Filter Gutachten und Zertifikate?",
             "icon": "check_mark",
-            "row_content": "<p>Die Nano-Kartusche ist nach <strong>ASTM F838-15A<\/strong> zertifiziert, was höchste Sicherheit gewährleistet.<br\/>Dadurch kann sie auch in öffentlichen Einrichtungen verwendet werden, selbst bei akutem Legionellenbefall.<br\/><br\/>Wenn Sie spezifische Informationen zu einem bestimmten Inhaltsstoff in Bezug auf die Leistungsfähigkeit einzelner Filterkartuschen benötigen, empfehlen wir Ihnen, unser Kontaktformular zu verwenden. Dort können Sie Ihre Anfrage stellen und wir werden Ihnen gerne weiterhelfen.<\/p>",
+            "row_content": "<p>Die Nano-Kartusche ist nach <strong>ASTM F838-15A<\/strong> zertifiziert für höchste Sicherheit. <br\/>Dies erlaubt die Verwendung bei akutem Legionellenbefall auch in öffentlichen Einrichtungen.    <br\/><br\/>Wenn Sie sich weitergehend für einen konkreten Inhaltsstoff in Bezug auf die Leistungsfähigkeit einzelner Filterkartuschen interessieren, verwenden Sie bitte unser <a href=\"https:\/\/alb-filter.com\/pages\/kontakt\" target=\"_self\">Kontaktformular<\/a>.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -551,29 +378,15 @@
             "exclamation_list": "",
             "page": ""
           }
-        },
-        "collapsible_row_feAEgW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_bDPYiY",
         "collapsible_row_nmJzjL",
-        "collapsible_row_grEwhn",
-        "collapsible_row_feAEgW"
+        "collapsible_row_grEwhn"
       ],
       "settings": {
-        "caption": "",
+        "caption": "FAQ Trinkwasserfilter",
         "heading": "TECHNISCHE FRAGEN",
         "enable_icon": false,
         "heading_tag": "h2",
@@ -605,6 +418,21 @@
             "page": ""
           }
         },
+        "collapsible_row_jg6etY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Verringert ein Alb Filter den Wasserdruck?",
+            "icon": "check_mark",
+            "row_content": "<p>Ja, jede Filterkartusche und ihr Filtermedium wirken sich in gewisser Weise auf den Wasserdruck und die Durchflussmenge aus. Bei einer Installation unter der Spüle kommt es zu einer Verringerung des Wasserdurchflusses. Um diesen Nachteil auszugleichen, könnte ein separater Beistellhahn oder ein 3-Wege-Wasserhahn installiert werden.<\/p>",
+            "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
+            "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
         "collapsible_row_FW46qB": {
           "type": "collapsible_row",
           "settings": {
@@ -617,14 +445,43 @@
             "exclamation_list": "",
             "page": ""
           }
+        },
+        "collapsible_row_qcygz8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie viel Kalk filtert die Active Plus Kartusche?",
+            "icon": "check_mark",
+            "row_content": "<p>Die Active Plus Kartusche arbeitet nach 2 Prinzipien:<br\/>\"Doppelte\" Wasserenthärtung durch klassischen Ionenaustausch und strukturelle Veränderung von Kalkverbindungen. (Kalk haftet weniger an Oberflächen).<br\/><br\/>Hinweis: Kalk wird nicht zu <strong>100%<\/strong> entfernt, sondern je nach Wasserhärte reduziert. Eine neue Filterkartusche ist in der Lage das Wasser im Optimalfall von Härtegrad<strong> 18 °dH<\/strong> auf <strong>9 °dH<\/strong> zu reduzieren.<br\/><br\/>Details:<br\/><br\/>Eine Entkalkung durch die Active Plus+ Kartusche steht in direkter Verbindung zur Wasserhärte. Es gelten die Grundsätze:<br\/><br\/>1. Je höher der Härtegrad des Wassers (&gt;= 18 °dH), desto herausfordernder ist es für die Kartusche eine Enthärtung effektiv durchzuführen. Demnach ist auch die Entkalkungsleistung der Kartusche schneller erschöpft.<br\/>2. Je schneller der Wasser-Durchfluss (&gt; 2 l\/min), desto effektiver die Umwandlung von Kalzit in eine andere, weniger anhaftende Kristallstruktur (vgl. Methode 3 unter: <a href=\"https:\/\/alb-filter.com\/pages\/active-plus-wasserfilter-kartusche\" target=\"_self\">alb-filter.com\/pages\/active-plus-wasserfilter-kartusche<\/a>).<br\/><br\/>Wenn Sie in Ihrem Wasserkocher „weißen Staub“ entdecken, liegt das an den Kalk Kristallen, die nach wie vor vorhanden sind. Diese bilden sich immer, wenn Wasser verdunstet, weisen allerdings eine weniger anhaftende Struktur auf.  <\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_JkDVdf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was muss bei der Active Plus+ Filterkartusche hinsichtlich Austrocknung beachtet werden?",
+            "icon": "check_mark",
+            "row_content": "<p>Die Active Plus+ Filterkartusche ist sehr empfindlich gegenüber Austrocknung. Es ist wichtig, sie stets feucht zu halten, da sie sonst reißen oder beschädigt werden kann. Diese Filterkartusche ist nicht dafür ausgelegt, getrocknet zu werden.<br\/><br\/>Bitte beachten Sie, dass die Active Plus+ Kartusche für den Dauereinsatz konzipiert ist. Wenn Sie sie jedoch für eine gewisse Zeit außer Betrieb nehmen müssen, empfehlen wir, sie in destilliertem Wasser zu lagern. Dadurch bleibt sie feucht und ihre Lebensdauer wird verlängert.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_rEVF7z",
-        "collapsible_row_FW46qB"
+        "collapsible_row_jg6etY",
+        "collapsible_row_FW46qB",
+        "collapsible_row_qcygz8",
+        "collapsible_row_JkDVdf"
       ],
       "settings": {
-        "caption": "",
+        "caption": "FAQ Trinkwasserfilter",
         "heading": "FILTERKARTUSCHEN",
         "enable_icon": false,
         "heading_tag": "h2",
@@ -647,8 +504,6 @@
     "collapsible_content_i66qXY",
     "collapsible_content_XwQP9T",
     "collapsible_content_GamYVU",
-    "collapsible_content_a8nkay",
-    "collapsible_content_8wgiXk",
     "collapsible_content_B7tWMq",
     "collapsible_content_MMTxqQ"
   ]
