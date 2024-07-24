@@ -274,6 +274,19 @@
             "info_btn2_text": "Kaufen",
             "info_btn2_url": ""
           }
+        },
+        "content_item_n37JXk": {
+          "type": "content_item",
+          "settings": {
+            "parent_title": "FAQ Campingfilter",
+            "submenu_title": "",
+            "info_title": "Info",
+            "info_text": "",
+            "info_btn1_text": "Mehr erfahren",
+            "info_btn1_url": "",
+            "info_btn2_text": "Kaufen",
+            "info_btn2_url": ""
+          }
         }
       },
       "block_order": [
@@ -292,7 +305,8 @@
         "product_item_U6jzpd",
         "mobile_mega_EamXXr",
         "mobile_mega_DCbx9E",
-        "content_item_8e8Ayb"
+        "content_item_8e8Ayb",
+        "content_item_n37JXk"
       ],
       "settings": {
         "logo_position": "middle-left",
