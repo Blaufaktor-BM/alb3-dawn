@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -41,22 +34,11 @@
           "settings": {
           }
         },
-        "sku_4U6KpL": {
-          "type": "sku",
-          "settings": {
-            "text_style": "uppercase"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -81,12 +63,6 @@
             "heading_3": "Einfache Zahlung auch auf Rechnung"
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Teilen"
-          }
-        },
         "complementary_ptQFWL": {
           "type": "complementary",
           "settings": {
@@ -102,17 +78,13 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "rating_FVKcLB",
         "text_FQL9Cj",
         "price",
-        "sku_4U6KpL",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "icon_with_text_fP6tNW",
-        "share",
         "complementary_ptQFWL"
       ],
       "settings": {
@@ -140,6 +112,10 @@
             "heading": "Produktbeschreibung",
             "icon": "price_tag",
             "row_content": "{{ product.metafields.custom.produktbeschreibung | metafield_tag }}",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -149,6 +125,10 @@
             "heading": "Technische Daten",
             "icon": "ruler",
             "row_content": "{{ product.metafields.custom.technische_daten | metafield_tag }}",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -158,6 +138,10 @@
             "heading": "Lieferumfang",
             "icon": "box",
             "row_content": "{{ product.metafields.custom.lieferumfang_produkt | metafield_tag }}",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -167,6 +151,10 @@
             "heading": "Sonstiges",
             "icon": "clipboard",
             "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         }
@@ -180,6 +168,7 @@
       "settings": {
         "caption": "",
         "heading": "",
+        "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
