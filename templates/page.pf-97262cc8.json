@@ -196,6 +196,19 @@
     "collapsible_content_B7tWMq": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_feAEgW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich den Alb Filter Duschfilter in Verbindung mit drucklosen Boilern verwenden?",
+            "icon": "check_mark",
+            "row_content": "<p>Beim Einsatz unseres Alb Filters in der Dusche in Verbindung mit drucklosen Boilern ist zu beachten, dass aufgrund der hohen Feinheit der Patrone ein Druck vor dieser aufgebaut wird (etwa in Höhe des Netzdruckes), welcher sich nur langsam abbaut. Das kann unter Umständen zur Beschädigung des nicht druckfesten Boilers führen.<br\/><br\/>Es gibt allerdings auch druckfeste Boiler, für diese die genannten Einschränkungen nicht gelten. Sie erkennen diese z.B. am Typenschild „ max. Betriebsdruck … “. Dieser muss mindestens 4 bar betragen. Diese Boiler Typen sind in der Regel allerdings in der Anschaffung etwas teurer als die Drucklosen.<br\/><br\/>Falls Sie sich nicht sicher sind, fragen Sie Ihre Sanitär-Fachkraft.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
         "collapsible_row_bDPYiY": {
           "type": "collapsible_row",
           "settings": {
@@ -221,39 +234,12 @@
             "exclamation_list": "",
             "page": ""
           }
-        },
-        "collapsible_row_grEwhn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Worin besteht der Unterschied zu einer UV-Anlage?",
-            "icon": "check_mark",
-            "row_content": "<p>Das Äquivalent zur UV-Anlage in unserem System besteht aus der Nano Hohlfasermembran. Beide Technologien haben den Anspruch, Mikroorganismen zu filtern oder unschädlich zu machen.<br\/><br\/>Bei einer UV-Anlage werden Keime durch ultraviolette Strahlung abgetötet. Bei der Nano Keimsperre werden Bakterien hingegen rein mechanisch durch die extrem feinen Poren der Hohlfasern zurückgehalten.<\/p>",
-            "small_text1": "<p><strong>UV-Anlage<\/strong><\/p><ul><li>✅ Kann nicht verstopfen<\/li><li>❌ Recht hohe Anschaffungskosten (ab 500€)<\/li><li>❌ Benötigt Strom<\/li><li>❌  Durchflussgeschwindigkeit beachten. Sonst ist keine Keimsicherheit gegeben <\/li><li>❌ Optik kann verkalken. Keimsicherheit ist beeinträchtigt<br\/><\/li><li>❌ Optik kann sich mit Biomasse zusetzen. Keimsicherheit ist beeinträchtigt<\/li><li>❌ Regelmäßige Reinigung notwendig<\/li><li>❌ Bei hoher Keimkonzentration ist keine Keimsicherheit gegeben<\/li><li>❌ Wassertrübung kann die Effektivität beeiflussen. Keimsicherheit ist beeinträchtigt<\/li><\/ul>",
-            "small_text2": "<p><strong>Hohlfasermembran<\/strong><\/p><ul><li>❌ Kann verstopfen<\/li><li>❌ Kartuschen müssen getauscht werden<\/li><li>✅ Günstige Anschaffungskosten (ab 150€)<\/li><li>✅ Kein Strom benötigt<\/li><li>✅ Durchflussgeschwindigkeit spielt keine Rolle<\/li><li>✅ Keimsicherheit ist garantiert<\/li><\/ul>",
-            "bottom_text": "<p><strong>Tipp<\/strong>: Wenn Sie sich für eine UV-Anlage entscheiden, achten Sie darauf, dass die Anlage in der Lage ist, die Leistung der Lichtquelle elektronisch zu überwachen. Dies gewährleistet eine zuverlässige Funktion und ermöglicht es Ihnen, mögliche Leistungsabfälle oder Störungen frühzeitig zu erkennen.<\/p><p><strong>Zusammenfassend lässt sich sagen:<\/strong> Eine Hohlfasermembran filtert Keime zuverlässig heraus und unterliegt keinen Einflussfaktoren. Das einzige Manko sind die Kartuschen, die regelmäßig ausgetauscht werden sollten. Das Wechselintervall einer Hohlfasermembran hängt stark von der Qualität des Eingangswassers ab. Wenn sauberes Wasser aus öffentlichen Leitungen verwendet wird, kann es mehrere tausend Liter dauern, bis die Membran verstopft und die Durchflussrate beeinträchtigt wird. Wenn jedoch Wasser aus sehr unsauberen Quellen entnommen wird, kann die Membran bereits nach wenigen hundert Litern verstopfen.<\/p>",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_feAEgW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
+        "collapsible_row_feAEgW",
         "collapsible_row_bDPYiY",
-        "collapsible_row_nmJzjL",
-        "collapsible_row_grEwhn",
-        "collapsible_row_feAEgW"
+        "collapsible_row_nmJzjL"
       ],
       "settings": {
         "caption": "",
@@ -280,7 +266,7 @@
           "settings": {
             "heading": "Wie hoch darf die Temperatur der Filterkartuschen sein?",
             "icon": "check_mark",
-            "row_content": "<p><\/p><p>Das ist abhängig von der verbauten Filterkartusche. Folgende Temperaturen sollten eingehalten werden:<br\/><\/p><ul><li>Active (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Active + (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Nano 5 - 65 °C<\/li><\/ul>",
+            "row_content": "<p><\/p><p>Das ist abhängig von der verbauten Filterkartusche. Folgende Temperaturen sollten eingehalten werden:<br\/><\/p><ul><li>Balance 5 - 45 °C  <br\/><\/li><li>Shungit 5 - 45 °C  <br\/><\/li><li>Nano 5 - 65 °C<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -291,11 +277,11 @@
         "collapsible_row_FW46qB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wieviel Liter Wasser kann eine Alb Trinkwasserfilter-Kartusche reinigen?",
+            "heading": "Wieviel Liter Wasser kann eine Alb Duschfilter-Kartusche reinigen?",
             "icon": "check_mark",
-            "row_content": "<p>Das ist in erster Linie abhängig von der Qualität des Eingangswassers und unterscheidet sich je nach verwendeter Filterkartusche. <br\/><br\/>Filterleistung Active Kartusche*: ⌀ 3000 Liter oder max. 4 Monate bei Dauereinsatz<br\/>Filterleistung Nano Kartusche*: ⌀ 5000 Liter oder max. 6 Monate bei Dauereinsatz<br\/><br\/>* Durchschnittswerte – Die Kapazität der Kartusche ist stark abhängig von der Qualität des Eingangswassers. <\/p>",
-            "small_text1": "<p><strong>Active Kartusche:<br\/><\/strong>Bei Kartuschen, die Schadstoffe adsorptiv und katalytisch filtern bzw. binden, tritt mit der Zeit eine Sättigung ein. Die Lebensdauer hängt jedoch davon ab, wie viele Schadstoffe im Wasser vorhanden sind. Bei deutschem Leitungswasser gehen wir im Durchschnitt von einer Kapazität von 2000-4000 Litern aus.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p><p><strong>Nano Kartusche:<br\/><\/strong>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.<br\/><br\/>Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<\/p><p><strong>Praxis beim Camping (kein Dauereinsatz):<br\/><\/strong>Wenn die Kartuschen nicht in Verwendung sind, ist es ratsam, sie nach dem Urlaub auszubauen und zu lagern. Genauere Informationen dazu finden Sie in unseren FAQ.<\/p>",
-            "small_text2": "",
+            "row_content": "<p>Das ist in erster Linie abhängig von der Qualität des Eingangswassers und unterscheidet sich je nach verwendeter Filterkartusche.<br\/><br\/>Filterleistung Balance Kartusche*: ⌀ 3000 Liter oder max. 6 Monate bei Dauereinsatz<br\/>Filterleistung Shungit Kartusche*: ⌀ 3000 Liter oder max. 6 Monate bei Dauereinsatz<br\/>Filterleistung Nano Kartusche*: ⌀ 5000 Liter oder max. 6 Monate bei Dauereinsatz<br\/><br\/>*Durchschnittswerte – Die Kapazität der Kartusche ist stark abhängig von der Qualität des Eingangswassers. <br\/><br\/>Eine hilfreiche Faustregel ist es, die Kartusche zu wechseln, wenn Sie bemerken, dass der Wasserfluss merklich abnimmt, da dies ein Zeichen dafür sein kann, dass die Kartusche gesättigt ist. Darüber hinaus empfiehlt es sich, die Kartusche <strong>spätestens nach 6 Monaten<\/strong> zu wechseln, unabhängig vom Wasserfluss, um eine optimale Filterleistung zu gewährleisten.<\/p><p><\/p><p><strong>Nano Kartusche:<\/strong><br\/>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p>",
+            "small_text1": "<p><strong>Balance Kartusche:<br\/><\/strong>Bei Kartuschen, die Schadstoffe adsorptiv und katalytisch filtern bzw. binden, tritt mit der Zeit eine Sättigung ein. Die Lebensdauer hängt jedoch davon ab, wie viele Schadstoffe im Wasser vorhanden sind. Bei deutschem Leitungswasser gehen wir im Durchschnitt von einer Kapazität von 2000-4000 Litern aus.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können, sollten Aktivkohle-Kartuschen regelmäßig getauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen. In der Balance Kartusche kommt eine Kupfer-Zink Legierung zum Einsatz, welche das Bakterienwachstum ein Stück weit hemmen kann.<\/p>",
+            "small_text2": "<p><strong>Nano Kartusche:<\/strong>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p>",
             "bottom_text": "",
             "exclamation_list": "",
             "page": ""
