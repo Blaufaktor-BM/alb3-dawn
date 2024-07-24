@@ -7332,6 +7332,8 @@ h5 {
   align-items: center;
   padding: 20px;
   text-decoration: none;
+  width: 100%;
+  height: 100%;
 }
 
 .media_text-multi_content_contact {
