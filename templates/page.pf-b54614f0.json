@@ -105,7 +105,7 @@
           "settings": {
             "heading": "Wie funktioniert ein Kartuschenwechsel und worauf ist zu achten?",
             "icon": "check_mark",
-            "row_content": "<p>Ein Kartuschenwechsel ist bei Alb Filter ein Kinderspiel und lässt sich innerhalb von nur zwei Minuten erledigen. Hier finden Sie die Anleitung zum Kartuschenwechsel: <\/p><p>https:\/\/alb-filter.com\/blogs\/ratgeber\/installation<\/p>",
+            "row_content": "<p>Ein Kartuschenwechsel ist bei Alb Filter ein Kinderspiel und lässt sich innerhalb von nur zwei Minuten erledigen. Hier finden Sie die Anleitung zum Kartuschenwechsel: <\/p><p><a href=\"\/blogs\/ratgeber\/installation\" title=\"Installation\">alb-filter.com\/blogs\/ratgeber\/installation<\/a><\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -116,11 +116,11 @@
         "collapsible_row_T7XKJG": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Bleiben die Kartuschen während des Urlaubs im Gehäuse verbaut?",
+            "heading": "Kann ich in einem Filtergehäuse unterschiedliche Kartuschen verwenden?",
             "icon": "check_mark",
-            "row_content": "<p><strong>Ja<\/strong>, wir gehen davon aus, dass die Kartuschen regelmäßig verwendet werden, selbst bei einer Außenbetankung, bei der die Kartuschen alle 3-7 Tage benutzt werden. Nach dem Betanken empfehlen wir Ihnen, kurz die Deckel aufzuschrauben und das Wasser im Gehäuse abzulassen, <strong>während die Kartuschen verbaut bleiben<\/strong>. Anschließend sollten Sie den Deckel wieder schließen und den Filter an einem geeigneten Ort, wie beispielsweise in der Garage, aufbewahren. Dadurch können Sie die Keimbelastung verringern und die Lebensdauer der Kartuschen verlängern.<\/p>",
+            "row_content": "<p>Ja, sämtliche Trinkwasser- und Duschfilterkartuschen von Alb Filter sind kompatibel. Aus einem Trinkwasserfilter kann auch ein Duschfilter werden und umgekehrt.<\/p>",
             "small_text1": "",
-            "small_text2": "<p><strong>Generell:<\/strong><\/p><p>Jeder Wasserfilter, unabhängig von seiner Qualität, kann verkeimen. Um sich vor einer Verkeimung zu schützen, empfehlen wir immer, eine Keimsperre (Nano) Filterkartusche nachzuschalten. Darüber hinaus gibt es einige Tipps, um die Keimbelastung in den Kartuschen zu verringern und die Lebensdauer der Filter zu verlängern:<\/p>",
+            "small_text2": "",
             "bottom_text": "",
             "exclamation_list": "",
             "page": ""
@@ -129,12 +129,12 @@
         "collapsible_row_Dq8b6W": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Müssen die Kartuschen nach dem Urlaub ausgebaut werden?",
+            "heading": "Wie müssen die benutzten Kartuschen entsorgt werden?",
             "icon": "check_mark",
-            "row_content": "<p><strong>Generell:<\/strong><\/p><p>Jeder Wasserfilter, unabhängig von seiner Qualität, kann verkeimen. Um sich vor einer Verkeimung zu schützen, empfehlen wir immer, eine Keimsperre (Nano) Filterkartusche nachzuschalten. Darüber hinaus gibt es einige Tipps, um die Keimbelastung in den Kartuschen zu verringern und die Lebensdauer der Filter zu verlängern:<\/p>",
-            "small_text1": "<p><strong>Vorgehensweise<\/strong>:<\/p><ol><li>Nach dem Urlaub oder einer längeren Nichtbenutzung des Filtersystems bauen Sie die Kartuschen aus. Stellen Sie sicher, dass sie gründlich getrocknet sind, bevor Sie sie lagern. Lassen Sie sie einfach an der Luft trocknen und bewahren Sie sie dann an einem kühlen, trockenen Ort auf.<br\/><\/li><li>Durch das Trocknen und die korrekte Lagerung der Kartuschen wird sichergestellt, dass sie nicht feucht werden und keine Keimbildung oder Schimmelbildung auftreten.<br\/><\/li><li>Um die Lebensdauer der Kartuschen zu verlängern und eine optimale Filterleistung sicherzustellen, empfehlen wir einen regelmäßigen Wechsel der Kartuschen alle 4 bis 6 Monate (abhängig von der spezifischen Kartusche und den Herstellerempfehlungen).<br\/><\/li><li>Alternativ können Sie das Filtersystem oder die Kartusche auch zu Hause in der Küche verwenden, um frisch gefiltertes Leitungswasser zu zapfen. Dadurch können Sie die Filterkapazität nutzen und kontinuierlich hochwertiges Wasser genießen.<\/li><\/ol><p><\/p>",
+            "row_content": "<p>Verbrauchte Kartuschen müssen im Restmüll entsorgt werden. Hier werden die Kartuschen der Verbrennung zugeführt, da sich im Inneren Schadstoffe angesammelt haben, dürfen Sie die Kartuschen nicht anderweitig entsorgen.<\/p>",
+            "small_text1": "",
             "small_text2": "",
-            "bottom_text": "<p><strong>Hinweis<\/strong>: Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<br\/><br\/><strong>Tipp<\/strong>: Beim Ein- und Ausbau sollten Sie die Kartusche mit leichten Drehbewegungen langsam herausziehen<\/p>",
+            "bottom_text": "",
             "exclamation_list": "",
             "page": ""
           }
@@ -142,12 +142,12 @@
         "collapsible_row_fnTcyM": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wie lagere ich die Filterkartuschen nach dem Urlaub?",
+            "heading": "Kann ein Alb Filter aus jedem Wasser Trinkwasser machen?",
             "icon": "check_mark",
-            "row_content": "",
-            "small_text1": "<p><strong>Richtig:<\/strong><\/p><ul><li>Kühl und trocken lagern. Es muss gut belüftet sein, damit kein Schimmel entstehen kann.<\/li><\/ul>",
-            "small_text2": "<p><strong>Falsch:<\/strong><\/p><ul><li>Verschlossene Plastiktüte<\/li><li>Aufbewahrung in einem Behälter mit Reis<\/li><li>Lagerung im Kühlschrank<\/li><\/ul>",
-            "bottom_text": "",
+            "row_content": "<p>Hinsichtlich der Mikrobiologie ist durch den Einsatz der Nano Keimsperre sichergestellt dass pathogene Bakterien sicher gefiltert werden. Bei den meisten anderen Schadstoffen im Wasser spricht man nie von einer Entfernung sondern immer von einer Reduktion, da diese Adsorbtiv oder Katalytisch gefiltert werden. Im besten Fall ist nach der Filtration der einzelne Schadstoff nicht mehr nachweisbar. Jedoch hängt das Endergebnis von einigen Faktoren ab:<\/p><ul><li>Eingangskonzentration des Schadstoff<\/li><li>Durchflussgeschwindigkeit des Wassers durch das Filtermedium<\/li><li>Qualität des Filtermediums<\/li><li>Parameter des Wassers: pH-Wert, Sauerstoffanteil, Temperatur uvm.<\/li><\/ul>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "<p><strong>Zusammenfassend: <\/strong>Die Mikrobiologie und ungelöste Partikel wie bspw. Mikroplastik werden sicher gefiltert. Andere Schadstoffe werden je nach Typ immer anteilig gefiltert.<\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -192,6 +192,19 @@
             "exclamation_list": "",
             "page": ""
           }
+        },
+        "collapsible_row_DVxWVp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -204,7 +217,8 @@
         "collapsible_row_fnTcyM",
         "collapsible_row_hC89ar",
         "collapsible_row_xxLFWW",
-        "collapsible_row_XEmFtr"
+        "collapsible_row_XEmFtr",
+        "collapsible_row_DVxWVp"
       ],
       "settings": {
         "caption": "FAQ Trinkwasserfilter",
