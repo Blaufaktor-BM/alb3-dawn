@@ -219,7 +219,7 @@
         "collapsible_row_XEmFtr"
       ],
       "settings": {
-        "caption": "",
+        "caption": "FAQ Camping Filter",
         "heading": "HÄUFIGE FRAGEN",
         "enable_icon": false,
         "heading_tag": "h2",
@@ -234,11 +234,171 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_XwQP9T": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BtRdGH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_V9H8jk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_WAk7N9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_EiKYij": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BtRdGH",
+        "collapsible_row_V9H8jk",
+        "collapsible_row_WAk7N9",
+        "collapsible_row_EiKYij"
+      ],
+      "settings": {
+        "caption": "FAQ Camping Filter",
+        "heading": "BEFÜLLFILTER (MOBIL) ",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_a8nkay": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_YUUbgc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_ihBy7P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_QAHDtD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3UVF49": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_YUUbgc",
+        "collapsible_row_ihBy7P",
+        "collapsible_row_QAHDtD",
+        "collapsible_row_3UVF49"
+      ],
+      "settings": {
+        "caption": "FAQ Camping Filter",
+        "heading": "EINBAUFILTER (TRAVEL) ",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_MpAExG",
-    "collapsible_content_i66qXY"
+    "collapsible_content_i66qXY",
+    "collapsible_content_XwQP9T",
+    "collapsible_content_a8nkay"
   ]
 }
