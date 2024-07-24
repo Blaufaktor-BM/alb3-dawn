@@ -155,9 +155,9 @@
         "collapsible_row_hC89ar": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wie müssen die benutzten Kartuschen entsorgt werden?",
+            "heading": "Warum ändert sich der TDS Wert nicht?",
             "icon": "check_mark",
-            "row_content": "<p>Verbrauchte Kartuschen sollten tatsächlich im Restmüll entsorgt werden. Sie werden in der Regel verbrannt, da sich im Inneren der Kartuschen Schadstoffe angesammelt haben. Es ist wichtig, die Kartuschen nicht anderweitig zu entsorgen, sondern gemäß den örtlichen Bestimmungen im Restmüll zu entsorgen.<\/p>",
+            "row_content": "<p>Der PPM-, µS- oder TDS-Wert ist ein quantitativer Wert, der die Menge an gelösten Stoffen im Wasser misst. Er gibt jedoch keine spezifischen Informationen über den Schadstoffgehalt oder die Qualität des Wassers an. Der gemessene Wert zeigt lediglich die Leitfähigkeit des Wassers an, die hauptsächlich durch Salze, Mineralien und Metalle verursacht wird. Obwohl Schadstoffe auch zur Leitfähigkeit beitragen können, machen sie normalerweise nur einen kleinen Teil aus. Daher bedeutet ein niedriger Leitwert nicht unbedingt, dass das Wasser frei von Schadstoffen ist.<br\/><br\/>Leider gibt es im Internet viele falsche Aussagen zu diesem Thema, die Verbraucher verunsichern können.<\/p><p>Das Messverfahren wird in der Regel bei der Umkehrosmose-Technik eingesetzt, um sicherzustellen, dass die Membran ordnungsgemäß funktioniert, da Salze und Mineralien zurückgehalten werden, die den PPM-Wert erhöhen können. Unsere Kartuschen lassen Salze und Mineralien im Wasser, was ein Vorteil gegenüber anderen Methoden ist. Filterkartuschen auf Aktivkohlebasis können den Wert jedoch initial erhöhen, da Kohlenstoffverbindungen ins Wasser abgegeben werden können.<\/p><p>Wenn Sie den Schadstoffgehalt oder den Kalk im Wasser testen möchten, sollten Sie ein Spektrometer oder ein Labor zur Analyse einer Wasserprobe nutzen.<\/p><p><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/wie-misst-man-die-wasserqualitaet\" target=\"_self\">Hier erfahren Sie mehr &gt;<\/a><\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -168,37 +168,9 @@
         "collapsible_row_xxLFWW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Verringert sich der Wasserdruck?",
+            "heading": "Weisse Flocken im Wasser?",
             "icon": "check_mark",
-            "row_content": "<p>Ja, jede Filterkartusche und ihr Filtermedium haben einen gewissen Einfluss auf den Wasserdruck und die Durchflussmenge. Bei einem Inneneinbau sollte daher eine Überprüfung der Pumpe in Betracht gezogen werden, um sicherzustellen, dass sie den erforderlichen Druck und Durchfluss liefern kann.<br\/><br\/>Darüber hinaus ist es richtig, dass sich die Betankungsdauer verlängert. In der Praxis kann bei Verwendung der maximalen Filterstufe (Protect + Active + Nano) mit einer durchschnittlichen Zeit von etwa 15 Minuten gerechnet werden, um einen 100 Liter Wassertank vollständig zu befüllen. Dies kann je nach System und Wasserdruck variieren.<\/p>",
-            "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
-            "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "<p>Vor allem Filter, die adsorptiv filtern, müssen eine geringe Porenfeinheit aufweisen, um eine gute Filterleistung zu erzielen. Aktivkohlefilter, die kaum einen Druckabfall erzeugen, bestehen meist aus einfachen Aktivkohlegranulaten, bei denen sich Wasserbrücken bilden und das Wasser kaum gefiltert wird.<br\/><br\/>Bei unseren Aktivkohleblöcken setzen wir auf eine gesinterte Form mit einem geringen Anteil an Bindemitteln. Dadurch wird die Filterleistung im Vergleich zu Granulaten deutlich verbessert.<br\/><br\/>Andere Filterkartuschen, wie zum Beispiel unsere Keimsperre (Nano), verwenden Hohlfasermembranen im Inneren, die stark gebündelt sind. Diese Kartuschen weisen zu Beginn kaum einen Druckabfall auf. Im Laufe der Zeit können sich jedoch die Poren nach und nach verschließen, wodurch der Druckabfall an der Kartusche zunimmt. Um die volle Kapazität der Kartusche dennoch nutzen zu können, empfehlen wir den Einsatz einer Membrandruckpumpe. Dadurch wird ein ausreichender Druck aufrechterhalten und die Effizienz der Kartusche gewährleistet.<\/p>",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_XEmFtr": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Meine Filterkartusche ist verstopft - was nun?",
-            "icon": "check_mark",
-            "row_content": "<p><strong>Generell gilt<\/strong>: Eine verstopfte Kartusche ist kein Reklamationsgrund, sondern unterliegt dem normalen Verschleiß.<\/p><p>Alle unsere Filterkartuschen sind mit einer mechanischen Porenfeinheit ausgestattet, wodurch Partikel, Feststoffe und Bakterien die Poren der Kartuschen verstopfen können. Je klarer und reiner das Eingangswasser ist, desto länger dauert es, bis die Kartusche verstopft.<br\/><br\/>Die angegebene Standzeit von 4 oder 6 Monaten basiert in erster Linie auf hygienischen Gründen. Es ist wichtig, die Kartuschen regelmäßig auszutauschen, um eine optimale Filterleistung und hygienische Bedingungen aufrechtzuerhalten. Die angegebene Literzahl ist ein grober Durchschnittswert, da die Standzeit der Kartuschen je nach individuellen Wasserbedingungen variieren kann.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "<p><strong>Was ist zu tun wenn der Durchfluss verringert ist?<\/strong><\/p><p> Ermitteln Sie bei einem mehrstufigen System zuerst die betroffene Kartusche, indem jede Kartusche für sich einzeln getestet wird. <\/p><p><strong>Fall 1:<\/strong> <strong>Vorfilter<\/strong> (Protect) ist verstopft<br\/><br\/>Drehen Sie den Vorfilter einmal um und versuchen Sie, ihn wieder freizuspülen. Aus Erfahrung setzen sich die Partikel jedoch oft recht tief in die Poren ein, sodass in den meisten Fällen der Austausch der Filterscheibe empfohlen wird.<br\/><\/p><p><strong>Fall 2:<\/strong> <strong>Active<\/strong> Kartusche ist verstopft<br\/><br\/>Aus Erfahrung setzen sich die Partikel oft tief in die Poren ein, weshalb in den meisten Fällen ein Austausch des Filters empfohlen wird.<br\/><\/p><p><strong>Fall 3:<\/strong> <strong>Nano<\/strong> Kartusche ist verstopft<br\/><br\/>Die Kartusche sollte nach Möglichkeit immer in Kombination mit einem Vorfilter oder einer etwas gröberen Kartusche (wie Active) betrieben werden, da sie sehr empfindlich ist.<br\/><br\/>Es gibt zwei Möglichkeiten, um eine verstopfte Kartusche gegebenenfalls wieder freizubekommen:<br\/><br\/>- Kurzes Ausblasen mit Druckluft (maximal 2 bar) entgegen der Flussrichtung.<br\/><br\/>- Die Kartusche für maximal 15 Minuten in Ethanol einlegen, um sie zu reinigen.<\/p><p><strong>Langfristige Lösungen:<br\/><\/strong><br\/>- Versuchen Sie immer, Wasser aus dem öffentlichen Leitungsnetz zu tanken, da dies in der Regel eine deutlich bessere Qualität bietet als unsichere Quellen.<br\/><br\/>- Verwenden Sie nach Möglichkeit einen hochwertigen Vorfilter wie das <strong>Alb Filter Protect Modul.<\/strong><\/p>",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_DVxWVp": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Helle Flocken im Glas sind mit hoher Wahrscheinlichkeit ausgefällte Mineralien sprich Kalk. Solche Ausflockungen sind normal bei Wasserfiltern mit einer Porenfeinheit. Auch mit der Active Plus Kartusche sind Ausfällungen möglich, da das Wasser nur anteilig enthärtet wird.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -216,9 +188,7 @@
         "collapsible_row_Dq8b6W",
         "collapsible_row_fnTcyM",
         "collapsible_row_hC89ar",
-        "collapsible_row_xxLFWW",
-        "collapsible_row_XEmFtr",
-        "collapsible_row_DVxWVp"
+        "collapsible_row_xxLFWW"
       ],
       "settings": {
         "caption": "FAQ Trinkwasserfilter",
@@ -243,9 +213,9 @@
         "collapsible_row_BtRdGH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Was sind die Vorteile der Mobil Variante?",
+            "heading": "Passt der Filter an meinen Wasserhahn?",
             "icon": "check_mark",
-            "row_content": "<ul><li>Verunreinigungen, Bakterien und Schadstoffe gelangen nicht in den Tank (Wasser kann nicht kippen).<\/li><li>Es wird keine starke Pumpe benötigt.<\/li><li>Der Filter kann auch zum Abfüllen, zum Beispiel eines Kanisters, verwendet werden, wenn die Zapfstelle nicht mit dem Fahrzeug erreicht werden kann.<\/li><li>Kein Einbau erforderlich.<\/li><\/ul>",
+            "row_content": "<p>Um den Duo Wasserhahnfilter am Wasserhahn anbringen zu können, benötigen wir ein Gewinde. Hierzu schrauben Sie den Perlator Ihrer Armatur ab und ermitteln mit Hilfe unseres Gewinderatgebers ob Sie einen Adapter benötigen:<\/p><p><a href=\"\/pages\/gewinde-ratgeber\" title=\"Gewinde Ratgeber\">Zum Gewinderatgeber<\/a><\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -256,9 +226,9 @@
         "collapsible_row_V9H8jk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Was sind die Nachteile der Mobil Variante?",
+            "heading": "Der Filter tropft eine Zeit lang nach - ist das normal?",
             "icon": "check_mark",
-            "row_content": "<ul><li>Eine gründliche Systemreinigung und Desinfektion ist vor dem Einsatz des Filters erforderlich, wenn das Wasser kalt konsumiert werden soll.<\/li><li>Gutes hygienisches Verhalten ist erforderlich, um sicherzustellen, dass keine Keime in das System eingebracht werden.<\/li><\/ul>",
+            "row_content": "<p>Das Nachlaufen bzw. Nachtropfen über mehrere Sekunden ist völlig normal, da sich der Druck im Inneren nur sehr langsam abbaut. Je feinporiger die Kartuschen sind, desto stärker tritt der Effekt zu Tage. Rein technisch ist es nicht möglich diesen Effekt zu verhindern. Es kann mitunter ein wenig helfen, wenn Sie den Umschalthebel wieder in die „ungefiltert“ Stellung wechseln.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -269,9 +239,9 @@
         "collapsible_row_WAk7N9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Muss ich die Filter nach der Betankung ausbauen? ",
+            "heading": "Technischen Daten Alb Filter Duo Gehäuse",
             "icon": "check_mark",
-            "row_content": "<p>Nein, während Sie unterwegs sind, bleiben die Kartuschen im Gehäuse verbaut. In der Praxis öffnen Sie lediglich den Deckel, um das Stagnationswasser aus dem Gehäuse ablaufen zu lassen. Anschließend wird das Gehäuse wieder geschlossen und in der Garage verstaut.<br\/><br\/>Erst nach dem Urlaub werden die Kartuschen ausgebaut und getrocknet.<\/p>",
+            "row_content": "<p><strong>Maße<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart<br\/><\/strong>M22 Innengewinde am Bypass (Achschluss)<br\/>M22 Außengewinde am Filterauslass<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -286,8 +256,8 @@
         "collapsible_row_WAk7N9"
       ],
       "settings": {
-        "caption": "FAQ Camping Filter",
-        "heading": "BEFÜLLFILTER (MOBIL) ",
+        "caption": "FAQ Trinkwasserfilter",
+        "heading": "WASSERHAHNFILTER (DUO)",
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
