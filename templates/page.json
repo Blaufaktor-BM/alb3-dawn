@@ -223,7 +223,7 @@
         "heading": "HÄUFIGE FRAGEN",
         "enable_icon": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_color": "#003e5f",
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
@@ -288,7 +288,7 @@
         "heading": "BEFÜLLFILTER (MOBIL) ",
         "enable_icon": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_color": "#003e5f",
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
@@ -410,12 +410,128 @@
         "heading": "EINBAUFILTER (TRAVEL) ",
         "enable_icon": false,
         "heading_tag": "h2",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_color": "#003e5f",
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
         "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_8wgiXk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bQWLU6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was sind dieVorteiledes ProCamper Sets?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre, die nahe am Entnahmepunkt angebracht ist, bietet einen umfassenden Schutz vor Keimen im System.<\/li><li>Nicht reproduzierbare Schadstoffe werden im Vorfeld durch den Filter reduziert oder herausgefiltert.<\/li><li>Das Wasser gelangt bereits in einem sehr sauberen Zustand in den Tank.<\/li><\/ul>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_qnAqNW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was sind dieNachteile des ProCamper Sets?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Eine Membrandruckpumpe mit einem Druck von ca. 2 bar wird empfohlen.<\/li><li>Der Filter muss in den Wasserstrang integriert werden.<\/li><\/ul>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bQWLU6",
+        "collapsible_row_qnAqNW"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "PRO CAMPER SET (KOMBINATION TRAVEL & MOBIL)",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "rgba(0,0,0,0)",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_B7tWMq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bDPYiY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technische Daten Alb Filter ELEMENT Gehäuse?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Maße:<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht:<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart:<br\/><\/strong>1\/2 Zoll Innengewinde (Eingangsseite)<br\/>1\/2 Zoll Aussengewinde (Ausgangsseite).<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_nmJzjL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Haben die Alb Filter Gutachten und Zertifikate?",
+            "icon": "check_mark",
+            "row_content": "<p>Die Nano-Kartusche ist nach <strong>ASTM F838-15A<\/strong> zertifiziert, was höchste Sicherheit gewährleistet.<br\/>Dadurch kann sie auch in öffentlichen Einrichtungen verwendet werden, selbst bei akutem Legionellenbefall.<br\/><br\/>Wenn Sie spezifische Informationen zu einem bestimmten Inhaltsstoff in Bezug auf die Leistungsfähigkeit einzelner Filterkartuschen benötigen, empfehlen wir Ihnen, unser Kontaktformular zu verwenden. Dort können Sie Ihre Anfrage stellen und wir werden Ihnen gerne weiterhelfen.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_grEwhn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Worin besteht der Unterschied zu einer UV-Anlage?",
+            "icon": "check_mark",
+            "row_content": "<p>Das Äquivalent zur UV-Anlage in unserem System besteht aus der Nano Hohlfasermembran. Beide Technologien haben den Anspruch, Mikroorganismen zu filtern oder unschädlich zu machen.<br\/><br\/>Bei einer UV-Anlage werden Keime durch ultraviolette Strahlung abgetötet. Bei der Nano Keimsperre werden Bakterien hingegen rein mechanisch durch die extrem feinen Poren der Hohlfasern zurückgehalten.<\/p>",
+            "small_text1": "<p><strong>UV-Anlage<\/strong><\/p><ul><li>✅ Kann nicht verstopfen<\/li><li>❌ Recht hohe Anschaffungskosten (ab 500€)<\/li><li>❌ Benötigt Strom<\/li><li>❌  Durchflussgeschwindigkeit beachten. Sonst ist keine Keimsicherheit gegeben <\/li><li>❌ Optik kann verkalken. Keimsicherheit ist beeinträchtigt<br\/><\/li><li>❌ Optik kann sich mit Biomasse zusetzen. Keimsicherheit ist beeinträchtigt<\/li><li>❌ Regelmäßige Reinigung notwendig<\/li><li>❌ Bei hoher Keimkonzentration ist keine Keimsicherheit gegeben<\/li><li>❌ Wassertrübung kann die Effektivität beeiflussen. Keimsicherheit ist beeinträchtigt<\/li><\/ul>",
+            "small_text2": "<p><strong>Hohlfasermembran<\/strong><\/p><ul><li>❌ Kann verstopfen<\/li><li>❌ Kartuschen müssen getauscht werden<\/li><li>✅ Günstige Anschaffungskosten (ab 150€)<\/li><li>✅ Kein Strom benötigt<\/li><li>✅ Durchflussgeschwindigkeit spielt keine Rolle<\/li><li>✅ Keimsicherheit ist garantiert<\/li><\/ul>",
+            "bottom_text": "<p><strong>Tipp<\/strong>: Wenn Sie sich für eine UV-Anlage entscheiden, achten Sie darauf, dass die Anlage in der Lage ist, die Leistung der Lichtquelle elektronisch zu überwachen. Dies gewährleistet eine zuverlässige Funktion und ermöglicht es Ihnen, mögliche Leistungsabfälle oder Störungen frühzeitig zu erkennen.<\/p><p><strong>Zusammenfassend lässt sich sagen:<\/strong> Eine Hohlfasermembran filtert Keime zuverlässig heraus und unterliegt keinen Einflussfaktoren. Das einzige Manko sind die Kartuschen, die regelmäßig ausgetauscht werden sollten. Das Wechselintervall einer Hohlfasermembran hängt stark von der Qualität des Eingangswassers ab. Wenn sauberes Wasser aus öffentlichen Leitungen verwendet wird, kann es mehrere tausend Liter dauern, bis die Membran verstopft und die Durchflussrate beeinträchtigt wird. Wenn jedoch Wasser aus sehr unsauberen Quellen entnommen wird, kann die Membran bereits nach wenigen hundert Litern verstopfen.<\/p>",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bDPYiY",
+        "collapsible_row_nmJzjL",
+        "collapsible_row_grEwhn"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "TECHNISCHE FRAGEN",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
         "content_border_color": "#fafafa",
         "padding_top": 36,
@@ -428,6 +544,8 @@
     "image_banner_MpAExG",
     "collapsible_content_i66qXY",
     "collapsible_content_XwQP9T",
-    "collapsible_content_a8nkay"
+    "collapsible_content_a8nkay",
+    "collapsible_content_8wgiXk",
+    "collapsible_content_B7tWMq"
   ]
 }
