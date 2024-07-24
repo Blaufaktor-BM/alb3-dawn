@@ -77,7 +77,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Für welche Variante soll ich mich entscheiden? ",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>Bei der Auswahl des geeigneten Filters müssen grundsätzlich folgende Punkte beachtet werden:<\/p><ul><li>Größe des Tanks<\/li><li>Die bereits verbaute Pumpe (Tauchpumpe oder Membrandruckpumpe)<\/li><li>Hygienezustand des Tanks und der Leitungen<\/li><li>Persönlicher Anspruch: Soll das Wasser aus dem Tank ohne abkochen als Trinkwasser verwendet werden.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -90,7 +90,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Kann ich ein vorhandenes System umrüsten oder erweitern?",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>Grundsätzlich ist die Entscheidung für ein bestimmtes Set kein endgültiger Schritt. Durch den modularen Aufbau der Gehäuse und Anschlüsse ist es jederzeit möglich, das Set umzurüsten. Das bedeutet, dass ein Befüll-Set (Mobil) auch im Innenraum verbaut werden kann und umgekehrt. Flexibilität bei der Anpassung des Systems ist somit gewährleistet.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -241,9 +241,9 @@
         "collapsible_row_BtRdGH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Was sind die Vorteile der Mobil Variante?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<ul><li>Verunreinigungen, Bakterien und Schadstoffe gelangen nicht in den Tank (Wasser kann nicht kippen).<\/li><li>Es wird keine starke Pumpe benötigt.<\/li><li>Der Filter kann auch zum Abfüllen, zum Beispiel eines Kanisters, verwendet werden, wenn die Zapfstelle nicht mit dem Fahrzeug erreicht werden kann.<\/li><li>Kein Einbau erforderlich.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -254,9 +254,9 @@
         "collapsible_row_V9H8jk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Was sind die Nachteile der Mobil Variante?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<ul><li>Eine gründliche Systemreinigung und Desinfektion ist vor dem Einsatz des Filters erforderlich, wenn das Wasser kalt konsumiert werden soll.<\/li><li>Gutes hygienisches Verhalten ist erforderlich, um sicherzustellen, dass keine Keime in das System eingebracht werden.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -267,22 +267,9 @@
         "collapsible_row_WAk7N9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Muss ich die Filter nach der Betankung ausbauen? ",
             "icon": "check_mark",
-            "row_content": "",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_EiKYij": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nein, während Sie unterwegs sind, bleiben die Kartuschen im Gehäuse verbaut. In der Praxis öffnen Sie lediglich den Deckel, um das Stagnationswasser aus dem Gehäuse ablaufen zu lassen. Anschließend wird das Gehäuse wieder geschlossen und in der Garage verstaut.<br\/><br\/>Erst nach dem Urlaub werden die Kartuschen ausgebaut und getrocknet.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -294,8 +281,7 @@
       "block_order": [
         "collapsible_row_BtRdGH",
         "collapsible_row_V9H8jk",
-        "collapsible_row_WAk7N9",
-        "collapsible_row_EiKYij"
+        "collapsible_row_WAk7N9"
       ],
       "settings": {
         "caption": "FAQ Camping Filter",
@@ -307,7 +293,7 @@
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
-        "title_bg": "#fafafa",
+        "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
         "content_border_color": "#fafafa",
         "padding_top": 36,
@@ -320,9 +306,9 @@
         "collapsible_row_YUUbgc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Was sind die Vorteile der Travel Variante?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre in der Nähe des Entnahmepunkts bietet einen zuverlässigen Schutz vor Keimen im System.<\/li><li>Der Active Breitbandfilter kann auch Schadstoffe filtern, die von Kunststofftanks ausgesondert werden.<\/li><li>Der Tankvorgang wird nicht zeitlich beeinträchtigt, da das Filtern innen erfolgt.<\/li><li>Es ist keine Zapfstelle mit Druck erforderlich.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -333,9 +319,9 @@
         "collapsible_row_ihBy7P": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Was sind die Nachteile der Travel Variante?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p><\/p><ul><li>Starke Membrandruckpumpe mit ca. 3 Bar erforderlich<\/li><li>Der Filter muss in den Wasserstrang eingebaut werden.<\/li><li>Schmutziges Wasser gelangt ungefiltert in den Tank. Durch den Einsatz einer Umschaltvorrichtung kann dieser Nachteil behoben werden.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -346,10 +332,10 @@
         "collapsible_row_QAHDtD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Muss ich eine andere Pumpe verbauen?",
             "icon": "check_mark",
-            "row_content": "",
-            "small_text1": "",
+            "row_content": "<p>Eventuell! Abhängig von der gewählten Filterkartusche empfehlen wir eine entsprechende Pumpe:<\/p>",
+            "small_text1": "<p><strong>Alb Filter Travel ACTIVE<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2,5 Bar (36 psi)<\/strong><\/em> Wasserdruck<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel NANO<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2 Bar (29 psi)<\/strong><\/em> Wasserdruck.<br\/><br\/>Durch die starke Bündelung funktioniert zu Beginn auch eine starke Tauchpumpe. Es kann jedoch nur mit einer Membrandruckpumpe die gesamte Kapazität der Kartusche ausgenutzt werden.<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel FUSION (Active + Nano)<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em> mit mindestens <em><strong>3 Bar (43 psi)<\/strong><\/em> Wasserdruck.<\/p>",
             "small_text2": "",
             "bottom_text": "",
             "exclamation_list": "",
@@ -359,9 +345,10 @@
         "collapsible_row_3UVF49": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Bei uns ist bereits ein Filter verbaut - was ist zu beachten?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Oftmals sind in namhaften Wohnmobilen bereits Filter eingebaut. In solchen Fällen stellt sich die Frage, ob es sinnvoll ist, den vorhandenen Filter zu ergänzen und weiter zu verwenden oder ob ein vollständiger Ersatz erforderlich ist.<br\/><br\/>Wir helfen Ihnen gerne dabei, eine Einschätzung zu geben, welches Vorgehen in Ihrem konkreten Fall sinnvoll ist. Dazu sollten wir Informationen über den bereits eingebauten Filter sowie Ihre spezifischen Anforderungen und Bedürfnisse erhalten. Anhand dieser Informationen können wir gemeinsam eine fundierte Entscheidung treffen, ob eine Ergänzung des Filters oder ein vollständiger Austausch empfehlenswert ist.<\/p><p><strong>Ersetzen:<br\/><\/strong>Sollte der Filter ersetzt werden, kann an dessen Stelle ein Alb Filter eingebaut werden. Für bereits verbaute Filter werden häufig starre Osmoseschläuche und Verbinder der Firmen John Guest oder Reich verwendet.Um unseren Filter in das bestehende Leitungssystem zu integrieren, werden in der Regel nur zwei Adapter benötigt.<\/p><p><\/p><ul><li>1\/2 Zoll Außengewinde auf das vorhandene Schlauchsystem<\/li><li>1\/2 Zoll Innengewinde auf das vorhandene Schlauchsystem <\/li><\/ul><p><br\/>Eine Alternative besteht darin, die Osmoseschläuche bis zu dem Punkt zurückzubauen, an dem die üblichen flexiblen 10 mm Schläuche im Wohnmobil mit einer Tülle adaptiert wurden. Anschließend kann unser <strong>Travel Anschluss-Set <\/strong>angebracht werden. Dadurch wird eine einfache Integration unseres Filters in das bestehende Leitungssystem ermöglicht.<\/p>",
+            "image1": "shopify:\/\/shop_images\/AnschlussFilter.jpg",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
