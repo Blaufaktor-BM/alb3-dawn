@@ -3614,6 +3614,11 @@ h5,
   margin-bottom: 20px;
 }
 
+ul,
+ol {
+  margin: 0;
+}
+
 li ul {
   margin-top: 7px;
 }
