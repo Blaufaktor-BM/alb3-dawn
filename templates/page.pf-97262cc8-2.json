@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "second_font": false,
-            "heading": "<h1>FAQ Campingfilter<\/h1>",
+            "heading": "<h1>FAQ Trinkwasserfilter<\/h1>",
             "heading_tag": "h1",
             "heading_size": "h1",
             "heading_weight": "700"
@@ -33,26 +33,14 @@
         "text_BdrPTC": {
           "type": "text",
           "settings": {
-            "text": "<p>Alle Fragen und Antworten zu den Alb Filter Camping-Sets den passenden Filterkartuschen sowie Informationen zu Einbau und Wechsel.<\/p>",
+            "text": "<p>Alle Fragen und Antworten zum Thema Trinkwasserfilter im Haushaltsbereich (Untertisch und Wasserhahn) finden Sie hier.<\/p>",
             "text_style": "body"
-          }
-        },
-        "buttons_RPpkxM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "FAQ Campingfilter",
-            "button_link_1": "shopify:\/\/pages\/faq-camping",
-            "button_style_secondary_1": true,
-            "button_label_2": "FAQ Duschfilter",
-            "button_link_2": "shopify:\/\/pages\/faq-duschfilter",
-            "second_btn_color": "#ffffff"
           }
         }
       },
       "block_order": [
         "heading_fYNhe7",
-        "text_BdrPTC",
-        "buttons_RPpkxM"
+        "text_BdrPTC"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
