@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "second_font": false,
-            "heading": "<h1>FAQ Campingfilter<\/h1>",
+            "heading": "<h1>FAQ Duschfilter<\/h1>",
             "heading_tag": "h1",
             "heading_size": "h1",
             "heading_weight": "700"
@@ -33,26 +33,14 @@
         "text_BdrPTC": {
           "type": "text",
           "settings": {
-            "text": "<p>Alle Fragen und Antworten zu den Alb Filter Camping-Sets den passenden Filterkartuschen sowie Informationen zu Einbau und Wechsel.<\/p>",
+            "text": "<p>Alle Fragen und Antworten zu den Alb Duschfiltern, deren Filtereigenschaften und Nutzungsdauer sowie Informationen zu Einbau und Wechsel.<\/p>",
             "text_style": "body"
-          }
-        },
-        "buttons_RPpkxM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "FAQ Campingfilter",
-            "button_link_1": "shopify:\/\/pages\/faq-camping",
-            "button_style_secondary_1": true,
-            "button_label_2": "FAQ Duschfilter",
-            "button_link_2": "shopify:\/\/pages\/faq-duschfilter",
-            "second_btn_color": "#ffffff"
           }
         }
       },
       "block_order": [
         "heading_fYNhe7",
-        "text_BdrPTC",
-        "buttons_RPpkxM"
+        "text_BdrPTC"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
@@ -76,12 +64,12 @@
         "collapsible_row_DFjfBA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Für welche Variante soll ich mich entscheiden? ",
+            "heading": "Für welchen Duschfilter soll ich mich entscheiden?",
             "icon": "check_mark",
-            "row_content": "<p>Bei der Auswahl des geeigneten Filters müssen grundsätzlich folgende Punkte beachtet werden:<\/p><ul><li>Größe des Tanks<\/li><li>Die bereits verbaute Pumpe (Tauchpumpe oder Membrandruckpumpe)<\/li><li>Hygienezustand des Tanks und der Leitungen<\/li><li>Persönlicher Anspruch: Soll das Wasser aus dem Tank ohne abkochen als Trinkwasser verwendet werden.<\/li><\/ul>",
-            "small_text1": "",
+            "row_content": "<p>In erster Linie hängt die Auswahl von den individuellen Bedürfnissen ab. Zusammengefasst jedoch ein kurzer Überblick über unsere Alb Duschfiltervarianten:<\/p>",
+            "small_text1": "<p><strong>Duschfilter Nano:<br\/><\/strong><br\/>Keimsperre gegen Bakterien: Dieser Duschfilter ist speziell entwickelt, um Bakterien wie Legionellen und E. coli abzuwehren. Er kann dazu beitragen, das Risiko von Infektionen oder Krankheiten durch diese Keime zu reduzieren.<\/p><p><strong>Duschfilter Balance:<br\/><br\/><\/strong>Aktivkohlefilter mit Mineralisierung und KDF: Dieser Filter besteht aus Aktivkohlegranulat, das dazu dient, Verunreinigungen wie Chlor, Schwermetalle und andere chemische Rückstände aus dem Wasser zu reduzieren. Zusätzlich erfolgt eine Mineralisierung, bei der dem Wasser Mineralstoffe zugeführt werden. Das zusätzliche KDF Granulat kann ebenfalls helfen, Schwermetalle zu reduzieren.<\/p><p><strong>Duschfilter Shungit:<br\/><\/strong>Schungit ist ein seltenes Gestein, das für seine potenziell energetisierenden Eigenschaften bekannt ist. Ein Duschfilter, der mit Schungit ausgestattet ist, kann dazu beitragen, das Wasser zu reinigen und möglicherweise eine energetische Wirkung auf das Wasser zu haben.<br\/><\/p>",
             "small_text2": "",
-            "bottom_text": "",
+            "bottom_text": "<p>Die verbauten Filterkartuschen können jederzeit durch eine andere Kartusche ersetzt werden, da die Gehäuse modular aufgebaut sind. Es besteht auch die Möglichkeit die Gehäuse in Reihe zu schalten um beispielsweise eine Balance Kartusche und eine Nano Kartusche zu kombinieren. Hierbei muss jedoch der Platz und das Gewicht des Filters beachtet werden.<\/p>",
             "exclamation_list": "",
             "page": ""
           }
@@ -219,7 +207,7 @@
         "collapsible_row_XEmFtr"
       ],
       "settings": {
-        "caption": "FAQ Camping Filter",
+        "caption": "FAQ Duschfilter",
         "heading": "HÄUFIGE FRAGEN",
         "enable_icon": false,
         "heading_tag": "h2",
@@ -231,244 +219,6 @@
         "title_bg": "#ffffff",
         "text_color": "#616161",
         "content_border_color": "#f3f3f3",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_XwQP9T": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_BtRdGH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind die Vorteile der Mobil Variante?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Verunreinigungen, Bakterien und Schadstoffe gelangen nicht in den Tank (Wasser kann nicht kippen).<\/li><li>Es wird keine starke Pumpe benötigt.<\/li><li>Der Filter kann auch zum Abfüllen, zum Beispiel eines Kanisters, verwendet werden, wenn die Zapfstelle nicht mit dem Fahrzeug erreicht werden kann.<\/li><li>Kein Einbau erforderlich.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_V9H8jk": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind die Nachteile der Mobil Variante?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine gründliche Systemreinigung und Desinfektion ist vor dem Einsatz des Filters erforderlich, wenn das Wasser kalt konsumiert werden soll.<\/li><li>Gutes hygienisches Verhalten ist erforderlich, um sicherzustellen, dass keine Keime in das System eingebracht werden.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_WAk7N9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Muss ich die Filter nach der Betankung ausbauen? ",
-            "icon": "check_mark",
-            "row_content": "<p>Nein, während Sie unterwegs sind, bleiben die Kartuschen im Gehäuse verbaut. In der Praxis öffnen Sie lediglich den Deckel, um das Stagnationswasser aus dem Gehäuse ablaufen zu lassen. Anschließend wird das Gehäuse wieder geschlossen und in der Garage verstaut.<br\/><br\/>Erst nach dem Urlaub werden die Kartuschen ausgebaut und getrocknet.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_BtRdGH",
-        "collapsible_row_V9H8jk",
-        "collapsible_row_WAk7N9"
-      ],
-      "settings": {
-        "caption": "FAQ Camping Filter",
-        "heading": "BEFÜLLFILTER (MOBIL) ",
-        "enable_icon": false,
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "heading_alignment": "left",
-        "open_first_collapsible_row": false,
-        "title_color": "#003e5f",
-        "title_bg": "rgba(0,0,0,0)",
-        "text_color": "#616161",
-        "content_border_color": "#fafafa",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_a8nkay": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_YUUbgc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind die Vorteile der Travel Variante?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre in der Nähe des Entnahmepunkts bietet einen zuverlässigen Schutz vor Keimen im System.<\/li><li>Der Active Breitbandfilter kann auch Schadstoffe filtern, die von Kunststofftanks ausgesondert werden.<\/li><li>Der Tankvorgang wird nicht zeitlich beeinträchtigt, da das Filtern innen erfolgt.<\/li><li>Es ist keine Zapfstelle mit Druck erforderlich.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_ihBy7P": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind die Nachteile der Travel Variante?",
-            "icon": "check_mark",
-            "row_content": "<p><\/p><ul><li>Starke Membrandruckpumpe mit ca. 3 Bar erforderlich<\/li><li>Der Filter muss in den Wasserstrang eingebaut werden.<\/li><li>Schmutziges Wasser gelangt ungefiltert in den Tank. Durch den Einsatz einer Umschaltvorrichtung kann dieser Nachteil behoben werden.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_QAHDtD": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Muss ich eine andere Pumpe verbauen?",
-            "icon": "check_mark",
-            "row_content": "<p>Eventuell! Abhängig von der gewählten Filterkartusche empfehlen wir eine entsprechende Pumpe:<\/p>",
-            "small_text1": "<p><strong>Alb Filter Travel ACTIVE<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2,5 Bar (36 psi)<\/strong><\/em> Wasserdruck<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel NANO<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2 Bar (29 psi)<\/strong><\/em> Wasserdruck.<br\/><br\/>Durch die starke Bündelung funktioniert zu Beginn auch eine starke Tauchpumpe. Es kann jedoch nur mit einer Membrandruckpumpe die gesamte Kapazität der Kartusche ausgenutzt werden.<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel FUSION (Active + Nano)<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em> mit mindestens <em><strong>3 Bar (43 psi)<\/strong><\/em> Wasserdruck.<\/p>",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_3UVF49": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Bei uns ist bereits ein Filter verbaut - was ist zu beachten?",
-            "icon": "check_mark",
-            "row_content": "<p>Oftmals sind in namhaften Wohnmobilen bereits Filter eingebaut. In solchen Fällen stellt sich die Frage, ob es sinnvoll ist, den vorhandenen Filter zu ergänzen und weiter zu verwenden oder ob ein vollständiger Ersatz erforderlich ist.<br\/><br\/>Wir helfen Ihnen gerne dabei, eine Einschätzung zu geben, welches Vorgehen in Ihrem konkreten Fall sinnvoll ist. Dazu sollten wir Informationen über den bereits eingebauten Filter sowie Ihre spezifischen Anforderungen und Bedürfnisse erhalten. Anhand dieser Informationen können wir gemeinsam eine fundierte Entscheidung treffen, ob eine Ergänzung des Filters oder ein vollständiger Austausch empfehlenswert ist.<\/p><p><strong>Ersetzen:<br\/><\/strong>Sollte der Filter ersetzt werden, kann an dessen Stelle ein Alb Filter eingebaut werden. Für bereits verbaute Filter werden häufig starre Osmoseschläuche und Verbinder der Firmen John Guest oder Reich verwendet.Um unseren Filter in das bestehende Leitungssystem zu integrieren, werden in der Regel nur zwei Adapter benötigt.<\/p><p><\/p><ul><li>1\/2 Zoll Außengewinde auf das vorhandene Schlauchsystem<\/li><li>1\/2 Zoll Innengewinde auf das vorhandene Schlauchsystem <\/li><\/ul><p><br\/>Eine Alternative besteht darin, die Osmoseschläuche bis zu dem Punkt zurückzubauen, an dem die üblichen flexiblen 10 mm Schläuche im Wohnmobil mit einer Tülle adaptiert wurden. Anschließend kann unser <strong>Travel Anschluss-Set <\/strong>angebracht werden. Dadurch wird eine einfache Integration unseres Filters in das bestehende Leitungssystem ermöglicht.<\/p>",
-            "image1": "shopify:\/\/shop_images\/AnschlussFilter.jpg",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_NNcWQY": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "An welcher Stelle im Wasserstrang soll ich den Filter einbauen?",
-            "icon": "check_mark",
-            "row_content": "<p>Es ist empfehlenswert, den Filter direkt unter der Spüle zu installieren, also dort, wo das zu konsumierende Wasser entnommen wird. Diese Variante bietet den höchsten Schutz vor einer möglichen Verkeimung in den Wasserleitungen. Insbesondere in Vans und Kastenwägen wird oft aufgrund begrenzter Platzverhältnisse diese Variante realisiert.<br\/><br\/>Alternativ wird der Filter auch oft direkt nach der Pumpe positioniert, häufig nach der Abzweigung in den Kaltwasserstrang. Dadurch wird der gesamte Strang und alle Entnahmepunkte abgesichert, was einen weiteren Vorteil darstellt. Auch haben wir hier oft eine zugängliche Serviceklappe in der es ausreichend Platz zum Einbau gibt. <\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_WUbFzP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Starre Wasserschläuche im Camper - kann ich den Filter anschließen?",
-            "icon": "check_mark",
-            "row_content": "<p>Ja, in den meisten Fällen sind in solchen Systemen Kunststoffverbinder der Firmen <strong>John Guest<\/strong>,  <strong>Reich <\/strong>oder <strong>Whale<\/strong> verbaut. Um den Alb Filter in den bestehenden Wasserstrang integrieren zu können, sind Adapter erforderlich.<br\/><br\/>Bei Bedarf können Sie uns gerne eine Anfrage mit einem Bild des bestehenden Systems senden. Auf dieser Grundlage können wir Ihnen gegebenenfalls eine passende Lösung anbieten.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_QXNVDL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Spielt die Einbaulage des Gehäuses eine Rolle (Waagrecht, Senkrecht)?",
-            "icon": "check_mark",
-            "row_content": "<p>Die Einbaurichtung des Filtergehäuses hat keinen Einfluss auf die Filterleistung. Sie können das Gehäuse in jeder beliebigen Lage installieren.<\/p>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_YUUbgc",
-        "collapsible_row_ihBy7P",
-        "collapsible_row_QAHDtD",
-        "collapsible_row_3UVF49",
-        "collapsible_row_NNcWQY",
-        "collapsible_row_WUbFzP",
-        "collapsible_row_QXNVDL"
-      ],
-      "settings": {
-        "caption": "FAQ Camping Filter",
-        "heading": "EINBAUFILTER (TRAVEL) ",
-        "enable_icon": false,
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "heading_alignment": "left",
-        "open_first_collapsible_row": false,
-        "title_color": "#003e5f",
-        "title_bg": "#fafafa",
-        "text_color": "#616161",
-        "content_border_color": "#fafafa",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_8wgiXk": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_bQWLU6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind dieVorteiledes ProCamper Sets?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre, die nahe am Entnahmepunkt angebracht ist, bietet einen umfassenden Schutz vor Keimen im System.<\/li><li>Nicht reproduzierbare Schadstoffe werden im Vorfeld durch den Filter reduziert oder herausgefiltert.<\/li><li>Das Wasser gelangt bereits in einem sehr sauberen Zustand in den Tank.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_qnAqNW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was sind dieNachteile des ProCamper Sets?",
-            "icon": "check_mark",
-            "row_content": "<ul><li>Eine Membrandruckpumpe mit einem Druck von ca. 2 bar wird empfohlen.<\/li><li>Der Filter muss in den Wasserstrang integriert werden.<\/li><\/ul>",
-            "small_text1": "",
-            "small_text2": "",
-            "bottom_text": "",
-            "exclamation_list": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_bQWLU6",
-        "collapsible_row_qnAqNW"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "PRO CAMPER SET (KOMBINATION TRAVEL & MOBIL)",
-        "enable_icon": false,
-        "heading_tag": "h2",
-        "heading_size": "h2",
-        "heading_color": "#003e5f",
-        "heading_alignment": "left",
-        "open_first_collapsible_row": false,
-        "title_color": "#003e5f",
-        "title_bg": "rgba(0,0,0,0)",
-        "text_color": "#616161",
-        "content_border_color": "#fafafa",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -608,9 +358,6 @@
     "main",
     "image_banner_MpAExG",
     "collapsible_content_i66qXY",
-    "collapsible_content_XwQP9T",
-    "collapsible_content_a8nkay",
-    "collapsible_content_8wgiXk",
     "collapsible_content_B7tWMq",
     "collapsible_content_MMTxqQ"
   ]
