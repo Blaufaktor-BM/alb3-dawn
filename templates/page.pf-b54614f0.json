@@ -272,6 +272,71 @@
         "padding_bottom": 36
       }
     },
+    "collapsible_content_GamYVU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ghKWCm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie wird der Filter eingebaut?",
+            "icon": "check_mark",
+            "row_content": "<p>Der Einbau eines Untertischfilters ist generell recht simpel und in kurzer Zeit erledigt. Sie müssen den Filter mit dem beiliegenden Anschluss zwischen dem Kaltwassereckventil und dem Zulaufschlauch des Wasserhahns integrieren.<br\/><br\/>Hier finden Sie ein Einbauvideo und Anleitungen: <br\/><a href=\"\/pages\/installation-untertisch\" title=\"Installation Untertisch\">Installation Untertischfilter<\/a><\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_hC8KJh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technischen Daten Alb Filter Element Gehäuse",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Maße<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart<br\/><\/strong>1\/2 Zoll Innengewinde (Eingangsseite)1\/2 Zoll Aussengewinde (Ausgangsseite).<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_FYNChn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Spielt die Einbaulage des Gehäuses eine Rolle (Waagrecht, Senkrecht)? ",
+            "icon": "check_mark",
+            "row_content": "<p>Die Einbaurichtung des Filtergehäuses hat keinen Einfluss auf die Filterleistung. Sie können das Gehäuse in jeder Lage installieren.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ghKWCm",
+        "collapsible_row_hC8KJh",
+        "collapsible_row_FYNChn"
+      ],
+      "settings": {
+        "caption": "FAQ Trinkwasserfilter",
+        "heading": "UNTERTISCH (ELEMENT)",
+        "enable_icon": false,
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "title_color": "#003e5f",
+        "title_bg": "rgba(0,0,0,0)",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_a8nkay": {
       "type": "collapsible-content",
       "blocks": {
@@ -581,6 +646,7 @@
     "image_banner_MpAExG",
     "collapsible_content_i66qXY",
     "collapsible_content_XwQP9T",
+    "collapsible_content_GamYVU",
     "collapsible_content_a8nkay",
     "collapsible_content_8wgiXk",
     "collapsible_content_B7tWMq",
