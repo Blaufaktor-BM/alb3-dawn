@@ -23,7 +23,7 @@
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": true,
-        "image_height": "small",
+        "image_height": "thin",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
         "show_text_box": true,
