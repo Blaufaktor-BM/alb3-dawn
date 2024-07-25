@@ -176,7 +176,8 @@
             "bottom_radius": false,
             "enable_shadow": true,
             "image_des": "<p>Nur mit einem hochwertigen Trinkwasserfilter können diese Schadstoffe aus dem Trinkwasser gefiltert und sauberes Wasser genossen werden!<\/p>",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": true
           }
         }
       },
@@ -273,7 +274,8 @@
             "bottom_radius": false,
             "enable_shadow": true,
             "image_des": "",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": false
           }
         }
       },
@@ -349,7 +351,8 @@
             "bottom_radius": false,
             "enable_shadow": false,
             "image_des": "",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": false
           }
         }
       },
@@ -397,7 +400,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
             "title": "GUT ZU WISSEN!",
+            "title_tag": "p",
             "heading_size": "h2",
+            "heading_second_font": false,
             "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
             "second_font": true,
             "background_color": "#93d4ff",
@@ -463,7 +468,8 @@
             "bottom_radius": false,
             "enable_shadow": true,
             "image_des": "<p>Alte Rohrleitungen rostig und eingestaubt.<\/p>",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": false
           }
         }
       },
@@ -521,7 +527,8 @@
             "bottom_radius": false,
             "enable_shadow": true,
             "image_des": "",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": false
           }
         }
       },
@@ -576,7 +583,8 @@
             "text1": "Aktivkohlegranulat (Tisch- bzw. Kannenfilter)",
             "image2": "shopify:\/\/shop_images\/pf-6ea05bad--albfilterratgeberaktivkohlegesintert.jpg",
             "text2": "Gesinterter Aktivkohleblock (Alb Filter)",
-            "enable_shadow": false
+            "enable_shadow": false,
+            "text_second_font": true
           }
         },
         "text_7pQeN4": {
@@ -591,7 +599,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
             "title": "GUT ZU WISSEN!",
+            "title_tag": "p",
             "heading_size": "h2",
+            "heading_second_font": false,
             "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
             "second_font": true,
             "background_color": "#93d4ff",
@@ -830,7 +840,8 @@
             "bottom_radius": false,
             "enable_shadow": true,
             "image_des": "",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": false
           }
         }
       },
@@ -902,7 +913,8 @@
             "bottom_radius": false,
             "enable_shadow": true,
             "image_des": "",
-            "text_color": "#616161"
+            "text_color": "#616161",
+            "des_second_font": false
           }
         },
         "text_7HfBCY": {
@@ -958,7 +970,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
             "title": "RECHENBEISPIEL",
+            "title_tag": "p",
             "heading_size": "h2",
+            "heading_second_font": false,
             "text": "<p>Im Jahr 2022 lag der durchschnittliche Preis für 1 m3 Leitungswasser (1.000 Liter) <a href=\"https:\/\/www.destatis.de\/DE\/Themen\/Gesellschaft-Umwelt\/Umwelt\/Wasserwirtschaft\/Tabellen\/tw-08-entgelt-trinkwasserversorgung-tarifgeb-nach-tariftypen-2020-2022-land-bund.html\" target=\"_blank\">in Baden-Württemberg <\/a>bei 2,33 EUR. Das ergibt 0,233 Cent pro Liter <a href=\"#q15\" title=\"#q15\">[15]<\/a>.<br\/><br\/>Flaschenwasser kostet ein Vielfaches. Preiswertes Mineralwasser bekommt man ab 18 Cent pro Liter (z. B. Quellbrunn bei Aldi), also ca. 77 Mal mehr. Bekannte Wassermarken (z. B. Adelholzener bei REWE) bieten ihr Flaschenwasser für etwa 60 Cent pro Liter an, was ca. 257 Mal teurer ist als Leitungswasser.<\/p>",
             "second_font": true,
             "background_color": "#93d4ff",
