@@ -23,10 +23,10 @@
         "heading_YBPYkQ": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Gewinde-Ratgeber<\/h1>",
+            "heading": "<p>Gewinde-Ratgeber<\/p>",
             "remove_spacing": false,
             "color": "#003e5f",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "heading_size": "h1",
             "font_weight": "700",
             "second_font": false
@@ -71,7 +71,7 @@
       "settings": {
         "heading": "Gewinderatgeber als Video",
         "heading_tag": "h3",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_weight": "700",
         "heading_second_font": false,
         "enable_video_looping": false,
