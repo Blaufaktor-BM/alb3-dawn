@@ -116,7 +116,7 @@
                 </div>
                 {% if block.settings.image_des != blank %}
                   <div
-                    class="rich-text__image_des rte center second-font"
+                    class="rich-text__image_des rte center{% if block.settings.des_second_font %} second-font{% endif %}"
                     {% if block.settings.text_color != blank %}
                       style="color: {{ block.settings.text_color }}"
                     {% endif %}
@@ -296,7 +296,7 @@
                         }}
                       </div>
                       {% if block.settings.text1 != blank %}
-                        <div class="rich-text__two_images-text center second-font">
+                        <div class="rich-text__two_images-text center{% if block.settings.text_second_font %} second-font{% endif %}">
                           {{ block.settings.text1 }}
                         </div>
                       {% endif %}
@@ -319,7 +319,7 @@
                         }}
                       </div>
                       {% if block.settings.text2 != blank %}
-                        <div class="rich-text__two_images-text center second-font">
+                        <div class="rich-text__two_images-text center{% if block.settings.text_second_font %} second-font{% endif %}">
                           {{ block.settings.text2 }}
                         </div>
                       {% endif %}
@@ -865,6 +865,11 @@
           "id": "text_color",
           "label": "Text Color",
           "default": "#616161"
+        },
+        {
+          "type": "checkbox",
+          "id": "des_second_font",
+          "label": "Description Second Font"
         }
       ]
     },
@@ -898,6 +903,12 @@
           "type": "checkbox",
           "id": "enable_shadow",
           "label": "Enable Shadow"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_second_font",
+          "label": "Text Second Font",
+          "default": true
         }
       ]
     },
