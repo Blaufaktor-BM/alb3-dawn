@@ -165,6 +165,15 @@
                 </a>
               {%- endif -%}
             </div>
+          {% when 'top_btn' %}
+            <div class="banner_top_btn center">
+              <a class="btn-second second-font" href="{{ block.settings.btn_url }}">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor" d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/>
+                </svg>
+                {{ block.settings.btn_text -}}
+              </a>
+            </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -590,6 +599,24 @@
           "id": "second_btn_color",
           "label": "Second Button Color",
           "default": "#0081be"
+        }
+      ]
+    },
+    {
+      "type": "top_btn",
+      "name": "Top Button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text",
+          "default": "Zurück"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
         }
       ]
     }

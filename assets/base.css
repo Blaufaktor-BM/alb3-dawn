@@ -6471,6 +6471,12 @@ ul.breadcrumb li a:hover {
 
 /* second product compare */
 /* image banner */
+.banner_top_btn a {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner--thin .banner__content {
   padding-top: 20px;
   padding-bottom: 20px;
