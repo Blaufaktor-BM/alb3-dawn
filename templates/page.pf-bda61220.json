@@ -43,6 +43,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>TRINKWASSERFILTER<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
@@ -54,6 +55,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserfilter für Trinkwasser<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
@@ -71,11 +73,13 @@
         "button_GHiKCW": {
           "type": "button",
           "settings": {
+            "center": false,
             "button_label": "Trinkwasserfilter kaufen",
             "button_link": "shopify:\/\/collections\/trinkwasserfilter",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": ""
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -109,7 +113,10 @@
             "heading": "Wasserfilter am Wasserhahn",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
             "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "text_second_font": false,
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
             "first_btn_url": "shopify:\/\/collections\/wasserhahnfilter",
@@ -125,7 +132,10 @@
             "heading": "Wasserfilter Untertisch",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
             "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "text_second_font": false,
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
             "first_btn_url": "shopify:\/\/collections\/wasserfilter-untertisch",
@@ -143,6 +153,8 @@
         "color": "#003e5f",
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_second_font": false,
         "img_bg": "#f2f2f2",
         "content_bg": "#fafafa",
         "title_color": "#003e5f",
@@ -168,7 +180,11 @@
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
             "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
-            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg"
+            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "subtitle1": "",
+            "subtitle_range1": 2,
+            "subtitle2": "",
+            "subtitle_range2": 1
           }
         },
         "filter_properties_r4F6Uc": {
@@ -349,6 +365,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Kundenstimmen zu unseren Trinkwasserfiltern<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
@@ -464,13 +481,18 @@
       ],
       "settings": {
         "background_color": "#fafafa",
+        "enable_border": false,
         "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "image_width": 150,
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#616161",
+        "enable_heading_second_font": false,
         "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
         "text_color": "#616161",
+        "enable_text_second_font": true,
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
@@ -487,6 +509,10 @@
             "heading": "Warum Leitungswasser filtern? Sieht die Trinkwasserverordnung nicht strenge Kontrollen vor?",
             "icon": "none",
             "row_content": "<p>Unser <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland <\/a>wird zwar streng kontrolliert, doch die Realität zeigt oft ein anderes Bild. Die Qualität beruht auf Grenzwerten für derzeit ca. 60 Schadstoffe, die in der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_self\">Trinkwasserverordnung <\/a>festgelegt wurden.<br\/><br\/>Viele Stoffkonzentrationen wie etwa Medikamentenrückstände, Hormone, Mikroplastik und Pestizide u.v.m. werden von der Trinkwasserverordnung nicht erfasst!<br\/><br\/>Jährlich häufen sich in Deutschland Meldungen über <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\" target=\"_self\">Legionellen <\/a>im Trinkwasser. Und auch geringfügige Stoffkonzentrationen von etwa <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\" target=\"_self\">Schwermetallen <\/a>oder <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" target=\"_self\">Mikroplastik <\/a>werden von der Trinkwasserverordnung nicht berücksichtigt.<br\/><br\/>Die Wasserqualität wird zudem meist nur an den Verteilerzentren gemessen, nicht am Hausanschluss. Das bedeutet, dass das Leitungswasser auf dem Weg zu deinem Wasserhahn verschiedene Verunreinigungen aus dem Leitungsnetz aufnehmen kann.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -496,6 +522,10 @@
             "heading": "Bleiben wertvolle Mineralien erhalten wenn ich das Wasser filter?",
             "icon": "none",
             "row_content": "<p>Wasser filtern und lebenswichtige Mineralien erhalten, das ist das Prinzip der Trinkwasserfilter von Alb Filter.<br\/><br\/>Ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\") ist, dass unsere Kartuschen  essentielle  Spurenelemente und Mineralien im Wasser belassen und diese nicht heraus filtern.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -505,6 +535,10 @@
             "heading": "Wann sollte ich das Wasser filtern und wann nicht?",
             "icon": "none",
             "row_content": "<p>Immer, wenn Sie das <strong>Wasser trinken, Getränke oder Lebensmittel <\/strong>zubereiten möchten, macht es Sinn gefiltertes Wasser zu verwenden. Zum Abspülen oder Händewaschen reicht auch ungefiltertes Wasser. Generell ist das Wasser aus Sprudelflaschen oft nicht besser als ungefiltertes Leitungswasser. Mit einem guten Wasserfilter erreichen Sie somit deutlich gesünderes, von Schadstoffen befreites Wasser.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -514,6 +548,10 @@
             "heading": "Was ist der Unterschied zwischen Active & Active Plus+?",
             "icon": "none",
             "row_content": "<p>Die<strong>Active Plus+<\/strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine<strong>Kalkreduktion um ca. 4 - 7 dH°<\/strong>.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -523,6 +561,10 @@
             "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
             "icon": "none",
             "row_content": "<p>Beachten Sie die Wechselintervalle von <strong>4 Monaten für Active und Active Plus+ sowie 6 Monate für die Nano<\/strong>, dann sind Sie grundsätzlich auf „der sicheren Seite“.<br\/>Es gibt bei Active und Active Plus+ keine weiteren Indikatoren für einen Wechsel, abgesehen einer <strong>regelmäßigen Wasserüberprüfung im Labor, <\/strong>was natürlich nicht realistisch ist. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -532,6 +574,10 @@
             "heading": "Welche Arten von Verunreinigungen werden durch den Trinkwasserfilter entfernt?",
             "icon": "none",
             "row_content": "<p>Unsere Trinkwasserfilterkartuschen bieten verschiedene Filterstufen, um eine Vielzahl von Verunreinigungen effektiv zu entfernen:<br\/><br\/><span style=\"text-decoration:underline\">Active Kartusche <\/span><strong>Filtert schlechten Geschmack und Gerüche:<\/strong>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (wie Chlor, CKW’s, FCKW’s und mehr) sowie Geschmacksbeeinträchtigungen im Trinkwasser.<br\/><br\/><strong>Reduziert Schwermetalle:<\/strong>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie Blei und Kupfer im Trinkwasser.<br\/><br\/><strong>Filtrierung von Mikroplastik und kleinsten Partikeln:<\/strong>Durch die feine Struktur der gesinterten Aktivkohle werden kleinste Plastikteile zuverlässig zurückgehalten.<br\/><br\/><strong>Reduzierung von Arzneimittelrückständen und Pestiziden:<\/strong>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone und mehr können reduziert werden.<br\/><br\/><span style=\"text-decoration:underline\">ActivePlus Kartusche<\/span>Alle Filtereigenschaften der Active Kartusche und filter zusätzlich:<br\/><br\/><strong>Gegen Bakterien und Keime:<\/strong>Keimschutz ohne Chemie durch eine mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<br\/><br\/><strong>Kalkreduktion \/ Wasserenthärtung:<\/strong>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen, wodurch weniger anhaftende Oberflächen entstehen.<br\/><br\/><span style=\"text-decoration:underline\">Nano Kartusche<\/span><strong>Schutz vor Mikroorganismen:<\/strong>Der Schwerpunkt der Nano Kartusche liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen, z.B. E-Coli, Vibrio Cholerae, Shigellen, Salmonellen.<br\/><br\/><strong>Schutz vor Legionellen:<\/strong>Die Nano Kartusche schützt zuverlässig vor Legionellen und anderen Mikroorganismen, ob präventiv oder bei positivem Legionellen-Befund.<br\/><br\/><strong>Reduziert Trübungen:<\/strong>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         },
@@ -541,6 +587,10 @@
             "heading": "Welche Inhaltstoffe befinden sich in unserem Leitungswasser?",
             "icon": "none",
             "row_content": "<p>Unser Leitungswasser kann eine Vielzahl von <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Inhaltsstoffen  <\/a>enthalten, darunter natürliche Mineralien wie Calcium und Magnesium sowie Rückstände von <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor\" target=\"_self\">Chlor<\/a>, das zur Desinfektion verwendet wird. Schwermetalle wie Blei und Kupfer können aus alten Rohrleitungen stammen. Zusätzlich können organische Verbindungen wie Pestizide, Herbizide und <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\" target=\"_self\">Medikamentenrückstände <\/a>ins Wasser gelangen. Mikroplastik und andere kleine Partikel sind ebenfalls möglich. Durch den Einsatz von Trinkwasserfiltern können diese Verunreinigungen erheblich reduziert werden, wodurch die Wasserqualität und Sicherheit verbessert wird.<br\/><br\/>Mehr zum Thema Inhaltsstoffe findest du in unserem <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhalt\" target=\"_self\">Ratgeber<\/a>.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
             "page": ""
           }
         }
@@ -558,9 +608,12 @@
         "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
         "heading": "Fragen und Antworten",
+        "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": true,
         "title_color": "#003e5f",
@@ -605,6 +658,7 @@
         "heading": "Mehr zum Thema Wasser und Wasserfilter",
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
         "second_font": false,
         "mobile_center": false,
