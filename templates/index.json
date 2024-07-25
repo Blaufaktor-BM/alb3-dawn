@@ -149,8 +149,8 @@
         "mobile_column": "1",
         "text_color": "#616161",
         "link_color": "#0081be",
-        "icon_title_second_font": true,
-        "info_second_font": true,
+        "icon_title_second_font": false,
+        "info_second_font": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
