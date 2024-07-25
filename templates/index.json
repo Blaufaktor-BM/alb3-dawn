@@ -104,6 +104,7 @@
         "item_J63FG7",
         "item_MBE7jn"
       ],
+      "disabled": true,
       "settings": {
         "desktop_column": 5,
         "mobile_column": "1",
