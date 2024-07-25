@@ -5078,6 +5078,7 @@ slideshow-component .banner__heading.h1 {
 }
 
 .proudct-slider__subtitle {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
