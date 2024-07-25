@@ -4709,6 +4709,7 @@ slideshow-component .banner__heading.h1 {
 
 .rich-text__icon_content-title {
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .rich-text_icon_content_media img {
