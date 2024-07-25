@@ -16,9 +16,82 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_fFQiGe": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_H6rrHa": {
+          "type": "caption",
+          "settings": {
+            "caption": "ALB FILTER®",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium",
+            "second_font": false
+          }
+        },
+        "heading_eJ8KUk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>KARRIERE<\/h1>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "subtitle_LBrNNC": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Wir sind Alb Filter. Wir stellen den Menschen ins Zentrum. Bei unseren Kunden und uns selbst.",
+            "subtitle_tag": "p",
+            "subtitle_size": "h3",
+            "font_weight": "400",
+            "color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_UKtTVR": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Willkommen bei Alb Filter!<\/h3><p>Wir freuen uns sehr über dein Interesse an einer Karriere bei uns. Aktuell sind jedoch alle unsere Stellen bereits besetzt.<br\/>Dennoch sind wir immer offen für Initiativbewerbungen von talentierten und motivierten Menschen wie dir.<br\/><br\/>Als stark wachsendes Unternehmen in der Filterindustrie schätzen wir das Engagement und die Leidenschaft unserer Mitarbeiter. Obwohl wir momentan keine offenen Positionen haben, möchten wir dennoch die Möglichkeit nutzen, dich kennenzulernen und potenzielle zukünftige Chancen für eine Zusammenarbeit zu schaffen.<br\/><br\/>Deine Initiativbewerbung gibt uns die Gelegenheit, mehr über deine Fähigkeiten, Erfahrungen und deine Motivation zu erfahren. Wir sind stets daran interessiert, herausragende Kandidaten zu entdecken, die einen Mehrwert für unser Unternehmen bringen können.<br\/><br\/>Wir bitten dich daher, uns deine vollständigen Bewerbungsunterlagen, einschließlich Lebenslauf und Anschreiben, zukommen zu lassen. Teile uns mit, warum du gerne Teil unseres Teams werden möchtest. Wir werden deine Bewerbung sorgfältig prüfen und dich kontaktieren, sobald sich eine passende Gelegenheit ergibt.<br\/><br\/>Wir bedanken uns herzlich für dein Interesse an einer Karriere bei Alb Filter und freuen uns darauf, von dir zu hören. <\/p><p>Wir freuen uns sehr über dein Interesse an einer Karriere bei uns. Aktuell sind jedoch alle unsere Stellen bereits besetzt.<br\/>Dennoch sind wir immer offen für Initiativbewerbungen von talentierten und motivierten Menschen wie dir.<br\/><br\/>Als stark wachsendes Unternehmen in der Filterindustrie schätzen wir das Engagement und die Leidenschaft unserer Mitarbeiter. Obwohl wir momentan keine offenen Positionen haben, möchten wir dennoch die Möglichkeit nutzen, dich kennenzulernen und potenzielle zukünftige Chancen für eine Zusammenarbeit zu schaffen.<br\/><br\/>Deine Initiativbewerbung gibt uns die Gelegenheit, mehr über deine Fähigkeiten, Erfahrungen und deine Motivation zu erfahren. Wir sind stets daran interessiert, herausragende Kandidaten zu entdecken, die einen Mehrwert für unser Unternehmen bringen können.<br\/><br\/>Wir bitten dich daher, uns deine vollständigen Bewerbungsunterlagen, einschließlich Lebenslauf und Anschreiben, zukommen zu lassen. Teile uns mit, warum du gerne Teil unseres Teams werden möchtest. Wir werden deine Bewerbung sorgfältig prüfen und dich kontaktieren, sobald sich eine passende Gelegenheit ergibt.<br\/><br\/>Wir bedanken uns herzlich für dein Interesse an einer Karriere bei Alb Filter und freuen uns darauf, von dir zu hören. <\/p>",
+            "second_font": true
+          }
+        },
+        "button_zgExWj": {
+          "type": "button",
+          "settings": {
+            "center": false,
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "Schreibe uns",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "caption_H6rrHa",
+        "heading_eJ8KUk",
+        "subtitle_LBrNNC",
+        "text_UKtTVR",
+        "button_zgExWj"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_fFQiGe"
   ]
 }
