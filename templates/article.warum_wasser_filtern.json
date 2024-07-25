@@ -689,7 +689,7 @@
       ],
       "settings": {
         "full_width": false,
-        "heading_tag": "h1",
+        "heading_tag": "div",
         "heading_size": "h3",
         "heading_weight": "400",
         "heading_second_font": false,
