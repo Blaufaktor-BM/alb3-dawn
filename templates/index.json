@@ -671,7 +671,7 @@
         "heading_color": "#003e5f",
         "heading_second_font": false,
         "subtitle": "Für Trinkwasser, Dusche und Camping - für jeden Zweck die richtige Kartusche",
-        "subtitle_tag": "p",
+        "subtitle_tag": "h1",
         "subtitle_size": "h3",
         "subtitle_weight": "400",
         "subtitle_color": "#003e5f",
