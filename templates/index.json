@@ -400,7 +400,7 @@
             "heading_weight": "700",
             "second_font": false,
             "heading_color": "#003e5f",
-            "remove_spacing": false
+            "remove_spacing": true
           }
         },
         "subtitle_hkLaHQ": {
