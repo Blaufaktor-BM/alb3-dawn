@@ -78,16 +78,90 @@
         "item_Erc4ri": {
           "type": "item",
           "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "image": "shopify:\/\/shop_images\/patrickleichtensternalbfilter.jpg",
+            "title": "<p><strong>Patrick Leichtenstern<\/strong><\/p>",
+            "text": "<p>Co-Founder \/ Entwickler<br\/>patrick.leichtenstern(at)blaufaktor.de<\/p>",
             "url": ""
           }
         },
-        "item_76HJpq": {
+        "item_qeqkGn": {
           "type": "item",
           "settings": {
-            "title": "",
-            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "image": "shopify:\/\/shop_images\/andreasblustalbfilter.jpg",
+            "title": "<p><strong>Andreas Blust<\/strong><\/p>",
+            "text": "<p>Lager und Logistik<br\/>andreas.blust(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_FgzCjR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/joergrambaumalbfilter.jpg",
+            "title": "<p><strong>Jörg Rambaum<\/strong><\/p>",
+            "text": "<p>Design<br\/>joerg.rambaum(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_fecrmE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/christinamaureralbfilter.jpg",
+            "title": "<p><strong>Christina Maurer<\/strong><\/p>",
+            "text": "<p>Management Assistant<br\/>christina.maurer(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_8y9CFT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lenamilleralbfilter.jpg",
+            "title": "<p>Lena Miller<\/p>",
+            "text": "<p>Management Assistant<br\/>lena.miller(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_6R4xf6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/verenamueller-albfilter.jpg",
+            "title": "<p>Vera Müller<\/p>",
+            "text": "<p>Konfektionierung<br\/>vera.mueller(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_yFcixa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/steveege-albfilter.jpg",
+            "title": "<p>Steve Ege<\/p>",
+            "text": "<p>Lager und Logistik<br\/>steve.ege(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_za7DG7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tasminkiefer-albfilter.jpg",
+            "title": "<p>Tasmin Kiefer<\/p>",
+            "text": "<p>Kundenservice<br\/>tasmin.kiefer(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_EaQMea": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/moritzthumann-albfilter.webp",
+            "title": "<p>Moritz Thumann<\/p>",
+            "text": "<p>Marketing<br\/>moritz.thumann(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_aCXyqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oliverroehmalbfilter.webp",
+            "title": "<p>Oliver  Röhm<\/p>",
+            "text": "<p>Konstruktion<br\/>oliver.roehm(at)blaufaktor.de<\/p>",
             "url": ""
           }
         }
@@ -96,7 +170,15 @@
         "item_bUW8ic",
         "item_AbacJE",
         "item_Erc4ri",
-        "item_76HJpq"
+        "item_qeqkGn",
+        "item_FgzCjR",
+        "item_fecrmE",
+        "item_8y9CFT",
+        "item_6R4xf6",
+        "item_yFcixa",
+        "item_za7DG7",
+        "item_EaQMea",
+        "item_aCXyqC"
       ],
       "custom_css": [
 
@@ -104,7 +186,7 @@
       "settings": {
         "color_scheme": "",
         "title_color": "#003e5f",
-        "column_count": 4,
+        "column_count": 3,
         "full_width": false,
         "image_white": false,
         "large_image": true,
