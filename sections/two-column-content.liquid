@@ -49,7 +49,9 @@
           {% if block.settings.content != blank %}
             <div
               class="content-two_column_content rte{% if section.settings.content_second_font %} second-font{% endif %}"
-            ></div>
+            >
+              {{ block.settings.content }}
+            </div>
           {% endif %}
           {% if block.settings.bottom_content != blank %}
             <div class="bottom_content-two_column_content rte{% if section.settings.bottom_content_second_font %} second-font{% endif %}">
