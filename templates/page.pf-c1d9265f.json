@@ -16,9 +16,77 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_y94gXR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YBPYkQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Gewinde-Ratgeber<\/h1>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "subtitle_UPFNyD": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Welches Gewinde hat mein Wasserhahn und ist es kompatibel mit dem Alb Filter DUO? ",
+            "subtitle_tag": "p",
+            "subtitle_size": "h3",
+            "font_weight": "400",
+            "color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "text_REDpqV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In dieser Anleitung geben wir Ihnen einen Überblick über gängige Gewindegrößen und stellen Ihnen verschiedene Methoden zur Bestimmung der Gewindegröße Ihres Wasserhahns bzw. Ihres Perlators vor. Auf Grundlage der ermittelten Werte wird ersichtlich, ob Sie einen Adapter benötigen um den Alb Filter DUO an Ihrer Armatur installieren zu können.<\/p><p>Wir wissen, dass auch die besten Methoden zu Fehlern führen können, darum zögern Sie nicht, bei Fragen oder Problemen unseren <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Support zu kontaktieren<\/a>. Viel Spaß bei der Bestimmung Ihres Gewindes wünscht Ihnen ihr Alb Filter Team.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_YBPYkQ",
+        "subtitle_UPFNyD",
+        "text_REDpqV"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_hn3gwP": {
+      "type": "video",
+      "settings": {
+        "heading": "Gewinderatgeber als Video",
+        "heading_tag": "h3",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/1lkVTadZ8uU",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_y94gXR",
+    "video_hn3gwP"
   ]
 }

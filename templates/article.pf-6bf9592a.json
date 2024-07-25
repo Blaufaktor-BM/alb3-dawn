@@ -43,11 +43,256 @@
         "share",
         "content"
       ],
+      "disabled": true,
       "settings": {
+      }
+    },
+    "rich_text_FaRNeL": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_pzk6Tk": {
+          "type": "caption",
+          "settings": {
+            "caption": "ALB FILTER®",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "second_font": false
+          }
+        },
+        "heading_GqAfXH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>INSTALLATION<\/p>",
+            "remove_spacing": true,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_pzk6Tk",
+        "heading_GqAfXH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_njjJ6t": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wasserfilterwaterlinetrennerhellgrau.webp",
+        "image_overlay_opacity": 0,
+        "enable_shadow": false,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multi_content_9gXiEL": {
+      "type": "multi-content",
+      "blocks": {
+        "item_qmk9mY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserfilterlogoinstallationduo.webp",
+            "url": "",
+            "heading": "<p>ALB FILTER® DUO<br\/>AM WASSERHAHN<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "heading_color": "#003e5f",
+            "subtitle": "",
+            "text": "<p>Erfahren Sie, wie Sie den Alb Filter Duo an Ihre Armatur montieren.<\/p><p><a href=\"\/pages\/installation-wasserhahnfilter\" title=\"Installation Wasserhahnfilter\">Weiterlesen &gt;<\/a><\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        },
+        "item_YUJAfn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserfilterlogoinstallationspuele.webp",
+            "url": "",
+            "heading": "<p>ALB FILTER® ELEMENT<br\/><strong>UNTER DER SPÜLE<\/strong><\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "heading_color": "#003e5f",
+            "subtitle": "",
+            "text": "<p>Hier finden Sie eine Anleitung zum Installieren des Alb Filters unter dem Spülbecken.<\/p><p><a href=\"\/pages\/installation-untertisch\" title=\"Installation Untertisch\">Weiterlesen &gt;<\/a><\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "item_qmk9mY",
+        "item_YUJAfn"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "heading": "Trinkwasserfilter",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "heading_color": "#003e5f",
+        "subtitle": "Installation",
+        "subtitle_second_font": false,
+        "subtitle_color": "#003e5f",
+        "text": "",
+        "text_color": "#616161",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_bg_color": "#0081be",
+        "btn_color": "#fff",
+        "bottom_bg_color": "#f3f3f3",
+        "bottom_text_color": "#616161",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "multi_content_UKHT6M": {
+      "type": "multi-content",
+      "blocks": {
+        "item_Y7yE3F": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschaubild-anleitung-mobil-travel-1643794040322.webp",
+            "url": "",
+            "heading": "<p>ALB FILTER® MOBIL<br\/>BETANKUNG VON AUSSEN<\/p>",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "heading_color": "#003e5f",
+            "subtitle": "",
+            "text": "<p>Erfahren Sie hier, wie der Alb Filter MOBIL mit einer Wasserquelle verbunden wird und wie Sie die Kartuschen schnell und einfach wechseln können.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-mobil-travel\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        },
+        "item_Dd4URY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vorschaubild-anleitung-mobil-travel2-1643794040329.webp",
+            "url": "",
+            "heading": "<p>ALB FILTER® TRAVEL<br\/><strong>FEST VERBAUT<\/strong><\/p>",
+            "heading_tag": "h1",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "heading_color": "#003e5f",
+            "subtitle": "",
+            "text": "<p>Hier finden Sie eine Anleitung, wie Sie den Alb Filter® TRAVEL in Ihrem Camper, Wohnmobil oder Boot fest verbauen. Außerdem zeigen wir Ihnen wie Sie einfach die Kartuschen wechseln.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-mobil-travel\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "item_Y7yE3F",
+        "item_Dd4URY"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "heading": "Campingfilter",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "heading_color": "#003e5f",
+        "subtitle": "Installation",
+        "subtitle_second_font": false,
+        "subtitle_color": "#003e5f",
+        "text": "",
+        "text_color": "#616161",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_bg_color": "#0081be",
+        "btn_color": "#fff",
+        "bottom_bg_color": "#f3f3f3",
+        "bottom_text_color": "#616161",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "multi_content_fgExWz": {
+      "type": "multi-content",
+      "blocks": {
+        "item_ppKLhi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserfilterlogoinstallationdusche.webp",
+            "url": "",
+            "heading": "<p>ALB FILTER® ELEMENT<br\/>IN DER DUSCHE<\/p>",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "heading_color": "#003e5f",
+            "subtitle": "",
+            "text": "<p>Lesen Sie nach, wie Sie den Alb Filter in der Dusche installieren können.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-duschfilter\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "item_ppKLhi"
+      ],
+      "settings": {
+        "background_color": "#fafafa",
+        "heading": "Duschfilter",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "heading_color": "#003e5f",
+        "subtitle": "Installation",
+        "subtitle_second_font": false,
+        "subtitle_color": "#003e5f",
+        "text": "",
+        "text_color": "#616161",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_bg_color": "#0081be",
+        "btn_color": "#fff",
+        "bottom_bg_color": "#f3f3f3",
+        "bottom_text_color": "#616161",
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_FaRNeL",
+    "image_banner_njjJ6t",
+    "multi_content_9gXiEL",
+    "multi_content_UKHT6M",
+    "multi_content_fgExWz"
   ]
 }
