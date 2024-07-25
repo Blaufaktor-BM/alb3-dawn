@@ -35,9 +35,9 @@
           "type": "heading",
           "settings": {
             "second_font": true,
-            "heading": "<p>FAQ Trinkwasserfilter<\/p>",
+            "heading": "<p>Trinkwasserfilter<\/p>",
             "heading_tag": "h1",
-            "heading_size": "h0",
+            "heading_size": "hxl",
             "heading_weight": "400",
             "heading_color": "#ffffff"
           }
