@@ -20,6 +20,13 @@
     "image_banner_MpAExG": {
       "type": "image-banner",
       "blocks": {
+        "top_btn_UeQYUY": {
+          "type": "top_btn",
+          "settings": {
+            "btn_text": "Zurück",
+            "btn_url": ""
+          }
+        },
         "heading_9hczc6": {
           "type": "heading",
           "settings": {
@@ -51,6 +58,7 @@
         }
       },
       "block_order": [
+        "top_btn_UeQYUY",
         "heading_9hczc6",
         "heading_fYNhe7",
         "text_BdrPTC"
