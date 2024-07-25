@@ -6471,10 +6471,38 @@ ul.breadcrumb li a:hover {
 
 /* second product compare */
 /* image banner */
+.banner__media.image_position-top img {
+  object-position: top center;
+}
+
+.banner__media.image_position-bottom img {
+  object-position: bottom center;
+}
+
+.banner__content {
+  position: relative;
+}
+
+.banner__box {
+  position: unset;
+}
+
+.banner_top_btn {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 35px;
+}
+
+.banner__heading.remove_spacing {
+  margin: 0;
+}
+
 .banner_top_btn a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0;
 }
 
 .banner--thin .banner__content {

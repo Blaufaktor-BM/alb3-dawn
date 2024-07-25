@@ -55,7 +55,7 @@
   class="banner{% if section.settings.enable_shadow %} bottom-shadow{% endif %} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} small-hide{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} small-hide{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} image_position-{{ section.settings.image_position }}">
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
 
@@ -77,7 +77,7 @@
       }}
     </div>
     {%- if section.settings.image_2 != blank -%}
-      <div class="banner__media media{% if section.settings.image != blank %} desktop-hide{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <div class="banner__media media{% if section.settings.image != blank %} desktop-hide{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} image_position-{{ section.settings.image_position }}">
         {%- liquid
           assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
           if section.settings.image != blank and section.settings.stack_images_on_mobile
@@ -105,12 +105,12 @@
   {%- endif -%}
 
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <{{ block.settings.heading_tag }}
-              class="banner__heading inline-richtext rte {{ block.settings.heading_size }}{% if block.settings.second_font %} second-font{% endif %}"
+              class="banner__heading inline-richtext rte {{ block.settings.heading_size }}{% if block.settings.second_font %} second-font{% endif %}{% if block.settings.remove_spacing %} remove_spacing{% endif %}"
               {{ block.shopify_attributes }}
               style="font-weight: {{ block.settings.heading_weight }}; color: {{ block.settings.heading_color }}"
             >
@@ -167,7 +167,11 @@
             </div>
           {% when 'top_btn' %}
             <div class="banner_top_btn center">
-              <a class="btn-second second-font" href="{{ block.settings.btn_url }}">
+              <a
+                class="btn-second second-font"
+                href="{{ block.settings.btn_url }}"
+                style="color: {{ block.settings.btn_color }}"
+              >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                   <path fill="currentColor" d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/>
                 </svg>
@@ -244,6 +248,26 @@
       "default": "medium",
       "label": "t:sections.image-banner.settings.image_height.label",
       "info": "t:sections.image-banner.settings.image_height.info"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image Position",
+      "default": "center",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ]
     },
     {
       "type": "select",
@@ -504,6 +528,11 @@
           "id": "heading_color",
           "label": "Heading Color",
           "default": "#616161"
+        },
+        {
+          "type": "checkbox",
+          "id": "remove_spacing",
+          "label": "Remove Spacing"
         }
       ]
     },
@@ -617,6 +646,12 @@
           "type": "url",
           "id": "btn_url",
           "label": "Button URL"
+        },
+        {
+          "type": "color",
+          "id": "btn_color",
+          "label": "Button Color",
+          "default": "#fff"
         }
       ]
     }
