@@ -5,10 +5,17 @@
   {% render 'header-mega-menu' %}
 {% endcomment %}
 {%- assign fetch_priority = 'auto' -%}
+{%- liquid
+  assign count = 0
+  for link in section.settings.menu.links
+    assign count = count | plus: 1
+  endfor
+  assign limit_number = count | divided_by: 2.0 | ceil
+-%}
 
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
-    {%- for link in section.settings.menu.links -%}
+    {%- for link in section.settings.menu.links limit: limit_number -%}
       <li>
         {%- if link.links != blank -%}
           <header-menu>
@@ -343,6 +350,346 @@
           </a>
         {%- endif -%}
       </li>
+    {%- endfor -%}
+  </ul>
+  <ul class="list-menu list-menu--inline" role="list">
+    {%- for link in section.settings.menu.links -%}
+      {%- unless forloop.index == limit_number or forloop.index < limit_number -%}
+        <li>
+          {%- if link.links != blank -%}
+            <header-menu>
+              <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+                <summary
+                  id="HeaderMenu-{{ link.handle }}"
+                  class="header__menu-item list-menu__item link focus-inset"
+                >
+                  <a
+                    href="{{ link.url }}"
+                    {%- if link.child_active %}
+                      class="header__active-menu-item"
+                    {% endif %}
+                  >
+                    {{- link.title | escape -}}
+                  </a>
+                  {% render 'icon-caret' %}
+                </summary>
+                <div
+                  id="MegaMenu-Content-{{ forloop.index }}"
+                  class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+                  tabindex="-1"
+                >
+                  <div class="page-width">
+                    <div class="mega-menu-wrapper">
+                      <div class="mega-menu-block">
+                        <h4 class="parent-menu">{{ link.title }}</h4>
+                        <ul
+                          class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                          role="list"
+                        >
+                          {% assign count = 0 %}
+                          {%- for childlink in link.links -%}
+                            {% for block in section.blocks %}
+                              {% if block.type == 'content_item' or block.type == 'product_item' %}
+                                {% if block.settings.parent_title == link.title %}
+                                  {% if block.settings.submenu_title == childlink.title %}
+                                    {%- assign count = count | plus: 1 | remove: ' ' -%}
+                                    {% if count == '1' %}
+                                      {% assign first_title = childlink.title %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endif %}
+                              {% endif %}
+                            {% endfor %}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                                href="{{ childlink.url }}"
+                                class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}{% if first_title == childlink.title %} first-menu active{% endif %}"
+                                {% if childlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                                data-title="{{ childlink.title | escape }}"
+                              >
+                                {{ childlink.title | escape }}
+                                {% for block in section.blocks %}
+                                  {% if block.type == 'content_item' or block.type == 'product_item' %}
+                                    {% if block.settings.parent_title == link.title %}
+                                      {% if block.settings.submenu_title == childlink.title %}
+                                        {% render 'icon-caret' %}
+                                      {% endif %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                              </a>
+                              {%- if childlink.links != blank -%}
+                                <ul class="list-unstyled" role="list">
+                                  {%- for grandchildlink in childlink.links -%}
+                                    <li>
+                                      <a
+                                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                        href="{{ grandchildlink.url }}"
+                                        class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                        {% if grandchildlink.current %}
+                                          aria-current="page"
+                                        {% endif %}
+                                      >
+                                        {{ grandchildlink.title | escape }}
+                                      </a>
+                                    </li>
+                                  {%- endfor -%}
+                                </ul>
+                              {%- endif -%}
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      </div>
+                      <div class="mega-menu-info">
+                        {% for block in section.blocks %}
+                          {% if block.type == 'content_item' or block.type == 'product_item' %}
+                            {% if block.settings.parent_title == link.title %}
+                              {% for sublink in link.links %}
+                                {% if block.settings.submenu_title == sublink.title %}
+                                  <div
+                                    class="mega-menu-item{% if first_title == sublink.title %} first-menu active{% endif %}{% if block.type == 'product_item' %} mega-product-item{% endif %}"
+                                    data-title="{{ sublink.title }}"
+                                  >
+                                    {% if block.type == 'content_item' %}
+                                      {% if block.settings.image != blank %}
+                                        <div class="mega-img">
+                                          <div class="mega-img-wrapper">
+                                            {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                                            {%- capture sizes -%}
+                                              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                                              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                                          {%- endcapture -%}
+                                            {{
+                                              block.settings.image
+                                              | image_url: width: 1500
+                                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                            }}
+                                          </div>
+                                        </div>
+                                      {% endif %}
+                                      {% if block.settings.info_title != blank
+                                        or block.settings.info_text != blank
+                                        or block.settings.info_btn1_text != blank
+                                        or block.settings.info_btn2_text != blank
+                                      %}
+                                        <div class="mega-menu-content">
+                                          {% if block.settings.info_title != blank %}
+                                            <h4 class="mega-menu-info_title">{{ block.settings.info_title }}</h4>
+                                          {% endif %}
+                                          {% if block.settings.info_text != blank %}
+                                            <div class="mega-menu-info_text rte second-font">
+                                              {{ block.settings.info_text }}
+                                            </div>
+                                          {% endif %}
+                                          {% if block.settings.info_btn1_text != blank
+                                            or block.settings.info_btn2_text != blank
+                                          %}
+                                            <div class="mega-menu-content_btns">
+                                              {% if block.settings.info_btn1_text != blank %}
+                                                <a
+                                                  {% if block.settings.info_btn1_url == blank %}
+                                                    role="link" aria-disabled="true"
+                                                  {% else %}
+                                                    href="{{ block.settings.info_btn1_url }}"
+                                                  {% endif %}
+                                                  class="button button--secondary"
+                                                >
+                                                  {{- block.settings.info_btn1_text -}}
+                                                </a>
+                                              {% endif %}
+                                              {% if block.settings.info_btn2_text != blank %}
+                                                <a
+                                                  {% if block.settings.info_btn2_url == blank %}
+                                                    role="link" aria-disabled="true"
+                                                  {% else %}
+                                                    href="{{ block.settings.info_btn2_url }}"
+                                                  {% endif %}
+                                                  class="btn-second second-font"
+                                                >
+                                                  {{- block.settings.info_btn1_text }}
+                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                    <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
+                                                  </svg>
+                                                </a>
+                                              {% endif %}
+                                            </div>
+                                          {% endif %}
+                                        </div>
+                                      {% endif %}
+                                    {% else %}
+                                      <div class="mega-product-list">
+                                        {% if block.settings.first_title != blank %}
+                                          <div class="mega-product-item">
+                                            <h4 class="mega-product_subtitle">{{ block.settings.first_title }}</h4>
+                                            {% for i in (1..2) %}
+                                              {% capture first_image %}first_img{{ i }}{% endcapture %}
+                                              {% capture first_item_title %}first_item_title{{ i }}{% endcapture %}
+                                              {% capture first_item_text %}first_item_text{{ i }}{% endcapture %}
+                                              {% capture first_item_url %}first_item_url{{ i }}{% endcapture %}
+                                              <div class="mega-product-item">
+                                                {% if block.settings[first_item_url] != blank %}
+                                                  <a href="{{ block.settings[first_item_url] }}">
+                                                {% endif %}
+                                                <div class="mega-product-item-wrapper">
+                                                  {% if block.settings[first_image] != blank %}
+                                                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                                                    {%- capture sizes -%}
+                                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                                                    (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                                                {%- endcapture -%}
+                                                    {{
+                                                      block.settings[first_image]
+                                                      | image_url: width: 1500
+                                                      | image_tag:
+                                                        sizes: sizes,
+                                                        widths: widths,
+                                                        fetchpriority: fetch_priority
+                                                    }}
+                                                  {% endif %}
+                                                  {% if block.settings[first_item_title] != blank
+                                                    or block.settings[first_item_text] != blank
+                                                  %}
+                                                    <div class="mega-product-item-content">
+                                                      {% if block.settings[first_item_title] != blank %}
+                                                        <h4 class="mega-product-item-title">
+                                                          {{ block.settings[first_item_title] }}
+                                                        </h4>
+                                                      {% endif %}
+                                                      {% if block.settings[first_item_text] != blank %}
+                                                        <div class="mega-product-item-text rte">
+                                                          {{ block.settings[first_item_text] }}
+                                                        </div>
+                                                      {% endif %}
+                                                    </div>
+                                                  {% endif %}
+                                                </div>
+                                                {% if block.settings[first_item_url] != blank %}
+                                                  </a>
+                                                {% endif %}
+                                              </div>
+                                            {% endfor %}
+                                          </div>
+                                        {% endif %}
+                                        {% if block.settings.second_title != blank %}
+                                          <div class="mega-product-item">
+                                            <h4 class="mega-product_subtitle">{{ block.settings.second_title }}</h4>
+                                            {% for i in (1..2) %}
+                                              {% capture second_img %}second_img{{ i }}{% endcapture %}
+                                              {% capture second_item_title %}second_item_title{{ i }}{% endcapture %}
+                                              {% capture second_item_text %}second_item_text{{ i }}{% endcapture %}
+                                              {% capture second_item_url %}second_item_url{{ i }}{% endcapture %}
+                                              <div class="mega-product-item">
+                                                {% if block.settings[second_item_url] != blank %}
+                                                  <a href="{{ block.settings[second_item_url] }}">
+                                                {% endif %}
+                                                <div class="mega-product-item-wrapper">
+                                                  {% if block.settings[second_img] != blank %}
+                                                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                                                    {%- capture sizes -%}
+                                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                                                    (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                                                {%- endcapture -%}
+                                                    {{
+                                                      block.settings[second_img]
+                                                      | image_url: width: 1500
+                                                      | image_tag:
+                                                        sizes: sizes,
+                                                        widths: widths,
+                                                        fetchpriority: fetch_priority
+                                                    }}
+                                                  {% endif %}
+                                                  {% if block.settings[second_item_title] != blank
+                                                    or block.settings[second_item_text] != blank
+                                                  %}
+                                                    <div class="mega-product-item-content">
+                                                      {% if block.settings[second_item_title] != blank %}
+                                                        <h4 class="mega-product-item-title">
+                                                          {{ block.settings[second_item_title] }}
+                                                        </h4>
+                                                      {% endif %}
+                                                      {% if block.settings[second_item_text] != blank %}
+                                                        <div class="mega-product-item-text rte">
+                                                          {{ block.settings[second_item_text] }}
+                                                        </div>
+                                                      {% endif %}
+                                                    </div>
+                                                  {% endif %}
+                                                </div>
+                                                {% if block.settings[second_item_url] != blank %}
+                                                  </a>
+                                                {% endif %}
+                                              </div>
+                                            {% endfor %}
+                                          </div>
+                                        {% endif %}
+                                      </div>
+                                    {% endif %}
+                                    {% if block.settings.btn_text1 != blank or block.settings.btn_text2 != blank %}
+                                      <div class="mega-product-btns">
+                                        {% if block.settings.btn_text1 != blank %}
+                                          <a
+                                            {% if block.settings.btn_url1 == blank %}
+                                              role="link" aria-disabled="true"
+                                            {% else %}
+                                              href="{{ block.settings.btn_url1 }}"
+                                            {% endif %}
+                                            class="button button--secondary"
+                                          >
+                                            {{- block.settings.btn_text1 -}}
+                                          </a>
+                                        {% endif %}
+                                        {% if block.settings.btn_text2 != blank %}
+                                          <a
+                                            {% if block.settings.btn_url2 == blank %}
+                                              role="link" aria-disabled="true"
+                                            {% else %}
+                                              href="{{ block.settings.btn_url2 }}"
+                                            {% endif %}
+                                            class="btn-second second-font"
+                                          >
+                                            {{- block.settings.btn_text2 -}}
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                              <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
+                                            </svg>
+                                          </a>
+                                        {% endif %}
+                                      </div>
+                                    {% endif %}
+                                  </div>
+                                {% endif %}
+                              {% endfor %}
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </header-menu>
+          {%- else -%}
+            <a
+              id="HeaderMenu-{{ link.handle }}"
+              href="{{ link.url }}"
+              class="header__menu-item list-menu__item link link--text focus-inset"
+              {% if link.current %}
+                aria-current="page"
+              {% endif %}
+            >
+              <span
+                {%- if link.current %}
+                  class="header__active-menu-item"
+                {% endif %}
+              >
+                {{- link.title | escape -}}
+              </span>
+            </a>
+          {%- endif -%}
+        </li>
+      {%- endunless -%}
     {%- endfor -%}
   </ul>
 </nav>

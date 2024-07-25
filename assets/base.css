@@ -3894,6 +3894,17 @@ summary.list-menu__item>a {
   background: transparent !important;
 }
 
+@media only screen and (min-width: 990px) {
+  .header__inline-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header--middle-left {
+    grid-template-columns: auto 1fr auto;
+  }
+}
+
 .CarouselWidget-prefix .CarouselWidget .R-ReviewsList-container .R-ReviewsList__controlButton {
   z-index: 1 !important;
 }
