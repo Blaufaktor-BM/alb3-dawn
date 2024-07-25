@@ -259,9 +259,9 @@
                     {% endif %}
                   >
                     {% if block.settings.title != blank %}
-                      <div class="rich-text__icon_content-title {{ block.settings.heading_size }}">
+                      <{{ block.settings.title_tag }} class="rich-text__icon_content-title {{ block.settings.heading_size }}">
                         {{ block.settings.title }}
-                      </div>
+                      </{{ block.settings.title_tag }}>
                     {% endif %}
                     {% if block.settings.text != blank %}
                       <div class="rich-text__icon_content-text rte">{{ block.settings.text }}</div>
@@ -938,6 +938,34 @@
           "id": "title",
           "label": "Title",
           "default": "GUT ZU WISSEN!"
+        },
+        {
+          "type": "select",
+          "id": "title_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "p",
+              "label": "P"
+            }
+          ],
+          "default": "p",
+          "label": "Title Tag"
         },
         {
           "type": "select",
