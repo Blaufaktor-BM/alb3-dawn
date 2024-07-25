@@ -9,19 +9,6 @@
 */
 {
   "sections": {
-    "second_contact_xYjPjf": {
-      "type": "second-contact",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/paketubergabepaketbote-1668684620129.webp",
-        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?<\/strong><\/p><p>Rufe uns gerne an oder schreib uns eine Email!<\/p>",
-        "icon": "shopify:\/\/shop_images\/shop-lieferung-1672734729168.png",
-        "contact": "<p>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/p>",
-        "background_color": "#fafafa",
-        "text_color": "#003e5f",
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "slideshow_KD9aNM": {
       "type": "slideshow",
       "blocks": {
@@ -1144,7 +1131,6 @@
     }
   },
   "order": [
-    "second_contact_xYjPjf",
     "slideshow_KD9aNM",
     "image_text_slider_CwWYER",
     "image_list_pGRYH3",
