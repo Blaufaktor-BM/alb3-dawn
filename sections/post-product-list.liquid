@@ -29,8 +29,8 @@
     <div class="wrapper-post-product-list isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {% if section.settings.heading != blank %}
         <{{ section.settings.heading_tag }}
-          class="heading-post-product-list {{ section.settings.heading_size }}"
-          style="color: {{ section.settings.heading_color }}"
+          class="heading-post-product-list {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
+          style="color: {{ section.settings.heading_color }}; font-weight: {{ section.settings.heading_weight }};"
         >
           {{ section.settings.heading }}
         </{{ section.settings.heading_tag }}>
@@ -209,15 +209,51 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
-      "type": "checkbox",
-      "id": "second_font",
-      "label": "Second Font"
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Weight",
+      "default": "700",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ]
     },
     {
       "type": "color",
       "id": "heading_color",
       "label": "Heading Color",
       "default": "#003e5f"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
     },
     {
       "type": "range",

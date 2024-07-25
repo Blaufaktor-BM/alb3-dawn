@@ -38,15 +38,15 @@
                 <div class="item-header">
                   {%- if block.settings.heading != blank -%}
                     <{{ block.settings.heading_tag }}
-                      class="title-alb_comparison {{ block.settings.heading_size }}"
-                      style="color: {{ block.settings.heading_color }};"
+                      class="title-alb_comparison {{ block.settings.heading_size }}{% if block.settings.heading_second_font %} second-font{% endif %}"
+                      style="color: {{ block.settings.heading_color }}; font-weight: {{ block.settings.heading_weight }};"
                     >
                       {{ block.settings.heading }}
                     </{{ block.settings.heading_tag }}>
                   {%- endif -%}
                   {%- if block.settings.text != blank -%}
                     <div
-                      class="text-alb_comparison text-item rte"
+                      class="text-alb_comparison text-item rte{% if block.settings.text_second_font %} second-font{% endif %}"
                     >
                       {{ block.settings.text }}
                     </div>
@@ -408,16 +408,62 @@
           "label": "t:sections.all.heading_size.label"
         },
         {
+          "type": "select",
+          "id": "heading_weight",
+          "label": "Heading Weight",
+          "default": "700",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ]
+        },
+        {
           "type": "color",
           "id": "heading_color",
           "label": "Heading Color",
           "default": "#616161"
         },
         {
+          "type": "checkbox",
+          "id": "heading_second_font",
+          "label": "Heading Second Font"
+        },
+        {
           "type": "richtext",
           "id": "text",
           "label": "Text",
           "default": "<p>Set mit Gehäuse und Kartusche</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_second_font",
+          "label": "Text Second Font"
         },
         {
           "type": "image_picker",
