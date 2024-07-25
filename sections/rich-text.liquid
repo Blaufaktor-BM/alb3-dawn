@@ -48,18 +48,18 @@
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'subtitle' -%}
-              <p
-                class="rich-text__subtitle sub_title{% if block.settings.second_font %} second-font{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              <{{ block.settings.subtitle_tag }}
+                class="rich-text__subtitle {{ block.settings.subtitle_size }}{% if block.settings.second_font %} second-font{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                <span style="color: {{ block.settings.color }}">
+                <span style="color: {{ block.settings.color }}; font-weight: {{ block.settings.font_weight }};">
                   {{ block.settings.subtitle | escape }}
                 </span>
-              </p>
+              </{{ block.settings.subtitle_tag }}>
             {%- when 'icon' -%}
               <div
                 class="rich-text__icon{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -692,6 +692,98 @@
           "id": "subtitle",
           "label": "Subtitle",
           "default": "Die Wasserfilter Manufaktur aus Süddeutschland"
+        },
+        {
+          "type": "select",
+          "id": "subtitle_tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "p",
+              "label": "P"
+            }
+          ],
+          "default": "p",
+          "label": "Subtitle Tag"
+        },
+        {
+          "type": "select",
+          "id": "subtitle_size",
+          "options": [
+            {
+              "value": "h3",
+              "label": "Extra Small"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ],
+          "default": "h3",
+          "label": "Subtitle Size"
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Font Weight",
+          "default": "400",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ]
         },
         {
           "type": "color",
