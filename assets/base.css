@@ -6479,12 +6479,8 @@ ul.breadcrumb li a:hover {
   object-position: bottom center;
 }
 
-.banner__content {
-  position: relative;
-}
-
 .banner__box {
-  position: unset;
+  position: unset !important;
 }
 
 .banner_top_btn {
