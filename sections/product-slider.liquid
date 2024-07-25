@@ -27,7 +27,7 @@
         <div class="top_content-product_slider">
           {%- if section.settings.heading != blank -%}
             <{{ section.settings.heading_tag }}
-              class="proudct-slider__heading rte {{ section.settings.heading_size }}"
+              class="proudct-slider__heading rte {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
               style="color: {{ section.settings.heading_color }}; font-weight: {{ section.settings.heading_weight }}"
             >
               {{ section.settings.heading }}
