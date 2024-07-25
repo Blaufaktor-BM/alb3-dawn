@@ -3628,7 +3628,7 @@ li:not(:last-child) {
 }
 
 header li {
-  margin: 0;
+  margin: 0 !important;
 }
 
 @media only screen and (min-width: 750px) {
