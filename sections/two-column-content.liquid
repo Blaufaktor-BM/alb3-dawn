@@ -39,17 +39,20 @@
           "
         >
           {% if block.settings.heading != blank %}
-            <div class="heading-two_column_content rte">
+            <{{ section.settings.heading_tag }}
+              class="heading-two_column_content {{ section.settings.heading_size }} rte{% if section.settings.heading_second_font %} second-font{% endif %}"
+              style="font-weight: {{ section.settings.heading_weight }}"
+            >
               {{ block.settings.heading }}
-            </div>
+            </{{ section.settings.heading_tag }}>
           {% endif %}
           {% if block.settings.content != blank %}
-            <div class="content-two_column_content rte second-font">
-              {{ block.settings.content }}
-            </div>
+            <div
+              class="content-two_column_content rte{% if section.settings.content_second_font %} second-font{% endif %}"
+            ></div>
           {% endif %}
           {% if block.settings.bottom_content != blank %}
-            <div class="bottom_content-two_column_content rte second-font">
+            <div class="bottom_content-two_column_content rte{% if section.settings.bottom_content_second_font %} second-font{% endif %}">
               {{ block.settings.bottom_content }}
             </div>
           {% endif %}
@@ -70,6 +73,111 @@
       "type": "checkbox",
       "id": "full_width",
       "label": "Enable Full Width"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Tag"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Font Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
+    },
+    {
+      "type": "checkbox",
+      "id": "content_second_font",
+      "label": "Content Second Font",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "bottom_content_second_font",
+      "label": "Bottom Content Second Font",
+      "default": true
     },
     {
       "type": "header",
