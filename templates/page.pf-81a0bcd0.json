@@ -16,9 +16,107 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_39k3n9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6VVgnP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Das Team von Alb Filter<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h1",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_TxVTte": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das Alb Filter Team ist genauso vielfältig wie unser Filterspektrum. Was uns vereint ist der Wunsch, unseren Kunden das reinste Wasser und den besten Service zu bieten. Dieses Ziel wollen wir im Einklang mit der Umwelt umsetzen.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6VVgnP",
+        "text_TxVTte"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_text_list_TMU6Yz": {
+      "type": "image-text-list",
+      "blocks": {
+        "item_bUW8ic": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tobiasmuelleralbfilter.jpg",
+            "title": "<p><strong>Tobias Müller<\/strong><\/p>",
+            "text": "<p>Co-Founder \/ Entwickler<br\/>tobias.mueller(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_AbacJE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/benjaminmaywaldalbfilter.jpg",
+            "title": "<p><strong>Benjamin Maywald<\/strong><\/p>",
+            "text": "<p>Co-Founder \/ ITbenjamin.maywald(at)blaufaktor.de<\/p>",
+            "url": ""
+          }
+        },
+        "item_Erc4ri": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        },
+        "item_76HJpq": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "text": "<p>30 TAGE RÜCKGABERECHT<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_bUW8ic",
+        "item_AbacJE",
+        "item_Erc4ri",
+        "item_76HJpq"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title_color": "#003e5f",
+        "column_count": 4,
+        "full_width": false,
+        "image_white": false,
+        "large_image": true,
+        "content_second_font": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_39k3n9",
+    "image_text_list_TMU6Yz"
   ]
 }
