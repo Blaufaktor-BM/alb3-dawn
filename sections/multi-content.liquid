@@ -127,8 +127,8 @@
               </div>
               {%- if block.settings.heading != blank -%}
                 <{{ block.settings.heading_tag }}
-                  class="item_title-multi_content rte second-font {{ block.settings.heading_size }}"
-                  style="color: {{ section.settings.bottom_text_color }}"
+                  class="item_title-multi_content rte{% if block.settings.heading_second_font %} second-font{% endif %} {{ block.settings.heading_size }}"
+                  style="color: {{ section.settings.bottom_text_color }}; font-weight: {{ block.settings.heading_weight }};"
                 >
                   {{ block.settings.heading }}
                 </{{ block.settings.heading_tag }}>
@@ -504,12 +504,6 @@
           "type": "checkbox",
           "id": "heading_second_font",
           "label": "Heading Second Font"
-        },
-        {
-          "type": "color",
-          "id": "heading_color",
-          "label": "Heading Color",
-          "default": "#003e5f"
         },
         {
           "type": "inline_richtext",
