@@ -259,7 +259,7 @@
                     {% endif %}
                   >
                     {% if block.settings.title != blank %}
-                      <{{ block.settings.title_tag }} class="rich-text__icon_content-title {{ block.settings.heading_size }}">
+                      <{{ block.settings.title_tag }} class="rich-text__icon_content-title {{ block.settings.heading_size }}{% if block.settings.heading_second_font %} second-font{% endif %}">
                         {{ block.settings.title }}
                       </{{ block.settings.title_tag }}>
                     {% endif %}
@@ -994,6 +994,11 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "heading_second_font",
+          "label": "Heading Second Font"
         },
         {
           "type": "richtext",
