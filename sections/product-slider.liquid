@@ -27,23 +27,23 @@
         <div class="top_content-product_slider">
           {%- if section.settings.heading != blank -%}
             <{{ section.settings.heading_tag }}
-              class="proudct-slider__heading rte {{ section.settings.heading_size }}"
-              style="color: {{ section.settings.heading_color }}"
+              class="proudct-slider__heading rte {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
+              style="color: {{ section.settings.heading_color }}; font-weight: {{ section.settings.heading_weight }}"
             >
               {{ section.settings.heading }}
             </{{ section.settings.heading_tag }}>
           {%- endif -%}
           {%- if section.settings.subtitle != blank -%}
-            <div
-              class="proudct-slider__subtitle sub_title second-font"
-              style="color: {{ section.settings.subtitle_color }}"
+            <{{ section.settings.subtitle_tag }}
+              class="proudct-slider__subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %}second-font{% endif %}"
+              style="color: {{ section.settings.subtitle_color }}; font-weight: {{ section.settings.subtitle_weight }}"
             >
               {{ section.settings.subtitle }}
-            </div>
+            </{{ section.settings.subtitle_tag }}>
           {%- endif -%}
           {%- if section.settings.text != blank -%}
             <div
-              class="proudct-slider__text rte second-font"
+              class="proudct-slider__text rte{% if section.settings.text_second_font %} second-font{% endif %}"
               style="color: {{ section.settings.text_color }}"
             >
               {{ section.settings.text }}
@@ -69,12 +69,12 @@
                           </div>
                         {%- endif -%}
                         {%- if block.settings.heading != blank -%}
-                          <h3
-                            class="item_title-product_slider"
-                            style="color: {{ section.settings.item_title_color }}"
+                          <{{ section.settings.item_title_tag }}
+                            class="item_title-product_slider {{ section.settings.item_title_size }}{% if section.settings.item_title_second_font %} second-font{% endif %}"
+                            style="color: {{ section.settings.item_title_color }}; font-weight: {{ section.settings.item_title_weight }}"
                           >
                             {{ block.settings.heading }}
-                          </h3>
+                          </{{ section.settings.item_title_tag }}>
                         {%- endif -%}
                         {%- if block.settings.image != blank -%}
                           <div class="item_img-product_slider">
@@ -378,7 +378,7 @@
       "label": "Top Background Image"
     },
     {
-      "type": "text",
+      "type": "inline_richtext",
       "id": "heading",
       "label": "Heading",
       "default": "Wasserfilter Gehäuse"
@@ -440,10 +440,51 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Font Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
+    },
+    {
       "type": "color",
       "id": "heading_color",
       "label": "Heading Color",
       "default": "#003e5f"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
     },
     {
       "type": "text",
@@ -452,16 +493,120 @@
       "default": "Für Trinkwasser und Dusche."
     },
     {
+      "type": "select",
+      "id": "subtitle_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "P"
+        }
+      ],
+      "default": "p",
+      "label": "Subtitle Tag"
+    },
+    {
+      "type": "select",
+      "id": "subtitle_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h3",
+      "label": "Subtitle Size"
+    },
+    {
+      "type": "select",
+      "id": "subtitle_weight",
+      "label": "Subtitle Font Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "400"
+    },
+    {
       "type": "color",
       "id": "subtitle_color",
       "label": "Subtitle Color",
       "default": "#003e5f"
     },
     {
+      "type": "checkbox",
+      "id": "subtitle_second_font",
+      "label": "Subtitle Second Font",
+      "default": true
+    },
+    {
       "type": "richtext",
       "id": "text",
       "default": "<p>Alle Produkte erhältlich in unserem Onlineshop.</p>",
       "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_second_font",
+      "label": "Text Second Font",
+      "default": true
     },
     {
       "type": "color",
@@ -518,19 +663,116 @@
       "type": "color",
       "id": "item_subtitle_color",
       "label": "Slider Subtitle Color",
-      "default": "#2d2d2d"
+      "default": "#616161"
+    },
+    {
+      "type": "select",
+      "id": "item_title_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "P"
+        }
+      ],
+      "default": "h3",
+      "label": "Item Title Tag"
+    },
+    {
+      "type": "select",
+      "id": "item_title_size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h3",
+      "label": "Item Title Size"
+    },
+    {
+      "type": "select",
+      "id": "item_title_weight",
+      "label": "Item Title Font Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "700"
     },
     {
       "type": "color",
       "id": "item_title_color",
       "label": "Slider Title Color",
-      "default": "#2d2d2d"
+      "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "item_title_second_font",
+      "label": "Item Title Second Font"
     },
     {
       "type": "color",
       "id": "item_text_color",
       "label": "Slider Top Text Color",
-      "default": "#2d2d2d"
+      "default": "#616161"
     },
     {
       "type": "color",
@@ -553,7 +795,7 @@
     {
       "type": "color",
       "id": "second_btn_color",
-      "default": "#3c3c3c",
+      "default": "#616161",
       "label": "Slider Second Button Color"
     },
     {
@@ -593,7 +835,7 @@
           "default": "Trinkwasserkartusche"
         },
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "heading",
           "label": "Heading",
           "default": "Active"

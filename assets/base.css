@@ -5077,6 +5077,10 @@ slideshow-component .banner__heading.h1 {
   margin: 0;
 }
 
+.proudct-slider__subtitle {
+  margin-bottom: 20px;
+}
+
 .top_content-product_slider {
   padding: 30px;
 }
