@@ -71,12 +71,12 @@
                       </div>
                     {% endif %}
                     {% if block.settings.title != blank %}
-                      <div
-                        class="title-post-product {{ section.settings.title_size }}"
-                        style="color: {{ section.settings.title_color }}"
+                      <{{ section.settings.title_tag }}
+                        class="title-post-product {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
+                        style="color: {{ section.settings.title_color }}; font-weight: {{ section.settings.title_weight }};"
                       >
                         {{ block.settings.title }}
-                      </div>
+                      </{{ section.settings.title_tag }}>
                     {% endif %}
                     {% if block.settings.text != blank %}
                       <div
@@ -310,6 +310,34 @@
     },
     {
       "type": "select",
+      "id": "title_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "p",
+          "label": "P"
+        }
+      ],
+      "default": "p",
+      "label": "Title Tag"
+    },
+    {
+      "type": "select",
       "id": "title_size",
       "options": [
         {
@@ -335,6 +363,47 @@
       ],
       "default": "h2",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Title Weight",
+      "default": "700",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "title_second_font",
+      "label": "Title Second Font"
     },
     {
       "type": "color",
