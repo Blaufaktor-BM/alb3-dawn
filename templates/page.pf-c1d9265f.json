@@ -83,11 +83,74 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_gDDLjr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UpJGjd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Gewindetabelle<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "subtitle_t6PW8b": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Welchen Adapter benötige ich?",
+            "subtitle_tag": "p",
+            "subtitle_size": "h3",
+            "font_weight": "400",
+            "color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "text_6AQqhg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "second_font": true
+          }
+        },
+        "button_XygURG": {
+          "type": "button",
+          "settings": {
+            "center": false,
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UpJGjd",
+        "subtitle_t6PW8b",
+        "text_6AQqhg",
+        "button_XygURG"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "rich_text_y94gXR",
-    "video_hn3gwP"
+    "video_hn3gwP",
+    "rich_text_gDDLjr"
   ]
 }

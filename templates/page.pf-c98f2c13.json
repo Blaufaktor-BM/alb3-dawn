@@ -16,9 +16,81 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "column_richtext_ezUngD": {
+      "type": "column-richtext",
+      "blocks": {
+        "image_n3gjLt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alb-filter-logo-bild.svg",
+            "image_width": 80,
+            "enable_border": true
+          }
+        },
+        "heading_gLNaNL": {
+          "type": "heading",
+          "settings": {
+            "heading": "ÜBER UNS",
+            "color": "{{ shop.brand.colors.primary[0].background }}",
+            "second_font": false,
+            "heading_tag": "h1",
+            "heading_size": "hxl",
+            "heading_weight": "200"
+          }
+        },
+        "text_Lx8xKW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wer steht hinter Alb Filter? Wie ist Alb Filter entstanden?<br\/>Alle Informationen zu Alb Filter und Umweltschutz.<\/p>",
+            "color": "#616161"
+          }
+        }
+      },
+      "block_order": [
+        "image_n3gjLt",
+        "heading_gLNaNL",
+        "text_Lx8xKW"
+      ],
+      "settings": {
+        "content_position": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "btn_bg": "#0081be",
+        "btn_color": "#fff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "column_image_text_CEiEr9": {
+      "type": "column-image-text",
+      "blocks": {
+        "text_Hp7JTt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/alb-filter.com\/pages\/team\" target=\"_self\">TEAM<\/a><\/p><p><a href=\"https:\/\/alb-filter.com\/pages\/entstehungsgeschichte\" target=\"_self\">ENTSTEHUNG<\/a><\/p><p><a href=\"https:\/\/alb-filter.com\/pages\/historie\" target=\"_self\">HISTORIE<\/a><\/p><p><a href=\"https:\/\/alb-filter.com\/pages\/alb-eco\" target=\"_self\">ECO<\/a><\/p><p><a href=\"https:\/\/alb-filter.com\/pages\/karriere\" target=\"_self\">KARRIERE<\/a><\/p><p><a href=\"https:\/\/af.uppromote.com\/alb-filter\/login\" target=\"_blank\">AFFILIATE PROGRAMM<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Hp7JTt"
+      ],
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-2",
+        "image": "shopify:\/\/shop_images\/wasserfilterwaterlinetrennerhellgrau.webp",
+        "image_height": 250,
+        "enable_border": true,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "column_richtext_ezUngD",
+    "column_image_text_CEiEr9"
   ]
 }
