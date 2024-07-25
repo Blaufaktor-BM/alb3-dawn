@@ -20,14 +20,26 @@
     "image_banner_MpAExG": {
       "type": "image-banner",
       "blocks": {
-        "heading_fYNhe7": {
+        "heading_9hczc6": {
           "type": "heading",
           "settings": {
             "second_font": false,
-            "heading": "<h1>FAQ Trinkwasserfilter<\/h1>",
+            "heading": "<p>Alb Filter FAQ<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_color": "#ffffff"
+          }
+        },
+        "heading_fYNhe7": {
+          "type": "heading",
+          "settings": {
+            "second_font": true,
+            "heading": "<p>FAQ Trinkwasserfilter<\/p>",
             "heading_tag": "h1",
-            "heading_size": "h1",
-            "heading_weight": "700"
+            "heading_size": "h0",
+            "heading_weight": "700",
+            "heading_color": "#ffffff"
           }
         },
         "text_BdrPTC": {
@@ -39,6 +51,7 @@
         }
       },
       "block_order": [
+        "heading_9hczc6",
         "heading_fYNhe7",
         "text_BdrPTC"
       ],
@@ -196,7 +209,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
@@ -261,7 +276,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
@@ -326,7 +343,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
@@ -391,7 +410,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
@@ -486,7 +507,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
