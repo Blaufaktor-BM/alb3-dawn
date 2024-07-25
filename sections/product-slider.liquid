@@ -35,7 +35,7 @@
           {%- endif -%}
           {%- if section.settings.subtitle != blank -%}
             <{{ section.settings.subtitle_tag }}
-              class="proudct-slider__subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %}second-font{% endif %}"
+              class="proudct-slider__subtitle {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
               style="color: {{ section.settings.subtitle_color }}; font-weight: {{ section.settings.subtitle_weight }}"
             >
               {{ section.settings.subtitle }}
