@@ -23,8 +23,8 @@
   <div class="page-width">
     {%- if section.settings.heading != blank -%}
       <{{ section.settings.heading_tag }}
-        class="two-products__heading rte {{ section.settings.heading_size }}"
-        style="color: {{ section.settings.color }};"
+        class="two-products__heading rte {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
+        style="color: {{ section.settings.color }}; font-weight: {{ section.settings.heading_weight }};"
       >
         {{ section.settings.heading }}
       </{{ section.settings.heading_tag }}>
@@ -62,15 +62,15 @@
               {%- endif -%}
               {% if block.settings.heading != blank %}
                 <{{ block.settings.heading_tag }}
-                  class="two-products-item_heading {{ block.settings.heading_size }}"
-                  style="color: {{ section.settings.title_color }};"
+                  class="two-products-item_heading {{ block.settings.heading_size }}{% if block.settings.heading_second_font %} second-font{% endif %}"
+                  style="color: {{ section.settings.title_color }}; font-weight: {{ block.settings.heading_weight }}"
                 >
                   {{ block.settings.heading }}
                 </{{ block.settings.heading_tag }}>
               {% endif %}
               {% if block.settings.text != blank %}
                 <div
-                  class="two-products-item_text rte"
+                  class="two-products-item_text rte{% if block.settings.text_second_font %} second-font{% endif %}"
                   style="color: {{ section.settings.text_color }};"
                 >
                   {{ block.settings.text }}
@@ -191,6 +191,47 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Heading Font Weight",
+      "options": [
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700"
+        }
+      ],
+      "default": "400"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
     },
     {
       "type": "header",
@@ -341,10 +382,57 @@
           "label": "t:sections.all.heading_size.label"
         },
         {
+          "type": "select",
+          "id": "heading_weight",
+          "label": "Heading Font Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ],
+          "default": "400"
+        },
+        {
+          "type": "checkbox",
+          "id": "heading_second_font",
+          "label": "Heading Second Font"
+        },
+        {
           "type": "richtext",
           "id": "text",
           "label": "Text",
           "default": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_second_font",
+          "label": "Text Second Font",
+          "default": false
         },
         {
           "type": "url",
