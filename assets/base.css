@@ -6484,14 +6484,11 @@ ul.breadcrumb li a:hover {
 }
 
 .banner_top_btn {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  top: 35px;
+  margin-bottom: 50px;
 }
 
 .banner__heading.remove_spacing {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .banner_top_btn a {
