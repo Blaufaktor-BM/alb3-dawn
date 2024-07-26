@@ -5565,6 +5565,7 @@ summary[aria-expanded="true"] .accordion__title {
 .collapse-small_image_text-item {
   display: flex;
   flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .collapse-small_image_text-media {
