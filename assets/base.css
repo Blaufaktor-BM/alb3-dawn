@@ -6522,6 +6522,40 @@ ul.breadcrumb li a:hover {
   box-shadow: rgba(0, 0, 0, .25) 4px 5px 8px;
 }
 
+.banner_logo_list-wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_logo_list-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.right_arrow,
+.left_arrow {
+  display: block;
+  width: 100%;
+  max-width: 18px;
+}
+
+.left_image,
+.right_image {
+  display: block;
+  width: 100%;
+  max-width: 80px;
+}
+
+.center_image {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+}
+
 /* image banner */
 /* multi column */
 .multicolumn-card>a {

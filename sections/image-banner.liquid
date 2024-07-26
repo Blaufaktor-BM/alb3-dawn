@@ -178,6 +178,113 @@
                 {{ block.settings.btn_text -}}
               </a>
             </div>
+          {% when 'logo_list' %}
+            <div class="banner_logo_list">
+              <div class="banner_logo_list-wrapper">
+                {% if block.settings.left_arrow != blank %}
+                  {% if block.settings.left_url != blank %}
+                    <a class="left_arrow" href="{{ block.settings.left_url }}">
+                  {% else %}
+                    <div class="left_arrow">
+                  {% endif %}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+                  {{
+                    block.settings.left_arrow
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                  {% if block.settings.left_url != blank %}
+                    </a>
+                  {% else %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+                {% if block.settings.left_image != blank %}
+                  {% if block.settings.left_image_url != blank %}
+                    <a class="left_image" href="{{ block.settings.left_image_url }}">
+                  {% else %}
+                    <div class="left_image">
+                  {% endif %}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+                  {{
+                    block.settings.left_image
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                  {% if block.settings.left_image_url != blank %}
+                    </a>
+                  {% else %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+                {% if block.settings.center_image != blank %}
+                  <div class="center_image">
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+                    {{
+                      block.settings.center_image
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  </div>
+                {% endif %}
+                {% if block.settings.right_image != blank %}
+                  {% if block.settings.right_image_url != blank %}
+                    <a class="right_image" href="{{ block.settings.right_image_url }}">
+                  {% else %}
+                    <div class="right_image">
+                  {% endif %}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+                  {{
+                    block.settings.right_image
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                  {% if block.settings.right_image_url != blank %}
+                    </a>
+                  {% else %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+                {% if block.settings.right_arrow != blank %}
+                  {% if block.settings.right_url != blank %}
+                    <a class="right_arrow" href="{{ block.settings.right_url }}">
+                  {% else %}
+                    <div class="right_arrow">
+                  {% endif %}
+                  {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                  {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+                  {{
+                    block.settings.right_arrow
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                  {% if block.settings.right_url != blank %}
+                    </a>
+                  {% else %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+              </div>
+            </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -652,6 +759,57 @@
           "id": "btn_color",
           "label": "Button Color",
           "default": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "logo_list",
+      "name": "Logo List",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "left_arrow",
+          "label": "Left Arrow"
+        },
+        {
+          "type": "url",
+          "id": "left_url",
+          "label": "Left Arrow URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "left_image",
+          "label": "Left Image"
+        },
+        {
+          "type": "url",
+          "id": "left_image_url",
+          "label": "Left Image URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "center_image",
+          "label": "Center Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "right_image",
+          "label": "Right Image"
+        },
+        {
+          "type": "url",
+          "id": "right_image_url",
+          "label": "Right Image URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "right_arrow",
+          "label": "Right Arrow"
+        },
+        {
+          "type": "url",
+          "id": "right_url",
+          "label": "Right Arrow URL"
         }
       ]
     }
