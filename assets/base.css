@@ -6544,7 +6544,7 @@ ul.breadcrumb li a:hover {
 .right_image {
   display: block;
   width: 100%;
-  max-width: 80px;
+  max-width: 40px;
   transition-duration: .5s;
 }
 
@@ -6557,7 +6557,19 @@ ul.breadcrumb li a:hover {
 .center_image {
   display: block;
   width: 100%;
-  max-width: 230px;
+  max-width: 120px;
+}
+
+@media only screen and (min-width: 750px) {
+
+  .left_image,
+  .right_image {
+    max-width: 80px;
+  }
+
+  .center_image {
+    max-width: 230px;
+  }
 }
 
 /* image banner */
