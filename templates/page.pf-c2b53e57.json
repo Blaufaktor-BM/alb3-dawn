@@ -16,9 +16,133 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_df33Mi": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/eco-filterkartuschen-kleine-pflanze-2000-1333.jpg",
+        "image_overlay_color": "#000",
+        "image_overlay_opacity": 0,
+        "enable_shadow": false,
+        "image_height": "small",
+        "image_position": "center",
+        "desktop_content_position": "middle-center",
+        "enable_section_container": false,
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pCQyVt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pAfTzg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alb Filter eco – nachhaltiger Wasserfilter<\/p>",
+            "remove_spacing": false,
+            "color": "#ffffff",
+            "heading_tag": "h1",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_hd6ePF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Klimawandel und Co. machen es notwendig, dass Unternehmen sowie Privatpersonen aktiv werden und sich die <strong>Gesellschaft mehr in Richtung Nachhaltigkeit bewegt<\/strong>. Machen wir so weiter wie bisher, können wir das Ökosystem Erde auf lange Sicht nicht mehr erhalten!<br\/><br\/>Wir von Alb Filter sind davon überzeugt, dass wir als Unternehmen aktiv werden und mit unseren Produkten <strong>Nachhaltigkeit aktiv fördern<\/strong> müssen. Deshalb finden Sie bei uns weitestgehend nachhaltige Wasserfilter, die die Umwelt wortwörtlich aufatmen lassen.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_pAfTzg",
+        "text_hd6ePF"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-abcb5680-9138-4050-9182-c3d62de3beee",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multi_content_Q7myxm": {
+      "type": "multi-content",
+      "blocks": {
+        "item_K4gCFY": {
+          "type": "item",
+          "settings": {
+            "url": "",
+            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
+            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        },
+        "item_3j46np": {
+          "type": "item",
+          "settings": {
+            "url": "",
+            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "heading_second_font": false,
+            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
+            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
+            "icon1_width": 20,
+            "icon2_width": 20,
+            "icon3_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "item_K4gCFY",
+        "item_3j46np"
+      ],
+      "settings": {
+        "background_color": "#f2f2f2",
+        "heading": "Wasserfilter Gehäuse",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "heading_color": "#003e5f",
+        "subtitle": "Für Trinkwasser und Dusche.",
+        "subtitle_second_font": true,
+        "subtitle_color": "#003e5f",
+        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
+        "text_color": "#616161",
+        "btn_text": "Kaufen",
+        "btn_url": "",
+        "btn_icon": "cart",
+        "btn_bg_color": "#0081be",
+        "btn_color": "#fff",
+        "bottom_bg_color": "#003e5f",
+        "bottom_text_color": "#fff",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_df33Mi",
+    "rich_text_pCQyVt",
+    "multi_content_Q7myxm"
   ]
 }

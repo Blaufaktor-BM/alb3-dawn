@@ -17,7 +17,7 @@
           "settings": {
             "heading": "<p>Alb Filter – Auf einen Blick (Historie)<br\/><\/p>",
             "heading_tag": "h2",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_weight": "700",
             "heading_second_font": false,
             "heading_color": "#003e5f"
