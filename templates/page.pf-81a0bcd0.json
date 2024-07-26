@@ -181,7 +181,8 @@
         "item_aCXyqC"
       ],
       "custom_css": [
-
+        ".item-image_text_list {font-size: 13px;}",
+        ".item-image_text_list svg,.item-image_text_list img {max-width: 300px;}"
       ],
       "settings": {
         "color_scheme": "",
