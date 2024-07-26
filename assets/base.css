@@ -5494,12 +5494,9 @@ slideshow-component .banner__heading.h1 {
 
 /* custom contact */
 /* collapse */
-.accordion:not(:first-child) {
-  margin-top: 10px;
-}
-
 summary[aria-expanded="true"] .accordion__title {
   text-decoration: underline;
+  text-underline-offset: 0.3rem;
 }
 
 .collapsible-content__heading svg {
