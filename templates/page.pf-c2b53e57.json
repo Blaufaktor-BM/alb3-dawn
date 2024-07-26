@@ -21,7 +21,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/eco-filterkartuschen-kleine-pflanze-2000-1333.jpg",
-        "image_overlay_color": "#000",
+        "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -74,68 +74,295 @@
         "padding_bottom": 52
       }
     },
-    "multi_content_Q7myxm": {
-      "type": "multi-content",
+    "custom_image_text_hbf3b6": {
+      "type": "custom-image-text",
       "blocks": {
-        "item_K4gCFY": {
-          "type": "item",
+        "heading_4iVC6M": {
+          "type": "heading",
           "settings": {
-            "url": "",
-            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
+            "heading": "Wasserfilter und Nachhaltigkeit: Wie passt das zusammen?",
             "heading_tag": "h2",
-            "heading_size": "h2",
+            "heading_size": "h3",
             "heading_weight": "700",
-            "heading_second_font": false,
-            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
-            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
-            "icon1_width": 20,
-            "icon2_width": 20,
-            "icon3_width": 40
+            "second_font": false,
+            "heading_color": "#ffffff",
+            "remove_spacing": false
           }
         },
-        "item_3j46np": {
-          "type": "item",
+        "subtitle_E7HjQh": {
+          "type": "subtitle",
           "settings": {
-            "url": "",
-            "heading": "<p>ALB FILTER®<br> <strong>Element<\/strong><\/p>",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "heading_weight": "700",
-            "heading_second_font": false,
-            "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
-            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
-            "icon1_width": 20,
-            "icon2_width": 20,
-            "icon3_width": 40
+            "subtitle": "",
+            "subtitle_color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "text_DWkgXi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Zusammenhang zwischen Wasserfilter und Nachhaltigkeit mag auf den ersten Blick vielleicht nicht gleich erkennbar sein. Fakt ist jedoch, dass umweltfreundliche Wasserfilter den Plastikmüll um ein vielfaches reduzieren und damit einen <strong>wichtigen Beitrag in Sachen Nachhaltigkeit <\/strong>leisten. Denn sowohl die Produktion, Verwendung sowie das Recycling von nachhaltigen Wasserfiltern resultieren in weit weniger Plastikmüll als Einweg-Wasserflaschen.<br\/><br\/>Umweltfreundliche Wasserfilter gehen zudem <strong>sparsam mit wertvollen Ressourcen <\/strong>um und setzen zum Teil auf natürliche und biologisch abbaubare Materialien. <\/p>",
+            "text_style": "body",
+            "text_color": "#ffffff",
+            "second_font": true
+          }
+        },
+        "button_yQfeEB": {
+          "type": "button",
+          "settings": {
+            "button_label1": "Trinkwasserfilter kaufen",
+            "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
+            "btn_color": "#333333",
+            "btn_bg": "#ffffff",
+            "btn_icon": "cart",
+            "button_label2": "Mehr erfahren",
+            "button_link2": "https:\/\/alb-filter.com\/blogs\/ratgeber\/biokunststoffe",
+            "second_btn_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "item_K4gCFY",
-        "item_3j46np"
+        "heading_4iVC6M",
+        "subtitle_E7HjQh",
+        "text_DWkgXi",
+        "button_yQfeEB"
       ],
       "settings": {
-        "background_color": "#f2f2f2",
-        "heading": "Wasserfilter Gehäuse",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "700",
-        "heading_second_font": false,
-        "heading_color": "#003e5f",
-        "subtitle": "Für Trinkwasser und Dusche.",
-        "subtitle_second_font": true,
-        "subtitle_color": "#003e5f",
-        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
-        "text_color": "#616161",
-        "btn_text": "Kaufen",
-        "btn_url": "",
-        "btn_icon": "cart",
-        "btn_bg_color": "#0081be",
-        "btn_color": "#fff",
-        "bottom_bg_color": "#003e5f",
-        "bottom_text_color": "#fff",
-        "padding_top": 10,
+        "image": "shopify:\/\/shop_images\/activealb-eco-1641201334208.webp",
+        "enable_image_ratio": true,
+        "image_ratio": "2_3",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": false,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "#69a321",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "rich_text_gcHXAL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pVnqXk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Nachhaltige Wasserfilter vs. Plastikflaschen<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_3d4Nw4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plastikmüll gehört zu den größten Problemen und Herausforderungen in Sachen Nachhaltigkeit und Umweltschutz. Dabei zählen Plastikflaschen zu den <strong>größten Übeltätern<\/strong>. Insgesamt werden in Deutschland jährlich ca. <a href=\"https:\/\/seas-at-risk.org\/wp-content\/uploads\/2017\/10\/2017.30.03.-Single-use-plastics-and-marine-environment.pdf\" target=\"_self\">9,6 Millionen Einweg-Plastikflaschen<\/a> verbraucht. <strong>Das Problem: <\/strong>Plastik wird nicht bzw. nur extrem langsam abgebaut.<br\/><br\/>Durch unseren hohen Plastikverbrauch sowie eine nicht fachgerechte Entsorgung entsteht dadurch ein großes Müllproblem. Mittlerweile haben wir sogar mit ganzen <a href=\"https:\/\/education.nationalgeographic.org\/resource\/great-pacific-garbage-patch\" target=\"_self\"><strong>Müllinseln bzw. Müllstrudel<\/strong><\/a><strong> in unseren Weltmeeren<\/strong> zu kämpfen. Diese belasten die Ozeane und die darin lebende Fauna und Flora enorm. Hier ist also dringendes Handeln angesagt!<br\/><br\/>Um den eigenen Plastikverbrauch deutlich zu reduzieren, sollten Sie statt abgefülltem Wasser deshalb <strong>lieber Leitungswasser trinken<\/strong>. Da dieses jedoch zumindest zeitweise unerwünschte Schadstoffe enthält, empfehlen wir den Einsatz eines nachhaltigen Wasserfilters. Dieser sorgt für sauberes Wasser und entlastet noch dazu die Umwelt. Sehen Sie selbst: <\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_pVnqXk",
+        "text_3d4Nw4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_aCrgDH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xiUXmb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alb Filter eco: Unser Beitrag zum Umweltschutz<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_YicYtU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir sind der Meinung, dass es wichtig ist, als modernes Unternehmen dabei mitzuwirken, <strong>Alternativen zu existierenden Materialien<\/strong> zu suchen und diese auch einzusetzen. Deshalb wollen wir langsam aber sicher von Filtern in Plastikgehäusen und der Verwendung von erdölbasierten Kunststoffen Abschied nehmen. Hiermit verringern wir den Einsatz von Rohstoffen, die uns nur in begrenztem Umfang zur Verfügung stehen und wirken dem <strong>Müllproblem aktiv entgegen.<\/strong><\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_xiUXmb",
+        "text_YicYtU"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_dtTgFU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XaLz7A": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Nachhaltige Wasserfilter aus Deutschland (Schwäbische Alb)<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_YwFqPf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir lieben unsere Produkte und stehen deshalb mit unserem Unternehmen nicht nur für eine <strong>regionale Produktion<\/strong> unserer Filtereinheiten, sondern auch für <strong>qualitativ hochwertige und umweltverträgliche Produkte<\/strong>.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XaLz7A",
+        "text_YwFqPf"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_HtaJg6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BjYfwj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Hochwertiges Gehäuse aus Metall<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_P47aAM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir von Alb Filter sind davon überzeugt, dass es heutzutage wichtig ist, <strong>am eigenen ökologischen Fußabdruck zu feilen<\/strong>. Wir verabschieden uns daher von Filtern in Plastikgehäusen und produzieren hochwertige Gehäuse aus Metall.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_BjYfwj",
+        "text_P47aAM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_936wjR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XTyRRb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Filterkartuschen als Wegwerfprodukt<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_KtQnnw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leider lässt es sich nicht vermeiden, Filterkartuschen in regelmäßigen Abständen auszutauschen. Um dieser Umweltbelastung entgegenzutreten, verwenden wir <strong>alternative Rohstoffe<\/strong>, die weniger Spuren in unserer Umwelt hinterlassen. Unsere Balance Kartusche sowie die Kappen der Active und Active Plus+ Kartuschen fertigen wir daher <strong>aus biologisch abbaubarem Material<\/strong>.<br\/><br\/><strong>Wichtig:<\/strong>Aufgrund der in der Aktivkohle enthaltenen Schadstoffe und Bindemittel müssen die Kartuschen dennoch fachgerecht entsorgt werden! <\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_XTyRRb",
+        "text_KtQnnw"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_W6bP3i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3CX8bK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Natürliche Wasserfilter auf Lignin-Basis<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_prxyqK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Im Zuge fortführender Neuentwicklungen bei Alb Filter sind wir stolz darauf, verschiedene Bauteile unserer Filterkartuschen aus einem <strong>Biopolymer auf Lignin-Basis <\/strong>produzieren zu können. Hierbei arbeiten wir eng mit Partnern aus Baden-Württemberg zusammen, welche im Bereich der Biokunststoffe bereits viel Erfahrung sammeln konnten.<br\/><br\/>Die verwendeten Biopolymere (Lignin) sind <strong>biologisch abbaubar <\/strong>nach DIN EN ISO 14855 und EN 13432, <strong>lebensmittelecht <\/strong>und <strong>FDA zertifiziert<\/strong>.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3CX8bK",
+        "text_prxyqK"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -143,6 +370,12 @@
     "main",
     "image_banner_df33Mi",
     "rich_text_pCQyVt",
-    "multi_content_Q7myxm"
+    "custom_image_text_hbf3b6",
+    "rich_text_gcHXAL",
+    "rich_text_aCrgDH",
+    "rich_text_dtTgFU",
+    "rich_text_HtaJg6",
+    "rich_text_936wjR",
+    "rich_text_W6bP3i"
   ]
 }
