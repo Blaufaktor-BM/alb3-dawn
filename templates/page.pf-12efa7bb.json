@@ -287,7 +287,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was sind die Vorteile der Mobil Variante?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<ul><li>Verunreinigungen, Bakterien und Schadstoffe gelangen nicht in den Tank (Wasser kann nicht kippen).<\/li><li>Es wird keine starke Pumpe benötigt.<\/li><li>Der Filter kann auch zum Abfüllen, zum Beispiel eines Kanisters, verwendet werden, wenn die Zapfstelle nicht mit dem Fahrzeug erreicht werden kann.<\/li><li>Kein Einbau erforderlich.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -300,7 +300,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was sind die Nachteile der Mobil Variante?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<ul><li>Eine gründliche Systemreinigung und Desinfektion ist vor dem Einsatz des Filters erforderlich, wenn das Wasser kalt konsumiert werden soll.<\/li><li>Gutes hygienisches Verhalten ist erforderlich, um sicherzustellen, dass keine Keime in das System eingebracht werden.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -313,7 +313,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Muss ich die Filter nach der Betankung ausbauen? ",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Nein, während Sie unterwegs sind, bleiben die Kartuschen im Gehäuse verbaut. In der Praxis öffnen Sie lediglich den Deckel, um das Stagnationswasser aus dem Gehäuse ablaufen zu lassen. Anschließend wird das Gehäuse wieder geschlossen und in der Garage verstaut.<br\/><br\/>Erst nach dem Urlaub werden die Kartuschen ausgebaut und getrocknet.<\/p>",
             "small_text1": "",
             "small_text2": "",
