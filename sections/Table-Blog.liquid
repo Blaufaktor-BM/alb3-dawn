@@ -1,4 +1,4 @@
-{% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank or section.settings.th4 != blank %}
+{% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
   <section class="table-{{ section.id }} page-width">
     <table>
       <thead>
@@ -6,7 +6,6 @@
           <th>{{ section.settings.th1 }}</th>
           <th>{{ section.settings.th2 }}</th>
           <th>{{ section.settings.th3 }}</th>
-          <th>{{ section.settings.th4 }}</th>
         </tr>
       </thead>
       <tbody>
@@ -16,7 +15,6 @@
               <td>{{ block.settings.col1 }}</td>
               <td>{{ block.settings.col2 }}</td>
               <td>{{ block.settings.col3 }}</td>
-              <td>{{ block.settings.col4 }}</td>
             </tr>
           {% endfor %}
         {% endif %}
@@ -73,11 +71,6 @@
       "type": "text",
       "id": "th3",
       "label": "TH3"
-    },
-    {
-      "type": "text",
-      "id": "th4",
-      "label": "TH4"
     },
     {
       "type": "color",
@@ -154,11 +147,7 @@
           "id": "col3",
           "label": "Col 3"
         },
-        {
-          "type": "richtext",
-          "id": "col4",
-          "label": "Col 4"
-        }
+       
       ]
     }
   ],
