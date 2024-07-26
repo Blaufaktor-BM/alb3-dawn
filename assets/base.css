@@ -4964,6 +4964,10 @@ slideshow-component .banner__heading.h1 {
   margin: 0 auto 10px;
 }
 
+.item_btn-multi_content a {
+  justify-content: center;
+}
+
 .item_icons-mulit_content {
   display: flex;
   justify-content: center;
