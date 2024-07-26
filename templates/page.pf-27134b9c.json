@@ -16,9 +16,389 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_G9B9tB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_w3My7x": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2022<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_nxnMMR": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Zwei in 2021 eingereichte Patente für den Bereich Camping wurden erteilt. <\/li><li>Die durch das Land geförderte Erweiterung unserer Lagerhalle mit Produktion und Büro geht in die finale Planungsphase. Der Bauantrag ist eingereicht.<\/li><li>Zusammenarbeit mit Heidelberger Forschungseinrichtung. Eine neue High-End Kartusche befindet sich in der finalen Testphase. Release wird Q2 2023 sein.<\/li><li>Finale Testphase eines neuen Zubehörteils für Wohnmobile, welches es so nicht auf dem Markt gibt. Die offizielle Ankündigung wird 2023 stattfinden.<\/li><li>Auch dieses Jahr waren wir auf der Messe Caravan Salon 2022 in Düsseldorf vertreten. Die Standgröße hat sich zum Vorjahr verdoppelt.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_w3My7x",
+        "text_nxnMMR"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_rbd8pd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9nfL4F": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2021<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_dUCj7T": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Die harte Arbeit und das lange Warten hat sich gelohnt, die Blaufaktor GmbH erhält die Fördermittel der EU bzw. L-Bank \"Spitze auf dem Land\". Die geplante Erweiterung im Industriegebiet \"Inkom\" bei Rottweil wird mit 20% bezuschußt.<\/li><li>Auch dieses Jahr waren wir wieder vor Ort auf der Caravan Salon 2021 in Düsseldorf. Ein voller Erfolg mit vielen interessanten Gesprächen.<\/li><li>Es wurden zwei neue Patente für ein Camping Zubehör eingereicht.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9nfL4F",
+        "text_dUCj7T"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_4cedNx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kttb9n": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2020<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_VYYd3A": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Der Active Plus+ wurde überarbeitet und im Oktober veröffentlicht. Aufgrund des geringen Durchfluss, musste die Mischung neu definiert werden. Der Active Plus+ ist nun sogar in der Lage Kalk zu reduzieren bzw. Wasser zu enthärten.<\/li><li>Alb Filter bzw. die Blaufaktor GmbH & Co. KG kommt unter die Top 20 des Landespreis 2020 des Landes Baden-Württemberg.<\/li><li>Eine Vorfiltereinheit mit dem Namen \"Protect\" kommt als Ergänzungsmodul zum Alb Filter Element hinzu. Dieser soll nachfolgende Kartuschen mit einem gesinterten Vorfilter Pad schützen.<\/li><li>Die große Nachfrage nach der Abdeckung eines großen Filterspektrums, wurde mit der Veröffentlichung des Alb Filter Fusions beantwortet. Der Fusion macht sich vor allem in der Camping-Branche einen Namen.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_kttb9n",
+        "text_VYYd3A"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_MF99fy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gnE8C6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2022<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_Tb3d8J": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Gehäuse und Aufnahme-Kappen ausgewählter Filterkartuschen werden zukünftig im Spritzgussverfahren aus Biokunststoffen gefertigt. So wird der Einsatz erdölbasierter Kunststoffe weiter reduziert – ein wichtiger Schritt in Richtung einer Zukunft mit weniger Plastikmüll.<br\/><\/li><li>Die Blaufaktor GmbH & Co. KG erhält den Innovationspreis für die Entwicklung einer Spritzgießform in der Aufnahmekappen und Gehäuse der Filtermedien in Biokunststoff hergestellt werden können<br\/><\/li><li>Alb Filter Duo kommt auf den Markt. <br\/><\/li><li>Alb Filter kooperiert mit der Umweltschutzorganisation One Earth – One Ocean e.V., die Plastikmüll aus den Gewässern weltweit entfernt. Für jede verkaufte Alb eco-Kartusche spendet Alb Filter einen Prozentsatz an die Umweltorganisation. <\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gnE8C6",
+        "text_Tb3d8J"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_YkVf46": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CcTgE7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2018<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_zQd6rc": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Mit der Alb Filter eco Kartusche bringt das Unternehmen im Herbst erstmals eine Filterkartusche auf den Markt, deren Aufnahmekappen aus Biopolymeren gefertigt werden. Diese sind biologisch abbaubar nach DIN EN ISO 14855 und EN 13432.<br\/><\/li><li>Alb Filter erhält vom Wirtschaftsministerium des Landes Baden-Württemberg projektbezogene Fördermittel für den Einsatz von abbaubaren Biokunststoffen in der Serienfertigung seines Produktportfolios.<br\/><\/li><li>Anschluss-Sets für Wohnmobile und Caravans werden angeboten.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_CcTgE7",
+        "text_zQd6rc"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_7yLEym": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VACgp3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2017<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_WQUpWL": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>In Zusammenarbeit mit einem renommierten Filterhersteller wurde die Filterkartuschen-Lösung Alb Filter Active und Active Plus+ aus einem gesintertem Aktivkohleblock auf Kokosnussbasis entwickelt und perfektioniert. Die innere Oberfläche der Aktivkohle entspricht etwa der Fläche eines Fußballfeldes und hat somit sehr viel Aufnahmefläche, um Schadstoffe, Keime und Bakterien zurückzuhalten bzw. zu binden.<br\/><\/li><li>Mit Hilfe eines Vertriebspartners erfolgt die erste Großbestellung für die Markteinführung in Ägypten.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_VACgp3",
+        "text_WQUpWL"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_xRiGTH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n3bjpP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2016<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_yfD8EP": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Planung und Entwicklung des ersten komplett in Deutschland entwickelten Wasserfilters. Die Idee dahinter war es, einen Filter direkt an die Endpunkte der Armaturen anzubringen.<\/li><li>Fertigung des Prototypen-Filtergehäuses auf der schwäbischen Alb.<br\/><\/li><li>Markteinführung des heutigen Alb Filters unter einem anderen Namen. Zu Beginn mit einem Filtereinsatz für die Dusche und Trinkwasser.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_n3bjpP",
+        "text_yfD8EP"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_BgHBrC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BN3gnL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2015<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_CUnydW": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Erweiterung des Geschäftsfelds um Osmose-Anlagen, Schläuche und Inlinefilter. Das aktuelle Sortiment umfasst etwa 300 verschiedene Filter, Gehäuse und Kleinteile.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_BN3gnL",
+        "text_CUnydW"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_TiprDr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6U4zze": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2014<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_GxUymw": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Start des Vertriebes von Wasserfilteranlagen für Brunnen und Zisternen-Anwendungen.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6U4zze",
+        "text_GxUymw"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_9wmGmE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LDGFhr": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>2001-2013<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_nGmwHP": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Angetrieben durch die schlechte Wasserqualität ihres Studentenwohnheims entstand schon während des Studiums der drei Gründer die Idee, sich mit Trinkwasseraufbereitung und Wasserfiltern zu beschäftigen. Tobias Müller hatte zudem bereits seit 2001 Kontakt mit Wasserfiltrationstechnik durch das Physikstudium im Karlsruher Institut für Technologie: KIT. Unter dem Namen BWF starteten sie ihre neue Unternehmung.<\/li><\/ul>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_LDGFhr",
+        "text_nGmwHP"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_G9B9tB",
+    "rich_text_rbd8pd",
+    "rich_text_4cedNx",
+    "rich_text_MF99fy",
+    "rich_text_YkVf46",
+    "rich_text_7yLEym",
+    "rich_text_xRiGTH",
+    "rich_text_BgHBrC",
+    "rich_text_TiprDr",
+    "rich_text_9wmGmE"
   ]
 }
