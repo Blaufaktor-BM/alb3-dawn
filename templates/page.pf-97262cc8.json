@@ -20,6 +20,14 @@
     "image_banner_MpAExG": {
       "type": "image-banner",
       "blocks": {
+        "top_btn_ADWP4W": {
+          "type": "top_btn",
+          "settings": {
+            "btn_text": "Zurück",
+            "btn_url": "shopify:\/\/pages\/hilfe-und-kontakt",
+            "btn_color": "#fff"
+          }
+        },
         "heading_fYNhe7": {
           "type": "heading",
           "settings": {
@@ -27,7 +35,9 @@
             "heading": "<h1>FAQ Duschfilter<\/h1>",
             "heading_tag": "h1",
             "heading_size": "h1",
-            "heading_weight": "700"
+            "heading_weight": "700",
+            "heading_color": "#616161",
+            "remove_spacing": false
           }
         },
         "text_BdrPTC": {
@@ -39,14 +49,17 @@
         }
       },
       "block_order": [
+        "top_btn_ADWP4W",
         "heading_fYNhe7",
         "text_BdrPTC"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
+        "image_overlay_color": "#000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
+        "image_position": "center",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
         "show_text_box": false,
@@ -55,7 +68,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "collapsible_content_i66qXY": {
@@ -182,7 +195,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
@@ -247,7 +262,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
@@ -298,7 +315,9 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
         "title_color": "#003e5f",
