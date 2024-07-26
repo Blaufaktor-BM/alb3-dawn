@@ -50,13 +50,31 @@
     "rich_text_FaRNeL": {
       "type": "rich-text",
       "blocks": {
-        "caption_pzk6Tk": {
-          "type": "caption",
+        "image_RG7CLa": {
+          "type": "image",
           "settings": {
-            "caption": "ALB FILTER®",
-            "text_style": "subtitle",
-            "text_size": "medium",
-            "second_font": false
+            "image": "shopify:\/\/shop_images\/pf-6f9070de--wasserfilterlogoinstallationdark.png",
+            "image_width": 150,
+            "full_width": false,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": false,
+            "image_des": "",
+            "text_color": "#616161",
+            "des_second_font": true
+          }
+        },
+        "heading_PUf3QG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ALB FILTER®<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "400",
+            "second_font": true
           }
         },
         "heading_GqAfXH": {
@@ -73,7 +91,8 @@
         }
       },
       "block_order": [
-        "caption_pzk6Tk",
+        "image_RG7CLa",
+        "heading_PUf3QG",
         "heading_GqAfXH"
       ],
       "settings": {
