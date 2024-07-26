@@ -90,7 +90,7 @@
                   id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
                   role="region"
                   aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
-                  style="color: {{ section.settings.text_color }};border-color: {{ section.settings.content_border_color }}"
+                  style="color: {{ section.settings.text_color }};border-color: {{ section.settings.content_border_color }};background-color: {{ section.settings.content_bg_color }}"
                 >
                   {% if block.settings.row_content != blank %}
                     {{ block.settings.row_content }}
@@ -418,6 +418,12 @@
       "id": "content_border_color",
       "label": "Content Border Color",
       "default": "#fafafa"
+    },
+    {
+      "type": "color",
+      "id": "content_bg_color",
+      "label": "Content Background Color",
+      "default": "#ffffff"
     },
     {
       "type": "header",
