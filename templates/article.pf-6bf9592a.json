@@ -121,6 +121,8 @@
             "heading_second_font": false,
             "subtitle": "",
             "text": "<p>Erfahren Sie, wie Sie den Alb Filter Duo an Ihre Armatur montieren.<\/p><p><a href=\"\/pages\/installation-wasserhahnfilter\" title=\"Installation Wasserhahnfilter\">Weiterlesen &gt;<\/a><\/p>",
+            "btn_text": "Weiterlesen",
+            "btn_url": "shopify:\/\/pages\/installation-wasserhahnfilter",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -138,6 +140,8 @@
             "heading_second_font": false,
             "subtitle": "",
             "text": "<p>Hier finden Sie eine Anleitung zum Installieren des Alb Filters unter dem Spülbecken.<\/p><p><a href=\"\/pages\/installation-untertisch\" title=\"Installation Untertisch\">Weiterlesen &gt;<\/a><\/p>",
+            "btn_text": "",
+            "btn_url": "",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -171,6 +175,7 @@
         "btn_color": "#ffffff",
         "bottom_bg_color": "#f3f3f3",
         "bottom_text_color": "#616161",
+        "item_btn_color": "#0081be",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -190,6 +195,8 @@
             "heading_second_font": false,
             "subtitle": "",
             "text": "<p>Erfahren Sie hier, wie der Alb Filter MOBIL mit einer Wasserquelle verbunden wird und wie Sie die Kartuschen schnell und einfach wechseln können.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-mobil-travel\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
+            "btn_text": "",
+            "btn_url": "",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -207,6 +214,8 @@
             "heading_second_font": false,
             "subtitle": "",
             "text": "<p>Hier finden Sie eine Anleitung, wie Sie den Alb Filter® TRAVEL in Ihrem Camper, Wohnmobil oder Boot fest verbauen. Außerdem zeigen wir Ihnen wie Sie einfach die Kartuschen wechseln.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-mobil-travel\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
+            "btn_text": "",
+            "btn_url": "",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -240,6 +249,7 @@
         "btn_color": "#ffffff",
         "bottom_bg_color": "#f3f3f3",
         "bottom_text_color": "#616161",
+        "item_btn_color": "#0081be",
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -259,6 +269,8 @@
             "heading_second_font": false,
             "subtitle": "",
             "text": "<p>Lesen Sie nach, wie Sie den Alb Filter in der Dusche installieren können.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-duschfilter\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
+            "btn_text": "",
+            "btn_url": "",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -291,6 +303,7 @@
         "btn_color": "#ffffff",
         "bottom_bg_color": "#f3f3f3",
         "bottom_text_color": "#616161",
+        "item_btn_color": "#0081be",
         "padding_top": 10,
         "padding_bottom": 0
       }
