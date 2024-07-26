@@ -59,13 +59,27 @@
             "text_style": "body"
           }
         },
+        "logo_list_BTQpNg": {
+          "type": "logo_list",
+          "settings": {
+            "left_arrow": "shopify:\/\/shop_images\/angle-left-solid.svg",
+            "left_url": "shopify:\/\/pages\/faq-duschfilter",
+            "left_image": "shopify:\/\/shop_images\/duschkopf-weiss-1x1-1682342656061.svg",
+            "left_image_url": "shopify:\/\/pages\/faq-duschfilter",
+            "center_image": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg",
+            "right_image": "shopify:\/\/shop_images\/wasserglas-weiss-1x1-1682342656077.svg",
+            "right_image_url": "",
+            "right_arrow": "shopify:\/\/shop_images\/angle-right-solid.svg",
+            "right_url": ""
+          }
+        },
         "buttons_RPpkxM": {
           "type": "buttons",
           "settings": {
             "button_label_1": "FAQ Campingfilter",
             "button_link_1": "shopify:\/\/pages\/faq-camping",
             "button_style_secondary_1": true,
-            "btn_icon": "none",
+            "btn_icon": "email",
             "button_label_2": "FAQ Duschfilter",
             "button_link_2": "shopify:\/\/pages\/faq-duschfilter",
             "second_btn_color": "#ffffff"
@@ -77,6 +91,7 @@
         "heading_fYNhe7",
         "heading_9GTFX9",
         "text_BdrPTC",
+        "logo_list_BTQpNg",
         "buttons_RPpkxM"
       ],
       "settings": {
