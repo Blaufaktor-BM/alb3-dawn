@@ -24,7 +24,8 @@
           "type": "top_btn",
           "settings": {
             "btn_text": "Zurück",
-            "btn_url": ""
+            "btn_url": "",
+            "btn_color": "#fff"
           }
         },
         "heading_9hczc6": {
@@ -35,7 +36,8 @@
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
-            "heading_color": "#ffffff"
+            "heading_color": "#ffffff",
+            "remove_spacing": true
           }
         },
         "heading_fYNhe7": {
@@ -46,7 +48,8 @@
             "heading_tag": "h1",
             "heading_size": "hxl",
             "heading_weight": "400",
-            "heading_color": "#ffffff"
+            "heading_color": "#ffffff",
+            "remove_spacing": true
           }
         },
         "text_BdrPTC": {
@@ -68,6 +71,7 @@
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "medium",
+        "image_position": "center",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
         "show_text_box": false,
