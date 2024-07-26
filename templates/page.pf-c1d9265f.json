@@ -171,15 +171,65 @@
         "rows_8BU849": {
           "type": "rows",
           "settings": {
-            "col1": "",
-            "col2": "",
-            "col3": "<p>M22 AG → M16 IG <a href=\"\/products\/alb-duschfilter-balance\" title=\"Alb Duschfilter Balance\">In den Warenkorb &gt;<\/a><\/p>",
+            "col1": "<p><strong>14,9 mm <\/strong>(M16 IG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p>M22 AG → M16 IG<br\/><a href=\"\/products\/alb-duschfilter-balance\" title=\"Alb Duschfilter Balance\">In den Warenkorb &gt;<\/a><\/p>",
+            "col4": ""
+          }
+        },
+        "rows_6XFbbd": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>16,9 mm <\/strong>(M18 IG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M18 IG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m18_ig\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>",
+            "col4": ""
+          }
+        },
+        "rows_qftyXH": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>18,9 mm<\/strong>(M20 IG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M20 IG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m20_ig\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>",
+            "col4": ""
+          }
+        },
+        "rows_bxqNrt": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>20,9 mm<\/strong>(M22 IG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p>Kein Adapter benötigt<\/p>",
+            "col4": ""
+          }
+        },
+        "rows_N8QPt8": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>22,9 mm<\/strong>(M24 IG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M24 IG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m24_ig\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>",
+            "col4": ""
+          }
+        },
+        "rows_UxYpaz": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>26,9 mm <\/strong>(M28 IG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M28 IG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m28_ig\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>",
             "col4": ""
           }
         }
       },
       "block_order": [
-        "rows_8BU849"
+        "rows_8BU849",
+        "rows_6XFbbd",
+        "rows_qftyXH",
+        "rows_bxqNrt",
+        "rows_N8QPt8",
+        "rows_UxYpaz"
       ],
       "settings": {
         "th1": "Durchmesser Innengewinde Perlator (in Millimeter) ",
