@@ -194,9 +194,9 @@
             "heading_weight": "700",
             "heading_second_font": false,
             "subtitle": "",
-            "text": "<p>Erfahren Sie hier, wie der Alb Filter MOBIL mit einer Wasserquelle verbunden wird und wie Sie die Kartuschen schnell und einfach wechseln können.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-mobil-travel\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
-            "btn_text": "",
-            "btn_url": "",
+            "text": "<p>Erfahren Sie hier, wie der Alb Filter MOBIL mit einer Wasserquelle verbunden wird und wie Sie die Kartuschen schnell und einfach wechseln können.<\/p>",
+            "btn_text": "Weiterlesen",
+            "btn_url": "shopify:\/\/pages\/installation-mobil-travel",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -227,7 +227,7 @@
         "item_Dd4URY"
       ],
       "custom_css": [
-        "a {color: #0081be; text-decoration: underline; cursor: pointer;}"
+
       ],
       "settings": {
         "background_color": "#fafafa",
