@@ -139,9 +139,9 @@
             "heading_weight": "700",
             "heading_second_font": false,
             "subtitle": "",
-            "text": "<p>Hier finden Sie eine Anleitung zum Installieren des Alb Filters unter dem Spülbecken.<\/p><p><a href=\"\/pages\/installation-untertisch\" title=\"Installation Untertisch\">Weiterlesen &gt;<\/a><\/p>",
-            "btn_text": "",
-            "btn_url": "",
+            "text": "<p>Hier finden Sie eine Anleitung zum Installieren des Alb Filters unter dem Spülbecken.<\/p>",
+            "btn_text": "Weiterlesen",
+            "btn_url": "shopify:\/\/pages\/installation-untertisch",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
