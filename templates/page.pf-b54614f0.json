@@ -25,7 +25,7 @@
           "settings": {
             "btn_text": "Zurück",
             "btn_url": "shopify:\/\/pages\/hilfe-und-kontakt",
-            "btn_color": "#fff"
+            "btn_color": "#ffffff"
           }
         },
         "heading_9hczc6": {
@@ -58,13 +58,28 @@
             "text": "<p>Alle Fragen und Antworten zum Thema Trinkwasserfilter im Haushaltsbereich (Untertisch und Wasserhahn) finden Sie hier.<\/p>",
             "text_style": "body"
           }
+        },
+        "logo_list_G4fhfA": {
+          "type": "logo_list",
+          "settings": {
+            "left_arrow": "shopify:\/\/shop_images\/angle-left-solid.svg",
+            "left_url": "",
+            "left_image": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg",
+            "left_image_url": "",
+            "center_image": "shopify:\/\/shop_images\/wasserglas-weiss-1x1-1682342656077.svg",
+            "right_image": "shopify:\/\/shop_images\/duschkopf-weiss-1x1-1682342656061.svg",
+            "right_image_url": "",
+            "right_arrow": "shopify:\/\/shop_images\/angle-right-solid.svg",
+            "right_url": ""
+          }
         }
       },
       "block_order": [
         "top_btn_UeQYUY",
         "heading_9hczc6",
         "heading_fYNhe7",
-        "text_BdrPTC"
+        "text_BdrPTC",
+        "logo_list_G4fhfA"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
