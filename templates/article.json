@@ -68,19 +68,19 @@
         "heading_KR6C8h": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
+            "heading": "<p>Wasser Ratgeber von Alb Filter<\/p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
-            "font_weight": "700",
-            "second_font": false
+            "font_weight": "400",
+            "second_font": true
           }
         },
         "text_j8jfb8": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>In unseren Ratgebern findest du alles, was du über Wasser, Wasserfilter und Wasseraufbereitung wissen musst. Ob du die Qualität deines Leitungswassers verbessern, mehr über Wasserverschmutzung erfahren oder einfach die beste Lösung für sauberes und gesundes Trinkwasser entdecken möchtest – wir haben die Antworten. Unsere Ratgeber decken Themen von der Trinkwasserverordnung bis zu speziellen Filterlösungen für Camping und Urlaub ab.  Finde heraus, wie du dein Trinkwasser optimieren kannst und worauf bei der Nutzung von Leitungswasser zu achten ist.<\/p>",
             "second_font": true
           }
         }
