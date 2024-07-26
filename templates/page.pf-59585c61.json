@@ -33,7 +33,7 @@
           "type": "heading",
           "settings": {
             "heading": "<h1>KARRIERE<\/h1>",
-            "remove_spacing": false,
+            "remove_spacing": true,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -66,6 +66,7 @@
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
+            "btn_icon": "cart",
             "button_label_2": "Schreibe uns",
             "button_link_2": "",
             "second_btn_color": "#0081be"
@@ -85,8 +86,8 @@
         "color_scheme": "",
         "full_width": true,
         "content_full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
