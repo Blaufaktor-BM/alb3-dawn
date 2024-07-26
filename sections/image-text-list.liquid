@@ -29,7 +29,7 @@
       <div class="wrapper-image_text_list{% if section.settings.image_white %} icon_white{% endif %} column{{ section.settings.column_count }}{% if section.settings.large_image %} large-image{% endif %}{% if section.settings.full_image %} full-image{% endif %}">
         {%- for block in section.blocks -%}
           <div
-            class="item-image_text_list center"
+            class="item-image_text_list {{ section.settings.content_position }}"
           >
             {%- if block.settings.url != blank -%}
               <a href="{{ block.settings.url }}">
@@ -112,6 +112,22 @@
       "max": 6,
       "step": 1,
       "default": 4
+    },
+    {
+      "type": "select",
+      "id": "content_position",
+      "label": "Content Position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center"
     },
     {
       "type": "checkbox",
