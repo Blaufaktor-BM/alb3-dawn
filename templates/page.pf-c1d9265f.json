@@ -70,7 +70,7 @@
       "type": "video",
       "settings": {
         "heading": "Gewinderatgeber als Video",
-        "heading_tag": "h3",
+        "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
         "heading_second_font": false,
@@ -82,6 +82,22 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "anchor_contact_r4XCJA": {
+      "type": "anchor_contact",
+      "settings": {
+        "color": "#616161",
+        "border_color": "#93d4ff",
+        "text": "<p>Autor: Benjamin Maywald<br\/>Position: Co-Founder Alb Filter<br\/>Aktualisiert am:<\/p>",
+        "social_title": "Jetzt teilen!",
+        "linkedin": "",
+        "facebook": "",
+        "twitter": "",
+        "pinterest": "",
+        "mail": "",
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "rich_text_gDDLjr": {
@@ -113,20 +129,23 @@
         "text_6AQqhg": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Ihre ermittelte Gewindegröße können Sie einfach mit der folgenden Tabelle abgleichen und sehen sofort ob Sie einen Adapter benötigen und wenn ja welcher. <br\/><br\/>Vorgehensweise:<\/p><ul><li>Schrauben Sie den Perlator Ihrer Armatur ab.<\/li><li>Messen Sie, je nach Modell, das Innen- bzw. Außengewinde Ihres Perlators.<\/li><li>Vergleichen Sie den Wert mit der entsprechenden Tabelle.<\/li><li>Den ermittelten Gewindeadapter können Sie beim Kauf Ihres Alb Filter Duo direkt auswählen oder separat in unserem Online Shop erwerben.<\/li><\/ul><p>Für eine detaillierte Anleitung zur Ermittlung der Gewindegröße folgen sie bitte den Informationen weiter unten.<br\/>Ist Ihre Ausführung nicht aufgelistet melden Sie sich bei uns!<\/p>",
             "second_font": true
           }
         },
-        "button_XygURG": {
-          "type": "button",
+        "image_FNXKE6": {
+          "type": "image",
           "settings": {
-            "center": false,
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "second_btn_color": "#0081be"
+            "image": "shopify:\/\/shop_images\/Wasserhahn_und_Perlator_mit_Innengewinde_CloseUp.jpg",
+            "image_width": 700,
+            "full_width": false,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": false,
+            "image_des": "",
+            "text_color": "#616161",
+            "des_second_font": true
           }
         }
       },
@@ -134,7 +153,7 @@
         "heading_UpJGjd",
         "subtitle_t6PW8b",
         "text_6AQqhg",
-        "button_XygURG"
+        "image_FNXKE6"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -151,6 +170,7 @@
     "main",
     "rich_text_y94gXR",
     "video_hn3gwP",
+    "anchor_contact_r4XCJA",
     "rich_text_gDDLjr"
   ]
 }
