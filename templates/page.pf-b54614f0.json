@@ -394,7 +394,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Kann ich den Alb Filter Duo in Verbindung mit drucklosen Boilern ( Niederdruck Armaturen ) verwenden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Beim Einsatz unseres Alb Filter Duo für den Wasserhahn, in Verbindung mit drucklosen Boilern ist zu beachten, dass aufgrund der hohen Feinheit der Patrone ein Druck vor dieser aufgebaut wird (etwa in Höhe des Netzdruckes), welcher sich nur langsam abbaut. Das kann unter Umständen zur Beschädigung des nicht druckfesten Boilers führen.<br\/><br\/>Es gibt allerdings auch druckfeste Boiler, für diese die genannten Einschränkungen nicht gelten. Sie erkennen diese z.B. am Typenschild „ max. Betriebsdruck … “. Dieser muss mindestens 4 bar betragen. Diese Boiler Typen sind in der Regel allerdings in der Anschaffung etwas teurer als die drucklosen.<br\/><br\/>Als Alternative bieten sich auch unsere Alb <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-untertisch\" target=\"_self\">Untertisch-Varianten<\/a> an, welche für den Einsatz an drucklosen Systemen zugelassen sind. <\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -407,7 +407,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Haben die Alb Filter Gutachten und Zertifikate?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Nano-Kartusche ist nach <strong>ASTM F838-15A<\/strong> zertifiziert für höchste Sicherheit. <br\/>Dies erlaubt die Verwendung bei akutem Legionellenbefall auch in öffentlichen Einrichtungen.    <br\/><br\/>Wenn Sie sich weitergehend für einen konkreten Inhaltsstoff in Bezug auf die Leistungsfähigkeit einzelner Filterkartuschen interessieren, verwenden Sie bitte unser <a href=\"https:\/\/alb-filter.com\/pages\/kontakt\" target=\"_self\">Kontaktformular<\/a>.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -420,7 +420,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Worin besteht der Unterschied zu einer UV-Anlage?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Das Äquivalent zur UV-Anlage in unserem System besteht aus der Nano Hohlfasermembran. Beide Technologien haben den Anspruch, Mikroorganismen zu filtern oder unschädlich zu machen.<br\/><br\/>Bei einer UV-Anlage werden Keime durch ultraviolette Strahlung abgetötet. Bei der Nano Keimsperre werden Bakterien hingegen rein mechanisch durch die extrem feinen Poren der Hohlfasern zurückgehalten.<\/p>",
             "small_text1": "<p><strong>UV-Anlage<\/strong><\/p><ul><li>✅ Kann nicht verstopfen<\/li><li>❌ Recht hohe Anschaffungskosten (ab 500€)<\/li><li>❌ Benötigt Strom<\/li><li>❌  Durchflussgeschwindigkeit beachten. Sonst ist keine Keimsicherheit gegeben <\/li><li>❌ Optik kann verkalken. Keimsicherheit ist beeinträchtigt<br\/><\/li><li>❌ Optik kann sich mit Biomasse zusetzen. Keimsicherheit ist beeinträchtigt<\/li><li>❌ Regelmäßige Reinigung notwendig<\/li><li>❌ Bei hoher Keimkonzentration ist keine Keimsicherheit gegeben<\/li><li>❌ Wassertrübung kann die Effektivität beeiflussen. Keimsicherheit ist beeinträchtigt<\/li><\/ul>",
             "small_text2": "<p><strong>Hohlfasermembran<\/strong><\/p><ul><li>❌ Kann verstopfen<\/li><li>❌ Kartuschen müssen getauscht werden<\/li><li>✅ Günstige Anschaffungskosten (ab 150€)<\/li><li>✅ Kein Strom benötigt<\/li><li>✅ Durchflussgeschwindigkeit spielt keine Rolle<\/li><li>✅ Keimsicherheit ist garantiert<\/li><\/ul>",
@@ -446,7 +446,7 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
-        "arrow_left": false,
+        "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
@@ -462,7 +462,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie hoch darf die Temperatur der Filterkartuschen sein?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><\/p><p>Das ist abhängig von der verbauten Filterkartusche. Folgende Temperaturen sollten eingehalten werden:<br\/><\/p><ul><li>Active (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Active + (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Nano 5 - 65 °C<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -475,7 +475,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Verringert ein Alb Filter den Wasserdruck?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Ja, jede Filterkartusche und ihr Filtermedium wirken sich in gewisser Weise auf den Wasserdruck und die Durchflussmenge aus. Bei einer Installation unter der Spüle kommt es zu einer Verringerung des Wasserdurchflusses. Um diesen Nachteil auszugleichen, könnte ein separater Beistellhahn oder ein 3-Wege-Wasserhahn installiert werden.<\/p>",
             "image1": "shopify:\/\/shop_images\/pf-e9ad91c7--Activedurchflussdiagramm.svg",
             "image2": "shopify:\/\/shop_images\/pf-60dfa405--Nanodurchflussdiagramm.svg",
@@ -490,7 +490,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wieviel Liter Wasser kann eine Alb Trinkwasserfilter-Kartusche reinigen?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Das ist in erster Linie abhängig von der Qualität des Eingangswassers und unterscheidet sich je nach verwendeter Filterkartusche. <br\/><br\/>Filterleistung Active Kartusche*: ⌀ 3000 Liter oder max. 4 Monate bei Dauereinsatz<br\/>Filterleistung Nano Kartusche*: ⌀ 5000 Liter oder max. 6 Monate bei Dauereinsatz<br\/><br\/>* Durchschnittswerte – Die Kapazität der Kartusche ist stark abhängig von der Qualität des Eingangswassers. <\/p>",
             "small_text1": "<p><strong>Active Kartusche:<br\/><\/strong>Bei Kartuschen, die Schadstoffe adsorptiv und katalytisch filtern bzw. binden, tritt mit der Zeit eine Sättigung ein. Die Lebensdauer hängt jedoch davon ab, wie viele Schadstoffe im Wasser vorhanden sind. Bei deutschem Leitungswasser gehen wir im Durchschnitt von einer Kapazität von 2000-4000 Litern aus.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p><p><strong>Nano Kartusche:<br\/><\/strong>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.<br\/><br\/>Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<\/p><p><strong>Praxis beim Camping (kein Dauereinsatz):<br\/><\/strong>Wenn die Kartuschen nicht in Verwendung sind, ist es ratsam, sie nach dem Urlaub auszubauen und zu lagern. Genauere Informationen dazu finden Sie in unseren FAQ.<\/p>",
             "small_text2": "",
@@ -503,7 +503,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie viel Kalk filtert die Active Plus Kartusche?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Active Plus Kartusche arbeitet nach 2 Prinzipien:<br\/>\"Doppelte\" Wasserenthärtung durch klassischen Ionenaustausch und strukturelle Veränderung von Kalkverbindungen. (Kalk haftet weniger an Oberflächen).<br\/><br\/>Hinweis: Kalk wird nicht zu <strong>100%<\/strong> entfernt, sondern je nach Wasserhärte reduziert. Eine neue Filterkartusche ist in der Lage das Wasser im Optimalfall von Härtegrad<strong> 18 °dH<\/strong> auf <strong>9 °dH<\/strong> zu reduzieren.<br\/><br\/>Details:<br\/><br\/>Eine Entkalkung durch die Active Plus+ Kartusche steht in direkter Verbindung zur Wasserhärte. Es gelten die Grundsätze:<br\/><br\/>1. Je höher der Härtegrad des Wassers (&gt;= 18 °dH), desto herausfordernder ist es für die Kartusche eine Enthärtung effektiv durchzuführen. Demnach ist auch die Entkalkungsleistung der Kartusche schneller erschöpft.<br\/>2. Je schneller der Wasser-Durchfluss (&gt; 2 l\/min), desto effektiver die Umwandlung von Kalzit in eine andere, weniger anhaftende Kristallstruktur (vgl. Methode 3 unter: <a href=\"https:\/\/alb-filter.com\/pages\/active-plus-wasserfilter-kartusche\" target=\"_self\">alb-filter.com\/pages\/active-plus-wasserfilter-kartusche<\/a>).<br\/><br\/>Wenn Sie in Ihrem Wasserkocher „weißen Staub“ entdecken, liegt das an den Kalk Kristallen, die nach wie vor vorhanden sind. Diese bilden sich immer, wenn Wasser verdunstet, weisen allerdings eine weniger anhaftende Struktur auf.  <\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -516,7 +516,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was muss bei der Active Plus+ Filterkartusche hinsichtlich Austrocknung beachtet werden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Active Plus+ Filterkartusche ist sehr empfindlich gegenüber Austrocknung. Es ist wichtig, sie stets feucht zu halten, da sie sonst reißen oder beschädigt werden kann. Diese Filterkartusche ist nicht dafür ausgelegt, getrocknet zu werden.<br\/><br\/>Bitte beachten Sie, dass die Active Plus+ Kartusche für den Dauereinsatz konzipiert ist. Wenn Sie sie jedoch für eine gewisse Zeit außer Betrieb nehmen müssen, empfehlen wir, sie in destilliertem Wasser zu lagern. Dadurch bleibt sie feucht und ihre Lebensdauer wird verlängert.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -544,7 +544,7 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
-        "arrow_left": false,
+        "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
