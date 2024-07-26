@@ -131,30 +131,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
     deferAutorbox()
 });
 
-function arbeitszeitenStatus(p_status) {
-  const jetzt = new Date();
-  const wochentag = jetzt.getDay();
-  const stunden = jetzt.getHours();
-  const minuten = jetzt.getMinutes();
-
-  // Montag bis Donnerstag
-  if (wochentag >= 1 && wochentag <= 4) {
-      if ((stunden === 8 && minuten >= 45) || (stunden > 8 && stunden < 12) || (stunden === 12 && minuten === 0) || (stunden >= 13 && stunden < 16)) {
-          p_status.innerHTML = "<span style='color: green'>Online</span>";
-      return;
-      }
-  }
-
-  // Freitag
-  if (wochentag === 5) {
-      if ((stunden === 8 && minuten >= 45) || (stunden > 8 && stunden < 12) || (stunden === 12 && minuten === 0) || (stunden === 13 && minuten < 30) || (stunden === 14 && minuten === 0) || (stunden === 14 && minuten === 30)) {
-          p_status.innerHTML = "<span style='color: green'>Online</span>";
-      return;
-      }
-  }
-
-  p_status.innerHTML = "<span style='color: red'>Offline</span>";;
-}
-
-const p_status = document.querySelector("#whatsapp-status");
-arbeitszeitenStatus(p_status);
