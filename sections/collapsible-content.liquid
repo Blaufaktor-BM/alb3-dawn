@@ -79,11 +79,21 @@
                   id="Summary-{{ block.id }}-{{ section.id }}"
                   style="background-color: {{ section.settings.title_bg }};color: {{ section.settings.title_color }};"
                 >
-                  {% render 'icon-accordion', icon: block.settings.icon %}
+                  {% unless section.settings.arrow_left %}
+                    {% render 'icon-accordion', icon: block.settings.icon %}
+
+                  {% else %}
+                    {% render 'icon-caret' %}
+                  {% endunless %}
+
                   <div class="accordion__title inline-richtext second-font">
                     {{ block.settings.heading | default: block.settings.page.title | escape }}
                   </div>
-                  {% render 'icon-caret' %}
+                  {% unless section.settings.arrow_left %}
+                    {% render 'icon-caret' %}
+                  {% else %}
+                    {% render 'icon-accordion', icon: block.settings.icon %}
+                  {% endunless %}
                 </summary>
                 <div
                   class="accordion__content rte second-font"
@@ -355,6 +365,11 @@
       "id": "open_first_collapsible_row",
       "default": false,
       "label": "t:sections.collapsible_content.settings.open_first_collapsible_row.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "arrow_left",
+      "label": "Arrow Left"
     },
     {
       "type": "header",
