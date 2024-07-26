@@ -37,7 +37,7 @@
             "heading_size": "h2",
             "heading_weight": "700",
             "heading_color": "#ffffff",
-            "remove_spacing": false
+            "remove_spacing": true
           }
         },
         "heading_fYNhe7": {
@@ -58,13 +58,28 @@
             "text": "<p>Alle Fragen und Antworten zu den Alb Duschfiltern, deren Filtereigenschaften und Nutzungsdauer sowie Informationen zu Einbau und Wechsel.<\/p>",
             "text_style": "body"
           }
+        },
+        "logo_list_UmMgU9": {
+          "type": "logo_list",
+          "settings": {
+            "left_arrow": "shopify:\/\/shop_images\/angle-left-solid.svg",
+            "left_url": "shopify:\/\/pages\/faq-trinkwasser",
+            "left_image": "shopify:\/\/shop_images\/wasserglas-weiss-1x1-1682342656077.svg",
+            "left_image_url": "shopify:\/\/pages\/faq-trinkwasser",
+            "center_image": "shopify:\/\/shop_images\/duschkopf-weiss-1x1-1682342656061.svg",
+            "right_image": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg",
+            "right_image_url": "shopify:\/\/pages\/faq-camping",
+            "right_arrow": "shopify:\/\/shop_images\/angle-right-solid.svg",
+            "right_url": "shopify:\/\/pages\/faq-camping"
+          }
         }
       },
       "block_order": [
         "top_btn_ADWP4W",
         "heading_AAzyh4",
         "heading_fYNhe7",
-        "text_BdrPTC"
+        "text_BdrPTC",
+        "logo_list_UmMgU9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
