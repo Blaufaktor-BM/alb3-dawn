@@ -473,7 +473,7 @@
     justify-content: flex-end;
   }
 
-  banner__buttons {
+  .banner__buttons {
     gap: 3rem;
   }
 }
