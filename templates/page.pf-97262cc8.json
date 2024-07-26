@@ -28,16 +28,28 @@
             "btn_color": "#fff"
           }
         },
-        "heading_fYNhe7": {
+        "heading_AAzyh4": {
           "type": "heading",
           "settings": {
             "second_font": false,
-            "heading": "<h1>FAQ Duschfilter<\/h1>",
-            "heading_tag": "h1",
-            "heading_size": "h1",
+            "heading": "<p>Alb Filter FAQ<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
             "heading_weight": "700",
-            "heading_color": "#616161",
+            "heading_color": "#ffffff",
             "remove_spacing": false
+          }
+        },
+        "heading_fYNhe7": {
+          "type": "heading",
+          "settings": {
+            "second_font": true,
+            "heading": "<p>Duschfilter<\/p>",
+            "heading_tag": "h1",
+            "heading_size": "hxl",
+            "heading_weight": "400",
+            "heading_color": "#ffffff",
+            "remove_spacing": true
           }
         },
         "text_BdrPTC": {
@@ -50,6 +62,7 @@
       },
       "block_order": [
         "top_btn_ADWP4W",
+        "heading_AAzyh4",
         "heading_fYNhe7",
         "text_BdrPTC"
       ],
