@@ -3677,6 +3677,10 @@ summary.list-menu__item>a {
   color: rgba(var(--color-foreground));
 }
 
+summary.list-menu__item>a.header__active-menu-item {
+  text-decoration: underline;
+}
+
 .parent-menu {
   margin-top: 0;
   margin-bottom: 10px;
@@ -3824,10 +3828,6 @@ summary.list-menu__item>a {
   min-height: auto;
   padding: 1rem 2rem;
   font-size: 14px;
-}
-
-.mega-menu-wrapper .mega-menu__link--active {
-  text-decoration: none;
 }
 
 .mega-menu-wrapper .btn-second {
