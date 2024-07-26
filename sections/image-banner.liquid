@@ -25,6 +25,7 @@
 
 {%- style -%}
   #Banner-{{ section.id }}::after {
+    background: {{ section.settings.image_overlay_color }};
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
@@ -311,6 +312,12 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "Mobile Image"
+    },
+    {
+      "type": "color",
+      "id": "image_overlay_color",
+      "label": "Image OverlayColor",
+      "default": "#000"
     },
     {
       "type": "range",
