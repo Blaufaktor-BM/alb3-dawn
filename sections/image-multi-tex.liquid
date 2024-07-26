@@ -56,12 +56,12 @@
           </{{ section.settings.heading_tag }}>
         {%- endif -%}
         {%- if section.settings.sub_title != blank -%}
-          <h2
+          <{{ section.settings.subtitle_tag }}
             class="subtitle-image_multi_text rte {{ section.settings.subtitle_size }}{% if section.settings.subtitle_second_font %} second-font{% endif %}"
             style="font-weight: {{ section.settings.subtitle_weight }}; color: {{ section.settings.subtitle_color }};"
           >
             {{ section.settings.sub_title }}
-          </h2>
+          </{{ section.settings.subtitle_tag }}>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="text-image_multi_text rte{% if section.settings.text_second_font %} second-font{% endif %}">
@@ -184,8 +184,8 @@
           "label": "H4"
         },
         {
-          "value": "p",
-          "label": "P"
+          "value": "div",
+          "label": "Div"
         }
       ],
       "default": "h2",
@@ -271,6 +271,34 @@
       "id": "sub_title",
       "label": "Subtitle",
       "default": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany</p>"
+    },
+    {
+      "type": "select",
+      "id": "subtitle_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "div",
+          "label": "Div"
+        }
+      ],
+      "default": "h2",
+      "label": "Subtitle Tag"
     },
     {
       "type": "select",
