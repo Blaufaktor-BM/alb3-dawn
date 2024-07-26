@@ -182,7 +182,8 @@
       ],
       "custom_css": [
         ".item-image_text_list {font-size: 13px;}",
-        ".item-image_text_list svg,.item-image_text_list img {max-width: 300px;}"
+        ".item-image_text_list svg,.item-image_text_list img {max-width: 300px;}",
+        ".center {text-align: left;}"
       ],
       "settings": {
         "color_scheme": "",
