@@ -1,118 +1,110 @@
-{%  if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank or section.settings.th4 != blank %}
-  <section class="table-{{  section.id }} page-width">
+{% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank or section.settings.th4 != blank %}
+  <section class="table-{{ section.id }} page-width">
     <table>
       <thead>
         <tr>
-          <th>
-            {{ section.settings.th1 }}
-          </th>
-          <th>
-            {{ section.settings.th2 }}
-          </th>
-          <th>
-            {{ section.settings.th3 }}
-          </th>
-          <th>
-            {{ section.settings.th4 }}
-          </th>
+          <th>{{ section.settings.th1 }}</th>
+          <th>{{ section.settings.th2 }}</th>
+          <th>{{ section.settings.th3 }}</th>
+          <th>{{ section.settings.th4 }}</th>
         </tr>
       </thead>
       <tbody>
         {% if section.blocks.size > 0 %}
-          {%  for block in section.blocks %}
+          {% for block in section.blocks %}
             <tr>
-              <td>{{ block.settings.col1 }}</td>
-              <td>{{ block.settings.col2 }}</td>
-              <td>{{ block.settings.col3 }}</td>
-              <td>{{ block.settings.col4 }}</td>
+              <td>{{ block.settings.col1 | escape }}</td>
+              <td>{{ block.settings.col2 | escape }}</td>
+              <td>{{ block.settings.col3 | escape }}</td>
+              <td>{{ block.settings.col4 | escape }}</td>
             </tr>
-            {%  endfor %}
-        {%  endif %}
+          {% endfor %}
+        {% endif %}
       </tbody>
     </table>
   </section>
   <style>
-    .table-{{  section.id }}{
+    .table-{{ section.id }} {
       padding: 40px 0;
+      font-family: 'Amsi Light', sans-serif;
+      font-size: 13px;
     }
-    .table-{{  section.id }} table {
-      width: 100%; 
+    .table-{{ section.id }} table {
+      width: 100%;
       border: none;
       box-shadow: 0 0 0;
     }
-    .table-{{  section.id }} thead tr th {
-      background: {{- section.settings.color_th | default: '#eee' -}};
-      color: {{- section.settings.color_th_text | default: '#fff' -}};
+    .table-{{ section.id }} thead tr th {
+      background: {{ section.settings.color_th | default: '#eee' }};
+      color: {{ section.settings.color_th_text | default: '#fff' }};
       text-align: left;
       border: none;
     }
-    .table-{{  section.id }} tbody tr td {
-      background: {{- section.settings.color_even | default: '#fff' -}};
-      color: {{- section.settings.color_even_text | default: '#fff' -}};
+    .table-{{ section.id }} tbody tr td {
+      background: {{ section.settings.color_even | default: '#fff' }};
+      color: {{ section.settings.color_even_text | default: '#000' }};
       border: none;
     }
-    .table-{{  section.id }} tbody tr:nth-child(odd) td {
-      background: {{- section.settings.color_odd | default: '#fff' -}};
-      color: {{- section.settings.color_odd_text | default: '#fff' -}};
-      
+    .table-{{ section.id }} tbody tr:nth-child(odd) td {
+      background: {{ section.settings.color_odd | default: '#fff' }};
+      color: {{ section.settings.color_odd_text | default: '#000' }};
     }
-    
   </style>
-{%  endif %}
+{% endif %}
 {% schema %}
-  {
-    "name": "Table",
-    "settings": [
-       {
-          "type": "text",
-          "id": "th1",
-          "label": "TH1"
-        },
-        {
-          "type": "text",
-          "id": "th2",
-          "label": "TH2"
-        },
-        {
-          "type": "text",
-          "id": "th3",
-          "label": "TH3"
-        },
-        {
-          "type": "text",
-          "id": "th4",
-          "label": "TH4"
-        },
-        {
-        "type": "color",
-        "id": "color_th",
-        "label": "TH color"
-       },
-      {
-        "type": "color",
-        "id": "color_th_text",
-        "label": "TH text color"
-       },
-      {
-        "type": "color",
-        "id": "color_even",
-        "label": "even Row color"
-       },
-      {
-        "type": "color",
-        "id": "color_even_text",
-        "label": "even Row text color"
-       },
-      {
-        "type": "color",
-        "id": "color_odd",
-        "label": "odd Row color"
-       },
-      {
-        "type": "color",
-        "id": "color_odd_text",
-        "label": "odd Row text color"
-       }
+{
+  "name": "Table",
+  "settings": [
+    {
+      "type": "text",
+      "id": "th1",
+      "label": "TH1"
+    },
+    {
+      "type": "text",
+      "id": "th2",
+      "label": "TH2"
+    },
+    {
+      "type": "text",
+      "id": "th3",
+      "label": "TH3"
+    },
+    {
+      "type": "text",
+      "id": "th4",
+      "label": "TH4"
+    },
+    {
+      "type": "color",
+      "id": "color_th",
+      "label": "TH color"
+    },
+    {
+      "type": "color",
+      "id": "color_th_text",
+      "label": "TH text color"
+    },
+    {
+      "type": "color",
+      "id": "color_even",
+      "label": "even Row color"
+    },
+    {
+      "type": "color",
+      "id": "color_even_text",
+      "label": "even Row text color"
+    },
+    {
+      "type": "color",
+      "id": "color_odd",
+      "label": "odd Row color"
+    },
+    {
+      "type": "color",
+      "id": "color_odd_text",
+      "label": "odd Row text color"
+    }
   ],
   "blocks": [
     {
@@ -120,22 +112,22 @@
       "name": "Row",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "col1",
           "label": "Col 1"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "col2",
           "label": "Col 2"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "col3",
           "label": "Col 3"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "col4",
           "label": "Col 4"
         }
@@ -145,10 +137,8 @@
   "presets": [
     {
       "name": "Table",
-      "blocks": [
-        
-      ]
+      "blocks": []
     }
   ]
-  }
+}
 {% endschema %}
