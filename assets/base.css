@@ -5568,6 +5568,10 @@ summary[aria-expanded="true"] .accordion__title {
   margin: 20px 0;
 }
 
+.collapse-bottom_text {
+  margin: 20px 0;
+}
+
 .collapse-small_image_text-media {
   width: 100%;
   padding: 15px 0;
