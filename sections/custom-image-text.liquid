@@ -112,7 +112,7 @@
                   {% case block.type %}
                     {%- when 'heading' -%}
                       <{{ block.settings.heading_tag }}
-                        class="custom_image_text-heading inline-richtext{% if block.settings.second_font %} second-font{% endif %} {{ block.settings.heading_size }}{% if block.settings.remove_spacing %} remove_spacing{% endif %}"
+                        class="custom_image_text-heading rte inline-richtext{% if block.settings.second_font %} second-font{% endif %} {{ block.settings.heading_size }}{% if block.settings.remove_spacing %} remove_spacing{% endif %}"
                         {{ block.shopify_attributes }}
                         style="color: {{ block.settings.heading_color }}; font-weight: {{ block.settings.heading_weight }}"
                       >
@@ -450,9 +450,9 @@
       "limit": 1,
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "heading",
-          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "default": "<p>Alb Wasserfilter</p>",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
@@ -476,7 +476,7 @@
               "label": "H4"
             },
             {
-              "value": "p",
+              "value": "div",
               "label": "P"
             }
           ],
