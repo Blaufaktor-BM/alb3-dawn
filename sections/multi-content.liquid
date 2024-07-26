@@ -145,6 +145,15 @@
               {%- if block.settings.text != blank -%}
                 <div class="item_text-multi_content second-font">{{ block.settings.text }}</div>
               {%- endif -%}
+              {%- if block.settings.btn_text != blank -%}
+                <a
+                  class="btn-second second-font"
+                  href="{{ block.settings.btn_url }}"
+                  style="color: {{ section.settings.item_btn_color }}"
+                >
+                  {{- block.settings.btn_text -}}
+                </a>
+              {%- endif -%}
               <div class="item_icons-mulit_content">
                 {%- for i in (1..3) -%}
                   {%- capture icon_item %}icon{{i}}{% endcapture -%}
@@ -388,6 +397,12 @@
       "default": "#fff"
     },
     {
+      "type": "color",
+      "id": "item_btn_color",
+      "label": "Item Button Color",
+      "default": "#0081be"
+    },
+    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -542,6 +557,16 @@
           "id": "text",
           "label": "Text",
           "default": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.</p><p>Anwendungsbereiche:</p>"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
         },
         {
           "type": "image_picker",
