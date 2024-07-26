@@ -245,10 +245,129 @@
         "color_odd": "",
         "color_odd_text": "#009ee3",
         "padding_th": "10px",
-        "padding_td": "0px",
+        "padding_td": "10px",
         "border_width": "1px",
         "border_color": "#f3f3f3",
         "table_padding": "36px"
+      }
+    },
+    "table_blog_X9A47P": {
+      "type": "Table-Blog",
+      "blocks": {
+        "rows_xyHU4E": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>15,8 mm <\/strong>(M16 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M16 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m22ag-m16_ig\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_tJUyjH": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>16,3 mm<\/strong>(M16,5 AG)<br\/><strong>→<\/strong>Häufig bei IKEA<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M16,5 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m22_ag-m16-5_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_w9aCVQ": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>17,8 mm<\/strong>(M18 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M18 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m18_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_hXPwHh": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>18,3 mm<\/strong>(M18,5 AG)<br\/>→ Häufig bei IKEA<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M18,5 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m22_ag-m18-5_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_fWq3qN": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>19,8 mm<\/strong>(M20 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M20 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m20_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_cwjfTY": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>20,8 mm<\/strong>(M21 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M21 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m21_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_kEQQEg": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>21,3 mm<\/strong>(M21,5 AG)<br\/>→ Selten<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M21,5 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m22ag-m21-5ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_3kdEFy": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>21,8 mm<\/strong>(M22 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M22 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m22_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_KhzUN3": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>23,8 mm<\/strong>(M24 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M24 AG<br\/><\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m24_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        },
+        "rows_AUk7CK": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p><strong>27,8 mm<\/strong>(M28 AG)<\/p>",
+            "col2": "<p><strong>►<\/strong><\/p>",
+            "col3": "<p><strong>M22 AG → M28 AG<\/strong><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m28_ag\" target=\"_self\">In den Warenkorb &gt;<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "rows_xyHU4E",
+        "rows_tJUyjH",
+        "rows_w9aCVQ",
+        "rows_hXPwHh",
+        "rows_fWq3qN",
+        "rows_cwjfTY",
+        "rows_kEQQEg",
+        "rows_3kdEFy",
+        "rows_KhzUN3",
+        "rows_AUk7CK"
+      ],
+      "settings": {
+        "table_heading": "PERLATOR MIT AUSSENGEWINDE",
+        "heading_tag": "h2",
+        "heading_weight": 400,
+        "heading_size": "24px",
+        "heading_alignment": "center",
+        "th1": "Durchmesser Außengewinde Perlator (in Millimeter) ",
+        "th2": "",
+        "th3": "Benötigter Gewindeadapter (Feingewinde)",
+        "color_th": "",
+        "color_th_text": "#e5007c",
+        "color_th_background": "",
+        "color_even": "",
+        "color_even_text": "#e5007c",
+        "color_odd": "",
+        "color_odd_text": "#e5007c",
+        "padding_th": "10px",
+        "padding_td": "10px",
+        "border_width": "1px",
+        "border_color": "#000",
+        "table_padding": "40px"
       }
     }
   },
@@ -258,6 +377,7 @@
     "video_hn3gwP",
     "anchor_contact_r4XCJA",
     "rich_text_gDDLjr",
-    "table_blog_GTcwrq"
+    "table_blog_GTcwrq",
+    "table_blog_X9A47P"
   ]
 }
