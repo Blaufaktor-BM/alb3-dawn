@@ -290,7 +290,7 @@
           "text": "#000000",
           "button": "#0081be",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#616161",
           "shadow": "#121212"
         }
       },
@@ -422,7 +422,7 @@
           "text": "#616161",
           "button": "{{ shop.brand.colors.secondary[0].background }}",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#616161",
           "shadow": "#121212"
         }
       }
