@@ -65,12 +65,12 @@
             "left_arrow": "shopify:\/\/shop_images\/angle-left-solid.svg",
             "left_url": "shopify:\/\/pages\/faq-camping",
             "left_image": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg",
-            "left_image_url": "",
+            "left_image_url": "shopify:\/\/pages\/faq-camping",
             "center_image": "shopify:\/\/shop_images\/wasserglas-weiss-1x1-1682342656077.svg",
             "right_image": "shopify:\/\/shop_images\/duschkopf-weiss-1x1-1682342656061.svg",
-            "right_image_url": "",
+            "right_image_url": "shopify:\/\/pages\/faq-duschfilter",
             "right_arrow": "shopify:\/\/shop_images\/angle-right-solid.svg",
-            "right_url": ""
+            "right_url": "shopify:\/\/pages\/faq-duschfilter"
           }
         }
       },
