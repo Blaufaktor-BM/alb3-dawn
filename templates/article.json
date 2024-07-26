@@ -47,25 +47,24 @@
       "settings": {
       }
     },
-    "anchor_contact_k37jjr": {
-      "type": "anchor_contact",
-      "settings": {
-        "color": "#616161",
-        "border_color": "#93d4ff",
-        "text": "<p>Autor: Benjamin Maywald<br\/>Position: Co-Founder Alb Filter<br\/>Aktualisiert am:<\/p>",
-        "social_title": "Jetzt teilen!",
-        "linkedin": "",
-        "facebook": "",
-        "twitter": "",
-        "pinterest": "",
-        "mail": "",
-        "padding_top": 10,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_8PReNh": {
       "type": "rich-text",
       "blocks": {
+        "image_fxEyAr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+            "image_width": 250,
+            "full_width": false,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": false,
+            "image_des": "",
+            "text_color": "#616161",
+            "des_second_font": true
+          }
+        },
         "heading_KR6C8h": {
           "type": "heading",
           "settings": {
@@ -87,15 +86,16 @@
         }
       },
       "block_order": [
+        "image_fxEyAr",
         "heading_KR6C8h",
         "text_j8jfb8"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -236,7 +236,6 @@
   },
   "order": [
     "main",
-    "anchor_contact_k37jjr",
     "rich_text_8PReNh",
     "post_product_list_DVmJND",
     "question_list_i6WcwU"
