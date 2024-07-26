@@ -60,6 +60,11 @@
                 {{ block.settings.text }}
               </div>
             {% endif %}
+              {% if block.settings.subtext != blank %}
+              <div class="text-image_text_list rte{% if section.settings.content_second_font %} second-font{% endif %}">
+                {{ block.settings.subtext }}
+              </div>
+            {% endif %}
             {%- if block.settings.url != blank -%}
               </a>
             {%- endif -%}
@@ -169,6 +174,12 @@
           "id": "text",
           "label": "Text",
           "default": "<p>30 TAGE RÜCKGABERECHT</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext",
+          "label": "Subtext",
+          "default": "<p>email@email.de</p>"
         },
         {
           "type": "url",
