@@ -1,7 +1,8 @@
+{% assign unique_id = 'table-' | append: section.id | append: '-' | append: block.id %}
 {% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
-  <section class="table-{{ section.id }} page-width" style="padding: {{ section.settings.table_padding | default: '40px 0' }};">
+  <section id="{{ unique_id }}" class="table-{{ section.id }} page-width" style="padding: {{ section.settings.table_padding | default: '40px 0' }};">
     {% if section.settings.table_heading != blank %}
-      <{{ section.settings.heading_tag }} class="table-heading-{{ section.id }}" style="font-family: 'Montserrat', sans-serif; font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px;">
+      <{{ section.settings.heading_tag }} style="font-family: 'Montserrat', sans-serif; font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px;">
         {{ section.settings.table_heading }}
       </{{ section.settings.heading_tag }}>
     {% endif %}
@@ -27,15 +28,15 @@
     </table>
   </section>
   <style>
-    .table-{{ section.id }} {
+    #{{ unique_id }} {
       font-family: 'Amsi Light', sans-serif;
       font-size: 13px;
     }
-    .table-{{ section.id }} table {
+    #{{ unique_id }} table {
       width: 100%;
       border-collapse: collapse;
     }
-    .table-{{ section.id }} thead tr th {
+    #{{ unique_id }} thead tr th {
       background: {{ section.settings.color_th_background | default: '#eee' }};
       color: {{ section.settings.color_th_text | default: '#fff' }};
       text-align: left;
@@ -45,20 +46,20 @@
       padding: {{ section.settings.padding_th | default: '10px' }};
       border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
     }
-    .table-{{ section.id }} tbody tr td {
+    #{{ unique_id }} tbody tr td {
       background: {{ section.settings.color_even | default: '#fff' }};
       color: {{ section.settings.color_even_text | default: '#000' }};
       padding: {{ section.settings.padding_td | default: '10px' }};
       border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
     }
-    .table-{{ section.id }} tbody tr:nth-child(odd) td {
+    #{{ unique_id }} tbody tr:nth-child(odd) td {
       background: {{ section.settings.color_odd | default: '#fff' }};
       color: {{ section.settings.color_odd_text | default: '#000' }};
     }
-    .table-{{ section.id }} th.narrow, .table-{{ section.id }} td.narrow {
+    #{{ unique_id }} th.narrow, #{{ unique_id }} td.narrow {
       width: 50px;
     }
-    .table-{{ section.id }} td.center {
+    #{{ unique_id }} td.center {
       text-align: center;
     }
   </style>
