@@ -1,6 +1,6 @@
-{% assign unique_id = 'table-' | append: section.id | append: '-' | append: block.id | append: '-' | append: 'now' | date: "%s" %}
+{% assign unique_id = 'table-' | append: section.id | append: '-' | append: 'now' | date: "%s" %}
 {% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
-  <section id="{{ unique_id }}" class="table-{{ section.id }} page-width" style="padding: {{ section.settings.table_padding | default: '40px 0' }};">
+  <section id="{{ unique_id }}" class="table-{{ section.id }} page-width" style="padding-left: {{ section.settings.table_padding | default: '40px' }}; padding-right: {{ section.settings.table_padding | default: '40px' }};">
     {% if section.settings.table_heading != blank %}
       <{{ section.settings.heading_tag }} style="font-family: 'Montserrat', sans-serif; font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px;">
         {{ section.settings.table_heading }}
@@ -29,8 +29,11 @@
   </section>
   <style>
     #{{ unique_id }} {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Amsi Light', sans-serif;
       font-size: 13px;
+    }
+    #{{ unique_id }} a {
+      color: #0081be;
     }
     #{{ unique_id }} table {
       width: 100%;
@@ -218,7 +221,7 @@
       "type": "text",
       "id": "table_padding",
       "label": "Table padding",
-      "default": "40px 0"
+      "default": "40px"
     }
   ],
   "blocks": [
