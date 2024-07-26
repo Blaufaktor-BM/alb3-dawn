@@ -230,6 +230,7 @@
         "heading_tag": "h2",
         "heading_weight": 400,
         "heading_size": "24px",
+        "heading_alignment": "center",
         "th1": "Durchmesser Innengewinde Perlator (in Millimeter) ",
         "th2": "",
         "th3": "Benötigter Gewindeadapter (Feingewinde) ",
