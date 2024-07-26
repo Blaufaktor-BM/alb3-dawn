@@ -84,7 +84,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pf-e20a4427--WasserdampfinderDusche.jpg",
         "image_overlay_color": "#0b617c",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 30,
         "enable_shadow": false,
         "image_height": "medium",
         "image_position": "bottom",
