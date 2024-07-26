@@ -1,5 +1,5 @@
 {% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
-  <section class="table-{{ section.id }} page-width">
+  <section class="table-{{ section.id }} page-width" style="padding: {{ section.settings.table_padding | default: '40px 0' }};">
     <table>
       <thead>
         <tr>
@@ -23,7 +23,6 @@
   </section>
   <style>
     .table-{{ section.id }} {
-      padding: 40px 0;
       font-family: 'Amsi Light', sans-serif;
       font-size: 13px;
     }
@@ -37,7 +36,7 @@
       text-align: left;
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       padding: {{ section.settings.padding_th | default: '10px' }};
       border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
     }
@@ -133,6 +132,12 @@
       "id": "border_color",
       "label": "Border color",
       "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "table_padding",
+      "label": "Table padding",
+      "default": "40px 0"
     }
   ],
   "blocks": [
@@ -166,4 +171,3 @@
   ]
 }
 {% endschema %}
-
