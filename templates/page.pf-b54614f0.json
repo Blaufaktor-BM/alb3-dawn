@@ -258,7 +258,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Passt der Filter an meinen Wasserhahn?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Um den Duo Wasserhahnfilter am Wasserhahn anbringen zu können, benötigen wir ein Gewinde. Hierzu schrauben Sie den Perlator Ihrer Armatur ab und ermitteln mit Hilfe unseres Gewinderatgebers ob Sie einen Adapter benötigen:<\/p><p><a href=\"\/pages\/gewinde-ratgeber\" title=\"Gewinde Ratgeber\">Zum Gewinderatgeber<\/a><\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -271,7 +271,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Der Filter tropft eine Zeit lang nach - ist das normal?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Das Nachlaufen bzw. Nachtropfen über mehrere Sekunden ist völlig normal, da sich der Druck im Inneren nur sehr langsam abbaut. Je feinporiger die Kartuschen sind, desto stärker tritt der Effekt zu Tage. Rein technisch ist es nicht möglich diesen Effekt zu verhindern. Es kann mitunter ein wenig helfen, wenn Sie den Umschalthebel wieder in die „ungefiltert“ Stellung wechseln.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -284,7 +284,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Technischen Daten Alb Filter Duo Gehäuse",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Maße<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart<br\/><\/strong>M22 Innengewinde am Bypass (Achschluss)<br\/>M22 Außengewinde am Filterauslass<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -326,7 +326,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie wird der Filter eingebaut?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Der Einbau eines Untertischfilters ist generell recht simpel und in kurzer Zeit erledigt. Sie müssen den Filter mit dem beiliegenden Anschluss zwischen dem Kaltwassereckventil und dem Zulaufschlauch des Wasserhahns integrieren.<br\/><br\/>Hier finden Sie ein Einbauvideo und Anleitungen: <br\/><a href=\"\/pages\/installation-untertisch\" title=\"Installation Untertisch\">Installation Untertischfilter<\/a><\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -339,7 +339,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Technischen Daten Alb Filter Element Gehäuse",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Maße<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart<br\/><\/strong>1\/2 Zoll Innengewinde (Eingangsseite)1\/2 Zoll Aussengewinde (Ausgangsseite).<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -352,7 +352,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Spielt die Einbaulage des Gehäuses eine Rolle (Waagrecht, Senkrecht)? ",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Einbaurichtung des Filtergehäuses hat keinen Einfluss auf die Filterleistung. Sie können das Gehäuse in jeder Lage installieren.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -378,7 +378,7 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
-        "arrow_left": false,
+        "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
