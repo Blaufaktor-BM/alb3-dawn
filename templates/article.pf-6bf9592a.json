@@ -268,9 +268,9 @@
             "heading_weight": "700",
             "heading_second_font": false,
             "subtitle": "",
-            "text": "<p>Lesen Sie nach, wie Sie den Alb Filter in der Dusche installieren können.<br\/><br\/><a href=\"https:\/\/alb-filter.com\/pages\/installation-duschfilter\" target=\"_self\">Weiterlesen &gt;<\/a><\/p>",
-            "btn_text": "",
-            "btn_url": "",
+            "text": "<p>Lesen Sie nach, wie Sie den Alb Filter in der Dusche installieren können.<\/p>",
+            "btn_text": "Weiterlesen",
+            "btn_url": "shopify:\/\/pages\/installation-duschfilter",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -281,7 +281,7 @@
         "item_ppKLhi"
       ],
       "custom_css": [
-        "a {color: #0081be; text-decoration: underline; cursor: pointer;}"
+
       ],
       "settings": {
         "background_color": "#fafafa",
