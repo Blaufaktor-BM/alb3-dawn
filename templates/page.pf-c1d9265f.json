@@ -247,6 +247,44 @@
         "border_color": "#f3f3f3",
         "table_padding": "36px"
       }
+    },
+    "table_blog_KtNpUA": {
+      "type": "Table-Blog",
+      "blocks": {
+        "rows_3zWnXR": {
+          "type": "rows",
+          "settings": {
+            "col1": "",
+            "col2": "",
+            "col3": ""
+          }
+        }
+      },
+      "block_order": [
+        "rows_3zWnXR"
+      ],
+      "settings": {
+        "table_heading": "Perlator mit Außengewinde",
+        "heading_tag": "h2",
+        "heading_weight": 400,
+        "heading_size": "24px",
+        "heading_alignment": "left",
+        "th1": "",
+        "th2": "",
+        "th3": "",
+        "color_th": "",
+        "color_th_text": "",
+        "color_th_background": "",
+        "color_even": "",
+        "color_even_text": "",
+        "color_odd": "",
+        "color_odd_text": "",
+        "padding_th": "10px",
+        "padding_td": "10px",
+        "border_width": "1px",
+        "border_color": "#000",
+        "table_padding": "40px 0"
+      }
     }
   },
   "order": [
@@ -255,6 +293,7 @@
     "video_hn3gwP",
     "anchor_contact_r4XCJA",
     "rich_text_gDDLjr",
-    "table_blog_GTcwrq"
+    "table_blog_GTcwrq",
+    "table_blog_KtNpUA"
   ]
 }
