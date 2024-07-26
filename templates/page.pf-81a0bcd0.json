@@ -63,6 +63,7 @@
             "image": "shopify:\/\/shop_images\/tobiasmuelleralbfilter.jpg",
             "title": "<p>Tobias Müller<\/p>",
             "text": "<p>Co-Founder \/ Entwickler<br\/>tobias.mueller(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -72,6 +73,7 @@
             "image": "shopify:\/\/shop_images\/benjaminmaywaldalbfilter.jpg",
             "title": "<p>Benjamin Maywald<\/p>",
             "text": "<p>Co-Founder \/ IT<br\/>benjamin.maywald(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -81,6 +83,7 @@
             "image": "shopify:\/\/shop_images\/patrickleichtensternalbfilter.jpg",
             "title": "<p>Patrick Leichtenstern<\/p>",
             "text": "<p>Co-Founder \/ Entwickler<br\/>patrick.leichtenstern(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -90,6 +93,7 @@
             "image": "shopify:\/\/shop_images\/andreasblustalbfilter.jpg",
             "title": "<p>Andreas Blust<\/p>",
             "text": "<p>Lager und Logistik<br\/>andreas.blust(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -99,6 +103,7 @@
             "image": "shopify:\/\/shop_images\/joergrambaumalbfilter.jpg",
             "title": "<p>Jörg Rambaum<\/p>",
             "text": "<p>Design<br\/>joerg.rambaum(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -108,6 +113,7 @@
             "image": "shopify:\/\/shop_images\/christinamaureralbfilter.jpg",
             "title": "<p>Christina Maurer<\/p>",
             "text": "<p>Management Assistant<br\/>christina.maurer(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -117,6 +123,7 @@
             "image": "shopify:\/\/shop_images\/lenamilleralbfilter.jpg",
             "title": "<p>Lena Miller<\/p>",
             "text": "<p>Management Assistant<br\/>lena.miller(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -126,6 +133,7 @@
             "image": "shopify:\/\/shop_images\/verenamueller-albfilter.jpg",
             "title": "<p>Vera Müller<\/p>",
             "text": "<p>Konfektionierung<br\/>vera.mueller(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -135,6 +143,7 @@
             "image": "shopify:\/\/shop_images\/steveege-albfilter.jpg",
             "title": "<p>Steve Ege<\/p>",
             "text": "<p>Lager und Logistik<br\/>steve.ege(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -144,6 +153,7 @@
             "image": "shopify:\/\/shop_images\/tasminkiefer-albfilter.jpg",
             "title": "<p>Tasmin Kiefer<\/p>",
             "text": "<p>Kundenservice<br\/>tasmin.kiefer(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -153,6 +163,7 @@
             "image": "shopify:\/\/shop_images\/moritzthumann-albfilter.webp",
             "title": "<p>Moritz Thumann<\/p>",
             "text": "<p>Marketing<br\/>moritz.thumann(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         },
@@ -162,6 +173,7 @@
             "image": "shopify:\/\/shop_images\/oliverroehmalbfilter.webp",
             "title": "<p>Oliver  Röhm<\/p>",
             "text": "<p>Konstruktion<br\/>oliver.roehm(at)blaufaktor.de<\/p>",
+            "subtext": "<p>email@email.de<\/p>",
             "url": ""
           }
         }
@@ -182,7 +194,7 @@
       ],
       "custom_css": [
         ".item-image_text_list {font-size: 13px;}",
-        ".item-image_text_list svg,.item-image_text_list img {max-width: 300px;}",
+        ".item-image_text_list svg,.item-image_text_list img {max-width: 100%;}",
         ".center {text-align: left;}"
       ],
       "settings": {
