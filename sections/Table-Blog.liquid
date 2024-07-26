@@ -1,4 +1,4 @@
-{% assign unique_id = 'table-' | append: section.id | append: '-' | append: block.id %}
+{% assign unique_id = 'table-' | append: section.id | append: '-' | append: block.id | append: '-' | append: 'now' | date: "%s" %}
 {% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
   <section id="{{ unique_id }}" class="table-{{ section.id }} page-width" style="padding: {{ section.settings.table_padding | default: '40px 0' }};">
     {% if section.settings.table_heading != blank %}
@@ -252,3 +252,4 @@
   ]
 }
 {% endschema %}
+
