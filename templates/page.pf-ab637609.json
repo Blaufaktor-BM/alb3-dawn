@@ -16,9 +16,130 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_RGtLKV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QdX8dC": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Wir, Benjamin Maywald, Patrick Leichtenstern und Tobias Müller – zwei Informatiker und ein Diplomingenieur aus dem Südwesten Deutschlands – sind Gründer und Inhaber des Trinkwasserfilter-Anbieters Blaufaktor GmbH & Co. KG und der Marke Alb Filter.<br\/><br\/>Schon während unseres Studiums reifte die Idee, uns mit Trinkwasseraufbereitung und Wasserfiltern zu beschäftigen. Angetrieben durch die schlechte Wasserqualität in unserem gemeinsamen Studentenwohnheim merkten wir, von welch zentraler Bedeutung sauberes und hygienisches Trinkwasser im Alltag ist. Aus eigener Erfahrung wurde so eine Vision.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mJiFWY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AlbFilterKernTeamFoto.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Das Kernteam in Talheim von Alb Filter (Stand 2020): Christina Maurer, Tobias Müller, Benjamin Maywald und Patrick Leichtenstern (v.l.n.r.)<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QdX8dC",
+        "column_mJiFWY"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Alb Filter – Ein Technologieunternehmen der Schwäbischen Alb",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_fHG38M": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6QGTar": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Sauberes Trinkwasser ist für die Weltbevölkerung in Zeiten von Klimawandel und Bevölkerungswachstum ein immer entscheidenderes Thema; dies gilt nicht nur für Entwicklungs- und Schwellenländer, sondern auch für Industrienationen. Denn laut eines aktuellen UN-Umweltberichts hat sich die Frischwasserqualität in den meisten Regionen seit 1990 verschlechtert. Über verunreinigtes Trinkwasser verbreiten sich gefährliche Stoffe wie Arzneimittelrückstände, Hormone, Pestizid- und Antibiotika-Rückstände ebenso wie sonstige Giftstoffe. Diese werden auch von Kläranlagen und öffentlichen Trinkwasseraufbereitungen oft gar nicht erfasst bzw. ausgefiltert. Deshalb müssen wirkungsvolle und dabei günstige Technologien zur Abwasserreinigung viel mehr Menschen weltweit erreichen.<br\/><br\/>Von der Entwicklung unseres ersten Alb Filters im Jahre 2013 bis heute wurde das Konzept stetig verbessert und die Einsatzmöglichkeiten unserer Filter laufend erweitert. Eingebaut vor Wasserhahn oder Duschschlauch schützen sie hocheffizient und ohne Chemie vor Schadstoff-Rückständen und Krankheitserregern, Trübungen und Geschmack.<br\/><br\/>Heute ist der Alb Filter ein echter Alleskönner. Durch den modularen Aufbau unserer verschiedenen Kartuschen können wir auf die unterschiedlichen Bedürfnisse und Anwendungszwecke unserer Kunden eingehen – egal ob bei der Körperhygiene oder beim Trinkwasser, egal ob zu Hause oder unterwegs – Alb Filter sind überall ein sicherer Begleiter.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6QGTar"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#616161",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_RGtLKV",
+    "multicolumn_fHG38M"
   ]
 }
