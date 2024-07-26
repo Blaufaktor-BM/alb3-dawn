@@ -46,9 +46,48 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "anchor_contact_k37jjr": {
+      "type": "anchor_contact",
+      "settings": {
+        "color": "#616161",
+        "border_color": "#93d4ff",
+        "text": "<p>Autor: Benjamin Maywald<br\/>Position: Co-Founder Alb Filter<br\/>Aktualisiert am:<\/p>",
+        "social_title": "Jetzt teilen!",
+        "linkedin": "",
+        "facebook": "",
+        "twitter": "",
+        "pinterest": "",
+        "mail": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "featured_blog_WYFA8p": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Ähnliche Ratgber",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_color": "#616161",
+        "enable_heading_second_font": false,
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "anchor_contact_k37jjr",
+    "featured_blog_WYFA8p"
   ]
 }
