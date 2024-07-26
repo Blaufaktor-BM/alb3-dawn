@@ -164,6 +164,35 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "table_blog_GTcwrq": {
+      "type": "Table-Blog",
+      "blocks": {
+        "rows_8BU849": {
+          "type": "rows",
+          "settings": {
+            "col1": "",
+            "col2": "",
+            "col3": "<p>M22 AG → M16 IG <a href=\"\/products\/alb-duschfilter-balance\" title=\"Alb Duschfilter Balance\">In den Warenkorb &gt;<\/a><\/p>",
+            "col4": ""
+          }
+        }
+      },
+      "block_order": [
+        "rows_8BU849"
+      ],
+      "settings": {
+        "th1": "Durchmesser Innengewinde Perlator (in Millimeter) ",
+        "th2": "",
+        "th3": "Benötigter Gewindeadapter (Feingewinde) ",
+        "th4": "",
+        "color_th": "rgba(0,0,0,0)",
+        "color_th_text": "#009ee3",
+        "color_even": "",
+        "color_even_text": "#009ee3",
+        "color_odd": "",
+        "color_odd_text": "#009ee3"
+      }
     }
   },
   "order": [
@@ -171,6 +200,7 @@
     "rich_text_y94gXR",
     "video_hn3gwP",
     "anchor_contact_r4XCJA",
-    "rich_text_gDDLjr"
+    "rich_text_gDDLjr",
+    "table_blog_GTcwrq"
   ]
 }
