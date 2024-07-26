@@ -194,7 +194,6 @@
       ],
       "custom_css": [
         ".item-image_text_list {font-size: 13px;}",
-        ".item-image_text_list svg,.item-image_text_list img {max-width: 100%;}",
         ".center {text-align: left;}"
       ],
       "settings": {
@@ -204,6 +203,7 @@
         "full_width": false,
         "image_white": false,
         "large_image": false,
+        "full_image": true,
         "content_second_font": false,
         "padding_top": 32,
         "padding_bottom": 32
