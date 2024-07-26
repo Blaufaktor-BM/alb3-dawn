@@ -226,12 +226,16 @@
         "rows_UxYpaz"
       ],
       "settings": {
+        "table_heading": "PERLATOR MIT INNENGEWINDE",
+        "heading_tag": "h2",
+        "heading_weight": 400,
+        "heading_size": "24px",
         "th1": "Durchmesser Innengewinde Perlator (in Millimeter) ",
         "th2": "",
         "th3": "Benötigter Gewindeadapter (Feingewinde) ",
         "color_th": "rgba(0,0,0,0)",
-        "color_th_text": "#ffffff",
-        "color_th_background": "#009ee3",
+        "color_th_text": "#009ee3",
+        "color_th_background": "#f3f3f3",
         "color_even": "",
         "color_even_text": "#009ee3",
         "color_odd": "",
