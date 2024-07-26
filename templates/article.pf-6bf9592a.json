@@ -90,7 +90,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/wasserfilterwaterlinetrennerhellgrau.webp",
-        "image_overlay_color": "#000",
+        "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "adapt",
@@ -147,6 +147,9 @@
       "block_order": [
         "item_qmk9mY",
         "item_YUJAfn"
+      ],
+      "custom_css": [
+        "a {color: #0081be; text-decoration: underline; cursor: pointer;}"
       ],
       "settings": {
         "background_color": "#fafafa",
@@ -214,6 +217,9 @@
         "item_Y7yE3F",
         "item_Dd4URY"
       ],
+      "custom_css": [
+        "a {color: #0081be; text-decoration: underline; cursor: pointer;}"
+      ],
       "settings": {
         "background_color": "#fafafa",
         "heading": "Campingfilter",
@@ -261,6 +267,9 @@
       },
       "block_order": [
         "item_ppKLhi"
+      ],
+      "custom_css": [
+        "a {color: #0081be; text-decoration: underline; cursor: pointer;}"
       ],
       "settings": {
         "background_color": "#fafafa",
