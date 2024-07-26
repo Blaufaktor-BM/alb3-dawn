@@ -193,13 +193,13 @@
         "item_aCXyqC"
       ],
       "custom_css": [
-        ".item-image_text_list {font-size: 13px;}",
-        ".center {text-align: left;}"
+        ".item-image_text_list {font-size: 13px;}"
       ],
       "settings": {
         "color_scheme": "",
         "title_color": "#003e5f",
         "column_count": 3,
+        "content_position": "left",
         "full_width": false,
         "image_white": false,
         "large_image": false,
