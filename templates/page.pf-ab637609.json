@@ -47,7 +47,7 @@
         "column_mJiFWY"
       ],
       "custom_css": [
-
+        "background-none .multicolumn-card__image-wrapper+.multicolumn-card__info {padding-top: 0; font-size: 13px;}"
       ],
       "settings": {
         "title": "Alb Filter – Ein Technologieunternehmen der Schwäbischen Alb",
