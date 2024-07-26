@@ -132,7 +132,59 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_6q4VBw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TrX4tU": {
+          "type": "column",
+          "settings": {
+            "title": "Nachhaltigkeit und Ressourcenschutz",
+            "subtitle": "",
+            "text": "<p>Uns liegt aber nicht nur die Trinkwasserqualität am Herzen. Zur Philosophie von Alb Filter gehört es auch, eine attraktive Alternative zu Trinkwasser in (Plastik-)Flaschen anzubieten, um das Plastikmüllaufkommen zu reduzieren.<br\/>Zudem wollen wir unser Unternehmen ressourcenschonend und nachhaltig führen. Deshalb fertigen wir unsere Filtergehäuse zum einen aus hochwertigem und langlebigen Edelstahl, sowie aus einer lebensmittelechten Metalllegierung. Um das Plastikmüllaufkommen zu reduzieren setzen wir auf den Einsatz von Biokunststoff aus Lignin.<br\/><br\/>Mit dem Ziel eine bestmögliche Qualität zu garantieren und dabei die Lieferwege so gering wie möglich zu halten arbeiten wir in Entwicklung und Produktion auf erfahrene Partner aus der Region. Hand in Hand mit CNC Drehereien, Metallveredelungsmanufakturen, Lasergraviertechnikern und Kunststofftechnikern. Auf der Schwäbischen Alb fertigen wir unsere Alb Filter für Deutschland und die ganze Welt.<br\/><br\/>Qualität und Präzision \"Made in Germany\".<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TrX4tU"
+      ],
+      "settings": {
+        "title": "",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#616161",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -140,6 +192,7 @@
   "order": [
     "main",
     "multicolumn_RGtLKV",
-    "multicolumn_fHG38M"
+    "multicolumn_fHG38M",
+    "multicolumn_6q4VBw"
   ]
 }
