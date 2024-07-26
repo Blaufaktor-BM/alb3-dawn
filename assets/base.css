@@ -5597,6 +5597,15 @@ slideshow-component .banner__heading.h1 {
   top: 4px;
 }
 
+.accordion.arrow_left summary .icon-caret {
+  left: 1.5rem;
+  right: auto;
+}
+
+.accordion.arrow_left .accordion__title {
+  padding-left: 2.5rem;
+}
+
 @media only screen and (min-width: 750px) {
   .collapse_image_list.two_column .collapse_image_item {
     max-width: 50%;
