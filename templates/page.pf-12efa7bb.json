@@ -354,7 +354,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was sind die Vorteile der Travel Variante?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre in der Nähe des Entnahmepunkts bietet einen zuverlässigen Schutz vor Keimen im System.<\/li><li>Der Active Breitbandfilter kann auch Schadstoffe filtern, die von Kunststofftanks ausgesondert werden.<\/li><li>Der Tankvorgang wird nicht zeitlich beeinträchtigt, da das Filtern innen erfolgt.<\/li><li>Es ist keine Zapfstelle mit Druck erforderlich.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -367,7 +367,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was sind die Nachteile der Travel Variante?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><\/p><ul><li>Starke Membrandruckpumpe mit ca. 3 Bar erforderlich<\/li><li>Der Filter muss in den Wasserstrang eingebaut werden.<\/li><li>Schmutziges Wasser gelangt ungefiltert in den Tank. Durch den Einsatz einer Umschaltvorrichtung kann dieser Nachteil behoben werden.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -380,7 +380,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Muss ich eine andere Pumpe verbauen?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Eventuell! Abhängig von der gewählten Filterkartusche empfehlen wir eine entsprechende Pumpe:<\/p>",
             "small_text1": "<p><strong>Alb Filter Travel ACTIVE<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2,5 Bar (36 psi)<\/strong><\/em> Wasserdruck<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel NANO<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em><em><strong> <\/strong><\/em>mit mindestens <em><strong>2 Bar (29 psi)<\/strong><\/em> Wasserdruck.<br\/><br\/>Durch die starke Bündelung funktioniert zu Beginn auch eine starke Tauchpumpe. Es kann jedoch nur mit einer Membrandruckpumpe die gesamte Kapazität der Kartusche ausgenutzt werden.<strong><br\/><\/strong><\/p><p><strong>Alb Filter Travel FUSION (Active + Nano)<br\/><br\/><\/strong><em>Membrandruckpumpe<\/em> mit mindestens <em><strong>3 Bar (43 psi)<\/strong><\/em> Wasserdruck.<\/p>",
             "small_text2": "",
@@ -393,7 +393,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Bei uns ist bereits ein Filter verbaut - was ist zu beachten?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Oftmals sind in namhaften Wohnmobilen bereits Filter eingebaut. In solchen Fällen stellt sich die Frage, ob es sinnvoll ist, den vorhandenen Filter zu ergänzen und weiter zu verwenden oder ob ein vollständiger Ersatz erforderlich ist.<br\/><br\/>Wir helfen Ihnen gerne dabei, eine Einschätzung zu geben, welches Vorgehen in Ihrem konkreten Fall sinnvoll ist. Dazu sollten wir Informationen über den bereits eingebauten Filter sowie Ihre spezifischen Anforderungen und Bedürfnisse erhalten. Anhand dieser Informationen können wir gemeinsam eine fundierte Entscheidung treffen, ob eine Ergänzung des Filters oder ein vollständiger Austausch empfehlenswert ist.<\/p><p><strong>Ersetzen:<br\/><\/strong>Sollte der Filter ersetzt werden, kann an dessen Stelle ein Alb Filter eingebaut werden. Für bereits verbaute Filter werden häufig starre Osmoseschläuche und Verbinder der Firmen John Guest oder Reich verwendet.Um unseren Filter in das bestehende Leitungssystem zu integrieren, werden in der Regel nur zwei Adapter benötigt.<\/p><p><\/p><ul><li>1\/2 Zoll Außengewinde auf das vorhandene Schlauchsystem<\/li><li>1\/2 Zoll Innengewinde auf das vorhandene Schlauchsystem <\/li><\/ul><p><br\/>Eine Alternative besteht darin, die Osmoseschläuche bis zu dem Punkt zurückzubauen, an dem die üblichen flexiblen 10 mm Schläuche im Wohnmobil mit einer Tülle adaptiert wurden. Anschließend kann unser <strong>Travel Anschluss-Set <\/strong>angebracht werden. Dadurch wird eine einfache Integration unseres Filters in das bestehende Leitungssystem ermöglicht.<\/p>",
             "image1": "shopify:\/\/shop_images\/AnschlussFilter.jpg",
             "small_text1": "",
@@ -407,7 +407,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "An welcher Stelle im Wasserstrang soll ich den Filter einbauen?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Es ist empfehlenswert, den Filter direkt unter der Spüle zu installieren, also dort, wo das zu konsumierende Wasser entnommen wird. Diese Variante bietet den höchsten Schutz vor einer möglichen Verkeimung in den Wasserleitungen. Insbesondere in Vans und Kastenwägen wird oft aufgrund begrenzter Platzverhältnisse diese Variante realisiert.<br\/><br\/>Alternativ wird der Filter auch oft direkt nach der Pumpe positioniert, häufig nach der Abzweigung in den Kaltwasserstrang. Dadurch wird der gesamte Strang und alle Entnahmepunkte abgesichert, was einen weiteren Vorteil darstellt. Auch haben wir hier oft eine zugängliche Serviceklappe in der es ausreichend Platz zum Einbau gibt. <\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -420,7 +420,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Starre Wasserschläuche im Camper - kann ich den Filter anschließen?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Ja, in den meisten Fällen sind in solchen Systemen Kunststoffverbinder der Firmen <strong>John Guest<\/strong>,  <strong>Reich <\/strong>oder <strong>Whale<\/strong> verbaut. Um den Alb Filter in den bestehenden Wasserstrang integrieren zu können, sind Adapter erforderlich.<br\/><br\/>Bei Bedarf können Sie uns gerne eine Anfrage mit einem Bild des bestehenden Systems senden. Auf dieser Grundlage können wir Ihnen gegebenenfalls eine passende Lösung anbieten.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -433,7 +433,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Spielt die Einbaulage des Gehäuses eine Rolle (Waagrecht, Senkrecht)?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Einbaurichtung des Filtergehäuses hat keinen Einfluss auf die Filterleistung. Sie können das Gehäuse in jeder beliebigen Lage installieren.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -478,7 +478,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was sind dieVorteiledes ProCamper Sets?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<ul><li>Eine innen verbaute Nano Keimsperre, die nahe am Entnahmepunkt angebracht ist, bietet einen umfassenden Schutz vor Keimen im System.<\/li><li>Nicht reproduzierbare Schadstoffe werden im Vorfeld durch den Filter reduziert oder herausgefiltert.<\/li><li>Das Wasser gelangt bereits in einem sehr sauberen Zustand in den Tank.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -491,7 +491,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was sind dieNachteile des ProCamper Sets?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<ul><li>Eine Membrandruckpumpe mit einem Druck von ca. 2 bar wird empfohlen.<\/li><li>Der Filter muss in den Wasserstrang integriert werden.<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -531,7 +531,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Technische Daten Alb Filter ELEMENT Gehäuse?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Maße:<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht:<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart:<br\/><\/strong>1\/2 Zoll Innengewinde (Eingangsseite)<br\/>1\/2 Zoll Aussengewinde (Ausgangsseite).<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -544,7 +544,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Haben die Alb Filter Gutachten und Zertifikate?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Nano-Kartusche ist nach <strong>ASTM F838-15A<\/strong> zertifiziert, was höchste Sicherheit gewährleistet.<br\/>Dadurch kann sie auch in öffentlichen Einrichtungen verwendet werden, selbst bei akutem Legionellenbefall.<br\/><br\/>Wenn Sie spezifische Informationen zu einem bestimmten Inhaltsstoff in Bezug auf die Leistungsfähigkeit einzelner Filterkartuschen benötigen, empfehlen wir Ihnen, unser Kontaktformular zu verwenden. Dort können Sie Ihre Anfrage stellen und wir werden Ihnen gerne weiterhelfen.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -557,7 +557,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Worin besteht der Unterschied zu einer UV-Anlage?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Das Äquivalent zur UV-Anlage in unserem System besteht aus der Nano Hohlfasermembran. Beide Technologien haben den Anspruch, Mikroorganismen zu filtern oder unschädlich zu machen.<br\/><br\/>Bei einer UV-Anlage werden Keime durch ultraviolette Strahlung abgetötet. Bei der Nano Keimsperre werden Bakterien hingegen rein mechanisch durch die extrem feinen Poren der Hohlfasern zurückgehalten.<\/p>",
             "small_text1": "<p><strong>UV-Anlage<\/strong><\/p><ul><li>✅ Kann nicht verstopfen<\/li><li>❌ Recht hohe Anschaffungskosten (ab 500€)<\/li><li>❌ Benötigt Strom<\/li><li>❌  Durchflussgeschwindigkeit beachten. Sonst ist keine Keimsicherheit gegeben <\/li><li>❌ Optik kann verkalken. Keimsicherheit ist beeinträchtigt<br\/><\/li><li>❌ Optik kann sich mit Biomasse zusetzen. Keimsicherheit ist beeinträchtigt<\/li><li>❌ Regelmäßige Reinigung notwendig<\/li><li>❌ Bei hoher Keimkonzentration ist keine Keimsicherheit gegeben<\/li><li>❌ Wassertrübung kann die Effektivität beeiflussen. Keimsicherheit ist beeinträchtigt<\/li><\/ul>",
             "small_text2": "<p><strong>Hohlfasermembran<\/strong><\/p><ul><li>❌ Kann verstopfen<\/li><li>❌ Kartuschen müssen getauscht werden<\/li><li>✅ Günstige Anschaffungskosten (ab 150€)<\/li><li>✅ Kein Strom benötigt<\/li><li>✅ Durchflussgeschwindigkeit spielt keine Rolle<\/li><li>✅ Keimsicherheit ist garantiert<\/li><\/ul>",
@@ -570,7 +570,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "small_text1": "",
             "small_text2": "",
@@ -612,7 +612,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie hoch darf die Temperatur der Filterkartuschen sein?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><\/p><p>Das ist abhängig von der verbauten Filterkartusche. Folgende Temperaturen sollten eingehalten werden:<br\/><\/p><ul><li>Active (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Active + (Camping, Haushalt) 5 - 45 °C  <br\/><\/li><li>Nano 5 - 65 °C<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -625,7 +625,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wieviel Liter Wasser kann eine Alb Trinkwasserfilter-Kartusche reinigen?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Das ist in erster Linie abhängig von der Qualität des Eingangswassers und unterscheidet sich je nach verwendeter Filterkartusche. <br\/><br\/>Filterleistung Active Kartusche*: ⌀ 3000 Liter oder max. 4 Monate bei Dauereinsatz<br\/>Filterleistung Nano Kartusche*: ⌀ 5000 Liter oder max. 6 Monate bei Dauereinsatz<br\/><br\/>* Durchschnittswerte – Die Kapazität der Kartusche ist stark abhängig von der Qualität des Eingangswassers. <\/p>",
             "small_text1": "<p><strong>Active Kartusche:<br\/><\/strong>Bei Kartuschen, die Schadstoffe adsorptiv und katalytisch filtern bzw. binden, tritt mit der Zeit eine Sättigung ein. Die Lebensdauer hängt jedoch davon ab, wie viele Schadstoffe im Wasser vorhanden sind. Bei deutschem Leitungswasser gehen wir im Durchschnitt von einer Kapazität von 2000-4000 Litern aus.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p><p><strong>Nano Kartusche:<br\/><\/strong>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.<br\/><br\/>Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<\/p><p><strong>Praxis beim Camping (kein Dauereinsatz):<br\/><\/strong>Wenn die Kartuschen nicht in Verwendung sind, ist es ratsam, sie nach dem Urlaub auszubauen und zu lagern. Genauere Informationen dazu finden Sie in unseren FAQ.<\/p>",
             "small_text2": "",
