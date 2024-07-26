@@ -4569,6 +4569,11 @@ slideshow-component .banner__heading.h1 {
   max-width: 167px;
 }
 
+.full-image .item-image_text_list svg,
+.full-image .item-image_text_list img {
+  max-width: 100%;
+}
+
 .wrapper-image_text_list.icon_white svg,
 .wrapper-image_text_list.icon_white img {
   filter: invert(100%) contrast(2);
