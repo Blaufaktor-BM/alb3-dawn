@@ -1,11 +1,11 @@
 {% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
   <section class="table-{{ section.id }} page-width" style="padding: {{ section.settings.table_padding | default: '40px 0' }};">
     {% if section.settings.table_heading != blank %}
-      <{{ section.settings.heading_tag }} style="font-family: 'Montserrat', sans-serif; font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; margin-bottom: 20px;">
+      <{{ section.settings.heading_tag }} style="font-family: 'Montserrat', sans-serif; font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px;">
         {{ section.settings.table_heading }}
       </{{ section.settings.heading_tag }}>
-    {% endif %}  
-  <table>
+    {% endif %}
+    <table>
       <thead>
         <tr>
           <th>{{ section.settings.th1 }}</th>
@@ -18,7 +18,7 @@
           {% for block in section.blocks %}
             <tr>
               <td>{{ block.settings.col1 }}</td>
-              <td class="narrow">{{ block.settings.col2 }}</td>
+              <td class="narrow center">{{ block.settings.col2 }}</td>
               <td>{{ block.settings.col3 }}</td>
             </tr>
           {% endfor %}
@@ -28,7 +28,7 @@
   </section>
   <style>
     .table-{{ section.id }} {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Amsi Light', sans-serif;
       font-size: 13px;
     }
     .table-{{ section.id }} table {
@@ -41,7 +41,7 @@
       text-align: left;
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 300;
       padding: {{ section.settings.padding_th | default: '10px' }};
       border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
     }
@@ -57,6 +57,9 @@
     }
     .table-{{ section.id }} th.narrow, .table-{{ section.id }} td.narrow {
       width: 50px;
+    }
+    .table-{{ section.id }} td.center {
+      text-align: center;
     }
   </style>
 {% endif %}
@@ -115,6 +118,26 @@
       "id": "heading_size",
       "label": "Heading Font Size",
       "default": "24px"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Heading Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
     },
     {
       "type": "text",
