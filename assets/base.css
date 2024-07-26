@@ -5494,6 +5494,14 @@ slideshow-component .banner__heading.h1 {
 
 /* custom contact */
 /* collapse */
+.accordion:not(:first-child) {
+  margin-top: 10px;
+}
+
+summary[aria-expanded="true"] .accordion__title {
+  text-decoration: underline;
+}
+
 .collapsible-content__heading svg {
   max-width: 36px;
   margin-right: 10px;
