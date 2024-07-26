@@ -25,7 +25,7 @@
           "settings": {
             "btn_text": "Zurück",
             "btn_url": "shopify:\/\/pages\/hilfe-und-kontakt",
-            "btn_color": "#fff"
+            "btn_color": "#ffffff"
           }
         },
         "heading_AAzyh4": {
@@ -106,7 +106,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Für welchen Duschfilter soll ich mich entscheiden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>In erster Linie hängt die Auswahl von den individuellen Bedürfnissen ab. Zusammengefasst jedoch ein kurzer Überblick über unsere Alb Duschfiltervarianten:<\/p>",
             "small_text1": "<p><strong>Duschfilter Nano:<br\/><\/strong><br\/>Keimsperre gegen Bakterien: Dieser Duschfilter ist speziell entwickelt, um Bakterien wie Legionellen und E. coli abzuwehren. Er kann dazu beitragen, das Risiko von Infektionen oder Krankheiten durch diese Keime zu reduzieren.<\/p><p><strong>Duschfilter Balance:<br\/><br\/><\/strong>Aktivkohlefilter mit Mineralisierung und KDF: Dieser Filter besteht aus Aktivkohlegranulat, das dazu dient, Verunreinigungen wie Chlor, Schwermetalle und andere chemische Rückstände aus dem Wasser zu reduzieren. Zusätzlich erfolgt eine Mineralisierung, bei der dem Wasser Mineralstoffe zugeführt werden. Das zusätzliche KDF Granulat kann ebenfalls helfen, Schwermetalle zu reduzieren.<\/p><p><strong>Duschfilter Shungit:<br\/><\/strong>Schungit ist ein seltenes Gestein, das für seine potenziell energetisierenden Eigenschaften bekannt ist. Ein Duschfilter, der mit Schungit ausgestattet ist, kann dazu beitragen, das Wasser zu reinigen und möglicherweise eine energetische Wirkung auf das Wasser zu haben.<br\/><\/p>",
             "small_text2": "",
@@ -119,7 +119,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wo wird das Filtergehäuse angebracht?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Montage eines Alb Filters in der Dusche ist im Allgemeinen recht einfach und erfordert nur wenige Schritte. Hier ist eine allgemeine Anleitung, wie Sie den Alb Filter installieren können. Bitte beachten Sie, dass die genauen Schritte je nach Modell des Alb Filters und der Art Ihrer Dusche variieren können:<\/p>",
             "small_text1": "<ul><li><strong>Vorbereitung<\/strong>: Stellen Sie sicher, dass die Dusche ausgeschaltet ist, bevor Sie beginnen.<\/li><li><strong>Demontieren Sie den vorhandenen Duschschlauch<\/strong>: Je nach Modell Ihrer Dusche kann dies einfach durch Drehen im Uhrzeigersinn geschehen. In einigen Fällen müssen Sie vielleicht eine Zange verwenden. Seien Sie jedoch vorsichtig, um die Oberfläche nicht zu beschädigen.<\/li><li><strong>Montieren Sie den Alb Filter<\/strong>: Nehmen Sie den Alb Filter mit eingesetzter Kartusche und schrauben Sie ihn an die Mischarmatur. Achten Sie darauf, dass er fest sitzt, aber üben Sie nicht zu viel Druck aus, da dies zu Schäden führen kann.<\/li><li><strong>Montieren Sie den Duschschlauch am Filter<\/strong>: Schrauben Sie nun den Duschschlauch auf die Ausgangs-Seite des Alb Filters. Auch hier gilt: Fest genug, um eine gute Dichtung zu gewährleisten, aber nicht zu fest.<\/li><li><strong>Prüfen Sie auf Lecks<\/strong>: Schalten Sie das Wasser langsam an und prüfen Sie, ob Wasser aus der Verbindung zwischen Filter und Mischarmatur oder zwischen Filter und Duschschlauch austritt. Wenn ja, schalten Sie das Wasser aus und ziehen Sie die Verbindungen noch etwas fester an.<\/li><li><strong>Spülen Sie den Filter durch<\/strong>: Lassen Sie das Wasser etwa 1 min. laufen, um den Filter durchzuspülen. Dies entfernt etwaige Aktivkohle-Rückstände, die sich während der Herstellung oder Lagerung des Filters angesammelt haben könnten.<\/li><\/ul>",
             "small_text2": "",
@@ -132,7 +132,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ich habe nicht genügend Abstand zur Wand - was kann ich tun?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Manchmal kann es vorkommen, dass aufgrund des zu <strong>geringen Abstands des Gewindes<\/strong> zur Wand (weniger als 35 mm) die Installation des Alb Filters nicht möglich ist. Dies kann passieren, wenn die Wand zu nahe an der Duscharmatur liegt oder wenn der Wasseranschluss in einer Ecke oder Nische installiert wurde.<br\/><br\/>In solchen Fällen benötigen Sie einen Abstandsadapter. Dieser Adapter ist im Grunde ein kleines Verlängerungsstück, das zwischen das Gewinde Ihrer Duscharmatur und den Alb Filter geschraubt wird. Es verlängert das Gewinde Ihrer Armatur, sodass der Alb Filter genügend Platz zum Anschließen hat.<br\/><br\/>Dieser <a href=\"https:\/\/alb-filter.com\/products\/alb-winkelabstandsadapter-s\" target=\"_self\">Abstandsadapter<\/a> ist ein separat erhältliches Zubehör und kann auf unserer Webseite erworben werden. Bitte beachten Sie, dass die Verwendung eines Adapters die <strong>Gesamthöhe Ihrer Duscharmatur erhöhen<\/strong> wird, was je nach Ihrer spezifischen Duschsituation ein Problem darstellen könnte.<br\/><br\/>Wir empfehlen, den Abstand zwischen der Wand und dem Gewinde Ihrer Duscharmatur genau zu messen, bevor Sie den Alb Filter bestellen. Wenn der Abstand weniger als 35 mm beträgt, bestellen Sie bitte den Abstandsadapter zusammen mit dem Filter. Das stellt sicher, dass Sie den Filter problemlos installieren können, sobald er ankommt.<br\/><br\/><strong>Die Installation des Abstandsadapters ist einfach und erfordert keine speziellen Werkzeuge<\/strong>. Sie schrauben einfach den Adapter auf das Gewinde Ihrer Duscharmatur und dann den Alb Filter auf den Adapter. Sobald der Adapter installiert ist, sollte der Alb Filter genügend Platz zum Anschließen haben und ordnungsgemäß funktionieren.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -145,7 +145,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Verringert sich der Kalkgehalt im Wasser?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Unser Hauptziel ist es, schädliche Stoffe aus dem Wasser zu reduzieren. Kalk, der aus Kalzium- und Magnesiumkarbonat besteht, gehört nicht dazu.<\/p><p><\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -158,7 +158,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was ist zu beachten, wenn ich die Filter nicht benutze (Tage\/Wochen)?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Generell<\/strong>: Jeder noch so gute Wasserfilter kann verkeimen. Desshalb ist es wichtig die angegebenen Tauschintervalle zu beachten und den Filter am besten täglich zu spülen<\/p><p>Ihr Alb Filter verliert nicht an Wirksamkeit, wenn Sie ihn einige Zeit nicht verwenden. Wir empfehlen den Filter bei längerer Abwesenheit auszubauen und ihn kühl und trocken zu lagern. <\/p>",
             "small_text1": "<p><strong>Hinweis<\/strong>: Bitte legen Sie die Kartusche nicht in Reis ein, lagern Sie diese nicht im Kühlschrank oder in einer verschlossenen Plastiktüte.<\/p>",
             "small_text2": "",
@@ -171,7 +171,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie funktioniert ein Kartuschenwechsel und worauf ist zu achten?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Hier sind allgemeine Schritte zum Wechseln einer Duschfilter Kartusche:<\/p><ul><li><strong>Vorbereitung<\/strong>: Stellen Sie sicher, dass Sie eine Duschfilter-Ersatzkartusche für Ihren Alb Duschfilter zur Hand haben und drehen Sie die Armatur zu.<\/li><li><strong>Gehäuse abschrauben und öffnen<\/strong>: Schrauben Sie das Duschfiltergehäuse von der Armatur und Duschschlauch ab und öffnen den Deckel ausgangsseitig (Deckel mit Außengewinde). Die alte Kartusche sollte nun zu sehen sein.<\/li><li><strong>Reinigen Sie das Gehäuse<\/strong>: Reinigen Sie das Innere des Duschfiltergehäuses, um sicherzustellen, dass keine Rückstände vorhanden sind, die die Leistung des neuen Filters beeinträchtigen könnten.<\/li><li><strong>Setzen Sie die neue Kartusche ein<\/strong>: Nehmen Sie die neue Kartusche und setzen Sie sie in das Gehäuse ein. Drücken Sie hierbei die Nase mit leichten Drehbewegungen in die Öffnung des unteren Deckels.<\/li><li><strong>Schrauben Sie den Deckel wieder an<\/strong>: Schrauben Sie den unteren Deckel des Filtergehäuses wieder an. Fest, aber auch nicht zu fest.<\/li><li><strong>Testen Sie den Filter<\/strong>: Schalten Sie das Wasser wieder ein und lassen Sie es eine Minute laufen. Überprüfen Sie auf Lecks und stellen Sie sicher, dass das Wasser sauber durchläuft.<\/li><li><strong>Regelmäßige Wartung<\/strong>: Denken Sie daran, die Kartusche regelmäßig zu wechseln. Wir empfehlen bei Duschfilterkartuschen einen Wechselintervall von 6 Monaten.<br\/><br\/>Unser <a href=\"https:\/\/alb-filter.com\/pages\/wasserfilter-spar-abo\" target=\"_self\">Spar-Abo<\/a> kann Ihnen dabei helfen, die Wechselzeit nicht zu verspassen.<\/li><\/ul><p>Eine Videoanleitung ist hier zu finden (YouTube Link): <a href=\"https:\/\/youtu.be\/p0y6RtcUAM4\" title=\"Anleitung Kartuschenwechsel Duschfilter\">Anleitung Kartuschenwechsel Duschfilter<\/a><\/p>",
             "small_text1": "<p><\/p><p><\/p>",
             "small_text2": "",
@@ -184,7 +184,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Kann ich in einem Filtergehäuse unterschiedliche Kartuschen verwenden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Ja,<\/strong> alle Kartuschen sind für das Filtergehäuse (<a href=\"https:\/\/alb-filter.com\/pages\/alb-element-wasserfiltergehaeuse\" target=\"_self\">Element<\/a>) konzipiert und können durch die verschiedenen Kartuschentypen (Nano, Balance oder Shungit) ausgetauscht werden. Diese Flexibilität ermöglicht es Ihnen, die Kartusche auszuwählen, die am besten zu Ihren spezifischen Wasserbedingungen passt.<br\/><br\/>Es ist wichtig zu beachten, dass verschiedene Kartuschen unterschiedliche Filtrationseigenschaften und Kapazitäten besitzen. So hat beispielsweise die Balance-Kartusche die Fähigkeit, insbesondere <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor-aus-wasser-filtern\" target=\"_self\">Chlor<\/a> zu reduzieren, jedoch verfügt sie nicht über die Fähigkeit, <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/keime-und-bakterien-im-leitungswasser\" target=\"_self\">Bakterien<\/a> zu filtern. Dies steht im Kontrast zur Nano-Kartusche, die speziell für die Bewältigung von keim- und bakterienbelastetem Wasser, einschließlich <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellenfilter\" target=\"_self\">Legionellen<\/a>, konzipiert wurde. Daher ist es von entscheidender Bedeutung, dass Sie die Kartusche entsprechend Ihren individuellen Wasserbedingungen und Bedürfnissen auswählen.<br\/><br\/>Vergessen Sie nicht, die Kartusche regelmäßig zu wechseln, um eine optimale Filtrationsleistung zu gewährleisten. Die empfohlene Austauschhäufigkeit liegt bei Duschfilterkartuschen bei 6 Monaten.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -197,7 +197,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie müssen die benutzten Kartuschen entsorgt werden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Verbrauchte Kartuschen müssen im Restmüll entsorgt werden. Hier werden die Kartuschen der Verbrennung zugeführt, da sich im Inneren Schadstoffe angesammelt haben, dürfen Sie die Kartuschen nicht anderweitig entsorgen.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -228,6 +228,7 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
+        "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "#ffffff",
         "text_color": "#616161",
@@ -243,7 +244,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Kann ich den Alb Filter Duschfilter in Verbindung mit drucklosen Boilern verwenden?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Beim Einsatz unseres Alb Filters in der Dusche in Verbindung mit drucklosen Boilern ist zu beachten, dass aufgrund der hohen Feinheit der Patrone ein Druck vor dieser aufgebaut wird (etwa in Höhe des Netzdruckes), welcher sich nur langsam abbaut. Das kann unter Umständen zur Beschädigung des nicht druckfesten Boilers führen.<br\/><br\/>Es gibt allerdings auch druckfeste Boiler, für diese die genannten Einschränkungen nicht gelten. Sie erkennen diese z.B. am Typenschild „ max. Betriebsdruck … “. Dieser muss mindestens 4 bar betragen. Diese Boiler Typen sind in der Regel allerdings in der Anschaffung etwas teurer als die Drucklosen.<br\/><br\/>Falls Sie sich nicht sicher sind, fragen Sie Ihre Sanitär-Fachkraft.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -256,7 +257,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Technische Daten Alb Filter ELEMENT Gehäuse?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Maße:<\/strong><br\/>Breite: 69 mm<br\/>Höhe: 120 mm<br\/><br\/><strong>Gewicht:<br\/><\/strong>ca. 300 g (Gehäuse aus Aluminium-Magnesium-Legierung)<br\/>ca. 400 g (Edelstahl-Gehäuse)<br\/><br\/><strong>Anschlussart:<br\/><\/strong>1\/2 Zoll Innengewinde (Eingangsseite)<br\/>1\/2 Zoll Aussengewinde (Ausgangsseite).<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -269,7 +270,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Haben die Alb Filter Gutachten und Zertifikate?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Die Nano-Kartusche ist nach <strong>ASTM F838-15A<\/strong> zertifiziert, was höchste Sicherheit gewährleistet.<br\/>Dadurch kann sie auch in öffentlichen Einrichtungen verwendet werden, selbst bei akutem Legionellenbefall.<br\/><br\/>Wenn Sie spezifische Informationen zu einem bestimmten Inhaltsstoff in Bezug auf die Leistungsfähigkeit einzelner Filterkartuschen benötigen, empfehlen wir Ihnen, unser Kontaktformular zu verwenden. Dort können Sie Ihre Anfrage stellen und wir werden Ihnen gerne weiterhelfen.<\/p>",
             "small_text1": "",
             "small_text2": "",
@@ -295,6 +296,7 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
+        "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
@@ -310,7 +312,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie hoch darf die Temperatur der Filterkartuschen sein?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><\/p><p>Das ist abhängig von der verbauten Filterkartusche. Folgende Temperaturen sollten eingehalten werden:<br\/><\/p><ul><li>Balance 5 - 45 °C  <br\/><\/li><li>Shungit 5 - 45 °C  <br\/><\/li><li>Nano 5 - 65 °C<\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
@@ -323,7 +325,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wieviel Liter Wasser kann eine Alb Duschfilter-Kartusche reinigen?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Das ist in erster Linie abhängig von der Qualität des Eingangswassers und unterscheidet sich je nach verwendeter Filterkartusche.<br\/><br\/>Filterleistung Balance Kartusche*: ⌀ 3000 Liter oder max. 6 Monate bei Dauereinsatz<br\/>Filterleistung Shungit Kartusche*: ⌀ 3000 Liter oder max. 6 Monate bei Dauereinsatz<br\/>Filterleistung Nano Kartusche*: ⌀ 5000 Liter oder max. 6 Monate bei Dauereinsatz<br\/><br\/>*Durchschnittswerte – Die Kapazität der Kartusche ist stark abhängig von der Qualität des Eingangswassers. <br\/><br\/>Eine hilfreiche Faustregel ist es, die Kartusche zu wechseln, wenn Sie bemerken, dass der Wasserfluss merklich abnimmt, da dies ein Zeichen dafür sein kann, dass die Kartusche gesättigt ist. Darüber hinaus empfiehlt es sich, die Kartusche <strong>spätestens nach 6 Monaten<\/strong> zu wechseln, unabhängig vom Wasserfluss, um eine optimale Filterleistung zu gewährleisten.<\/p><p><\/p><p><strong>Nano Kartusche:<\/strong><br\/>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p>",
             "small_text1": "<p><strong>Balance Kartusche:<br\/><\/strong>Bei Kartuschen, die Schadstoffe adsorptiv und katalytisch filtern bzw. binden, tritt mit der Zeit eine Sättigung ein. Die Lebensdauer hängt jedoch davon ab, wie viele Schadstoffe im Wasser vorhanden sind. Bei deutschem Leitungswasser gehen wir im Durchschnitt von einer Kapazität von 2000-4000 Litern aus.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können, sollten Aktivkohle-Kartuschen regelmäßig getauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen. In der Balance Kartusche kommt eine Kupfer-Zink Legierung zum Einsatz, welche das Bakterienwachstum ein Stück weit hemmen kann.<\/p>",
             "small_text2": "<p><strong>Nano Kartusche:<\/strong>Bei der Nano-Kartusche handelt es sich um eine Hohlfasermembran, deren Durchflussgeschwindigkeit sich verringert, je mehr verunreinigtes Wasser durch sie hindurchgefiltert wird. Im Inneren der Kartusche befinden sich feine Hohlfasern, deren Poren durch Bakterien und andere Feststoffe verstopfen können.Daher hängt die Lebensdauer der Kartusche stark von der Qualität des Eingangswassers ab. Eine genaue Angabe in Litern ist eigentlich nicht möglich, da sie in einem breiten Bereich von wenigen Litern bis zu mehreren tausend Litern variieren kann.<br\/><br\/>Ein weiterer wichtiger Aspekt ist die Hygiene. Da sich Bakterien auf den Filtern ansiedeln können und im Laufe der Zeit durch den Filterblock wachsen können, sollten die Kartuschen etwa alle 4 Monate ausgetauscht werden. Dadurch wird vermieden, dass die Bakterien vermehrt ins System gelangen oder die nachgeschaltete Keimsperre (Nano) beeinträchtigen.<\/p>",
@@ -348,6 +350,7 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": false,
+        "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "rgba(0,0,0,0)",
         "text_color": "#616161",
