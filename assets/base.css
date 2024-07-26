@@ -6548,6 +6548,13 @@ ul.breadcrumb li a:hover {
   display: block;
   width: 100%;
   max-width: 80px;
+  transition-duration: .5s;
+}
+
+.left_image:hover,
+.right_image:hover {
+  transform: scale(.8);
+  transition-timing-function: cubic-bezier(.47, 2.02, .31, -.36);
 }
 
 .center_image {
