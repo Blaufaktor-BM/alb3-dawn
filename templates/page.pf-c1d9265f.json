@@ -369,6 +369,98 @@
         "border_color": "#000",
         "table_padding": "40px"
       }
+    },
+    "rich_text_DzHbqq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DifPch": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Unterschied Feingewinde und Grobgewinde <\/p><p><\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_dCBKJC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In den meisten Fällen haben wir es bei Küchenwasserhähnen mit sogenannten <strong>Feingewinden <\/strong>zu tun. Bei den Feingewinden liegen die einzelnen Spiralen enger beieinander und sind nicht so tief eingeschnitten wie bei einem <strong>Rohrgewinde<\/strong>. Sie können messen wie weit die Spiralen (Windungen) auseinander liegen. Ist es ca. 1mm haben wir es mit einem Feingewinde zu tun, ansonsten sollte es ein Rohrgewinde sein. Aus Erfahrung der Kundenanfragen ist es aber meistens ein Feingewinde. <br\/><br\/>Selten vorkommende Rohr- oder Grobgewinde sind:<br\/><br\/><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_dreiachtel_zoll_ag\" target=\"_self\">3\/8 Zoll AG<\/a> (Gewindedurchmesser: 16,7 mm)<br\/><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_m20_ag-1\" target=\"_self\">1\/2 Zoll AG<\/a> (Gewindedurchmesser: 21,0 mm)<br\/><br\/><a href=\"https:\/\/alb-filter.com\/products\/alb_gewindeadapter_dreiachtel_zoll_ig\" target=\"_self\">3\/8 Zoll IG<\/a> (Gewindedurchmesser: 15,3 mm)<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DifPch",
+        "text_dCBKJC"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_image_text_VWNDwf": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_RdfpXr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kostenloser Adapter-Tausch",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "subtitle_QxBLJc": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "subtitle_color": "#003e5f",
+            "second_font": true
+          }
+        },
+        "text_fN7nDX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir empfehlen Ihnen, das Gewinde Ihres Wasserhahns zu überprüfen, <strong>bevor Sie den Alb Filter Duo kaufen<\/strong>.<br\/><br\/>Falls der im Lieferumfang enthaltene M24-Adapter nicht zu Ihrem Wasserhahn passt, sind wir gerne bereit, diesen auszutauschen. Bitte kontaktieren Sie uns damit wir den für Sie passenden Adapter ermitteln können.<br\/><br\/>Für Kunden in Deutschland übernehmen wir die Versandkosten des ersten Austausches. Senden Sie uns hierzu einfach eine E-Mail mit den Details zum gewünschten Adapter sowie Ihrer Bestell- oder Auftragsnummer.<\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_RdfpXr",
+        "subtitle_QxBLJc",
+        "text_fN7nDX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/adapter-tausch.webp",
+        "enable_image_ratio": true,
+        "image_ratio": "2_3",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": false,
+        "add_image_spacing": true,
+        "remove_content_spacing": false,
+        "top_radius": false,
+        "background_color": "",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -378,6 +470,8 @@
     "anchor_contact_r4XCJA",
     "rich_text_gDDLjr",
     "table_blog_GTcwrq",
-    "table_blog_X9A47P"
+    "table_blog_X9A47P",
+    "rich_text_DzHbqq",
+    "custom_image_text_VWNDwf"
   ]
 }
