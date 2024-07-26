@@ -24,7 +24,7 @@
           "type": "top_btn",
           "settings": {
             "btn_text": "Zurück",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/pages\/hilfe-und-kontakt",
             "btn_color": "#fff"
           }
         },
@@ -71,7 +71,7 @@
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "medium",
-        "image_position": "center",
+        "image_position": "bottom",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
         "show_text_box": false,
