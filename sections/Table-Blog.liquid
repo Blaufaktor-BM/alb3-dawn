@@ -46,13 +46,17 @@
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       font-weight: 300;
-      padding: {{ section.settings.padding_th | default: '10px' }};
+      padding: {{ section.settings.padding_th | default: '10px' }} 0;
+      padding-left: {{ section.settings.padding_th | default: '10px' }};
+      padding-right: {{ section.settings.padding_th | default: '10px' }};
       border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
     }
     #{{ unique_id }} tbody tr td {
       background: {{ section.settings.color_even | default: '#fff' }};
       color: {{ section.settings.color_even_text | default: '#000' }};
-      padding: {{ section.settings.padding_td | default: '10px' }};
+      padding: 0;
+      padding-left: {{ section.settings.padding_td | default: '10px' }};
+      padding-right: {{ section.settings.padding_td | default: '10px' }};
       border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
     }
     #{{ unique_id }} tbody tr:nth-child(odd) td {
@@ -255,4 +259,3 @@
   ]
 }
 {% endschema %}
-
