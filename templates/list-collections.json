@@ -42,9 +42,9 @@
             "heading": "Wasserfilter für Trinkwasser, Dusche, Camping & mehr",
             "color": "#003e5f",
             "second_font": true,
-            "heading_tag": "p",
+            "heading_tag": "h2",
             "heading_size": "h2",
-            "heading_weight": "400"
+            "heading_weight": "300"
           }
         },
         "subheading_TPzRBb": {
