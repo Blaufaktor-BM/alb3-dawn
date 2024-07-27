@@ -35,10 +35,10 @@
           <div
             class="item-image_text_list {{ section.settings.content_position }}"
             style="
-              {% if block.settings.border_left %}border-left-color: {{ block.settings.border_color }}; border-left-width: {{ block.settings.border_width }}px;{% endif %}
-              {% if block.settings.border_right %}border-right-color: {{ block.settings.border_color }}; border-right-width: {{ block.settings.border_width }}px;{% endif %}
-              {% if block.settings.border_top %}border-top-color: {{ block.settings.border_color }}; border-top-width: {{ block.settings.border_width }}px;{% endif %}
-              {% if block.settings.border_bottom %}border-bottom-color: {{ block.settings.border_color }}; border-bottom-width: {{ block.settings.border_width }}px;{% endif %}
+              {% if block.settings.border_left %}border-left-color: {{ block.settings.border_color }}; border-left-width: {{ block.settings.border_width }}px;{% else %}border-left: none;{% endif %}
+              {% if block.settings.border_right %}border-right-color: {{ block.settings.border_color }}; border-right-width: {{ block.settings.border_width }}px;{% else %}border-right: none;{% endif %}
+              {% if block.settings.border_top %}border-top-color: {{ block.settings.border_color }}; border-top-width: {{ block.settings.border_width }}px;{% else %}border-top: none;{% endif %}
+              {% if block.settings.border_bottom %}border-bottom-color: {{ block.settings.border_color }}; border-bottom-width: {{ block.settings.border_width }}px;{% else %}border-bottom: none;{% endif %}
             "
           >
             {%- if block.settings.url != blank -%}
