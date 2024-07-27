@@ -91,7 +91,13 @@
             "title": "<p>TRINKWASSERFILTER<\/p>",
             "text": "<p>Untertisch - Küche<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/wasserfilter-untertisch"
+            "url": "shopify:\/\/collections\/wasserfilter-untertisch",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_qwMyDM": {
@@ -101,7 +107,13 @@
             "title": "<p>TRINKWASSERFILTER<\/p>",
             "text": "<p>Wasserhahn - Küche<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/wasserhahnfilter"
+            "url": "shopify:\/\/collections\/wasserhahnfilter",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_8TbiGJ": {
@@ -111,7 +123,13 @@
             "title": "<p>DUSCHFILTER<\/p>",
             "text": "<p>Badezimmer<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/duschfilter"
+            "url": "shopify:\/\/collections\/duschfilter",
+            "border_color": "#c1c1c1",
+            "border_width": 1,
+            "border_left": true,
+            "border_right": true,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_c6UwpN": {
@@ -121,7 +139,13 @@
             "title": "<p>CAMPINGFILTER<\/p>",
             "text": "<p>Externe Betankung<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/camping-mobil"
+            "url": "shopify:\/\/collections\/camping-mobil",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_TgKaUY": {
@@ -131,7 +155,13 @@
             "title": "<p>CAMPINGFILTER<\/p>",
             "text": "<p>Festeinbau<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/camping-travel"
+            "url": "shopify:\/\/collections\/camping-travel",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_cVwy3a": {
@@ -141,7 +171,13 @@
             "title": "<p>PRO CAMPER SET<\/p>",
             "text": "<p>Kombi-Filter<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/pro-camper"
+            "url": "shopify:\/\/collections\/pro-camper",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_nLYLCU": {
@@ -151,7 +187,13 @@
             "title": "<p>WASSERFILTER KARTUSCHEN<\/p>",
             "text": "",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/wasserfilter-kartuschen"
+            "url": "shopify:\/\/collections\/wasserfilter-kartuschen",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_NbVwQj": {
@@ -161,7 +203,13 @@
             "title": "<p>ZUBEHÖR<\/p>",
             "text": "",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/zubehor"
+            "url": "shopify:\/\/collections\/zubehor",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_XGRF8L": {
@@ -171,7 +219,13 @@
             "title": "<p>ADAPTER<\/p>",
             "text": "",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/adapter"
+            "url": "shopify:\/\/collections\/adapter",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         }
       },
@@ -198,7 +252,7 @@
         "image_white": false,
         "large_image": true,
         "full_image": false,
-        "content_second_font": false,
+        "content_second_font": true,
         "padding_top": 0,
         "padding_bottom": 52
       }
@@ -242,7 +296,13 @@
             "title": "<p>Versandkostenfrei<\/p>",
             "text": "<p><\/p><p>Innerhalb von Deutschland mit unserem Versandpartner DHL.<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/wasserfilter-untertisch"
+            "url": "shopify:\/\/collections\/wasserfilter-untertisch",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_hGx9Yj": {
@@ -252,7 +312,13 @@
             "title": "<p>Schnelle Lieferung<\/p><p><\/p>",
             "text": "<p><\/p><p>Versand mit DHL dauert in der Regel nur 1-2 Tage innerhalb Deutschlands.<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/wasserhahnfilter"
+            "url": "shopify:\/\/collections\/wasserhahnfilter",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_wLHRdk": {
@@ -262,7 +328,13 @@
             "title": "<p>Einfache Zahlung<\/p>",
             "text": "<p><\/p><p>Nutze Zahlungsarten wie Kreditkartenzahlung, Paypal oder Sofortüberweisung<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/duschfilter"
+            "url": "shopify:\/\/collections\/duschfilter",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_zKzhAC": {
@@ -272,7 +344,13 @@
             "title": "<p>Sicher durch SSL Zertifikate<\/p>",
             "text": "<p><\/p><p>Geschützt durch eine 256-Bit Verschlüsselung. Kaufe sicher<br\/>bei uns ein.<\/p>",
             "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/collections\/camping-mobil"
+            "url": "shopify:\/\/collections\/camping-mobil",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         }
       },
