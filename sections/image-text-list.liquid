@@ -34,7 +34,12 @@
         {%- for block in section.blocks -%}
           <div
             class="item-image_text_list {{ section.settings.content_position }}"
-            style="border-color: {{ block.settings.border_color }}; border-width: {{ block.settings.border_width }}px;"
+            style="
+              {% if block.settings.border_left %}border-left-color: {{ block.settings.border_color }}; border-left-width: {{ block.settings.border_width }}px;{% endif %}
+              {% if block.settings.border_right %}border-right-color: {{ block.settings.border_color }}; border-right-width: {{ block.settings.border_width }}px;{% endif %}
+              {% if block.settings.border_top %}border-top-color: {{ block.settings.border_color }}; border-top-width: {{ block.settings.border_width }}px;{% endif %}
+              {% if block.settings.border_bottom %}border-bottom-color: {{ block.settings.border_color }}; border-bottom-width: {{ block.settings.border_width }}px;{% endif %}
+            "
           >
             {%- if block.settings.url != blank -%}
               <a href="{{ block.settings.url }}">
@@ -231,7 +236,27 @@
           "max": 10,
           "step": 1,
           "unit": "px",
-          "default": 1
+          "default": 0
+        },
+        {
+          "type": "checkbox",
+          "id": "border_left",
+          "label": "Border Left"
+        },
+        {
+          "type": "checkbox",
+          "id": "border_right",
+          "label": "Border Right"
+        },
+        {
+          "type": "checkbox",
+          "id": "border_top",
+          "label": "Border Top"
+        },
+        {
+          "type": "checkbox",
+          "id": "border_bottom",
+          "label": "Border Bottom"
         }
       ]
     }
