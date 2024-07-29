@@ -70,18 +70,18 @@
                 </div>
                 <div class="item-content-post_list">
                   {%- if block.settings.title != blank -%}
+                    {%- if block.settings.post != blank -%}
+                      <a class="item-title-post_list" href="{{ block.settings.post }}">
+                    {%- endif -%}
                     <{{ section.settings.title_tag }}
                       class="title-post_list {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
                       style="font-weight: {{ section.settings.title_weight }}; color: {{ section.settings.title_color }};"
                     >
-                      {%- if block.settings.post != blank -%}
-                        <a href="{{ block.settings.post }}">
-                      {%- endif -%}
                       {{ block.settings.title }}
-                      {%- if block.settings.post != blank -%}
-                        </a>
-                      {%- endif -%}
                     </{{ section.settings.title_tag }}>
+                    {%- if block.settings.post != blank -%}
+                      </a>
+                    {%- endif -%}
                   {%- endif -%}
                   {% if block.settings.text != blank %}
                     <div
