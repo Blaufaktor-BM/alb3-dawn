@@ -7545,7 +7545,10 @@ h5 {
 .item-blog_title_list a {
   text-decoration: none;
   display: block;
-  display: block;
+}
+
+.item-wrapper-blog_title_list {
+  height: 100%;
 }
 
 .item-blog_title_list img {
