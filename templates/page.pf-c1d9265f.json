@@ -632,35 +632,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_XTG9Fb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_N8M3wT": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Mit welchen Methoden kann ich ein Gewinde ermitteln?<\/p>",
-            "remove_spacing": false,
-            "color": "#003e5f",
-            "heading_tag": "h3",
-            "heading_size": "h2",
-            "font_weight": "700",
-            "second_font": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_N8M3wT"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "content_full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "table_blog_jytDcR": {
       "type": "Table-Blog",
       "blocks": {
@@ -695,8 +666,107 @@
         "padding_th": "10px",
         "padding_td": "10px",
         "border_width": "1px",
-        "border_color": "#000",
+        "border_color": "#000000",
         "table_padding": "40px"
+      }
+    },
+    "multicolumn_n6ULUR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_n4yN4b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-4196f9df-87a7Skizze-Aussengewinde-mit-Messschieber-messen-1000px.webp",
+            "title": "Bestimmung eines Außengewindes (AG)",
+            "subtitle": "",
+            "text": "<p>Gemessen wird das Gewinde an der Außenkante der Zahnung. Bringen Sie dafür den Messschieber wie in nachfolgenden Abbildung in Position und lesen den Wert ab.<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6YUnzE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-4196f9df-87a7Skizze-Innengewinde-mit-Messschieber-messen-1000px.webp",
+            "title": "Bestimmung eines Innengewindes (IG)",
+            "subtitle": "",
+            "text": "<p>Gemessen wird das Gewinde an der Innenkante der Zahnung. Bringen Sie dafür den Messschieber wie in der nachfolgenden Abbildung in Position und lesen den mm-Wert ab. Vergleichen Sie den Wert mit der Gewindetabelle am Anfang dieser Seite.<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_n4yN4b",
+        "column_6YUnzE"
+      ],
+      "settings": {
+        "title": "Messmethode 1 MESSSCHIEBER (ANALOG \/ DIGITAL)",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#616161",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_4KpGEq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BFzeKH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-4196f9df-87a7Skizze-Aussengewinde-mit-Messschieber-messen-1000px.webp",
+            "title": "Bestimmung eines Außengewindes (AG)",
+            "subtitle": "",
+            "text": "<p>Gemessen wird das Gewinde an der Außenkante der Zahnung. Bringen Sie dafür den Messschieber wie in nachfolgenden Abbildung in Position und lesen den Wert ab.<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UC6Lzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-4196f9df-87a7Skizze-Innengewinde-mit-Messschieber-messen-1000px.webp",
+            "title": "Bestimmung eines Innengewindes (IG)",
+            "subtitle": "",
+            "text": "<p>Gemessen wird das Gewinde an der Innenkante der Zahnung. Bringen Sie dafür den Messschieber wie in der nachfolgenden Abbildung in Position und lesen den mm-Wert ab. Vergleichen Sie den Wert mit der Gewindetabelle am Anfang dieser Seite.<br\/><br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BFzeKH",
+        "column_UC6Lzf"
+      ],
+      "settings": {
+        "title": "Bestimmung eines Innengewindes (IG)"
       }
     }
   },
@@ -713,7 +783,8 @@
     "rich_text_iLkT6j",
     "multicolumn_xEzVDf",
     "multicolumn_jgiDnq",
-    "rich_text_XTG9Fb",
-    "table_blog_jytDcR"
+    "table_blog_jytDcR",
+    "multicolumn_n6ULUR",
+    "multicolumn_4KpGEq"
   ]
 }
