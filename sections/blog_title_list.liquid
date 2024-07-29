@@ -19,14 +19,14 @@
     <div class="wrapper-blog_title_list center">
       {%- if section.settings.heading != blank -%}
         <{{ section.settings.heading_tag }}
-          class="heading-blog_title_list {{ section.settings.heading_size }}"
+          class="heading-blog_title_list {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
           style="font-weight: {{ section.settings.heading_weight }}; color: {{ section.settings.heading_color }};"
         >
           {{ section.settings.heading }}
         </{{ section.settings.heading_tag }}>
       {%- endif -%}
       {%- if section.blocks.size > 0 -%}
-        <div class="main-blog_title_list desktop-{{ section.settings.desktop_item_count }}">
+        <div class="main-blog_title_list desktop-{{ section.settings.desktop_item_count }}{% if section.settings.text_second_font %} second-font{% endif %}">
           {%- for block in section.blocks -%}
             <div class="item-blog_title_list">
               {% if block.settings.url != blank %}
@@ -181,13 +181,20 @@
     {
       "type": "checkbox",
       "id": "heading_second_font",
-      "label": "Heading Second Font"
+      "label": "Heading Second Font",
+      "default": true
     },
     {
       "type": "color",
       "id": "text_color",
       "label": "Text Color",
       "default": "#616161"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_second_font",
+      "label": "Text Second Font",
+      "default": true
     },
     {
       "type": "range",
