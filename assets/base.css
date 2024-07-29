@@ -7541,11 +7541,6 @@ h5 {
   width: 100%;
 }
 
-.item-blog_title_list:not(:first-child) .item-wrapper-blog_title_list {
-  display: block;
-  border-left: 1px solid #ccc;
-}
-
 .item-blog_title_list a {
   text-decoration: none;
 }
@@ -7594,6 +7589,11 @@ h5 {
 
   .desktop-4 .item-blog_title_list {
     max-width: 25%;
+  }
+
+  .item-blog_title_list:not(:first-child) .item-wrapper-blog_title_list {
+    display: block;
+    border-left: 1px solid #ccc;
   }
 }
 
