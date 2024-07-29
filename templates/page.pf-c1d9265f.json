@@ -799,6 +799,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "small_image_text_Nkxj8T": {
+      "type": "small-image-text",
+      "blocks": {
+        "text_TRimjD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fotografieren Sie Ihren Wasserhahn Strahlregler \/ Perlator mit anliegendem Maßband, Lineal oder Messschieber. Gehen Sie wie folgt vor:<\/p><ol><li>Den abgeschraubten Perlator legen Sie auf einen gleichmäßigen Untergrund und fotografieren diesen von schräg oben. Die Seite mit dem Gewinde muss oben liegen.<br\/><\/li><li>Halten Sie ein Maßband (am besten ein Messschieber), alternativ auch Zollstock, diagonal über das Gewinde des Perlators. Hier ist es wichtig, dass wir abschätzen können wie breit der Durchmesser ist.<br\/><\/li><li>Zuletzt benötigen wir noch ein Bild Ihres Wasserhahns, um die Anschluss-Situation besser einschätzen zu können (ist der Brausekopf vielleicht ungeeignet?)Schicken Sie uns die Bilder an:<\/li><\/ol>",
+            "text_style": "body",
+            "color": "#616161",
+            "second_font": false
+          }
+        },
+        "button_aJ9acB": {
+          "type": "button",
+          "settings": {
+            "button_label": "info@alb-filter.com",
+            "button_link": "",
+            "color": "#ffffff",
+            "primary_btn": true,
+            "primary_bg": "#0081be"
+          }
+        }
+      },
+      "block_order": [
+        "text_TRimjD",
+        "button_aJ9acB"
+      ],
+      "settings": {
+        "image_right": false,
+        "content_wrapper": false,
+        "background_color": "",
+        "heading": "Immer noch Schwierigkeiten?",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "second_font": false,
+        "mobile_center": false,
+        "image": "shopify:\/\/shop_images\/Perlator-messen-Meterstab.webp",
+        "image_width": 420,
+        "image_mobile_width": 285,
+        "image_round": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -816,6 +862,7 @@
     "multicolumn_jgiDnq",
     "table_blog_jytDcR",
     "multicolumn_n6ULUR",
-    "multicolumn_J69eR3"
+    "multicolumn_J69eR3",
+    "small_image_text_Nkxj8T"
   ]
 }
