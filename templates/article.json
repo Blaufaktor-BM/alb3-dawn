@@ -468,10 +468,10 @@
         "item_g7N9Be": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg",
-            "title": "Deutsche Trinkwasserverordnung 2023",
-            "text": "<p>Die seit Juni 2023 geltende Novellierung der TrinkwV in Deutschland bringt wichtige Änderungen.<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/trinkwasserverordnung-2023"
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00049.jpg",
+            "title": "Weichmacher im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/weichmacher-in-wasserflaschen"
           }
         }
       },
@@ -515,6 +515,177 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "post_list_h7GKDg": {
+      "type": "post-list",
+      "blocks": {
+        "item_iHC3J3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00036.jpg",
+            "title": "Mineralien im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/mineralien-im-leitungswasser"
+          }
+        },
+        "item_Hh4CqH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00037.jpg",
+            "title": "Arzneimittelrückstände im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser"
+          }
+        },
+        "item_RjjbjF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00038.jpg",
+            "title": "Hormone im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/hormone-im-leitungswasser"
+          }
+        },
+        "item_KxrMpa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00039_f4d53dc8-aa10-4cf6-ac0e-bf7ce9b28676.jpg",
+            "title": "Mikroplastik im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/mikroplastik-im-leitungswasser"
+          }
+        },
+        "item_9fqA9H": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00040.jpg",
+            "title": "Pestizide\/Pflanzenschutzmittel im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser"
+          }
+        },
+        "item_4BLqm7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00041.jpg",
+            "title": "Schwermetalle im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/schwermetalle-im-leitungswasser"
+          }
+        },
+        "item_gPAYte": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00042.jpg",
+            "title": "Keime und Bakterien im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/bakterien-im-leitungswasser"
+          }
+        },
+        "item_YdUB6c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00043.jpg",
+            "title": "Per- und polyfluorierte Chemikalien (PFC) im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/per-und-polyfluorierte-chemikalien-pfas"
+          }
+        },
+        "item_B9mjwJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00044.jpg",
+            "title": "Legionellen im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/legionellen-im-wasser"
+          }
+        },
+        "item_De3peT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00045.jpg",
+            "title": "Chlor im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/chlor"
+          }
+        },
+        "item_Q4D8jy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00046.jpg",
+            "title": "Kalk im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/kalk-im-wasser"
+          }
+        },
+        "item_9DxFNg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00047.jpg",
+            "title": "Asbest im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/asbest"
+          }
+        },
+        "item_8i98Gy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00053.jpg",
+            "title": "Nitrate im Grund- und Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/nitrate"
+          }
+        },
+        "item_fq7dXA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00049.jpg",
+            "title": "Weichmacher im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/weichmacher-in-wasserflaschen"
+          }
+        }
+      },
+      "block_order": [
+        "item_iHC3J3",
+        "item_Hh4CqH",
+        "item_RjjbjF",
+        "item_KxrMpa",
+        "item_9fqA9H",
+        "item_4BLqm7",
+        "item_gPAYte",
+        "item_YdUB6c",
+        "item_B9mjwJ",
+        "item_De3peT",
+        "item_Q4D8jy",
+        "item_9DxFNg",
+        "item_8i98Gy",
+        "item_fq7dXA"
+      ],
+      "settings": {
+        "second_id": "trinkwasser",
+        "image": "shopify:\/\/shop_images\/pf-28ccd7eb--wasserfilterratgeberlupeicon.png",
+        "image_width": 100,
+        "heading": "Inhaltsstoffe im Trinkwasser",
+        "heading_tag": "h2",
+        "heading_weight": "400",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "desktop_item_count": 4,
+        "image_border_radius": 30,
+        "title_tag": "h3",
+        "title_weight": "400",
+        "title_size": "h3",
+        "title_color": "#003e5f",
+        "title_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "btn_text": "",
+        "btn_color": "#003e5f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -522,6 +693,7 @@
     "rich_text_8PReNh",
     "blog_title_list_EVwTRi",
     "post_list_cHjPJa",
-    "post_list_kNGf9z"
+    "post_list_kNGf9z",
+    "post_list_h7GKDg"
   ]
 }
