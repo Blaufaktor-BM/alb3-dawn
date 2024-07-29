@@ -69,14 +69,6 @@
                   {%- endif -%}
                 </div>
                 <div class="item-content-post_list">
-                  {%- if block.settings.title != blank -%}
-                    <{{ section.settings.title_tag }}
-                      class="title-post_list {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
-                      style="font-weight: {{ section.settings.title_weight }}; color: {{ section.settings.title_color }};"
-                    >
-                      {{ block.settings.title }}
-                    </{{ section.settings.title_tag }}>
-                  {%- endif -%}
                   {% if block.settings.text != blank %}
                     <div
                       class="text-post_list rte{%  if section.settings.text_second_font %} second-font{% endif %}"
