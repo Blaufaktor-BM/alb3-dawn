@@ -860,6 +860,15 @@
             "text": "<p>Dänemark ist für Camper sehr attraktiv. Und wie steht es um das Wasser aus der Leitung?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/portugal-leitungswasser-trinken"
           }
+        },
+        "item_cNqFEB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wasserqualitat-Turkei.jpg",
+            "title": "Türkei",
+            "text": "<p>Die Türkei ist durchzogen von glitzernden Gewässern. Doch wie steht es um die Wasserqualität im Land der zwei Kontinente?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-tuerkei"
+          }
         }
       },
       "block_order": [
@@ -872,7 +881,8 @@
         "item_nfJUWF",
         "item_6VVfTb",
         "item_HqQAgj",
-        "item_VWbT4t"
+        "item_VWbT4t",
+        "item_cNqFEB"
       ],
       "settings": {
         "second_id": "urlaubslander",
