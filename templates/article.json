@@ -207,9 +207,10 @@
         "item_HKVMg3": {
           "type": "item",
           "settings": {
-            "title": "Unser Leitungswasser",
-            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
-            "post": ""
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_015_2ccc2adc-0647-4232-89b3-d89dbd7be2b8.jpg",
+            "title": "Wasserqualität testen",
+            "text": "<p>Welche Möglichkeiten der Trinkwasseranalyse gibt es? Was lässt sich überprüfen und wie sinnvoll ist ein solcher Test?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasserqualitaet-testen"
           }
         },
         "item_YUkcNQ": {
@@ -238,6 +239,7 @@
         "item_HVR6Jd"
       ],
       "settings": {
+        "second_id": "wasser",
         "image": "shopify:\/\/shop_images\/pf-1e164c21--wasserfilterratgeberwassertropfenicon.png",
         "image_width": 100,
         "heading": "Ratgeber Wasser",
