@@ -878,6 +878,15 @@
             "text": "<p>Schweden, bekannt für seine beeindruckenden Landschaften, umfasst dichte Wälder und lange Küstenlinien. Doch wie ist die Wasserqualität?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-schweden"
           }
+        },
+        "item_BPiLDY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Norwegen.jpg",
+            "title": "Norwegen",
+            "text": "<p>Norwegen, berühmt für seine majestätischen Fjorde und schroffen Berglandschaften, zieht Besucher aus aller Welt an. Doch wie steht es um die Wasserqualität?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-norwegen"
+          }
         }
       },
       "block_order": [
@@ -892,7 +901,8 @@
         "item_HqQAgj",
         "item_VWbT4t",
         "item_cNqFEB",
-        "item_fa9xFT"
+        "item_fa9xFT",
+        "item_BPiLDY"
       ],
       "settings": {
         "second_id": "urlaubslander",
