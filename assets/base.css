@@ -7653,6 +7653,10 @@ h5 {
   margin-top: 20px 0 25px;
 }
 
+.title-post_list a {
+  text-decoration: none;
+}
+
 .item-wrapper-post_list .btn-second {
   margin-top: 20px;
   justify-content: center;
