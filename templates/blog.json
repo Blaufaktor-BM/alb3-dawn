@@ -113,14 +113,16 @@
         "item_PibXNQ": {
           "type": "item",
           "settings": {
-            "text": "<p>Ratgeber <br>Wasser<\/p>",
+            "image": "shopify:\/\/shop_images\/iconsratgebererde372dpi-1658477234940.png",
+            "text": "<p>Ratgeber <br\/>Wasserqualität Urlaubsländer<\/p>",
             "url": ""
           }
         },
         "item_WcJHFE": {
           "type": "item",
           "settings": {
-            "text": "<p>Ratgeber <br>Wasser<\/p>",
+            "image": "shopify:\/\/shop_images\/iconsratgebercaravan72dpi-1638534443618.png",
+            "text": "<p>Ratgeber <br\/>Camping<\/p>",
             "url": ""
           }
         }
