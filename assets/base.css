@@ -7601,6 +7601,80 @@ h5 {
 }
 
 /* blog title list */
+/* post list */
+.image-post_list {
+  margin: 0 auto;
+}
+
+.heading-post_list {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.main-post_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item-post_list {
+  width: 100%;
+  text-align: center;
+}
+
+.image-post_list img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.media-post_list img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.title-post_list {
+  margin-top: 20px 0 25px;
+}
+
+.item-wrapper-post_list .btn-second {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 750px) {
+  .desktop-4 .item-post_list {
+    max-width: 50%;
+  }
+
+  .desktop-3 .item-post_list {
+    max-width: 50%;
+  }
+
+  .desktop-2 .item-post_list {
+    max-width: 50%;
+  }
+
+  .item-post_list {
+    text-align: left;
+  }
+
+  .item-content-post_list {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .desktop-4 .item-post_list {
+    max-width: 25%;
+  }
+
+  .desktop-3 .item-post_list {
+    max-width: calc(100% / 3);
+  }
+}
+
+/* post list */
 /* cart drawer upsell */
 .upsell_list {
   display: flex;
