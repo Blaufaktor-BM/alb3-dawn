@@ -767,6 +767,97 @@
         "padding_top": 35,
         "padding_bottom": 35
       }
+    },
+    "post_list_kU7xXE": {
+      "type": "post-list",
+      "blocks": {
+        "item_qmqiJi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0130_f6aaefa3-be2c-4e0d-a379-b18f39d5b28e.jpg",
+            "title": "Biokunststoffe",
+            "text": "<p>Neuartige Biokunststoffe wie TPS, Celluloseacetat und PLA sind auf dem Vormarsch. Auch Bio-PE, Bio-PP und andere werden entwickelt.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/biokunststoffe"
+          }
+        },
+        "item_JFAPBU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0131_5fab0b53-4356-4135-8020-835948152a6d.jpg",
+            "title": "Wie viel Wasser muss ich trinken",
+            "text": "<p>Der Wasserbedarf ist bei jedem Mensch verscheiden. Unser Rechner zeigt, wie viel es mindestens sein sollte.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wie-viel-wasser-muss-ich-trinken"
+          }
+        },
+        "item_m9YtTL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0132_18fac974-cbf4-4a84-9f6b-35718ce06871.jpg",
+            "title": "Corona im Trinkwasser?",
+            "text": "<p>Das Coronavirus hat unseren Alltag in vielerlei Hinsicht verändert. Kann es sich über das Trinkwasser verbreiten? <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/corona-virus-im-trinkwasser"
+          }
+        },
+        "item_q9gbpr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0133_3c4e5cc8-ac11-4219-9ebe-87fb4ce09d7f.jpg",
+            "title": "Weichmacher in Wasserflaschen: Mythos oder Wahrheit? ",
+            "text": "<p>Diese Stoffe geben Plastikflaschen ans Wasser ab.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/weichmacher-in-wasserflaschen"
+          }
+        },
+        "item_43Cg8y": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0134_a5ce73cd-17d5-437f-9a5b-eedb3d988969.jpg",
+            "title": "Viel Wasser trinken für reine Haut?",
+            "text": "<p>Wasser ist lebenswichtig für viele Körperfunktionen und beeinflusst auch unsere Haut. Erfahren Sie mehr!<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasser-trinken-haut"
+          }
+        },
+        "item_cFCm3y": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0135_45d65085-3d0a-410b-839b-762bc2e1cd77.jpg",
+            "title": "Leitungswasser Schwangerschaft",
+            "text": "<p>Leitungswasser oder Flaschenwasser in der Schwangerschaft. Was gibt es zu beachten?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-schwangerschaft"
+          }
+        }
+      },
+      "block_order": [
+        "item_qmqiJi",
+        "item_JFAPBU",
+        "item_m9YtTL",
+        "item_q9gbpr",
+        "item_43Cg8y",
+        "item_cFCm3y"
+      ],
+      "settings": {
+        "second_id": "urlaubslander",
+        "image": "shopify:\/\/shop_images\/iconsratgebererde372dpi-1658477234940_1.png",
+        "image_width": 100,
+        "heading": "Ratgeber Wasserqualität Urlaubsländer",
+        "heading_tag": "h2",
+        "heading_weight": "400",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "desktop_item_count": 4,
+        "image_border_radius": 30,
+        "title_tag": "h3",
+        "title_weight": "400",
+        "title_size": "h3",
+        "title_color": "#003e5f",
+        "title_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "btn_text": "Weiterlesen",
+        "btn_color": "#003e5f",
+        "padding_top": 35,
+        "padding_bottom": 35
+      }
     }
   },
   "order": [
@@ -776,6 +867,7 @@
     "post_list_cHjPJa",
     "post_list_kNGf9z",
     "post_list_h7GKDg",
-    "post_list_AdmR36"
+    "post_list_AdmR36",
+    "post_list_kU7xXE"
   ]
 }
