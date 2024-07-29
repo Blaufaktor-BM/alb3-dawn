@@ -266,6 +266,15 @@
             "text": "<p>Wie kalt kommt das Wasser aus der Leitung? Ist warmes Wasser gesünder als kaltes? Hier gibt es Vor-und Nachteile der Trinktemperatur? <\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/temperatur-leitungswasser"
           }
+        },
+        "item_cFA3J3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0113_4a3dc49b-d12f-4a5b-a2bc-e83b8b69fe7f.jpg",
+            "title": "Legionellen & Temperatur: Droht uns eine Gefahr durch Energiesparen? ",
+            "text": "<p>Niedrigere Temperaturen beim Warmwasser begünstigen das Wachstum von Legionellen.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/legionellen-temperatur"
+          }
         }
       },
       "block_order": [
@@ -278,7 +287,8 @@
         "item_cYVJFr",
         "item_CnngYR",
         "item_PDbjkr",
-        "item_4t6pji"
+        "item_4t6pji",
+        "item_cFA3J3"
       ],
       "settings": {
         "second_id": "wasser",
