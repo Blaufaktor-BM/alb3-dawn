@@ -851,6 +851,15 @@
             "text": "<p>Die Niederlande ist umgeben von Wasser. Wirkt sich das aus auf die Leitungswasserqualität?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/portugal-leitungswasser-trinken"
           }
+        },
+        "item_VWbT4t": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserqualitatdanemark-1678185884653.jpg",
+            "title": "Dänemark",
+            "text": "<p>Dänemark ist für Camper sehr attraktiv. Und wie steht es um das Wasser aus der Leitung?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/portugal-leitungswasser-trinken"
+          }
         }
       },
       "block_order": [
@@ -862,7 +871,8 @@
         "item_cFCm3y",
         "item_nfJUWF",
         "item_6VVfTb",
-        "item_HqQAgj"
+        "item_HqQAgj",
+        "item_VWbT4t"
       ],
       "settings": {
         "second_id": "urlaubslander",
