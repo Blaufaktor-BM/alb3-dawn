@@ -248,6 +248,15 @@
             "text": "<p>In Deutschland wird Wasser mit Chlor behandelt, um es vor Bakterien zu schützen. Studien weisen jedoch auf mögliche Gesundheitsrisiken hin. <\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/chlor"
           }
+        },
+        "item_PDbjkr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0110_bf24ac28-0523-4eef-b28b-fc75575d5821.jpg",
+            "title": "Ist Leitungswasser gesund?",
+            "text": "<p>Um unseren tägliche Flüssigkeitsbedarf zu decken trinken wir oft Leitungswasser. Doch ist es wirklich gesund? Erfahren Sie mehr!<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/ist-leitungswasser-gesund"
+          }
         }
       },
       "block_order": [
@@ -258,7 +267,8 @@
         "item_YUkcNQ",
         "item_HVR6Jd",
         "item_cYVJFr",
-        "item_CnngYR"
+        "item_CnngYR",
+        "item_PDbjkr"
       ],
       "settings": {
         "second_id": "wasser",
