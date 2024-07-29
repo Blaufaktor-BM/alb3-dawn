@@ -701,7 +701,7 @@
         "column_6YUnzE"
       ],
       "settings": {
-        "title": "Messmethode 1 MESSSCHIEBER (ANALOG \/ DIGITAL)",
+        "title": "Messmethode I - MESSSCHIEBER (ANALOG \/ DIGITAL)",
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "700",
@@ -735,38 +735,69 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_4KpGEq": {
+    "multicolumn_J69eR3": {
       "type": "multicolumn",
       "blocks": {
-        "column_BFzeKH": {
+        "column_UbcAqD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-4196f9df-87a7Skizze-Aussengewinde-mit-Messschieber-messen-1000px.webp",
-            "title": "Bestimmung eines Außengewindes (AG)",
+            "image": "shopify:\/\/shop_images\/Skizze-Aussengewinde-mit-Lineal-messen-1000px.webp",
+            "title": "Bestimmung eines Außengewindes (AG)",
             "subtitle": "",
-            "text": "<p>Gemessen wird das Gewinde an der Außenkante der Zahnung. Bringen Sie dafür den Messschieber wie in nachfolgenden Abbildung in Position und lesen den Wert ab.<br\/><br\/><\/p>",
+            "text": "<p>Platzieren sie den Nullwert des Lineals an der Außenkante der Zahnung. Lesen Sie nun den mm-Wert auf der gegenüberliegenden Seite des Gewindes ab.<br\/><br\/>HINWEIS: Durch das außen liegende Gewinde ist eine Bestimmung eines AGs mit dem Lineal einfacher als ein IG.<br\/><br\/><\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_UC6Lzf": {
+        "column_nM4jbR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-4196f9df-87a7Skizze-Innengewinde-mit-Messschieber-messen-1000px.webp",
-            "title": "Bestimmung eines Innengewindes (IG)",
+            "image": "shopify:\/\/shop_images\/Skizze-Innengewinde-mit-Lineal-messen-1000px.webp",
+            "title": "Bestimmung eines Innengewindes (IG)",
             "subtitle": "",
-            "text": "<p>Gemessen wird das Gewinde an der Innenkante der Zahnung. Bringen Sie dafür den Messschieber wie in der nachfolgenden Abbildung in Position und lesen den mm-Wert ab. Vergleichen Sie den Wert mit der Gewindetabelle am Anfang dieser Seite.<br\/><br\/><\/p>",
+            "text": "<p>Platzieren sie den Nullwert des Lineals an der Innenkante der Zahnung. Lesen Sie nun den mm-Wert auf der gegenüberliegenden Seite des Gewindes ab.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_BFzeKH",
-        "column_UC6Lzf"
+        "column_UbcAqD",
+        "column_nM4jbR"
       ],
       "settings": {
-        "title": "Bestimmung eines Innengewindes (IG)"
+        "title": "Messmethode II  - LINEAL \/ MASSBAND",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#616161",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -785,6 +816,6 @@
     "multicolumn_jgiDnq",
     "table_blog_jytDcR",
     "multicolumn_n6ULUR",
-    "multicolumn_4KpGEq"
+    "multicolumn_J69eR3"
   ]
 }
