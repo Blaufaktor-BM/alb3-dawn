@@ -108,7 +108,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-1e164c21--wasserfilterratgeberwassertropfenicon.png",
             "text": "<p>Ratgeber <br\/>Wasser<\/p>",
-            "url": "#ratgeber_wasser"
+            "url": "#wasser"
           }
         },
         "item_7BUTxy": {
@@ -116,7 +116,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-28ccd7eb--wasserfilterratgeberlupeicon.png",
             "text": "<p>Inhaltsstoffe im Trinkwasser<\/p>",
-            "url": "#inhaltsstoffe_im_trinkwasser"
+            "url": "#trinkwasser"
           }
         },
         "item_HKcpwe": {
@@ -124,7 +124,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-1350b621--wasserfilterratgeberwasserkanneicon.png",
             "text": "<p>Ratgeber <br\/>Wasserfilter<\/p>",
-            "url": ""
+            "url": "#wasserfilter"
           }
         },
         "item_p3hQ8t": {
