@@ -168,6 +168,7 @@
         "heading_color": "#003e5f",
         "heading_second_font": true,
         "text_color": "#616161",
+        "text_second_font": true,
         "desktop_item_count": 6,
         "padding_top": 0,
         "padding_bottom": 0
@@ -179,17 +180,15 @@
         "item_ApERwf": {
           "type": "item",
           "settings": {
-            "second_id": "wasser",
             "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_012_6909a0b2-cccc-46c1-8d88-276cee7bf8b9.jpg",
             "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
-            "post": ""
+            "post": "shopify:\/\/blogs\/ratgeber\/unser-leitungswasser"
           }
         },
         "item_NEHP64": {
           "type": "item",
           "settings": {
-            "second_id": "wasser",
             "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_013_6c92f6b0-701b-4db9-89a3-56b5e567ca8f.jpg",
             "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
@@ -199,7 +198,6 @@
         "item_P69ftb": {
           "type": "item",
           "settings": {
-            "second_id": "wasser",
             "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
             "post": ""
@@ -208,7 +206,6 @@
         "item_HKVMg3": {
           "type": "item",
           "settings": {
-            "second_id": "wasser",
             "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
             "post": ""
@@ -217,7 +214,6 @@
         "item_YUkcNQ": {
           "type": "item",
           "settings": {
-            "second_id": "wasser",
             "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
             "post": ""
@@ -226,7 +222,6 @@
         "item_HVR6Jd": {
           "type": "item",
           "settings": {
-            "second_id": "wasser",
             "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
             "post": ""
