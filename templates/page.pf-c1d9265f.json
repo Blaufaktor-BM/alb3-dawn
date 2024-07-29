@@ -462,14 +462,55 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_iLkT6j": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BB3RaQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Anleitung zum Ermitteln ihrer Gewindegröße<\/p>",
+            "remove_spacing": false,
+            "color": "#ffffff",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "subtitle_pTfBwQ": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "VORBEREITUNG",
+            "subtitle_tag": "p",
+            "subtitle_size": "h3",
+            "font_weight": "400",
+            "color": "#ffffff",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_BB3RaQ",
+        "subtitle_pTfBwQ"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_xEzVDf": {
       "type": "multicolumn",
       "blocks": {
         "column_AyVGpE": {
           "type": "column",
           "settings": {
-            "title": "Schritt 1:",
-            "subtitle": "Perlator \/ Strahlregler ausbauen",
+            "title": "",
+            "subtitle": "",
             "text": "<p>Die meisten Wasserhähne verfügen über einen Strahlregler, auch Perlator genannt. Um das Gewinde ermitteln zu können, müssen wir diesen ausschrauben.<br\/><br\/><\/p>",
             "link_label": "",
             "link": ""
@@ -492,9 +533,9 @@
         "column_8hn8B7"
       ],
       "settings": {
-        "title": "",
-        "heading_tag": "p",
-        "heading_size": "h3",
+        "title": "Schritt 1: Perlator \/ Strahlregler ausbauen",
+        "heading_tag": "h3",
+        "heading_size": "h2",
         "heading_weight": "700",
         "heading_second_font": false,
         "enable_hover_animation": true,
@@ -532,9 +573,10 @@
         "column_3tAerY": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "image": "shopify:\/\/shop_images\/Skizze-Aussengewinde-mit-Markierung-1000px.webp",
+            "title": "AUSSENGEWINDE",
+            "subtitle": "",
+            "text": "<p>Um ein Außengewinde handelt es sich, wenn die Zahnung,<br\/>wie in dieser Abbildung, nach außen zeigt.<br\/><br\/><strong>Das Gewinde wird immer an der Außenkante der Zahnung gemessen.<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -542,9 +584,10 @@
         "column_GjqD6W": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "image": "shopify:\/\/shop_images\/Skizze-Innengewinde-mit-Markierung-1000px.webp",
+            "title": "INNENGEWINDE",
+            "subtitle": "",
+            "text": "<p>Um ein Innengewinde handelt es sich, wenn die Zahnung nach innen zeigt.<br\/><br\/><strong>Das Gewinde wird immer an der Innenkante der Zahnung gemessen.<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -555,9 +598,9 @@
         "column_GjqD6W"
       ],
       "settings": {
-        "title": "Schritt 2:Gewinde Anschlussform ermitteln",
-        "heading_tag": "p",
-        "heading_size": "h3",
+        "title": "Schritt 2: Gewinde Anschlussform ermitteln",
+        "heading_tag": "h3",
+        "heading_size": "h2",
         "heading_weight": "700",
         "heading_second_font": false,
         "enable_hover_animation": true,
@@ -568,7 +611,7 @@
         "columns_desktop": 2,
         "column_heading_second": false,
         "column_heading_tag": "h3",
-        "column_heading_size": "h2",
+        "column_heading_size": "h3",
         "column_heading_weight": "700",
         "column_heading_color": "#616161",
         "column_subtitle_second": false,
@@ -579,7 +622,7 @@
         "column_text_second": true,
         "btn_color": "#0081be",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
@@ -587,6 +630,73 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_XTG9Fb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N8M3wT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Mit welchen Methoden kann ich ein Gewinde ermitteln?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_N8M3wT"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "table_blog_jytDcR": {
+      "type": "Table-Blog",
+      "blocks": {
+        "rows_VP9Hen": {
+          "type": "rows",
+          "settings": {
+            "col1": "",
+            "col2": "",
+            "col3": ""
+          }
+        }
+      },
+      "block_order": [
+        "rows_VP9Hen"
+      ],
+      "settings": {
+        "table_heading": "Mit welchen Methoden kann ich ein Gewinde ermitteln?",
+        "heading_tag": "h3",
+        "heading_weight": 700,
+        "heading_size": "24px",
+        "heading_alignment": "left",
+        "th1": "Methode",
+        "th2": "",
+        "th3": "Genauigkeit",
+        "color_th": "",
+        "color_th_text": "",
+        "color_th_background": "",
+        "color_even": "",
+        "color_even_text": "",
+        "color_odd": "",
+        "color_odd_text": "",
+        "padding_th": "10px",
+        "padding_td": "10px",
+        "border_width": "1px",
+        "border_color": "#000",
+        "table_padding": "40px"
       }
     }
   },
@@ -600,7 +710,10 @@
     "table_blog_X9A47P",
     "rich_text_DzHbqq",
     "custom_image_text_VWNDwf",
+    "rich_text_iLkT6j",
     "multicolumn_xEzVDf",
-    "multicolumn_jgiDnq"
+    "multicolumn_jgiDnq",
+    "rich_text_XTG9Fb",
+    "table_blog_jytDcR"
   ]
 }
