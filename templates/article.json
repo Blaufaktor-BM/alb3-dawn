@@ -492,7 +492,28 @@
         "item_g7N9Be"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg"
+        "second_id": "trinkwasser",
+        "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg",
+        "image_width": 100,
+        "heading": "Ratgeber Themen",
+        "heading_tag": "h2",
+        "heading_weight": "700",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "desktop_item_count": 4,
+        "image_border_radius": 30,
+        "title_tag": "h3",
+        "title_weight": "400",
+        "title_size": "h2",
+        "title_color": "#003e5f",
+        "title_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "btn_text": "Weiterlesen",
+        "btn_color": "#003e5f",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
