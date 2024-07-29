@@ -512,8 +512,8 @@
         "text_second_font": true,
         "btn_text": "",
         "btn_color": "#003e5f",
-        "padding_top": 50,
-        "padding_bottom": 35
+        "padding_top": 60,
+        "padding_bottom": 15
       }
     },
     "post_list_h7GKDg": {
@@ -673,8 +673,8 @@
         "text_second_font": true,
         "btn_text": "Weiterlesen",
         "btn_color": "#003e5f",
-        "padding_top": 50,
-        "padding_bottom": 35
+        "padding_top": 60,
+        "padding_bottom": 15
       }
     },
     "post_list_AdmR36": {
@@ -764,8 +764,8 @@
         "text_second_font": true,
         "btn_text": "Weiterlesen",
         "btn_color": "#003e5f",
-        "padding_top": 50,
-        "padding_bottom": 35
+        "padding_top": 60,
+        "padding_bottom": 15
       }
     },
     "post_list_kU7xXE": {
@@ -935,8 +935,8 @@
         "text_second_font": true,
         "btn_text": "Weiterlesen",
         "btn_color": "#003e5f",
-        "padding_top": 50,
-        "padding_bottom": 35
+        "padding_top": 60,
+        "padding_bottom": 15
       }
     },
     "post_list_jp7axh": {
@@ -1006,7 +1006,7 @@
         "text_second_font": true,
         "btn_text": "Weiterlesen",
         "btn_color": "#003e5f",
-        "padding_top": 50,
+        "padding_top": 60,
         "padding_bottom": 35
       }
     }
