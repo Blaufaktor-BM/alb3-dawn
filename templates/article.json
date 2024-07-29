@@ -945,10 +945,10 @@
         "item_JhpgqU": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatkroatien-1658238042438.jpg",
-            "title": "Kroatien",
-            "text": "<p>Kroatien ist ein sehr beliebtes Urlaubsziel. Kann man das Leitungswasser in Kroatien trinken? <\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/kroatien-leitungswasser-trinken"
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0115_399bb96c-e63c-4fa2-a996-b6e58a87ed16.jpg",
+            "title": "Wasseraufbereitung im Wohnmobil",
+            "text": "<p>Wie gelingt es, das Wasser im Wohnmobil frisch zu halten?Unterwegs ist die Versorgung mit Trinkwasser eine wichtige Aufgaben.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasseraufbereitung-im-wohnmobil"
           }
         },
         "item_xzaEX6": {
@@ -1087,9 +1087,9 @@
       ],
       "settings": {
         "second_id": "camping",
-        "image": "shopify:\/\/shop_images\/iconsratgebererde372dpi-1658477234940_1.png",
+        "image": "shopify:\/\/shop_images\/iconsratgebercaravan72dpi-1638534443618.png",
         "image_width": 100,
-        "heading": "Ratgeber Wasserqualität Urlaubsländer",
+        "heading": "Ratgeber Camping",
         "heading_tag": "h2",
         "heading_weight": "400",
         "heading_size": "h1",
