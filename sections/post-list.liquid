@@ -45,19 +45,36 @@
           {%- for block in section.blocks -%}
             <div class="item-post_list">
               <div class="item-wrapper-post_list">
+                <div class="media-post_list" style="border-radius: {{ section.settings.image_border_radius }}px">
+                  {%- if block.settings.post != blank -%}
+                    <a href="{{ block.settings.post }}">
+                  {%- endif -%}
+                  {%- if block.settings.image != blank -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                        (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                    {%- endcapture -%}
+
+                    {{
+                      block.settings.image
+                      | image_url: width: 1500
+                      | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                  {%- if block.settings.post != blank -%}
+                    </a>
+                  {%- endif -%}
+                </div>
                 <div class="item-content-post_list">
                   {%- if block.settings.title != blank -%}
                     <{{ section.settings.title_tag }}
                       class="title-post_list {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
                       style="font-weight: {{ section.settings.title_weight }}; color: {{ section.settings.title_color }};"
                     >
-                      {%- if block.settings.post != blank -%}
-                        <a href="{{ block.settings.post }}">
-                      {%- endif -%}
                       {{ block.settings.title }}
-                      {%- if block.settings.post != blank -%}
-                        </a>
-                      {%- endif -%}
                     </{{ section.settings.title_tag }}>
                   {%- endif -%}
                   {% if block.settings.text != blank %}
