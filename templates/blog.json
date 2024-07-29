@@ -74,10 +74,83 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "blog_title_list_mgPc6m": {
+      "type": "blog_title_list",
+      "blocks": {
+        "item_Wg87XG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-1e164c21--wasserfilterratgeberwassertropfenicon.png",
+            "text": "<p>Ratgeber <br\/>Wasser<\/p>",
+            "url": ""
+          }
+        },
+        "item_kDjVLP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-28ccd7eb--wasserfilterratgeberlupeicon.png",
+            "text": "<p>Inhaltsstoffe im Trinkwasser<\/p>",
+            "url": ""
+          }
+        },
+        "item_dcy7Hi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-1350b621--wasserfilterratgeberwasserkanneicon.png",
+            "text": "<p>Ratgeber <br\/>Wasserfilter<\/p>",
+            "url": ""
+          }
+        },
+        "item_Gm4Yf3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-a39b644d--wasserfilterratgeberhandicon.png",
+            "text": "<p>Ratgeber <br\/>Umwelt und Gesundheit<\/p>",
+            "url": ""
+          }
+        },
+        "item_PibXNQ": {
+          "type": "item",
+          "settings": {
+            "text": "<p>Ratgeber <br>Wasser<\/p>",
+            "url": ""
+          }
+        },
+        "item_WcJHFE": {
+          "type": "item",
+          "settings": {
+            "text": "<p>Ratgeber <br>Wasser<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Wg87XG",
+        "item_kDjVLP",
+        "item_dcy7Hi",
+        "item_Gm4Yf3",
+        "item_PibXNQ",
+        "item_WcJHFE"
+      ],
+      "settings": {
+        "heading": "Ratgeber Themen",
+        "heading_tag": "h2",
+        "heading_weight": "700",
+        "heading_size": "h2",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "desktop_item_count": 6,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_pKphzR"
+    "rich_text_pKphzR",
+    "blog_title_list_mgPc6m"
   ]
 }
