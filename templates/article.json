@@ -284,6 +284,15 @@
             "text": "<p>Perlatoren reduzieren die Menge des durchfließenden Wassers und sorgen für einen gleichmäßigen Strahl.<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/perlator-strahlregler-luftsprudler-was-ist-das-eigentlich"
           }
+        },
+        "item_tfdjdK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0111_6853c28f-cb72-4254-80f3-14b57d5fdb78.jpg",
+            "title": "Rost im Wasser",
+            "text": "<p>Braunes Wasser aus der Leitung? Erfahren Sie alles zu Rost im Wasser, ob es schädlich ist und was man dagegen tun kann.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/rost-in-wasser"
+          }
         }
       },
       "block_order": [
@@ -298,7 +307,8 @@
         "item_PDbjkr",
         "item_4t6pji",
         "item_cFA3J3",
-        "item_AUXdXy"
+        "item_AUXdXy",
+        "item_tfdjdK"
       ],
       "settings": {
         "second_id": "wasser",
