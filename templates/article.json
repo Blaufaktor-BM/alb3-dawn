@@ -230,6 +230,15 @@
             "text": "<p>Die Verbreitung von Mikroplastik ist neben dem Klimawandel einer der größten Eingriffe des Menschen in die Umwelt.<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/mikroplastik-im-leitungswasser"
           }
+        },
+        "item_cYVJFr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_019_35533e6f-d3f4-40e4-bae1-35df65600886.jpg",
+            "title": "Bakterien im Leitungswasser",
+            "text": "<p>Es mehren sich Berichte über bakterielle Verunreinigungen im Leitungswasser. Wie gefährlich ist das? <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/bakterien-im-leitungswasser"
+          }
         }
       },
       "block_order": [
@@ -238,7 +247,8 @@
         "item_P69ftb",
         "item_HKVMg3",
         "item_YUkcNQ",
-        "item_HVR6Jd"
+        "item_HVR6Jd",
+        "item_cYVJFr"
       ],
       "settings": {
         "second_id": "wasser",
