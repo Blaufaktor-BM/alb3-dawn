@@ -7662,15 +7662,15 @@ h5 {
   }
 
   .desktop-4 .item-post_list {
-    max-width: calc(50% - 15px);
+    max-width: calc(50% - 30px);
   }
 
   .desktop-3 .item-post_list {
-    max-width: calc(50% - 15px);
+    max-width: calc(50% - 30px);
   }
 
   .desktop-2 .item-post_list {
-    max-width: calc(50% - 15px);
+    max-width: calc(50% - 30px);
   }
 
   .item-post_list {
@@ -7688,7 +7688,7 @@ h5 {
   }
 
   .desktop-3 .item-post_list {
-    max-width: calc(100% / 3 - 20px);
+    max-width: calc(100% / 3 - 40px);
   }
 }
 
