@@ -225,9 +225,10 @@
         "item_HVR6Jd": {
           "type": "item",
           "settings": {
-            "title": "Unser Leitungswasser",
-            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
-            "post": ""
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_017_9d8b1bfd-77bb-4c0b-85f4-4b16312fb438.jpg",
+            "title": "Mikroplastik Leitungswasser",
+            "text": "<p>Die Verbreitung von Mikroplastik ist neben dem Klimawandel einer der größten Eingriffe des Menschen in die Umwelt.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/mikroplastik-im-leitungswasser"
           }
         }
       },
