@@ -7615,6 +7615,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-top: 30px;
 }
 
 .item-post_list {
@@ -7644,6 +7645,7 @@ h5 {
   position: relative;
   height: 0;
   padding-bottom: 100%;
+  overflow: hidden;
 }
 
 .title-post_list {
@@ -7655,16 +7657,20 @@ h5 {
 }
 
 @media only screen and (min-width: 750px) {
+  .main-post_list {
+    gap: 60px;
+  }
+
   .desktop-4 .item-post_list {
-    max-width: 50%;
+    max-width: calc(50% - 15px);
   }
 
   .desktop-3 .item-post_list {
-    max-width: 50%;
+    max-width: calc(50% - 15px);
   }
 
   .desktop-2 .item-post_list {
-    max-width: 50%;
+    max-width: calc(50% - 15px);
   }
 
   .item-post_list {
@@ -7678,11 +7684,11 @@ h5 {
 
 @media only screen and (min-width: 990px) {
   .desktop-4 .item-post_list {
-    max-width: 25%;
+    max-width: calc(25% - 45px);
   }
 
   .desktop-3 .item-post_list {
-    max-width: calc(100% / 3);
+    max-width: calc(100% / 3 - 20px);
   }
 }
 
