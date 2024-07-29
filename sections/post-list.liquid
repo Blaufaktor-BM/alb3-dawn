@@ -14,7 +14,7 @@
     }
   }
 {%- endstyle -%}
-<div class="section-post_list section-{{ section.id }}-padding">
+<div id="{{ section.settings.second_id }}" class="section-post_list section-{{ section.id }}-padding">
   <div class="page-width isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="wrapper-post_list">
       {%- if section.settings.image != blank -%}
@@ -120,6 +120,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "second_id",
+      "label": "Second Id",
+      "default": "wasser"
+    },
     {
       "type": "image_picker",
       "id": "image",
@@ -425,12 +431,6 @@
       "type": "item",
       "name": "Item",
       "settings": [
-        {
-          "type": "text",
-          "id": "second_id",
-          "label": "Second Id",
-          "default": "wasser"
-        },
         {
           "type": "image_picker",
           "id": "image",
