@@ -676,6 +676,167 @@
         "padding_top": 35,
         "padding_bottom": 35
       }
+    },
+    "post_list_AdmR36": {
+      "type": "post-list",
+      "blocks": {
+        "item_6MYxDa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0130_f6aaefa3-be2c-4e0d-a379-b18f39d5b28e.jpg",
+            "title": "Biokunststoffe",
+            "text": "<p>Neuartige Biokunststoffe wie TPS, Celluloseacetat und PLA sind auf dem Vormarsch. Auch Bio-PE, Bio-PP und andere werden entwickelt.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/biokunststoffe"
+          }
+        },
+        "item_zPebFT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0118_1635d59e-485f-4328-bd8e-0c2c9f82a7de.jpg",
+            "title": "Wasserfilter in der Küche",
+            "text": "<p>Trinkwasser in der Küche nochmal aufbereiten? Zu den Unterschieden der verschiedenen Systeme sowie deren Vor- und Nachteile.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasserfilter-kueche"
+          }
+        },
+        "item_YV7WDh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0119_58aaf841-c4b1-4526-9883-17eec2ebfd03.jpg",
+            "title": "Typen von Wasserfiltern",
+            "text": "<p>Filter für den Hauseingang, Endpunktfilter, Outdoorfilter. Was gibt es alles auf dem Markt?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/typen-von-wasserfiltern"
+          }
+        },
+        "item_w7GNAi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0120_e97a206a-0bdc-4045-8b31-e77915df39ca.jpg",
+            "title": "Vorteile von Wasserfiltern",
+            "text": "<p>Welche Vorteile habe ich als Verbraucher durch die Anschaffung eines eigenen Wasserfilters.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/vorteile-von-wasserfiltern"
+          }
+        },
+        "item_fpJTNj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0121_20b70ff6-c9b2-4482-81e6-0e3c34dc7f9c.jpg",
+            "title": "Wie misst man dieWasserqualität?",
+            "text": "<p>Wie stehen TDS \/ PPM \/ EC Leitwert-Messgeräte im Zusammenhang mit der Wasserqualität? Was zeigen uns diese Messgeräte wirklich?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wie-misst-man-die-wasserqualitaet"
+          }
+        },
+        "item_wpizJW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0122_3217a453-dfd1-4415-895d-4f5bf87e849a.jpg",
+            "title": "Verkeimungsrisiko bei Kannenfiltern",
+            "text": "<p>Kannen- und Tischwasserfilter sind beliebt, aber ihr gefiltertes Wasser kann leicht verkeimen, besonders bei Wärme.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/verkeimungsrisiko-bei-kannenfilter"
+          }
+        },
+        "item_4EK9PN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0123_6b121aeb-c732-4f85-a375-1f36a7cdaf87.jpg",
+            "title": "Aktivkohle-Filter für Wasser",
+            "text": "<p>Erfahren Sie alles über Aktivkohle. Was ist das und was filtert Aktivkohle? Welche Unterschiede gibt es? Wie funktioniert die Filtration?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/aktivkohlefilter-fuer-wasser"
+          }
+        },
+        "item_Jy8x4D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0124_140b148d-9b8f-4b2a-889c-d0a09a9dea7f.jpg",
+            "title": "Was ist Aktivkohle?",
+            "text": "<p>Und was macht sie als Filtermedium so unersetzbar? Diese und weitere Fragen rund um das Thema Aktivkohle beantworten wir in diesem Ratgeber.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/was-ist-aktivkohle"
+          }
+        },
+        "item_KGwdWE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0125_1b9468bb-f3e8-4256-ab0c-8a2b8b161168.jpg",
+            "title": "Mikroplastik-Filter für Trinkwasser",
+            "text": "<p>Mikroplastik ist ein Gesundheitsrisiko. So filtern Sie die kleinen Partikel am besten aus Ihrem Wasser.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/mikroplastik-filter-fuer-trinkwasser"
+          }
+        },
+        "item_KFwCVV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0127_c3ecee02-f847-4874-9bb1-3b40aebc16a8.jpg",
+            "title": "Wasserfilter für Hormone",
+            "text": "<p>Wie gelangen Hormone in den Wasserkreislauf und welche Möglichkeiten gibt es, sie aus dem Wasser zu filtern?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasserfilter-fuer-hormone"
+          }
+        },
+        "item_mRn6qK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0126_18413547-4418-445b-a868-5fffa2bcdc0b.jpg",
+            "title": "Legionellenfilter",
+            "text": "<p>Bei positivem Legionellen-Befund schützt ein Legionellenfilter zuverlässig vor einer Infektion.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/legionellenfilter"
+          }
+        },
+        "item_HWdrGz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0128_13e957d4-87b2-4ad8-bd9c-832208ea3d05.jpg",
+            "title": "Wasserfilterkartuschen",
+            "text": "<p>Wasserfilter des alltäglichen Gebrauchs verwenden spezielle Filterkartuschen, um  Schadstoffen und Keime zu reduzieren.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasserfilter-kartuschen"
+          }
+        },
+        "item_CFVGUL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0129_5662ac56-946d-47e1-977c-4d2dac3dd893.jpg",
+            "title": "Filtermedien",
+            "text": "<p>Es gibt eine Reihe unterschiedlicher Filtrationstechnologien, um unser Wasser zu reinigen. <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/filtermedien-ueberblick"
+          }
+        }
+      },
+      "block_order": [
+        "item_6MYxDa",
+        "item_zPebFT",
+        "item_YV7WDh",
+        "item_w7GNAi",
+        "item_fpJTNj",
+        "item_wpizJW",
+        "item_4EK9PN",
+        "item_Jy8x4D",
+        "item_KGwdWE",
+        "item_KFwCVV",
+        "item_mRn6qK",
+        "item_HWdrGz",
+        "item_CFVGUL"
+      ],
+      "settings": {
+        "second_id": "gesundheit",
+        "image": "shopify:\/\/shop_images\/pf-a39b644d--wasserfilterratgeberhandicon.png",
+        "image_width": 100,
+        "heading": "Ratgeber Umwelt und Gesundheit",
+        "heading_tag": "h2",
+        "heading_weight": "400",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "desktop_item_count": 4,
+        "image_border_radius": 30,
+        "title_tag": "h3",
+        "title_weight": "400",
+        "title_size": "h3",
+        "title_color": "#003e5f",
+        "title_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "btn_text": "Weiterlesen",
+        "btn_color": "#003e5f",
+        "padding_top": 35,
+        "padding_bottom": 35
+      }
     }
   },
   "order": [
@@ -684,6 +845,7 @@
     "blog_title_list_EVwTRi",
     "post_list_cHjPJa",
     "post_list_kNGf9z",
-    "post_list_h7GKDg"
+    "post_list_h7GKDg",
+    "post_list_AdmR36"
   ]
 }
