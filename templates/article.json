@@ -459,10 +459,10 @@
         "item_zedDix": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0111_6853c28f-cb72-4254-80f3-14b57d5fdb78.jpg",
-            "title": "Rost im Wasser",
-            "text": "<p>Braunes Wasser aus der Leitung? Erfahren Sie alles zu Rost im Wasser, ob es schädlich ist und was man dagegen tun kann.<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/rost-in-wasser"
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00053.jpg",
+            "title": "Nitrate im Grund- und Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/nitrate"
           }
         },
         "item_g7N9Be": {
