@@ -140,7 +140,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/iconsratgebererde372dpi-1658477234940.png",
             "text": "<p>Ratgeber <br\/>Wasserqualität Urlaubsländer<\/p>",
-            "url": ""
+            "url": "#urlaubslander"
           }
         },
         "item_aKdPBf": {
@@ -148,7 +148,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/iconsratgebercaravan72dpi-1638534443618.png",
             "text": "<p>Ratgeber <br\/>Camping<\/p>",
-            "url": ""
+            "url": "#camping"
           }
         }
       },
