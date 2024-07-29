@@ -7535,6 +7535,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 10px;
 }
 
 .item-blog_title_list {
@@ -7543,6 +7544,8 @@ h5 {
 
 .item-blog_title_list a {
   text-decoration: none;
+  display: block;
+  display: block;
 }
 
 .item-blog_title_list img {
@@ -7554,6 +7557,7 @@ h5 {
 .media-blog_title_list {
   width: 60px;
   height: 60px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 750px) {
@@ -7592,7 +7596,6 @@ h5 {
   }
 
   .item-blog_title_list:not(:first-child) .item-wrapper-blog_title_list {
-    display: block;
     border-left: 1px solid #ccc;
   }
 }
