@@ -7629,6 +7629,7 @@ h5 {
   height: auto;
 }
 
+.media-post_list svg,
 .media-post_list img {
   display: block;
   width: 100%;

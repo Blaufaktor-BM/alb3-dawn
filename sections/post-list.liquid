@@ -45,11 +45,11 @@
           {%- for block in section.blocks -%}
             <div class="item-post_list">
               <div class="item-wrapper-post_list">
-                {%- if block.settings.image != blank -%}
-                  <div class="media-post_list" style="border-radius: {{ section.settings.image_border_radius }}px">
-                    {%- if block.settings.post != blank -%}
-                      <a href="{{ block.settings.post }}">
-                    {%- endif -%}
+                <div class="media-post_list" style="border-radius: {{ section.settings.image_border_radius }}px">
+                  {%- if block.settings.post != blank -%}
+                    <a href="{{ block.settings.post }}">
+                  {%- endif -%}
+                  {%- if block.settings.image != blank -%}
                     {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                     {%- capture sizes -%}
                         (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
@@ -61,11 +61,13 @@
                       | image_url: width: 1500
                       | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                     }}
-                    {%- if block.settings.post != blank -%}
-                      </a>
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
+                  {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                  {%- if block.settings.post != blank -%}
+                    </a>
+                  {%- endif -%}
+                </div>
                 <div class="item-content-post_list">
                   {% if block.settings.title != blank %}
                     <{{ section.settings.title_tag }}
