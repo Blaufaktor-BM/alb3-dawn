@@ -341,8 +341,158 @@
         "text_second_font": true,
         "btn_text": "Weiterlesen",
         "btn_color": "#003e5f",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 35,
+        "padding_bottom": 35
+      }
+    },
+    "post_list_kNGf9z": {
+      "type": "post-list",
+      "blocks": {
+        "item_DjjkJd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_012_6909a0b2-cccc-46c1-8d88-276cee7bf8b9.jpg",
+            "title": "Unser Leitungswasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/unser-leitungswasser"
+          }
+        },
+        "item_XbjzDb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_013_6c92f6b0-701b-4db9-89a3-56b5e567ca8f.jpg",
+            "title": "Inhaltsstoffe im Leitungswasser",
+            "text": "<p>In diesem Ratgeber erfahren Sie, warum schädliche Stoffe im Trinkwasser Probleme verursachen können.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser"
+          }
+        },
+        "item_LL4g4X": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_014_c9f49768-5805-4066-80a3-2ca665bd923c.jpg",
+            "title": "pH-Wert des Wassers",
+            "text": "<p>Erfahren Sie alles über den pH-Wert, über Säuren, Basen und ihre Bedeutung beim Thema Trinkwasser.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/ph-wert-wasser"
+          }
+        },
+        "item_6gCWEC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_015_2ccc2adc-0647-4232-89b3-d89dbd7be2b8.jpg",
+            "title": "Wasserqualität testen",
+            "text": "<p>Welche Möglichkeiten der Trinkwasseranalyse gibt es? Was lässt sich überprüfen und wie sinnvoll ist ein solcher Test?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/wasserqualitaet-testen"
+          }
+        },
+        "item_Vk7VQw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_016_572ece5e-0ad4-4ba9-84ca-1f452e50aa54.jpg",
+            "title": "Schwermetalle im Wasser",
+            "text": "<p>Einige Schwermetalle sind in geringen Mengen wichtig für den Körper, andere sind schädlich. Wir klären auf.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/schwermetalle-im-leitungswasser"
+          }
+        },
+        "item_bdCfna": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_017_9d8b1bfd-77bb-4c0b-85f4-4b16312fb438.jpg",
+            "title": "Mikroplastik Leitungswasser",
+            "text": "<p>Die Verbreitung von Mikroplastik ist neben dem Klimawandel einer der größten Eingriffe des Menschen in die Umwelt.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/mikroplastik-im-leitungswasser"
+          }
+        },
+        "item_9iKtUY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_019_35533e6f-d3f4-40e4-bae1-35df65600886.jpg",
+            "title": "Bakterien im Leitungswasser",
+            "text": "<p>Es mehren sich Berichte über bakterielle Verunreinigungen im Leitungswasser. Wie gefährlich ist das? <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/bakterien-im-leitungswasser"
+          }
+        },
+        "item_QjdjmA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_018_36aca32f-b09a-4937-bf94-e1b65dc91efb.jpg",
+            "title": "Chlor im Trinkwasser",
+            "text": "<p>In Deutschland wird Wasser mit Chlor behandelt, um es vor Bakterien zu schützen. Studien weisen jedoch auf mögliche Gesundheitsrisiken hin. <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/chlor"
+          }
+        },
+        "item_w7VpQj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0110_bf24ac28-0523-4eef-b28b-fc75575d5821.jpg",
+            "title": "Ist Leitungswasser gesund?",
+            "text": "<p>Um unseren tägliche Flüssigkeitsbedarf zu decken trinken wir oft Leitungswasser. Doch ist es wirklich gesund? Erfahren Sie mehr!<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/ist-leitungswasser-gesund"
+          }
+        },
+        "item_crNWwc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0112_6b23a214-3fca-48eb-84a9-655b261b70df.jpg",
+            "title": "Temperatur Leitungswasser",
+            "text": "<p>Wie kalt kommt das Wasser aus der Leitung? Ist warmes Wasser gesünder als kaltes? Hier gibt es Vor-und Nachteile der Trinktemperatur? <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/temperatur-leitungswasser"
+          }
+        },
+        "item_fDwjrC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0113_4a3dc49b-d12f-4a5b-a2bc-e83b8b69fe7f.jpg",
+            "title": "Legionellen & Temperatur: Droht uns eine Gefahr durch Energiesparen? ",
+            "text": "<p>Niedrigere Temperaturen beim Warmwasser begünstigen das Wachstum von Legionellen.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/legionellen-temperatur"
+          }
+        },
+        "item_w7eWyV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0114_4b89b69b-b6fb-45b1-8024-ce3e6749d241.jpg",
+            "title": "Perlator, Strahlregler, Luftsprudler. Was ist das eigentlich?",
+            "text": "<p>Perlatoren reduzieren die Menge des durchfließenden Wassers und sorgen für einen gleichmäßigen Strahl.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/perlator-strahlregler-luftsprudler-was-ist-das-eigentlich"
+          }
+        },
+        "item_zedDix": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0111_6853c28f-cb72-4254-80f3-14b57d5fdb78.jpg",
+            "title": "Rost im Wasser",
+            "text": "<p>Braunes Wasser aus der Leitung? Erfahren Sie alles zu Rost im Wasser, ob es schädlich ist und was man dagegen tun kann.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/rost-in-wasser"
+          }
+        },
+        "item_g7N9Be": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg",
+            "title": "Deutsche Trinkwasserverordnung 2023",
+            "text": "<p>Die seit Juni 2023 geltende Novellierung der TrinkwV in Deutschland bringt wichtige Änderungen.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/trinkwasserverordnung-2023"
+          }
+        }
+      },
+      "block_order": [
+        "item_DjjkJd",
+        "item_XbjzDb",
+        "item_LL4g4X",
+        "item_6gCWEC",
+        "item_Vk7VQw",
+        "item_bdCfna",
+        "item_9iKtUY",
+        "item_QjdjmA",
+        "item_w7VpQj",
+        "item_crNWwc",
+        "item_fDwjrC",
+        "item_w7eWyV",
+        "item_zedDix",
+        "item_g7N9Be"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg"
       }
     }
   },
@@ -350,6 +500,7 @@
     "main",
     "rich_text_8PReNh",
     "blog_title_list_EVwTRi",
-    "post_list_cHjPJa"
+    "post_list_cHjPJa",
+    "post_list_kNGf9z"
   ]
 }
