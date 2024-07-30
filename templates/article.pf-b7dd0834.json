@@ -907,20 +907,6 @@
             "second_font": true
           }
         },
-        "image_VEnery": {
-          "type": "image",
-          "settings": {
-            "image_width": 700,
-            "full_width": false,
-            "remove_spacing": false,
-            "top_radius": false,
-            "bottom_radius": false,
-            "enable_shadow": false,
-            "image_des": "",
-            "text_color": "#616161",
-            "des_second_font": true
-          }
-        },
         "icon_content_j9fYy3": {
           "type": "icon_content",
           "settings": {
@@ -941,7 +927,6 @@
       "block_order": [
         "heading_PDdctJ",
         "text_f3WjkH",
-        "image_VEnery",
         "icon_content_j9fYy3"
       ],
       "settings": {
