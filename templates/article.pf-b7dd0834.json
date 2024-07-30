@@ -903,8 +903,22 @@
         "text_f3WjkH": {
           "type": "text",
           "settings": {
-            "text": "<p>Selbst wenn beim <strong>Wasserversorger sämtliche Grenzwerte <\/strong>noch innerhalb des grünen Bereichs liegen, können auf dem Weg bis zum Verbraucher und seinem Wasserhahn noch zahlreiche Verunreinigungen ins Wasser gelangen. <br\/><br\/><\/p>",
+            "text": "<p>Selbst wenn beim <strong>Wasserversorger sämtliche Grenzwerte <\/strong>noch innerhalb des grünen Bereichs liegen, können auf dem Weg bis zum Verbraucher und seinem Wasserhahn noch zahlreiche Verunreinigungen ins Wasser gelangen. <\/p><p>Je älter ein Haus und je <strong>länger eine Sanierung zurückliegt<\/strong>, desto höher ist die Wahrscheinlichkeit, dass ein Großteil der Verunreinigungen im Trinkwasser aus den Rohrleitungen selbst stammt. Sei es durch die Abgabe von Inhaltsstoffen oder durch verbesserte Wachstumsbedingungen: Keime stellen eine konkrete Gefahr für die Wasserqualität und die <strong>Gesundheit der Bewohner<\/strong> dar. Dies geht besonders aus von ...<\/p><p>… alten Kupferrohren, <\/p><p>… verzinkten Bleirohren, <\/p><p>… beschädigten Dichtungen <\/p><p>… inaktiven Leitungssträngen<\/p><p>… geringen Fließgeschwindigkeiten<\/p><p>… oder Temperaturen über 20 Grad.<br\/><br\/><\/p>",
             "second_font": true
+          }
+        },
+        "image_VEnery": {
+          "type": "image",
+          "settings": {
+            "image_width": 700,
+            "full_width": false,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": false,
+            "image_des": "",
+            "text_color": "#616161",
+            "des_second_font": true
           }
         },
         "icon_content_j9fYy3": {
@@ -927,6 +941,7 @@
       "block_order": [
         "heading_PDdctJ",
         "text_f3WjkH",
+        "image_VEnery",
         "icon_content_j9fYy3"
       ],
       "settings": {
