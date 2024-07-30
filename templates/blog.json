@@ -268,6 +268,15 @@
             "text": "<p>Braunes Wasser aus der Leitung? Erfahren Sie alles zu Rost im Wasser, ob es schädlich ist und was man dagegen tun kann.<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/rost-in-wasser"
           }
+        },
+        "item_D8A6Ny": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg",
+            "title": "Deutsche Trinkwasserverordnung 2023",
+            "text": "<p>Die seit Juni 2023 geltende Novellierung der TrinkwV in Deutschland bringt wichtige Änderungen.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/trinkwasserverordnung-2023"
+          }
         }
       },
       "block_order": [
@@ -283,7 +292,8 @@
         "item_qyAMVr",
         "item_37JgFT",
         "item_mCE4aN",
-        "item_zRUbcC"
+        "item_zRUbcC",
+        "item_D8A6Ny"
       ],
       "settings": {
         "second_id": "wasser",
