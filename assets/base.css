@@ -5707,12 +5707,18 @@ summary[aria-expanded="true"] .accordion__title {
   margin-right: auto;
 }
 
-.section-small_image_text .mobile-center {
-  text-align: center;
-}
+@media only screen and (max-width: 749px) {
+  .section-small_image_text .mobile-left {
+    text-align: left;
+  }
 
-.section-small_image_text .mobile-right {
-  text-align: right;
+  .section-small_image_text .mobile-center {
+    text-align: center;
+  }
+
+  .section-small_image_text .mobile-right {
+    text-align: right;
+  }
 }
 
 @media only screen and (min-width: 750px) {
@@ -5731,15 +5737,15 @@ summary[aria-expanded="true"] .accordion__title {
   }
 
   .section-small_image_text .desktop-left {
-    text-align: left !important;
+    text-align: left;
   }
 
   .section-small_image_text .desktop-center {
-    text-align: center !important;
+    text-align: center;
   }
 
   .section-small_image_text .desktop-right {
-    text-align: right !important;
+    text-align: right;
   }
 
   .wrapper-small_image_text.row-reverse .small_image_text-image {
