@@ -605,19 +605,10 @@
         "item_VJMTEi": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00053.jpg",
-            "title": "Nitrate im Grund- und Trinkwasser",
-            "text": "",
-            "post": "shopify:\/\/blogs\/ratgeber\/nitrate-im-grund-und-trinkwasser"
-          }
-        },
-        "item_r9N97x": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00049.jpg",
-            "title": "Weichmacher im Trinkwasser",
-            "text": "",
-            "post": "shopify:\/\/blogs\/ratgeber\/weichmacher-in-wasserflaschen"
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0129_5662ac56-946d-47e1-977c-4d2dac3dd893.jpg",
+            "title": "Filtermedien",
+            "text": "<p>Es gibt eine Reihe unterschiedlicher Filtrationstechnologien, um unser Wasser zu reinigen. <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/filtermedien-ueberblick"
           }
         }
       },
@@ -634,8 +625,7 @@
         "item_xG4mRA",
         "item_Ph8jLX",
         "item_atAAqf",
-        "item_VJMTEi",
-        "item_r9N97x"
+        "item_VJMTEi"
       ],
       "settings": {
         "second_id": "wasser",
