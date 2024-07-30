@@ -176,7 +176,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -212,7 +212,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -262,7 +262,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -363,6 +363,50 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_YyYqQp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HAtAAa": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Unerwünschte Inhaltsstoffe im Wasser<br\/><\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_iq6bjg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wie wir in diesem Ratgeber aufzeigen, können <strong>zahlreiche Gesundheitsgefährdungen<\/strong> durch (unerwünschte Inhaltsstoffe und Keime aus unserem Leitungswasser entstehen. Hier sehen Sie eine Liste, welche Stoffe dies verursachen können. Über die einzelnen Links erfahren Sie ...<br\/><br\/><\/p>",
+            "second_font": true
+          }
+        },
+        "dot_list_kMkKJQ": {
+          "type": "dot_list",
+          "settings": {
+            "dot_list": "<ul><li>Wissenswertes über (unerwünschte) Inhaltsstoffe im Deutschen Trinkwasser,<\/li><li>wie die <strong>Stoffe überhaupt ins Leitungswasser <\/strong>gelangen<\/li><li>und warum Klärwerke viele belastende Stoffe wie z.B. Mikroplastik oder Hormone nur unzureichend herausfiltern (können).<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HAtAAa",
+        "text_iq6bjg",
+        "dot_list_kMkKJQ"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_EMKf4b": {
       "type": "collapsible-content",
       "blocks": {
@@ -444,6 +488,62 @@
         "content_bg_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_image_text_bgnCJE": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_MaRbqq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Inhaltsstoffe Wasser<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "text_Pdcm7T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Erfahren Sie hier Wichtiges über die möglichen Stoffe die sich in unserem Wasser befinden können. <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_WnktYz": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\">Arzneimittelrückstände<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/hormone-im-leitungswasser\">Hormone<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\">Mikroplastik<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\">Pestizide\/Pflanzenschutzmittel<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\">Schwermetalle<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/per-und-polyfluorierte-chemikalien-pfas\">Per- und polyfluorierte Alkylsubstanzen (PFAS)<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\">Legionellen<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor\">Chlor<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/asbest\">Asbest<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/nitrate\">Nitrate<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/weichmacher-in-wasserflaschen\">Weichmacher<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/bakterien-im-leitungswasser\">Bakterien<\/a><\/li><\/ul>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_MaRbqq",
+        "text_Pdcm7T",
+        "text_WnktYz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/inhaltsstoffe-von-wasser-mit-icons.webp",
+        "enable_image_ratio": true,
+        "image_ratio": "2_3",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "#eaf7ff",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
       }
     },
     "post_product_list_bGnwEm": {
@@ -533,28 +633,77 @@
           "type": "item",
           "settings": {
             "id": "q1",
-            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+            "text": "Bayerischer Rundfunk (BR) 07.06.2021: Marode Wasserversorgung: <a href=\"https:\/\/www.br.de\/nachrichten\/bayern\/marode-wasserversorgung-das-unsichtbare-milliardenproblem,SZZMFsL\" target=\"_blank\">https:\/\/www.br.de\/nachrichten\/bayern\/marode-wasserversorgung-das-unsichtbare-milliardenproblem,SZZMFsL<\/a>"
           }
         },
         "item_LpR8rw": {
           "type": "item",
           "settings": {
-            "id": "q1",
-            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+            "id": "q2",
+            "text": "SPIEGEL 25.07.2019: Zu viel Nitrat im Grundwasser: <a href=\"https:\/\/www.spiegel.de\/wissenschaft\/natur\/nitrat-im-grundwasser-deutschland-droht-strafe-von-850-000-euro-pro-tag-a-1278967.html\" target=\"_blank\">https:\/\/www.spiegel.de\/wissenschaft\/natur\/nitrat-im-grundwasser-deutschland-droht-strafe-von-850-000-euro-pro-tag-a-1278967.html <\/a>"
           }
         },
         "item_Kr7hBd": {
           "type": "item",
           "settings": {
-            "id": "q1",
-            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+            "id": "q3",
+            "text": "Handelsblatt 24.07.2019: EU verliert Geduld mit Deutschland: <a href=\"https:\/\/www.handelsblatt.com\/politik\/deutschland\/landwirtschaft-eu-verliert-geduld-mit-deutschland-zweite-klage-wegen-nitratbelastung-steht-bevor\/24694204.html\" target=\"_blank\">https:\/\/www.handelsblatt.com\/politik\/deutschland\/landwirtschaft-eu-verliert-geduld-mit-deutschland-zweite-klage-wegen-nitratbelastung-steht-bevor\/24694204.html<\/a>"
+          }
+        },
+        "item_JB8rij": {
+          "type": "item",
+          "settings": {
+            "id": "q4",
+            "text": "Deutsche Trinkwasserverordnung: <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2001\/BJNR095910001.html\" target=\"_blank\">Gesetzliche Fassung vom 2001<\/a>"
           }
         },
         "item_8kmq7Y": {
           "type": "item",
           "settings": {
-            "id": "q1",
-            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+            "id": "q5",
+            "text": "Süddeutsche Zeitung (SZ): Gefahr durch Bleirohre: <a href=\"https:\/\/www.sueddeutsche.de\/geld\/altbauten-gefahr-durch-bleirohre-1.3182377\" target=\"_blank\">https:\/\/www.sueddeutsche.de\/geld\/altbauten-gefahr-durch-bleirohre-1.3182377<\/a>"
+          }
+        },
+        "item_CfjRCX": {
+          "type": "item",
+          "settings": {
+            "id": "q6",
+            "text": "Umweltbundesamt: Qualität des Trinkwassers: <a href=\"https:\/\/www.umweltbundesamt.de\/daten\/wasser\/wasserwirtschaft\/qualitaet-des-trinkwassers-aus-zentralen\" target=\"_blank\">https:\/\/www.umweltbundesamt.de\/daten\/wasser\/wasserwirtschaft\/qualitaet-des-trinkwassers-aus-zentralen<\/a>"
+          }
+        },
+        "item_XjjceX": {
+          "type": "item",
+          "settings": {
+            "id": "q7",
+            "text": "Zweite wissenschaftliche Stellungnahme der Endocrine Society: <a href=\"https:\/\/academic.oup.com\/edrv\/article\/36\/6\/E1\/2354691\" target=\"_blank\">https:\/\/academic.oup.com\/edrv\/article\/36\/6\/E1\/2354691<\/a>"
+          }
+        },
+        "item_dWAK33": {
+          "type": "item",
+          "settings": {
+            "id": "q8",
+            "text": "Helmholtz: Mikroplastik schädlich?<a href=\"https:\/\/www.helmholtz.de\/erde-und-umwelt\/warum-ist-mikroplastik-schaedlich\" target=\"_blank\">https:\/\/www.helmholtz.de\/erde-und-umwelt\/warum-ist-mikroplastik-schaedlich<\/a>"
+          }
+        },
+        "item_ikJUBA": {
+          "type": "item",
+          "settings": {
+            "id": "q9",
+            "text": "Bayerischer Rundfunk (BR) 23.07.2021: Darmbakterien im Leitungswasser <a href=\"https:\/\/www.br.de\/nachrichten\/bayern\/darmbakterien-im-leitungswasser-wasser-abkochen,SdzqtuG\" target=\"_blank\">https:\/\/www.br.de\/nachrichten\/bayern\/darmbakterien-im-leitungswasser-wasser-abkochen,SdzqtuG<\/a>"
+          }
+        },
+        "item_AnmzeN": {
+          "type": "item",
+          "settings": {
+            "id": "q10",
+            "text": "Traditionelle Keimzahlbestimmung im Vergleich mit modernen Methoden <a href=\"https:\/\/docplayer.org\/25769887-Die-position-der-traditionellen-keimzahlbestimmung-im-vergleich-mit-modernen-methoden.html\" target=\"_blank\">https:\/\/docplayer.org\/25769887-Die-position-der-traditionellen-keimzahlbestimmung-im-vergleich-mit-modernen-methoden.html<\/a>"
+          }
+        },
+        "item_tx6LyY": {
+          "type": "item",
+          "settings": {
+            "id": "q11",
+            "text": "Stiftung Warentest: Mineral­wasser im Test 2021: <a href=\"https:\/\/www.test.de\/Natuerliches-Mineralwasser-im-Test-4258945-0\/\" target=\"_blank\">https:\/\/www.test.de\/Natuerliches-Mineralwasser-im-Test-4258945-0\/<\/a>"
           }
         }
       },
@@ -562,7 +711,14 @@
         "item_cMGifg",
         "item_LpR8rw",
         "item_Kr7hBd",
-        "item_8kmq7Y"
+        "item_JB8rij",
+        "item_8kmq7Y",
+        "item_CfjRCX",
+        "item_XjjceX",
+        "item_dWAK33",
+        "item_ikJUBA",
+        "item_AnmzeN",
+        "item_tx6LyY"
       ],
       "settings": {
         "heading": "Quellenangaben",
@@ -589,7 +745,9 @@
     "rich_text_CPxXAj",
     "rich_text_YAfURw",
     "multi_icon_text_mymWbq",
+    "rich_text_YyYqQp",
     "collapsible_content_EMKf4b",
+    "custom_image_text_bgnCJE",
     "post_product_list_bGnwEm",
     "question_list_iaRxmf"
   ]

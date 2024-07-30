@@ -417,7 +417,7 @@
       },
       "scheme-7c6f592e-b6c7-4537-b4e1-2287b1260272": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#eaf7ff",
           "background_gradient": "",
           "text": "#616161",
           "button": "{{ shop.brand.colors.secondary[0].background }}",
