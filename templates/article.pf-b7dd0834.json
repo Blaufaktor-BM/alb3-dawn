@@ -578,11 +578,12 @@
         "item_99zi3E": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ratgeber-wasserfilter-aktivkohle.webp",
             "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "title": "Aktivkohle für Wasser",
+            "text": "<p>Ein Aktivkohle-Wasserfilter ist ein vielseitiger Trinkwasserfilter für jeden Haushalt, aber nicht für jede Anwendung. Lernen Sie mehr über Aktivkohle und dessen Anwendung. <\/p>",
             "btn_text": "Weiterlesen",
-            "url": "",
+            "url": "shopify:\/\/blogs\/ratgeber\/aktivkohlefilter-fuer-wasser",
             "content_url": "",
             "border_color": "#9b9b9b"
           }
@@ -590,11 +591,12 @@
         "item_cirCLa": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ratgeber-wie-viel-wasser-trinken.webp",
             "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "title": "Wie viel Wasser sollte ich trinken?",
+            "text": "<p>Den Alb Filter Wasserbedarfsrechner und viele weitere Tipps & Tricks finden Sie hier.<\/p>",
             "btn_text": "Weiterlesen",
-            "url": "",
+            "url": "shopify:\/\/blogs\/ratgeber\/wie-viel-wasser-muss-ich-trinken",
             "content_url": "",
             "border_color": "#9b9b9b"
           }
