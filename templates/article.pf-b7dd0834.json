@@ -695,7 +695,7 @@
         "padding_th": "10px",
         "padding_td": "10px",
         "border_width": "1px",
-        "border_color": "#000",
+        "border_color": "#000000",
         "table_padding": "40px"
       }
     },
@@ -1038,7 +1038,7 @@
         "content_alignment": "left",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
