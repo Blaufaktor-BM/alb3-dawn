@@ -370,6 +370,59 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "question_list_iaRxmf": {
+      "type": "question-list",
+      "blocks": {
+        "item_cMGifg": {
+          "type": "item",
+          "settings": {
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+          }
+        },
+        "item_LpR8rw": {
+          "type": "item",
+          "settings": {
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+          }
+        },
+        "item_Kr7hBd": {
+          "type": "item",
+          "settings": {
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+          }
+        },
+        "item_8kmq7Y": {
+          "type": "item",
+          "settings": {
+            "id": "q1",
+            "text": "Deutsche Trinkwasserverordnung: Gesetzliche Fassung von 2001"
+          }
+        }
+      },
+      "block_order": [
+        "item_cMGifg",
+        "item_LpR8rw",
+        "item_Kr7hBd",
+        "item_8kmq7Y"
+      ],
+      "settings": {
+        "heading": "Quellenangaben",
+        "enable_icon": true,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "heading_color": "#003e5f",
+        "content_color": "#616161",
+        "link_color": "#003e5f",
+        "enable_second_font": true,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -380,6 +433,7 @@
     "rich_text_iaPi3V",
     "rich_text_CPxXAj",
     "collapsible_content_EMKf4b",
-    "post_product_list_bGnwEm"
+    "post_product_list_bGnwEm",
+    "question_list_iaRxmf"
   ]
 }
