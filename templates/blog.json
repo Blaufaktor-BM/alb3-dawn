@@ -808,6 +808,15 @@
             "text": "<p>Wie sauber ist das Wasser bei unserem direkten Nachbar Österrreich? Gibt es vergleichbare Regelungen wie in Deutschland?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-oesterreich"
           }
+        },
+        "item_ec6KQD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserqualitatgriechenland-1678185891068.jpg",
+            "title": "Griechenland",
+            "text": "<p>Griechenland hat wunderschöne Strände und eine köstliche Küche. Doch wie steht es um das Trinkwasser?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/griechenland-leitungswasser"
+          }
         }
       },
       "block_order": [
@@ -817,7 +826,8 @@
         "item_zTxGAn",
         "item_KawRt9",
         "item_8cLe6g",
-        "item_jPYHtE"
+        "item_jPYHtE",
+        "item_ec6KQD"
       ],
       "settings": {
         "second_id": "wasser",
