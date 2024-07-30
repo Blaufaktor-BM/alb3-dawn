@@ -22,9 +22,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DUO-E-Montage_Kuche_Madchen.webp",
         "image_2": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
+        "image_overlay_color": "#000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
+        "image_position": "center",
         "desktop_content_position": "top-center",
         "enable_section_container": false,
         "show_text_box": true,
@@ -77,6 +79,7 @@
             "button_label": "Trinkwasserfilter kaufen",
             "button_link": "shopify:\/\/collections\/trinkwasserfilter",
             "button_style_secondary": false,
+            "btn_icon": "cart",
             "button_label_2": "",
             "button_link_2": "",
             "second_btn_color": "#0081be"
@@ -120,6 +123,7 @@
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
             "first_btn_url": "shopify:\/\/collections\/wasserhahnfilter",
+            "btn_icon": "cart",
             "second_btn": "Mehr erfahren",
             "second_btn_url": "shopify:\/\/pages\/wasserfilter-wasserhahn"
           }
@@ -139,6 +143,7 @@
             "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
             "first_btn_url": "shopify:\/\/collections\/wasserfilter-untertisch",
+            "btn_icon": "cart",
             "second_btn": "Mehr erfahren",
             "second_btn_url": "shopify:\/\/pages\/wasserfilter-untertisch"
           }
@@ -175,8 +180,11 @@
             "heading": "<strong>Alb Trinkwasserfilter Vergleich<\/strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
             "heading_color": "#003e5f",
+            "heading_second_font": false,
             "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
+            "text_second_font": false,
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
             "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
@@ -406,7 +414,14 @@
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
             "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_GM9hMV": {
@@ -415,7 +430,14 @@
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
             "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_TAFUCd": {
@@ -424,7 +446,14 @@
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
             "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_7KnPrh": {
@@ -433,7 +462,14 @@
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
             "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         }
       },
@@ -447,9 +483,11 @@
         "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
         "title_color": "#003e5f",
         "column_count": 4,
+        "content_position": "center",
         "full_width": true,
         "image_white": true,
         "large_image": false,
+        "full_image": false,
         "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 0
@@ -616,10 +654,12 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": true,
+        "arrow_left": false,
         "title_color": "#003e5f",
         "title_bg": "#fafafa",
         "text_color": "#616161",
         "content_border_color": "#fafafa",
+        "content_bg_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -653,15 +693,16 @@
       ],
       "settings": {
         "image_right": false,
+        "content_position": "left",
+        "m_content_position": "center",
         "content_wrapper": false,
         "background_color": "",
-        "heading": "Mehr zum Thema Wasser und Wasserfilter",
+        "heading": "<p>Mehr zum Thema Wasser und Wasserfilter<\/p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "second_font": false,
-        "mobile_center": false,
         "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
         "image_width": 245,
         "image_mobile_width": 285,
