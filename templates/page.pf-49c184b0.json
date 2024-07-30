@@ -21,9 +21,11 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/BG-Camper-Strand_02.webp",
+        "image_overlay_color": "#000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
+        "image_position": "center",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
         "show_text_box": true,
@@ -42,36 +44,44 @@
           "type": "heading",
           "settings": {
             "heading": "<p>ALB CAMPING<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
-            "font_weight": "200"
+            "font_weight": "200",
+            "second_font": false
           }
         },
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
             "heading": "<p>Wasserfilter für Wohnmobil, Camper und Boot<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
-            "font_weight": "700"
+            "font_weight": "700",
+            "second_font": false
           }
         },
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Ob im Wohnmobil, Camper, Segel- oder Motorboot – die Versorgung mit sauberem Frischwasser ist auf Reisen unerlässlich. An Wasser-Zapfstellen, auf Campingplätzen, in Häfen oder in der freien Natur bleibt die Wasserqualität oft ungewiss. Die Alb Filter® MOBIL, TRAVEL und PRO CAMPER Sets bieten eine einfache und sichere Lösung für beste Wasserqualität immer und überall.<br\/><br\/><\/p>"
+            "text": "<p>Ob im Wohnmobil, Camper, Segel- oder Motorboot – die Versorgung mit sauberem Frischwasser ist auf Reisen unerlässlich. An Wasser-Zapfstellen, auf Campingplätzen, in Häfen oder in der freien Natur bleibt die Wasserqualität oft ungewiss. Die Alb Filter® MOBIL, TRAVEL und PRO CAMPER Sets bieten eine einfache und sichere Lösung für beste Wasserqualität immer und überall.<br\/><br\/><\/p>",
+            "second_font": true
           }
         },
         "button_RNbMXW": {
           "type": "button",
           "settings": {
+            "center": false,
             "button_label": "Campingfilter kaufen",
             "button_link": "\/products",
             "button_style_secondary": false,
+            "btn_icon": "cart",
             "button_label_2": "",
-            "button_link_2": ""
+            "button_link_2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -102,16 +112,19 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Campingfilter im Überblick<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
-            "font_weight": "700"
+            "font_weight": "700",
+            "second_font": false
           }
         },
         "text_PiCLJc": {
           "type": "text",
           "settings": {
-            "text": "<p>Dank jahrelanger Erfahrung und umfangreichem Kundenfeedback bieten wir drei verschiedene Varianten von Campingfiltern zur Auswahl. Der <strong>Befüllfilter (Mobil) <\/strong>ist äußerst flexibel einsetzbar und erfordert keine Installation. Der <strong>Einbaufilter (Travel) <\/strong>wird fest in Ihrem Fahrzeug verbaut und filtert das gesamte Frischwasser. Der <strong>Kombifilter (Pro Camper) <\/strong>vereint die Vorteile der beiden anderen Varianten.<\/p>"
+            "text": "<p>Dank jahrelanger Erfahrung und umfangreichem Kundenfeedback bieten wir drei verschiedene Varianten von Campingfiltern zur Auswahl. Der <strong>Befüllfilter (Mobil) <\/strong>ist äußerst flexibel einsetzbar und erfordert keine Installation. Der <strong>Einbaufilter (Travel) <\/strong>wird fest in Ihrem Fahrzeug verbaut und filtert das gesamte Frischwasser. Der <strong>Kombifilter (Pro Camper) <\/strong>vereint die Vorteile der beiden anderen Varianten.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -175,6 +188,11 @@
         "title": "",
         "heading_tag": "h2",
         "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -207,9 +225,12 @@
         "heading_czijVB": {
           "type": "heading",
           "settings": {
-            "heading": "Befüllfilter Mobil",
+            "heading": "<p>Befüllfilter Mobil<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
             "remove_spacing": false
           }
         },
@@ -217,7 +238,9 @@
           "type": "text",
           "settings": {
             "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs.<br\/><br\/>Die verschiedenen Filtertypen Active, Nano und Fusion bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. Auf eine regelmäßige Tankreinigung kann bei einem neuen bzw. gut gepflegten Wassersystem und der Verwendung des Fusion Sets (beide Filterstufen) verzichtet werden. <br\/><\/p><ul><li><strong>Empfohlen bei kleinen\/mittleren Wassertanks (bis 120 Liter) und Kanistern<\/strong><\/li><li>Mit einem Klick verbunden.<\/li><li>Kompatibel zu Gardena® Kupplungen<\/li><li><strong>Optimal für neue bzw. regelmäßig gereinigte Systeme. <\/strong><\/li><li>Gute Tankhygiene erforderlich.<\/li><li>Einmalige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>.<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_Qah8e8": {
@@ -225,9 +248,12 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-mobil",
-            "hide_icon": false,
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-mobil"
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-mobil",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -252,13 +278,6 @@
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "#fafafa",
         "content_bg": "#ebf4f9",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 20,
         "padding_bottom": 0
       }
@@ -269,9 +288,12 @@
         "heading_PR94yy": {
           "type": "heading",
           "settings": {
-            "heading": "Einbaufilter Travel",
+            "heading": "<p>Einbaufilter Travel<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
             "remove_spacing": false
           }
         },
@@ -279,7 +301,9 @@
           "type": "text",
           "settings": {
             "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br\/><br\/>Durch den festen Einbau des Filters im Fahrzeug ist man maximal flexibel in der Wahl der Wasserquelle und nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, sind die Travel Wasserfilter die richtige Wahl.<br\/><\/p><ul><li><strong>Empfohlen bei großen Wassertanks (größer 150 Liter)<\/strong><\/li><li>Schnelle Betankung<\/li><li><strong>Maximale Autarkie <\/strong><\/li><li>Wasser wird direkt vor der Entnahme bzw. vor dem Verzehr gefiltert.<\/li><li>Wasser im Tank ungefiltert.<br\/>Regelmäßige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>. <\/li><li>Betankung mit Gießkanne möglich.<\/li><li><strong>Druckanforderung  Wasserpumpe 2,1 - 3,1 bar<\/strong><\/li><\/ul>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_fLjzYm": {
@@ -287,9 +311,12 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-travel",
-            "hide_icon": false,
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-travel"
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-travel",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -311,13 +338,6 @@
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "#fafafa",
         "content_bg": "#ebf4f9",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 40,
         "padding_bottom": 0
       }
@@ -328,9 +348,12 @@
         "heading_HkkAzE": {
           "type": "heading",
           "settings": {
-            "heading": "Kombifilter Pro Camper",
+            "heading": "<p>Kombifilter Pro Camper<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
             "remove_spacing": false
           }
         },
@@ -338,7 +361,9 @@
           "type": "text",
           "settings": {
             "text": "<p>Reisen ohne Einschränkungen durch eine Kombination eines Mobil- und Travel-Sets. Mit dem Pro Camper Set können Sie sich und Ihr Equipment vor organischen Schadstoffen, geschmacklichen Beeinträchtigungen und sogar vor gesundheitsschädlichen Keimen und Bakterien schützen. Reduzieren Sie Ihren Plastikmüll auf ein Minimum indem Sie das frisch gefilterte Wasser aus ihrem Tank genießen.<br\/><br\/>Mikrobiologische Verunreinigungen werden direkt vor der Entnahme gefiltert wodurch lästige und zum Teil gefährliche Magen-Darm Erkrankungen vermieden werden können. Durch die zusätzliche Filtration des Wassers mit einer Aktivkohle-Kartusche beim Tankvorgang, reduzieren Sie unerwünschte Schadstoffe und Sedimente noch bevor diese Ihren Wassertank verunreinigen. <\/p><ul><li><strong>Empfohlen bei mittleren\/großen Wassertanks (120 bis 200 Liter)<\/strong><\/li><li>Keimsperre nach dem Wassertank.<\/li><li>Optimal für ältere bzw. nicht ­gereinigte Systeme. <\/li><li>Filtert Sand, Sediment und organische <\/li><li>erunreinigungen vor dem Tank. <\/li><li>Druckanforderung &gt; 2,1 bar<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_GKbKUz": {
@@ -346,9 +371,12 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/pro-camper-set",
-            "hide_icon": false,
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set"
+            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -370,13 +398,6 @@
         "background_color": "rgba(0,0,0,0)",
         "image_bg": "#fafafa",
         "content_bg": "#ebf4f9",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 40,
         "padding_bottom": 0
       }
@@ -388,16 +409,19 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Mobil, Travel und Pro Camper im Video<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
-            "font_weight": "700"
+            "font_weight": "700",
+            "second_font": false
           }
         },
         "text_H4PcWW": {
           "type": "text",
           "settings": {
-            "text": "<p>Im folgenden Video stellt Patrick die drei Alb Filter Camping-Varianten vor. Er spricht über die jeweiligen Einsatzgebiete der unterschiedlichen Modelle, die Unterschiede der Kartuschen und beantwortet Fragen zu Wartung und Pflege.<\/p>"
+            "text": "<p>Im folgenden Video stellt Patrick die drei Alb Filter Camping-Varianten vor. Er spricht über die jeweiligen Einsatzgebiete der unterschiedlichen Modelle, die Unterschiede der Kartuschen und beantwortet Fragen zu Wartung und Pflege.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -421,6 +445,8 @@
         "heading": "",
         "heading_tag": "h2",
         "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
         "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/Q1_WWbCxMpw",
         "cover_image": "shopify:\/\/shop_images\/maxresdefault.webp",
@@ -447,7 +473,9 @@
             "heading": "<p>Alb Filter Mobil\/Travel<br\/>Installation<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
-            "heading_color": "#003e5f"
+            "heading_weight": "700",
+            "heading_color": "#003e5f",
+            "second_font": true
           }
         },
         "text_YKGgrb": {
@@ -455,7 +483,8 @@
           "settings": {
             "text": "<p>Unsere Schritt für Schritt-Anleitungen unterstützen Sie bei der Installation Ihres Alb Filter® Mobil und Travel. <\/p>",
             "text_style": "body",
-            "color": "#616161"
+            "color": "#616161",
+            "second_font": false
           }
         },
         "button_ntQcyx": {
@@ -477,13 +506,16 @@
       ],
       "settings": {
         "image_right": true,
+        "content_position": "right",
+        "m_content_position": "left",
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
         "heading_tag": "h2",
         "heading_size": "h1",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
-        "mobile_center": false,
+        "second_font": false,
         "image": "shopify:\/\/shop_images\/vorschaubild-anleitung-mobil-travel-1643794040322.jpg",
         "image_width": 200,
         "image_mobile_width": 285,
@@ -498,15 +530,20 @@
         "subtitle_bA3JXy": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Optionales Zubehör"
+            "subtitle": "Optionales Zubehör",
+            "subtitle_color": "#003e5f",
+            "second_font": true
           }
         },
         "heading_TebUwL": {
           "type": "heading",
           "settings": {
-            "heading": "Flex Tube",
+            "heading": "<p>Flex Tube<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
             "remove_spacing": false
           }
         },
@@ -514,7 +551,9 @@
           "type": "text",
           "settings": {
             "text": "<p>Der Alb Filter Flextube ist eine innovative Lösung für Wohnmobilbesitzer, die sich beim Betanken ihres Fahrzeugs nicht mehr mit schmutzigen Schläuchen herumschlagen möchten.<\/p><p>Dank seiner praktischen Tasche bleibt der lebensmittelechte Schlauch stets sauber und hygienisch.<br\/><\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_YyXACH": {
@@ -522,9 +561,12 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-filter-flextube-befullschlauch",
-            "hide_icon": false,
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
-            "button_link2": "shopify:\/\/collections\/zubehor"
+            "button_link2": "shopify:\/\/collections\/zubehor",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -547,13 +589,6 @@
         "background_color": "",
         "image_bg": "",
         "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -564,15 +599,20 @@
         "subtitle_nw4ATT": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Tankreinigung"
+            "subtitle": "Tankreinigung",
+            "subtitle_color": "#003e5f",
+            "second_font": true
           }
         },
         "heading_63bxN9": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Clean",
+            "heading": "<p>Alb Clean<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
             "remove_spacing": false
           }
         },
@@ -580,14 +620,18 @@
           "type": "text",
           "settings": {
             "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate).<strong><br\/><\/strong><\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "text_aTwRad": {
           "type": "text",
           "settings": {
             "text": "",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_zEd9jx": {
@@ -595,9 +639,12 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
-            "hide_icon": false,
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
-            "button_link2": "shopify:\/\/collections\/zubehor"
+            "button_link2": "shopify:\/\/collections\/zubehor",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -621,13 +668,6 @@
         "background_color": "",
         "image_bg": "",
         "content_bg": "",
-        "heading_color": "#003e5f",
-        "subtitle_color": "#003e5f",
-        "text_color": "#616161",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -639,10 +679,12 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Warum ist eine regelmäßige Tankreinigung wichtig?<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
-            "font_weight": "700"
+            "font_weight": "700",
+            "second_font": false
           }
         }
       },
@@ -705,6 +747,11 @@
         "title": "",
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -737,23 +784,28 @@
         "text_Ydc4nc": {
           "type": "text",
           "settings": {
-            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate)*. <br\/><br\/>Für eine schnelle und einfache Reinigung gibt es unser Reinigungsmittel \"Alb Clean\". Einfacher geht's nicht: Wasser auffüllen, Reiniger rein, 2h einwirken lassen, fertig. Ein weiterer Vorteil – pumpt ihr das Frischwasser nun über die Armatur in den Grauwassertank, wird dieser gleich mitgesäubert.<\/p>"
+            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate)*. <br\/><br\/>Für eine schnelle und einfache Reinigung gibt es unser Reinigungsmittel \"Alb Clean\". Einfacher geht's nicht: Wasser auffüllen, Reiniger rein, 2h einwirken lassen, fertig. Ein weiterer Vorteil – pumpt ihr das Frischwasser nun über die Armatur in den Grauwassertank, wird dieser gleich mitgesäubert.<\/p>",
+            "second_font": true
           }
         },
         "button_L4VBfA": {
           "type": "button",
           "settings": {
+            "center": false,
             "button_label": "Kaufen",
             "button_link": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
             "button_style_secondary": false,
+            "btn_icon": "cart",
             "button_label_2": "Weiteres Zubehör",
-            "button_link_2": "shopify:\/\/collections\/zubehor"
+            "button_link_2": "shopify:\/\/collections\/zubehor",
+            "second_btn_color": "#0081be"
           }
         },
         "text_GWgRMK": {
           "type": "text",
           "settings": {
-            "text": "<p>* Bei Nutzung des Alb Filter Mobil Fusion Sets in einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung grundsätzlich verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So werden Schadstoffe und Keime vor dem Tank gefiltert und es entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>"
+            "text": "<p>* Bei Nutzung des Alb Filter Mobil Fusion Sets in einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung grundsätzlich verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So werden Schadstoffe und Keime vor dem Tank gefiltert und es entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
+            "second_font": true
           }
         }
       },
@@ -779,10 +831,12 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Kundenstimmen zu unseren Duschfiltern<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
-            "font_weight": "700"
+            "font_weight": "700",
+            "second_font": false
           }
         }
       },
@@ -818,7 +872,14 @@
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
             "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_BgLVxn": {
@@ -827,7 +888,14 @@
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
             "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_WQPn8H": {
@@ -836,7 +904,14 @@
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
             "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_D7YKAq": {
@@ -845,7 +920,14 @@
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
             "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         }
       },
@@ -859,9 +941,11 @@
         "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
         "title_color": "#003e5f",
         "column_count": 4,
+        "content_position": "center",
         "full_width": true,
         "image_white": true,
         "large_image": false,
+        "full_image": false,
         "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 0
@@ -873,14 +957,18 @@
         "subtitle_YCLHh4": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Alb Filter Camping 2023\/24"
+            "subtitle": "Alb Filter Camping 2023\/24",
+            "subtitle_color": "#003e5f",
+            "second_font": true
           }
         },
         "text_thhxeU": {
           "type": "text",
           "settings": {
             "text": "<p>Die gedruckte Alb Filter Camping Broschüre zum nachlesen als PDF.<\/p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
           }
         },
         "button_txVEB8": {
@@ -888,9 +976,12 @@
           "settings": {
             "button_label1": "Alb Filter Camping Broschüre 2023\/24 (PDF)",
             "button_link1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/2023-Broschure-Camping_ALU_EDEL_v03_kompr.pdf?v=1708340672",
-            "hide_icon": true,
+            "btn_color": "#fff",
+            "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "",
-            "button_link2": ""
+            "button_link2": "",
+            "second_btn_color": "#0081be"
           }
         }
       },
@@ -912,13 +1003,6 @@
         "background_color": "#23a4dd",
         "image_bg": "",
         "content_bg": "",
-        "heading_color": "#ffffff",
-        "subtitle_color": "#ffffff",
-        "text_color": "#ffffff",
-        "btn_color": "#ffffff",
-        "btn_bg": "#0081be",
-        "second_btn_color": "#0081be",
-        "icon_text_font_size": 16,
         "padding_top": 20,
         "padding_bottom": 0
       }
@@ -949,13 +1033,18 @@
       ],
       "settings": {
         "background_color": "#fafafa",
+        "enable_border": false,
         "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "image_width": 150,
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "enable_heading_second_font": false,
         "text": "<p>Erhalten Sie hier Antworten zu unseren <a href=\"\/pages\/faq-camping\" title=\"FAQ - Camping\">Campingfiltern <\/a>oder <br\/>besuchen Sie unsere <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Hilfe und Kontakt <\/a>Seite für weitere Fragen.<\/p>",
         "text_color": "#616161",
+        "enable_text_second_font": true,
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
