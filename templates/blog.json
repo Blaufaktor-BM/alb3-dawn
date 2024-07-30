@@ -844,6 +844,15 @@
             "text": "<p>Die Türkei ist durchzogen von glitzernden Gewässern. Doch wie steht es um die Wasserqualität im Land der zwei Kontinente?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-tuerkei"
           }
+        },
+        "item_zGzaYC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wasserqualitat_Schweden.jpg",
+            "title": "Schweden",
+            "text": "<p>Schweden, bekannt für seine beeindruckenden Landschaften, umfasst dichte Wälder und lange Küstenlinien. Doch wie ist die Wasserqualität?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-schweden"
+          }
         }
       },
       "block_order": [
@@ -857,7 +866,8 @@
         "item_ec6KQD",
         "item_nhYtTV",
         "item_xe3pnH",
-        "item_TwBaFH"
+        "item_TwBaFH",
+        "item_zGzaYC"
       ],
       "settings": {
         "second_id": "wasser",
