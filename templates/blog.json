@@ -155,9 +155,10 @@
         "item_3mbGrz": {
           "type": "item",
           "settings": {
-            "title": "Ratgeber Wasser",
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_012_6909a0b2-cccc-46c1-8d88-276cee7bf8b9.jpg",
+            "title": "Unser Leitungswasser",
             "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
-            "post": ""
+            "post": "shopify:\/\/blogs\/ratgeber\/unser-leitungswasser"
           }
         },
         "item_B4A3bF": {
