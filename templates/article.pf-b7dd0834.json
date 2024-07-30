@@ -885,6 +885,60 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_ijYRpg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PDdctJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Vom Wasserwerk bis zum Wasserhahn kann viel passieren<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_f3WjkH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Selbst wenn beim <strong>Wasserversorger sämtliche Grenzwerte <\/strong>noch innerhalb des grünen Bereichs liegen, können auf dem Weg bis zum Verbraucher und seinem Wasserhahn noch zahlreiche Verunreinigungen ins Wasser gelangen. <br\/><br\/><\/p>",
+            "second_font": true
+          }
+        },
+        "icon_content_j9fYy3": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gut-zu-Wissen-Icon_7.png",
+            "title": "GUT ZU WISSEN!",
+            "title_tag": "p",
+            "heading_size": "h3",
+            "heading_second_font": false,
+            "text": "<p>Viele Städte verfügen über ein in die Jahre gekommenes, marodes Trinkwassernetz, das den Ansprüchen an Hygiene oft nicht mehr genügt. Keime <strong>vermehren sich auf dem Weg <\/strong>zum Gebäude des Verbrauchers in den oft sanierungsbedürftigen Rohrleitungen und dann später in den ebenso alten Wasserleitungen in Wohnanlagen und Altbauten.<br\/><br\/><\/p>",
+            "second_font": true,
+            "background_color": "#f8cb91",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PDdctJ",
+        "text_f3WjkH",
+        "icon_content_j9fYy3"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_8zQGwE": {
       "type": "rich-text",
       "blocks": {
@@ -1486,6 +1540,7 @@
     "table_blog_dCCtHW",
     "rich_text_Jwa6DV",
     "multi_icon_text_CiG3ed",
+    "rich_text_ijYRpg",
     "rich_text_8zQGwE",
     "rich_text_8wQpLj",
     "rich_text_C3gecd",
