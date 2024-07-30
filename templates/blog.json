@@ -942,103 +942,13 @@
             "text": "<p>Wie und wo du unterwegs mit dem Wohnmobil sicher Wasser auffüllen kannst und worauf du achten solltest.<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/wasser-tanken-unterwegs-mit-dem-wohnmobil"
           }
-        },
-        "item_xqtBaM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatportugal-1671701588346.jpg",
-            "title": "Portugal",
-            "text": "<p>Portugal am Atlantik ist das ein attraktives Ziel zum überwintern. Wie steht es hier um die Wasserqualität? <\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/portugal-leitungswasser-trinken"
-          }
-        },
-        "item_rbqK4P": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatschweiz-1677759214068.jpg",
-            "title": "Schweiz",
-            "text": "<p>In der Schweiz ist Welt noch in Ordnung. Blühende Wiesen, glückliche Kühe und glasklares Wasser - oder etwa nicht?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-schweiz"
-          }
-        },
-        "item_8K3Bbh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatosterreich-1677759214066.jpg",
-            "title": "Österreich",
-            "text": "<p>Wie sauber ist das Wasser bei unserem direkten Nachbar Österrreich? Gibt es vergleichbare Regelungen wie in Deutschland?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-oesterreich"
-          }
-        },
-        "item_iLQEzL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatgriechenland-1678185891068.jpg",
-            "title": "Griechenland",
-            "text": "<p>Griechenland hat wunderschöne Strände und eine köstliche Küche. Doch wie steht es um das Trinkwasser?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/griechenland-leitungswasser"
-          }
-        },
-        "item_cAYVz8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatniederlande-1678185898051.jpg",
-            "title": "Niederlande",
-            "text": "<p>Die Niederlande ist umgeben von Wasser. Wirkt sich das aus auf die Leitungswasserqualität?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/portugal-leitungswasser-trinken"
-          }
-        },
-        "item_dAPDad": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wasserqualitatdanemark-1678185884653.jpg",
-            "title": "Dänemark",
-            "text": "<p>Dänemark ist für Camper sehr attraktiv. Und wie steht es um das Wasser aus der Leitung?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-daenemark"
-          }
-        },
-        "item_HFrtYy": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Wasserqualitat-Turkei.jpg",
-            "title": "Türkei",
-            "text": "<p>Die Türkei ist durchzogen von glitzernden Gewässern. Doch wie steht es um die Wasserqualität im Land der zwei Kontinente?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-tuerkei"
-          }
-        },
-        "item_cmdEmr": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Wasserqualitat_Schweden.jpg",
-            "title": "Schweden",
-            "text": "<p>Schweden, bekannt für seine beeindruckenden Landschaften, umfasst dichte Wälder und lange Küstenlinien. Doch wie ist die Wasserqualität?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-schweden"
-          }
-        },
-        "item_zCqHcf": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Norwegen.jpg",
-            "title": "Norwegen",
-            "text": "<p>Norwegen, berühmt für seine majestätischen Fjorde und schroffen Berglandschaften, zieht Besucher aus aller Welt an. Doch wie steht es um die Wasserqualität?<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-norwegen"
-          }
         }
       },
       "block_order": [
         "item_n8mKKY",
         "item_MXy4FT",
         "item_UQhcBk",
-        "item_mkzVqi",
-        "item_xqtBaM",
-        "item_rbqK4P",
-        "item_8K3Bbh",
-        "item_iLQEzL",
-        "item_cAYVz8",
-        "item_dAPDad",
-        "item_HFrtYy",
-        "item_cmdEmr",
-        "item_zCqHcf"
+        "item_mkzVqi"
       ],
       "settings": {
         "second_id": "wasser",
