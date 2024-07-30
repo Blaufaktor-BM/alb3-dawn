@@ -817,6 +817,15 @@
             "text": "<p>Griechenland hat wunderschöne Strände und eine köstliche Küche. Doch wie steht es um das Trinkwasser?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/griechenland-leitungswasser"
           }
+        },
+        "item_nhYtTV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserqualitatniederlande-1678185898051.jpg",
+            "title": "Niederlande",
+            "text": "<p>Die Niederlande ist umgeben von Wasser. Wirkt sich das aus auf die Leitungswasserqualität?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/portugal-leitungswasser-trinken"
+          }
         }
       },
       "block_order": [
@@ -827,7 +836,8 @@
         "item_KawRt9",
         "item_8cLe6g",
         "item_jPYHtE",
-        "item_ec6KQD"
+        "item_ec6KQD",
+        "item_nhYtTV"
       ],
       "settings": {
         "second_id": "wasser",
