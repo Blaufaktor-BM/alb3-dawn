@@ -238,24 +238,11 @@
             "text": "<p>Tatsächlich enthält unser Leitungswasser wertvolle Mineralien und Spurenelemente, die für den menschlichen Organismus unverzichtbar sind. Allein deshalb ist sauberes Trinkwasser von zentraler Bedeutung für den Menschen. Folgende Tabelle gibt Ihnen eine Übersicht über die wichtigsten (wertvollen) Inhaltsstoffe im Leitungswasser.<\/p>",
             "second_font": true
           }
-        },
-        "heading_VdMqyp": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "remove_spacing": false,
-            "color": "#003e5f",
-            "heading_tag": "h3",
-            "heading_size": "h2",
-            "font_weight": "700",
-            "second_font": false
-          }
         }
       },
       "block_order": [
         "heading_jDRwiD",
-        "text_JK9AJ7",
-        "heading_VdMqyp"
+        "text_JK9AJ7"
       ],
       "settings": {
         "desktop_content_position": "left",
