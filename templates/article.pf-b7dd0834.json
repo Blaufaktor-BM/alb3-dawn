@@ -565,11 +565,12 @@
         "item_MQkeNp": {
           "type": "item",
           "settings": {
-            "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
-            "btn_text": "Weiterlesen",
-            "url": "",
+            "image": "shopify:\/\/shop_images\/Produkt-Alb-Filter-Duo-Frontal.webp",
+            "subtitle": "PRODUKT",
+            "title": "Alb Filter Duo",
+            "text": "<p>Alb Filter Duo mit hochwertiger gesinterter Aktivkohle made in Germany für den Einsatz direkt am Wasserhahn. Kompatibel mit Active, Active Plus und Nano.<\/p>",
+            "btn_text": "Zum Produkt",
+            "url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
             "content_url": "",
             "border_color": "#9b9b9b"
           }
