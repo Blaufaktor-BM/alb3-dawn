@@ -552,11 +552,12 @@
         "item_xpGABE": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ratgeber-ph-wert-wasser-lackmustest.webp",
             "subtitle": "RATGEBER",
-            "title": "Wie misst man die Wasserqualität",
-            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "title": "pH-Wert des Wassers",
+            "text": "<p>Was ist der pH-Wert und was bedeutet saueres- bzw. basisches Wasser? Erfahren Sie hier mehr über diesen durchaus wichtigen Wert, wenn es um das Thema Wasser geht!<\/p>",
             "btn_text": "Weiterlesen",
-            "url": "",
+            "url": "shopify:\/\/blogs\/ratgeber\/ph-wert-wasser",
             "content_url": "",
             "border_color": "#9b9b9b"
           }
