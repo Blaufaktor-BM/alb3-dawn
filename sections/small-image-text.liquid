@@ -35,7 +35,7 @@
     class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     style="background-color: {{ section.settings.background_color }}"
   >
-    <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %} desktop-{{ section.settings.content_position }} mobile-{{ section.settings.m_content_position }}">
+    <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %}{% if section.settings.m_content_position == 'center' %} mobile-{{ section.settings.m_content_position }}{% endif %}">
       {%- if section.settings.heading != blank -%}
         <{{ section.settings.heading_tag }}
           class="small_image_text-heading inline-richtext{% if section.settings.second_font %} second-font{% endif %} {{ section.settings.heading_size }}"
@@ -44,7 +44,7 @@
           {{ section.settings.heading }}
         </{{ section.settings.heading_tag }}>
       {%- endif -%}
-      <div class="wrapper-small_image_text{% if section.settings.image_right %} row-reverse{% endif %}">
+      <div class="wrapper-small_image_text{% if section.settings.image_right %} row-reverse{% endif %} desktop-{{ section.settings.content_position }} mobile-{{ section.settings.m_content_position }}">
         <div
           class="media-small_image_text{% if section.settings.image_round %} image_round{% endif %}"
         >
