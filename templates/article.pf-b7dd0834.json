@@ -699,6 +699,192 @@
         "table_padding": "40px"
       }
     },
+    "rich_text_Jwa6DV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3BpxHC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Dilemma der Trinkwasseraufbereitung in Deutschland<br\/><\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_wHA87K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das (politische) <strong>Dilemma der Trinkwasseraufbereitung<\/strong> in Deutschland lässt sich in einigen Stichpunkten festhalten:<br\/><\/p><ul><li>Leitungswasser muss so beschaffen sein, dass eine Schädigung der menschlichen Gesundheit oder der Umwelt nicht zu befürchten ist. <\/li><li>Es muss deshalb <strong>frei von Verunreinigungen<\/strong> und Schadstoffen sein. <\/li><li>Deshalb wurden in der Trinkwasserverordnung Grenzwerte für die bekanntesten Inhaltsstoffe festgelegt. <\/li><li>Diese <strong>Grenzwerte werden überarbeitet<\/strong>, sobald neue Schadstoffe im Trinkwasser festgestellt oder neue<\/li><li>Erkenntnisse über deren negative Auswirkungen vorliegen.<\/li><li>Wasserwerke müssten demnach eigentlich laufend mit hohem technischem Aufwand und zu <strong>entsprechenden Kosten <\/strong>aufgerüstet werden. <\/li><li>Das würde sich aber in einem hohen Preis für Trinkwasser niederschlagen.<\/li><\/ul>",
+            "second_font": true
+          }
+        },
+        "image_qANQjq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserwerk-frau.jpg",
+            "image_width": 700,
+            "full_width": true,
+            "remove_spacing": false,
+            "top_radius": false,
+            "bottom_radius": false,
+            "enable_shadow": false,
+            "image_des": "",
+            "text_color": "#616161",
+            "des_second_font": true
+          }
+        },
+        "heading_yDAtFb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Unzeitgemäße Überwachung<br\/><\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_MV4jg7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die<strong> unvollständige Überwachung von Schadstoffen<\/strong> ist eigentlich schon bedenklich genug, doch dazu kommt oft auch noch eine unzeitgemäße Analyse:<br\/><br\/>Gemäß Trinkwasserverordnung müssen <strong>Keime im Trinkwasser<\/strong> noch immer nur mittels der mittlerweile über 100 Jahre alten <a href=\"https:\/\/docplayer.org\/25769887-Die-position-der-traditionellen-keimzahlbestimmung-im-vergleich-mit-modernen-methoden.html\" target=\"_blank\" title=\"https:\/\/docplayer.org\/25769887-Die-position-der-traditionellen-keimzahlbestimmung-im-vergleich-mit-modernen-methoden.html\">Ausstrichmethode<\/a> ermittelt werden. <a href=\"#q10\" title=\"#q10\">[10]<\/a><br\/>Es ist jedoch bekannt, dass nur <strong>0,1 – 1 %<\/strong> der im Trinkwasser vorhandenen Bakterien zur Bildung von Kolonien neigen, die auf einem Ausstrich überhaupt zählbar sind. <\/p>",
+            "second_font": true
+          }
+        },
+        "icon_content_HAYGf3": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gut-zu-Wissen-Icon_7.png",
+            "title": "GUT ZU WISSEN!",
+            "title_tag": "p",
+            "heading_size": "h1",
+            "heading_second_font": false,
+            "text": "<p>Moderne, hochauflösende Analysemethoden wie die Durchflusszytometrie haben jedoch gezeigt, dass die Konzentration von Keimen im Leitungswasser wesentlich höher liegt, als lange Zeit angenommen. So haben beispielsweise Untersuchungen in München ergeben, dass durch die Trinkwasserversorgung der Stadt <strong>zwischen 8.000 und 100.000 Keime pro ml <\/strong>in Gebäude eingespült werden. Insgesamt eine Mixtur aus unschädlichen Bakterien, aber auch Krankheitserreger wie Legionellen, Pseudomonaden und Organismen wie Amöben. <\/p>",
+            "second_font": true,
+            "background_color": "#f8cb91",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_zhUAkU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In Verbindung mit im Wasser enthaltenen Nährstoffen, wie Nitraten, Phosphaten oder gelösten organischen Bestandteilen kann das zu einer starken Vermehrung von Keimen und Krankheitserregern in den Leitungsnetzen der Gebäude führen.<br\/><br\/><\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3BpxHC",
+        "text_wHA87K",
+        "image_qANQjq",
+        "heading_yDAtFb",
+        "text_MV4jg7",
+        "icon_content_HAYGf3",
+        "text_zhUAkU"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multi_icon_text_CiG3ed": {
+      "type": "multi-icon_text",
+      "blocks": {
+        "item_rJKXVG": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-05-bacteria-mk_dark-blue.svg",
+            "heading": "Bakterien & Keime",
+            "text": "<ul><li>Keime & Bakterien gelangen häufig ins Trinkwasser, indem sie sich auf dem Weg durch die öffentlichen Versorgungsnetze in den Wasserleitungen vermehren. <\/li><li>Begünstigt wird das Wachstum von <a href=\"\/blogs\/ratgeber\/bakterien-im-leitungswasser\" title=\"Bakterien im Leitungswasser\">Bakterien im Trinkwasser <\/a>durch alte Wasserleitungen und höhere Temperaturen.<\/li><\/ul>"
+          }
+        },
+        "item_KRQWhE": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-03-drugs-mk_dark-blue.svg",
+            "heading": "Hormone & Arzneimittelrückstände",
+            "text": "<p>Als die drei wesentlichen Quellen, wie <a href=\"\/blogs\/ratgeber\/hormone-im-leitungswasser\" title=\"Hormone im Leitungswasser\">Hormone ins Trinkwasser <\/a>gelangen, gelten:<br\/><\/p><ul><li>Falsch entsorgte Medikamente (z.B. über Toilette oder Waschbecken)<\/li><li>Industrieabfälle (Chemische Industrie)<\/li><li>Weiblicher Urin (Anti-Baby-Pille)<\/li><\/ul>"
+          }
+        },
+        "item_itrRcH": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-04-microplastics-mk_dark-blue.svg",
+            "heading": "Mikroplastik",
+            "text": "<ul><li>Die Wege, wie Mikroplastik ins Wasser und auch ins Leitungswasser gelangt, sind noch nicht vollständig erforscht.<\/li><li>Praktisch jeder Privathaushalt trägt aber zur Verbreitung von Mikroplastik bei – z.B. durch das Waschen polyester-anteiliger Kleidung mit der Waschmaschine.<\/li><li>Aber auch durch den täglichen Abrieb von Autoreifen gelangen – insbesondere nach Regenfällen – ebenfalls enorme Mengen von <a href=\"\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" title=\"Mikroplastik im Leitungswasser\">Mikroplastik ins Wasser<\/a>.<\/li><\/ul>"
+          }
+        },
+        "item_6dyEih": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-06-legionella-mk_dark-blue.svg",
+            "heading": "Legionellen",
+            "text": "<ul><li><a href=\"\/blogs\/ratgeber\/legionellen-im-wasser\" title=\"Legionellen\">Legionellen<\/a> sind im Trinkwasser in sehr geringen, nicht gesundheitsgefährdenden Konzentration so gut wie immer vorhanden. <\/li><li>Besonders bei stehendem Wasser können sie sich ideal vermehren.<\/li><li>Wenn sich diese Bakterien aber vermehren, können Legionellen im Trinkwasser schwere Krankheiten verursachen.<\/li><\/ul>"
+          }
+        },
+        "item_kzgbnB": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-01-taste-mk_dark-blue.svg",
+            "heading": "Chlor",
+            "text": "<ul><li>In Deutschland verbraucht die chemische Industrie ca. 40 Millionen Tonnen des giftigen Halogens Chlor pro Jahr.<\/li><li>Auch im Abwasser von Schlachthöfen und fleischverarbeitenden Betrieben lassen sich häufig Chlor-Rückstände finden.<\/li><li>Als viel verwendete Chemikalie nimmt es des Öfteren einen Umweg über das Abwasser – und so gelangt <a href=\"\/blogs\/ratgeber\/chlor\" title=\"Chlor\">Chlor<\/a> ins Trinkwasser.<\/li><\/ul>"
+          }
+        },
+        "item_yCcjnh": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-32-nitrates-mk_dark-blue.svg",
+            "heading": "Nitrate",
+            "text": "<ul><li>Durch die Verschmutzung des Grundwassers mit Gülle aus der Landwirtschaft ist die <a href=\"\/blogs\/ratgeber\/nitrate-im-grund-und-trinkwasser\" title=\"Nitrate im Grund- und Trinkwasser | Alb Filter\">Nitratbelastung im Trinkwasser <\/a>mitunter sehr hoch.<\/li><li>Weil keine ausreichenden Gegenmaßnahmen oder Düngeverbote erfolgen, wurde Deutschland von der EU deshalb inzwischen verklagt.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rJKXVG",
+        "item_KRQWhE",
+        "item_itrRcH",
+        "item_6dyEih",
+        "item_kzgbnB",
+        "item_yCcjnh"
+      ],
+      "settings": {
+        "bg": "#fafafa",
+        "heading": "Wie schädliche Inhaltsstoffe ins Leitungswasser gelangen können",
+        "heading_tag": "h2",
+        "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "column_count": "2",
+        "subtitle1": "",
+        "subtitle2": "",
+        "subtitle_tag": "h3",
+        "subtitle_size": "h3",
+        "subtitle_weight": "700",
+        "subtitle_color": "#003e5f",
+        "subtitle_second_font": false,
+        "item_heading_tag": "h3",
+        "item_heading_size": "h3",
+        "item_heading_weight": "700",
+        "item_heading_color": "#616161",
+        "item_heading_second_font": true,
+        "item_text_color": "#616161",
+        "item_textsecond_font": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_8zQGwE": {
       "type": "rich-text",
       "blocks": {
@@ -1298,6 +1484,8 @@
     "multi_text_XGn9Th",
     "rich_text_gkRAfX",
     "table_blog_dCCtHW",
+    "rich_text_Jwa6DV",
+    "multi_icon_text_CiG3ed",
     "rich_text_8zQGwE",
     "rich_text_8wQpLj",
     "rich_text_C3gecd",
