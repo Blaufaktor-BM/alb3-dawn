@@ -476,27 +476,121 @@
           "type": "icon_content",
           "settings": {
             "image": "shopify:\/\/shop_images\/Gut-zu-Wissen-Icon_65.png",
-            "title": "Gut zu Wissen!",
+            "title": "Wasser ist lebensnotwendig",
             "title_tag": "p",
-            "heading_size": "h1",
+            "heading_size": "h3",
             "heading_second_font": false,
-            "text": "<p>Zwar kann der menschliche Körper wochenlang ohne Nahrung auskommen, aber nur wenige Tage ohne Flüssigkeit. Unser Körper benötigt Wasser als Basis, dass sämtliche Funktionen des Organismus wie Zellaufbau, Stoffwechsel, Nährstofftransport, Verdauung, Herz-Kreislauf-System und Gehirnfunktionen reibungslos ablaufen können.<\/p>",
+            "text": "<p>Zwar kann der menschliche Körper wochenlang ohne Nahrung auskommen, aber nur wenige Tage ohne Flüssigkeit. Unser <strong>Körper benötigt Wasser als Basis<\/strong>, dass sämtliche Funktionen des Organismus wie Zellaufbau, Stoffwechsel, Nährstofftransport, Verdauung, Herz-Kreislauf-System und Gehirnfunktionen reibungslos ablaufen können.<\/p>",
             "second_font": true,
             "background_color": "#f8cb91",
             "background_color_opacity": 7,
             "text_color": "#616161",
             "border_color": "rgba(0,0,0,0)"
           }
+        },
+        "text_X9DeRd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bedenkt man, wieviel Wasser der Mensch während seines Lebens zu sich nimmt – man spricht von 60.000 bis 100.000 Litern – können selbst kleinste Schadstoffmengen im Wasser ausreichen, um auf lange Sicht negative Wirkungen im Körper zu provozieren und unserer Gesundheit zu schaden.<br\/><br\/><\/p>",
+            "second_font": true
+          }
+        },
+        "heading_aJwNp9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Schadstoffe haben im Trinkwasser nichts verloren!<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_FyUQkP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Schadstoffe<\/strong> wie Nitrate, Schwermetalle, Kupfer, hormonähnliche Substanzen und Weichmacher, Medikamentenrückstände, Mikroplastik, Pestizide oder Herbizide <strong>haben<\/strong> daher<strong> im<\/strong> <strong>Trinkwasser nichts verloren<\/strong>. Das gleiche gilt für Krankheitserreger und Mikroorganismen.<br\/><br\/><strong>Je weniger dieser Stoffe im Trinkwasser enthalten sind, desto besser!<\/strong><\/p>",
+            "second_font": true
+          }
+        },
+        "heading_gbVACb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wer ist besonders gefährdet?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h3",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "small_text_LrWBnp": {
+          "type": "small_text",
+          "settings": {
+            "small_text": "<p>Menschen mit gesundem Abwehrsystem haben zwar normalerweise <strong>selten Probleme<\/strong>, doch gerade bei Kleinkindern, Senioren oder <strong>Menschen mit eingeschränktem Immunsystem <\/strong>kann eine gewisse Keimfracht zu schweren Krankheiten führen.<br\/><br\/>Besonders tückisch sind etwa Legionellen, die über <strong>die Atmung in den Körper<\/strong> gelangen – i.d.r. durch Aerosole des Sprühnebels bzw. des Wasserdampfs beim Duschen – und dort die sogenannte Legionellose, eine s<strong>chwere Lungenentzündung<\/strong>, auslösen können.<\/p><ul><li>Jedes Jahr erkranken über 300.000 Menschen in Deutschland durch Legionellen.<\/li><li>Bis zu 3.000 sterben jährlich an den Folgen.<\/li><li>Die Dunkelziffer wird weitaus höher eingeschätzt.<\/li><\/ul>",
+            "second_font": true
+          }
         }
       },
       "block_order": [
         "heading_ebKDiE",
         "text_JadTCL",
-        "icon_content_fN4Nrm"
+        "icon_content_fN4Nrm",
+        "text_X9DeRd",
+        "heading_aJwNp9",
+        "text_FyUQkP",
+        "heading_gbVACb",
+        "small_text_LrWBnp"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_8wQpLj": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_XzMzqP": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png"
+          }
+        },
+        "heading_nVgWyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "div",
+            "heading_size": "h2",
+            "font_weight": "200",
+            "second_font": false
+          }
+        },
+        "text_DnkXEc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>WOLLEN SIE MEHR WISSEN?<\/strong><br\/>Mehr über <a href=\"\/blogs\/ratgeber\/legionellen-im-wasser\" title=\"Legionellen\">Legionellen im Trinkwasser<\/a> erfahren Sie hier.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "icon_XzMzqP",
+        "heading_nVgWyE",
+        "text_DnkXEc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
         "content_full_width": false,
@@ -952,6 +1046,7 @@
     "rich_text_YyYqQp",
     "custom_image_text_bgnCJE",
     "rich_text_8zQGwE",
+    "rich_text_8wQpLj",
     "rich_text_C3gecd",
     "image_list_Bn9tJF",
     "rich_text_96k7hQ",
