@@ -443,10 +443,10 @@
         "item_LhErgb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00050_klein.jpg",
-            "title": "Deutsche Trinkwasserverordnung 2023",
-            "text": "<p>Die seit Juni 2023 geltende Novellierung der TrinkwV in Deutschland bringt wichtige Änderungen.<\/p>",
-            "post": "shopify:\/\/blogs\/ratgeber\/trinkwasserverordnung-2023"
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00049.jpg",
+            "title": "Weichmacher im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/weichmacher-in-wasserflaschen"
           }
         }
       },
