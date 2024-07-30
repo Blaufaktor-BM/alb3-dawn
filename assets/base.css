@@ -5791,11 +5791,6 @@ summary[aria-expanded="true"] .accordion__title {
   .section-small_image_text .desktop-center .btn-second {
     justify-content: center;
   }
-
-  .wrapper-small_image_text.row-reverse .small_image_text-image {
-    margin-right: 0;
-    margin-left: auto;
-  }
 }
 
 /* small image text */
