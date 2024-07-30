@@ -187,17 +187,17 @@
         "icon_content_Bfnqwr": {
           "type": "icon_content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
+            "image": "shopify:\/\/shop_images\/Gut-zu-Wissen-Icon_7.png",
             "title": "LEITUNGSWASSER & KÖRPERHYGIENE",
             "title_tag": "p",
             "heading_size": "h3",
             "heading_second_font": false,
             "text": "<p>Allein für die Körperhygiene liegt der Pro-Kopf-Verbrauch in Deutschland bei circa 46 Liter pro Tag. Dementsprechend liegt es auf der Hand, dass man die Inhaltsstoffe im Wasser, das man trinkt und mit dem man sich wäscht, genau kennen möchte. Und da man laufend in Kontakt mit Wasser kommt, sollte es von einwandfreier Qualität sein.<br\/><br\/><\/p>",
             "second_font": true,
-            "background_color": "#93d4ff",
+            "background_color": "#f8cb91",
             "background_color_opacity": 7,
             "text_color": "#616161",
-            "border_color": "#93d4ff"
+            "border_color": "rgba(0,0,0,0)"
           }
         }
       },
@@ -450,6 +450,60 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_8zQGwE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ebKDiE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Was schädliche Inhaltsstoffe und Bakterien aus dem Leitungswasser im Körper anrichten können<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_JadTCL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wasser ist nicht nur unser wichtigstes Lebensmittel, es ist lebenswichtig. Unser Körper besteht zu ca. 70% aus Wasser. Dementsprechend wichtig ist dieses Element für unseren Körper. <br\/><br\/><\/p>",
+            "second_font": true
+          }
+        },
+        "icon_content_fN4Nrm": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gut-zu-Wissen-Icon_65.png",
+            "title": "Gut zu Wissen!",
+            "title_tag": "p",
+            "heading_size": "h1",
+            "heading_second_font": false,
+            "text": "<p>Zwar kann der menschliche Körper wochenlang ohne Nahrung auskommen, aber nur wenige Tage ohne Flüssigkeit. Unser Körper benötigt Wasser als Basis, dass sämtliche Funktionen des Organismus wie Zellaufbau, Stoffwechsel, Nährstofftransport, Verdauung, Herz-Kreislauf-System und Gehirnfunktionen reibungslos ablaufen können.<\/p>",
+            "second_font": true,
+            "background_color": "#f8cb91",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ebKDiE",
+        "text_JadTCL",
+        "icon_content_fN4Nrm"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_C3gecd": {
       "type": "rich-text",
       "blocks": {
@@ -540,10 +594,16 @@
     "rich_text_96k7hQ": {
       "type": "rich-text",
       "blocks": {
+        "icon_BUwEkk": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png"
+          }
+        },
         "heading_mba8hX": {
           "type": "heading",
           "settings": {
-            "heading": "<p>WOLLEN SIE MEHR WISSEN?<br\/><br\/><\/p>",
+            "heading": "",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "div",
@@ -555,12 +615,13 @@
         "text_AEAYaj": {
           "type": "text",
           "settings": {
-            "text": "<p>Mehr über<a href=\"https:\/\/alb-filter.com\/pages\/trinkwasserfilter\" target=\"_self\">Trinkwasserfilter erfahren Sie hier<\/a>.<\/p>",
+            "text": "<p><strong>WOLLEN SIE MEHR WISSEN?<\/strong><br\/>Mehr über <a href=\"https:\/\/alb-filter.com\/pages\/trinkwasserfilter\" target=\"_self\">Trinkwasserfilter erfahren Sie hier<\/a>.<\/p>",
             "second_font": true
           }
         }
       },
       "block_order": [
+        "icon_BUwEkk",
         "heading_mba8hX",
         "text_AEAYaj"
       ],
@@ -890,6 +951,7 @@
     "multi_icon_text_mymWbq",
     "rich_text_YyYqQp",
     "custom_image_text_bgnCJE",
+    "rich_text_8zQGwE",
     "rich_text_C3gecd",
     "image_list_Bn9tJF",
     "rich_text_96k7hQ",
