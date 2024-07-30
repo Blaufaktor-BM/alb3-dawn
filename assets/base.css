@@ -5731,17 +5731,37 @@ summary[aria-expanded="true"] .accordion__title {
   .section-small_image_text .mobile-center .btn-second {
     justify-content: center;
   }
-}
 
-@media only screen and (min-width: 750px) {
-  .mobile-center .wrapper-small_image_text.row-reverse .small_image_text-image {
-    margin-right: 0;
+  .section-small_image_text .mobile-center .small_image_text-image {
+    margin-right: auto;
     margin-left: auto;
   }
 
-  .mobile-center .wrapper-small_image_text .small_image_text-image {
+  .section-small_image_text .mobile-left .small_image_text-image {
     margin-left: 0;
     margin-right: auto;
+  }
+
+  .section-small_image_text .mobile-right .small_image_text-image {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .section-small_image_text .desktop-center .small_image_text-image {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .section-small_image_text .desktop-left .small_image_text-image {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .section-small_image_text .desktop-right .small_image_text-image {
+    margin-left: auto;
+    margin-right: 0;
   }
 
   .wrapper-small_image_text.row-reverse {
