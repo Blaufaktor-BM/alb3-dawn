@@ -50,7 +50,7 @@
     "image_banner_CyV3eN": {
       "type": "image-banner",
       "settings": {
-        "image_overlay_color": "#000",
+        "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -69,21 +69,22 @@
     "rich_text_Fha7FY": {
       "type": "rich-text",
       "blocks": {
-        "subtitle_TkCPwg": {
-          "type": "subtitle",
+        "heading_M6qAkz": {
+          "type": "heading",
           "settings": {
-            "subtitle": "RATGEBER",
-            "subtitle_tag": "p",
-            "subtitle_size": "hxl",
-            "font_weight": "100",
+            "heading": "<p>RATGEBER<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
+            "heading_tag": "div",
+            "heading_size": "hxl",
+            "font_weight": "200",
             "second_font": false
           }
         },
         "heading_Pe3X8b": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Überschrift Ratgeber<\/p>",
+            "heading": "<p>Inhaltsstoffe im Leitungswasser<\/p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h1",
@@ -92,25 +93,30 @@
             "second_font": false
           }
         },
+        "subtitle_TkCPwg": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Über Mineralien, Schadstoffe, Fremdkörper und mehr...",
+            "subtitle_tag": "h2",
+            "subtitle_size": "h2",
+            "font_weight": "100",
+            "color": "#003e5f",
+            "second_font": false
+          }
+        },
         "text_kdq4YE": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Viele <strong>Inhaltsstoffe im Leitungswasser <\/strong>wie z. B. Magnesium, Calcium, Natrium, Kalium oder Eisen bereichern das “Lebenselixier Wasser”, denn sie versorgen den menschlichen Körper mit dem nötigen Tagesbedarf an Mineralstoffen. Leitungswasser ist dabei laut Stiftung Warentest sogar nährstoffreicher als Mineralwasser in gekauften Flaschen.<br\/><br\/>Jedoch befinden sich im Leitungswasser auch <strong>Inhaltsstoffe, die wenig bereichernd und mitunter sogar schädlich sind<\/strong>: z. B. Schwermetalle, hormonähnliche Substanzen, Mikroplastik, Pestizide, Medikamentenrückstände, Bakterien, Keime und Chlor. Je weniger dieser Fremdkörper und Schadstoffe im Trinkwasser sind, desto besser!<br\/><br\/>Warum sich<strong> trotz strenger Kontrollen und gesetzlichen Grenzwerten<\/strong> diese und andere Inhaltsstoffe im Trinkwasser befinden (können), und was solche schädlichen Substanzen und Bakterien im Körper anrichten können, erfahren Sie in diesem Ratgeber.<\/p>",
             "second_font": true
-          }
-        },
-        "dot_list_8Qqjdr": {
-          "type": "dot_list",
-          "settings": {
-            "dot_list": "<ul><li>Punkt 1<\/li><li>Punkt 2<\/li><li>Punkt 3<\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "subtitle_TkCPwg",
+        "heading_M6qAkz",
         "heading_Pe3X8b",
-        "text_kdq4YE",
-        "dot_list_8Qqjdr"
+        "subtitle_TkCPwg",
+        "text_kdq4YE"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -144,7 +150,7 @@
         "heading_QU7dcE": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
+            "heading": "<p>Sauberes Leitungswasser ist von zentraler Bedeutung<\/p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -156,7 +162,7 @@
         "text_KJc8yY": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "text": "<p>Wasser bestimmt unseren Alltag, das merkt man spätestens, wenn die Versorgung mit sauberem Wasser einmal unterbrochen ist. Zwischen <strong>drei und fünf Litern Wasser <\/strong>verbraucht jeder Mensch in Deutschland <strong>pro Tag <\/strong>zum Trinken und Kochen. <\/p>",
             "second_font": true
           }
         }
@@ -182,11 +188,11 @@
           "type": "icon_content",
           "settings": {
             "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
-            "title": "GUT ZU WISSEN!",
+            "title": "LEITUNGSWASSER & KÖRPERHYGIENE",
             "title_tag": "p",
-            "heading_size": "h1",
+            "heading_size": "h3",
             "heading_second_font": false,
-            "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
+            "text": "<p>Allein für die Körperhygiene liegt der Pro-Kopf-Verbrauch in Deutschland bei circa 46 Liter pro Tag. Dementsprechend liegt es auf der Hand, dass man die Inhaltsstoffe im Wasser, das man trinkt und mit dem man sich wäscht, genau kennen möchte. Und da man laufend in Kontakt mit Wasser kommt, sollte es von einwandfreier Qualität sein.<br\/><br\/><\/p>",
             "second_font": true,
             "background_color": "#93d4ff",
             "background_color_opacity": 7,
@@ -197,6 +203,9 @@
       },
       "block_order": [
         "icon_content_Bfnqwr"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -271,7 +280,7 @@
         "collapsible_row_JhGtbi"
       ],
       "settings": {
-        "caption": "",
+        "caption": "Wichtige Fragen rund um Inhalts",
         "heading": "FAQs",
         "enable_icon": true,
         "heading_tag": "h2",
