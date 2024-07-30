@@ -799,6 +799,15 @@
             "text": "<p>In der Schweiz ist Welt noch in Ordnung. Blühende Wiesen, glückliche Kühe und glasklares Wasser - oder etwa nicht?<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-schweiz"
           }
+        },
+        "item_jPYHtE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wasserqualitatosterreich-1677759214066.jpg",
+            "title": "Österreich",
+            "text": "<p>Wie sauber ist das Wasser bei unserem direkten Nachbar Österrreich? Gibt es vergleichbare Regelungen wie in Deutschland?<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/leitungswasser-oesterreich"
+          }
         }
       },
       "block_order": [
@@ -807,7 +816,8 @@
         "item_Jd4Wkb",
         "item_zTxGAn",
         "item_KawRt9",
-        "item_8cLe6g"
+        "item_8cLe6g",
+        "item_jPYHtE"
       ],
       "settings": {
         "second_id": "wasser",
