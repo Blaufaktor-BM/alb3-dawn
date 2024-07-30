@@ -123,7 +123,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -215,6 +215,152 @@
         "content_full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "rich_text_YAfURw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jDRwiD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wertvolle Inhaltsstoffe im Wasser<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h1",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_JK9AJ7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tatsächlich enthält unser Leitungswasser wertvolle Mineralien und Spurenelemente, die für den menschlichen Organismus unverzichtbar sind. Allein deshalb ist sauberes Trinkwasser von zentraler Bedeutung für den Menschen. Folgende Tabelle gibt Ihnen eine Übersicht über die wichtigsten (wertvollen) Inhaltsstoffe im Leitungswasser.<\/p>",
+            "second_font": true
+          }
+        },
+        "heading_VdMqyp": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h3",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jDRwiD",
+        "text_JK9AJ7",
+        "heading_VdMqyp"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multi_icon_text_mymWbq": {
+      "type": "multi-icon_text",
+      "blocks": {
+        "item_QgfiXU": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/magnesiumelement-icon.svg",
+            "heading": "Magnesium",
+            "text": "<ul><li>Magnesium wird für viele Körperfunktionen benötigt.<\/li><li>Es unterstützt z. B. die Muskelaktivität im Körper, Proteinbildung,<\/li><li>Signalübertragung zwischen Nerven u.v.m.<\/li><li>Der Tagesbedarf liegt bei 300 – 400 Milligramm.<\/li><\/ul>"
+          }
+        },
+        "item_JwMiQ7": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/natronelement-icon.svg",
+            "heading": "Hydrogencarbonat (Natron)",
+            "text": "<ul><li>Hydrogencarbonat befindet sich (entgegen der weitverbreiteten Annahme) nicht nur im Mineralwässern, sondern auch im Leitungswasser.<\/li><li>Es gleicht z. B. den Säurehaushalt im Magen aus. <\/li><\/ul>"
+          }
+        },
+        "item_rwDdh3": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/calciumelement-icon.svg",
+            "heading": "Calcium",
+            "text": "<ul><li>Calcium unterstützt den Aufbau von Zähnen und Knochen.<\/li><li>Zudem fungiert es als wichtiger Transmitter bei der Übertragung von Nervenimpulsen auf die Muskelzellen.<\/li><li>Ein Calciummangel kann z. B. Kopfschmerzen oder Kreislaufschwächen verursachen.<\/li><li>Der Tagesbedarf liegt bei 1000 – 1200 Milligramm.<\/li><\/ul>"
+          }
+        },
+        "item_WiGTWX": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/sulfatelement-icon.svg",
+            "heading": "Sulfat",
+            "text": "<ul><li>Sulfat unterstützt die Herausbildung gesunder Nägel und Haare.<\/li><li>Außerdem wird der Schwefelverbindung eine verdauungsförderndeWirkung zugesprochen. <\/li><\/ul>"
+          }
+        },
+        "item_kxkNEA": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/natriumelement-icon.svg",
+            "heading": "Natrium",
+            "text": "<ul><li>Natrium hilft dabei, den Wasserhaushalt des Körpers zu regulieren.<\/li><li>Ein Natriummangel kann z. B. Übelkeit und Muskelkrämpfe verursachen.<\/li><li>Der Tagesbedarf liegt bei etwa 1500 Milligramm.<\/li><\/ul>"
+          }
+        },
+        "item_BtV8K3": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/kaliumelement-icon.svg",
+            "heading": "Kalium",
+            "text": "<ul><li>Kalium ist wichtig, um das Säure-Basen-Gleichgewicht undden Flüssigkeitshaushalt im Körper zu regulieren.<\/li><li>Ein Kaliummangel kann z. B. Appetitlosigkeit oder Verstopfungen verursachen.<\/li><li>Der Tagesbedarf liegt bei etwa 4000 Milligramm<\/li><\/ul>"
+          }
+        },
+        "item_WnBxq7": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/eisenelement-icon.svg",
+            "heading": "Eisen",
+            "text": "<ul><li>Eisen ist essentiell für den Sauerstofftransport im Blut.<\/li><li>Außerdem ist das Spurenelemente wichtig für die Blutbildung im menschlichen Körper.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "item_QgfiXU",
+        "item_JwMiQ7",
+        "item_rwDdh3",
+        "item_WiGTWX",
+        "item_kxkNEA",
+        "item_BtV8K3",
+        "item_WnBxq7"
+      ],
+      "settings": {
+        "bg": "#fafafa",
+        "heading": "Inhaltsstoffe und ihre Wirkung: Mineralien & Spurenelemente",
+        "heading_tag": "h3",
+        "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "column_count": "1",
+        "subtitle1": "",
+        "subtitle2": "",
+        "subtitle_tag": "p",
+        "subtitle_size": "h2",
+        "subtitle_weight": "700",
+        "subtitle_color": "#003e5f",
+        "subtitle_second_font": false,
+        "item_heading_tag": "h3",
+        "item_heading_size": "h3",
+        "item_heading_weight": "700",
+        "item_heading_color": "#616161",
+        "item_heading_second_font": false,
+        "item_text_color": "#616161",
+        "item_textsecond_font": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collapsible_content_EMKf4b": {
@@ -441,6 +587,8 @@
     "anchor_contact_pbeE6t",
     "rich_text_iaPi3V",
     "rich_text_CPxXAj",
+    "rich_text_YAfURw",
+    "multi_icon_text_mymWbq",
     "collapsible_content_EMKf4b",
     "post_product_list_bGnwEm",
     "question_list_iaRxmf"
