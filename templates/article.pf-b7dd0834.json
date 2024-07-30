@@ -407,6 +407,99 @@
         "padding_bottom": 52
       }
     },
+    "custom_image_text_bgnCJE": {
+      "type": "custom-image-text",
+      "blocks": {
+        "heading_MaRbqq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Inhaltsstoffe Wasser<\/p>",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "heading_weight": "700",
+            "second_font": false,
+            "heading_color": "#003e5f",
+            "remove_spacing": false
+          }
+        },
+        "text_Pdcm7T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Erfahren Sie hier Wichtiges über die möglichen Stoffe die sich in unserem Wasser befinden können. <\/p>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        },
+        "text_WnktYz": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\">Arzneimittelrückstände<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/hormone-im-leitungswasser\">Hormone<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\">Mikroplastik<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\">Pestizide\/Pflanzenschutzmittel<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\">Schwermetalle<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/per-und-polyfluorierte-chemikalien-pfas\">Per- und polyfluorierte Alkylsubstanzen (PFAS)<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\">Legionellen<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor\">Chlor<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/asbest\">Asbest<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/nitrate\">Nitrate<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/weichmacher-in-wasserflaschen\">Weichmacher<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/bakterien-im-leitungswasser\">Bakterien<\/a><\/li><\/ul>",
+            "text_style": "body",
+            "text_color": "#616161",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_MaRbqq",
+        "text_Pdcm7T",
+        "text_WnktYz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/inhaltsstoffe-von-wasser-mit-icons.webp",
+        "enable_image_ratio": true,
+        "image_ratio": "2_3",
+        "image_contain": true,
+        "image_width": "small",
+        "row_reverse": true,
+        "add_image_spacing": false,
+        "remove_content_spacing": true,
+        "top_radius": false,
+        "background_color": "#eaf7ff",
+        "image_bg": "",
+        "content_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_C3gecd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dTkGPf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Inhaltsstoffe im Leitungswasser – eine Black Box?<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_gJQPRq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für die meisten Verbraucher ist der Weg ihres Trinkwassers eine „Black Box“ und die Wasserqualität beruht oft mehr auf dem <strong>Prinzip Hoffnung<\/strong> als auf wirklicher Kenntnis. Damit Sie und Ihre Familie Ihr Leitungswasser bedenkenlos aus dem Hahn trinken oder zum Duschen verwenden können, <strong>sollten Sie sich besser schützen<\/strong>. Sie können schon mit relativ geringem Aufwand eine bestmögliche Wasserqualität erzielen.<br\/><br\/>Optimale Trinkwasserqualität erreicht man etwa, indem man das Wasser am Ort der Entnahme aufbereitet. Mit geeigneten <strong>Wasserfiltern am Untertisch, direkt am Wasserhahn oder in der Dusche <\/strong>geht das spielend leicht. Gute Wasserfilter entfernen sowohl Schadstoffe und Krankheitserreger zuverlässig. Das garantiert reines, sicheres und frisches Wasser in Küche und im Bad. Verlassen Sie sich lieber nicht auf eine Black Box!<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_dTkGPf",
+        "text_gJQPRq"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_EMKf4b": {
       "type": "collapsible-content",
       "blocks": {
@@ -516,62 +609,6 @@
         "content_bg_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "custom_image_text_bgnCJE": {
-      "type": "custom-image-text",
-      "blocks": {
-        "heading_MaRbqq": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Inhaltsstoffe Wasser<\/p>",
-            "heading_tag": "h2",
-            "heading_size": "h2",
-            "heading_weight": "700",
-            "second_font": false,
-            "heading_color": "#003e5f",
-            "remove_spacing": false
-          }
-        },
-        "text_Pdcm7T": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Erfahren Sie hier Wichtiges über die möglichen Stoffe die sich in unserem Wasser befinden können. <\/p>",
-            "text_style": "body",
-            "text_color": "#616161",
-            "second_font": true
-          }
-        },
-        "text_WnktYz": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\">Arzneimittelrückstände<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/hormone-im-leitungswasser\">Hormone<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\">Mikroplastik<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser\">Pestizide\/Pflanzenschutzmittel<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\">Schwermetalle<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/per-und-polyfluorierte-chemikalien-pfas\">Per- und polyfluorierte Alkylsubstanzen (PFAS)<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\">Legionellen<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor\">Chlor<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/asbest\">Asbest<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/nitrate\">Nitrate<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/weichmacher-in-wasserflaschen\">Weichmacher<\/a><\/li><li><a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/bakterien-im-leitungswasser\">Bakterien<\/a><\/li><\/ul>",
-            "text_style": "body",
-            "text_color": "#616161",
-            "second_font": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_MaRbqq",
-        "text_Pdcm7T",
-        "text_WnktYz"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/inhaltsstoffe-von-wasser-mit-icons.webp",
-        "enable_image_ratio": true,
-        "image_ratio": "2_3",
-        "image_contain": true,
-        "image_width": "small",
-        "row_reverse": true,
-        "add_image_spacing": false,
-        "remove_content_spacing": true,
-        "top_radius": false,
-        "background_color": "#eaf7ff",
-        "image_bg": "",
-        "content_bg": "",
-        "padding_top": 10,
-        "padding_bottom": 0
       }
     },
     "post_product_list_bGnwEm": {
@@ -763,8 +800,8 @@
         "content_color": "#616161",
         "link_color": "#003e5f",
         "enable_second_font": true,
-        "padding_top": 10,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     }
   },
@@ -778,8 +815,9 @@
     "rich_text_YAfURw",
     "multi_icon_text_mymWbq",
     "rich_text_YyYqQp",
-    "collapsible_content_EMKf4b",
     "custom_image_text_bgnCJE",
+    "rich_text_C3gecd",
+    "collapsible_content_EMKf4b",
     "post_product_list_bGnwEm",
     "question_list_iaRxmf"
   ]
