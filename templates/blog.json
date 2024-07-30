@@ -490,6 +490,177 @@
         "padding_top": 70,
         "padding_bottom": 15
       }
+    },
+    "post_list_Q7Gc3r": {
+      "type": "post-list",
+      "blocks": {
+        "item_P7wC9C": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0117_a8968d5d-0ba2-423e-b200-053c418745c1.jpg",
+            "title": "Wasser filtern. Sind Wasserfilter sinnvoll?",
+            "text": "<p>Erfahren Sie, warum Wasserfiltration wichtig ist und wie Sie damit Ihre Gesundheit und die Umwelt schützen können.<\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/warum-wasser-filtern"
+          }
+        },
+        "item_eN7irG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00037.jpg",
+            "title": "Arzneimittelrückstände im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser"
+          }
+        },
+        "item_93JgWb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00038.jpg",
+            "title": "Hormone im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/hormone-im-leitungswasser"
+          }
+        },
+        "item_AqUKNj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00039_f4d53dc8-aa10-4cf6-ac0e-bf7ce9b28676.jpg",
+            "title": "Mikroplastik im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/mikroplastik-im-leitungswasser"
+          }
+        },
+        "item_UzfRpx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00040.jpg",
+            "title": "Pestizide\/Pflanzenschutzmittel im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/pestizide-pflanzenschutzmittel-im-leitungswasser"
+          }
+        },
+        "item_kbBn9W": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00041.jpg",
+            "title": "Schwermetalle im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/schwermetalle-im-leitungswasser"
+          }
+        },
+        "item_D9izrr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00042.jpg",
+            "title": "Keime und Bakterien im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/bakterien-im-leitungswasser"
+          }
+        },
+        "item_XVepBT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00043.jpg",
+            "title": "Per- und polyfluorierte Chemikalien (PFC) im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/per-und-polyfluorierte-chemikalien-pfas"
+          }
+        },
+        "item_Hah74z": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00044.jpg",
+            "title": "Legionellen im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/legionellen-im-wasser"
+          }
+        },
+        "item_xG4mRA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00045.jpg",
+            "title": "Chlor im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/chlor"
+          }
+        },
+        "item_Ph8jLX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00046.jpg",
+            "title": "Kalk im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/kalk-im-wasser"
+          }
+        },
+        "item_atAAqf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00047.jpg",
+            "title": "Asbest im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/asbest"
+          }
+        },
+        "item_VJMTEi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00053.jpg",
+            "title": "Nitrate im Grund- und Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/nitrate-im-grund-und-trinkwasser"
+          }
+        },
+        "item_r9N97x": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Titelbilder-WEB-plain-00049.jpg",
+            "title": "Weichmacher im Trinkwasser",
+            "text": "",
+            "post": "shopify:\/\/blogs\/ratgeber\/weichmacher-in-wasserflaschen"
+          }
+        }
+      },
+      "block_order": [
+        "item_P7wC9C",
+        "item_eN7irG",
+        "item_93JgWb",
+        "item_AqUKNj",
+        "item_UzfRpx",
+        "item_kbBn9W",
+        "item_D9izrr",
+        "item_XVepBT",
+        "item_Hah74z",
+        "item_xG4mRA",
+        "item_Ph8jLX",
+        "item_atAAqf",
+        "item_VJMTEi",
+        "item_r9N97x"
+      ],
+      "settings": {
+        "second_id": "wasser",
+        "image": "shopify:\/\/shop_images\/pf-1350b621--wasserfilterratgeberwasserkanneicon.png",
+        "image_width": 100,
+        "heading": "Ratgeber Wasserfilter",
+        "heading_tag": "h2",
+        "heading_weight": "400",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "desktop_item_count": 4,
+        "image_border_radius": 30,
+        "title_tag": "h3",
+        "title_weight": "400",
+        "title_size": "h3",
+        "title_color": "#003e5f",
+        "title_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "btn_text": "",
+        "btn_color": "#0081be",
+        "padding_top": 70,
+        "padding_bottom": 15
+      }
     }
   },
   "order": [
@@ -497,6 +668,7 @@
     "rich_text_pKphzR",
     "blog_title_list_mgPc6m",
     "post_list_jDYckx",
-    "post_list_EB6erX"
+    "post_list_EB6erX",
+    "post_list_Q7Gc3r"
   ]
 }
