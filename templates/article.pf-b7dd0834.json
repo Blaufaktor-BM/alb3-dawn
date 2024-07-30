@@ -487,6 +487,93 @@
         "padding_bottom": 52
       }
     },
+    "image_list_Bn9tJF": {
+      "type": "image-list",
+      "blocks": {
+        "image_fb3JNL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filterkartusche-active-single.webp",
+            "url": ""
+          }
+        },
+        "image_dAXjBy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filterkartusche-nano-single.webp",
+            "url": ""
+          }
+        },
+        "image_NJzi4D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filterkartusche-activeplus-single.webp",
+            "url": ""
+          }
+        },
+        "image_xERwwd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filterkartusche-balance-single.webp",
+            "url": ""
+          }
+        },
+        "image_b3FcRt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filterkartusche-shungit-single.webp",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fb3JNL",
+        "image_dAXjBy",
+        "image_NJzi4D",
+        "image_xERwwd",
+        "image_b3FcRt"
+      ],
+      "settings": {
+        "color": "#ffffff"
+      }
+    },
+    "rich_text_96k7hQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mba8hX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WOLLEN SIE MEHR WISSEN?<br\/><br\/><\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "div",
+            "heading_size": "h2",
+            "font_weight": "200",
+            "second_font": false
+          }
+        },
+        "text_AEAYaj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mehr über<a href=\"https:\/\/alb-filter.com\/pages\/trinkwasserfilter\" target=\"_self\">Trinkwasserfilter erfahren Sie hier<\/a>.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_mba8hX",
+        "text_AEAYaj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_EMKf4b": {
       "type": "collapsible-content",
       "blocks": {
@@ -804,6 +891,8 @@
     "rich_text_YyYqQp",
     "custom_image_text_bgnCJE",
     "rich_text_C3gecd",
+    "image_list_Bn9tJF",
+    "rich_text_96k7hQ",
     "collapsible_content_EMKf4b",
     "post_product_list_bGnwEm",
     "question_list_iaRxmf"
