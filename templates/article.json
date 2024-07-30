@@ -121,11 +121,265 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "anchor_contact_pbeE6t": {
+      "type": "anchor_contact",
+      "settings": {
+        "color": "#616161",
+        "border_color": "#93d4ff",
+        "text": "<p>Autor: Benjamin Maywald<br\/>Position: Co-Founder Alb Filter<br\/>Aktualisiert am:<\/p>",
+        "social_title": "Jetzt teilen!",
+        "linkedin": "",
+        "facebook": "",
+        "twitter": "",
+        "pinterest": "",
+        "mail": "",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_iaPi3V": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QU7dcE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Erzähle etwas über deine Marke<\/p>",
+            "remove_spacing": false,
+            "color": "#003e5f",
+            "heading_tag": "h2",
+            "heading_size": "h2",
+            "font_weight": "700",
+            "second_font": false
+          }
+        },
+        "text_KJc8yY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>",
+            "second_font": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_QU7dcE",
+        "text_KJc8yY"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_CPxXAj": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_content_Bfnqwr": {
+          "type": "icon_content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-gluhbirne-handzeichnung.png",
+            "title": "GUT ZU WISSEN!",
+            "title_tag": "p",
+            "heading_size": "h1",
+            "heading_second_font": false,
+            "text": "<p>Ob Wasserfilter sinnvoll sind oder nicht, hängt immer von der Art und Qualität des Filters ab!<\/p>",
+            "second_font": true,
+            "background_color": "#93d4ff",
+            "background_color_opacity": 7,
+            "text_color": "#616161",
+            "border_color": "#93d4ff"
+          }
+        }
+      },
+      "block_order": [
+        "icon_content_Bfnqwr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "content_full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_EMKf4b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_m7TPRX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "none",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_x4b4D6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "none",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_pTwbb6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "none",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_JhGtbi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "none",
+            "row_content": "",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_m7TPRX",
+        "collapsible_row_x4b4D6",
+        "collapsible_row_pTwbb6",
+        "collapsible_row_JhGtbi"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "enable_icon": true,
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "heading_alignment": "left",
+        "open_first_collapsible_row": false,
+        "arrow_left": true,
+        "title_color": "#003e5f",
+        "title_bg": "#fafafa",
+        "text_color": "#616161",
+        "content_border_color": "#fafafa",
+        "content_bg_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "post_product_list_bGnwEm": {
+      "type": "post-product-list",
+      "blocks": {
+        "item_xpGABE": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        },
+        "item_MQkeNp": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        },
+        "item_99zi3E": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        },
+        "item_cirCLa": {
+          "type": "item",
+          "settings": {
+            "subtitle": "RATGEBER",
+            "title": "Wie misst man die Wasserqualität",
+            "text": "<p>Entdecken Sie in unserem Ratgeber, warum ein niedriger TDS-Wert nicht unbedingt eine hohe Wasserqualität bedeutet und welche Faktoren stattdessen relevant sind.<\/p>",
+            "btn_text": "Weiterlesen",
+            "url": "",
+            "content_url": "",
+            "border_color": "#9b9b9b"
+          }
+        }
+      },
+      "block_order": [
+        "item_xpGABE",
+        "item_MQkeNp",
+        "item_99zi3E",
+        "item_cirCLa"
+      ],
+      "settings": {
+        "heading": "Verwandte Artikel und Produkte",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
+        "slide_count": 3.3,
+        "image_ratio": "1_1",
+        "subtitle_color": "#616161",
+        "title_color": "#616161",
+        "title_tag": "p",
+        "title_size": "h2",
+        "title_weight": "700",
+        "title_second_font": false,
+        "content_color": "#616161",
+        "enable_second_font": true,
+        "btn_color": "#003e5f",
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "image_banner_CyV3eN",
-    "rich_text_Fha7FY"
+    "rich_text_Fha7FY",
+    "anchor_contact_pbeE6t",
+    "rich_text_iaPi3V",
+    "rich_text_CPxXAj",
+    "collapsible_content_EMKf4b",
+    "post_product_list_bGnwEm"
   ]
 }
