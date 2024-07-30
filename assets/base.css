@@ -5707,10 +5707,12 @@ summary[aria-expanded="true"] .accordion__title {
   margin-right: auto;
 }
 
-@media (max-width: 749px) {
-  .section-small_image_text .mobile-center {
-    text-align: center;
-  }
+.section-small_image_text .mobile-center {
+  text-align: center;
+}
+
+.section-small_image_text .mobile-right {
+  text-align: right;
 }
 
 @media only screen and (min-width: 750px) {
@@ -5728,8 +5730,16 @@ summary[aria-expanded="true"] .accordion__title {
     flex-direction: row-reverse;
   }
 
-  .wrapper-small_image_text.row-reverse .main-small_image_text {
-    text-align: right;
+  .section-small_image_text .desktop-left {
+    text-align: left !important;
+  }
+
+  .section-small_image_text .desktop-center {
+    text-align: center !important;
+  }
+
+  .section-small_image_text .desktop-right {
+    text-align: right !important;
   }
 
   .wrapper-small_image_text.row-reverse .small_image_text-image {

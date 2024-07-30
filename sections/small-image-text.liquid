@@ -35,7 +35,7 @@
     class="isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     style="background-color: {{ section.settings.background_color }}"
   >
-    <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %}{% if section.settings.mobile_center %} mobile-center{% endif %}">
+    <div class="page-width{% if section.settings.content_wrapper %} content-wrapper{% endif %} desktop-{{ section.settings.content_position }} mobile-{{ section.settings.m_content_position }}">
       {%- if section.settings.heading != blank -%}
         <{{ section.settings.heading_tag }}
           class="small_image_text-heading inline-richtext{% if section.settings.second_font %} second-font{% endif %} {{ section.settings.heading_size }}"
@@ -135,6 +135,47 @@
       "type": "checkbox",
       "id": "image_right",
       "label": "Image Right"
+    },
+    {
+      "type": "select",
+      "id": "content_position",
+      "label": "Content Position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+
+    {
+      "type": "select",
+      "id": "m_content_position",
+      "label": "Mobile Content Position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
     },
     {
       "type": "checkbox",
@@ -254,11 +295,6 @@
       "type": "checkbox",
       "id": "second_font",
       "label": "Second Font"
-    },
-    {
-      "type": "checkbox",
-      "id": "mobile_center",
-      "label": "Mobile Content Center"
     },
     {
       "type": "image_picker",
