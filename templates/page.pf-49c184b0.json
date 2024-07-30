@@ -21,7 +21,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/BG-Camper-Strand_02.webp",
-        "image_overlay_color": "#000",
+        "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -248,7 +248,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-mobil",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
@@ -311,7 +311,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/collections\/camping-travel",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
@@ -371,7 +371,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/pro-camper-set",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
@@ -507,7 +507,7 @@
       "settings": {
         "image_right": true,
         "content_position": "right",
-        "m_content_position": "left",
+        "m_content_position": "center",
         "content_wrapper": true,
         "background_color": "#fafafa",
         "heading": "",
@@ -561,7 +561,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-filter-flextube-befullschlauch",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
@@ -639,7 +639,7 @@
           "settings": {
             "button_label1": "Kaufen",
             "button_link1": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
@@ -976,7 +976,7 @@
           "settings": {
             "button_label1": "Alb Filter Camping Broschüre 2023\/24 (PDF)",
             "button_link1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/2023-Broschure-Camping_ALU_EDEL_v03_kompr.pdf?v=1708340672",
-            "btn_color": "#fff",
+            "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "",
