@@ -148,11 +148,97 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "post_list_jDYckx": {
+      "type": "post-list",
+      "blocks": {
+        "item_3mbGrz": {
+          "type": "item",
+          "settings": {
+            "title": "Ratgeber Wasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": ""
+          }
+        },
+        "item_B4A3bF": {
+          "type": "item",
+          "settings": {
+            "title": "Unser Leitungswasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": ""
+          }
+        },
+        "item_3BBhEf": {
+          "type": "item",
+          "settings": {
+            "title": "Unser Leitungswasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": ""
+          }
+        },
+        "item_G4PY9P": {
+          "type": "item",
+          "settings": {
+            "title": "Unser Leitungswasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": ""
+          }
+        },
+        "item_ARfG9Y": {
+          "type": "item",
+          "settings": {
+            "title": "Unser Leitungswasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": ""
+          }
+        },
+        "item_RjdhNx": {
+          "type": "item",
+          "settings": {
+            "title": "Unser Leitungswasser",
+            "text": "<p>Das deutsche Trinkwasser gilt als das am besten überwachte Lebensmittel. Hier erfahren Sie mehr.<\/p>",
+            "post": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_3mbGrz",
+        "item_B4A3bF",
+        "item_3BBhEf",
+        "item_G4PY9P",
+        "item_ARfG9Y",
+        "item_RjdhNx"
+      ],
+      "settings": {
+        "second_id": "wasser",
+        "image": "shopify:\/\/shop_images\/pf-1e164c21--wasserfilterratgeberwassertropfenicon.png",
+        "image_width": 100,
+        "heading": "Ratgeber Wasser",
+        "heading_tag": "h2",
+        "heading_weight": "700",
+        "heading_size": "h1",
+        "heading_color": "#003e5f",
+        "heading_second_font": true,
+        "desktop_item_count": 4,
+        "image_border_radius": 30,
+        "title_tag": "h3",
+        "title_weight": "400",
+        "title_size": "h3",
+        "title_color": "#003e5f",
+        "title_second_font": true,
+        "text_color": "#616161",
+        "text_second_font": true,
+        "btn_text": "Weiterlesen",
+        "btn_color": "#003e5f",
+        "padding_top": 70,
+        "padding_bottom": 15
+      }
     }
   },
   "order": [
     "main",
     "rich_text_pKphzR",
-    "blog_title_list_mgPc6m"
+    "blog_title_list_mgPc6m",
+    "post_list_jDYckx"
   ]
 }
