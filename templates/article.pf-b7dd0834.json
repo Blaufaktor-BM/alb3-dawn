@@ -413,9 +413,9 @@
         "collapsible_row_m7TPRX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Welche Mineralien sind im Leitungswasser?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Im Leitungswasser befinden sich wertvolle Mineralien und Spurenelemente, die für den menschlichen Körper unverzichtbar sind, so z.B.<\/p><ul><li>Magnesium<\/li><li>Hydrogencarbonat (Natron)<\/li><li>Calcium<\/li><li>Sulfat<\/li><li>Natrium<\/li><li>Kalium<\/li><li>Eisen<br\/><\/li><\/ul>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -426,9 +426,9 @@
         "collapsible_row_x4b4D6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Was für Inhaltsstoffe sind noch im Leitungswasser?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Auch bedenkliche Inhaltsstoffe können Ihren Weg ins Leitungswasser finden und in (nicht unbedenklichen) Konzentrationen messbar sein. Dazu gehören z.B. Nitrate, Schwermetalle, Hormone, Mikroplastik, Pestizide, Medikamentenrückstände und Bakterien.<\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -439,9 +439,9 @@
         "collapsible_row_pTwbb6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Hat Mineralwasser mehr Mineralien als Leitungswasser?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Laut dem aktuellsten Bericht der <a href=\"https:\/\/www.test.de\/Natuerliches-Mineralwasser-im-Test-4258945-0\/\" title=\"Natuerliches Mineralwasser im Test\">Stiftung Warentest<\/a> weisen viele gekaufte Mineralwässer nur einen geringen <strong>Mineralien-Gehalt von unter 500 Milligramm pro Liter<\/strong> auf – das ist ein deutlich geringerer Wert, als er sich vielerorts bei Leitungswasser messen lässt. <a href=\"#q10\" title=\"#q10\">[10]<\/a><\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -452,9 +452,35 @@
         "collapsible_row_JhGtbi": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Einklappbare Reihe",
+            "heading": "Ist es gut wenn man nur Leitungswasser trinkt?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Sofern das Leitungswasser <strong>nicht mit Schadstoffen belastet<\/strong> ist, ist es ein idealer Durstlöscher. Dann kann man es problemlos trinken und eine Menge Geld sparen: denn Leitungswasser ist circa <strong>100 mal günstiger<\/strong> als Mineralwasser aus Flaschen.<br\/><br\/><\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BTiQqB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist in Leitungswasser Calcium und Magnesium?",
+            "icon": "none",
+            "row_content": "<p>Das unterscheidet sich natürlich von Ort zu Ort, aber grundsätzlich gilt: <strong>Calcium und Magnesium <\/strong>sind ein wesentlicher Bestandteil im Leitungswasser. Beide Stoffe sind für den Härtegrad des Wassers (Kalkgehalt) verantwortlich, erfüllen wichtige Vitalfunktionen im Körper und können den Geschmack von Heißgetränken beeinflussen.<\/p>",
+            "small_text1": "",
+            "small_text2": "",
+            "bottom_text": "",
+            "exclamation_list": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3AL8HE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welche Werte sollte gutes Trinkwasser haben?",
+            "icon": "none",
+            "row_content": "<p>Häufig liest man, dass man mithilfe des TDS-Messwertes die <a href=\"\/blogs\/ratgeber\/wie-misst-man-die-wasserqualitaet\" title=\"Wie misst man die Wasserqualität?\">Qualität von Wasser messen<\/a> kann. Das ist ein Missverständnis, denn der TDS-Wert ist ein rein quantitativer Wert für die Menge an Stoffen, die z. B. im Trinkwasser gelöst sind. Aber er lässt keine Rückschlüsse zu, um welche Stoffe es sich handelt.<br\/><br\/><\/p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -467,10 +493,12 @@
         "collapsible_row_m7TPRX",
         "collapsible_row_x4b4D6",
         "collapsible_row_pTwbb6",
-        "collapsible_row_JhGtbi"
+        "collapsible_row_JhGtbi",
+        "collapsible_row_BTiQqB",
+        "collapsible_row_3AL8HE"
       ],
       "settings": {
-        "caption": "Wichtige Fragen rund um Inhalts",
+        "caption": "Inhaltsstoffe Leitungswasser",
         "heading": "FAQs",
         "enable_icon": true,
         "heading_tag": "h2",
@@ -479,7 +507,7 @@
         "heading_color": "#003e5f",
         "heading_second_font": false,
         "heading_alignment": "left",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "arrow_left": true,
         "title_color": "#003e5f",
         "title_bg": "#fafafa",
