@@ -214,6 +214,15 @@
             "text": "<p>Es mehren sich Berichte über bakterielle Verunreinigungen im Leitungswasser. Wie gefährlich ist das? <\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/bakterien-im-leitungswasser"
           }
+        },
+        "item_k3jKWw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_018_36aca32f-b09a-4937-bf94-e1b65dc91efb.jpg",
+            "title": "Chlor im Trinkwasser",
+            "text": "<p>In Deutschland wird Wasser mit Chlor behandelt, um es vor Bakterien zu schützen. Studien weisen jedoch auf mögliche Gesundheitsrisiken hin. <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/chlor"
+          }
         }
       },
       "block_order": [
@@ -223,7 +232,8 @@
         "item_G4PY9P",
         "item_ARfG9Y",
         "item_RjdhNx",
-        "item_EmFV6G"
+        "item_EmFV6G",
+        "item_k3jKWw"
       ],
       "settings": {
         "second_id": "wasser",
