@@ -83,7 +83,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-1e164c21--wasserfilterratgeberwassertropfenicon.png",
             "text": "<p>Ratgeber <br\/>Wasser<\/p>",
-            "url": ""
+            "url": "#wasser"
           }
         },
         "item_kDjVLP": {
@@ -91,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-28ccd7eb--wasserfilterratgeberlupeicon.png",
             "text": "<p>Inhaltsstoffe im Trinkwasser<\/p>",
-            "url": ""
+            "url": "#trinkwasser"
           }
         },
         "item_dcy7Hi": {
@@ -99,7 +99,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-1350b621--wasserfilterratgeberwasserkanneicon.png",
             "text": "<p>Ratgeber <br\/>Wasserfilter<\/p>",
-            "url": ""
+            "url": "#wasserfilter"
           }
         },
         "item_Gm4Yf3": {
@@ -107,7 +107,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-a39b644d--wasserfilterratgeberhandicon.png",
             "text": "<p>Ratgeber <br\/>Umwelt und Gesundheit<\/p>",
-            "url": ""
+            "url": "#gesundheit"
           }
         },
         "item_PibXNQ": {
@@ -115,7 +115,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/iconsratgebererde372dpi-1658477234940.png",
             "text": "<p>Ratgeber <br\/>Wasserqualität Urlaubsländer<\/p>",
-            "url": ""
+            "url": "#urlaubsländer"
           }
         },
         "item_WcJHFE": {
@@ -123,7 +123,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/iconsratgebercaravan72dpi-1638534443618.png",
             "text": "<p>Ratgeber <br\/>Camping<\/p>",
-            "url": ""
+            "url": "#camping"
           }
         }
       },
