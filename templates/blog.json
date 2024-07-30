@@ -232,6 +232,15 @@
             "text": "<p>Um unseren tägliche Flüssigkeitsbedarf zu decken trinken wir oft Leitungswasser. Doch ist es wirklich gesund? Erfahren Sie mehr!<\/p>",
             "post": "shopify:\/\/blogs\/ratgeber\/ist-leitungswasser-gesund"
           }
+        },
+        "item_qyAMVr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ratgeber-Vorschaubilder_0112_6b23a214-3fca-48eb-84a9-655b261b70df.jpg",
+            "title": "Temperatur Leitungswasser",
+            "text": "<p>Wie kalt kommt das Wasser aus der Leitung? Ist warmes Wasser gesünder als kaltes? Hier gibt es Vor-und Nachteile der Trinktemperatur? <\/p>",
+            "post": "shopify:\/\/blogs\/ratgeber\/temperatur-leitungswasser"
+          }
         }
       },
       "block_order": [
@@ -243,7 +252,8 @@
         "item_RjdhNx",
         "item_EmFV6G",
         "item_k3jKWw",
-        "item_mVKgeV"
+        "item_mVKgeV",
+        "item_qyAMVr"
       ],
       "settings": {
         "second_id": "wasser",
