@@ -395,7 +395,6 @@
             "button_link1": "shopify:\/\/products\/camping-wasserfilter-fusion-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
             "second_btn_color": "#616161"
@@ -961,7 +960,6 @@
             "button_link1": "shopify:\/\/products\/pro-camper-set",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "",
             "button_link2": "shopify:\/\/products\/pro-camper-set",
             "second_btn_color": "#0081be"

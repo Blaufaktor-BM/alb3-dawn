@@ -22,9 +22,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Camping-Mobil-Frau-Tanken-2500x600.webp",
         "image_2": "shopify:\/\/shop_images\/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
+        "image_overlay_color": "#000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
+        "image_position": "center",
         "desktop_content_position": "middle-center",
         "enable_section_container": false,
         "show_text_box": true,
@@ -43,6 +45,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>ALB TRAVEL<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
@@ -54,6 +57,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Camping-Wasserfilter<\/p>",
+            "remove_spacing": false,
             "color": "#16334a",
             "heading_tag": "h1",
             "heading_size": "h1",
@@ -65,6 +69,9 @@
           "type": "subtitle",
           "settings": {
             "subtitle": "Zur permanenten Installation in Wohnmobilen, Campern und Booten",
+            "subtitle_tag": "p",
+            "subtitle_size": "h3",
+            "font_weight": "400",
             "color": "#333333",
             "second_font": true
           }
@@ -83,6 +90,7 @@
             "button_label": "Zum Shop",
             "button_link": "shopify:\/\/collections\/camping-travel",
             "button_style_secondary": false,
+            "btn_icon": "cart",
             "button_label_2": "",
             "button_link_2": "",
             "second_btn_color": "#0081be"
@@ -228,6 +236,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Einbau Wasserfilter für Wohnmobile, Camper und Boote<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -303,6 +312,11 @@
         "title": "",
         "heading_tag": "h2",
         "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -338,6 +352,7 @@
             "heading": "<p>Travel Active<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": true
@@ -418,7 +433,7 @@
             "button_link1": "shopify:\/\/products\/camping-wasserfilter-active-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
             "second_btn_color": "#3c3c3c"
@@ -460,6 +475,7 @@
             "heading": "<p>Travel Nano<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": true
@@ -540,7 +556,7 @@
             "button_link1": "shopify:\/\/products\/camping-wasserfilter-nano-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
             "second_btn_color": "#3c3c3c"
@@ -582,6 +598,7 @@
             "heading": "<p>Travel Fusion<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": true
@@ -668,7 +685,7 @@
             "button_link1": "shopify:\/\/products\/camping-wasserfilter-fusion-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
             "second_btn_color": "#3c3c3c"
@@ -710,11 +727,18 @@
             "heading": "<strong>Vergleich der Filtereigenschaften<\/strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
+            "heading_weight": "700",
             "heading_color": "#003e5f",
+            "heading_second_font": false,
             "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
+            "text_second_font": false,
             "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
             "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
-            "image3": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg"
+            "image3": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "subtitle1": "",
+            "subtitle_range1": 2,
+            "subtitle2": "",
+            "subtitle_range2": 1
           }
         },
         "filter_properties_hkjwqy": {
@@ -937,6 +961,13 @@
         "heading_color": "#003e5f",
         "heading_second_font": false,
         "column_count": "2",
+        "subtitle1": "",
+        "subtitle2": "",
+        "subtitle_tag": "h3",
+        "subtitle_size": "h2",
+        "subtitle_weight": "700",
+        "subtitle_color": "#003e5f",
+        "subtitle_second_font": false,
         "item_heading_tag": "h3",
         "item_heading_size": "h2",
         "item_heading_weight": "400",
@@ -955,6 +986,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Einfache Installation<\/p>",
+            "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -982,6 +1014,24 @@
         "content_full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "video_FP3AnQ": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_raNjCX": {
@@ -1028,7 +1078,8 @@
             "color": "#ffffff",
             "second_font": false,
             "heading_tag": "h2",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_weight": "700"
           }
         },
         "subheading_rQf7GT": {
@@ -1059,6 +1110,7 @@
         "section_color_scheme": "",
         "image": "shopify:\/\/shop_images\/pf-173c967e--albfiltermobilfusionschmal.jpg",
         "image_height": 350,
+        "enable_border": true,
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -1106,7 +1158,7 @@
             "button_link1": "shopify:\/\/collections\/fusion",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
             "second_btn_color": "#0081be"
@@ -1143,7 +1195,14 @@
             "image": "shopify:\/\/shop_images\/Made_in_Germany-weiss.svg",
             "title": "",
             "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_HEGXw3": {
@@ -1152,7 +1211,14 @@
             "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
             "title": "",
             "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_btfYwJ": {
@@ -1161,7 +1227,14 @@
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
             "title": "",
             "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_XNtAnq": {
@@ -1170,7 +1243,14 @@
             "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
             "title": "",
             "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         }
       },
@@ -1184,9 +1264,11 @@
         "color_scheme": "scheme-3aea43b9-0a6f-4b7b-955a-2e5f7270a777",
         "title_color": "#003e5f",
         "column_count": 4,
+        "content_position": "center",
         "full_width": true,
         "image_white": false,
         "large_image": false,
+        "full_image": false,
         "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 8
@@ -1209,6 +1291,7 @@
             "heading": "<p>ALB PROTECT VORFILTER<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": false
@@ -1230,7 +1313,7 @@
             "button_link1": "shopify:\/\/products\/vorfilter-protect-mit-wechselpad-edelstahl",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/protect-vorfilter",
             "second_btn_color": "#0081be"
@@ -1277,6 +1360,7 @@
             "heading": "<p>TRAVEL Anschluss-Set GEKA (ohne Filter)<\/p>",
             "heading_tag": "h3",
             "heading_size": "h2",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#003e5f",
             "remove_spacing": false
@@ -1298,7 +1382,7 @@
             "button_link1": "shopify:\/\/products\/alb-campingfilter-anschluss-set-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
             "button_link2": "shopify:\/\/collections\/zubehor",
             "second_btn_color": "#0081be"
@@ -1354,13 +1438,18 @@
       ],
       "settings": {
         "background_color": "#fafafa",
+        "enable_border": false,
         "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "image_width": 150,
         "heading": "Sie haben Fragen?",
         "heading_tag": "h4",
         "heading_size": "h2",
+        "heading_weight": "700",
         "heading_color": "#616161",
+        "enable_heading_second_font": false,
         "text": "<p>Hier erhalten Sie wichtige Inforamtionen zu unseren Trinkwasserfiltern<br\/>oder können mit uns in Kontakt treten. <\/p>",
         "text_color": "#616161",
+        "enable_text_second_font": true,
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
         "item_border_color": "#003e5f",
@@ -1382,6 +1471,7 @@
     "product_compare_Yehh4q",
     "multi_icon_text_iDwrbJ",
     "rich_text_x8YmLQ",
+    "video_FP3AnQ",
     "rich_text_raNjCX",
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",

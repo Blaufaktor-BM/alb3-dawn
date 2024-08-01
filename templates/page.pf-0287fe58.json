@@ -290,7 +290,6 @@
             "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -416,7 +415,6 @@
             "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active-plus",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -539,7 +537,6 @@
             "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-nano",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -912,7 +909,6 @@
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "second_font": false,
-        "mobile_center": true,
         "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
         "image_width": 235,
         "image_mobile_width": 220,

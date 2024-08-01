@@ -320,7 +320,6 @@
             "button_link1": "shopify:\/\/products\/alb-duschfilter-balance",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/balance-duschfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -446,7 +445,6 @@
             "button_link1": "shopify:\/\/products\/alb-duschfilter-shungit",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/shungit-duschfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -562,7 +560,6 @@
             "button_link1": "shopify:\/\/products\/alb-filter-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -853,7 +850,6 @@
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "second_font": false,
-        "mobile_center": true,
         "image": "shopify:\/\/shop_images\/Element-Dusche-Armatur-Vector-NEU.png",
         "image_width": 235,
         "image_mobile_width": 220,
@@ -1127,7 +1123,6 @@
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "second_font": false,
-        "mobile_center": false,
         "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
         "image_width": 200,
         "image_mobile_width": 285,
