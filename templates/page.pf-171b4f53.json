@@ -188,7 +188,7 @@
         "heading_eW8jGy": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Filter Mobil Protect - Befüllfilter",
+            "heading": "<p>Alb Filter Mobil Protect - Befüllfilter<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -233,7 +233,7 @@
         "heading_WPtXBk": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Filter Travel - Nach dem Wassertank festverbaut",
+            "heading": "<p>Alb Filter Travel - Nach dem Wassertank festverbaut<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -306,7 +306,7 @@
         "heading_cDwzCP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Pro Camper Set<\/strong>",
+            "heading": "<p><strong>Pro Camper Set<\/strong><\/p>",
             "heading_tag": "h3",
             "heading_size": "h1",
             "second_font": false,
@@ -929,7 +929,7 @@
         "heading_QUyQNG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Alb Filter Pro Camper Set<\/strong>",
+            "heading": "<p><strong>Alb Filter Pro Camper Set<\/strong><\/p>",
             "heading_tag": "h3",
             "heading_size": "h2",
             "second_font": false,
