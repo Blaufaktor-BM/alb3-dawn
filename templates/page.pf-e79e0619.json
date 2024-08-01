@@ -326,7 +326,7 @@
         "heading_iWMNMa": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Active",
+            "heading": "<p>Mobil Active<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -448,7 +448,7 @@
         "heading_FHpRnQ": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Nano",
+            "heading": "<p>Mobil Nano<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -570,7 +570,7 @@
         "heading_tFYkJW": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Fusion",
+            "heading": "<p>Mobil Fusion<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -927,7 +927,7 @@
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "heading_second_font": false,
-        "column_count": 2,
+        "column_count": "2",
         "item_heading_tag": "h3",
         "item_heading_size": "h2",
         "item_heading_weight": "400",
@@ -1157,7 +1157,7 @@
         "heading_aYaBrz": {
           "type": "heading",
           "settings": {
-            "heading": "ALB PROTECT VORFILTER",
+            "heading": "<p>ALB PROTECT VORFILTER<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -1225,7 +1225,7 @@
         "heading_NhAnqm": {
           "type": "heading",
           "settings": {
-            "heading": "Mobil Anschluss-Set GEKA (ohne Filter)",
+            "heading": "<p>Mobil Anschluss-Set GEKA (ohne Filter)<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
