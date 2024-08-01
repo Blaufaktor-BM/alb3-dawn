@@ -5048,6 +5048,7 @@ slideshow-component .banner__heading.h1 {
 .item-multi_text {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .item_img-multi_text img {
@@ -5055,12 +5056,9 @@ slideshow-component .banner__heading.h1 {
   max-width: 60px;
   height: auto;
   object-fit: contain;
+  display: block;
 }
 
-.right_wrapper-multi_text,
-.left_wrapper-multi_text {
-  padding: 15px;
-}
 
 @media only screen and (min-width: 750px) {
   .wrapper-multi_text {
@@ -5068,22 +5066,13 @@ slideshow-component .banner__heading.h1 {
   }
 
   .right-multi_text {
-    max-width: 40%;
-  }
-
-  .right_wrapper-multi_text {
-    max-width: 410px;
-    margin: 0 auto;
+    max-width: calc(40% - 15px);
   }
 
   .left-multi_text {
-    max-width: 60%;
+    max-width: calc(60% - 15px);
   }
 
-  .left_wrapper-multi_text {
-    max-width: 600px;
-    margin: 0 auto;
-  }
 }
 
 /* multi text */
