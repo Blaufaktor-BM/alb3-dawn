@@ -5095,6 +5095,14 @@ slideshow-component .banner__heading.h1 {
     margin: 0 auto;
   }
 
+  .wrapper-multi_text.full_width .left-multi_text {
+    max-width: calc(60% - 15px);
+  }
+
+  .wrapper-multi_text.full_width .right-multi_text {
+    max-width: calc(40% - 15px);
+  }
+
   .wrapper-multi_text.full_width .left_wrapper-multi_text,
   .wrapper-multi_text.full_width .right_wrapper-multi_text {
     max-width: 100%;
