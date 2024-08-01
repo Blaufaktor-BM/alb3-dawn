@@ -33,7 +33,7 @@
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <{{ section.settings.heading_tag }}
-          class="title inline-richtext {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
+          class="title inline-richtext rte {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
           style="font-weight: {{ section.settings.heading_weight }}"
         >
           {{ section.settings.title }}
@@ -246,7 +246,7 @@
           "label": "H4"
         },
         {
-          "value": "p",
+          "value": "div",
           "label": "P"
         }
       ],
