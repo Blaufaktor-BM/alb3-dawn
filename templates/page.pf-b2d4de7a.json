@@ -335,7 +335,7 @@
         "heading_iWMNMa": {
           "type": "heading",
           "settings": {
-            "heading": "Travel Active",
+            "heading": "<p>Travel Active<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -457,7 +457,7 @@
         "heading_FHpRnQ": {
           "type": "heading",
           "settings": {
-            "heading": "Travel Nano",
+            "heading": "<p>Travel Nano<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -579,7 +579,7 @@
         "heading_tFYkJW": {
           "type": "heading",
           "settings": {
-            "heading": "Travel Fusion",
+            "heading": "<p>Travel Fusion<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -936,7 +936,7 @@
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "heading_second_font": false,
-        "column_count": 2,
+        "column_count": "2",
         "item_heading_tag": "h3",
         "item_heading_size": "h2",
         "item_heading_weight": "400",
@@ -982,22 +982,6 @@
         "content_full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "video_EdKEdt": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "rich_text_raNjCX": {
@@ -1222,7 +1206,7 @@
         "heading_aYaBrz": {
           "type": "heading",
           "settings": {
-            "heading": "ALB PROTECT VORFILTER",
+            "heading": "<p>ALB PROTECT VORFILTER<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -1290,7 +1274,7 @@
         "heading_DRyDhX": {
           "type": "heading",
           "settings": {
-            "heading": "TRAVEL Anschluss-Set GEKA (ohne Filter)",
+            "heading": "<p>TRAVEL Anschluss-Set GEKA (ohne Filter)<\/p>",
             "heading_tag": "h3",
             "heading_size": "h2",
             "second_font": false,
@@ -1398,7 +1382,6 @@
     "product_compare_Yehh4q",
     "multi_icon_text_iDwrbJ",
     "rich_text_x8YmLQ",
-    "video_EdKEdt",
     "rich_text_raNjCX",
     "column_richtext_GjitiY",
     "column_image_text_Cbkyz6",
