@@ -6926,6 +6926,9 @@ ul.breadcrumb li a:hover {
 .wrapper-anchor_contact {
   display: flex;
   flex-wrap: wrap;
+}
+
+.anchor-container {
   max-width: 860px;
   margin: 0 auto;
 }
