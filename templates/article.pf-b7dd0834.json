@@ -325,7 +325,7 @@
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "Inhaltsstoffe und ihre Wirkung: Mineralien & Spurenelemente",
+        "heading": "<p>Inhaltsstoffe und ihre Wirkung: Mineralien & Spurenelemente<\/p>",
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "700",
@@ -860,7 +860,7 @@
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "Wie schädliche Inhaltsstoffe ins Leitungswasser gelangen können",
+        "heading": "<p>Wie schädliche Inhaltsstoffe ins Leitungswasser gelangen können<\/p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
