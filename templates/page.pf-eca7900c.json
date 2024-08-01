@@ -158,7 +158,7 @@
         "heading_7gV4bT": {
           "type": "heading",
           "settings": {
-            "heading": "Modularer Wasserfilter",
+            "heading": "<p>Modularer Wasserfilter<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -240,7 +240,7 @@
         "heading_knck3B": {
           "type": "heading",
           "settings": {
-            "heading": "Untertisch Active",
+            "heading": "<p>Untertisch Active<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -353,7 +353,7 @@
         "heading_UTCXwQ": {
           "type": "heading",
           "settings": {
-            "heading": "Untertisch Active Plus+",
+            "heading": "<p>Untertisch Active Plus+<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -470,7 +470,7 @@
         "heading_WWmKrt": {
           "type": "heading",
           "settings": {
-            "heading": "Untertisch Nano",
+            "heading": "<p>Untertisch Nano<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -584,7 +584,7 @@
         "heading_tGcWwP": {
           "type": "heading",
           "settings": {
-            "heading": "Untertisch Fusion",
+            "heading": "<p>Untertisch Fusion<\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -1222,7 +1222,7 @@
         "image_right": false,
         "content_wrapper": false,
         "background_color": "",
-        "heading": "Mehr zum Thema Wasser und Wasserfilter",
+        "heading": "<p>Mehr zum Thema Wasser und Wasserfilter<\/p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
