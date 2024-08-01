@@ -153,7 +153,7 @@
         "heading_RgJXtJ": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Modularer Wasserfilter<\/strong>",
+            "heading": "<p><strong>Modularer Wasserfilter<\/strong><\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -207,7 +207,7 @@
         "heading_cDwzCP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duo Active<\/strong>",
+            "heading": "<p><strong>Duo Active<\/strong><\/p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -329,7 +329,7 @@
         "heading_hFwBHw": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duo Active Plus+<\/strong>",
+            "heading": "<p><strong>Duo Active Plus+<\/strong><\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -455,7 +455,7 @@
         "heading_jdANAe": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Duo Nano<\/strong>",
+            "heading": "<p><strong>Duo Nano<\/strong><\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
