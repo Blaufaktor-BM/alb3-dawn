@@ -9,6 +9,80 @@
 */
 {
   "sections": {
+    "multicolumn_ApWHFn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rUzfQ4": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "subtitle": "Sub title",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e8tUMP": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "subtitle": "Sub title",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HnAKmb": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "subtitle": "Sub title",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rUzfQ4",
+        "column_e8tUMP",
+        "column_HnAKmb"
+      ],
+      "settings": {
+        "title": "<p>Mit mehreren Spalten<\/p>",
+        "heading_tag": "p",
+        "heading_size": "h1",
+        "heading_weight": "700",
+        "heading_second_font": false,
+        "enable_hover_animation": true,
+        "enable_item_border": false,
+        "remove_content_spacing": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_heading_second": false,
+        "column_heading_tag": "h3",
+        "column_heading_size": "h3",
+        "column_heading_weight": "700",
+        "column_heading_color": "#616161",
+        "column_subtitle_second": false,
+        "column_subtitle_tag": "h3",
+        "column_subtitle_weight": "700",
+        "column_subtitle_size": "h3",
+        "column_subtitle_color": "#616161",
+        "column_text_second": true,
+        "btn_color": "#0081be",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "slideshow_KD9aNM": {
       "type": "slideshow",
       "blocks": {
@@ -232,6 +306,7 @@
         "title_color": "#003e5f",
         "title_second_font": false,
         "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany<\/p>",
+        "subtitle_tag": "h2",
         "subtitle_size": "h1",
         "subtitle_weight": "700",
         "subtitle_second_font": false,
@@ -240,6 +315,7 @@
         "text_second_font": true,
         "btn_text": "Zum Shop",
         "btn_url": "\/products",
+        "btn_icon": "cart",
         "info_text": "Unsere Produktkategorien:",
         "info_text_second_font": true,
         "info_list_second_font": false,
@@ -287,6 +363,7 @@
             "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/trinkwasserfilter",
             "second_btn_color": "#0081be"
@@ -356,6 +433,7 @@
             "button_link1": "shopify:\/\/collections\/duschfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/duschfilter",
             "second_btn_color": "#0081be"
@@ -425,6 +503,7 @@
             "button_link1": "shopify:\/\/collections\/camping-wasserfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
+            "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/camping-wasserfilter",
             "second_btn_color": "#0081be"
@@ -786,6 +865,8 @@
             "heading_second_font": true,
             "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
             "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
+            "btn_text": "",
+            "btn_url": "",
             "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
             "icon1_width": 20,
             "icon2": "shopify:\/\/shop_images\/pf-54e00be4--wasserfiltericonlandingduscheweiss.svg",
@@ -806,6 +887,8 @@
             "heading_second_font": true,
             "subtitle": "Die elegante Filterlösung für Ihre Armatur.",
             "text": "<p>Machen Sie aus Ihrem Wasserhahn einen Trinkwasserspender.<br\/>Hebel umlegen und geniessen!<br\/><br\/>Anwendungsbereich:<\/p>",
+            "btn_text": "",
+            "btn_url": "",
             "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
             "icon1_width": 20,
             "icon2_width": 20,
@@ -833,10 +916,12 @@
         "text_color": "#616161",
         "btn_text": "Kaufen",
         "btn_url": "\/products",
+        "btn_icon": "cart",
         "btn_bg_color": "#0081be",
         "btn_color": "#ffffff",
         "bottom_bg_color": "#003e5f",
         "bottom_text_color": "#ffffff",
+        "item_btn_color": "#0081be",
         "padding_top": 35,
         "padding_bottom": 0
       }
@@ -957,7 +1042,14 @@
             "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
             "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
-            "url": "shopify:\/\/blogs\/ratgeber\/nickel-im-trinkwasser"
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "shopify:\/\/blogs\/ratgeber\/nickel-im-trinkwasser",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_9HfYJb": {
@@ -966,7 +1058,14 @@
             "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
             "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_fgJ6Mj": {
@@ -975,7 +1074,14 @@
             "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
             "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         },
         "item_4iDPe4": {
@@ -984,7 +1090,14 @@
             "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
             "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "url": ""
+            "subtext": "<p>email@email.de<\/p>",
+            "url": "",
+            "border_color": "#000000",
+            "border_width": 0,
+            "border_left": false,
+            "border_right": false,
+            "border_top": false,
+            "border_bottom": false
           }
         }
       },
@@ -998,9 +1111,11 @@
         "color_scheme": "scheme-fa8c9250-a775-4200-9cdf-42f5155a1b34",
         "title_color": "#003e5f",
         "column_count": 4,
+        "content_position": "center",
         "full_width": false,
         "image_white": false,
         "large_image": false,
+        "full_image": false,
         "content_second_font": false,
         "padding_top": 40,
         "padding_bottom": 52
@@ -1109,6 +1224,7 @@
     }
   },
   "order": [
+    "multicolumn_ApWHFn",
     "slideshow_KD9aNM",
     "image_text_slider_CwWYER",
     "image_list_pGRYH3",
