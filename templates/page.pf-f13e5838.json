@@ -1294,7 +1294,7 @@
         "heading_piqaNn": {
           "type": "heading",
           "settings": {
-            "heading": "Unsere Kartuschen gibt es auch imSpar-Abo",
+            "heading": "<p>Unsere Kartuschen gibt es auch imSpar-Abo<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -1382,7 +1382,7 @@
         "heading_XVRLky": {
           "type": "heading",
           "settings": {
-            "heading": "Filterwechsel",
+            "heading": "<p>Filterwechsel<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
