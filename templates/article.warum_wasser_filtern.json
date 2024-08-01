@@ -123,6 +123,7 @@
     "anchor_contact_mrjehn": {
       "type": "anchor_contact",
       "settings": {
+        "container": true,
         "color": "#616161",
         "border_color": "#93d4ff",
         "image": "shopify:\/\/shop_images\/albfilter-portrait-ben.png",
@@ -1107,10 +1108,12 @@
         "heading_second_font": false,
         "heading_alignment": "left",
         "open_first_collapsible_row": true,
+        "arrow_left": false,
         "title_color": "#616161",
         "title_bg": "#ffffff",
         "text_color": "#616161",
         "content_border_color": "#ffffff",
+        "content_bg_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
       }
