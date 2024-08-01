@@ -9,80 +9,6 @@
 */
 {
   "sections": {
-    "multicolumn_YdwVqF": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_iT4EDL": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NQa6f6": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4LB4Ec": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "subtitle": "Sub title",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_iT4EDL",
-        "column_NQa6f6",
-        "column_4LB4Ec"
-      ],
-      "settings": {
-        "title": "<p>Mit mehreren Spalten<\/p>",
-        "heading_tag": "div",
-        "heading_size": "h3",
-        "heading_weight": "100",
-        "heading_second_font": false,
-        "enable_hover_animation": true,
-        "enable_item_border": false,
-        "remove_content_spacing": false,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_heading_second": false,
-        "column_heading_tag": "h3",
-        "column_heading_size": "h3",
-        "column_heading_weight": "700",
-        "column_heading_color": "#616161",
-        "column_subtitle_second": false,
-        "column_subtitle_tag": "h3",
-        "column_subtitle_weight": "700",
-        "column_subtitle_size": "h3",
-        "column_subtitle_color": "#616161",
-        "column_text_second": true,
-        "btn_color": "#0081be",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Schaltflächenbeschriftung",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "slideshow_KD9aNM": {
       "type": "slideshow",
       "blocks": {
@@ -1224,7 +1150,6 @@
     }
   },
   "order": [
-    "multicolumn_YdwVqF",
     "slideshow_KD9aNM",
     "image_text_slider_CwWYER",
     "image_list_pGRYH3",
