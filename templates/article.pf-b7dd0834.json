@@ -602,6 +602,7 @@
         "item_UxhrXq"
       ],
       "settings": {
+        "full_width": true,
         "heading": "Wie unzureichend ist die Deutsche Trinkwasserverordnung?",
         "heading_tag": "h2",
         "heading_size": "h2",
