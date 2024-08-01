@@ -254,7 +254,7 @@
         "heading_zKRVgm": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Wasserfilter",
+            "heading": "<p>Alb Wasserfilter<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -287,7 +287,6 @@
             "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/trinkwasserfilter",
             "second_btn_color": "#0081be"
@@ -324,7 +323,7 @@
         "heading_6CBfjR": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Duschfilter",
+            "heading": "<p>Alb Duschfilter<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -357,7 +356,6 @@
             "button_link1": "shopify:\/\/collections\/duschfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/duschfilter",
             "second_btn_color": "#0081be"
@@ -394,7 +392,7 @@
         "heading_Wx94Xh": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Campingfilter",
+            "heading": "<p>Alb Campingfilter<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -427,7 +425,6 @@
             "button_link1": "shopify:\/\/collections\/camping-wasserfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/camping-wasserfilter",
             "second_btn_color": "#0081be"
@@ -1040,37 +1037,6 @@
     },
     "1719431790c48f0b30": {
       "type": "apps",
-      "blocks": {
-        "reviews_io_reviewsio_card_carousel_PTkhqF": {
-          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
-          "settings": {
-            "star": "#ffa41c",
-            "review_type": "product",
-            "reviews_shown": 20,
-            "header_bg_colour": "#ecedf1",
-            "header_colour": "#003e5f",
-            "header_star_colour": "#ffa41c",
-            "heading_text_colour": "#003e5f",
-            "heading_font": "montserrat_n4",
-            "body_text_colour": "#616161",
-            "badge_icon_colour": "#0e1311",
-            "badge_text_colour": "#0e1311",
-            "bg_start_colour": "#ffffff",
-            "bg_end_colour": "#ffffff",
-            "item_border_width": "0px",
-            "item_border_colour": "#000000",
-            "item_border_radius": "0px",
-            "item_shadow_size": "10px",
-            "item_shadow_colour": "#000000",
-            "enable_rich_snippets": true,
-            "disable_same_customer": true,
-            "logo_colour": "var(--logo-normal)"
-          }
-        }
-      },
-      "block_order": [
-        "reviews_io_reviewsio_card_carousel_PTkhqF"
-      ],
       "settings": {
         "include_margins": true
       }
