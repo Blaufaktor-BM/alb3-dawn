@@ -68,7 +68,7 @@
       padding: {{ section.settings.padding_th | default: '10px' }} 0;
       padding-left: {{ section.settings.padding_th | default: '10px' }};
       padding-right: {{ section.settings.padding_th | default: '10px' }};
-      border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
+      border: {{ section.settings.border_width | default: '1' }}px solid {{ section.settings.border_color | default: '#000' }};
     }
     #{{ unique_id }} tbody tr td {
       background: {{ section.settings.color_even | default: '#fff' }};
@@ -253,10 +253,14 @@
       "default": "10px"
     },
     {
-      "type": "text",
+      "type": "range",
       "id": "border_width",
       "label": "Border width",
-      "default": "1px"
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 1,
+      "unit": "px"
     },
     {
       "type": "color",
