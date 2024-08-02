@@ -458,7 +458,7 @@
         "add_image_spacing": true,
         "remove_content_spacing": false,
         "top_radius": false,
-        "background_color": "",
+        "background_color": "#f2f2f2",
         "image_bg": "",
         "content_bg": "",
         "padding_top": 0,
