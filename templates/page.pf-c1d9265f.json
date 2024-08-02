@@ -451,7 +451,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/adapter-tausch.webp",
         "enable_image_ratio": true,
-        "image_ratio": "2_3",
+        "image_ratio": "1_1",
         "image_contain": true,
         "image_width": "small",
         "row_reverse": false,
