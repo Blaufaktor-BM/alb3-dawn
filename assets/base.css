@@ -6680,6 +6680,23 @@ ul.breadcrumb li a:hover {
 
 /* image banner */
 /* multi column */
+.multicolumn-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.multicolumn-card__image-wrapper {
+  width: calc(100% - 5rem);
+}
+
+.multicolumn-list.align-center .multicolumn-card {
+  justify-content: center;
+}
+
+.multicolumn-list.align-end .multicolumn-card {
+  justify-content: flex-end;
+}
+
 .title-wrapper-with-link .title {
   width: 100%;
 }
