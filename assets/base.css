@@ -6689,6 +6689,11 @@ ul.breadcrumb li a:hover {
   width: calc(100% - 5rem);
 }
 
+.enable_border .multicolumn-card__image-wrapper {
+  width: 100%;
+  margin: 0;
+}
+
 .multicolumn-list.align-center .multicolumn-card {
   justify-content: center;
 }
@@ -6708,10 +6713,6 @@ ul.breadcrumb li a:hover {
 
 .multicolumn-card-spacing {
   padding-top: 0 !important;
-}
-
-.multicolumn-card__info {
-  padding-bottom: 0 !important;
 }
 
 .multicolumn-card>a {
