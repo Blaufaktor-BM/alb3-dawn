@@ -7835,6 +7835,10 @@ table {
   margin-bottom: 1px;
 }
 
+.table-heading {
+  margin-top: 0;
+}
+
 /* table */
 /* cart drawer upsell */
 .upsell_list {
