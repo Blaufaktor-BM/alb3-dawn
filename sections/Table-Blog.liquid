@@ -68,7 +68,7 @@
       padding: {{ section.settings.padding_th | default: '10px' }} 0;
       padding-left: {{ section.settings.padding_th | default: '10px' }};
       padding-right: {{ section.settings.padding_th | default: '10px' }};
-
+      border: {{ section.settings.border_widths | default: '1' }}px solid {{ section.settings.border_color | default: '#000' }};
     }
     #{{ unique_id }} tbody tr td {
       background: {{ section.settings.color_even | default: '#fff' }};
@@ -76,7 +76,7 @@
       padding: 0;
       padding-left: {{ section.settings.padding_td | default: '10px' }};
       padding-right: {{ section.settings.padding_td | default: '10px' }};
-
+      border: {{ section.settings.border_widths | default: '1' }}px solid {{ section.settings.border_color | default: '#000' }};
     }
     #{{ unique_id }} tbody tr:nth-child(odd) td {
       background: {{ section.settings.color_odd | default: '#fff' }};
