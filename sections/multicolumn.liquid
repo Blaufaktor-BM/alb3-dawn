@@ -128,7 +128,7 @@
                 {%- if block.settings.title != blank -%}
                   <{{ section.settings.column_heading_tag }}
                     class="inline-richtext {{ section.settings.column_heading_size }}{% if section.settings.column_heading_second %} second-font{% endif %}"
-                    style="font-weight: {{ section.settings.column_heading_weight }};{% if section.settings.column_heading_color != blank %} color: {{ section.settings.column_heading_color }};{% endif %}"
+                    style="font-weight: {{ section.settings.column_heading_weight }};{% if block.settings.column_heading_color != blank %} color: {{ block.settings.column_heading_color }};{% endif %}"
                   >
                     {{- block.settings.title -}}
                   </{{ section.settings.column_heading_tag }}>
@@ -417,6 +417,10 @@
       "label": "Column Heading Tag",
       "options": [
         {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
           "value": "h2",
           "label": "H2"
         },
@@ -429,8 +433,8 @@
           "label": "H4"
         },
         {
-          "value": "h5",
-          "label": "H5"
+          "value": "p",
+          "label": "P"
         }
       ],
       "default": "h3"
@@ -500,12 +504,6 @@
       "default": "700"
     },
     {
-      "type": "color",
-      "id": "column_heading_color",
-      "label": "Column Heading Color",
-      "default": "#616161"
-    },
-    {
       "type": "checkbox",
       "id": "column_subtitle_second",
       "label": "Column subtitle Second Font"
@@ -515,6 +513,10 @@
       "id": "column_subtitle_tag",
       "label": "Column Subtitle Tag",
       "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
         {
           "value": "h2",
           "label": "H2"
@@ -526,10 +528,6 @@
         {
           "value": "h4",
           "label": "H4"
-        },
-        {
-          "value": "h5",
-          "label": "H5"
         },
         {
           "label": "P",
@@ -579,24 +577,24 @@
       "id": "column_subtitle_size",
       "options": [
         {
-          "value": "h4",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
           "value": "h3",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "Extra Small"
         },
         {
           "value": "h2",
-          "label": "t:sections.all.heading_size.options__3.label"
+          "label": "t:sections.all.heading_size.options__1.label"
         },
         {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__4.label"
+          "label": "t:sections.all.heading_size.options__2.label"
         },
         {
           "value": "h0",
-          "label": "t:sections.all.heading_size.options__5.label"
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
         }
       ],
       "default": "h3",
@@ -754,6 +752,12 @@
           "id": "title",
           "default": "t:sections.multicolumn.blocks.column.settings.title.default",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "color",
+          "id": "column_heading_color",
+          "label": "Column Heading Color",
+          "default": "#616161"
         },
         {
           "type": "inline_richtext",
