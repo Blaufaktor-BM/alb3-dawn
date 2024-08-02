@@ -3,10 +3,12 @@
   <section
     id="{{ unique_id }}"
     class="table-{{ section.id }} page-width"
-    style="padding-left: {{ section.settings.table_padding | default: '40px' }}; padding-right: {{ section.settings.table_padding | default: '40px' }};"
   >
     {% if section.settings.table_heading != blank %}
-      <{{ section.settings.heading_tag }} style="font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px; color: {{ section.settings.heading_color }};">
+      <{{ section.settings.heading_tag }}
+        class="{{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
+        style="font-weight: {{ section.settings.heading_weight }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px; color: {{ section.settings.heading_color }};"
+      >
         {{ section.settings.table_heading }}
       </{{ section.settings.heading_tag }}>
     {% endif %}
@@ -106,12 +108,8 @@
           "label": "H4"
         },
         {
-          "value": "h5",
-          "label": "H5"
-        },
-        {
-          "value": "h6",
-          "label": "H6"
+          "value": "p",
+          "label": "P"
         }
       ],
       "default": "h2"
@@ -126,10 +124,32 @@
       "default": 400
     },
     {
-      "type": "text",
+      "type": "select",
       "id": "heading_size",
       "label": "Heading Font Size",
-      "default": "24px"
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h1"
     },
     {
       "type": "select",
@@ -156,6 +176,11 @@
       "id": "heading_color",
       "label": "Heading Color",
       "default": "#003e5f"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_second_font",
+      "label": "Heading Second Font"
     },
     {
       "type": "text",
@@ -230,12 +255,6 @@
       "id": "border_color",
       "label": "Border color",
       "default": "#000"
-    },
-    {
-      "type": "text",
-      "id": "table_padding",
-      "label": "Table padding",
-      "default": "40px"
     }
   ],
   "blocks": [
