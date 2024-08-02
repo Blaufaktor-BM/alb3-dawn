@@ -717,7 +717,7 @@
         "th2": "",
         "th3": "Genauigkeit",
         "color_th_text": "#616161",
-        "color_th_background": "",
+        "color_th_background": "#f9fafb",
         "color_even": "",
         "color_even_text": "",
         "color_odd": "",
@@ -725,7 +725,7 @@
         "padding_th": "10px",
         "padding_td": "10px",
         "border_widths": 1,
-        "border_color": "#000000",
+        "border_color": "#f3f3f3",
         "padding_top": 36,
         "padding_bottom": 36
       }
