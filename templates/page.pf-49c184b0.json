@@ -748,22 +748,23 @@
             "link": ""
           }
         },
-        "column_ytgpxa": {
+        "column_8CLdwj": {
           "type": "column",
           "settings": {
-            "title": "Spalte",
+            "image": "shopify:\/\/shop_images\/Wasserhahn-Buchse-Schema2.webp",
+            "title": "",
             "column_heading_second": false,
             "column_heading_tag": "h3",
             "column_heading_size": "h3",
             "column_heading_weight": "700",
             "column_heading_color": "#616161",
-            "subtitle": "Sub title",
+            "subtitle": "",
             "column_subtitle_second": false,
             "column_subtitle_tag": "h3",
             "column_subtitle_weight": "700",
             "column_subtitle_size": "h3",
             "column_subtitle_color": "#616161",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -771,7 +772,7 @@
       },
       "block_order": [
         "column_V8cKWj",
-        "column_ytgpxa"
+        "column_8CLdwj"
       ],
       "settings": {
         "title": "<p>Mit mehreren Spalten<\/p>",
@@ -801,10 +802,10 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_qnByqx": {
+    "multicolumn_bKDxhN": {
       "type": "multicolumn",
       "blocks": {
-        "column_mCqyTh": {
+        "column_tNz3X3": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lene-Wassertank.webp",
@@ -825,7 +826,7 @@
             "link": ""
           }
         },
-        "column_Tx39Bh": {
+        "column_MB6Yz3": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lene-Wassertank-Clean.webp",
@@ -846,7 +847,7 @@
             "link": ""
           }
         },
-        "column_Wem9Q7": {
+        "column_Vt8xeN": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lene-Wassertank-Wasserhahn.webp",
@@ -869,9 +870,9 @@
         }
       },
       "block_order": [
-        "column_mCqyTh",
-        "column_Tx39Bh",
-        "column_Wem9Q7"
+        "column_tNz3X3",
+        "column_MB6Yz3",
+        "column_Vt8xeN"
       ],
       "settings": {
         "title": "",
@@ -1192,7 +1193,7 @@
     "custom_image_text_BdpBUm",
     "rich_text_RAmCU9",
     "multicolumn_KXRJDc",
-    "multicolumn_qnByqx",
+    "multicolumn_bKDxhN",
     "rich_text_KqB4ww",
     "rich_text_QY3y6B",
     "custom_liquid_e7TtAt",
