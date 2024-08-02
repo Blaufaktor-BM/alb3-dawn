@@ -22,7 +22,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Camping-Mobil-Frau-Tanken-2500x600.webp",
         "image_2": "shopify:\/\/shop_images\/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
-        "image_overlay_color": "#000",
+        "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -954,7 +954,7 @@
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "Gute Gründe für einen Einbau Wasserfilter (Travel)",
+        "heading": "<p>Gute Gründe für einen Einbau Wasserfilter (Travel)<\/p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
@@ -1031,7 +1031,7 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "rich_text_raNjCX": {
