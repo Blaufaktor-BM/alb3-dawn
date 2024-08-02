@@ -65,44 +65,55 @@
                         {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                       {% endif %}
                     </div>
-                    {% if block.settings.subtitle != blank %}
-                      <div class="subtitle-post-product" style="color: {{ section.settings.subtitle_color }}">
-                        {{ block.settings.subtitle }}
-                      </div>
-                    {% endif %}
-                    {% if block.settings.title != blank %}
-                      <{{ section.settings.title_tag }}
-                        class="title-post-product {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
-                        style="color: {{ section.settings.title_color }}; font-weight: {{ section.settings.title_weight }};"
-                      >
-                        {{ block.settings.title }}
-                      </{{ section.settings.title_tag }}>
-                    {% endif %}
-                    {% if block.settings.text != blank %}
-                      <div
-                        class="text-post-product rte{% if section.settings.enable_second_font %} second-font{% endif %}"
-                        style="color: {{ section.settings.content_color }}"
-                      >
-                        {{ block.settings.text }}
-                      </div>
-                    {% endif %}
                     {% if block.settings.content_url != blank %}
                       </a>
                     {% endif %}
-                    {% if block.settings.btn_text != blank %}
-                      <div class="btn-post-product">
-                        <a
-                          class="btn-second second-font"
-                          href="{{ block.settings.btn_url }}"
-                          style="color: {{ section.settings.btn_color }}"
-                        >
-                          {{- block.settings.btn_text }}
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                            <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
-                          </svg>
-                        </a>
+                    <div class="content-post-product">
+                      <div class="top-content-post-product">
+                        {% if block.settings.content_url != blank %}
+                          <a href="{{ block.settings.content_url }}">
+                        {% endif %}
+                        {% if block.settings.subtitle != blank %}
+                          <div class="subtitle-post-product" style="color: {{ section.settings.subtitle_color }}">
+                            {{ block.settings.subtitle }}
+                          </div>
+                        {% endif %}
+                        {% if block.settings.title != blank %}
+                          <{{ section.settings.title_tag }}
+                            class="title-post-product {{ section.settings.title_size }}{% if section.settings.title_second_font %} second-font{% endif %}"
+                            style="color: {{ section.settings.title_color }}; font-weight: {{ section.settings.title_weight }};"
+                          >
+                            {{ block.settings.title }}
+                          </{{ section.settings.title_tag }}>
+                        {% endif %}
+
+                        {% if block.settings.text != blank %}
+                          <div
+                            class="text-post-product rte{% if section.settings.enable_second_font %} second-font{% endif %}"
+                            style="color: {{ section.settings.content_color }}"
+                          >
+                            {{ block.settings.text }}
+                          </div>
+                        {% endif %}
+                        {% if block.settings.content_url != blank %}
+                          </a>
+                        {% endif %}
                       </div>
-                    {% endif %}
+                      {% if block.settings.btn_text != blank %}
+                        <div class="btn-post-product">
+                          <a
+                            class="btn-second second-font"
+                            href="{{ block.settings.btn_url }}"
+                            style="color: {{ section.settings.btn_color }}"
+                          >
+                            {{- block.settings.btn_text }}
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                              <path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
+                            </svg>
+                          </a>
+                        </div>
+                      {% endif %}
+                    </div>
                   </div>
                 </div>
               {% endfor %}
