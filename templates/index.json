@@ -47,7 +47,7 @@
         "heading_second_font": true,
         "heading_center": false,
         "enable_hover_animation": false,
-        "enable_item_border": false,
+        "enable_item_border": true,
         "remove_content_spacing": false,
         "image_width": "full",
         "image_ratio": "adapt",
