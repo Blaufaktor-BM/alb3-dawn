@@ -15,7 +15,6 @@
         "column_8PPfLB": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skizze-Innengewinde-mit-Markierung-1000px.webp",
             "title": "Spalte",
             "subtitle": "Sub title",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -44,10 +43,14 @@
         "heading_tag": "h1",
         "heading_size": "h2",
         "heading_weight": "100",
+        "heading_color": "#003E5F",
         "heading_second_font": false,
+        "heading_center": false,
         "enable_hover_animation": false,
         "enable_item_border": false,
         "remove_content_spacing": false,
+        "align_position": "center",
+        "column_center": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
