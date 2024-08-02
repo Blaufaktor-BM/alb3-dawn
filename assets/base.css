@@ -7204,6 +7204,15 @@ h5 {
 
 .item-wrapper-post-product {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-post-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .media-post-product {
