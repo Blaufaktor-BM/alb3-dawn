@@ -142,83 +142,6 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_9bkDBb": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_ikrrkc": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "column_heading_second": false,
-            "column_heading_tag": "h3",
-            "column_heading_size": "h3",
-            "column_heading_weight": "700",
-            "column_heading_color": "#616161",
-            "subtitle": "Sub title",
-            "column_subtitle_second": false,
-            "column_subtitle_tag": "h3",
-            "column_subtitle_weight": "700",
-            "column_subtitle_size": "h3",
-            "column_subtitle_color": "#616161",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_WwAqeA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Wasserhahn-Buchse-Schema2.webp",
-            "title": "",
-            "column_heading_second": false,
-            "column_heading_tag": "h3",
-            "column_heading_size": "h3",
-            "column_heading_weight": "700",
-            "column_heading_color": "#616161",
-            "subtitle": "",
-            "column_subtitle_second": false,
-            "column_subtitle_tag": "h3",
-            "column_subtitle_weight": "700",
-            "column_subtitle_size": "h3",
-            "column_subtitle_color": "#616161",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_ikrrkc",
-        "column_WwAqeA"
-      ],
-      "settings": {
-        "title": "<p>Mit mehreren Spalten<\/p>",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "700",
-        "heading_color": "#003E5F",
-        "heading_second_font": false,
-        "heading_center": false,
-        "enable_hover_animation": true,
-        "enable_item_border": false,
-        "remove_content_spacing": false,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_text_second": true,
-        "btn_color": "#0081be",
-        "column_alignment": "left",
-        "align_position": "top",
-        "background_style": "primary",
-        "button_label": "Schaltflächenbeschriftung",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_3d7368": {
       "type": "multicolumn",
       "blocks": {
@@ -1081,7 +1004,6 @@
     "image_banner_fNRMYQ",
     "rich_text_zjmbJz",
     "rich_text_At8QpH",
-    "multicolumn_9bkDBb",
     "multicolumn_3d7368",
     "custom_image_text_eTtJLz",
     "custom_image_text_7Lab7w",
