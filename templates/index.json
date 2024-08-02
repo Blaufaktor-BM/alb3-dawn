@@ -40,9 +40,9 @@
       ],
       "settings": {
         "title": "<p>Mit mehreren Spalten<\/p>",
-        "heading_tag": "h2",
-        "heading_size": "h1",
-        "heading_weight": "700",
+        "heading_tag": "h1",
+        "heading_size": "h2",
+        "heading_weight": "100",
         "heading_second_font": false,
         "enable_hover_animation": false,
         "enable_item_border": false,
