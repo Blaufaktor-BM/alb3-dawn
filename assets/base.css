@@ -6680,6 +6680,26 @@ ul.breadcrumb li a:hover {
 
 /* image banner */
 /* multi column */
+.title-wrapper-with-link .title {
+  width: 100%;
+}
+
+.multicolumn-list li {
+  margin: 0;
+}
+
+.multicolumn-card {
+  padding: 2.5rem 0;
+}
+
+.multicolumn-card-spacing {
+  padding-top: 0 !important;
+}
+
+.multicolumn-card__info {
+  padding-bottom: 0 !important;
+}
+
 .multicolumn-card>a {
   text-decoration: none;
   color: rgba(var(--color-foreground), 1);
@@ -7797,6 +7817,13 @@ h5 {
 }
 
 /* post list */
+/* table */
+table {
+  word-break: break-word;
+  margin-bottom: 1px;
+}
+
+/* table */
 /* cart drawer upsell */
 .upsell_list {
   display: flex;

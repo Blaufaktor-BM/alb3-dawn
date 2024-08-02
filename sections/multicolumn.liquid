@@ -33,8 +33,8 @@
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <{{ section.settings.heading_tag }}
-          class="title inline-richtext rte {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
-          style="font-weight: {{ section.settings.heading_weight }}"
+          class="title inline-richtext rte {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}{% if section.settings.heading_center %} center{% endif %}"
+          style="font-weight: {{ section.settings.heading_weight }}; color: {{ section.settings.heading_color }};"
         >
           {{ section.settings.title }}
         </{{ section.settings.heading_tag }}>
@@ -318,9 +318,20 @@
       "default": "700"
     },
     {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#003E5F"
+    },
+    {
       "type": "checkbox",
       "id": "heading_second_font",
       "label": "Heading Second Font"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_center",
+      "label": "Heading Center"
     },
     {
       "type": "checkbox",
