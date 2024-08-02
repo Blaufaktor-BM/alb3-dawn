@@ -669,14 +669,41 @@
         "rows_VP9Hen": {
           "type": "rows",
           "settings": {
-            "col1": "",
+            "col1": "<p>Mittels eines elektronischen Messschiebers\t<\/p>",
             "col2": "",
-            "col3": ""
+            "col3": "<p>ausgezeichnet<\/p>"
+          }
+        },
+        "rows_6bYfHr": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p>Mittels Herstellerangaben (Bedienungsanleitung)\t<\/p>",
+            "col2": "",
+            "col3": "<p>ausgezeichnet<\/p>"
+          }
+        },
+        "rows_gDNF63": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p>Mittels eines mechanischem Messschiebers\t<\/p>",
+            "col2": "",
+            "col3": "<p>sehr hoch<br\/><\/p>"
+          }
+        },
+        "rows_FjyPyd": {
+          "type": "rows",
+          "settings": {
+            "col1": "<p>Bestimmung mit einem Lineal\t<\/p>",
+            "col2": "",
+            "col3": "<p>hoch<\/p>"
           }
         }
       },
       "block_order": [
-        "rows_VP9Hen"
+        "rows_VP9Hen",
+        "rows_6bYfHr",
+        "rows_gDNF63",
+        "rows_FjyPyd"
       ],
       "settings": {
         "table_heading": "Mit welchen Methoden kann ich ein Gewinde ermitteln?",
