@@ -1,8 +1,12 @@
-{% assign unique_id = 'table-' | append: section.id | append: '-' | append: 'now' | date: "%s" %}
+{% assign unique_id = 'table-' | append: section.id | append: '-' | append: 'now' | date: '%s' %}
 {% if section.settings.th1 != blank or section.settings.th2 != blank or section.settings.th3 != blank %}
-  <section id="{{ unique_id }}" class="table-{{ section.id }} page-width" style="padding-left: {{ section.settings.table_padding | default: '40px' }}; padding-right: {{ section.settings.table_padding | default: '40px' }};">
+  <section
+    id="{{ unique_id }}"
+    class="table-{{ section.id }} page-width"
+    style="padding-left: {{ section.settings.table_padding | default: '40px' }}; padding-right: {{ section.settings.table_padding | default: '40px' }};"
+  >
     {% if section.settings.table_heading != blank %}
-      <{{ section.settings.heading_tag }} style="font-family: 'Montserrat', sans-serif; font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px;">
+      <{{ section.settings.heading_tag }} style="font-weight: {{ section.settings.heading_weight }}; font-size: {{ section.settings.heading_size }}; text-align: {{ section.settings.heading_alignment }}; margin-bottom: 20px; color: {{ section.settings.heading_color }};">
         {{ section.settings.table_heading }}
       </{{ section.settings.heading_tag }}>
     {% endif %}
@@ -146,6 +150,12 @@
         }
       ],
       "default": "left"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#003e5f"
     },
     {
       "type": "text",
