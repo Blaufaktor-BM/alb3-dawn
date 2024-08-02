@@ -85,7 +85,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
