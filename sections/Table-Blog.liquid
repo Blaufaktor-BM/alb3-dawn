@@ -76,7 +76,7 @@
       padding: 0;
       padding-left: {{ section.settings.padding_td | default: '10px' }};
       padding-right: {{ section.settings.padding_td | default: '10px' }};
-      border: {{ section.settings.border_width | default: '1px' }} solid {{ section.settings.border_color | default: '#000' }};
+      border: {{ section.settings.border_width | default: '1' }}px solid {{ section.settings.border_color | default: '#000' }};
     }
     #{{ unique_id }} tbody tr:nth-child(odd) td {
       background: {{ section.settings.color_odd | default: '#fff' }};
