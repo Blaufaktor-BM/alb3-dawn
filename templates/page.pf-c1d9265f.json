@@ -240,7 +240,6 @@
         "th1": "Durchmesser Innengewinde Perlator (in Millimeter) ",
         "th2": "",
         "th3": "Benötigter Gewindeadapter (Feingewinde) ",
-        "color_th": "rgba(0,0,0,0)",
         "color_th_text": "#009ee3",
         "color_th_background": "#f3f3f3",
         "color_even": "",
@@ -249,7 +248,7 @@
         "color_odd_text": "#009ee3",
         "padding_th": "10px",
         "padding_td": "10px",
-        "border_width": "1px",
+        "border_widths": 1,
         "border_color": "#f3f3f3",
         "padding_top": 36,
         "padding_bottom": 36
@@ -362,7 +361,6 @@
         "th1": "Durchmesser Außengewinde Perlator (in Millimeter) ",
         "th2": "",
         "th3": "Benötigter Gewindeadapter (Feingewinde)",
-        "color_th": "",
         "color_th_text": "#e5007c",
         "color_th_background": "",
         "color_even": "",
@@ -371,8 +369,8 @@
         "color_odd_text": "#e5007c",
         "padding_th": "10px",
         "padding_td": "10px",
-        "border_width": "1px",
-        "border_color": "#000000",
+        "border_widths": 1,
+        "border_color": "#f3f3f3",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -691,7 +689,6 @@
         "th1": "Methode",
         "th2": "",
         "th3": "Genauigkeit",
-        "color_th": "",
         "color_th_text": "",
         "color_th_background": "",
         "color_even": "",
@@ -700,7 +697,7 @@
         "color_odd_text": "",
         "padding_th": "10px",
         "padding_td": "10px",
-        "border_width": "1px",
+        "border_widths": 1,
         "border_color": "#000000",
         "padding_top": 36,
         "padding_bottom": 36
