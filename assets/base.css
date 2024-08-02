@@ -6701,9 +6701,6 @@ ul.breadcrumb li a:hover {
   width: 100%;
 }
 
-.multicolumn-list li {
-  margin: 0;
-}
 
 .multicolumn-card {
   padding: 2.5rem 0;
@@ -6766,6 +6763,12 @@ ul.breadcrumb li a:hover {
 
 .remove_content_spacing .multicolumn-card__info {
   padding: 0 !important;
+}
+
+@media only screen and (min-width: 990px) {
+  .multicolumn-list li {
+    margin: 0;
+  }
 }
 
 /* multi column */
