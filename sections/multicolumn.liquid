@@ -126,20 +126,20 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <{{ section.settings.column_heading_tag }}
-                    class="inline-richtext {{ section.settings.column_heading_size }}{% if section.settings.column_heading_second %} second-font{% endif %}"
-                    style="font-weight: {{ section.settings.column_heading_weight }};{% if block.settings.column_heading_color != blank %} color: {{ block.settings.column_heading_color }};{% endif %}"
+                  <{{ block.settings.column_heading_tag }}
+                    class="inline-richtext {{ block.settings.column_heading_size }}{% if block.settings.column_heading_second %} second-font{% endif %}"
+                    style="font-weight: {{ block.settings.column_heading_weight }};{% if block.settings.column_heading_color != blank %} color: {{ block.settings.column_heading_color }};{% endif %}"
                   >
                     {{- block.settings.title -}}
-                  </{{ section.settings.column_heading_tag }}>
+                  </{{ block.settings.column_heading_tag }}>
                 {%- endif -%}
                 {%- if block.settings.subtitle != blank -%}
-                  <{{ section.settings.column_subtitle_tag }}
-                    class="inline-richtext multi-column_subtitle {{ section.settings.column_subtitle_size }}{% if section.settings.column_subtitle_second %} second-font{% endif %}"
-                    style="font-weight:{{ section.settings.column_subtitle_weight  }};{% if section.settings.column_subtitle_color != blank %} color: {{ section.settings.column_subtitle_color }};{% endif %}"
+                  <{{ block.settings.column_subtitle_tag }}
+                    class="inline-richtext multi-column_subtitle {{ block.settings.column_subtitle_size }}{% if block.settings.column_subtitle_second %} second-font{% endif %}"
+                    style="font-weight:{{ block.settings.column_subtitle_weight  }};{% if block.settings.column_subtitle_color != blank %} color: {{ block.settings.column_subtitle_color }};{% endif %}"
                   >
                     {{- block.settings.subtitle -}}
-                  </{{ section.settings.column_subtitle_tag }}>
+                  </{{ block.settings.column_subtitle_tag }}>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte{% if section.settings.column_text_second %} second-font{% endif %}">
@@ -408,206 +408,6 @@
     },
     {
       "type": "checkbox",
-      "id": "column_heading_second",
-      "label": "Enable Column Heading Second Font"
-    },
-    {
-      "type": "select",
-      "id": "column_heading_tag",
-      "label": "Column Heading Tag",
-      "options": [
-        {
-          "value": "h1",
-          "label": "H1"
-        },
-        {
-          "value": "h2",
-          "label": "H2"
-        },
-        {
-          "value": "h3",
-          "label": "H3"
-        },
-        {
-          "value": "h4",
-          "label": "H4"
-        },
-        {
-          "value": "p",
-          "label": "P"
-        }
-      ],
-      "default": "h3"
-    },
-    {
-      "type": "select",
-      "id": "column_heading_size",
-      "options": [
-        {
-          "value": "h3",
-          "label": "Extra Small"
-        },
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hxl",
-          "label": "t:sections.all.heading_size.options__4.label"
-        }
-      ],
-      "default": "h3",
-      "label": "Column heading size"
-    },
-    {
-      "type": "select",
-      "id": "column_heading_weight",
-      "label": "Column Heading Weight",
-      "options": [
-        {
-          "value": "100",
-          "label": "100"
-        },
-        {
-          "value": "200",
-          "label": "200"
-        },
-        {
-          "value": "300",
-          "label": "300"
-        },
-        {
-          "value": "400",
-          "label": "400"
-        },
-        {
-          "value": "500",
-          "label": "500"
-        },
-        {
-          "value": "600",
-          "label": "600"
-        },
-        {
-          "value": "700",
-          "label": "700"
-        }
-      ],
-      "default": "700"
-    },
-    {
-      "type": "checkbox",
-      "id": "column_subtitle_second",
-      "label": "Column subtitle Second Font"
-    },
-    {
-      "type": "select",
-      "id": "column_subtitle_tag",
-      "label": "Column Subtitle Tag",
-      "options": [
-        {
-          "value": "h1",
-          "label": "H1"
-        },
-        {
-          "value": "h2",
-          "label": "H2"
-        },
-        {
-          "value": "h3",
-          "label": "H3"
-        },
-        {
-          "value": "h4",
-          "label": "H4"
-        },
-        {
-          "label": "P",
-          "value": "p"
-        }
-      ],
-      "default": "h3"
-    },
-    {
-      "type": "select",
-      "id": "column_subtitle_weight",
-      "label": "Column Subtitle Weight",
-      "options": [
-        {
-          "value": "100",
-          "label": "100"
-        },
-        {
-          "value": "200",
-          "label": "200"
-        },
-        {
-          "value": "300",
-          "label": "300"
-        },
-        {
-          "value": "400",
-          "label": "400"
-        },
-        {
-          "label": "500",
-          "value": "500"
-        },
-        {
-          "label": "600",
-          "value": "600"
-        },
-        {
-          "label": "700",
-          "value": "700"
-        }
-      ],
-      "default": "700"
-    },
-    {
-      "type": "select",
-      "id": "column_subtitle_size",
-      "options": [
-        {
-          "value": "h3",
-          "label": "Extra Small"
-        },
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hxl",
-          "label": "t:sections.all.heading_size.options__4.label"
-        }
-      ],
-      "default": "h3",
-      "label": "Column Subtitle Size"
-    },
-    {
-      "type": "color",
-      "id": "column_subtitle_color",
-      "label": "Column Subtitle Color",
-      "default": "#616161"
-    },
-    {
-      "type": "checkbox",
       "id": "column_text_second",
       "label": "Column Text Second Font",
       "default": true
@@ -754,6 +554,103 @@
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
         },
         {
+          "type": "checkbox",
+          "id": "column_heading_second",
+          "label": "Enable Column Heading Second Font"
+        },
+        {
+          "type": "select",
+          "id": "column_heading_tag",
+          "label": "Column Heading Tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "p",
+              "label": "P"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "select",
+          "id": "column_heading_size",
+          "options": [
+            {
+              "value": "h3",
+              "label": "Extra Small"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ],
+          "default": "h3",
+          "label": "Column heading size"
+        },
+        {
+          "type": "select",
+          "id": "column_heading_weight",
+          "label": "Column Heading Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            }
+          ],
+          "default": "700"
+        },
+        {
           "type": "color",
           "id": "column_heading_color",
           "label": "Column Heading Color",
@@ -764,6 +661,109 @@
           "id": "subtitle",
           "label": "Sub title",
           "default": "Sub title"
+        },
+        {
+          "type": "checkbox",
+          "id": "column_subtitle_second",
+          "label": "Column subtitle Second Font"
+        },
+        {
+          "type": "select",
+          "id": "column_subtitle_tag",
+          "label": "Column Subtitle Tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "label": "P",
+              "value": "p"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "select",
+          "id": "column_subtitle_weight",
+          "label": "Column Subtitle Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "label": "500",
+              "value": "500"
+            },
+            {
+              "label": "600",
+              "value": "600"
+            },
+            {
+              "label": "700",
+              "value": "700"
+            }
+          ],
+          "default": "700"
+        },
+        {
+          "type": "select",
+          "id": "column_subtitle_size",
+          "options": [
+            {
+              "value": "h3",
+              "label": "Extra Small"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            }
+          ],
+          "default": "h3",
+          "label": "Column Subtitle Size"
+        },
+        {
+          "type": "color",
+          "id": "column_subtitle_color",
+          "label": "Column Subtitle Color",
+          "default": "#616161"
         },
         {
           "type": "richtext",
