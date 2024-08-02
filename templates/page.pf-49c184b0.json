@@ -781,7 +781,7 @@
         "heading_color": "#003E5F",
         "heading_second_font": false,
         "heading_center": false,
-        "enable_hover_animation": true,
+        "enable_hover_animation": false,
         "enable_item_border": false,
         "remove_content_spacing": false,
         "image_width": "full",
