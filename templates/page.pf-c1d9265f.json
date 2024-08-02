@@ -61,7 +61,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -161,7 +161,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -235,6 +235,8 @@
         "heading_weight": 400,
         "heading_size": "24px",
         "heading_alignment": "center",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
         "th1": "Durchmesser Innengewinde Perlator (in Millimeter) ",
         "th2": "",
         "th3": "Benötigter Gewindeadapter (Feingewinde) ",
@@ -248,8 +250,7 @@
         "padding_th": "10px",
         "padding_td": "10px",
         "border_width": "1px",
-        "border_color": "#f3f3f3",
-        "table_padding": "36px"
+        "border_color": "#f3f3f3"
       }
     },
     "table_blog_X9A47P": {
@@ -354,6 +355,8 @@
         "heading_weight": 400,
         "heading_size": "24px",
         "heading_alignment": "center",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
         "th1": "Durchmesser Außengewinde Perlator (in Millimeter) ",
         "th2": "",
         "th3": "Benötigter Gewindeadapter (Feingewinde)",
@@ -367,8 +370,7 @@
         "padding_th": "10px",
         "padding_td": "10px",
         "border_width": "1px",
-        "border_color": "#000000",
-        "table_padding": "40px"
+        "border_color": "#000000"
       }
     },
     "rich_text_DzHbqq": {
@@ -403,7 +405,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "content_full_width": false,
+        "content_full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -558,19 +560,19 @@
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "700",
-        "heading_color": "#003E5F",
+        "heading_color": "#003e5f",
         "heading_second_font": false,
         "heading_center": false,
         "enable_hover_animation": true,
         "enable_item_border": false,
-        "remove_content_spacing": true,
+        "remove_content_spacing": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_text_second": true,
         "btn_color": "#0081be",
-        "column_alignment": "left",
-        "align_position": "top",
+        "column_alignment": "center",
+        "align_position": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -636,7 +638,7 @@
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "700",
-        "heading_color": "#003E5F",
+        "heading_color": "#003e5f",
         "heading_second_font": false,
         "heading_center": false,
         "enable_hover_animation": true,
@@ -680,6 +682,8 @@
         "heading_weight": 700,
         "heading_size": "24px",
         "heading_alignment": "left",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
         "th1": "Methode",
         "th2": "",
         "th3": "Genauigkeit",
@@ -693,8 +697,7 @@
         "padding_th": "10px",
         "padding_td": "10px",
         "border_width": "1px",
-        "border_color": "#000000",
-        "table_padding": "40px"
+        "border_color": "#000000"
       }
     },
     "multicolumn_n6ULUR": {
@@ -752,7 +755,7 @@
         "heading_tag": "h3",
         "heading_size": "h2",
         "heading_weight": "700",
-        "heading_color": "#003E5F",
+        "heading_color": "#003e5f",
         "heading_second_font": false,
         "heading_center": false,
         "enable_hover_animation": true,
@@ -830,7 +833,7 @@
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_weight": "700",
-        "heading_color": "#003E5F",
+        "heading_color": "#003e5f",
         "heading_second_font": false,
         "heading_center": false,
         "enable_hover_animation": true,
