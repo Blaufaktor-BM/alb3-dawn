@@ -6693,7 +6693,7 @@ ul.breadcrumb li a:hover {
   justify-content: center;
 }
 
-.multicolumn-list.align-end .multicolumn-card {
+.multicolumn-list.align-bottom .multicolumn-card {
   justify-content: flex-end;
 }
 
