@@ -6685,7 +6685,7 @@ ul.breadcrumb li a:hover {
   flex-direction: column;
 }
 
-..multicolumn-card-spacing.multicolumn-card__image-wrapper {
+.multicolumn-card-spacing.multicolumn-card__image-wrapper {
   width: calc(100% - 5rem);
 }
 
@@ -6707,7 +6707,7 @@ ul.breadcrumb li a:hover {
 }
 
 .multicolumn-card-spacing {
-  padding-top: 0 !important;
+  padding-bottom: 2.5rem;
 }
 
 .multicolumn-card>a {
