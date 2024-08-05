@@ -73,6 +73,42 @@
             "heading_3": "Einfache Zahlung auch auf Rechnung"
           }
         },
+        "collapsible_tab_br9TGb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Produktbeschreibung",
+            "icon": "price_tag",
+            "content": "{{ product.metafields.custom.produktbeschreibung | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_jMm9a6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technische Daten",
+            "icon": "ruler",
+            "content": "{{ product.metafields.custom.technische_daten | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_PijPdz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Lieferumfang",
+            "icon": "box",
+            "content": "{{ product.metafields.custom.lieferumfang_produkt | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Jq6n4Q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sonstiges",
+            "icon": "clipboard",
+            "content": "",
+            "page": ""
+          }
+        },
         "complementary_ptQFWL": {
           "type": "complementary",
           "settings": {
@@ -97,6 +133,10 @@
         "quantity_selector",
         "buy_buttons",
         "icon_with_text_fP6tNW",
+        "collapsible_tab_br9TGb",
+        "collapsible_tab_jMm9a6",
+        "collapsible_tab_PijPdz",
+        "collapsible_tab_Jq6n4Q",
         "complementary_ptQFWL"
       ],
       "settings": {
@@ -177,6 +217,7 @@
         "collapsible_row_n8rVA8",
         "collapsible_row_N4Q4XY"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "",
