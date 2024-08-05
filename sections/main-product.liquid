@@ -550,7 +550,7 @@
                             | divided_by: block.settings.products_per_page
                             | ceil
                           -%}
-                          {{ product.metafields['shopify--discovery--product_recommendation'].complementary_products.size }}
+                          {{ product.metafields['shopify--discovery--product_recommendation'].complementary_products.value.size }}
                           <div
                             id="Slider-{{ block.id }}"
                             class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere"
