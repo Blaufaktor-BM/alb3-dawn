@@ -516,7 +516,10 @@
                   data-section-id="{{ section.id }}"
                   data-product-id="{{ product.id }}"
                 >
-                  {%- if recommendations.performed and recommendations.products_count > 0 -%}
+                  {%- if product.metafields['shopify--discovery--product_recommendation'].complementary_products
+                      != blank
+                    and recommendations.products_count > 0
+                  -%}
                     <aside
                       aria-label="{{ 'accessibility.complementary_products' | t }}"
                       {{ block.shopify_attributes -}}
@@ -568,7 +571,7 @@
                                 {% endif %}
                               >
                                 <ul class="list-unstyled" role="list">
-                                  {%- for product in recommendations.products
+                                  {%- for product in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value
                                     limit: block.settings.products_per_page
                                     offset: continue
                                   -%}
