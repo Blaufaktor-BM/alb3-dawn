@@ -692,8 +692,8 @@
           "type": "rows",
           "settings": {
             "col1": "<p>Mittels eines elektronischen Messschiebers\t<\/p>",
-            "col2": "",
-            "col3": "<p>ausgezeichnet<\/p>",
+            "col2": "<p>ausgezeichnet<\/p>",
+            "col3": "",
             "col4": ""
           }
         },
@@ -701,8 +701,8 @@
           "type": "rows",
           "settings": {
             "col1": "<p>Mittels Herstellerangaben (Bedienungsanleitung)\t<\/p>",
-            "col2": "",
-            "col3": "<p>ausgezeichnet<\/p>",
+            "col2": "<p>ausgezeichnet<\/p>",
+            "col3": "",
             "col4": ""
           }
         },
@@ -710,8 +710,8 @@
           "type": "rows",
           "settings": {
             "col1": "<p>Mittels eines mechanischem Messschiebers\t<\/p>",
-            "col2": "",
-            "col3": "<p>sehr hoch<br\/><\/p>",
+            "col2": "<p>sehr hoch<\/p>",
+            "col3": "",
             "col4": ""
           }
         },
@@ -719,8 +719,8 @@
           "type": "rows",
           "settings": {
             "col1": "<p>Bestimmung mit einem Lineal\t<\/p>",
-            "col2": "",
-            "col3": "<p>hoch<\/p>",
+            "col2": "<p>hoch<\/p>",
+            "col3": "",
             "col4": ""
           }
         }
@@ -739,11 +739,11 @@
         "heading_alignment": "left",
         "heading_color": "#003e5f",
         "heading_second_font": false,
-        "table_column_count": 3,
+        "table_column_count": 2,
         "th1": "Methode",
-        "th2": "",
+        "th2": "Genauigkeit",
         "narrow_column": false,
-        "th3": "Genauigkeit",
+        "th3": "",
         "th4": "",
         "color_th_text": "#616161",
         "color_th_background": "#f9fafb",
