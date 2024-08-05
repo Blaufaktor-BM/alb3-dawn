@@ -545,11 +545,12 @@
                           </summary>
                         {%- endif -%}
                         <slideshow-component class="slider-mobile-gutter">
-                          {%- assign number_of_slides = recommendations.products_count
+                          {%- assign number_of_slides = product.metafields['shopify--discovery--product_recommendation'].complementary_products.value
                             | plus: 0.0
                             | divided_by: block.settings.products_per_page
                             | ceil
                           -%}
+                          {{ number_of_slides }}
                           <div
                             id="Slider-{{ block.id }}"
                             class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere"
