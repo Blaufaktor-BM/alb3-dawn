@@ -725,9 +725,7 @@
     </script>
   </div>
 </product-info>
-{% for recommendation in product.metafields['shopify--discovery--product_recommendation'].related_products.value %}
-  {{ forloop.index }}
-{% endfor %}
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
