@@ -117,7 +117,7 @@
             "icon": "price_tag",
             "product_list_limit": 6,
             "products_per_page": 2,
-            "pagination_style": "counter",
+            "pagination_style": "dots",
             "image_ratio": "square",
             "enable_quick_add": true
           }
