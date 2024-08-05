@@ -546,7 +546,7 @@
                         <slideshow-component class="slider-mobile-gutter">
                           {% assign count = 0 %}
                           {% for item in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
-                            {% assign count = item | plus: 1 %}
+                            {% assign count = count | plus: 1 %}
                           {% endfor %}
                           {%- assign number_of_slides = count
                             | plus: 0.0
