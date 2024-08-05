@@ -27,7 +27,6 @@
     data-section-id="{{ section.id }}"
     data-product-id="{{ product.id }}"
   >
-    {{ product.title }}
     {% if product.metafields['shopify--discovery--product_recommendation'].related_products != blank %}
       <{{ section.settings.heading_tag }}
         class="related-products__heading inline-richtext {{ section.settings.heading_size }}{% if section.settings.heading_second_font %} second-font{% endif %}"
@@ -41,7 +40,6 @@
       >
         {% assign skip_card_product_styles = false %}
         {% for recommendation in product.metafields['shopify--discovery--product_recommendation'].related_products.value %}
-          {{ forloop.index }}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
