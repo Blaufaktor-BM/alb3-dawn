@@ -17,8 +17,8 @@
           "settings": {
           }
         },
-        "rating_FVKcLB": {
-          "type": "rating",
+        "reviews_io_reviewsio_rating_output_AzQneK": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-output\/92a082e5-b297-4e88-b428-ac96cbc505f9",
           "settings": {
           }
         },
@@ -79,7 +79,7 @@
       },
       "block_order": [
         "title",
-        "rating_FVKcLB",
+        "reviews_io_reviewsio_rating_output_AzQneK",
         "text_FQL9Cj",
         "price",
         "variant_picker",
@@ -171,13 +171,17 @@
         "enable_icon": false,
         "heading_tag": "h2",
         "heading_size": "h1",
+        "heading_weight": "700",
         "heading_color": "#003e5f",
+        "heading_second_font": false,
         "heading_alignment": "center",
         "open_first_collapsible_row": false,
+        "arrow_left": false,
         "title_color": "#003e5f",
         "title_bg": "#fafafa",
         "text_color": "#616161",
         "content_border_color": "#fafafa",
+        "content_bg_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -188,9 +192,10 @@
         "heading_C7QD96": {
           "type": "heading",
           "settings": {
-            "heading": "10 Jahre Garantie",
+            "heading": "<p>10 Jahre Garantie<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#222222",
             "remove_spacing": false
@@ -252,9 +257,10 @@
         "heading_YGEaTi": {
           "type": "heading",
           "settings": {
-            "heading": "Made in Süddeutschland",
+            "heading": "<p>Made in Süddeutschland<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#222222",
             "remove_spacing": false
@@ -276,7 +282,7 @@
             "button_link1": "",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "",
             "button_link2": "",
             "second_btn_color": "#0081be"
@@ -311,9 +317,10 @@
         "heading_wEjAty": {
           "type": "heading",
           "settings": {
-            "heading": "Wir sind für Sie da!",
+            "heading": "<p>Wir sind für Sie da!<\/p>",
             "heading_tag": "h2",
             "heading_size": "h1",
+            "heading_weight": "700",
             "second_font": false,
             "heading_color": "#222222",
             "remove_spacing": false
@@ -335,7 +342,7 @@
             "button_link1": "",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
+            "btn_icon": "cart",
             "button_label2": "",
             "button_link2": "",
             "second_btn_color": "#0081be"
@@ -370,6 +377,9 @@
         "heading": "You may also like",
         "heading_tag": "h2",
         "heading_size": "h2",
+        "heading_weight": "700",
+        "heading_color": "#003e5f",
+        "heading_second_font": false,
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
@@ -377,7 +387,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 60,
         "padding_bottom": 24
