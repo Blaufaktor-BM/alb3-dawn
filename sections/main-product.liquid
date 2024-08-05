@@ -549,6 +549,7 @@
                           {% for count in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
                             {% assign count = count | plus: 1 %}
                           {% endfor %}
+                          {{ count }}
                           {%- assign number_of_slides = count
                             | plus: 0.0
                             | divided_by: block.settings.products_per_page
