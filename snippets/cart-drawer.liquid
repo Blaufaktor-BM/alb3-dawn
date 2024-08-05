@@ -449,6 +449,42 @@
         </form>
       </cart-drawer-items>
 
+      {%- if settings.show_related_products -%}
+        {%- for item in cart.items -%}
+          {%- if forloop.index == 1 -%}
+            {% assign product = item.product %}
+          {%- endif -%}
+        {%- endfor -%}
+        {% if product.metafields['shopify--discovery--product_recommendation'].complementary_products != blank %}
+          <div class="upsell_list">
+            {% for upsell_product in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
+              {%- assign count = 0 -%}
+              {%- assign cart_items = 0 -%}
+              {%- for item in cart.items -%}
+                {%- assign cart_items = cart_items | plus: 1 -%}
+                {%- unless upsell_product.title == item.product.title -%}
+                  {% assign count = count | plus: 1 %}
+                {%- endunless -%}
+              {%- endfor -%}
+              {%- if count == cart_items -%}
+                <div class="upsell-item">
+                  {% render 'card-product',
+                    card_product: upsell_product,
+                    media_aspect_ratio: 'square',
+                    image_shape: 'default',
+                    show_secondary_image: false,
+                    show_vendor: false,
+                    show_rating: false,
+                    skip_styles: false,
+                    section_id: section.id,
+                    quick_add: 'standard'
+                  %}
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
       <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">
