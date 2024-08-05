@@ -547,7 +547,6 @@
                           {% assign count = 0 %}
                           {% for item in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
                             {% assign count = count | plus: 1 %}
-                            {{ forloop.index }}
                           {% endfor %}
                           {%- assign number_of_slides = count
                             | plus: 0.0
