@@ -545,12 +545,15 @@
                           </summary>
                         {%- endif -%}
                         <slideshow-component class="slider-mobile-gutter">
-                          {%- assign number_of_slides = recommendations.products_count
+                          {% assign count = 0 %}
+                          {% for count in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
+                            {% assign count = count | plus: 1 %}
+                          {% endfor %}
+                          {%- assign number_of_slides = count
                             | plus: 0.0
                             | divided_by: block.settings.products_per_page
                             | ceil
                           -%}
-                          {{ product.metafields['shopify--discovery--product_recommendation'].complementary_products.value.size }}
                           <div
                             id="Slider-{{ block.id }}"
                             class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere"
