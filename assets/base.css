@@ -4004,6 +4004,7 @@ slideshow-component .slider-buttons {
   left: 0;
   width: 100%;
   border: none;
+  z-index: 2;
 }
 
 .slideshow__controls .slider-counter__link--dots .dot {
