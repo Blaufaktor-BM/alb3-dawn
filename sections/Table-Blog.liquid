@@ -25,12 +25,25 @@
         {{ section.settings.table_heading }}
       </{{ section.settings.heading_tag }}>
     {% endif %}
-    <table>
+    <table class="second-font">
       <thead>
         <tr>
           <th>{{ section.settings.th1 }}</th>
-          <th class="narrow">{{ section.settings.th2 }}</th>
-          <th>{{ section.settings.th3 }}</th>
+          {% unless section.settings.table_column_count < 2 %}
+            <th
+              {% if section.settings.narrow_column %}
+                class="narrow"
+              {% endif %}
+            >
+              {{ section.settings.th2 }}
+            </th>
+          {% endunless %}
+          {% unless section.settings.table_column_count < 3 %}
+            <th>{{ section.settings.th3 }}</th>
+          {% endunless %}
+          {% unless section.settings.table_column_count < 4 %}
+            <th>{{ section.settings.th4 }}</th>
+          {% endunless %}
         </tr>
       </thead>
       <tbody>
@@ -38,8 +51,21 @@
           {% for block in section.blocks %}
             <tr>
               <td>{{ block.settings.col1 }}</td>
-              <td class="narrow center">{{ block.settings.col2 }}</td>
-              <td>{{ block.settings.col3 }}</td>
+              {% unless section.settings.table_column_count < 2 %}
+                <td
+                  {% if section.settings.narrow_column %}
+                    class="narrow center"
+                  {% endif %}
+                >
+                  {{ block.settings.col2 }}
+                </td>
+              {% endunless %}
+              {% unless section.settings.table_column_count < 3 %}
+                <td>{{ block.settings.col3 }}</td>
+              {% endunless %}
+              {% unless section.settings.table_column_count < 4 %}
+                <td>{{ block.settings.col4 }}</td>
+              {% endunless %}
             </tr>
           {% endfor %}
         {% endif %}
@@ -48,7 +74,6 @@
   </section>
   <style>
     #{{ unique_id }} {
-      font-family: 'Amsi Light', sans-serif;
       font-size: 13px;
     }
     #{{ unique_id }} a {
@@ -196,6 +221,15 @@
       "label": "Heading Second Font"
     },
     {
+      "type": "range",
+      "id": "table_column_count",
+      "label": "Table Column Count",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
       "type": "text",
       "id": "th1",
       "label": "TH1"
@@ -206,9 +240,19 @@
       "label": "TH2"
     },
     {
+      "type": "checkbox",
+      "id": "narrow_column",
+      "label": "TH2 Narrow Column"
+    },
+    {
       "type": "text",
       "id": "th3",
       "label": "TH3"
+    },
+    {
+      "type": "text",
+      "id": "th4",
+      "label": "TH4"
     },
     {
       "type": "color",
@@ -312,6 +356,11 @@
           "type": "richtext",
           "id": "col3",
           "label": "Col 3"
+        },
+        {
+          "type": "richtext",
+          "id": "col4",
+          "label": "Col 4"
         }
       ]
     }
