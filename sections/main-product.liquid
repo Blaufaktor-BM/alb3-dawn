@@ -518,7 +518,6 @@
                 >
                   {%- if product.metafields['shopify--discovery--product_recommendation'].complementary_products
                       != blank
-                    and recommendations.products_count > 0
                   -%}
                     <aside
                       aria-label="{{ 'accessibility.complementary_products' | t }}"
@@ -549,12 +548,12 @@
                           {% for item in product.metafields['shopify--discovery--product_recommendation'].complementary_products.value %}
                             {% assign count = item | plus: 1 %}
                           {% endfor %}
-                          {{ count }}
                           {%- assign number_of_slides = count
                             | plus: 0.0
                             | divided_by: block.settings.products_per_page
                             | ceil
                           -%}
+                          {{ count }} - {{ number_of_slides }}
                           <div
                             id="Slider-{{ block.id }}"
                             class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere"
