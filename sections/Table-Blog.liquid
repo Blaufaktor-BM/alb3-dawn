@@ -25,7 +25,7 @@
         {{ section.settings.table_heading }}
       </{{ section.settings.heading_tag }}>
     {% endif %}
-    <table class="second-font">
+    <table>
       <thead>
         <tr>
           <th>{{ section.settings.th1 }}</th>
@@ -46,7 +46,7 @@
           {% endunless %}
         </tr>
       </thead>
-      <tbody>
+      <tbody class="second-font">
         {% if section.blocks.size > 0 %}
           {% for block in section.blocks %}
             <tr>
@@ -87,7 +87,6 @@
       background: {{ section.settings.color_th_background | default: '#eee' }};
       color: {{ section.settings.color_th_text | default: '#fff' }};
       text-align: left;
-      font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       font-weight: 300;
       padding: {{ section.settings.padding_th | default: '10px' }} 0;
