@@ -5553,6 +5553,10 @@ summary[aria-expanded="true"] .accordion__title {
   border: 3px solid;
 }
 
+.product__accordion .accordion__content {
+  border: none;
+}
+
 .accordion__content a:hover,
 .accordion__content a {
   color: #0081be;
