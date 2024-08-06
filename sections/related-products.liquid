@@ -39,7 +39,9 @@
         role="list"
       >
         {% assign skip_card_product_styles = false %}
-        {% for recommendation in product.metafields['shopify--discovery--product_recommendation'].related_products.value %}
+        {% for recommendation in product.metafields['shopify--discovery--product_recommendation'].related_products.value
+          limit: section.settings.products_to_show
+        %}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
