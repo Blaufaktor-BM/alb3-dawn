@@ -364,6 +364,11 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "pf-c2b53e57": {
+      "type": "pf-c2b53e57",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -376,6 +381,7 @@
     "rich_text_dtTgFU",
     "rich_text_HtaJg6",
     "rich_text_936wjR",
-    "rich_text_W6bP3i"
+    "rich_text_W6bP3i",
+    "pf-c2b53e57"
   ]
 }

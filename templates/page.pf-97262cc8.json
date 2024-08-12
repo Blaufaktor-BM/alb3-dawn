@@ -358,6 +358,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-97262cc8": {
+      "type": "pf-97262cc8",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -365,6 +370,7 @@
     "image_banner_MpAExG",
     "collapsible_content_i66qXY",
     "collapsible_content_B7tWMq",
-    "collapsible_content_MMTxqQ"
+    "collapsible_content_MMTxqQ",
+    "pf-97262cc8"
   ]
 }
