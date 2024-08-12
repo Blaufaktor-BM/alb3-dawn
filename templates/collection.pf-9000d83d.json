@@ -76,7 +76,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Fusion Camping Sets",
         "enable_border": true,
         "enable_center": false,
@@ -84,6 +83,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "camping-wasserfilter-fusion-mobil",
@@ -105,7 +105,6 @@
     "product_list_Q8JWWU": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Fusion Untertisch Sets",
         "enable_border": true,
         "enable_center": false,
@@ -113,6 +112,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-trinkwasserfilter-fusion-untertisch",
@@ -134,7 +134,6 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
@@ -142,6 +141,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartuschen-set-fusion",
@@ -164,7 +164,6 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
@@ -172,6 +171,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "neoprenhulle",
@@ -222,6 +222,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-9000d83d": {
+      "type": "pf-9000d83d",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -233,6 +238,7 @@
     "product_list_WQAXYz",
     "product_list_jjakWr",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-9000d83d"
   ]
 }

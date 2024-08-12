@@ -75,7 +75,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Wasserhahnfilter DUO",
         "enable_border": true,
         "enable_center": false,
@@ -83,6 +82,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-wasserhahn-duo-active",
@@ -105,7 +105,6 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Zubehör Wasserhahnfilter",
         "enable_border": true,
         "enable_center": false,
@@ -113,6 +112,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-buchse-m22",
@@ -136,7 +136,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Filterkartuschen",
         "enable_border": true,
         "enable_center": false,
@@ -144,6 +143,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active",
@@ -198,6 +198,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-5abfa9bb": {
+      "type": "pf-5abfa9bb",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -208,6 +213,7 @@
     "product_list_jjakWr",
     "product_list_EkBNEh",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-5abfa9bb"
   ]
 }
