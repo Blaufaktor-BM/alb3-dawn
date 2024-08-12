@@ -428,6 +428,11 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "pf-27134b9c": {
+      "type": "pf-27134b9c",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -442,6 +447,7 @@
     "rich_text_xRiGTH",
     "rich_text_BgHBrC",
     "rich_text_TiprDr",
-    "rich_text_9wmGmE"
+    "rich_text_9wmGmE",
+    "pf-27134b9c"
   ]
 }
