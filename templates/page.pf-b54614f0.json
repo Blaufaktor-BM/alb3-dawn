@@ -552,6 +552,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-b54614f0": {
+      "type": "pf-b54614f0",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -561,6 +566,7 @@
     "collapsible_content_XwQP9T",
     "collapsible_content_GamYVU",
     "collapsible_content_B7tWMq",
-    "collapsible_content_MMTxqQ"
+    "collapsible_content_MMTxqQ",
+    "pf-b54614f0"
   ]
 }
