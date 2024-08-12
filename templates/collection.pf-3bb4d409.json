@@ -75,7 +75,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Mobil Wasserfilter (Befüllfilter)",
         "enable_border": true,
         "enable_center": false,
@@ -83,6 +82,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "camping-wasserfilter-fusion-mobil",
@@ -106,7 +106,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Travel Wasserfilter  (Einbaufilter)",
         "enable_border": true,
         "enable_center": false,
@@ -114,6 +113,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "camping-wasserfilter-fusion-travel",
@@ -137,7 +137,6 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Pro Camper (Kombifilter)",
         "enable_border": true,
         "enable_center": false,
@@ -145,6 +144,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "pro-camper-set"
@@ -165,7 +165,6 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
@@ -173,6 +172,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-filtergehause-element",
@@ -227,6 +227,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-3bb4d409": {
+      "type": "pf-3bb4d409",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -238,6 +243,7 @@
     "product_list_WQAXYz",
     "product_list_jjakWr",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-3bb4d409"
   ]
 }

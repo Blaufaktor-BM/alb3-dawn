@@ -326,11 +326,6 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
-    },
-    "pf-6bf9592a": {
-      "type": "pf-6bf9592a",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -339,7 +334,6 @@
     "image_banner_njjJ6t",
     "multi_content_9gXiEL",
     "multi_content_UKHT6M",
-    "multi_content_fgExWz",
-    "pf-6bf9592a"
+    "multi_content_fgExWz"
   ]
 }
