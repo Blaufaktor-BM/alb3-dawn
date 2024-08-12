@@ -86,11 +86,17 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "pf-c98f2c13": {
+      "type": "pf-c98f2c13",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "column_richtext_ezUngD",
-    "column_image_text_CEiEr9"
+    "column_image_text_CEiEr9",
+    "pf-c98f2c13"
   ]
 }
