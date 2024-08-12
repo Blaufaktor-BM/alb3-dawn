@@ -146,12 +146,6 @@
 
     ],
     "blocks": {
-      "15623156175785154009": {
-        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "16237003337219470499": {
         "type": "shopify:\/\/apps\/appstle-loyalty\/blocks\/appstle-loyalty\/1886c0f8-77b6-4a85-af11-b43cc17ae1c1",
         "disabled": false,
