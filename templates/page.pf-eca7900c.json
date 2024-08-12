@@ -315,7 +315,6 @@
             "button_link1": "shopify:\/\/products\/alb-filter-active-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -432,7 +431,6 @@
             "button_link1": "shopify:\/\/products\/alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -546,7 +544,6 @@
             "button_link1": "shopify:\/\/products\/alb-filter-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
@@ -665,7 +662,6 @@
             "button_link1": "shopify:\/\/products\/fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
             "second_btn_color": "#0081be"
@@ -925,7 +921,6 @@
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "second_font": false,
-        "mobile_center": false,
         "image": "shopify:\/\/shop_images\/illustration-wasserfilter-am-eckventil-1637144663600.png",
         "image_width": 200,
         "image_mobile_width": 285,
@@ -1227,13 +1222,17 @@
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "second_font": false,
-        "mobile_center": false,
         "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
         "image_width": 200,
         "image_mobile_width": 285,
         "image_round": false,
         "padding_top": 10,
         "padding_bottom": 0
+      }
+    },
+    "pf-eca7900c": {
+      "type": "pf-eca7900c",
+      "settings": {
       }
     }
   },
@@ -1255,6 +1254,7 @@
     "image_text_list_WjgfW8",
     "custom_contact_9QqF6k",
     "collapsible_content_wQrN66",
-    "small_image_text_j8bTg9"
+    "small_image_text_j8bTg9",
+    "pf-eca7900c"
   ]
 }
