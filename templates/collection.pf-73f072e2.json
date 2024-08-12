@@ -75,7 +75,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Wasserhahnfilter DUO",
         "enable_border": true,
         "enable_center": false,
@@ -83,6 +82,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-wasserhahn-duo-active",
@@ -105,7 +105,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Wasserfilter Unterspüle (ohne Anschluss Set)",
         "enable_border": true,
         "enable_center": false,
@@ -113,6 +112,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "trinkwasserfilter-element-active",
@@ -135,7 +135,6 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Wasserfilter Unterspüle Komplett Set",
         "enable_border": true,
         "enable_center": false,
@@ -143,6 +142,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-filter-untertisch-komplett-set",
@@ -165,7 +165,6 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Wasserfilter Unterspüle Schnellkupplungs-Set",
         "enable_border": true,
         "enable_center": false,
@@ -173,6 +172,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-filter-active-untertisch-komplett-set-schnellkupplung",
@@ -195,7 +195,6 @@
     "product_list_mcNiAF": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
@@ -203,6 +202,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-connect-edelstahl",
@@ -292,6 +292,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-73f072e2": {
+      "type": "pf-73f072e2",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -305,6 +310,7 @@
     "product_list_mcNiAF",
     "custom_contact_CNwbfQ",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-73f072e2"
   ]
 }
