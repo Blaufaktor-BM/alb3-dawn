@@ -146,12 +146,6 @@
 
     ],
     "blocks": {
-      "16237003337219470499": {
-        "type": "shopify:\/\/apps\/appstle-loyalty\/blocks\/appstle-loyalty\/1886c0f8-77b6-4a85-af11-b43cc17ae1c1",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "16133342861412372001": {
         "type": "shopify:\/\/apps\/seo-king\/blocks\/seo-king-404-monitor\/4aa30173-495d-4e49-b377-c5ee4024262f",
         "disabled": false,
@@ -267,6 +261,12 @@
       "pagefly-page-builder": {
         "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "16237003337219470499": {
+        "type": "shopify:\/\/apps\/appstle-loyalty\/blocks\/appstle-loyalty\/1886c0f8-77b6-4a85-af11-b43cc17ae1c1",
+        "disabled": true,
         "settings": {
         }
       }
