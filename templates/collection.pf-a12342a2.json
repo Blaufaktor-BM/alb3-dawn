@@ -75,7 +75,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Trinkwasserfilter Active Plus+ Unterspüle",
         "enable_border": true,
         "enable_center": false,
@@ -83,6 +82,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "trinkwasserfilter-element-active-plus",
@@ -105,7 +105,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Trinkwasserfilter Active Plus+ Wasserhahn",
         "enable_border": true,
         "enable_center": false,
@@ -113,6 +112,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-wasserhahn-duo-active-plus"
@@ -133,7 +133,6 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
@@ -141,6 +140,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "#003e5f",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active-plus",
@@ -189,6 +189,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-a12342a2": {
+      "type": "pf-a12342a2",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -199,6 +204,7 @@
     "product_list_EkBNEh",
     "product_list_WQAXYz",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-a12342a2"
   ]
 }
