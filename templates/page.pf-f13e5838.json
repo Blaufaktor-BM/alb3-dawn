@@ -161,16 +161,6 @@
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_heading_second": false,
-        "column_heading_tag": "h3",
-        "column_heading_size": "h3",
-        "column_heading_weight": "700",
-        "column_heading_color": "#616161",
-        "column_subtitle_second": false,
-        "column_subtitle_tag": "h3",
-        "column_subtitle_weight": "700",
-        "column_subtitle_size": "h3",
-        "column_subtitle_color": "#616161",
         "column_text_second": true,
         "btn_color": "#0081be",
         "column_alignment": "center",
@@ -1318,7 +1308,6 @@
             "button_link1": "",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Mehr erfahren",
             "button_link2": "",
             "second_btn_color": "#0081be"
@@ -1406,7 +1395,6 @@
             "button_link1": "",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
-            "hide_icon": false,
             "button_label2": "Videoanleitungen",
             "button_link2": "shopify:\/\/blogs\/ratgeber\/installation",
             "second_btn_color": "#0081be"
@@ -1434,6 +1422,11 @@
         "padding_top": 10,
         "padding_bottom": 60
       }
+    },
+    "pf-f13e5838": {
+      "type": "pf-f13e5838",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1454,6 +1447,7 @@
     "product_compare_Nzahni",
     "custom_image_text_Peqmwn",
     "custom_liquid_XHBMWN",
-    "custom_image_text_cEMzUH"
+    "custom_image_text_cEMzUH",
+    "pf-f13e5838"
   ]
 }
