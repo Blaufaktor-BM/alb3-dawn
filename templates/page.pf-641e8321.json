@@ -431,6 +431,11 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "pf-641e8321": {
+      "type": "pf-641e8321",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -443,6 +448,7 @@
     "custom_contact_VfwffN",
     "custom_liquid_qeEiYn",
     "image_banner_MEmWb9",
-    "contact_tab_j7xVKU"
+    "contact_tab_j7xVKU",
+    "pf-641e8321"
   ]
 }

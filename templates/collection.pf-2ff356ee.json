@@ -489,11 +489,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "pf-2ff356ee": {
-      "type": "pf-2ff356ee",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -507,7 +502,6 @@
     "rich_text_9QCVWL",
     "second_product_compare_AcDdaJ",
     "banner",
-    "product-grid",
-    "pf-2ff356ee"
+    "product-grid"
   ]
 }

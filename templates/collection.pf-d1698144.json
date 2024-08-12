@@ -227,11 +227,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "pf-d1698144": {
-      "type": "pf-d1698144",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -243,7 +238,6 @@
     "product_list_xnfeWC",
     "product_list_jjakWr",
     "banner",
-    "product-grid",
-    "pf-d1698144"
+    "product-grid"
   ]
 }
