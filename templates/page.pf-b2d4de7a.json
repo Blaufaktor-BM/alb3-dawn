@@ -320,16 +320,6 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_heading_second": false,
-        "column_heading_tag": "h3",
-        "column_heading_size": "h2",
-        "column_heading_weight": "700",
-        "column_heading_color": "#003e5f",
-        "column_subtitle_second": false,
-        "column_subtitle_tag": "h3",
-        "column_subtitle_weight": "700",
-        "column_subtitle_size": "h3",
-        "column_subtitle_color": "#616161",
         "column_text_second": true,
         "btn_color": "#616161",
         "column_alignment": "left",
@@ -1456,6 +1446,11 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "pf-b2d4de7a": {
+      "type": "pf-b2d4de7a",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1480,6 +1475,7 @@
     "image_text_list_xX8pn6",
     "custom_image_text_ifP3rc",
     "custom_image_text_PzPzzk",
-    "custom_contact_aqktMq"
+    "custom_contact_aqktMq",
+    "pf-b2d4de7a"
   ]
 }
