@@ -208,11 +208,17 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
+    },
+    "pf-81a0bcd0": {
+      "type": "pf-81a0bcd0",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "rich_text_39k3n9",
-    "image_text_list_TMU6Yz"
+    "image_text_list_TMU6Yz",
+    "pf-81a0bcd0"
   ]
 }

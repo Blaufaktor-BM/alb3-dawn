@@ -1002,6 +1002,11 @@
         "padding_top": 51,
         "padding_bottom": 100
       }
+    },
+    "pf-0287fe58": {
+      "type": "pf-0287fe58",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1019,6 +1024,7 @@
     "image_text_list_xt6hCi",
     "small_image_text_YwVdRj",
     "custom_contact_HqQUU4",
-    "multi_image_text_BzK4Mg"
+    "multi_image_text_BzK4Mg",
+    "pf-0287fe58"
   ]
 }
