@@ -1130,6 +1130,11 @@
         "padding_top": 54,
         "padding_bottom": 100
       }
+    },
+    "pf-fa7bcb9d": {
+      "type": "pf-fa7bcb9d",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1149,6 +1154,7 @@
     "image_text_list_xt6hCi",
     "custom_contact_HqQUU4",
     "collapsible_content_9KRpAt",
-    "small_image_text_B6V6Ck"
+    "small_image_text_B6V6Ck",
+    "pf-fa7bcb9d"
   ]
 }

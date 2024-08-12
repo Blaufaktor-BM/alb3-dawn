@@ -997,6 +997,11 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "pf-49c184b0": {
+      "type": "pf-49c184b0",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1019,6 +1024,7 @@
     "custom_liquid_e7TtAt",
     "image_text_list_xt6hCi",
     "custom_image_text_y6DDAn",
-    "custom_contact_HqQUU4"
+    "custom_contact_HqQUU4",
+    "pf-49c184b0"
   ]
 }
