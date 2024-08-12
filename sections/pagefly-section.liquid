@@ -1,0 +1,510 @@
+
+{% if section.settings.section_id.size > 0 %}
+  <!-- PageFlyGlobalSection -->
+  {% render 'pagefly-main-js' %}
+  {% render 'pagefly-main-css' %}
+  {% include section.settings.section_id %}
+{% else %}
+  
+    {% if request.design_mode %}
+      <style>.pf-ph{font-size:14px!important;background:#fafafa;padding:20px;text-align:center;border:1px solid #f0f0f0;border-radius:4px;margin:15px}.pf-ph span{display:block;background:#e6f7ff;padding:8px 15px;border:1px solid #91d5ff}</style>
+      <div class="pf-ph">
+        <h3>PageFly Section</h3>
+        <span>No section selected. Please select your section from the list</span>
+      </div>
+    {% endif %}
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "PageFly Section",
+  "settings": [
+    {
+      "id": "section_id",
+      "type": "select",
+      "label": "Sections",
+      "options": [
+        {
+          "label": "Select section",
+          "value": ""
+        },
+        {
+          "label": "Vergleichstabelle",
+          "value": "pf-cda8ab1a"
+        },
+        {
+          "label": "Tabelle - Camping Kartuschen",
+          "value": "pf-0375f23f"
+        },
+        {
+          "label": "Tabelle - Kartuschen Untertisch",
+          "value": "pf-6f16490f"
+        },
+        {
+          "label": "Tabelle - Kartuschen - DUO",
+          "value": "pf-285ead2c"
+        },
+        {
+          "label": "Tabelle - Vergleich Kartuschen + Produkt",
+          "value": "pf-6bd059df"
+        },
+        {
+          "label": "Tabelle - Trinkwasser Kartuschen",
+          "value": "pf-45ab0ce6"
+        },
+        {
+          "label": "Tabelle - Dusch Kartuschen",
+          "value": "pf-36bdeb01"
+        },
+        {
+          "label": "Auswahl Camping Übersicht",
+          "value": "pf-5e8f5549"
+        },
+        {
+          "label": "Tabelle - Travel Filtereigenschaften",
+          "value": "pf-2a2bdddb"
+        },
+        {
+          "label": "Katuschen Slider - Draft",
+          "value": "pf-ebb9694d"
+        },
+        {
+          "label": "Kartuschen für Trinkwasser - Slide mit Header",
+          "value": "pf-71f4db79"
+        },
+        {
+          "label": "Kartuschen für Dusche - Slide mit Header",
+          "value": "pf-5de90811"
+        },
+        {
+          "label": "Kartuschen für Camping - Slide mit Header",
+          "value": "pf-8bcaee7b"
+        },
+        {
+          "label": "Kartuschen Slide - Landing Page",
+          "value": "pf-24aacb08"
+        },
+        {
+          "label": "Kartuschen Slide - All 5 - NO DELETE",
+          "value": "pf-15df6871"
+        },
+        {
+          "label": "Kartuschen Slide - All 5 coloured",
+          "value": "pf-9b16649e"
+        },
+        {
+          "label": "Einzelkartuschen-Slides - NICHT LÖSCHEN",
+          "value": "pf-25d7b478"
+        },
+        {
+          "label": "Kundenstimmen Slider",
+          "value": "pf-12891854"
+        },
+        {
+          "label": "Ratgeber-Section",
+          "value": "pf-88466adf"
+        },
+        {
+          "label": "FAQ-Trinkwasserfilter",
+          "value": "pf-d43d571e"
+        },
+        {
+          "label": "FAQ-Duschfilter",
+          "value": "pf-939d0bf9"
+        },
+        {
+          "label": "Filterwechsel Allgemein",
+          "value": "pf-d6d7d750"
+        },
+        {
+          "label": "Kartuschen Sparabo",
+          "value": "pf-8063558c"
+        },
+        {
+          "label": "Trinkwasser Kartuschen Vergleich Tabelle",
+          "value": "pf-65722143"
+        },
+        {
+          "label": "ActivePlus-Kartuschen-Gehäuse-Section",
+          "value": "pf-213a756b"
+        },
+        {
+          "label": "Flextube-Cross-Selling-Section",
+          "value": "pf-1cbc54d1"
+        },
+        {
+          "label": "Produktübersicht Trinkwasserfilter - Auswahlslide",
+          "value": "pf-3e444a74"
+        },
+        {
+          "label": "Alb Clean Cross-Sell Section",
+          "value": "pf-ec4dd263"
+        },
+        {
+          "label": "Trust Section Blue - Shop",
+          "value": "pf-6fb1b7eb"
+        },
+        {
+          "label": "Travel Anschluss-Set Cross-Sell Section",
+          "value": "pf-a1f49ddb"
+        },
+        {
+          "label": "Protect Vorfilter Cross-Sell Section",
+          "value": "pf-63dbfc48"
+        },
+        {
+          "label": "Nano-Kartuschen-Gehäuse-Section",
+          "value": "pf-d2210258"
+        },
+        {
+          "label": "Active-Kartuschen-Gehäuse-Section",
+          "value": "pf-4bad86c0"
+        },
+        {
+          "label": "Fusion-Kartuschen-Gehäuse-Section",
+          "value": "pf-da06ba5e"
+        },
+        {
+          "label": "Modularer Wasserfilter - Schaubild Filter+Kartusch",
+          "value": "pf-291ae583"
+        },
+        {
+          "label": "Headerbild Produktinfo",
+          "value": "pf-15617019"
+        },
+        {
+          "label": "Header Text Hauptseiten",
+          "value": "pf-3102106f"
+        },
+        {
+          "label": "Travel Vorteile mit Image-Switch",
+          "value": "pf-4009a186"
+        },
+        {
+          "label": "Duo Features",
+          "value": "pf-70a3e747"
+        },
+        {
+          "label": "Travel Active Section",
+          "value": "pf-c28f9633"
+        },
+        {
+          "label": "Travel Nano Section",
+          "value": "pf-5f0f795d"
+        },
+        {
+          "label": "Travel Fusion Section",
+          "value": "pf-6bfca234"
+        },
+        {
+          "label": "duo active kachel",
+          "value": "pf-73dbe97e"
+        },
+        {
+          "label": "Sectionduo active+ kachel",
+          "value": "pf-fa6edd01"
+        },
+        {
+          "label": "duo nano kachel",
+          "value": "pf-a4c79571"
+        },
+        {
+          "label": "Sie haben Fragen? - Trinkwasserfilter",
+          "value": "pf-cdfc9c81"
+        },
+        {
+          "label": "Trinkwasserfilter Kartuschen Tabelle",
+          "value": "pf-6a0b8ee2"
+        },
+        {
+          "label": "Kartuschen Slider Weiß-Bunt",
+          "value": "pf-fc815b6c"
+        },
+        {
+          "label": "Kartuschen Slides Farbig",
+          "value": "pf-41862516"
+        },
+        {
+          "label": "Active Info Slide ",
+          "value": "pf-6af28d72"
+        },
+        {
+          "label": "Kartuschen Überblick Slide Farbig",
+          "value": "pf-5197a70a"
+        },
+        {
+          "label": "Filterkartuschen Übersicht",
+          "value": "pf-fa15f9bf"
+        },
+        {
+          "label": "Benefits Banner - Versand Kundenservice Preis DUNK",
+          "value": "pf-e1d39a8e"
+        },
+        {
+          "label": "Trust Section - Shop",
+          "value": "pf-b7581d9d"
+        },
+        {
+          "label": "Kategorie Übersicht Shop",
+          "value": "pf-36f7422d"
+        },
+        {
+          "label": "FAQs /shop",
+          "value": "pf-c2a15b8e"
+        },
+        {
+          "label": "Bestseller Shop",
+          "value": "pf-227feb04"
+        },
+        {
+          "label": "Hilfe benötigt",
+          "value": "pf-f8431ad1"
+        },
+        {
+          "label": "Kundenbewertungen",
+          "value": "pf-88559d9e"
+        },
+        {
+          "label": "Kategorie_Section_10",
+          "value": "pf-80877aa4"
+        },
+        {
+          "label": "Benefits Banner Landing Page NEU",
+          "value": "pf-0132c53e"
+        },
+        {
+          "label": "Landing Page - Slider ",
+          "value": "pf-28202e0e"
+        },
+        {
+          "label": "Ratgeber - Verwandte Artikel und Produkte",
+          "value": "pf-bdd8919d"
+        },
+        {
+          "label": "Ratgeber-Inhalt-Boxen-Bilder",
+          "value": "pf-50d0d00b"
+        },
+        {
+          "label": "Ratgeber - Werbung Alb Wasserfilter",
+          "value": "pf-b681fd14"
+        },
+        {
+          "label": "Ratgeber - FAQ mit Accordion",
+          "value": "pf-f39c2b77"
+        },
+        {
+          "label": "Ratgeber - Inhaltsverzeichnis schmal",
+          "value": "pf-a2349f51"
+        },
+        {
+          "label": "Ratgeber - Header + Liquid",
+          "value": "pf-6e24d8dc"
+        },
+        {
+          "label": "Camping Filter Übersicht",
+          "value": "pf-8a53b804"
+        },
+        {
+          "label": "Gewinde-Ratgeber Banner",
+          "value": "pf-a97c052e"
+        },
+        {
+          "label": "Leistungssp. Fusion 1",
+          "value": "pf-5f2c90a1"
+        },
+        {
+          "label": "Alb Travel  - Direkt nach dem Wassertank",
+          "value": "pf-9ac9aca0"
+        },
+        {
+          "label": "Leistungssp. Balance",
+          "value": "pf-175e000e"
+        },
+        {
+          "label": "Leistungssp. Active Plus+",
+          "value": "pf-054d94de"
+        },
+        {
+          "label": "Leistungssp. Active",
+          "value": "pf-66cd8ed3"
+        },
+        {
+          "label": "Leistungssp. Nano",
+          "value": "pf-9840acd6"
+        },
+        {
+          "label": "Menü Trinkwasser, Dusche, Camping",
+          "value": "pf-e597b57f"
+        },
+        {
+          "label": "Kategorie_Section_30",
+          "value": "pf-09d6faeb"
+        },
+        {
+          "label": "ratgeber-inhalt-autor-blau",
+          "value": "pf-ce5cf5bb"
+        },
+        {
+          "label": "Ratgeber - Neues Design Feb2024",
+          "value": "pf-f77e78f8"
+        },
+        {
+          "label": "Produkt-Accordion",
+          "value": "pf-cc7aa88f"
+        },
+        {
+          "label": "Beschreibung Produkt Wechselaktion ",
+          "value": "pf-532ccb42"
+        },
+        {
+          "label": "Tauschaktion - Auswahl 02",
+          "value": "pf-abac2778"
+        },
+        {
+          "label": "Leistungssp. Edelstahl Gehäuse 01",
+          "value": "pf-93b76a83"
+        },
+        {
+          "label": "Leistungssp. Edelstahl Duo Gehäuse",
+          "value": "pf-248e1e79"
+        },
+        {
+          "label": "Kategorie_Section_50",
+          "value": "pf-8d5fa88b"
+        },
+        {
+          "label": "Aus unserem Ratgeber",
+          "value": "pf-89a90213"
+        },
+        {
+          "label": "Ratgeber - Einleitung",
+          "value": "pf-47fe8ef0"
+        },
+        {
+          "label": "Verschenke ein gesundes... Desk 01",
+          "value": "pf-8be45068"
+        },
+        {
+          "label": "Verschenke ein gesundes...",
+          "value": "pf-b4e2a7df"
+        },
+        {
+          "label": "Black Friday 2023",
+          "value": "pf-4a4fb49a"
+        },
+        {
+          "label": "Hero-Banner Herbst 2023",
+          "value": "pf-70d1c3b3"
+        },
+        {
+          "label": "Sie haben Fragen? - Campingfilter",
+          "value": "pf-567aaddf"
+        },
+        {
+          "label": "Pro Camper Einbau / Installation ",
+          "value": "pf-7cb240bf"
+        },
+        {
+          "label": "Sie haben Fragen? - Duschfilter",
+          "value": "pf-a680ec72"
+        },
+        {
+          "label": "3 Benefits mit blauem Hintergrund",
+          "value": "pf-5627efc4"
+        },
+        {
+          "label": "Benefits Banner - Versand Kundenservice Preis",
+          "value": "pf-c9acf1a1"
+        },
+        {
+          "label": "Benefits Banner - Versand Kundenservice Preis DUNK",
+          "value": "pf-478ce6c5"
+        },
+        {
+          "label": "Ostern - Part3",
+          "value": "pf-6fe9ca33"
+        },
+        {
+          "label": "Ostern - Part2",
+          "value": "pf-0de39b76"
+        },
+        {
+          "label": "Ostern - Part1",
+          "value": "pf-102ef4ce"
+        },
+        {
+          "label": "Alb Filter Protect - Camping",
+          "value": "pf-7232320d"
+        },
+        {
+          "label": "CMT",
+          "value": "pf-67f25da1"
+        },
+        {
+          "label": "Alb Mobil  - Betankung von außen",
+          "value": "pf-ff78d4ff"
+        },
+        {
+          "label": "Mobil Einbau / Installation",
+          "value": "pf-73f931f5"
+        },
+        {
+          "label": "Travel Einbau / Installation",
+          "value": "pf-1d1e257a"
+        },
+        {
+          "label": "Einbau / Installation (Untertisch) Anschluss-Set",
+          "value": "pf-48bf7475"
+        },
+        {
+          "label": "Einbau / Installation (Untertisch) Schnellkupplung",
+          "value": "pf-e7ef6ec7"
+        },
+        {
+          "label": "Durchflussdiagramm Fusion ",
+          "value": "pf-a28abd5e"
+        },
+        {
+          "label": "Einbau / Installation (Dusche) Banner",
+          "value": "pf-82081b0f"
+        },
+        {
+          "label": "Durchflussdiagramm Active",
+          "value": "pf-cff31ad3"
+        },
+        {
+          "label": "Leistungssp. Active S",
+          "value": "pf-bedd27da"
+        },
+        {
+          "label": "Leistungssp. Protect Modul",
+          "value": "pf-b1d6cf4f"
+        },
+        {
+          "label": "Legende Wasserqualität Urlaubsländer",
+          "value": "pf-0a84d74b"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find and edit your section on the [section listing](https://alb-filter.myshopify.com/admin/apps/pagefly/sections)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To add block to a section, please use the App Block element on PageFly section editor."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PageFly Section"
+    }
+  ]
+}
+{% endschema %}
