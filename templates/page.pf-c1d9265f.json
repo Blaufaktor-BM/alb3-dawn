@@ -961,6 +961,11 @@
         "padding_top": 10,
         "padding_bottom": 0
       }
+    },
+    "pf-c1d9265f": {
+      "type": "pf-c1d9265f",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -979,6 +984,7 @@
     "table_blog_jytDcR",
     "multicolumn_n6ULUR",
     "multicolumn_J69eR3",
-    "small_image_text_Nkxj8T"
+    "small_image_text_Nkxj8T",
+    "pf-c1d9265f"
   ]
 }
