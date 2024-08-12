@@ -118,7 +118,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Trinkwasserfilter Kartuschen",
         "enable_border": true,
         "enable_center": false,
@@ -126,6 +125,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active",
@@ -148,7 +148,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Duschfilter Kartuschen",
         "enable_border": true,
         "enable_center": false,
@@ -156,6 +155,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-balance",
@@ -178,7 +178,6 @@
     "product_list_WQAXYz": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Wasserfilter Kartuschen Spar-Sets",
         "enable_border": true,
         "enable_center": false,
@@ -186,6 +185,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active-2er-set",
@@ -213,7 +213,6 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
@@ -221,6 +220,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "vorfilter-fur-alb-filter-duo-nano",
@@ -270,6 +270,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-28d006d3": {
+      "type": "pf-28d006d3",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -281,6 +286,7 @@
     "product_list_WQAXYz",
     "product_list_jjakWr",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-28d006d3"
   ]
 }
