@@ -75,7 +75,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Travel Sets (Einbau Wasserfilter)",
         "enable_border": true,
         "enable_center": false,
@@ -83,6 +82,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "camping-wasserfilter-nano-travel",
@@ -106,7 +106,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Zubehör",
         "enable_border": true,
         "enable_center": false,
@@ -114,6 +113,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-filter-clean-tankreiniger",
@@ -139,7 +139,6 @@
     "product_list_xnfeWC": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Aufrüst Sets",
         "enable_border": true,
         "enable_center": false,
@@ -147,6 +146,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-filter-erweiterungs-set-active",
@@ -170,7 +170,6 @@
     "product_list_jjakWr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Ersatzkartuschen",
         "enable_border": true,
         "enable_center": false,
@@ -178,6 +177,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-kartusche-active",
@@ -227,6 +227,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "pf-d1698144": {
+      "type": "pf-d1698144",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -238,6 +243,7 @@
     "product_list_xnfeWC",
     "product_list_jjakWr",
     "banner",
-    "product-grid"
+    "product-grid",
+    "pf-d1698144"
   ]
 }
