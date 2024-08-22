@@ -7871,9 +7871,10 @@ table {
 /* additional css */
 
 
+/* Show discount banner */
 .discount-banner {
     background-color: #ffcc00;
-    color: #000;
+    color: #333;
     text-align: center;
     padding: 10px;
     font-weight: bold;
