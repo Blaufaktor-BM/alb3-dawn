@@ -393,7 +393,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify://products/pro-camper",
+            "button_link1": "shopify://products/pro-camper-set",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
