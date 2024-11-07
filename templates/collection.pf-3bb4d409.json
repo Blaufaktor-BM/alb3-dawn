@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter für Wohnmobil und Camper<\/p>",
+            "heading": "<p>Wasserfilter für Wohnmobil und Camper</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h1",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Wasserfilter für Wohnmobile, Camper und Boote. Perfekt für Reisende, die sauberes und gesundes Wasser wollen. Wir bieten verschiedene Sets an. Unsere Mobil-Filter (Befüllfilter) werden vor dem Wassertank eingesetzt, die Travel-Filter (Einbaufilter) zwischen Wassertank und Wasserhahn. Die Pro-Camper-Version kombiniert externe und interne Filterung.<\/p>",
+            "text": "<p>Wasserfilter für Wohnmobile, Camper und Boote. Perfekt für Reisende, die sauberes und gesundes Wasser wollen. Wir bieten verschiedene Sets an. Unsere Mobil-Filter (Befüllfilter) werden vor dem Wassertank eingesetzt, die Travel-Filter (Einbaufilter) zwischen Wassertank und Wasserhahn. Die Pro-Camper-Version kombiniert externe und interne Filterung.</p>",
             "second_font": true
           }
         }
@@ -57,7 +57,7 @@
         ".banner__heading {margin-top: -10px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pf-173c967e--albfiltermobilfusionschmal.jpg",
+        "image": "shopify://shop_images/pf-173c967e--albfiltermobilfusionschmal.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "adapt",
@@ -147,7 +147,7 @@
         "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
-          "pro-camper-set"
+          "pro-camper"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,

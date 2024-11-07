@@ -270,7 +270,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify://collections/camping-mobil",
+            "button_link1": "shopify://collections/camping-mobil-old",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
@@ -393,7 +393,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify://products/pro-camper-set",
+            "button_link1": "shopify://products/pro-camper",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",

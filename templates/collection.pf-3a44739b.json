@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Mobil Campingfilter kaufen<\/p>",
+            "heading": "<p>Mobil Campingfilter kaufen</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h1",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Mobil Camping Wasserfilter sind speziell für den Einsatz auf Reisen entwickelt. Die Filter werden direkt bei der Befüllung des Wassertanks eingesetzt und sorgen so für sauberes Trinkwasser auf Reisen. Wähle zwischen Active, Nano oder Fusion, um genau das richtige Set für deine Ansprüche zu finden. Mit einem Wasserfilter von Alb bist du auf Reisen sicher vor Schadstoffen, Bakterien und andere Rückständen im Wasser.<\/p>",
+            "text": "<p>Unsere Mobil Camping Wasserfilter sind speziell für den Einsatz auf Reisen entwickelt. Die Filter werden direkt bei der Befüllung des Wassertanks eingesetzt und sorgen so für sauberes Trinkwasser auf Reisen. Wähle zwischen Active, Nano oder Fusion, um genau das richtige Set für deine Ansprüche zu finden. Mit einem Wasserfilter von Alb bist du auf Reisen sicher vor Schadstoffen, Bakterien und andere Rückständen im Wasser.</p>",
             "second_font": true
           }
         }
@@ -57,7 +57,7 @@
         ".banner__heading {margin-top: -10px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mobil-fusion-caravan-1645109587034.jpg",
+        "image": "shopify://shop_images/mobil-fusion-caravan-1645109587034.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -88,7 +88,7 @@
           "camping-wasserfilter-active-mobil",
           "camping-wasserfilter-nano-mobil",
           "camping-wasserfilter-fusion-mobil",
-          "pro-camper-set"
+          "pro-camper"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Pro Camper Set kaufen<\/p>",
+            "heading": "<p>Pro Camper Set kaufen</p>",
             "remove_spacing": false,
             "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Trinkwasserfilter für Wohnmobil, Camper oder Boot. Das Pro Camper Set ist eine Kombination aus Mobil und Travel Filter, d.h. ein Filter für die Betankung von Außen und einen für den Festeinbau. Damit kannst du Reisen dein Trinkwasser direkt aus dem Wasserhahn genießen - ohne Einschränkungen.<\/p>",
+            "text": "<p>Trinkwasserfilter für Wohnmobil, Camper oder Boot. Das Pro Camper Set ist eine Kombination aus Mobil und Travel Filter, d.h. ein Filter für die Betankung von Außen und einen für den Festeinbau. Damit kannst du Reisen dein Trinkwasser direkt aus dem Wasserhahn genießen - ohne Einschränkungen.</p>",
             "second_font": true
           }
         }
@@ -57,7 +57,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/titelbildprocampersetfrauincamper-1663089404330.jpg",
+        "image": "shopify://shop_images/titelbildprocampersetfrauincamper-1663089404330.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -85,7 +85,7 @@
         "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
-          "pro-camper-set",
+          "pro-camper",
           "wasserfilter-kartuschen-set-fusion",
           "alb-filter-protect-wechselpads-3er-pack"
         ],

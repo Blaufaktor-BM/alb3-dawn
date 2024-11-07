@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Travel Campingfilter kaufen<\/p>",
+            "heading": "<p>Travel Campingfilter kaufen</p>",
             "remove_spacing": false,
             "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Travel Camping Wasserfilter sind speziell für den Einsatz auf Reisen entwickelt. Die Filter können im Wohnmobil, Camper oder Boot direkt zwischen Wassertank und Wasserhahn verbaut werden und sorgen so dauerhaft für sauberes Trinkwasser auf Reisen.<br\/>Wähle zwischen Active, Nano, Fusion oder Pro-Camper, um genau das richtige Set für deine Ansprüche zu finden. <br\/><br\/>Mit einem Wasserfilter von Alb bist du auf Reisen sicher vor Schadstoffen, Bakterien und andere Rückständen im Wasser.<\/p>",
+            "text": "<p>Unsere Travel Camping Wasserfilter sind speziell für den Einsatz auf Reisen entwickelt. Die Filter können im Wohnmobil, Camper oder Boot direkt zwischen Wassertank und Wasserhahn verbaut werden und sorgen so dauerhaft für sauberes Trinkwasser auf Reisen.<br/>Wähle zwischen Active, Nano, Fusion oder Pro-Camper, um genau das richtige Set für deine Ansprüche zu finden. <br/><br/>Mit einem Wasserfilter von Alb bist du auf Reisen sicher vor Schadstoffen, Bakterien und andere Rückständen im Wasser.</p>",
             "second_font": true
           }
         }
@@ -57,7 +57,7 @@
         ".media {background: transparent;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/wohnmobil-ben-travel-overlay-1645434666814.png",
+        "image": "shopify://shop_images/wohnmobil-ben-travel-overlay-1645434666814.png",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "adapt",
@@ -88,7 +88,7 @@
           "camping-wasserfilter-nano-travel",
           "camping-wasserfilter-active-travel",
           "camping-wasserfilter-fusion-travel",
-          "pro-camper-set"
+          "pro-camper"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,

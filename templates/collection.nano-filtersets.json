@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter mit Nano Kartusche<\/p>",
+            "heading": "<p>Wasserfilter mit Nano Kartusche</p>",
             "remove_spacing": false,
             "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h1",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Nano-Wasserfilterkartuschen von Alb Filter bieten umfassenden Schutz vor Mikroorganismen, Bakterien und Schadstoffen und garantieren somit reines und gesundes Trinkwasser. Dank der ultrafeinen Filtertechnologie mit einer Porengröße von nur 0,1 µm sind diese Kartuschen besonders wirksam bei akuten Legionellen-Alarmen oder Verkeimungen in den Rohrleitungen.<br\/><br\/>Dank der innovativen Nano-Membrantechnologie wird das Wasser gründlich gereinigt und gleichzeitig wichtige Mineralien erhalten. Die Kartusche ist vielseitig einsetzbar und findet verwendung in unseren Filtersystemen für den Wasserhahn, Untertisch, für die Dusche und im Camping Bereich.<\/p>",
+            "text": "<p>Die Nano-Wasserfilterkartuschen von Alb Filter bieten umfassenden Schutz vor Mikroorganismen, Bakterien und Schadstoffen und garantieren somit reines und gesundes Trinkwasser. Dank der ultrafeinen Filtertechnologie mit einer Porengröße von nur 0,1 µm sind diese Kartuschen besonders wirksam bei akuten Legionellen-Alarmen oder Verkeimungen in den Rohrleitungen.<br/><br/>Dank der innovativen Nano-Membrantechnologie wird das Wasser gründlich gereinigt und gleichzeitig wichtige Mineralien erhalten. Die Kartusche ist vielseitig einsetzbar und findet verwendung in unseren Filtersystemen für den Wasserhahn, Untertisch, für die Dusche und im Camping Bereich.</p>",
             "second_font": true
           }
         }
@@ -54,7 +54,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Nano Trinkwasserfilter",
         "enable_border": true,
         "enable_center": false,
@@ -62,6 +61,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-wasserhahn-duo-nano",
@@ -84,7 +84,6 @@
     "product_list_EkBNEh": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Nano Campingfilter",
         "enable_border": true,
         "enable_center": false,
@@ -92,13 +91,14 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "camping-wasserfilter-nano-mobil",
           "camping-wasserfilter-nano-travel",
           "camping-wasserfilter-fusion-mobil",
           "camping-wasserfilter-fusion-travel",
-          "pro-camper-set"
+          "pro-camper"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -116,7 +116,6 @@
     "product_list_bD9a9C": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "Nano Duschfilter",
         "enable_border": true,
         "enable_center": false,
@@ -124,6 +123,7 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "alb-duschfilter-nano"
@@ -144,10 +144,10 @@
     "second_contact_CV8QkP": {
       "type": "second-contact",
       "settings": {
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
-        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?<\/strong><\/p><p>Rufe uns gerne an oder schreib uns eine <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email<\/a>!<\/p>",
-        "icon": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
-        "contact": "<p><strong>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/strong><\/p>",
+        "image": "shopify://shop_images/albteamfotolena--edited-1666259799650.jpg",
+        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?</strong></p><p>Rufe uns gerne an oder schreib uns eine <a href=\"/pages/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email</a>!</p>",
+        "icon": "shopify://shop_images/sprechblasen-1640357321516.png",
+        "contact": "<p><strong>Tel.: 07420 920 921-0<br/>E-Mail: info@blaufaktor.de</strong></p>",
         "background_color": "#fafafa",
         "text_color": "#003e5f",
         "padding_top": 10,
