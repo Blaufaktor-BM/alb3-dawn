@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -44,13 +44,13 @@
           "settings": {
             "parent_title": "Trinkwasserfilter",
             "submenu_title": "Alle Filter",
-            "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_Frau_1500x_0f06fa63-2a25-4d37-bf39-7bbb4aad8c57.webp",
+            "image": "shopify://shop_images/Helle-Kuche_615345830_DUO_Frau_1500x_0f06fa63-2a25-4d37-bf39-7bbb4aad8c57.webp",
             "info_title": "Info",
-            "info_text": "<p>Hochwertige Wasserfilter zur Trinkwasseraufbereitung in der Küche. Für unter der Spüle oder direkt am Wasserhahn<\/p>",
+            "info_text": "<p>Hochwertige Wasserfilter zur Trinkwasseraufbereitung in der Küche. Für unter der Spüle oder direkt am Wasserhahn</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/trinkwasserfilter",
+            "info_btn1_url": "shopify://pages/trinkwasserfilter",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/trinkwasserfilter"
+            "info_btn2_url": "shopify://collections/trinkwasserfilter"
           }
         },
         "content_item_DRAkWc": {
@@ -58,13 +58,13 @@
           "settings": {
             "parent_title": "Trinkwasserfilter",
             "submenu_title": "Wasserhahn",
-            "image": "shopify:\/\/shop_images\/DUO-Tee-Kuche-Parchen-Winter_WEB-MOBIL-fff_07.jpg",
+            "image": "shopify://shop_images/DUO-Tee-Kuche-Parchen-Winter_WEB-MOBIL-fff_07.jpg",
             "info_title": "Info",
-            "info_text": "<p>Wasserfilter am Wasserhahn mit praktischer Umschaltfunktion.<\/p>",
+            "info_text": "<p>Wasserfilter am Wasserhahn mit praktischer Umschaltfunktion.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
+            "info_btn1_url": "shopify://pages/wasserfilter-wasserhahn",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/wasserhahnfilter"
+            "info_btn2_url": "shopify://collections/wasserhahnfilter"
           }
         },
         "content_item_D3jbHX": {
@@ -72,13 +72,13 @@
           "settings": {
             "parent_title": "Trinkwasserfilter",
             "submenu_title": "Untertisch",
-            "image": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
+            "image": "shopify://shop_images/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
             "info_title": "Info",
-            "info_text": "<p>Wasserfilter zur Montage unter der Spüle direkt nach dem Eckventil.<\/p>",
+            "info_text": "<p>Wasserfilter zur Montage unter der Spüle direkt nach dem Eckventil.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/wasserfilter-untertisch",
+            "info_btn1_url": "shopify://pages/wasserfilter-untertisch",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/wasserfilter-untertisch"
+            "info_btn2_url": "shopify://collections/wasserfilter-untertisch-old"
           }
         },
         "product_item_3e6Ypm": {
@@ -87,33 +87,33 @@
             "parent_title": "Trinkwasserfilter",
             "submenu_title": "Filterkartuschen",
             "first_title": "Schadstofffilter",
-            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
+            "first_img1": "shopify://shop_images/alb-filter-kartusche-active-4260590610706-633.jpg",
             "first_item_title1": "Active",
-            "first_item_text1": "<p>Schadstoffe<br\/>Geschmack<\/p>",
-            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-active",
-            "first_img2": "shopify:\/\/shop_images\/alb-filter-kartusche-active-plus-4260590610713-899.jpg",
+            "first_item_text1": "<p>Schadstoffe<br/>Geschmack</p>",
+            "first_item_url1": "shopify://products/wasserfilter-kartusche-active",
+            "first_img2": "shopify://shop_images/alb-filter-kartusche-active-plus-4260590610713-899.jpg",
             "first_item_title2": "Active Plus+",
-            "first_item_text2": "<p>Schadstoffe<br\/>Geschmack<br\/>Bakterien<\/p>",
-            "first_item_url2": "shopify:\/\/products\/wasserfilter-kartusche-active-plus",
+            "first_item_text2": "<p>Schadstoffe<br/>Geschmack<br/>Bakterien</p>",
+            "first_item_url2": "shopify://products/wasserfilter-kartusche-active-plus",
             "second_title": "Keimfilter",
-            "second_img1": "shopify:\/\/shop_images\/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
+            "second_img1": "shopify://shop_images/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
             "second_item_title1": "Nano",
-            "second_item_text1": "<p>Kleinste Bakterien<br\/>Keime<br\/>Mikroplastik<br\/>Legionellen-Schutz<\/p>",
-            "second_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "second_item_text1": "<p>Kleinste Bakterien<br/>Keime<br/>Mikroplastik<br/>Legionellen-Schutz</p>",
+            "second_item_url1": "shopify://products/wasserfilter-kartusche-nano",
             "second_item_title2": "",
             "second_item_text2": "",
             "second_item_url2": "",
-            "btn_text1": "<strong>Überblick <\/strong>Filterkartuschen",
-            "btn_url1": "shopify:\/\/pages\/wasserfilter-kartuschen",
+            "btn_text1": "<strong>Überblick </strong>Filterkartuschen",
+            "btn_url1": "shopify://pages/wasserfilter-kartuschen",
             "btn_text2": "Kartuschen bestellen",
-            "btn_url2": "shopify:\/\/pages\/wasserfilter-kartuschen"
+            "btn_url2": "shopify://pages/wasserfilter-kartuschen"
           }
         },
         "mobile_mega_NCAKeH": {
           "type": "mobile_mega",
           "settings": {
             "parent_menu": "Trinkwasserfilter",
-            "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp"
+            "image": "shopify://shop_images/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp"
           }
         },
         "content_item_C9yfVw": {
@@ -121,13 +121,13 @@
           "settings": {
             "parent_title": "Campingfilter",
             "submenu_title": "Alle Filter",
-            "image": "shopify:\/\/shop_images\/BG-Camper-Strand_02.webp",
+            "image": "shopify://shop_images/BG-Camper-Strand_02.webp",
             "info_title": "Info",
-            "info_text": "<p>Wasserfilter zur effizienten Aufbereitung von Leitungswasser für Wohnmobil, Camper und Boot.<\/p>",
+            "info_text": "<p>Wasserfilter zur effizienten Aufbereitung von Leitungswasser für Wohnmobil, Camper und Boot.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/camping-wasserfilter",
+            "info_btn1_url": "shopify://pages/camping-wasserfilter",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/camping-wasserfilter"
+            "info_btn2_url": "shopify://collections/camping-wasserfilter"
           }
         },
         "content_item_4QFBmB": {
@@ -135,13 +135,13 @@
           "settings": {
             "parent_title": "Campingfilter",
             "submenu_title": "Befüllfilter Mobil",
-            "image": "shopify:\/\/shop_images\/Camping-Mobil-Frau-Tanken-2500x600.webp",
+            "image": "shopify://shop_images/Camping-Mobil-Frau-Tanken-2500x600.webp",
             "info_title": "Info",
-            "info_text": "<p>Wasserfilter zum Befüllen des Wassertanks von außen bei Wohnmobilen, Campern oder Booten.<\/p>",
+            "info_text": "<p>Wasserfilter zum Befüllen des Wassertanks von außen bei Wohnmobilen, Campern oder Booten.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set",
+            "info_btn1_url": "shopify://pages/camping-wasserfilter-pro-camper-set",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/camping-mobil"
+            "info_btn2_url": "shopify://collections/camping-mobil"
           }
         },
         "content_item_VR9Ehz": {
@@ -149,13 +149,13 @@
           "settings": {
             "parent_title": "Campingfilter",
             "submenu_title": "Festeinbau Travel",
-            "image": "shopify:\/\/shop_images\/Product-pics-camping-ENG-00064.jpg",
+            "image": "shopify://shop_images/Product-pics-camping-ENG-00064.jpg",
             "info_title": "Info",
-            "info_text": "<p>Fest installierter Wasserfilter nach der Pumpe für sauberes Trinkwasser im Wohnmobil, Camper oder Boot.<\/p>",
+            "info_text": "<p>Fest installierter Wasserfilter nach der Pumpe für sauberes Trinkwasser im Wohnmobil, Camper oder Boot.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/camping-wasserfilter-travel",
+            "info_btn1_url": "shopify://pages/camping-wasserfilter-travel",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/camping-travel"
+            "info_btn2_url": "shopify://collections/camping-travel"
           }
         },
         "content_item_eyDp8b": {
@@ -163,13 +163,13 @@
           "settings": {
             "parent_title": "Campingfilter",
             "submenu_title": "Kombifilter ProCamper",
-            "image": "shopify:\/\/shop_images\/Product-pics-camping-ENG-00064.jpg",
+            "image": "shopify://shop_images/Product-pics-camping-ENG-00064.jpg",
             "info_title": "Info",
-            "info_text": "<p>Set aus Befüll- und Einbau-Wasserfilter für Wohnmobil, Camper und Boote.<\/p>",
+            "info_text": "<p>Set aus Befüll- und Einbau-Wasserfilter für Wohnmobil, Camper und Boote.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set",
+            "info_btn1_url": "shopify://pages/camping-wasserfilter-pro-camper-set",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/pro-camper"
+            "info_btn2_url": "shopify://collections/pro-camper"
           }
         },
         "product_item_UrwcC3": {
@@ -178,32 +178,32 @@
             "parent_title": "Campingfilter",
             "submenu_title": "Filterkartuschen",
             "first_title": "Schadstofffilter",
-            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-active-4260590610706-633.jpg",
+            "first_img1": "shopify://shop_images/alb-filter-kartusche-active-4260590610706-633.jpg",
             "first_item_title1": "Active",
-            "first_item_text1": "<p>Schadstoffe<br\/>Geschmack<\/p>",
-            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "first_item_text1": "<p>Schadstoffe<br/>Geschmack</p>",
+            "first_item_url1": "shopify://products/wasserfilter-kartusche-active",
             "first_item_title2": "",
             "first_item_text2": "",
             "first_item_url2": "",
             "second_title": "Keimfilter",
-            "second_img1": "shopify:\/\/shop_images\/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
+            "second_img1": "shopify://shop_images/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
             "second_item_title1": "Nano",
-            "second_item_text1": "<p>Kleinste Bakterien<br\/>Keime<br\/>Mikroplastik<br\/>Legionellen-Schutz<\/p>",
-            "second_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "second_item_text1": "<p>Kleinste Bakterien<br/>Keime<br/>Mikroplastik<br/>Legionellen-Schutz</p>",
+            "second_item_url1": "shopify://products/wasserfilter-kartusche-nano",
             "second_item_title2": "",
             "second_item_text2": "",
             "second_item_url2": "",
-            "btn_text1": "<strong>Überblick <\/strong>Filterkartuschen",
-            "btn_url1": "shopify:\/\/pages\/wasserfilter-kartuschen",
+            "btn_text1": "<strong>Überblick </strong>Filterkartuschen",
+            "btn_url1": "shopify://pages/wasserfilter-kartuschen",
             "btn_text2": "Kaufen",
-            "btn_url2": "shopify:\/\/collections\/pro-camper"
+            "btn_url2": "shopify://collections/pro-camper"
           }
         },
         "mobile_mega_rEfdQy": {
           "type": "mobile_mega",
           "settings": {
             "parent_menu": "Campingfilter",
-            "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp"
+            "image": "shopify://shop_images/Frau-Dusche-Topbanner-2500x600.webp"
           }
         },
         "content_item_JcRA9t": {
@@ -211,13 +211,13 @@
           "settings": {
             "parent_title": "Duschfilter",
             "submenu_title": "Alle Filter",
-            "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
+            "image": "shopify://shop_images/Frau-Dusche-Topbanner-2500x600.webp",
             "info_title": "Info",
-            "info_text": "<p>Wasserfilter zur einfachen Installation an der Duscharmatur.<\/p>",
+            "info_text": "<p>Wasserfilter zur einfachen Installation an der Duscharmatur.</p>",
             "info_btn1_text": "Mehr erfahren",
-            "info_btn1_url": "shopify:\/\/pages\/duschfilter",
+            "info_btn1_url": "shopify://pages/duschfilter",
             "info_btn2_text": "Kaufen",
-            "info_btn2_url": "shopify:\/\/collections\/duschfilter"
+            "info_btn2_url": "shopify://collections/duschfilter"
           }
         },
         "product_item_U6jzpd": {
@@ -226,40 +226,40 @@
             "parent_title": "Duschfilter",
             "submenu_title": "Filterkartuschen",
             "first_title": "Duschfilter",
-            "first_img1": "shopify:\/\/shop_images\/alb-filter-kartusche-balance-4260590610683-314.jpg",
+            "first_img1": "shopify://shop_images/alb-filter-kartusche-balance-4260590610683-314.jpg",
             "first_item_title1": "Balance",
-            "first_item_text1": "<p>Schadstoffe<br\/>Mineralisierung<br\/>Stabilisierung<\/p>",
-            "first_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-balance",
-            "first_img2": "shopify:\/\/shop_images\/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
+            "first_item_text1": "<p>Schadstoffe<br/>Mineralisierung<br/>Stabilisierung</p>",
+            "first_item_url1": "shopify://products/wasserfilter-kartusche-balance",
+            "first_img2": "shopify://shop_images/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
             "first_item_title2": "Shungit",
-            "first_item_text2": "<p>Belebend<br\/>Aus Urgestein<\/p>",
-            "first_item_url2": "shopify:\/\/products\/alb-filterkartusche-shungit",
+            "first_item_text2": "<p>Belebend<br/>Aus Urgestein</p>",
+            "first_item_url2": "shopify://products/alb-filterkartusche-shungit",
             "second_title": "Keimfilter",
-            "second_img1": "shopify:\/\/shop_images\/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
+            "second_img1": "shopify://shop_images/alb-filter-filterkartusche-nano-4260590611567-574.jpg",
             "second_item_title1": "Nano",
-            "second_item_text1": "<p>Kleinste Bakterien<br\/>Keime<br\/>Mikroplastik<br\/>Legionellen-Schutz<\/p>",
-            "second_item_url1": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "second_item_text1": "<p>Kleinste Bakterien<br/>Keime<br/>Mikroplastik<br/>Legionellen-Schutz</p>",
+            "second_item_url1": "shopify://products/wasserfilter-kartusche-nano",
             "second_item_title2": "",
             "second_item_text2": "",
             "second_item_url2": "",
-            "btn_text1": "<strong>Überblick <\/strong>Filterkartuschen",
-            "btn_url1": "shopify:\/\/pages\/wasserfilter-kartuschen",
+            "btn_text1": "<strong>Überblick </strong>Filterkartuschen",
+            "btn_url1": "shopify://pages/wasserfilter-kartuschen",
             "btn_text2": "Kaufen",
-            "btn_url2": "shopify:\/\/collections\/duschfilter"
+            "btn_url2": "shopify://collections/duschfilter"
           }
         },
         "mobile_mega_EamXXr": {
           "type": "mobile_mega",
           "settings": {
             "parent_menu": "Duschfilter",
-            "image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil_01_9fd24d51-20b2-499e-9f68-2f61f2446231.jpg"
+            "image": "shopify://shop_images/lunisworld-situation-1-2-pano_web_mobil_01_9fd24d51-20b2-499e-9f68-2f61f2446231.jpg"
           }
         },
         "mobile_mega_DCbx9E": {
           "type": "mobile_mega",
           "settings": {
             "parent_menu": "Service",
-            "image": "shopify:\/\/shop_images\/Hose-Schraubenschlussel_589563588.jpg"
+            "image": "shopify://shop_images/Hose-Schraubenschlussel_589563588.jpg"
           }
         }
       },

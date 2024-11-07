@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,8 +20,8 @@
     "image_banner_7cHhYP": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DUO-E-Montage_Kuche_Madchen.webp",
-        "image_2": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
+        "image": "shopify://shop_images/DUO-E-Montage_Kuche_Madchen.webp",
+        "image_2": "shopify://shop_images/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
         "image_overlay_color": "#000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
@@ -44,7 +44,7 @@
         "heading_AUcqNV": {
           "type": "heading",
           "settings": {
-            "heading": "<p>TRINKWASSERFILTER<\/p>",
+            "heading": "<p>TRINKWASSERFILTER</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -56,7 +56,7 @@
         "heading_zFpYUx": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter für Trinkwasser<\/p>",
+            "heading": "<p>Wasserfilter für Trinkwasser</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -68,7 +68,7 @@
         "text_AdKrmP": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Trinkwasserfilter von Alb Filter werden direkt am Wasserhahn – mit Umschaltfunktion – oder unter der Spüle als Untertisch-Wasserfilter installiert. <\/p><p>Es gibt viele Gründe, Leitungswasser zu filtern. Neben Schadstoffen und Krankheitserregern kann das Wasser Inhaltsstoffe enthalten, die zu Trübungen oder Verunreinigungen führen. Ebenso kann der Geschmack, der Geruch und allgemein die Genussfähigkeit beeinträchtigt sein.<br\/><br\/>Ein Trinkwasserfilter in der Küche bietet zahlreiche Vorteile für Ihre Gesundheit und den Komfort. Durch die Filterung von Schadstoffen, Chemikalien und Mikroplastik sorgt ein Trinkwasserfilter dafür, dass Sie und Ihre Familie jederzeit sauberes, gesundes Wasser direkt aus dem Wasserhahn genießen können. Darüber hinaus verbessert gefiltertes Wasser den Geschmack und die Qualität Ihrer Speisen und Getränke.<\/p>",
+            "text": "<p>Die Trinkwasserfilter von Alb Filter werden direkt am Wasserhahn – mit Umschaltfunktion – oder unter der Spüle als Untertisch-Wasserfilter installiert. </p><p>Es gibt viele Gründe, Leitungswasser zu filtern. Neben Schadstoffen und Krankheitserregern kann das Wasser Inhaltsstoffe enthalten, die zu Trübungen oder Verunreinigungen führen. Ebenso kann der Geschmack, der Geruch und allgemein die Genussfähigkeit beeinträchtigt sein.<br/><br/>Ein Trinkwasserfilter in der Küche bietet zahlreiche Vorteile für Ihre Gesundheit und den Komfort. Durch die Filterung von Schadstoffen, Chemikalien und Mikroplastik sorgt ein Trinkwasserfilter dafür, dass Sie und Ihre Familie jederzeit sauberes, gesundes Wasser direkt aus dem Wasserhahn genießen können. Darüber hinaus verbessert gefiltertes Wasser den Geschmack und die Qualität Ihrer Speisen und Getränke.</p>",
             "second_font": true
           }
         },
@@ -77,7 +77,7 @@
           "settings": {
             "center": false,
             "button_label": "Trinkwasserfilter kaufen",
-            "button_link": "shopify:\/\/collections\/trinkwasserfilter",
+            "button_link": "shopify://collections/trinkwasserfilter",
             "button_style_secondary": false,
             "btn_icon": "cart",
             "button_label_2": "",
@@ -111,41 +111,41 @@
         "item_wcjQ3g": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/duo-element-spule-wasserhahn-1644225658263.png",
-            "image_url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
+            "image": "shopify://shop_images/duo-element-spule-wasserhahn-1644225658263.png",
+            "image_url": "shopify://pages/wasserfilter-wasserhahn",
             "heading": "Wasserfilter am Wasserhahn",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
             "heading_second_font": false,
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.</p>",
             "text_second_font": false,
-            "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
+            "content_url": "shopify://pages/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
-            "first_btn_url": "shopify:\/\/collections\/wasserhahnfilter",
+            "first_btn_url": "shopify://collections/wasserhahnfilter",
             "btn_icon": "cart",
             "second_btn": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/wasserfilter-wasserhahn"
+            "second_btn_url": "shopify://pages/wasserfilter-wasserhahn"
           }
         },
         "item_jRCHKH": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
-            "image_url": "shopify:\/\/pages\/wasserfilter-untertisch",
+            "image": "shopify://shop_images/illustration-wasserfilter-untertisch-1637144663610.png",
+            "image_url": "shopify://pages/wasserfilter-untertisch",
             "heading": "Wasserfilter Untertisch",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
             "heading_second_font": false,
-            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.<\/p>",
+            "text": "<p>Unser Wasserfilter direkt am Wasserhahn. Mit praktischer Umschaltfunktion zum Wechsel zwischen gefiltertem und ungefiltertem Leitungswasser.</p>",
             "text_second_font": false,
-            "content_url": "shopify:\/\/pages\/camping-wasserfilter-mobil",
+            "content_url": "shopify://pages/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
-            "first_btn_url": "shopify:\/\/collections\/wasserfilter-untertisch",
+            "first_btn_url": "shopify://collections/wasserfilter-untertisch-old",
             "btn_icon": "cart",
             "second_btn": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/wasserfilter-untertisch"
+            "second_btn_url": "shopify://pages/wasserfilter-untertisch"
           }
         }
       },
@@ -177,18 +177,18 @@
         "alb_comparison_CVqVNT": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "<strong>Alb Trinkwasserfilter Vergleich<\/strong>",
+            "heading": "<strong>Alb Trinkwasserfilter Vergleich</strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
             "heading_color": "#003e5f",
             "heading_second_font": false,
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
+            "text": "<p>Set mit Gehäuse und Kartusche</p>",
             "text_second_font": false,
-            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
-            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
-            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "image1": "shopify://shop_images/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify://shop_images/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
+            "image4": "shopify://shop_images/filterkartusche-fusion-zweier-1639472314766.jpg",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -198,81 +198,81 @@
         "filter_properties_r4F6Uc": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Filtereigenschaften<\/strong>",
-            "title1": "<strong>Active<\/strong>",
-            "title2": "<strong>Active+<\/strong>",
-            "title3": "<strong>Nano<\/strong>",
-            "title4": "<strong>Fusion*<\/strong>"
+            "title": "<strong>Filtereigenschaften</strong>",
+            "title1": "<strong>Active</strong>",
+            "title2": "<strong>Active+</strong>",
+            "title3": "<strong>Nano</strong>",
+            "title4": "<strong>Fusion*</strong>"
           }
         },
         "filter_properties_Mc6zwT": {
           "type": "filter_properties",
           "settings": {
             "title": "Mineralien bleiben erhalten",
-            "title1": "<strong>Ja<\/strong>",
-            "title2": "<strong>Ja<\/strong>",
-            "title3": "<strong>Ja<\/strong>",
-            "title4": "<strong>Ja<\/strong>"
+            "title1": "<strong>Ja</strong>",
+            "title2": "<strong>Ja</strong>",
+            "title3": "<strong>Ja</strong>",
+            "title4": "<strong>Ja</strong>"
           }
         },
         "filter_properties_NVTT8G": {
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack,  Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_fKWm3n": {
           "type": "filter_properties",
           "settings": {
             "title": "Schwermetalle",
-            "title1": "<strong>+ + <\/strong>",
-            "title2": "<strong>+ + <\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>+ + <\/strong>"
+            "title1": "<strong>+ + </strong>",
+            "title2": "<strong>+ + </strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>+ + </strong>"
           }
         },
         "filter_properties_xmQAx7": {
           "type": "filter_properties",
           "settings": {
             "title": "Pestizide, Arzneimittelrückstände",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_gC6jUT": {
           "type": "filter_properties",
           "settings": {
             "title": "Mikroplastik, Asbestfasern, Sedimente",
-            "title1": "<strong>+ <\/strong>",
-            "title2": "<strong>+ + <\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>+ </strong>",
+            "title2": "<strong>+ + </strong>",
+            "title3": "<strong>+ + +</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_CzPJem": {
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+ <\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>-<\/strong>"
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+ </strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>-</strong>"
           }
         },
         "filter_properties_gmKNk4": {
           "type": "filter_properties",
           "settings": {
             "title": "Keime und Bakterien",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+ <\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+ </strong>",
+            "title3": "<strong>+ + +</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_4zERK7": {
@@ -282,52 +282,52 @@
             "title1": "4 Monate",
             "title2": "4 Monate",
             "title3": "6 Mon.",
-            "title4": "4\/6 Mon."
+            "title4": "4/6 Mon."
           }
         },
         "filter_properties_pwa7Rf": {
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~6 l\/min",
-            "title3": "~11 l\/min",
-            "title4": "~6 l\/min"
+            "title1": "~7 l/min",
+            "title2": "~6 l/min",
+            "title3": "~11 l/min",
+            "title4": "~6 l/min"
           }
         },
         "filter_product_set_pMgNqg": {
           "type": "filter_product_set",
           "settings": {
-            "title": "<strong>Untertisch Komplett-Setmit Schnellkupplung<\/strong>",
-            "text": "<p>Montage des Filters mit Schnellverschüssen für einen noch einfacheren Filterwechsel.<br\/><\/p>",
+            "title": "<strong>Untertisch Komplett-Setmit Schnellkupplung</strong>",
+            "text": "<p>Montage des Filters mit Schnellverschüssen für einen noch einfacheren Filterwechsel.<br/></p>",
             "product1": "alb-filter-active-untertisch-komplett-set-schnellkupplung",
             "text1": "",
-            "image1": "shopify:\/\/shop_images\/Active_Schnellanschlussset_2981f629-8f73-48eb-89ce-76f080e9b6b9.jpg",
+            "image1": "shopify://shop_images/Active_Schnellanschlussset_2981f629-8f73-48eb-89ce-76f080e9b6b9.jpg",
             "product2": "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
             "text2": "",
-            "image2": "shopify:\/\/shop_images\/Active_Schnellanschlussset.jpg",
+            "image2": "shopify://shop_images/Active_Schnellanschlussset.jpg",
             "product3": "alb-filter-untertisch-komplett-set-schnellkupplung",
             "text3": "",
-            "image3": "shopify:\/\/shop_images\/Nano_Schnellanschlussset.jpg",
+            "image3": "shopify://shop_images/Nano_Schnellanschlussset.jpg",
             "product4": "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung",
             "text4": "",
-            "image4": "shopify:\/\/shop_images\/Fusion_Schwarz_Schnellanschlussset.jpg"
+            "image4": "shopify://shop_images/Fusion_Schwarz_Schnellanschlussset.jpg"
           }
         },
         "filter_product_set_A49VwL": {
           "type": "filter_product_set",
           "settings": {
-            "title": "<strong>Wasserhahnfilter Duo<\/strong>",
-            "text": "<p>Für die Montage direkt am Wasserhahn. Mit Umschalthebel zur Wahl zwischen gefiltertem und ungefiltertem Wasser.<br\/><\/p>",
+            "title": "<strong>Wasserhahnfilter Duo</strong>",
+            "text": "<p>Für die Montage direkt am Wasserhahn. Mit Umschalthebel zur Wahl zwischen gefiltertem und ungefiltertem Wasser.<br/></p>",
             "product1": "wasserfilter-wasserhahn-duo-active",
             "text1": "",
-            "image1": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+            "image1": "shopify://shop_images/alb-filter-duo-kartusche-active-1643973266657.jpg",
             "product2": "wasserfilter-wasserhahn-duo-active-plus",
             "text2": "",
-            "image2": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+            "image2": "shopify://shop_images/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
             "product3": "wasserfilter-wasserhahn-duo-nano",
             "text3": "",
-            "image3": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+            "image3": "shopify://shop_images/alb-filter-duo-kartusche-nano-1643973266660.jpg",
             "product4": "",
             "text4": ""
           }
@@ -335,7 +335,7 @@
         "description_wghk9A": {
           "type": "description",
           "settings": {
-            "description": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.<\/p>"
+            "description": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.</p>"
           }
         }
       },
@@ -372,7 +372,7 @@
         "heading_ifbUyJ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kundenstimmen zu unseren Trinkwasserfiltern<\/p>",
+            "heading": "<p>Kundenstimmen zu unseren Trinkwasserfiltern</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -399,7 +399,7 @@
       "type": "custom-liquid",
       "settings": {
         "page_width": true,
-        "custom_liquid": "<script src=\"https:\/\/widget.reviews.io\/carousel-inline-iframeless\/dist.js?_t=2023040514\"><\/script>\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/css\/widgets\/carousel-widget.css?_t=2023040514\">\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/iconfont\/reviewsio-icons\/style.css?_t=2023040514\">\n<div id=\"reviewsio-carousel-widget\"><\/div>\n<script>\n    async function createReviewCarousel() {\n    const rc = new carouselInlineWidget(\"reviewsio-carousel-widget\", {\n        \/*Your REVIEWS.io account ID:*\/\n        store: \"alb-filter-dev.myshopify.com\",\n        sku: \"AR1441-SSN\",\n        lang: \"de\",\n        carousel_type: \"topHeader\",\n        styles_carousel: \"CarouselWidget--topHeader--withcards\",\n\n        \/*Widget settings:*\/\n        options: {\n            general: {\n                \/*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*\/\n                review_type: \"company, product, third_party\",\n                \/*Minimum number of reviews required for widget to be displayed*\/\n                min_reviews: \"1\",\n                \/*Maximum number of reviews to include in the carousel widget.*\/\n                max_reviews: \"20\",\n                address_format: \"CITY, COUNTRY\",\n                \/*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*\/\n                enable_auto_scroll: 5000,\n            },\n            header: {\n                \/*Show overall rating stars*\/\n                enable_overall_stars: true,\n                rating_decimal_places: 2,\n            },\n            reviews: {\n                \/*Show customer name*\/\n                enable_customer_name: true,\n                \/*Show customer location*\/\n                enable_customer_location: true,\n                \/*Show \"verified review\" badge*\/\n                enable_verified_badge: true,\n                \/*Show \"verified subscriber\" badge*\/\n                enable_subscriber_badge: true,\n                \/*Show \"I recommend this product\" badge (Only for product reviews)*\/\n                enable_recommends_badge: true,\n                \/*Show photos attached to reviews*\/\n                enable_photos: true,\n                \/*Show videos attached to reviews*\/\n                enable_videos: true,\n                \/*Show when review was written*\/\n                enable_review_date: true,\n                \/*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*\/\n                disable_same_customer: true,\n                \/*Minimum star rating*\/\n                min_review_percent: 60,\n                \/*Show 3rd party review source*\/\n                third_party_source: true,\n                \/*Hide reviews without comments (still shows if review has a photo)*\/\n                hide_empty_reviews: true,\n                \/*Show product name*\/\n                enable_product_name: true,\n                \/*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*\/\n                tags: \"\",\n                \/*Show branch, only one input*\/\n                branch: \"\",\n                enable_branch_name: false,\n            },\n            popups: {\n                \/*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*\/\n                enable_review_popups: true,\n                \/*Show \"was this review helpful\" buttons*\/\n                enable_helpful_buttons: true,\n                \/*Show how many times review was upvoted as helpful*\/\n                enable_helpful_count: true,\n                \/*Show share buttons*\/\n                enable_share_buttons: true,\n            },\n        },\n        translations: {\n            verified_customer: \"Verified Customer\",\n        },\n        styles: {\n            \/*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*\/\n            \"--base-font-size\": \"16px\",\n            \"--base-maxwidth\": \"100%\",\n\n            \/*Logo styles:*\/\n            \"--reviewsio-logo-style\": \"var(--logo-normal)\",\n\n            \/*Star styles:*\/\n            \"--common-star-color\": \"#ffa41c\",\n            \"--common-star-disabled-color\": \" rgba(0,0,0,0.25)\",\n            \"--medium-star-size\": \" 22px\",\n            \"--small-star-size\": \"19px\" \/*Modal*\/,\n            \"--x-small-star-size\": \"16px\",\n            \"--x-small-star-display\": \"inline-flex\",\n\n            \/*Header styles:*\/\n            \"--header-order\": \"1\",\n            \"--header-width\": \"160px\",\n            \"--header-bg-start-color\": \"transparent\",\n            \"--header-bg-end-color\": \"transparent\",\n            \"--header-gradient-direction\": \"135deg\",\n            \"--header-padding\": \"0.5em\",\n            \"--header-border-width\": \"0px\",\n            \"--header-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--header-border-radius\": \"0px\",\n            \"--header-shadow-size\": \"0px\",\n            \"--header-shadow-color\": \"rgba(0, 0, 0, 0.1)\",\n\n            \/*Header content styles:*\/\n            \"--header-star-color\": \"#ffa41c\",\n            \"--header-disabled-star-color\": \"inherit\",\n            \"--header-heading-text-color\": \"#003e5f\",\n            \"--header-heading-font-size\": \"inherit\",\n            \"--header-heading-font-weight\": \"inherit\",\n            \"--header-heading-line-height\": \"inherit\",\n            \"--header-heading-text-transform\": \"inherit\",\n            \"--header-subheading-text-color\": \"#616161\",\n            \"--header-subheading-font-size\": \"inherit\",\n            \"--header-subheading-font-weight\": \"inherit\",\n            \"--header-subheading-line-height\": \"inherit\",\n            \"--header-subheading-text-transform\": \"inherit\",\n\n            \/*Review item styles:*\/\n            \"--item-maximum-columns\": \"5\" \/*Must be 3 or larger*\/,\n            \"--item-background-start-color\": \"#ffffff\",\n            \"--item-background-end-color\": \"#ffffff\",\n            \"--item-gradient-direction\": \"135deg\",\n            \"--item-padding\": \"1.5em\",\n            \"--item-border-width\": \"0px\",\n            \"--item-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--item-border-radius\": \"0px\",\n            \"--item-shadow-size\": \"10px\",\n            \"--item-shadow-color\": \"rgba(0,0,0,0.05)\",\n\n            \/*Heading styles:*\/\n            \"--heading-text-color\": \"#003e5f\",\n            \"--heading-text-font-weight\": \" 600\",\n            \"--heading-text-font-family\": \" inherit\",\n            \"--heading-text-line-height\": \" 1.4\",\n            \"--heading-text-letter-spacing\": \"0\",\n            \"--heading-text-transform\": \"none\",\n\n            \/*Body text styles:*\/\n            \"--body-text-color\": \"#616161\",\n            \"--body-text-font-weight\": \"400\",\n            \"--body-text-font-family\": \" inherit\",\n            \"--body-text-line-height\": \" 1.4\",\n            \"--body-text-letter-spacing\": \"0\",\n            \"--body-text-transform\": \"none\",\n\n            \/*Scroll button styles:*\/\n            \"--scroll-button-icon-color\": \"#0E1311\",\n            \"--scroll-button-icon-size\": \"24px\",\n            \"--scroll-button-bg-color\": \"transparent\",\n\n            \"--scroll-button-border-width\": \"0px\",\n            \"--scroll-button-border-color\": \"rgba(0,0,0,0.1)\",\n\n            \"--scroll-button-border-radius\": \"60px\",\n            \"--scroll-button-shadow-size\": \"0px\",\n            \"--scroll-button-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--scroll-button-horizontal-position\": \"0px\",\n            \"--scroll-button-vertical-position\": \"0px\",\n\n            \/*Badge styles:*\/\n            \"--badge-icon-color\": \"#616161\",\n            \"--badge-icon-font-size\": \"15px\",\n            \"--badge-text-color\": \"#616161\",\n            \"--badge-text-font-size\": \"inherit\",\n            \"--badge-text-letter-spacing\": \"inherit\",\n            \"--badge-text-transform\": \"inherit\",\n\n            \/*Author styles:*\/\n            \"--author-font-size\": \"inherit\",\n            \"--author-font-weight\": \"inherit\",\n            \"--author-text-transform\": \"inherit\",\n\n            \/*Product photo or review photo styles:*\/\n            \"--photo-video-thumbnail-size\": \"60px\",\n            \"--photo-video-thumbnail-border-radius\": \"0px\",\n\n            \/*Popup styles:*\/\n            \"--popup-backdrop-color\": \"rgba(0,0,0,0.75)\",\n            \"--popup-color\": \"#ffffff\",\n            \"--popup-star-color\": \"inherit\",\n            \"--popup-disabled-star-color\": \"inherit\",\n            \"--popup-heading-text-color\": \"inherit\",\n            \"--popup-body-text-color\": \"inherit\",\n            \"--popup-badge-icon-color\": \"inherit\",\n            \"--popup-badge-icon-font-size\": \"19px\",\n            \"--popup-badge-text-color\": \"inherit\",\n            \"--popup-badge-text-font-size\": \"14px\",\n            \"--popup-border-width\": \"0px\",\n            \"--popup-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-border-radius\": \"0px\",\n            \"--popup-shadow-size\": \"0px\",\n            \"--popup-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-icon-color\": \"#003e5f\",\n\n            \/*Tooltip styles:*\/\n            \"--tooltip-bg-color\": \"#0E1311\",\n            \"--tooltip-text-color\": \"#ffffff\",\n        },\n    });\n\n    return new Promise((resolve) => {\n        \/\/ Wenn die Operation abgeschlossen ist, wird das Promise aufgelöst\n        resolve(rc);\n    });\n}\n\nasync function carouselCreation() {\n    \/\/ Warten, bis das Objekt erstellt wurde\n    const createdCarousel = await createReviewCarousel();\n    waitAndRemoveLowRatings();\n}\n\nfunction waitForWidget(selector) {\n    return new Promise((resolve) => {\n        const observer = new MutationObserver((mutationsList, observer) => {\n            for (let mutation of mutationsList) {\n                if (mutation.type === \"childList\") {\n                    const widget = document.querySelector(selector);\n                    if (widget) {\n                        observer.disconnect(); \/\/ Stop observing\n                        resolve(widget); \/\/ Resolve the promise with the widget\n                        break;\n                    }\n                }\n            }\n        });\n\n        \/\/ Start observing the document body for child node additions\n        observer.observe(document.body, { childList: true, subtree: true });\n    });\n}\n\nasync function waitAndRemoveLowRatings() {\n    const widgetSelector = \".R-ReviewsList__item\";\n    const widget = await waitForWidget(widgetSelector);\n\n    \/\/ Widget is now available\n    \/\/console.log(\"Widget found:\", widget);\n\n    var reviewContainers = document.querySelectorAll(\".R-ReviewsList__item\");\n    \/\/ Loop through each review container\n    reviewContainers.forEach(function (container) {\n        var ratingStars = container.querySelector(\".R-RatingStars__stars\");\n        if (ratingStars) {\n            var filledStars = ratingStars.querySelectorAll(\".stars__icon--0\").length;\n            if (filledStars > 1) {\n                container.style.display = \"none\";\n            }\n        }\n    });\n}\n\ncarouselCreation();\n\n<\/script>",
+        "custom_liquid": "<script src=\"https://widget.reviews.io/carousel-inline-iframeless/dist.js?_t=2023040514\"></script>\n<link rel=\"stylesheet\" href=\"https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2023040514\">\n<link rel=\"stylesheet\" href=\"https://assets.reviews.io/iconfont/reviewsio-icons/style.css?_t=2023040514\">\n<div id=\"reviewsio-carousel-widget\"></div>\n<script>\n    async function createReviewCarousel() {\n    const rc = new carouselInlineWidget(\"reviewsio-carousel-widget\", {\n        /*Your REVIEWS.io account ID:*/\n        store: \"alb-filter-dev.myshopify.com\",\n        sku: \"AR1441-SSN\",\n        lang: \"de\",\n        carousel_type: \"topHeader\",\n        styles_carousel: \"CarouselWidget--topHeader--withcards\",\n\n        /*Widget settings:*/\n        options: {\n            general: {\n                /*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*/\n                review_type: \"company, product, third_party\",\n                /*Minimum number of reviews required for widget to be displayed*/\n                min_reviews: \"1\",\n                /*Maximum number of reviews to include in the carousel widget.*/\n                max_reviews: \"20\",\n                address_format: \"CITY, COUNTRY\",\n                /*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*/\n                enable_auto_scroll: 5000,\n            },\n            header: {\n                /*Show overall rating stars*/\n                enable_overall_stars: true,\n                rating_decimal_places: 2,\n            },\n            reviews: {\n                /*Show customer name*/\n                enable_customer_name: true,\n                /*Show customer location*/\n                enable_customer_location: true,\n                /*Show \"verified review\" badge*/\n                enable_verified_badge: true,\n                /*Show \"verified subscriber\" badge*/\n                enable_subscriber_badge: true,\n                /*Show \"I recommend this product\" badge (Only for product reviews)*/\n                enable_recommends_badge: true,\n                /*Show photos attached to reviews*/\n                enable_photos: true,\n                /*Show videos attached to reviews*/\n                enable_videos: true,\n                /*Show when review was written*/\n                enable_review_date: true,\n                /*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*/\n                disable_same_customer: true,\n                /*Minimum star rating*/\n                min_review_percent: 60,\n                /*Show 3rd party review source*/\n                third_party_source: true,\n                /*Hide reviews without comments (still shows if review has a photo)*/\n                hide_empty_reviews: true,\n                /*Show product name*/\n                enable_product_name: true,\n                /*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*/\n                tags: \"\",\n                /*Show branch, only one input*/\n                branch: \"\",\n                enable_branch_name: false,\n            },\n            popups: {\n                /*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*/\n                enable_review_popups: true,\n                /*Show \"was this review helpful\" buttons*/\n                enable_helpful_buttons: true,\n                /*Show how many times review was upvoted as helpful*/\n                enable_helpful_count: true,\n                /*Show share buttons*/\n                enable_share_buttons: true,\n            },\n        },\n        translations: {\n            verified_customer: \"Verified Customer\",\n        },\n        styles: {\n            /*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*/\n            \"--base-font-size\": \"16px\",\n            \"--base-maxwidth\": \"100%\",\n\n            /*Logo styles:*/\n            \"--reviewsio-logo-style\": \"var(--logo-normal)\",\n\n            /*Star styles:*/\n            \"--common-star-color\": \"#ffa41c\",\n            \"--common-star-disabled-color\": \" rgba(0,0,0,0.25)\",\n            \"--medium-star-size\": \" 22px\",\n            \"--small-star-size\": \"19px\" /*Modal*/,\n            \"--x-small-star-size\": \"16px\",\n            \"--x-small-star-display\": \"inline-flex\",\n\n            /*Header styles:*/\n            \"--header-order\": \"1\",\n            \"--header-width\": \"160px\",\n            \"--header-bg-start-color\": \"transparent\",\n            \"--header-bg-end-color\": \"transparent\",\n            \"--header-gradient-direction\": \"135deg\",\n            \"--header-padding\": \"0.5em\",\n            \"--header-border-width\": \"0px\",\n            \"--header-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--header-border-radius\": \"0px\",\n            \"--header-shadow-size\": \"0px\",\n            \"--header-shadow-color\": \"rgba(0, 0, 0, 0.1)\",\n\n            /*Header content styles:*/\n            \"--header-star-color\": \"#ffa41c\",\n            \"--header-disabled-star-color\": \"inherit\",\n            \"--header-heading-text-color\": \"#003e5f\",\n            \"--header-heading-font-size\": \"inherit\",\n            \"--header-heading-font-weight\": \"inherit\",\n            \"--header-heading-line-height\": \"inherit\",\n            \"--header-heading-text-transform\": \"inherit\",\n            \"--header-subheading-text-color\": \"#616161\",\n            \"--header-subheading-font-size\": \"inherit\",\n            \"--header-subheading-font-weight\": \"inherit\",\n            \"--header-subheading-line-height\": \"inherit\",\n            \"--header-subheading-text-transform\": \"inherit\",\n\n            /*Review item styles:*/\n            \"--item-maximum-columns\": \"5\" /*Must be 3 or larger*/,\n            \"--item-background-start-color\": \"#ffffff\",\n            \"--item-background-end-color\": \"#ffffff\",\n            \"--item-gradient-direction\": \"135deg\",\n            \"--item-padding\": \"1.5em\",\n            \"--item-border-width\": \"0px\",\n            \"--item-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--item-border-radius\": \"0px\",\n            \"--item-shadow-size\": \"10px\",\n            \"--item-shadow-color\": \"rgba(0,0,0,0.05)\",\n\n            /*Heading styles:*/\n            \"--heading-text-color\": \"#003e5f\",\n            \"--heading-text-font-weight\": \" 600\",\n            \"--heading-text-font-family\": \" inherit\",\n            \"--heading-text-line-height\": \" 1.4\",\n            \"--heading-text-letter-spacing\": \"0\",\n            \"--heading-text-transform\": \"none\",\n\n            /*Body text styles:*/\n            \"--body-text-color\": \"#616161\",\n            \"--body-text-font-weight\": \"400\",\n            \"--body-text-font-family\": \" inherit\",\n            \"--body-text-line-height\": \" 1.4\",\n            \"--body-text-letter-spacing\": \"0\",\n            \"--body-text-transform\": \"none\",\n\n            /*Scroll button styles:*/\n            \"--scroll-button-icon-color\": \"#0E1311\",\n            \"--scroll-button-icon-size\": \"24px\",\n            \"--scroll-button-bg-color\": \"transparent\",\n\n            \"--scroll-button-border-width\": \"0px\",\n            \"--scroll-button-border-color\": \"rgba(0,0,0,0.1)\",\n\n            \"--scroll-button-border-radius\": \"60px\",\n            \"--scroll-button-shadow-size\": \"0px\",\n            \"--scroll-button-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--scroll-button-horizontal-position\": \"0px\",\n            \"--scroll-button-vertical-position\": \"0px\",\n\n            /*Badge styles:*/\n            \"--badge-icon-color\": \"#616161\",\n            \"--badge-icon-font-size\": \"15px\",\n            \"--badge-text-color\": \"#616161\",\n            \"--badge-text-font-size\": \"inherit\",\n            \"--badge-text-letter-spacing\": \"inherit\",\n            \"--badge-text-transform\": \"inherit\",\n\n            /*Author styles:*/\n            \"--author-font-size\": \"inherit\",\n            \"--author-font-weight\": \"inherit\",\n            \"--author-text-transform\": \"inherit\",\n\n            /*Product photo or review photo styles:*/\n            \"--photo-video-thumbnail-size\": \"60px\",\n            \"--photo-video-thumbnail-border-radius\": \"0px\",\n\n            /*Popup styles:*/\n            \"--popup-backdrop-color\": \"rgba(0,0,0,0.75)\",\n            \"--popup-color\": \"#ffffff\",\n            \"--popup-star-color\": \"inherit\",\n            \"--popup-disabled-star-color\": \"inherit\",\n            \"--popup-heading-text-color\": \"inherit\",\n            \"--popup-body-text-color\": \"inherit\",\n            \"--popup-badge-icon-color\": \"inherit\",\n            \"--popup-badge-icon-font-size\": \"19px\",\n            \"--popup-badge-text-color\": \"inherit\",\n            \"--popup-badge-text-font-size\": \"14px\",\n            \"--popup-border-width\": \"0px\",\n            \"--popup-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-border-radius\": \"0px\",\n            \"--popup-shadow-size\": \"0px\",\n            \"--popup-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-icon-color\": \"#003e5f\",\n\n            /*Tooltip styles:*/\n            \"--tooltip-bg-color\": \"#0E1311\",\n            \"--tooltip-text-color\": \"#ffffff\",\n        },\n    });\n\n    return new Promise((resolve) => {\n        // Wenn die Operation abgeschlossen ist, wird das Promise aufgelöst\n        resolve(rc);\n    });\n}\n\nasync function carouselCreation() {\n    // Warten, bis das Objekt erstellt wurde\n    const createdCarousel = await createReviewCarousel();\n    waitAndRemoveLowRatings();\n}\n\nfunction waitForWidget(selector) {\n    return new Promise((resolve) => {\n        const observer = new MutationObserver((mutationsList, observer) => {\n            for (let mutation of mutationsList) {\n                if (mutation.type === \"childList\") {\n                    const widget = document.querySelector(selector);\n                    if (widget) {\n                        observer.disconnect(); // Stop observing\n                        resolve(widget); // Resolve the promise with the widget\n                        break;\n                    }\n                }\n            }\n        });\n\n        // Start observing the document body for child node additions\n        observer.observe(document.body, { childList: true, subtree: true });\n    });\n}\n\nasync function waitAndRemoveLowRatings() {\n    const widgetSelector = \".R-ReviewsList__item\";\n    const widget = await waitForWidget(widgetSelector);\n\n    // Widget is now available\n    //console.log(\"Widget found:\", widget);\n\n    var reviewContainers = document.querySelectorAll(\".R-ReviewsList__item\");\n    // Loop through each review container\n    reviewContainers.forEach(function (container) {\n        var ratingStars = container.querySelector(\".R-RatingStars__stars\");\n        if (ratingStars) {\n            var filledStars = ratingStars.querySelectorAll(\".stars__icon--0\").length;\n            if (filledStars > 1) {\n                container.style.display = \"none\";\n            }\n        }\n    });\n}\n\ncarouselCreation();\n\n</script>",
         "color_scheme": "",
         "padding_top": 44,
         "padding_bottom": 52
@@ -411,10 +411,10 @@
         "item_XCEG3x": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "image": "shopify://shop_images/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
-            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Hergestellt in<br/>Deutschland</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -427,10 +427,10 @@
         "item_GM9hMV": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "image": "shopify://shop_images/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>30 Tage<br/>Rückgaberecht</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -443,10 +443,10 @@
         "item_TAFUCd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Schneller und kostenloser<br/>Versand mit DHL</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -459,10 +459,10 @@
         "item_7KnPrh": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "image": "shopify://shop_images/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Einfache Zahlung<br/>auch auf Rechnung</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -499,17 +499,17 @@
         "item_ULtGD6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
-            "url": "shopify:\/\/pages\/faq-trinkwasser"
+            "url": "shopify://pages/faq-trinkwasser"
           }
         },
         "item_4BwnNP": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "image": "shopify://shop_images/sprechblasen-1640357321516.png",
             "text": "Hilfe und Kontakt",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+            "url": "shopify://pages/hilfe-und-kontakt"
           }
         }
       },
@@ -520,7 +520,7 @@
       "settings": {
         "background_color": "#fafafa",
         "enable_border": false,
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "image": "shopify://shop_images/albteamfotolena--edited-1666259799650.jpg",
         "image_width": 150,
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
@@ -528,7 +528,7 @@
         "heading_weight": "700",
         "heading_color": "#616161",
         "enable_heading_second_font": false,
-        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https://alb-filter.com/pages/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br/></a> oder kannst mit uns in Kontakt treten. </p>",
         "text_color": "#616161",
         "enable_text_second_font": true,
         "item_bg": "#ffffff",
@@ -546,7 +546,7 @@
           "settings": {
             "heading": "Warum Leitungswasser filtern? Sieht die Trinkwasserverordnung nicht strenge Kontrollen vor?",
             "icon": "none",
-            "row_content": "<p>Unser <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland <\/a>wird zwar streng kontrolliert, doch die Realität zeigt oft ein anderes Bild. Die Qualität beruht auf Grenzwerten für derzeit ca. 60 Schadstoffe, die in der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_self\">Trinkwasserverordnung <\/a>festgelegt wurden.<br\/><br\/>Viele Stoffkonzentrationen wie etwa Medikamentenrückstände, Hormone, Mikroplastik und Pestizide u.v.m. werden von der Trinkwasserverordnung nicht erfasst!<br\/><br\/>Jährlich häufen sich in Deutschland Meldungen über <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\" target=\"_self\">Legionellen <\/a>im Trinkwasser. Und auch geringfügige Stoffkonzentrationen von etwa <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\" target=\"_self\">Schwermetallen <\/a>oder <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" target=\"_self\">Mikroplastik <\/a>werden von der Trinkwasserverordnung nicht berücksichtigt.<br\/><br\/>Die Wasserqualität wird zudem meist nur an den Verteilerzentren gemessen, nicht am Hausanschluss. Das bedeutet, dass das Leitungswasser auf dem Weg zu deinem Wasserhahn verschiedene Verunreinigungen aus dem Leitungsnetz aufnehmen kann.<\/p>",
+            "row_content": "<p>Unser <a href=\"https://alb-filter.com/blogs/ratgeber/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland </a>wird zwar streng kontrolliert, doch die Realität zeigt oft ein anderes Bild. Die Qualität beruht auf Grenzwerten für derzeit ca. 60 Schadstoffe, die in der <a href=\"https://www.gesetze-im-internet.de/trinkwv_2023/TrinkwV.pdf\" target=\"_self\">Trinkwasserverordnung </a>festgelegt wurden.<br/><br/>Viele Stoffkonzentrationen wie etwa Medikamentenrückstände, Hormone, Mikroplastik und Pestizide u.v.m. werden von der Trinkwasserverordnung nicht erfasst!<br/><br/>Jährlich häufen sich in Deutschland Meldungen über <a href=\"https://alb-filter.com/blogs/ratgeber/legionellen-im-wasser\" target=\"_self\">Legionellen </a>im Trinkwasser. Und auch geringfügige Stoffkonzentrationen von etwa <a href=\"https://alb-filter.com/blogs/ratgeber/schwermetalle-im-leitungswasser\" target=\"_self\">Schwermetallen </a>oder <a href=\"https://alb-filter.com/blogs/ratgeber/mikroplastik-im-leitungswasser\" target=\"_self\">Mikroplastik </a>werden von der Trinkwasserverordnung nicht berücksichtigt.<br/><br/>Die Wasserqualität wird zudem meist nur an den Verteilerzentren gemessen, nicht am Hausanschluss. Das bedeutet, dass das Leitungswasser auf dem Weg zu deinem Wasserhahn verschiedene Verunreinigungen aus dem Leitungsnetz aufnehmen kann.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -559,7 +559,7 @@
           "settings": {
             "heading": "Bleiben wertvolle Mineralien erhalten wenn ich das Wasser filter?",
             "icon": "none",
-            "row_content": "<p>Wasser filtern und lebenswichtige Mineralien erhalten, das ist das Prinzip der Trinkwasserfilter von Alb Filter.<br\/><br\/>Ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\") ist, dass unsere Kartuschen  essentielle  Spurenelemente und Mineralien im Wasser belassen und diese nicht heraus filtern.<\/p>",
+            "row_content": "<p>Wasser filtern und lebenswichtige Mineralien erhalten, das ist das Prinzip der Trinkwasserfilter von Alb Filter.<br/><br/>Ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\") ist, dass unsere Kartuschen  essentielle  Spurenelemente und Mineralien im Wasser belassen und diese nicht heraus filtern.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -572,7 +572,7 @@
           "settings": {
             "heading": "Wann sollte ich das Wasser filtern und wann nicht?",
             "icon": "none",
-            "row_content": "<p>Immer, wenn Sie das <strong>Wasser trinken, Getränke oder Lebensmittel <\/strong>zubereiten möchten, macht es Sinn gefiltertes Wasser zu verwenden. Zum Abspülen oder Händewaschen reicht auch ungefiltertes Wasser. Generell ist das Wasser aus Sprudelflaschen oft nicht besser als ungefiltertes Leitungswasser. Mit einem guten Wasserfilter erreichen Sie somit deutlich gesünderes, von Schadstoffen befreites Wasser.<\/p>",
+            "row_content": "<p>Immer, wenn Sie das <strong>Wasser trinken, Getränke oder Lebensmittel </strong>zubereiten möchten, macht es Sinn gefiltertes Wasser zu verwenden. Zum Abspülen oder Händewaschen reicht auch ungefiltertes Wasser. Generell ist das Wasser aus Sprudelflaschen oft nicht besser als ungefiltertes Leitungswasser. Mit einem guten Wasserfilter erreichen Sie somit deutlich gesünderes, von Schadstoffen befreites Wasser.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -585,7 +585,7 @@
           "settings": {
             "heading": "Was ist der Unterschied zwischen Active & Active Plus+?",
             "icon": "none",
-            "row_content": "<p>Die<strong>Active Plus+<\/strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine<strong>Kalkreduktion um ca. 4 - 7 dH°<\/strong>.<\/p>",
+            "row_content": "<p>Die<strong>Active Plus+</strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine<strong>Kalkreduktion um ca. 4 - 7 dH°</strong>.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -598,7 +598,7 @@
           "settings": {
             "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
             "icon": "none",
-            "row_content": "<p>Beachten Sie die Wechselintervalle von <strong>4 Monaten für Active und Active Plus+ sowie 6 Monate für die Nano<\/strong>, dann sind Sie grundsätzlich auf „der sicheren Seite“.<br\/>Es gibt bei Active und Active Plus+ keine weiteren Indikatoren für einen Wechsel, abgesehen einer <strong>regelmäßigen Wasserüberprüfung im Labor, <\/strong>was natürlich nicht realistisch ist. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
+            "row_content": "<p>Beachten Sie die Wechselintervalle von <strong>4 Monaten für Active und Active Plus+ sowie 6 Monate für die Nano</strong>, dann sind Sie grundsätzlich auf „der sicheren Seite“.<br/>Es gibt bei Active und Active Plus+ keine weiteren Indikatoren für einen Wechsel, abgesehen einer <strong>regelmäßigen Wasserüberprüfung im Labor, </strong>was natürlich nicht realistisch ist. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -611,7 +611,7 @@
           "settings": {
             "heading": "Welche Arten von Verunreinigungen werden durch den Trinkwasserfilter entfernt?",
             "icon": "none",
-            "row_content": "<p>Unsere Trinkwasserfilterkartuschen bieten verschiedene Filterstufen, um eine Vielzahl von Verunreinigungen effektiv zu entfernen:<br\/><br\/><span style=\"text-decoration:underline\">Active Kartusche <\/span><strong>Filtert schlechten Geschmack und Gerüche:<\/strong>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (wie Chlor, CKW’s, FCKW’s und mehr) sowie Geschmacksbeeinträchtigungen im Trinkwasser.<br\/><br\/><strong>Reduziert Schwermetalle:<\/strong>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie Blei und Kupfer im Trinkwasser.<br\/><br\/><strong>Filtrierung von Mikroplastik und kleinsten Partikeln:<\/strong>Durch die feine Struktur der gesinterten Aktivkohle werden kleinste Plastikteile zuverlässig zurückgehalten.<br\/><br\/><strong>Reduzierung von Arzneimittelrückständen und Pestiziden:<\/strong>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone und mehr können reduziert werden.<br\/><br\/><span style=\"text-decoration:underline\">ActivePlus Kartusche<\/span>Alle Filtereigenschaften der Active Kartusche und filter zusätzlich:<br\/><br\/><strong>Gegen Bakterien und Keime:<\/strong>Keimschutz ohne Chemie durch eine mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<br\/><br\/><strong>Kalkreduktion \/ Wasserenthärtung:<\/strong>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen, wodurch weniger anhaftende Oberflächen entstehen.<br\/><br\/><span style=\"text-decoration:underline\">Nano Kartusche<\/span><strong>Schutz vor Mikroorganismen:<\/strong>Der Schwerpunkt der Nano Kartusche liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen, z.B. E-Coli, Vibrio Cholerae, Shigellen, Salmonellen.<br\/><br\/><strong>Schutz vor Legionellen:<\/strong>Die Nano Kartusche schützt zuverlässig vor Legionellen und anderen Mikroorganismen, ob präventiv oder bei positivem Legionellen-Befund.<br\/><br\/><strong>Reduziert Trübungen:<\/strong>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "row_content": "<p>Unsere Trinkwasserfilterkartuschen bieten verschiedene Filterstufen, um eine Vielzahl von Verunreinigungen effektiv zu entfernen:<br/><br/><span style=\"text-decoration:underline\">Active Kartusche </span><strong>Filtert schlechten Geschmack und Gerüche:</strong>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (wie Chlor, CKW’s, FCKW’s und mehr) sowie Geschmacksbeeinträchtigungen im Trinkwasser.<br/><br/><strong>Reduziert Schwermetalle:</strong>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie Blei und Kupfer im Trinkwasser.<br/><br/><strong>Filtrierung von Mikroplastik und kleinsten Partikeln:</strong>Durch die feine Struktur der gesinterten Aktivkohle werden kleinste Plastikteile zuverlässig zurückgehalten.<br/><br/><strong>Reduzierung von Arzneimittelrückständen und Pestiziden:</strong>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone und mehr können reduziert werden.<br/><br/><span style=\"text-decoration:underline\">ActivePlus Kartusche</span>Alle Filtereigenschaften der Active Kartusche und filter zusätzlich:<br/><br/><strong>Gegen Bakterien und Keime:</strong>Keimschutz ohne Chemie durch eine mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<br/><br/><strong>Kalkreduktion / Wasserenthärtung:</strong>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen, wodurch weniger anhaftende Oberflächen entstehen.<br/><br/><span style=\"text-decoration:underline\">Nano Kartusche</span><strong>Schutz vor Mikroorganismen:</strong>Der Schwerpunkt der Nano Kartusche liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen, z.B. E-Coli, Vibrio Cholerae, Shigellen, Salmonellen.<br/><br/><strong>Schutz vor Legionellen:</strong>Die Nano Kartusche schützt zuverlässig vor Legionellen und anderen Mikroorganismen, ob präventiv oder bei positivem Legionellen-Befund.<br/><br/><strong>Reduziert Trübungen:</strong>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -624,7 +624,7 @@
           "settings": {
             "heading": "Welche Inhaltstoffe befinden sich in unserem Leitungswasser?",
             "icon": "none",
-            "row_content": "<p>Unser Leitungswasser kann eine Vielzahl von <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Inhaltsstoffen  <\/a>enthalten, darunter natürliche Mineralien wie Calcium und Magnesium sowie Rückstände von <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor\" target=\"_self\">Chlor<\/a>, das zur Desinfektion verwendet wird. Schwermetalle wie Blei und Kupfer können aus alten Rohrleitungen stammen. Zusätzlich können organische Verbindungen wie Pestizide, Herbizide und <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\" target=\"_self\">Medikamentenrückstände <\/a>ins Wasser gelangen. Mikroplastik und andere kleine Partikel sind ebenfalls möglich. Durch den Einsatz von Trinkwasserfiltern können diese Verunreinigungen erheblich reduziert werden, wodurch die Wasserqualität und Sicherheit verbessert wird.<br\/><br\/>Mehr zum Thema Inhaltsstoffe findest du in unserem <a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhalt\" target=\"_self\">Ratgeber<\/a>.<\/p>",
+            "row_content": "<p>Unser Leitungswasser kann eine Vielzahl von <a href=\"https://alb-filter.com/blogs/ratgeber/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Inhaltsstoffen  </a>enthalten, darunter natürliche Mineralien wie Calcium und Magnesium sowie Rückstände von <a href=\"https://alb-filter.com/blogs/ratgeber/chlor\" target=\"_self\">Chlor</a>, das zur Desinfektion verwendet wird. Schwermetalle wie Blei und Kupfer können aus alten Rohrleitungen stammen. Zusätzlich können organische Verbindungen wie Pestizide, Herbizide und <a href=\"https://alb-filter.com/blogs/ratgeber/arzneimittelrueckstaende-im-leitungswasser\" target=\"_self\">Medikamentenrückstände </a>ins Wasser gelangen. Mikroplastik und andere kleine Partikel sind ebenfalls möglich. Durch den Einsatz von Trinkwasserfiltern können diese Verunreinigungen erheblich reduziert werden, wodurch die Wasserqualität und Sicherheit verbessert wird.<br/><br/>Mehr zum Thema Inhaltsstoffe findest du in unserem <a href=\"https://alb-filter.com/blogs/ratgeber/inhalt\" target=\"_self\">Ratgeber</a>.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -643,7 +643,7 @@
         "collapsible_row_nhGQPh"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
+        "image": "shopify://shop_images/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
         "heading": "Fragen und Antworten",
         "enable_icon": false,
@@ -670,7 +670,7 @@
         "text_Jd9yje": {
           "type": "text",
           "settings": {
-            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.<\/p>",
+            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.</p>",
             "text_style": "body",
             "color": "#616161",
             "second_font": false
@@ -680,7 +680,7 @@
           "type": "button",
           "settings": {
             "button_label": "Zum Ratgeber",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "color": "#0081be",
             "primary_btn": false,
             "primary_bg": "#0081be"
@@ -697,13 +697,13 @@
         "m_content_position": "left",
         "content_wrapper": false,
         "background_color": "",
-        "heading": "<p>Mehr zum Thema Wasser und Wasserfilter<\/p>",
+        "heading": "<p>Mehr zum Thema Wasser und Wasserfilter</p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "second_font": false,
-        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "image": "shopify://shop_images/pf-66efbc41--wasserfilterlogoratgeber.png",
         "image_width": 245,
         "image_mobile_width": 285,
         "image_round": false,

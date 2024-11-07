@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,8 +20,8 @@
     "image_banner_VXphJg": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ELEMENT-Untertisch-Kuche-Panorama-Kuche_Topbanner-Landing_01.webp",
-        "image_2": "shopify:\/\/shop_images\/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
+        "image": "shopify://shop_images/ELEMENT-Untertisch-Kuche-Panorama-Kuche_Topbanner-Landing_01.webp",
+        "image_2": "shopify://shop_images/Topbanner-Kuche-Untertisch-Element_WEB_ae3a5a47-fd77-40a8-9b6d-d85cdb23f9c0.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -42,7 +42,7 @@
         "heading_QVnkRh": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB DUO<\/p>",
+            "heading": "<p>ALB DUO</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "hxl",
@@ -53,7 +53,7 @@
         "heading_L8UzMX": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter für den Untertisch<\/p>",
+            "heading": "<p>Wasserfilter für den Untertisch</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -72,7 +72,7 @@
         "text_yXVURT": {
           "type": "text",
           "settings": {
-            "text": "<p>Den Wasserfilter für Ihren Untertisch installieren Sie am Unterbau, direkt unter der Spüle. Dort sorgt der Alb Filter Element für frisch gefilterten Trinkgenuss direkt aus dem Wasserhahn. <\/p>",
+            "text": "<p>Den Wasserfilter für Ihren Untertisch installieren Sie am Unterbau, direkt unter der Spüle. Dort sorgt der Alb Filter Element für frisch gefilterten Trinkgenuss direkt aus dem Wasserhahn. </p>",
             "second_font": true
           }
         },
@@ -81,7 +81,7 @@
           "settings": {
             "center": false,
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/wasserfilter-untertisch",
+            "button_link": "shopify://collections/wasserfilter-untertisch-old",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -118,15 +118,15 @@
             "image_width": 90,
             "second_font": false,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-352dc002--albfiltericonsetparameters13cornervalve.svg",
+            "image1": "shopify://shop_images/pf-352dc002--albfiltericonsetparameters13cornervalve.svg",
             "text1": "Anschluss direkt am Kaltwasser-Eckventil",
-            "image2": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
+            "image2": "shopify://shop_images/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
             "text2": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
-            "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
+            "image3": "shopify://shop_images/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
             "text3": "Gehäuse aus hochwertigem Edelstahl für eine noch längere Haltbarkeit.",
-            "image4": "shopify:\/\/shop_images\/pf-e484c55f--albfiltericonsetparameters176month_4e9f93f7-538b-40de-bac2-9f31bbcf702b.svg",
+            "image4": "shopify://shop_images/pf-e484c55f--albfiltericonsetparameters176month_4e9f93f7-538b-40de-bac2-9f31bbcf702b.svg",
             "text4": "Filterkartuschen mit einer Höchstnutzungsdauer von 6 Monaten",
-            "image5": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "image5": "shopify://shop_images/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
             "text5": "Design, Fertigung und Produktion in Süddeutschland",
             "text6": ""
           }
@@ -136,7 +136,7 @@
         "icon_text_k64xdq"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/illustration-wasserfilter-untertisch-1637144663610.png",
+        "image": "shopify://shop_images/illustration-wasserfilter-untertisch-1637144663610.png",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -158,7 +158,7 @@
         "heading_7gV4bT": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Modularer Wasserfilter<\/p>",
+            "heading": "<p>Modularer Wasserfilter</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -177,7 +177,7 @@
         "text_cxEdHN": {
           "type": "text",
           "settings": {
-            "text": "<p>Element-Variante: Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<br\/><br\/>Fusion-Variante: Kombiniert zwei Element-Gehäuse mit einer Active und einer Nano Kartusche, um ein größtmögliches Filterspektrum und höchste Sicherheit für das Trinkwasser zu bieten.<\/p>",
+            "text": "<p>Element-Variante: Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<br/><br/>Fusion-Variante: Kombiniert zwei Element-Gehäuse mit einer Active und einer Nano Kartusche, um ein größtmögliches Filterspektrum und höchste Sicherheit für das Trinkwasser zu bieten.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -190,7 +190,7 @@
         "text_cxEdHN"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/UNTERTISCH-Element-Fusion-Varianten_2000x_1.webp",
+        "image": "shopify://shop_images/UNTERTISCH-Element-Fusion-Varianten_2000x_1.webp",
         "enable_image_ratio": false,
         "image_ratio": "3_2",
         "image_contain": false,
@@ -212,7 +212,7 @@
         "heading_XnipEy": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Untertisch-Wasserfilter im Überblick<\/p>",
+            "heading": "<p>Alb Untertisch-Wasserfilter im Überblick</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
@@ -240,7 +240,7 @@
         "heading_knck3B": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Untertisch Active<\/p>",
+            "heading": "<p>Untertisch Active</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -251,7 +251,7 @@
         "text_7xdnWt": {
           "type": "text",
           "settings": {
-            "text": "<p>Schadstoffrückhalt und erfrischender Trinkgenuss.<br\/><br\/>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text": "<p>Schadstoffrückhalt und erfrischender Trinkgenuss.<br/><br/>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -263,13 +263,13 @@
             "image_width": 60,
             "second_font": false,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "image2": "shopify://shop_images/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image3": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "image4": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
             "text4": "Reduzierung von Mikroplastik",
             "text5": "",
             "text6": ""
@@ -282,14 +282,14 @@
             "title_second_font": true,
             "text_second_font": true,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "image4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
             "text5": "",
             "text6": "",
             "text7": "",
@@ -302,8 +302,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss <strong>Blockaktivkohle <\/strong>(gesintert)<br\/><br\/><strong>Wechselinterval1 <\/strong>4 Monate<br\/><br\/><strong>Filterkapazität2 <\/strong>3000 L<br\/><br\/><strong>Druckanforderung3 <\/strong>2,8 Bar<br\/><br\/><strong>Durchfluss4 <\/strong>7 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial </strong>Kokosnuss <strong>Blockaktivkohle </strong>(gesintert)<br/><br/><strong>Wechselinterval1 </strong>4 Monate<br/><br/><strong>Filterkapazität2 </strong>3000 L<br/><br/><strong>Druckanforderung3 </strong>2,8 Bar<br/><br/><strong>Durchfluss4 </strong>7 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -312,11 +312,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-active-untertisch-komplett-set-schnellkupplung",
+            "button_link1": "shopify://products/alb-filter-active-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/active-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
           }
         }
@@ -330,7 +330,7 @@
         "button_tALwYh"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactivefilterkartusche-1639472477696.jpg",
+        "image": "shopify://shop_images/albedelstahlwasserfiltermitactivefilterkartusche-1639472477696.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -352,7 +352,7 @@
         "heading_UTCXwQ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Untertisch Active Plus+<\/p>",
+            "heading": "<p>Untertisch Active Plus+</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -363,7 +363,7 @@
         "text_LxdLGG": {
           "type": "text",
           "settings": {
-            "text": "<p>Das Plus gegen Bakterien und Keime<br\/><br\/>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von 0,7 µm effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die innovative 2-fach Enthärterstufe reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
+            "text": "<p>Das Plus gegen Bakterien und Keime<br/><br/>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von 0,7 µm effektiv aus dem Wasser zu filtern. <br/><br/>Darüber hinaus wird Kalk durch die innovative 2-fach Enthärterstufe reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -375,17 +375,17 @@
             "image_width": 60,
             "second_font": false,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "image2": "shopify://shop_images/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image3": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "image4": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
             "text4": "Reduzierung von Mikroplastik",
-            "image5": "shopify:\/\/shop_images\/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
+            "image5": "shopify://shop_images/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
             "text5": "Reduzierung von Bakterien und Keime bis 0.7 µm",
-            "image6": "shopify:\/\/shop_images\/pf-7c162f46--albfiltericonsetparameters07lime.svg",
+            "image6": "shopify://shop_images/pf-7c162f46--albfiltericonsetparameters07lime.svg",
             "text6": "Kalkreduktion (Wasserenthärtung)"
           }
         },
@@ -396,18 +396,18 @@
             "title_second_font": true,
             "text_second_font": true,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
-            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<br\/><\/strong><br\/>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinen Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "image4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "image5": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Gegen Bakterien und Keime</strong></p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "image6": "shopify://shop_images/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
+            "text6": "<p><strong>Kalkreduktion / Wasserenthärtung<br/></strong><br/>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "text7": "",
             "text8": "",
             "text9": "",
@@ -418,8 +418,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial:<\/strong> Bioton<br\/><br\/><strong>Wechselinterval1 <\/strong>4 Monate<br\/><br\/><strong>Filterkapazität2 <\/strong>3000 L<br\/><br\/><strong>Druckanforderung3 <\/strong>3,0 Bar<br\/><br\/><strong>Durchfluss4 <\/strong>6 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial:</strong> Bioton<br/><br/><strong>Wechselinterval1 </strong>4 Monate<br/><br/><strong>Filterkapazität2 </strong>3000 L<br/><br/><strong>Druckanforderung3 </strong>3,0 Bar<br/><br/><strong>Durchfluss4 </strong>6 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei ca. 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -428,11 +428,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
+            "button_link1": "shopify://products/alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/active-plus-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
           }
         }
@@ -446,7 +446,7 @@
         "button_zAFMz8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitactiveplusfilterkartusche-1639472477710.jpg",
+        "image": "shopify://shop_images/albedelstahlwasserfiltermitactiveplusfilterkartusche-1639472477710.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -468,7 +468,7 @@
         "heading_WWmKrt": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Untertisch Nano<\/p>",
+            "heading": "<p>Untertisch Nano</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -479,7 +479,7 @@
         "text_azzQDm": {
           "type": "text",
           "settings": {
-            "text": "<p>Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.<br\/><br\/>Schützt vor einer Verkeimung mit Bakterien, Keimen, Schimmelpilzen und Legionellen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <br\/><br\/><\/p>",
+            "text": "<p>Schutz vor Mikrokeimen und Krankheitserregern. Zertifizierte Ultra-Filtration bis 0.1 µm.<br/><br/>Schützt vor einer Verkeimung mit Bakterien, Keimen, Schimmelpilzen und Legionellen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <br/><br/></p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -491,13 +491,13 @@
             "image_width": 60,
             "second_font": false,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "image1": "shopify://shop_images/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
             "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) E. coli Bakterien, Vibrio Cholerae, Shigellen, Salmonellen uvm.",
-            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "image2": "shopify://shop_images/pf-162f4645--albfiltericonsetparameters08performance.svg",
             "text2": "Hochleistungsmembran",
-            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "image3": "shopify://shop_images/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
             "text3": "Große Filterkapazität",
-            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "image4": "shopify://shop_images/pf-46459b35--albfiltericonsetparameters10security.svg",
             "text4": "Höchste zertifizierte Sicherheit nach ASTM F838-15A",
             "text5": "",
             "text6": ""
@@ -510,16 +510,16 @@
             "title_second_font": true,
             "text_second_font": true,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text4": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "image1": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.</p>",
+            "image2": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "image3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.</p>",
+            "image4": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text4": "<p><strong>Reduziert Trübungen</strong></p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
+            "image5": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text5": "<p><strong>Zertifiziert</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "text6": "",
             "text7": "",
             "text8": "",
@@ -531,8 +531,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>",
+            "top_text": "<p><strong>Filtermaterial </strong>Hohlfasermembrane</p><p><strong>Wechselinterval</strong>1<strong> </strong>6 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>5000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,1 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>11 l/min</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei 3 Bar Wasserdruck</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -541,11 +541,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-untertisch-komplett-set-schnellkupplung",
+            "button_link1": "shopify://products/alb-filter-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/nano-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
           }
         }
@@ -559,7 +559,7 @@
         "button_taT3Ry"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
+        "image": "shopify://shop_images/albedelstahlwasserfiltermitnanofilterkartusche-1639472477746.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -581,7 +581,7 @@
         "heading_tGcWwP": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Untertisch Fusion<\/p>",
+            "heading": "<p>Untertisch Fusion</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -592,7 +592,7 @@
         "text_afEaJn": {
           "type": "text",
           "settings": {
-            "text": "<p>Die rundum sorglos Variante.<br\/><br\/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die Filtereigenschaften beider Kartuschen für höchste Sicherheit und Trinkgenuss.<\/p>",
+            "text": "<p>Die rundum sorglos Variante.<br/><br/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die Filtereigenschaften beider Kartuschen für höchste Sicherheit und Trinkgenuss.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -604,17 +604,17 @@
             "image_width": 60,
             "second_font": false,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "image2": "shopify://shop_images/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image3": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "image4": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
             "text4": "Filterung von kleinsten Mikroplastikteilchen",
-            "image5": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
-            "image6": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "image5": "shopify://shop_images/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien</strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen</strong> uvm.",
+            "image6": "shopify://shop_images/pf-46459b35--albfiltericonsetparameters10security.svg",
             "text6": "Höchste zertifizierte Sicherheit nach ASTM F838-15A"
           }
         },
@@ -625,22 +625,22 @@
             "title_second_font": true,
             "text_second_font": true,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche (Active)<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle (Active)<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text3": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden (Active)<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text4": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln (Nano)<\/strong><\/p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.<\/p>",
-            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text5": "<p><strong>Schutz vor Mikroorganismen (Nano)<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen. Aber auch Mikroplastik und andere mikroskopisch kleine Partikel werden mechanisch aus dem Wasser gefiltert.<\/p>",
-            "image6": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text6": "<p><strong>Schutz vor Legionellen (Nano)<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<br\/><br\/><\/p>",
-            "image7": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "text7": "<p><strong>Höchste Sicherheit (Nano)<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "image8": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text8": "<p><strong>Zertifiziert (Nano)<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche (Active)</strong></p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle (Active)</strong></p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text3": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden (Active)</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "image4": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text4": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln (Nano)</strong></p><p>Durch die ultra feinen Poren der Nanokartusche, werden kleinste Plastikteile bis 0,1 µm zuverlässig zurück gehalten.</p>",
+            "image5": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Schutz vor Mikroorganismen (Nano)</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen. Aber auch Mikroplastik und andere mikroskopisch kleine Partikel werden mechanisch aus dem Wasser gefiltert.</p>",
+            "image6": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text6": "<p><strong>Schutz vor Legionellen (Nano)</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<br/><br/></p>",
+            "image7": "shopify://shop_images/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "text7": "<p><strong>Höchste Sicherheit (Nano)</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "image8": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text8": "<p><strong>Zertifiziert (Nano)</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "text9": "",
             "text10": ""
           }
@@ -649,8 +649,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial<\/strong><br\/>Active:<strong> <\/strong>Kokosnuss Blockaktivkohle (gesintert)<br\/>Nano: Hohlfasermembrane<br\/><\/p><p><strong>Wechselinterval<\/strong>1<br\/>Active: 6 Monate nur in Kombination mit der Nano Kartusche<br\/>Nano: 6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <br\/><\/strong>Active: 3000 L<br\/>Nano: 5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <br\/><\/strong>Fusion: 3,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<br\/>Fusion 6 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial</strong><br/>Active:<strong> </strong>Kokosnuss Blockaktivkohle (gesintert)<br/>Nano: Hohlfasermembrane<br/></p><p><strong>Wechselinterval</strong>1<br/>Active: 6 Monate nur in Kombination mit der Nano Kartusche<br/>Nano: 6 Monate</p><p><strong>Filterkapazität</strong>2<strong> <br/></strong>Active: 3000 L<br/>Nano: 5000 L</p><p><strong>Druckanforderung</strong>3<strong> <br/></strong>Fusion: 3,1 Bar</p><p><strong>Durchfluss</strong>4<br/>Fusion 6 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -659,11 +659,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung",
+            "button_link1": "shopify://products/fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung",
             "btn_color": "#fff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "button_link2": "shopify://pages/fusion-doppelstufenfilter",
             "second_btn_color": "#0081be"
           }
         }
@@ -677,7 +677,7 @@
         "button_jM7fU6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albfusionedelstahlwasserfiltergehausemitfilterkartuschenschwarz-1639472477774.jpg",
+        "image": "shopify://shop_images/albfusionedelstahlwasserfiltergehausemitfilterkartuschenschwarz-1639472477774.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -703,11 +703,11 @@
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
-            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
-            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
-            "image4": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "text": "<p>Set mit Gehäuse und Kartusche</p>",
+            "image1": "shopify://shop_images/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify://shop_images/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
+            "image4": "shopify://shop_images/filterkartusche-fusion-zweier-1639472314766.jpg",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -717,81 +717,81 @@
         "filter_properties_hipaUE": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Filtereigenschaften<\/strong>",
-            "title1": "<strong>Active<\/strong>",
-            "title2": "<strong>Active+<\/strong>",
-            "title3": "<strong>Nano<\/strong>",
-            "title4": "<strong>Fusion*<\/strong>"
+            "title": "<strong>Filtereigenschaften</strong>",
+            "title1": "<strong>Active</strong>",
+            "title2": "<strong>Active+</strong>",
+            "title3": "<strong>Nano</strong>",
+            "title4": "<strong>Fusion*</strong>"
           }
         },
         "filter_properties_jhAPDJ": {
           "type": "filter_properties",
           "settings": {
             "title": "Mineralien bleiben erhalten",
-            "title1": "<strong>Ja<\/strong>",
-            "title2": "<strong>Ja<\/strong>",
-            "title3": "<strong>Ja<\/strong>",
-            "title4": "<strong>Ja<\/strong>"
+            "title1": "<strong>Ja</strong>",
+            "title2": "<strong>Ja</strong>",
+            "title3": "<strong>Ja</strong>",
+            "title4": "<strong>Ja</strong>"
           }
         },
         "filter_properties_T3fgrV": {
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack,  Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_CGCqnj": {
           "type": "filter_properties",
           "settings": {
             "title": "Schwermetalle",
-            "title1": "<strong>+ +<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>+ +<\/strong>"
+            "title1": "<strong>+ +</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>+ +</strong>"
           }
         },
         "filter_properties_8pVqcX": {
           "type": "filter_properties",
           "settings": {
             "title": "Pestizide, Arzneimittelrückstände",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_EUNdUn": {
           "type": "filter_properties",
           "settings": {
             "title": "Mikroplastik, Asbestfasern, Sedimente",
-            "title1": "<strong>+ <\/strong>",
-            "title2": "<strong>+ + <\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>+ </strong>",
+            "title2": "<strong>+ + </strong>",
+            "title3": "<strong>+ + +</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_6pLe3Y": {
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>-<\/strong>",
-            "title4": "<strong>-<\/strong>"
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>-</strong>",
+            "title4": "<strong>-</strong>"
           }
         },
         "filter_properties_anEHTN": {
           "type": "filter_properties",
           "settings": {
             "title": "Keime und Bakterien",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
-            "title4": "<strong>+ + +<\/strong>"
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>+ + +</strong>",
+            "title4": "<strong>+ + +</strong>"
           }
         },
         "filter_properties_EKWgGy": {
@@ -801,42 +801,42 @@
             "title1": "4 Monate",
             "title2": "4 Monate",
             "title3": "6 Mon.",
-            "title4": "4\/6 Mon."
+            "title4": "4/6 Mon."
           }
         },
         "filter_properties_MbMyCy": {
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~6 l\/min",
-            "title3": "~11 l\/min",
-            "title4": "~6 l\/min"
+            "title1": "~7 l/min",
+            "title2": "~6 l/min",
+            "title3": "~11 l/min",
+            "title4": "~6 l/min"
           }
         },
         "filter_product_set_DDQ83y": {
           "type": "filter_product_set",
           "settings": {
-            "title": "<strong>Komplett-Sets Untertisch<\/strong>",
-            "text": "<p>Montageset mit Schnellkupplungen für einen einfachen Filterwechsel.<\/p>",
+            "title": "<strong>Komplett-Sets Untertisch</strong>",
+            "text": "<p>Montageset mit Schnellkupplungen für einen einfachen Filterwechsel.</p>",
             "product1": "alb-filter-active-untertisch-komplett-set-schnellkupplung",
             "text1": "",
-            "image1": "shopify:\/\/shop_images\/Active_Schnellanschlussset_2981f629-8f73-48eb-89ce-76f080e9b6b9.jpg",
+            "image1": "shopify://shop_images/Active_Schnellanschlussset_2981f629-8f73-48eb-89ce-76f080e9b6b9.jpg",
             "product2": "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
             "text2": "",
-            "image2": "shopify:\/\/shop_images\/Active_Schnellanschlussset.jpg",
+            "image2": "shopify://shop_images/Active_Schnellanschlussset.jpg",
             "product3": "alb-filter-untertisch-komplett-set-schnellkupplung",
             "text3": "",
-            "image3": "shopify:\/\/shop_images\/Nano_Schnellanschlussset.jpg",
+            "image3": "shopify://shop_images/Nano_Schnellanschlussset.jpg",
             "product4": "fusion-trinkwasserfilter-untertisch-komplett-set-schnellkupplung",
             "text4": "",
-            "image4": "shopify:\/\/shop_images\/Fusion_Schwarz_Schnellanschlussset.jpg"
+            "image4": "shopify://shop_images/Fusion_Schwarz_Schnellanschlussset.jpg"
           }
         },
         "description_mjRKkG": {
           "type": "description",
           "settings": {
-            "description": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.<\/p>"
+            "description": "<p>* Die Fusion Variante vereint die Vorteile der Active und Nano Kartusche in einem kompakten doppelstufigen Gehäuse.</p>"
           }
         }
       },
@@ -872,14 +872,14 @@
         "image_pzLRGe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
+            "image": "shopify://shop_images/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
             "image_width": 120
           }
         },
         "heading_DNcQV9": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter Untertisch<br\/><strong>Installation<\/strong><\/p>",
+            "heading": "<p>Wasserfilter Untertisch<br/><strong>Installation</strong></p>",
             "heading_tag": "h3",
             "heading_size": "h1",
             "heading_color": "#003e5f",
@@ -889,7 +889,7 @@
         "text_KqmncA": {
           "type": "text",
           "settings": {
-            "text": "<p>Nützliche Anleitungen, Videos zum Einbau und Kartuschenwechsel Ihres Alb Filters.<\/p>",
+            "text": "<p>Nützliche Anleitungen, Videos zum Einbau und Kartuschenwechsel Ihres Alb Filters.</p>",
             "text_style": "body",
             "color": "#616161",
             "second_font": false
@@ -899,7 +899,7 @@
           "type": "button",
           "settings": {
             "button_label": "Schaltflächenbeschriftung",
-            "button_link": "shopify:\/\/pages\/installation-untertisch",
+            "button_link": "shopify://pages/installation-untertisch",
             "color": "#fafafa",
             "primary_btn": true,
             "primary_bg": "#0081be"
@@ -921,7 +921,7 @@
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "second_font": false,
-        "image": "shopify:\/\/shop_images\/illustration-wasserfilter-am-eckventil-1637144663600.png",
+        "image": "shopify://shop_images/illustration-wasserfilter-am-eckventil-1637144663600.png",
         "image_width": 200,
         "image_mobile_width": 285,
         "image_round": false,
@@ -935,7 +935,7 @@
         "heading_kRKhJ8": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kundenstimmen zu unseren Untertischfilter<\/p>",
+            "heading": "<p>Kundenstimmen zu unseren Untertischfilter</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
@@ -961,7 +961,7 @@
       "type": "custom-liquid",
       "settings": {
         "page_width": true,
-        "custom_liquid": "<script src=\"https:\/\/widget.reviews.io\/carousel-inline-iframeless\/dist.js?_t=2023040514\"><\/script>\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/css\/widgets\/carousel-widget.css?_t=2023040514\">\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/iconfont\/reviewsio-icons\/style.css?_t=2023040514\">\n<div id=\"reviewsio-carousel-widget\"><\/div>\n<script>\n    async function createReviewCarousel() {\n    const rc = new carouselInlineWidget(\"reviewsio-carousel-widget\", {\n        \/*Your REVIEWS.io account ID:*\/\n        store: \"alb-filter-dev.myshopify.com\",\n        sku: \"AR1441-SSN\",\n        lang: \"de\",\n        carousel_type: \"topHeader\",\n        styles_carousel: \"CarouselWidget--topHeader--withcards\",\n\n        \/*Widget settings:*\/\n        options: {\n            general: {\n                \/*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*\/\n                review_type: \"company, product, third_party\",\n                \/*Minimum number of reviews required for widget to be displayed*\/\n                min_reviews: \"1\",\n                \/*Maximum number of reviews to include in the carousel widget.*\/\n                max_reviews: \"20\",\n                address_format: \"CITY, COUNTRY\",\n                \/*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*\/\n                enable_auto_scroll: 5000,\n            },\n            header: {\n                \/*Show overall rating stars*\/\n                enable_overall_stars: true,\n                rating_decimal_places: 2,\n            },\n            reviews: {\n                \/*Show customer name*\/\n                enable_customer_name: true,\n                \/*Show customer location*\/\n                enable_customer_location: true,\n                \/*Show \"verified review\" badge*\/\n                enable_verified_badge: true,\n                \/*Show \"verified subscriber\" badge*\/\n                enable_subscriber_badge: true,\n                \/*Show \"I recommend this product\" badge (Only for product reviews)*\/\n                enable_recommends_badge: true,\n                \/*Show photos attached to reviews*\/\n                enable_photos: true,\n                \/*Show videos attached to reviews*\/\n                enable_videos: true,\n                \/*Show when review was written*\/\n                enable_review_date: true,\n                \/*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*\/\n                disable_same_customer: true,\n                \/*Minimum star rating*\/\n                min_review_percent: 60,\n                \/*Show 3rd party review source*\/\n                third_party_source: true,\n                \/*Hide reviews without comments (still shows if review has a photo)*\/\n                hide_empty_reviews: true,\n                \/*Show product name*\/\n                enable_product_name: true,\n                \/*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*\/\n                tags: \"\",\n                \/*Show branch, only one input*\/\n                branch: \"\",\n                enable_branch_name: false,\n            },\n            popups: {\n                \/*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*\/\n                enable_review_popups: true,\n                \/*Show \"was this review helpful\" buttons*\/\n                enable_helpful_buttons: true,\n                \/*Show how many times review was upvoted as helpful*\/\n                enable_helpful_count: true,\n                \/*Show share buttons*\/\n                enable_share_buttons: true,\n            },\n        },\n        translations: {\n            verified_customer: \"Verified Customer\",\n        },\n        styles: {\n            \/*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*\/\n            \"--base-font-size\": \"16px\",\n            \"--base-maxwidth\": \"100%\",\n\n            \/*Logo styles:*\/\n            \"--reviewsio-logo-style\": \"var(--logo-normal)\",\n\n            \/*Star styles:*\/\n            \"--common-star-color\": \"#ffa41c\",\n            \"--common-star-disabled-color\": \" rgba(0,0,0,0.25)\",\n            \"--medium-star-size\": \" 22px\",\n            \"--small-star-size\": \"19px\" \/*Modal*\/,\n            \"--x-small-star-size\": \"16px\",\n            \"--x-small-star-display\": \"inline-flex\",\n\n            \/*Header styles:*\/\n            \"--header-order\": \"1\",\n            \"--header-width\": \"160px\",\n            \"--header-bg-start-color\": \"transparent\",\n            \"--header-bg-end-color\": \"transparent\",\n            \"--header-gradient-direction\": \"135deg\",\n            \"--header-padding\": \"0.5em\",\n            \"--header-border-width\": \"0px\",\n            \"--header-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--header-border-radius\": \"0px\",\n            \"--header-shadow-size\": \"0px\",\n            \"--header-shadow-color\": \"rgba(0, 0, 0, 0.1)\",\n\n            \/*Header content styles:*\/\n            \"--header-star-color\": \"#ffa41c\",\n            \"--header-disabled-star-color\": \"inherit\",\n            \"--header-heading-text-color\": \"#003e5f\",\n            \"--header-heading-font-size\": \"inherit\",\n            \"--header-heading-font-weight\": \"inherit\",\n            \"--header-heading-line-height\": \"inherit\",\n            \"--header-heading-text-transform\": \"inherit\",\n            \"--header-subheading-text-color\": \"#616161\",\n            \"--header-subheading-font-size\": \"inherit\",\n            \"--header-subheading-font-weight\": \"inherit\",\n            \"--header-subheading-line-height\": \"inherit\",\n            \"--header-subheading-text-transform\": \"inherit\",\n\n            \/*Review item styles:*\/\n            \"--item-maximum-columns\": \"5\" \/*Must be 3 or larger*\/,\n            \"--item-background-start-color\": \"#ffffff\",\n            \"--item-background-end-color\": \"#ffffff\",\n            \"--item-gradient-direction\": \"135deg\",\n            \"--item-padding\": \"1.5em\",\n            \"--item-border-width\": \"0px\",\n            \"--item-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--item-border-radius\": \"0px\",\n            \"--item-shadow-size\": \"10px\",\n            \"--item-shadow-color\": \"rgba(0,0,0,0.05)\",\n\n            \/*Heading styles:*\/\n            \"--heading-text-color\": \"#003e5f\",\n            \"--heading-text-font-weight\": \" 600\",\n            \"--heading-text-font-family\": \" inherit\",\n            \"--heading-text-line-height\": \" 1.4\",\n            \"--heading-text-letter-spacing\": \"0\",\n            \"--heading-text-transform\": \"none\",\n\n            \/*Body text styles:*\/\n            \"--body-text-color\": \"#616161\",\n            \"--body-text-font-weight\": \"400\",\n            \"--body-text-font-family\": \" inherit\",\n            \"--body-text-line-height\": \" 1.4\",\n            \"--body-text-letter-spacing\": \"0\",\n            \"--body-text-transform\": \"none\",\n\n            \/*Scroll button styles:*\/\n            \"--scroll-button-icon-color\": \"#0E1311\",\n            \"--scroll-button-icon-size\": \"24px\",\n            \"--scroll-button-bg-color\": \"transparent\",\n\n            \"--scroll-button-border-width\": \"0px\",\n            \"--scroll-button-border-color\": \"rgba(0,0,0,0.1)\",\n\n            \"--scroll-button-border-radius\": \"60px\",\n            \"--scroll-button-shadow-size\": \"0px\",\n            \"--scroll-button-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--scroll-button-horizontal-position\": \"0px\",\n            \"--scroll-button-vertical-position\": \"0px\",\n\n            \/*Badge styles:*\/\n            \"--badge-icon-color\": \"#616161\",\n            \"--badge-icon-font-size\": \"15px\",\n            \"--badge-text-color\": \"#616161\",\n            \"--badge-text-font-size\": \"inherit\",\n            \"--badge-text-letter-spacing\": \"inherit\",\n            \"--badge-text-transform\": \"inherit\",\n\n            \/*Author styles:*\/\n            \"--author-font-size\": \"inherit\",\n            \"--author-font-weight\": \"inherit\",\n            \"--author-text-transform\": \"inherit\",\n\n            \/*Product photo or review photo styles:*\/\n            \"--photo-video-thumbnail-size\": \"60px\",\n            \"--photo-video-thumbnail-border-radius\": \"0px\",\n\n            \/*Popup styles:*\/\n            \"--popup-backdrop-color\": \"rgba(0,0,0,0.75)\",\n            \"--popup-color\": \"#ffffff\",\n            \"--popup-star-color\": \"inherit\",\n            \"--popup-disabled-star-color\": \"inherit\",\n            \"--popup-heading-text-color\": \"inherit\",\n            \"--popup-body-text-color\": \"inherit\",\n            \"--popup-badge-icon-color\": \"inherit\",\n            \"--popup-badge-icon-font-size\": \"19px\",\n            \"--popup-badge-text-color\": \"inherit\",\n            \"--popup-badge-text-font-size\": \"14px\",\n            \"--popup-border-width\": \"0px\",\n            \"--popup-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-border-radius\": \"0px\",\n            \"--popup-shadow-size\": \"0px\",\n            \"--popup-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-icon-color\": \"#003e5f\",\n\n            \/*Tooltip styles:*\/\n            \"--tooltip-bg-color\": \"#0E1311\",\n            \"--tooltip-text-color\": \"#ffffff\",\n        },\n    });\n\n    return new Promise((resolve) => {\n        \/\/ Wenn die Operation abgeschlossen ist, wird das Promise aufgelöst\n        resolve(rc);\n    });\n}\n\nasync function carouselCreation() {\n    \/\/ Warten, bis das Objekt erstellt wurde\n    const createdCarousel = await createReviewCarousel();\n    waitAndRemoveLowRatings();\n}\n\nfunction waitForWidget(selector) {\n    return new Promise((resolve) => {\n        const observer = new MutationObserver((mutationsList, observer) => {\n            for (let mutation of mutationsList) {\n                if (mutation.type === \"childList\") {\n                    const widget = document.querySelector(selector);\n                    if (widget) {\n                        observer.disconnect(); \/\/ Stop observing\n                        resolve(widget); \/\/ Resolve the promise with the widget\n                        break;\n                    }\n                }\n            }\n        });\n\n        \/\/ Start observing the document body for child node additions\n        observer.observe(document.body, { childList: true, subtree: true });\n    });\n}\n\nasync function waitAndRemoveLowRatings() {\n    const widgetSelector = \".R-ReviewsList__item\";\n    const widget = await waitForWidget(widgetSelector);\n\n    \/\/ Widget is now available\n    \/\/console.log(\"Widget found:\", widget);\n\n    var reviewContainers = document.querySelectorAll(\".R-ReviewsList__item\");\n    \/\/ Loop through each review container\n    reviewContainers.forEach(function (container) {\n        var ratingStars = container.querySelector(\".R-RatingStars__stars\");\n        if (ratingStars) {\n            var filledStars = ratingStars.querySelectorAll(\".stars__icon--0\").length;\n            if (filledStars > 1) {\n                container.style.display = \"none\";\n            }\n        }\n    });\n}\n\ncarouselCreation();\n\n<\/script>",
+        "custom_liquid": "<script src=\"https://widget.reviews.io/carousel-inline-iframeless/dist.js?_t=2023040514\"></script>\n<link rel=\"stylesheet\" href=\"https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2023040514\">\n<link rel=\"stylesheet\" href=\"https://assets.reviews.io/iconfont/reviewsio-icons/style.css?_t=2023040514\">\n<div id=\"reviewsio-carousel-widget\"></div>\n<script>\n    async function createReviewCarousel() {\n    const rc = new carouselInlineWidget(\"reviewsio-carousel-widget\", {\n        /*Your REVIEWS.io account ID:*/\n        store: \"alb-filter-dev.myshopify.com\",\n        sku: \"AR1441-SSN\",\n        lang: \"de\",\n        carousel_type: \"topHeader\",\n        styles_carousel: \"CarouselWidget--topHeader--withcards\",\n\n        /*Widget settings:*/\n        options: {\n            general: {\n                /*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*/\n                review_type: \"company, product, third_party\",\n                /*Minimum number of reviews required for widget to be displayed*/\n                min_reviews: \"1\",\n                /*Maximum number of reviews to include in the carousel widget.*/\n                max_reviews: \"20\",\n                address_format: \"CITY, COUNTRY\",\n                /*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*/\n                enable_auto_scroll: 5000,\n            },\n            header: {\n                /*Show overall rating stars*/\n                enable_overall_stars: true,\n                rating_decimal_places: 2,\n            },\n            reviews: {\n                /*Show customer name*/\n                enable_customer_name: true,\n                /*Show customer location*/\n                enable_customer_location: true,\n                /*Show \"verified review\" badge*/\n                enable_verified_badge: true,\n                /*Show \"verified subscriber\" badge*/\n                enable_subscriber_badge: true,\n                /*Show \"I recommend this product\" badge (Only for product reviews)*/\n                enable_recommends_badge: true,\n                /*Show photos attached to reviews*/\n                enable_photos: true,\n                /*Show videos attached to reviews*/\n                enable_videos: true,\n                /*Show when review was written*/\n                enable_review_date: true,\n                /*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*/\n                disable_same_customer: true,\n                /*Minimum star rating*/\n                min_review_percent: 60,\n                /*Show 3rd party review source*/\n                third_party_source: true,\n                /*Hide reviews without comments (still shows if review has a photo)*/\n                hide_empty_reviews: true,\n                /*Show product name*/\n                enable_product_name: true,\n                /*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*/\n                tags: \"\",\n                /*Show branch, only one input*/\n                branch: \"\",\n                enable_branch_name: false,\n            },\n            popups: {\n                /*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*/\n                enable_review_popups: true,\n                /*Show \"was this review helpful\" buttons*/\n                enable_helpful_buttons: true,\n                /*Show how many times review was upvoted as helpful*/\n                enable_helpful_count: true,\n                /*Show share buttons*/\n                enable_share_buttons: true,\n            },\n        },\n        translations: {\n            verified_customer: \"Verified Customer\",\n        },\n        styles: {\n            /*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*/\n            \"--base-font-size\": \"16px\",\n            \"--base-maxwidth\": \"100%\",\n\n            /*Logo styles:*/\n            \"--reviewsio-logo-style\": \"var(--logo-normal)\",\n\n            /*Star styles:*/\n            \"--common-star-color\": \"#ffa41c\",\n            \"--common-star-disabled-color\": \" rgba(0,0,0,0.25)\",\n            \"--medium-star-size\": \" 22px\",\n            \"--small-star-size\": \"19px\" /*Modal*/,\n            \"--x-small-star-size\": \"16px\",\n            \"--x-small-star-display\": \"inline-flex\",\n\n            /*Header styles:*/\n            \"--header-order\": \"1\",\n            \"--header-width\": \"160px\",\n            \"--header-bg-start-color\": \"transparent\",\n            \"--header-bg-end-color\": \"transparent\",\n            \"--header-gradient-direction\": \"135deg\",\n            \"--header-padding\": \"0.5em\",\n            \"--header-border-width\": \"0px\",\n            \"--header-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--header-border-radius\": \"0px\",\n            \"--header-shadow-size\": \"0px\",\n            \"--header-shadow-color\": \"rgba(0, 0, 0, 0.1)\",\n\n            /*Header content styles:*/\n            \"--header-star-color\": \"#ffa41c\",\n            \"--header-disabled-star-color\": \"inherit\",\n            \"--header-heading-text-color\": \"#003e5f\",\n            \"--header-heading-font-size\": \"inherit\",\n            \"--header-heading-font-weight\": \"inherit\",\n            \"--header-heading-line-height\": \"inherit\",\n            \"--header-heading-text-transform\": \"inherit\",\n            \"--header-subheading-text-color\": \"#616161\",\n            \"--header-subheading-font-size\": \"inherit\",\n            \"--header-subheading-font-weight\": \"inherit\",\n            \"--header-subheading-line-height\": \"inherit\",\n            \"--header-subheading-text-transform\": \"inherit\",\n\n            /*Review item styles:*/\n            \"--item-maximum-columns\": \"5\" /*Must be 3 or larger*/,\n            \"--item-background-start-color\": \"#ffffff\",\n            \"--item-background-end-color\": \"#ffffff\",\n            \"--item-gradient-direction\": \"135deg\",\n            \"--item-padding\": \"1.5em\",\n            \"--item-border-width\": \"0px\",\n            \"--item-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--item-border-radius\": \"0px\",\n            \"--item-shadow-size\": \"10px\",\n            \"--item-shadow-color\": \"rgba(0,0,0,0.05)\",\n\n            /*Heading styles:*/\n            \"--heading-text-color\": \"#003e5f\",\n            \"--heading-text-font-weight\": \" 600\",\n            \"--heading-text-font-family\": \" inherit\",\n            \"--heading-text-line-height\": \" 1.4\",\n            \"--heading-text-letter-spacing\": \"0\",\n            \"--heading-text-transform\": \"none\",\n\n            /*Body text styles:*/\n            \"--body-text-color\": \"#616161\",\n            \"--body-text-font-weight\": \"400\",\n            \"--body-text-font-family\": \" inherit\",\n            \"--body-text-line-height\": \" 1.4\",\n            \"--body-text-letter-spacing\": \"0\",\n            \"--body-text-transform\": \"none\",\n\n            /*Scroll button styles:*/\n            \"--scroll-button-icon-color\": \"#0E1311\",\n            \"--scroll-button-icon-size\": \"24px\",\n            \"--scroll-button-bg-color\": \"transparent\",\n\n            \"--scroll-button-border-width\": \"0px\",\n            \"--scroll-button-border-color\": \"rgba(0,0,0,0.1)\",\n\n            \"--scroll-button-border-radius\": \"60px\",\n            \"--scroll-button-shadow-size\": \"0px\",\n            \"--scroll-button-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--scroll-button-horizontal-position\": \"0px\",\n            \"--scroll-button-vertical-position\": \"0px\",\n\n            /*Badge styles:*/\n            \"--badge-icon-color\": \"#616161\",\n            \"--badge-icon-font-size\": \"15px\",\n            \"--badge-text-color\": \"#616161\",\n            \"--badge-text-font-size\": \"inherit\",\n            \"--badge-text-letter-spacing\": \"inherit\",\n            \"--badge-text-transform\": \"inherit\",\n\n            /*Author styles:*/\n            \"--author-font-size\": \"inherit\",\n            \"--author-font-weight\": \"inherit\",\n            \"--author-text-transform\": \"inherit\",\n\n            /*Product photo or review photo styles:*/\n            \"--photo-video-thumbnail-size\": \"60px\",\n            \"--photo-video-thumbnail-border-radius\": \"0px\",\n\n            /*Popup styles:*/\n            \"--popup-backdrop-color\": \"rgba(0,0,0,0.75)\",\n            \"--popup-color\": \"#ffffff\",\n            \"--popup-star-color\": \"inherit\",\n            \"--popup-disabled-star-color\": \"inherit\",\n            \"--popup-heading-text-color\": \"inherit\",\n            \"--popup-body-text-color\": \"inherit\",\n            \"--popup-badge-icon-color\": \"inherit\",\n            \"--popup-badge-icon-font-size\": \"19px\",\n            \"--popup-badge-text-color\": \"inherit\",\n            \"--popup-badge-text-font-size\": \"14px\",\n            \"--popup-border-width\": \"0px\",\n            \"--popup-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-border-radius\": \"0px\",\n            \"--popup-shadow-size\": \"0px\",\n            \"--popup-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-icon-color\": \"#003e5f\",\n\n            /*Tooltip styles:*/\n            \"--tooltip-bg-color\": \"#0E1311\",\n            \"--tooltip-text-color\": \"#ffffff\",\n        },\n    });\n\n    return new Promise((resolve) => {\n        // Wenn die Operation abgeschlossen ist, wird das Promise aufgelöst\n        resolve(rc);\n    });\n}\n\nasync function carouselCreation() {\n    // Warten, bis das Objekt erstellt wurde\n    const createdCarousel = await createReviewCarousel();\n    waitAndRemoveLowRatings();\n}\n\nfunction waitForWidget(selector) {\n    return new Promise((resolve) => {\n        const observer = new MutationObserver((mutationsList, observer) => {\n            for (let mutation of mutationsList) {\n                if (mutation.type === \"childList\") {\n                    const widget = document.querySelector(selector);\n                    if (widget) {\n                        observer.disconnect(); // Stop observing\n                        resolve(widget); // Resolve the promise with the widget\n                        break;\n                    }\n                }\n            }\n        });\n\n        // Start observing the document body for child node additions\n        observer.observe(document.body, { childList: true, subtree: true });\n    });\n}\n\nasync function waitAndRemoveLowRatings() {\n    const widgetSelector = \".R-ReviewsList__item\";\n    const widget = await waitForWidget(widgetSelector);\n\n    // Widget is now available\n    //console.log(\"Widget found:\", widget);\n\n    var reviewContainers = document.querySelectorAll(\".R-ReviewsList__item\");\n    // Loop through each review container\n    reviewContainers.forEach(function (container) {\n        var ratingStars = container.querySelector(\".R-RatingStars__stars\");\n        if (ratingStars) {\n            var filledStars = ratingStars.querySelectorAll(\".stars__icon--0\").length;\n            if (filledStars > 1) {\n                container.style.display = \"none\";\n            }\n        }\n    });\n}\n\ncarouselCreation();\n\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 52
@@ -973,36 +973,36 @@
         "item_nMqngL": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "image": "shopify://shop_images/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
-            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
+            "text": "<p>Hergestellt in<br/>Deutschland</p>",
             "url": ""
           }
         },
         "item_xitqBU": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "image": "shopify://shop_images/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "text": "<p>30 Tage<br/>Rückgaberecht</p>",
             "url": ""
           }
         },
         "item_8ekaN3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "text": "<p>Schneller und kostenloser<br/>Versand mit DHL</p>",
             "url": ""
           }
         },
         "item_kVYWjj": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "image": "shopify://shop_images/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "text": "<p>Einfache Zahlung<br/>auch auf Rechnung</p>",
             "url": ""
           }
         }
@@ -1031,17 +1031,17 @@
         "item_AtX6np": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
-            "url": "shopify:\/\/pages\/faq-trinkwasser"
+            "url": "shopify://pages/faq-trinkwasser"
           }
         },
         "item_fcxm87": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "image": "shopify://shop_images/sprechblasen-1640357321516.png",
             "text": "Trinkwasserfilter",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+            "url": "shopify://pages/hilfe-und-kontakt"
           }
         }
       },
@@ -1051,12 +1051,12 @@
       ],
       "settings": {
         "background_color": "#fafafa",
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "image": "shopify://shop_images/albteamfotolena--edited-1666259799650.jpg",
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
-        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https:\/\/alb-filter.com\/pages\/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"https://alb-filter.com/pages/faq-trinkwasser\" target=\"_self\">Trinkwasserfiltern<br/></a> oder kannst mit uns in Kontakt treten. </p>",
         "text_color": "#616161",
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",
@@ -1073,7 +1073,7 @@
           "settings": {
             "heading": "Warum Leitungswasser filtern? Sieht die Trinkwasserverordnung nicht strenge Kontrollen vor?",
             "icon": "none",
-            "row_content": "<p>Unser<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland<\/a>wird zwar streng kontrolliert, doch die Realität zeigt oft ein anderes Bild. Die Qualität beruht auf Grenzwerten für derzeit ca. 60 Schadstoffe, die in der<a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_self\">Trinkwasserverordnung<\/a>festgelegt wurden.<br\/><br\/>Viele Stoffkonzentrationen wie etwa Medikamentenrückstände, Hormone, Mikroplastik und Pestizide u.v.m. werden von der Trinkwasserverordnung nicht erfasst!<br\/><br\/>Jährlich häufen sich in Deutschland Meldungen über<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/legionellen-im-wasser\" target=\"_self\">Legionellen<\/a>im Trinkwasser. Und auch geringfügige Stoffkonzentrationen von etwa<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/schwermetalle-im-leitungswasser\" target=\"_self\">Schwermetallen<\/a>oder<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/mikroplastik-im-leitungswasser\" target=\"_self\">Mikroplastik<\/a>werden von der Trinkwasserverordnung nicht berücksichtigt.<br\/><br\/>Die Wasserqualität wird zudem meist nur an den Verteilerzentren gemessen, nicht am Hausanschluss. Das bedeutet, dass das Leitungswasser auf dem Weg zu deinem Wasserhahn verschiedene Verunreinigungen aus dem Leitungsnetz aufnehmen kann.<\/p>",
+            "row_content": "<p>Unser<a href=\"https://alb-filter.com/blogs/ratgeber/unser-leitungswasser\" target=\"_self\">Leitungswasser in Deutschland</a>wird zwar streng kontrolliert, doch die Realität zeigt oft ein anderes Bild. Die Qualität beruht auf Grenzwerten für derzeit ca. 60 Schadstoffe, die in der<a href=\"https://www.gesetze-im-internet.de/trinkwv_2023/TrinkwV.pdf\" target=\"_self\">Trinkwasserverordnung</a>festgelegt wurden.<br/><br/>Viele Stoffkonzentrationen wie etwa Medikamentenrückstände, Hormone, Mikroplastik und Pestizide u.v.m. werden von der Trinkwasserverordnung nicht erfasst!<br/><br/>Jährlich häufen sich in Deutschland Meldungen über<a href=\"https://alb-filter.com/blogs/ratgeber/legionellen-im-wasser\" target=\"_self\">Legionellen</a>im Trinkwasser. Und auch geringfügige Stoffkonzentrationen von etwa<a href=\"https://alb-filter.com/blogs/ratgeber/schwermetalle-im-leitungswasser\" target=\"_self\">Schwermetallen</a>oder<a href=\"https://alb-filter.com/blogs/ratgeber/mikroplastik-im-leitungswasser\" target=\"_self\">Mikroplastik</a>werden von der Trinkwasserverordnung nicht berücksichtigt.<br/><br/>Die Wasserqualität wird zudem meist nur an den Verteilerzentren gemessen, nicht am Hausanschluss. Das bedeutet, dass das Leitungswasser auf dem Weg zu deinem Wasserhahn verschiedene Verunreinigungen aus dem Leitungsnetz aufnehmen kann.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1086,7 +1086,7 @@
           "settings": {
             "heading": "Bleiben wertvolle Mineralien erhalten wenn ich das Wasser filter?",
             "icon": "none",
-            "row_content": "<p>Wasser filtern und lebenswichtige Mineralien erhalten, das ist das Prinzip der Trinkwasserfilter von Alb Filter.<br\/><br\/>Ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\") ist, dass unsere  Kartuschen  essentielle  Spurenelemente und Mineralien im Wasser belassen und diese nicht heraus filtern.<\/p>",
+            "row_content": "<p>Wasser filtern und lebenswichtige Mineralien erhalten, das ist das Prinzip der Trinkwasserfilter von Alb Filter.<br/><br/>Ein sehr großer Vorteil gegenüber anderen Filtersystemen wie z.B. Umkehr-Osmose (\"Osmosewasser\") ist, dass unsere  Kartuschen  essentielle  Spurenelemente und Mineralien im Wasser belassen und diese nicht heraus filtern.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1099,7 +1099,7 @@
           "settings": {
             "heading": "Wann sollte ich das Wasser filtern und wann nicht?",
             "icon": "none",
-            "row_content": "<p>Immer, wenn Sie das Wasser trinken, Getränke oder Lebensmittel zubereiten möchten, macht es Sinn gefiltertes Wasser zu verwenden. Zum Abspülen oder Händewaschen reicht auch ungefiltertes Wasser. Generell ist das Wasser aus Sprudelflaschen oft nicht besser als ungefiltertes Leitungswasser. Mit einem guten Wasserfilter erreichen Sie somit deutlich gesünderes, von Schadstoffen befreites Wasser.<\/p>",
+            "row_content": "<p>Immer, wenn Sie das Wasser trinken, Getränke oder Lebensmittel zubereiten möchten, macht es Sinn gefiltertes Wasser zu verwenden. Zum Abspülen oder Händewaschen reicht auch ungefiltertes Wasser. Generell ist das Wasser aus Sprudelflaschen oft nicht besser als ungefiltertes Leitungswasser. Mit einem guten Wasserfilter erreichen Sie somit deutlich gesünderes, von Schadstoffen befreites Wasser.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1112,7 +1112,7 @@
           "settings": {
             "heading": "Was ist der Unterschied zwischen Active & Active Plus+?",
             "icon": "none",
-            "row_content": "<p>Die<strong>Active Plus+<\/strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine<strong>Kalkreduktion um ca. 4 - 7 dH°<\/strong>.<\/p>",
+            "row_content": "<p>Die<strong>Active Plus+</strong> Filterkartusche unterscheidet sich hinsichtlich der Active Kartusche primär in zwei Punkten. Bakterien-Filtration (bis 0.7 µm) sowie eine<strong>Kalkreduktion um ca. 4 - 7 dH°</strong>.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1125,7 +1125,7 @@
           "settings": {
             "heading": "Woran erkennt man, dass die Kartusche des Wasserfilters getauscht werden muss?",
             "icon": "none",
-            "row_content": "<p>Beachten Sie die Wechselintervalle von <strong>4 Monaten für Active und Active Plus+ sowie 6 Monate für die Nano<\/strong>, dann sind Sie grundsätzlich auf „der sicheren Seite“.<br\/>Es gibt bei Active und Active Plus+ keine weiteren Indikatoren für einen Wechsel, abgesehen einer <strong>regelmäßigen Wasserüberprüfung im Labor, <\/strong>was natürlich nicht realistisch ist. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.<\/p>",
+            "row_content": "<p>Beachten Sie die Wechselintervalle von <strong>4 Monaten für Active und Active Plus+ sowie 6 Monate für die Nano</strong>, dann sind Sie grundsätzlich auf „der sicheren Seite“.<br/>Es gibt bei Active und Active Plus+ keine weiteren Indikatoren für einen Wechsel, abgesehen einer <strong>regelmäßigen Wasserüberprüfung im Labor, </strong>was natürlich nicht realistisch ist. Bei der Nano Kartusche erkennt man bei längerem Gebrauch eine Abnahme der Durchflussmenge. Diese kann bis nahezu 0 reduziert sein - bitte wechseln Sie in diesem Fall die Kartusche.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1138,7 +1138,7 @@
           "settings": {
             "heading": "Welche Arten von Verunreinigungen werden durch den Trinkwasserfilter entfernt?",
             "icon": "none",
-            "row_content": "<p>Unsere Trinkwasserfilterkartuschen bieten verschiedene Filterstufen, um eine Vielzahl von Verunreinigungen effektiv zu entfernen:<br\/><br\/><span style=\"text-decoration:underline\">Active Kartusche<\/span><strong>Filtert schlechten Geschmack und Gerüche:<\/strong>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (wie Chlor, CKW’s, FCKW’s und mehr) sowie Geschmacksbeeinträchtigungen im Trinkwasser.<br\/><br\/><strong>Reduziert Schwermetalle:<\/strong>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie Blei und Kupfer im Trinkwasser.<br\/><br\/><strong>Filtrierung von Mikroplastik und kleinsten Partikeln:<\/strong>Durch die feine Struktur der gesinterten Aktivkohle werden kleinste Plastikteile zuverlässig zurückgehalten.<br\/><br\/><strong>Reduzierung von Arzneimittelrückständen und Pestiziden:<\/strong>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone und mehr können reduziert werden.<br\/><br\/><span style=\"text-decoration:underline\">ActivePlus Kartusche<\/span>Alle Filtereigenschaften der Active Kartusche und filter zusätzlich:<br\/><br\/><strong>Gegen Bakterien und Keime:<\/strong>Keimschutz ohne Chemie durch eine mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<br\/><br\/><strong>Kalkreduktion \/ Wasserenthärtung:<\/strong>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen, wodurch weniger anhaftende Oberflächen entstehen.<br\/><br\/><span style=\"text-decoration:underline\">Nano Kartusche<\/span><strong>Schutz vor Mikroorganismen:<\/strong>Der Schwerpunkt der Nano Kartusche liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen, z.B. E-Coli, Vibrio Cholerae, Shigellen, Salmonellen.<br\/><br\/><strong>Schutz vor Legionellen:<\/strong>Die Nano Kartusche schützt zuverlässig vor Legionellen und anderen Mikroorganismen, ob präventiv oder bei positivem Legionellen-Befund.<br\/><br\/><strong>Reduziert Trübungen:<\/strong>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
+            "row_content": "<p>Unsere Trinkwasserfilterkartuschen bieten verschiedene Filterstufen, um eine Vielzahl von Verunreinigungen effektiv zu entfernen:<br/><br/><span style=\"text-decoration:underline\">Active Kartusche</span><strong>Filtert schlechten Geschmack und Gerüche:</strong>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (wie Chlor, CKW’s, FCKW’s und mehr) sowie Geschmacksbeeinträchtigungen im Trinkwasser.<br/><br/><strong>Reduziert Schwermetalle:</strong>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie Blei und Kupfer im Trinkwasser.<br/><br/><strong>Filtrierung von Mikroplastik und kleinsten Partikeln:</strong>Durch die feine Struktur der gesinterten Aktivkohle werden kleinste Plastikteile zuverlässig zurückgehalten.<br/><br/><strong>Reduzierung von Arzneimittelrückständen und Pestiziden:</strong>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone und mehr können reduziert werden.<br/><br/><span style=\"text-decoration:underline\">ActivePlus Kartusche</span>Alle Filtereigenschaften der Active Kartusche und filter zusätzlich:<br/><br/><strong>Gegen Bakterien und Keime:</strong>Keimschutz ohne Chemie durch eine mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<br/><br/><strong>Kalkreduktion / Wasserenthärtung:</strong>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen, wodurch weniger anhaftende Oberflächen entstehen.<br/><br/><span style=\"text-decoration:underline\">Nano Kartusche</span><strong>Schutz vor Mikroorganismen:</strong>Der Schwerpunkt der Nano Kartusche liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen, z.B. E-Coli, Vibrio Cholerae, Shigellen, Salmonellen.<br/><br/><strong>Schutz vor Legionellen:</strong>Die Nano Kartusche schützt zuverlässig vor Legionellen und anderen Mikroorganismen, ob präventiv oder bei positivem Legionellen-Befund.<br/><br/><strong>Reduziert Trübungen:</strong>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1151,7 +1151,7 @@
           "settings": {
             "heading": "Welche Inhaltstoffe befinden sich in unserem Leitungswasser?",
             "icon": "none",
-            "row_content": "<p>Unser Leitungswasser kann eine Vielzahl von<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Inhaltsstoffen<\/a>enthalten, darunter natürliche Mineralien wie Calcium und Magnesium sowie Rückstände von<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/chlor\" target=\"_self\">Chlor<\/a>, das zur Desinfektion verwendet wird. Schwermetalle wie Blei und Kupfer können aus alten Rohrleitungen stammen. Zusätzlich können organische Verbindungen wie Pestizide, Herbizide und<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/arzneimittelrueckstaende-im-leitungswasser\" target=\"_self\">Medikamentenrückstände<\/a>ins Wasser gelangen. Mikroplastik und andere kleine Partikel sind ebenfalls möglich. Durch den Einsatz von Trinkwasserfiltern können diese Verunreinigungen erheblich reduziert werden, wodurch die Wasserqualität und Sicherheit verbessert wird.<br\/><br\/>Mehr zum Thema Inhaltsstoffe findest du in unserem<a href=\"https:\/\/alb-filter.com\/blogs\/ratgeber\/inhalt\" target=\"_self\">Ratgeber<\/a>.<\/p>",
+            "row_content": "<p>Unser Leitungswasser kann eine Vielzahl von<a href=\"https://alb-filter.com/blogs/ratgeber/inhaltsstoffe-im-leitungswasser\" target=\"_self\">Inhaltsstoffen</a>enthalten, darunter natürliche Mineralien wie Calcium und Magnesium sowie Rückstände von<a href=\"https://alb-filter.com/blogs/ratgeber/chlor\" target=\"_self\">Chlor</a>, das zur Desinfektion verwendet wird. Schwermetalle wie Blei und Kupfer können aus alten Rohrleitungen stammen. Zusätzlich können organische Verbindungen wie Pestizide, Herbizide und<a href=\"https://alb-filter.com/blogs/ratgeber/arzneimittelrueckstaende-im-leitungswasser\" target=\"_self\">Medikamentenrückstände</a>ins Wasser gelangen. Mikroplastik und andere kleine Partikel sind ebenfalls möglich. Durch den Einsatz von Trinkwasserfiltern können diese Verunreinigungen erheblich reduziert werden, wodurch die Wasserqualität und Sicherheit verbessert wird.<br/><br/>Mehr zum Thema Inhaltsstoffe findest du in unserem<a href=\"https://alb-filter.com/blogs/ratgeber/inhalt\" target=\"_self\">Ratgeber</a>.</p>",
             "small_text1": "",
             "small_text2": "",
             "bottom_text": "",
@@ -1170,7 +1170,7 @@
         "collapsible_row_xq6La9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pf-7466efbc--wasserfilterlogofaq.png",
+        "image": "shopify://shop_images/pf-7466efbc--wasserfilterlogofaq.png",
         "caption": "",
         "heading": "Fragen und Antworten",
         "heading_tag": "h2",
@@ -1192,7 +1192,7 @@
         "text_L39izb": {
           "type": "text",
           "settings": {
-            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.<\/p>",
+            "text": "<p>Erhalte wertvolle Tipps und umfassende Informationen rund um das Thema Wasserfilter und Wasserqualität in unserem Ratgeber. Besuche unsere Ratgeber-Seite und erfahre mehr über die Vorteile und Einsatzmöglichkeiten unserer Produkte.</p>",
             "text_style": "body",
             "color": "#616161",
             "second_font": false
@@ -1202,7 +1202,7 @@
           "type": "button",
           "settings": {
             "button_label": "Zum Ratgeber",
-            "button_link": "shopify:\/\/blogs\/ratgeber\/inhalt",
+            "button_link": "shopify://blogs/ratgeber/inhalt",
             "color": "#0081be",
             "primary_btn": false,
             "primary_bg": "#0081be"
@@ -1217,12 +1217,12 @@
         "image_right": false,
         "content_wrapper": false,
         "background_color": "",
-        "heading": "<p>Mehr zum Thema Wasser und Wasserfilter<\/p>",
+        "heading": "<p>Mehr zum Thema Wasser und Wasserfilter</p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#003e5f",
         "second_font": false,
-        "image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "image": "shopify://shop_images/pf-66efbc41--wasserfilterlogoratgeber.png",
         "image_width": 200,
         "image_mobile_width": 285,
         "image_round": false,
