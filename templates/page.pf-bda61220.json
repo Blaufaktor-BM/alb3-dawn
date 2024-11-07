@@ -122,7 +122,7 @@
             "text_second_font": false,
             "content_url": "shopify://pages/camping-wasserfilter-mobil",
             "first_btn": "Kaufen",
-            "first_btn_url": "shopify://collections/wasserhahnfilter",
+            "first_btn_url": "shopify://collections/wasserhahnfilter-old",
             "btn_icon": "cart",
             "second_btn": "Mehr erfahren",
             "second_btn_url": "shopify://pages/wasserfilter-wasserhahn"

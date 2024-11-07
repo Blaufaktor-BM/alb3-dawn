@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,8 +20,8 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
-        "image_2": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+        "image": "shopify://shop_images/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
+        "image_2": "shopify://shop_images/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -42,7 +42,7 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB DUO<\/p>",
+            "heading": "<p>ALB DUO</p>",
             "remove_spacing": true,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -54,7 +54,7 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter für den Wasserhahn<\/p>",
+            "heading": "<p>Wasserfilter für den Wasserhahn</p>",
             "remove_spacing": true,
             "color": "#003e5f",
             "heading_tag": "h1",
@@ -66,7 +66,7 @@
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Frisches Trinkwasser im Handumdrehen<\/p><p>Der Alb Duo Wasserfilter am Wasserhahn sorgt für reines und leckeres Trinkwasser im Handumdrehen. Die Montage ist kinderleicht und mit unseren Adaptern passt der Filter an nahezu jeden handelsüblichen Wasserhahn. Verpasse Deiner Küche ein Upgrade und genieße beste Wasserqualität direkt aus dem Hahn. <\/p>",
+            "text": "<p>Frisches Trinkwasser im Handumdrehen</p><p>Der Alb Duo Wasserfilter am Wasserhahn sorgt für reines und leckeres Trinkwasser im Handumdrehen. Die Montage ist kinderleicht und mit unseren Adaptern passt der Filter an nahezu jeden handelsüblichen Wasserhahn. Verpasse Deiner Küche ein Upgrade und genieße beste Wasserqualität direkt aus dem Hahn. </p>",
             "second_font": true
           }
         },
@@ -75,7 +75,7 @@
           "settings": {
             "center": false,
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/wasserhahnfilter",
+            "button_link": "shopify://collections/wasserhahnfilter-old",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -112,17 +112,17 @@
             "image_width": 65,
             "second_font": false,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/albfiltericonsetparameters11switch-1-1676297143101.svg",
+            "image1": "shopify://shop_images/albfiltericonsetparameters11switch-1-1676297143101.svg",
             "text1": "Hebel zum Umschalten zwischen gefiltertem und ungefiltertem Wasser",
-            "image2": "shopify:\/\/shop_images\/pf-9b352dc0--albfiltericonsetparameters12compatible.svg",
+            "image2": "shopify://shop_images/pf-9b352dc0--albfiltericonsetparameters12compatible.svg",
             "text2": "Kompatibel mit allen Standard Wasserhähnen",
-            "image3": "shopify:\/\/shop_images\/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
+            "image3": "shopify://shop_images/albfiltericonsetparameters30hochwertigesmaterial-1639654609610.svg",
             "text3": "Gehäuse hergestellt aus hochwertigem Edelstahl",
-            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
+            "image4": "shopify://shop_images/albfiltericonsetparameters36kartuschen-1669365538151_2.svg",
             "text4": "Modulares Filtergehäuse. Verschiedene Kartuschen stehen zur Auswahl",
-            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters2246month-1649679012646.svg",
+            "image5": "shopify://shop_images/albfiltericonsetparameters2246month-1649679012646.svg",
             "text5": "Filterkartuschen mit einer Nutzungsdauer von 4 bzw. 6 Monaten",
-            "image6": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2.svg",
+            "image6": "shopify://shop_images/pf-207bb756--albfiltericonsetparameters14germany2.svg",
             "text6": "Design, Fertigung und Produktion in Süddeutschland"
           }
         }
@@ -131,7 +131,7 @@
         "icon_text_8qFpLX"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/output_kqe1Mg.gif",
+        "image": "shopify://shop_images/output_kqe1Mg.gif",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -153,7 +153,7 @@
         "heading_RgJXtJ": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Modularer Wasserfilter<\/strong><\/p>",
+            "heading": "<p><strong>Modularer Wasserfilter</strong></p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -172,7 +172,7 @@
         "text_iQQ9Me": {
           "type": "text",
           "settings": {
-            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.<\/p>",
+            "text": "<p>Für jeden Zweck die richtige Kartusche - Wähle zwischen den Schadstofffiltern Active und Active Plus+ sowie dem Bakterienfilter Nano.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -185,7 +185,7 @@
         "text_iQQ9Me"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
+        "image": "shopify://shop_images/DUO-Kartuschen-Varianten_1000x_92ecd3aa-e142-44ed-adf5-cea21e300bfa.webp",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -207,7 +207,7 @@
         "heading_cDwzCP": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Duo Active<\/strong><\/p>",
+            "heading": "<p><strong>Duo Active</strong></p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "second_font": false,
@@ -226,7 +226,7 @@
         "text_7ABmMX": {
           "type": "text",
           "settings": {
-            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine<strong> effektive Filtrierung<\/strong> von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von <strong>10 µm<\/strong>. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text": "<p>Trinkwasser genießen ohne Kompromisse! Alb Active überzeugt durch eine<strong> effektive Filtrierung</strong> von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von <strong>10 µm</strong>. Bester Geschmack und ein sicheres Gefühl.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -238,14 +238,14 @@
             "image_width": 60,
             "second_font": true,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "image2": "shopify://shop_images/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image3": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "<strong>Reduzierung von Mikroplastik<\/strong>",
+            "image4": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "<strong>Reduzierung von Mikroplastik</strong>",
             "text5": "",
             "text6": ""
           }
@@ -257,14 +257,14 @@
             "title_second_font": true,
             "text_second_font": false,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "image4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
             "text5": "",
             "text6": "",
             "text7": "",
@@ -277,8 +277,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss Blockaktivkohle (gesintert)<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,8 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>7 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial </strong>Kokosnuss Blockaktivkohle (gesintert)</p><p><strong>Wechselinterval</strong>1<strong> </strong>4 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>3000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,8 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>7 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei ca. 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -287,11 +287,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active",
+            "button_link1": "shopify://products/wasserfilter-wasserhahn-duo-active",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/active-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
           }
         }
@@ -306,7 +306,7 @@
         "button_YRcafF"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+        "image": "shopify://shop_images/alb-filter-duo-kartusche-active-1643973266657.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -328,7 +328,7 @@
         "heading_hFwBHw": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Duo Active Plus+<\/strong><\/p>",
+            "heading": "<p><strong>Duo Active Plus+</strong></p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -347,7 +347,7 @@
         "text_DyBekM": {
           "type": "text",
           "settings": {
-            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von <strong>0,7 µm<\/strong> effektiv aus dem Wasser zu filtern. <br\/><br\/>Darüber hinaus wird Kalk durch die <strong>innovative 2-fach Enthärterstufe<\/strong> reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.<\/p>",
+            "text": "<p>Active Plus+ erweitert das Filterspektrum der Standard- Active-Filterkartusche und ist in der Lage Bakterien bzw. Feststoffe bis zu einer Größe von <strong>0,7 µm</strong> effektiv aus dem Wasser zu filtern. <br/><br/>Darüber hinaus wird Kalk durch die <strong>innovative 2-fach Enthärterstufe</strong> reduziert. Ein Genuss für Tee- und Kaffeeliebhaber.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -359,17 +359,17 @@
             "image_width": 60,
             "second_font": true,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "image2": "shopify://shop_images/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image3": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "image4": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
             "text4": "Reduzierung von Mikroplastik",
-            "image5": "shopify:\/\/shop_images\/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
+            "image5": "shopify://shop_images/pf-118f7c16--albfiltericonsetparameters05bacteria.svg",
             "text5": "Reduzierung von Bakterien und Keime bis 0.7 µm",
-            "image6": "shopify:\/\/shop_images\/pf-7c162f46--albfiltericonsetparameters07lime.svg",
+            "image6": "shopify://shop_images/pf-7c162f46--albfiltericonsetparameters07lime.svg",
             "text6": "Kalkreduktion (Wasserenthärtung)"
           }
         },
@@ -380,18 +380,18 @@
             "title_second_font": true,
             "text_second_font": false,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "image6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
-            "text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<\/strong><\/p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "image4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "image5": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Gegen Bakterien und Keime</strong></p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "image6": "shopify://shop_images/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
+            "text6": "<p><strong>Kalkreduktion / Wasserenthärtung</strong></p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "text7": "",
             "text8": "",
             "text9": "",
@@ -402,8 +402,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial: <\/strong>Bioton<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>3,0 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>7 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial: </strong>Bioton</p><p><strong>Wechselinterval</strong>1<strong> </strong>4 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>3000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>3,0 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>7 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei ca. 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -412,11 +412,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-active-plus",
+            "button_link1": "shopify://products/wasserfilter-wasserhahn-duo-active-plus",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/active-plus-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
           }
         }
@@ -431,7 +431,7 @@
         "button_97ULJk"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+        "image": "shopify://shop_images/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -453,7 +453,7 @@
         "heading_jdANAe": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Duo Nano<\/strong><\/p>",
+            "heading": "<p><strong>Duo Nano</strong></p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -472,7 +472,7 @@
         "text_tecytA": {
           "type": "text",
           "settings": {
-            "text": "<p>Schützt bei akutem <strong>Legionellen-Alarm <\/strong>oder vor einer <strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen <\/strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. <\/p>",
+            "text": "<p>Schützt bei akutem <strong>Legionellen-Alarm </strong>oder vor einer <strong>Verkeimung mit Bakterien, Keimen und Schimmelpilzen </strong>in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken. </p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -484,14 +484,14 @@
             "image_width": 60,
             "second_font": true,
             "font_size": 16,
-            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text1": "Filtration kleinster Mikroorganismen (~99,99%) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
-            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "image1": "shopify://shop_images/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text1": "Filtration kleinster Mikroorganismen (~99,99%) <strong>E. coli Bakterien</strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen</strong> uvm.",
+            "image2": "shopify://shop_images/pf-162f4645--albfiltericonsetparameters08performance.svg",
             "text2": "Hochleistungsmembran",
-            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "image3": "shopify://shop_images/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
             "text3": "Große Filterkapazität",
-            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
-            "text4": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
+            "image4": "shopify://shop_images/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text4": "<strong>Höchste zertifizierte Sicherheit nach ASTM F838-15A</strong>",
             "text5": "",
             "text6": ""
           }
@@ -503,16 +503,16 @@
             "title_second_font": true,
             "text_second_font": false,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "image5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "image1": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.</p>",
+            "image2": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "image3": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text3": "<p><strong>Reduziert Trübungen</strong></p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
+            "image4": "shopify://shop_images/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "text4": "<p><strong>Höchste Sicherheit</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "image5": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text5": "<p><strong>Zertifiziert</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "text6": "",
             "text7": "",
             "text8": "",
@@ -524,8 +524,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial: <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselinterval<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<\/p>",
+            "top_text": "<p><strong>Filtermaterial: </strong>Hohlfasermembrane</p><p><strong>Wechselinterval</strong>1<strong> </strong>6 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>5000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,1 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>11 l/min</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei ca. 3 Bar Wasserdruck</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -534,11 +534,11 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/wasserfilter-wasserhahn-duo-nano",
+            "button_link1": "shopify://products/wasserfilter-wasserhahn-duo-nano",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/nano-wasserfilter-kartusche",
             "second_btn_color": "#0081be"
           }
         }
@@ -553,7 +553,7 @@
         "button_QY3TrU"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+        "image": "shopify://shop_images/alb-filter-duo-kartusche-nano-1643973266660.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -575,14 +575,14 @@
         "alb_comparison_dHz78d": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "<strong>Welche Wasserfilter Variante soll ich kaufen?<\/strong>",
+            "heading": "<strong>Welche Wasserfilter Variante soll ich kaufen?</strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
-            "text": "<p>Set mit Gehäuse und Kartusche<\/p>",
-            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
-            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "text": "<p>Set mit Gehäuse und Kartusche</p>",
+            "image1": "shopify://shop_images/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify://shop_images/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -592,10 +592,10 @@
         "filter_properties_cPUEFG": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Filtereigenschaften<\/strong>",
-            "title1": "<strong>Active<\/strong>",
-            "title2": "<strong>Active+<\/strong>",
-            "title3": "<strong>Nano<\/strong>",
+            "title": "<strong>Filtereigenschaften</strong>",
+            "title1": "<strong>Active</strong>",
+            "title2": "<strong>Active+</strong>",
+            "title3": "<strong>Nano</strong>",
             "title4": ""
           }
         },
@@ -603,9 +603,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mineralien bleiben erhalten",
-            "title1": "<strong>Ja<\/strong>",
-            "title2": "<strong>Ja<\/strong>",
-            "title3": "<strong>Ja<\/strong>",
+            "title1": "<strong>Ja</strong>",
+            "title2": "<strong>Ja</strong>",
+            "title3": "<strong>Ja</strong>",
             "title4": ""
           }
         },
@@ -613,9 +613,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack, Trübungen, Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -623,9 +623,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Schwermetalle",
-            "title1": "<strong>+ +<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ +</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -633,9 +633,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Pestizide, Arzneimittelrückstände",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -643,9 +643,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mikroplastik, Asbestfasern, Sedimente",
-            "title1": "<strong>+<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>+</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -653,9 +653,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -663,9 +663,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Keime und Bakterien",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -683,9 +683,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~6 l\/min",
-            "title3": "~11 l\/min",
+            "title1": "~7 l/min",
+            "title2": "~6 l/min",
+            "title3": "~11 l/min",
             "title4": ""
           }
         },
@@ -695,14 +695,14 @@
             "title": "",
             "text": "",
             "product1": "wasserfilter-wasserhahn-duo-active",
-            "text1": "<strong>Duo Active<\/strong>",
-            "image1": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-1643973266657.jpg",
+            "text1": "<strong>Duo Active</strong>",
+            "image1": "shopify://shop_images/alb-filter-duo-kartusche-active-1643973266657.jpg",
             "product2": "wasserfilter-wasserhahn-duo-active-plus",
-            "text2": "<strong>Duo Active+<\/strong>",
-            "image2": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
+            "text2": "<strong>Duo Active+</strong>",
+            "image2": "shopify://shop_images/alb-filter-duo-kartusche-active-plus-1643972619712.jpg",
             "product3": "wasserfilter-wasserhahn-duo-nano",
-            "text3": "<strong>Duo Nano<\/strong>",
-            "image3": "shopify:\/\/shop_images\/alb-filter-duo-kartusche-nano-1643973266660.jpg",
+            "text3": "<strong>Duo Nano</strong>",
+            "image3": "shopify://shop_images/alb-filter-duo-kartusche-nano-1643973266660.jpg",
             "product4": "",
             "text4": ""
           }
@@ -739,7 +739,7 @@
         "image_RQFcBn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-4730ce14--messen1gewinderatgeber.png",
+            "image": "shopify://shop_images/pf-4730ce14--messen1gewinderatgeber.png",
             "image_width": 200,
             "enable_border": true
           }
@@ -747,7 +747,7 @@
         "heading_6BHqNx": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?<\/strong>",
+            "heading": "<strong>Passt der Alb Filter® DUO an meinen Wasserhahn?</strong>",
             "color": "#ffffff",
             "second_font": false,
             "heading_tag": "h2",
@@ -764,7 +764,7 @@
         "text_KzRCVd": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Ja!<\/strong>In 85% der Fälle hast Du vermutlich entweder einen Wasserhahn mit einem M22- oder M24-Gewindeanschluss. Im Lieferumfang enthalten ist ein zusätzlicher Edelstahl-Adapter für M24-Gewinde. Für alle anderen Wasserhähne haben wir weitere Adapter in unserem Shop.<br\/><br\/>Am Besten misst Du schon vor Deiner Bestellung das Gewinde deines Wasserhahns und wählst den entsprechenden Adapter direkt bei der Bestellung mit aus. Dann bekommst du den richtigen Adapter kostenfrei zu deiner Bestellung dazu. Mit unserem kleinen Ratgeber kannst Du einfach prüfen welchen Adapter Du benötigst.<br\/><br\/>Alternativ kannst Du Dich auch telefonisch oder per Email beraten lassen. Wir helfen Dir gerne.<\/p>",
+            "text": "<p><strong>Ja!</strong>In 85% der Fälle hast Du vermutlich entweder einen Wasserhahn mit einem M22- oder M24-Gewindeanschluss. Im Lieferumfang enthalten ist ein zusätzlicher Edelstahl-Adapter für M24-Gewinde. Für alle anderen Wasserhähne haben wir weitere Adapter in unserem Shop.<br/><br/>Am Besten misst Du schon vor Deiner Bestellung das Gewinde deines Wasserhahns und wählst den entsprechenden Adapter direkt bei der Bestellung mit aus. Dann bekommst du den richtigen Adapter kostenfrei zu deiner Bestellung dazu. Mit unserem kleinen Ratgeber kannst Du einfach prüfen welchen Adapter Du benötigst.<br/><br/>Alternativ kannst Du Dich auch telefonisch oder per Email beraten lassen. Wir helfen Dir gerne.</p>",
             "color": "#ffffff"
           }
         },
@@ -772,9 +772,9 @@
           "type": "button",
           "settings": {
             "button_label": "Zum Gewinderatgeber",
-            "button_link": "shopify:\/\/pages\/gewinde-ratgeber",
+            "button_link": "shopify://pages/gewinde-ratgeber",
             "button_label_2": "Montagevideos auf Youtube",
-            "button_link_2": "https:\/\/www.youtube.com\/channel\/UCShDFKD0lWAvwysE0StHbVA"
+            "button_link_2": "https://www.youtube.com/channel/UCShDFKD0lWAvwysE0StHbVA"
           }
         }
       },
@@ -797,8 +797,8 @@
     "video_popup_Xhjrwg": {
       "type": "video-popup",
       "settings": {
-        "video_url": "https:\/\/youtu.be\/WREorMeHM88",
-        "cover_image": "shopify:\/\/shop_images\/alb-filter-duo-video-vorschaubild.jpg",
+        "video_url": "https://youtu.be/WREorMeHM88",
+        "cover_image": "shopify://shop_images/alb-filter-duo-video-vorschaubild.jpg",
         "description": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -810,36 +810,36 @@
         "item_yymzUE": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "image": "shopify://shop_images/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
+            "text": "<p>Hergestellt in<br/>Süddeutschland</p>",
             "url": ""
           }
         },
         "item_BgLVxn": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "image": "shopify://shop_images/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
+            "text": "<p>30 Tage<br/>Rückgaberecht</p>",
             "url": ""
           }
         },
         "item_WQPn8H": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
+            "text": "<p>Schneller und kostenloser<br/>Versand mit DHL</p>",
             "url": ""
           }
         },
         "item_D7YKAq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "image": "shopify://shop_images/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
+            "text": "<p>Einfache Zahlung<br/>auch auf Rechnung</p>",
             "url": ""
           }
         }
@@ -868,7 +868,7 @@
         "heading_wFiUKT": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Filter® DUO<br\/><strong>Installation<\/strong><\/p>",
+            "heading": "<p>Alb Filter® DUO<br/><strong>Installation</strong></p>",
             "heading_tag": "h3",
             "heading_size": "h2",
             "heading_color": "#003e5f",
@@ -878,7 +878,7 @@
         "text_wAkrTw": {
           "type": "text",
           "settings": {
-            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn<\/p>",
+            "text": "<p>Nützliche Anleitungen und Videos zum Einbau und Kartuschenwechsel Ihres Alb Filter® DUO Wasserfilters für den Wasserhahn</p>",
             "text_style": "body",
             "color": "#616161",
             "second_font": false
@@ -888,7 +888,7 @@
           "type": "button",
           "settings": {
             "button_label": "Anleitungen",
-            "button_link": "shopify:\/\/pages\/installation-wasserhahnfilter",
+            "button_link": "shopify://pages/installation-wasserhahnfilter",
             "color": "#ffffff",
             "primary_btn": true,
             "primary_bg": "#0081be"
@@ -909,7 +909,7 @@
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "second_font": false,
-        "image": "shopify:\/\/shop_images\/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
+        "image": "shopify://shop_images/duo-vektor-installation-mit-adapter-nah-1644915998675.jpg",
         "image_width": 235,
         "image_mobile_width": 220,
         "image_round": true,
@@ -923,17 +923,17 @@
         "item_cTmKmp": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
-            "url": "shopify:\/\/pages\/faq-trinkwasser"
+            "url": "shopify://pages/faq-trinkwasser"
           }
         },
         "item_T6rxdT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "image": "shopify://shop_images/sprechblasen-1640357321516.png",
             "text": "Hilfe und Kontakt",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+            "url": "shopify://pages/hilfe-und-kontakt"
           }
         }
       },
@@ -944,14 +944,14 @@
       "settings": {
         "background_color": "#fafafa",
         "enable_border": false,
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "image": "shopify://shop_images/albteamfotolena--edited-1666259799650.jpg",
         "image_width": 150,
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#616161",
         "enable_heading_second_font": false,
-        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"/pages/faq-trinkwasser\" title=\"FAQ - Trinkwasser\">Trinkwasserfiltern<br/></a> oder kannst mit uns in Kontakt treten. </p>",
         "text_color": "#616161",
         "enable_text_second_font": true,
         "item_bg": "#ffffff",
@@ -964,7 +964,7 @@
     "multi_image_text_BzK4Mg": {
       "type": "multi-image-text",
       "settings": {
-        "top_image": "shopify:\/\/shop_images\/pf-66efbc41--wasserfilterlogoratgeber.png",
+        "top_image": "shopify://shop_images/pf-66efbc41--wasserfilterlogoratgeber.png",
         "top_range": 120,
         "top_mobile_range": 120,
         "image_right": true,
@@ -980,10 +980,10 @@
         "middle_subtitle_weight": "400",
         "middle_subtitle_color": "#616161",
         "enable_middle_subtitle_second_font": true,
-        "middle_text": "<p>Gerade in Deutschland herrscht die landläufige Meinung dass unser Trinkwasser eine tadellose Qualität aufweist. Was spricht dann überhaupt für den Kauf eines Trinkwasserfilters? Warum werden lediglich ca. 60 Schadstoffe von der <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung<\/a> erfasst? <a href=\"\/blogs\/ratgeber\/warum-wasser-filtern\" title=\"Warum Wasser filtern?\">Hier erfahren Sie mehr.<\/a><\/p><h3>Welche Inhaltstoffe befinden sich in unserem Leitungswasser?<\/h3><p>Wir klären auf, welche Schadstoffe aber auch gesundheitlich relevanten Stoffe sich in unserem Wasser befinden. Dabei klären wir auch wie die Schadstoffe überhaupt in das Wasser gelangen, welche Auswirkungen diese auf unsere Gesundheit haben und wie Schädliches aus dem Wasser reduziert werden können. <a href=\"\/blogs\/ratgeber\/inhaltsstoffe-im-leitungswasser\" title=\"Inhaltsstoffe im Leitungswasser\">Hier erfahren Sie mehr.<\/a><\/p>",
+        "middle_text": "<p>Gerade in Deutschland herrscht die landläufige Meinung dass unser Trinkwasser eine tadellose Qualität aufweist. Was spricht dann überhaupt für den Kauf eines Trinkwasserfilters? Warum werden lediglich ca. 60 Schadstoffe von der <a href=\"https://www.gesetze-im-internet.de/trinkwv_2023/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung</a> erfasst? <a href=\"/blogs/ratgeber/warum-wasser-filtern\" title=\"Warum Wasser filtern?\">Hier erfahren Sie mehr.</a></p><h3>Welche Inhaltstoffe befinden sich in unserem Leitungswasser?</h3><p>Wir klären auf, welche Schadstoffe aber auch gesundheitlich relevanten Stoffe sich in unserem Wasser befinden. Dabei klären wir auch wie die Schadstoffe überhaupt in das Wasser gelangen, welche Auswirkungen diese auf unsere Gesundheit haben und wie Schädliches aus dem Wasser reduziert werden können. <a href=\"/blogs/ratgeber/inhaltsstoffe-im-leitungswasser\" title=\"Inhaltsstoffe im Leitungswasser\">Hier erfahren Sie mehr.</a></p>",
         "middle_text_color": "#616161",
         "enable_middle_text_second_font": true,
-        "middle_image": "shopify:\/\/shop_images\/pf-3b6e8717--chlorelementimwasser-Edited.jpg",
+        "middle_image": "shopify://shop_images/pf-3b6e8717--chlorelementimwasser-Edited.jpg",
         "middle_range": 250,
         "middle_mobile_range": 200,
         "bottom_subtitle": "Wie sinnvoll sind Wasserfilter?",
@@ -992,11 +992,11 @@
         "bottom_subtitle_weight": "400",
         "bottom_subtitle_color": "#616161",
         "enable_bottom_subtitle_second_font": true,
-        "bottom_text": "<p>Das <a href=\"\/blogs\/ratgeber\/unser-leitungswasser\" title=\"Unser Leitungswasser\">Leitungswasser in Deutschland <\/a>wird zwar streng kontrolliert, weist allerdings in der Praxis zumindest zeitweise <strong>gravierende Mängel <\/strong>auf. Das liegt mitunter daran, dass viele Stoffkonzentrationen, wie etwa Schwermetall- oder Medikamentenrückstände, Hormone, Mikroplastik und Pestizide, von der deutschen <a href=\"https:\/\/www.gesetze-im-internet.de\/trinkwv_2023\/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung <\/a>weder gelistet noch berücksichtigt werden.<br\/><br\/>Aus diesem Grund sollten Sie immer, wenn Sie Ihr Leitungswasser trinken oder damit Lebensmittel reinigen bzw. zubereiten möchten, <strong>gefiltertes Wasser <\/strong>verwenden. Zum Abspülen oder Hände waschen reicht auch ungefiltertes Wasser.<\/p>",
+        "bottom_text": "<p>Das <a href=\"/blogs/ratgeber/unser-leitungswasser\" title=\"Unser Leitungswasser\">Leitungswasser in Deutschland </a>wird zwar streng kontrolliert, weist allerdings in der Praxis zumindest zeitweise <strong>gravierende Mängel </strong>auf. Das liegt mitunter daran, dass viele Stoffkonzentrationen, wie etwa Schwermetall- oder Medikamentenrückstände, Hormone, Mikroplastik und Pestizide, von der deutschen <a href=\"https://www.gesetze-im-internet.de/trinkwv_2023/TrinkwV.pdf\" target=\"_blank\">Trinkwasserverordnung </a>weder gelistet noch berücksichtigt werden.<br/><br/>Aus diesem Grund sollten Sie immer, wenn Sie Ihr Leitungswasser trinken oder damit Lebensmittel reinigen bzw. zubereiten möchten, <strong>gefiltertes Wasser </strong>verwenden. Zum Abspülen oder Hände waschen reicht auch ungefiltertes Wasser.</p>",
         "bottom_text_color": "#616161",
         "enable_bottom_text_second_font": true,
         "btn_text": "Zu unserem Wasser Ratgeber",
-        "btn_url": "shopify:\/\/blogs\/ratgeber\/inhalt",
+        "btn_url": "shopify://blogs/ratgeber/inhalt",
         "btn_bg": "#0081be",
         "btn_color": "#ffffff",
         "padding_top": 51,
