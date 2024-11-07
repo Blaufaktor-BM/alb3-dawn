@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Trinkwasserfilter kaufen<\/p>",
+            "heading": "<p>Trinkwasserfilter kaufen</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h1",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Frisches Wasser direkt aus der Leitung? Mit einem Trinkwasserfilter von Alb Filter ist das jederzeit möglich.  Der Alb Filter Duo ist der ideale Wasserfilter für den Wasserhahn, der einfach an Ihrem Wasserhahn installiert werden kann und für sauberes, gesundes Trinkwasser sorgt. Für diejenigen, die eine diskretere Lösung bevorzugen, bieten wir verschiedene Untertisch Wasserfilter an, der unter der Spüle installiert werden und genauso effektiv ist. Entscheiden Sie sich für einen Alb Filter und genießen Sie reines Trinkwasser direkt aus dem Hahn!<\/p>",
+            "text": "<p>Frisches Wasser direkt aus der Leitung? Mit einem Trinkwasserfilter von Alb Filter ist das jederzeit möglich.  Der Alb Filter Duo ist der ideale Wasserfilter für den Wasserhahn, der einfach an Ihrem Wasserhahn installiert werden kann und für sauberes, gesundes Trinkwasser sorgt. Für diejenigen, die eine diskretere Lösung bevorzugen, bieten wir verschiedene Untertisch Wasserfilter an, der unter der Spüle installiert werden und genauso effektiv ist. Entscheiden Sie sich für einen Alb Filter und genießen Sie reines Trinkwasser direkt aus dem Hahn!</p>",
             "second_font": true
           }
         }
@@ -57,7 +57,7 @@
         ".banner__heading {margin-top: -10px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
+        "image": "shopify://shop_images/albfilterduoedelstahlarmaturmaedchentrinken_1170px-1662632619911.jpg",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "adapt",
@@ -116,7 +116,7 @@
         "border_color": "#cccccc",
         "product_list": [
           "trinkwasserfilter-element-active",
-          "trinkwasserfilter-element-active-plus",
+          "alb-trinkwasserfilter-active-plus",
           "alb-duschfilter-nano"
         ],
         "content_color": "#616161",
@@ -229,17 +229,17 @@
         "item_WVTGGB": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
             "text": "Trinkwasserfilter",
-            "url": "shopify:\/\/pages\/faq-trinkwasser"
+            "url": "shopify://pages/faq-trinkwasser"
           }
         },
         "item_tQr9gW": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "image": "shopify://shop_images/sprechblasen-1640357321516.png",
             "text": "Hilfe und Kontakt",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+            "url": "shopify://pages/hilfe-und-kontakt"
           }
         }
       },
@@ -249,12 +249,12 @@
       ],
       "settings": {
         "background_color": "#fafafa",
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
+        "image": "shopify://shop_images/albteamfotolena--edited-1666259799650.jpg",
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_color": "#616161",
-        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"\/pages\/faq-trinkwasser\" title=\"\/pages\/faq-trinkwasser\">Trinkwasserfiltern<br\/><\/a> oder kannst mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Hier erältst du wichtige Inforamtionen zu unseren <a href=\"/pages/faq-trinkwasser\" title=\"/pages/faq-trinkwasser\">Trinkwasserfiltern<br/></a> oder kannst mit uns in Kontakt treten. </p>",
         "text_color": "#616161",
         "item_bg": "#ffffff",
         "item_text_color": "#003e5f",

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrump_Ktxj9R": {
@@ -20,7 +20,7 @@
         "heading_jAPgmp": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter mit ActivePlus+ Kartusche<\/p>",
+            "heading": "<p>Wasserfilter mit ActivePlus+ Kartusche</p>",
             "remove_spacing": false,
             "color": "{{ shop.brand.colors.primary[0].background }}",
             "heading_tag": "h2",
@@ -32,7 +32,7 @@
         "text_zBeB3L": {
           "type": "text",
           "settings": {
-            "text": "<p>Erleben Sie erfrischenden Trinkgenuss mit dem PLUS an Sicherheit dank der ActivePlus-Wasserfilterkartusche von Alb Filter. Diese Kartusche bietet flitert zusätzlich eine Vielzahl von Bakterien und rezuziert den Kalkgehalt im Wasser. Weitere Vorteile umfassen die effektive Filtration und Reduktion von Geruch, Geschmack, Trübung, Chlor, Pestiziden, Mikroplastik und mehr. Genießen Sie sauberes, gesundes Wasser direkt aus dem Hahn mit der ActivePlus-Kartusche. Die ActivePlus-Kartusche ist sowohl für Wasserhahnfilter als auch als Untertisch-Variante verfügbar, um Ihnen maximale Flexibilität zu bieten.<\/p>",
+            "text": "<p>Erleben Sie erfrischenden Trinkgenuss mit dem PLUS an Sicherheit dank der ActivePlus-Wasserfilterkartusche von Alb Filter. Diese Kartusche bietet flitert zusätzlich eine Vielzahl von Bakterien und rezuziert den Kalkgehalt im Wasser. Weitere Vorteile umfassen die effektive Filtration und Reduktion von Geruch, Geschmack, Trübung, Chlor, Pestiziden, Mikroplastik und mehr. Genießen Sie sauberes, gesundes Wasser direkt aus dem Hahn mit der ActivePlus-Kartusche. Die ActivePlus-Kartusche ist sowohl für Wasserhahnfilter als auch als Untertisch-Variante verfügbar, um Ihnen maximale Flexibilität zu bieten.</p>",
             "second_font": true
           }
         }
@@ -54,7 +54,6 @@
     "product_list_yXxBPr": {
       "type": "product-list",
       "settings": {
-        "second_font": false,
         "heading": "ActivePlus+ Trinkwasserfilter",
         "enable_border": true,
         "enable_center": false,
@@ -62,12 +61,13 @@
         "heading_size": "h3",
         "heading_weight": "700",
         "heading_color": "{{ shop.brand.colors.primary[0].background }}",
+        "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
           "wasserfilter-wasserhahn-duo-active-plus",
           "alb-filter-activeplus-untertisch-komplett-set",
           "alb-filter-activeplus-untertisch-komplett-set-schnellkupplung",
-          "trinkwasserfilter-element-active-plus"
+          "alb-trinkwasserfilter-active-plus"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -85,10 +85,10 @@
     "second_contact_CV8QkP": {
       "type": "second-contact",
       "settings": {
-        "image": "shopify:\/\/shop_images\/albteamfotolena--edited-1666259799650.jpg",
-        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?<\/strong><\/p><p>Rufe uns gerne an oder schreib uns eine <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email<\/a>!<\/p>",
-        "icon": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
-        "contact": "<p><strong>Tel.: 07420 920 921-0<br\/>E-Mail: info@blaufaktor.de<\/strong><\/p>",
+        "image": "shopify://shop_images/albteamfotolena--edited-1666259799650.jpg",
+        "text": "<p><strong>Brauchst Du Hilfe bei deinem Einkauf?</strong></p><p>Rufe uns gerne an oder schreib uns eine <a href=\"/pages/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Email</a>!</p>",
+        "icon": "shopify://shop_images/sprechblasen-1640357321516.png",
+        "contact": "<p><strong>Tel.: 07420 920 921-0<br/>E-Mail: info@blaufaktor.de</strong></p>",
         "background_color": "#fafafa",
         "text_color": "#003e5f",
         "padding_top": 10,
