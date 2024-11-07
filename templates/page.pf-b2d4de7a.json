@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,8 +20,8 @@
     "image_banner_rxGfzy": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camping-Mobil-Frau-Tanken-2500x600.webp",
-        "image_2": "shopify:\/\/shop_images\/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
+        "image": "shopify://shop_images/Camping-Mobil-Frau-Tanken-2500x600.webp",
+        "image_2": "shopify://shop_images/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
         "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
@@ -44,7 +44,7 @@
         "heading_Q88bD3": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB TRAVEL<\/p>",
+            "heading": "<p>ALB TRAVEL</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -56,7 +56,7 @@
         "heading_nMUU4Y": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Camping-Wasserfilter<\/p>",
+            "heading": "<p>Camping-Wasserfilter</p>",
             "remove_spacing": false,
             "color": "#16334a",
             "heading_tag": "h1",
@@ -79,7 +79,7 @@
         "text_Fz4feL": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle, die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br\/><br\/>Durch den festen Einbau des Filters im Fahrzeug bleibt man in der Wahl der Wasserquelle maximal flexibel und ist zudem nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, wird der Travel Wasserfilter zum ideale Begleiter.<\/p>",
+            "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle, die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br/><br/>Durch den festen Einbau des Filters im Fahrzeug bleibt man in der Wahl der Wasserquelle maximal flexibel und ist zudem nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, wird der Travel Wasserfilter zum ideale Begleiter.</p>",
             "second_font": true
           }
         },
@@ -88,7 +88,7 @@
           "settings": {
             "center": false,
             "button_label": "Zum Shop",
-            "button_link": "shopify:\/\/collections\/camping-travel",
+            "button_link": "shopify://collections/camping-travel-old",
             "button_style_secondary": false,
             "btn_icon": "cart",
             "button_label_2": "",
@@ -120,84 +120,84 @@
         "item_LeX7eV": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Travel_Active_a59dffd3-60d2-4d84-8703-c09f000b67bc.svg"
+            "image": "shopify://shop_images/Travel_Active_a59dffd3-60d2-4d84-8703-c09f000b67bc.svg"
           }
         },
         "item_FmXidT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Travel_Active_Protect_52ebe212-62c4-468d-8174-e1d04a7623a8.svg"
+            "image": "shopify://shop_images/Travel_Active_Protect_52ebe212-62c4-468d-8174-e1d04a7623a8.svg"
           }
         },
         "item_DfJqCR": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Travel_Fusion_8620052a-a92c-4a8e-b2ac-a3ad81f95b2f.svg"
+            "image": "shopify://shop_images/Travel_Fusion_8620052a-a92c-4a8e-b2ac-a3ad81f95b2f.svg"
           }
         },
         "item_rV9fhb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Travel_Fusion_Protect_74a77d40-1947-402a-af5a-863520e5879d.svg"
+            "image": "shopify://shop_images/Travel_Fusion_Protect_74a77d40-1947-402a-af5a-863520e5879d.svg"
           }
         },
         "item_73hn88": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Travel_Nano_70da07c9-ec93-47f7-a4de-199b10823343.svg"
+            "image": "shopify://shop_images/Travel_Nano_70da07c9-ec93-47f7-a4de-199b10823343.svg"
           }
         },
         "item_XFQ9Eb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Travel_Nano_Protect_4f12fcba-1d9f-4b19-9125-57ae685698ef.svg"
+            "image": "shopify://shop_images/Travel_Nano_Protect_4f12fcba-1d9f-4b19-9125-57ae685698ef.svg"
           }
         },
         "icon_text_tHKyqA": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-43-corrosion-protect_dark-blue.svg",
-            "text": "<p>Unsichtbarer Schutz<\/p>",
+            "icon": "shopify://shop_images/alb-filter-icon-set-parameters-43-corrosion-protect_dark-blue.svg",
+            "text": "<p>Unsichtbarer Schutz</p>",
             "url": ""
           }
         },
         "icon_text_V7wYCq": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
-            "text": "<p>Keimfreies Wasser ohne Silberionen<\/p>",
+            "icon": "shopify://shop_images/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
+            "text": "<p>Keimfreies Wasser ohne Silberionen</p>",
             "url": ""
           }
         },
         "icon_text_RdUgny": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
-            "text": "<p>Schneller Tankvorgang<\/p>",
+            "icon": "shopify://shop_images/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "text": "<p>Schneller Tankvorgang</p>",
             "url": ""
           }
         },
         "icon_text_mrRwbb": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-40-independent_dark-blue.svg",
-            "text": "<p>Maximale Unabhängigkeit<\/p>",
+            "icon": "shopify://shop_images/alb-filter-icon-set-parameters-40-independent_dark-blue.svg",
+            "text": "<p>Maximale Unabhängigkeit</p>",
             "url": ""
           }
         },
         "icon_text_PUXtK8": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
-            "text": "<p>Einzigartiges, modulares Design<\/p>",
+            "icon": "shopify://shop_images/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "text": "<p>Einzigartiges, modulares Design</p>",
             "url": ""
           }
         },
         "icon_text_bEBjiP": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
-            "text": "<p>Design, Fertigung und Produktion in Süddeutschland<\/p>",
+            "icon": "shopify://shop_images/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "text": "<p>Design, Fertigung und Produktion in Süddeutschland</p>",
             "url": ""
           }
         }
@@ -235,7 +235,7 @@
         "heading_J3PhNB": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Einbau Wasserfilter für Wohnmobile, Camper und Boote<\/p>",
+            "heading": "<p>Einbau Wasserfilter für Wohnmobile, Camper und Boote</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -247,7 +247,7 @@
         "text_aNNPgr": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Alb Trinkwasserfilter inkl. Travel Anschluss-Set ermöglicht die einfache Installation des Filters im Wohnmobil, Camper oder Boot. Sie können das Set entweder kurz nach der Pumpe installieren, um alle Entnahmestellen mit gefiltertem Wasser zu versorgen, oder direkt vor der Armatur, um nur das Trinkwasser zu filtern.<br\/><br\/>Das Set besteht aus einem Filtergehäuse mit Filterkartusche (Active oder Nano) und dem GEKA Anschluss-Set. Das Anschluss-Set umfasst einen Hahnstecker, einen Gerätestecker und zwei GEKA Schlauchverbinder mit Wasserstopfunktion.<br\/><br\/>Der exklusiv für Alb Filter entwickelte Schlauchverbinder ist zu 100% kompatibel mit unserem Mobil Anschluss-Set. Die Stufentüllen am Schlauchverbinder passen zu allen gängigen 10mm und 12mm Schlauchsystemen.<\/p>",
+            "text": "<p>Der Alb Trinkwasserfilter inkl. Travel Anschluss-Set ermöglicht die einfache Installation des Filters im Wohnmobil, Camper oder Boot. Sie können das Set entweder kurz nach der Pumpe installieren, um alle Entnahmestellen mit gefiltertem Wasser zu versorgen, oder direkt vor der Armatur, um nur das Trinkwasser zu filtern.<br/><br/>Das Set besteht aus einem Filtergehäuse mit Filterkartusche (Active oder Nano) und dem GEKA Anschluss-Set. Das Anschluss-Set umfasst einen Hahnstecker, einen Gerätestecker und zwei GEKA Schlauchverbinder mit Wasserstopfunktion.<br/><br/>Der exklusiv für Alb Filter entwickelte Schlauchverbinder ist zu 100% kompatibel mit unserem Mobil Anschluss-Set. Die Stufentüllen am Schlauchverbinder passen zu allen gängigen 10mm und 12mm Schlauchsystemen.</p>",
             "second_font": true
           }
         }
@@ -272,34 +272,34 @@
         "column_xk4UBp": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TRAVEL_Active.jpg",
+            "image": "shopify://shop_images/TRAVEL_Active.jpg",
             "title": "Travel Active",
             "subtitle": "",
-            "text": "<p>Der Breitbandfilter.<br\/><br\/>Der gesinterte Aktivkohlekern, ist in der Lage, Chlor, organische Schadstoffe, diverse medikamentöse Rückstände, leichte Kohlenwasserstoffe, Lösungsmittel, Pestizide, Aromen und feine Partikel wie Rost, Kalkflocken und Sand aus dem Wasser zu filtrieren. <\/p>",
+            "text": "<p>Der Breitbandfilter.<br/><br/>Der gesinterte Aktivkohlekern, ist in der Lage, Chlor, organische Schadstoffe, diverse medikamentöse Rückstände, leichte Kohlenwasserstoffe, Lösungsmittel, Pestizide, Aromen und feine Partikel wie Rost, Kalkflocken und Sand aus dem Wasser zu filtrieren. </p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/products\/camping-wasserfilter-active-travel"
+            "link": "shopify://products/camping-wasserfilter-active-travel"
           }
         },
         "column_dzpdQ4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TRAVEL_Nano.jpg",
+            "image": "shopify://shop_images/TRAVEL_Nano.jpg",
             "title": "Travel Nano",
             "subtitle": "",
-            "text": "<p>Die absolute Keimsperre. <br\/><br\/>Einsatz bei Bakterien- bzw. Keimbelastung im Wasser mit höchsten Ansprüchen an Material und Qualität der 0.1 µm Hohlfasermembran. Die zertifizierte Qualitäts-Lösung bietet unter anderem höchsten Schutz vor Legionellen, E-Coli, Vibrio Cholarae, Shigellen und Salmonellen.<\/p>",
+            "text": "<p>Die absolute Keimsperre. <br/><br/>Einsatz bei Bakterien- bzw. Keimbelastung im Wasser mit höchsten Ansprüchen an Material und Qualität der 0.1 µm Hohlfasermembran. Die zertifizierte Qualitäts-Lösung bietet unter anderem höchsten Schutz vor Legionellen, E-Coli, Vibrio Cholarae, Shigellen und Salmonellen.</p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/products\/camping-wasserfilter-nano-travel"
+            "link": "shopify://products/camping-wasserfilter-nano-travel"
           }
         },
         "column_8RcacM": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TRAVEL_Fusion_Active_Nano_Silber.jpg",
+            "image": "shopify://shop_images/TRAVEL_Fusion_Active_Nano_Silber.jpg",
             "title": "Travel Fusion",
             "subtitle": "",
-            "text": "<p>Die rundum sorglos Variante.<br\/><br\/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die positiven Eigenschaften beider Kartusche für höchste Sicherheit und Trinkgenuss.<\/p>",
+            "text": "<p>Die rundum sorglos Variante.<br/><br/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die positiven Eigenschaften beider Kartusche für höchste Sicherheit und Trinkgenuss.</p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/products\/camping-wasserfilter-fusion-travel"
+            "link": "shopify://products/camping-wasserfilter-fusion-travel"
           }
         }
       },
@@ -339,7 +339,7 @@
         "heading_iWMNMa": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Travel Active<\/p>",
+            "heading": "<p>Travel Active</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -359,7 +359,7 @@
         "text_3FhmwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Trinkwasser genießen ohne Kompromisse! Der Alb Travel Active Einbau Wasserfilter überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.<\/p>",
+            "text": "<p>Trinkwasser genießen ohne Kompromisse! Der Alb Travel Active Einbau Wasserfilter überzeugt durch eine effektive Filtrierung von Schadstoffen, Gerüchen und anderen unerwünschten Rückständen im Leitungswasser. Reduziert schädliche Mikroplastik-Teilchen bis zu einer Feinheit von 10 µm. Bester Geschmack und ein sicheres Gefühl.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -371,13 +371,13 @@
             "image_width": 60,
             "second_font": true,
             "font_size": 14,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-02-metals_dark-blue.svg",
+            "image2": "shopify://shop_images/alb-filter-icon-set-parameters-02-metals_dark-blue.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-03-drugs_dark-blue.svg",
+            "image3": "shopify://shop_images/alb-filter-icon-set-parameters-03-drugs_dark-blue.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-04-microplastics_dark-blue.svg",
+            "image4": "shopify://shop_images/alb-filter-icon-set-parameters-04-microplastics_dark-blue.svg",
             "text4": "Reduzierung von Mikroplastik",
             "text5": "",
             "text6": ""
@@ -390,14 +390,14 @@
             "title_second_font": true,
             "text_second_font": false,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "image4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
             "text5": "",
             "text6": "",
             "text7": "",
@@ -410,8 +410,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Kokosnuss Blockaktivkohle (gesintert)<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,8 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>7 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial </strong>Kokosnuss Blockaktivkohle (gesintert)</p><p><strong>Wechselintervall</strong>1<strong> </strong>4 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>3000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,8 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>7 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -420,12 +420,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-active-travel",
+            "button_link1": "shopify://products/camping-wasserfilter-active-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/active-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/active-wasserfilter-kartusche",
             "second_btn_color": "#3c3c3c"
           }
         }
@@ -440,7 +440,7 @@
         "button_RY3QAe"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TRAVEL-Active-Schlauch50_08a9597a-d493-4940-b7aa-f54b701214cb.jpg",
+        "image": "shopify://shop_images/TRAVEL-Active-Schlauch50_08a9597a-d493-4940-b7aa-f54b701214cb.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -462,7 +462,7 @@
         "heading_FHpRnQ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Travel Nano<\/p>",
+            "heading": "<p>Travel Nano</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -482,7 +482,7 @@
         "text_FqyHHc": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Travel Nano Einbau-Wasserfilter schützt bei akutem Legionellen-Alarm oder vor einer Verkeimung mit Bakterien, Keimen und Schimmelpilzen in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  <\/p>",
+            "text": "<p>Der Travel Nano Einbau-Wasserfilter schützt bei akutem Legionellen-Alarm oder vor einer Verkeimung mit Bakterien, Keimen und Schimmelpilzen in den Rohrleitungen. Besonders ältere Menschen, kleine Kinder oder Personen mit schwachem Immunsystem können durch diese Erreger zum Teil schwer erkranken.  </p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -494,14 +494,14 @@
             "image_width": 60,
             "second_font": true,
             "font_size": 14,
-            "image1": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
-            "image2": "shopify:\/\/shop_images\/pf-162f4645--albfiltericonsetparameters08performance.svg",
+            "image1": "shopify://shop_images/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text1": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien</strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen</strong> uvm.",
+            "image2": "shopify://shop_images/pf-162f4645--albfiltericonsetparameters08performance.svg",
             "text2": "Hochleistungsmembran",
-            "image3": "shopify:\/\/shop_images\/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
+            "image3": "shopify://shop_images/pf-2f46459b--albfiltericonsetparameters09filtercapacity.svg",
             "text3": " Große Filterkapazität",
-            "image4": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
-            "text4": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>",
+            "image4": "shopify://shop_images/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text4": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A</strong>",
             "text5": "",
             "text6": ""
           }
@@ -513,14 +513,14 @@
             "title_second_font": true,
             "text_second_font": false,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "image4": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text4": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "image1": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text1": "<p><strong>Schutz vor Mikroorganismen</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.</p>",
+            "image2": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text2": "<p><strong>Schutz vor Legionellen</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "image3": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text3": "<p><strong>Reduziert Trübungen</strong></p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
+            "image4": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text4": "<p><strong>Zertifiziert</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "text5": "",
             "text6": "",
             "text7": "",
@@ -533,8 +533,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>11 l\/min<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<\/p>",
+            "top_text": "<p><strong>Filtermaterial </strong>Hohlfasermembrane</p><p><strong>Wechselintervall</strong>1<strong> </strong>6 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>5000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,1 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>11 l/min</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei 3 Bar Wasserdruck</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -543,12 +543,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-nano-travel",
+            "button_link1": "shopify://products/camping-wasserfilter-nano-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/nano-wasserfilter-kartusche",
+            "button_link2": "shopify://pages/nano-wasserfilter-kartusche",
             "second_btn_color": "#3c3c3c"
           }
         }
@@ -563,7 +563,7 @@
         "button_KYMC6w"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TRAVEL_Nano_Schlauch.jpg",
+        "image": "shopify://shop_images/TRAVEL_Nano_Schlauch.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -585,7 +585,7 @@
         "heading_tFYkJW": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Travel Fusion<\/p>",
+            "heading": "<p>Travel Fusion</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -605,7 +605,7 @@
         "text_KpqbhW": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Fusion Variante des Travel Einbau-Wasserfilters besteht aus zwei in Reihe geschalteten Filtereinheiten. So werden neben Schadstoffen auch zuverlässig Keime und Bakterien aus dem Wasser gefiltert. Dies sorgt für höchste Sicherheit und besten Trinkgenuss.<br\/><br\/>In einem neuen bzw. gut gepflegten Wassersystem kann, durch die doppelte Filterung vor dem Tank, grundsätzlich auf eine regelmäßige Tankreinigung verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung z.B. mit Alb Clean und eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
+            "text": "<p>Die Fusion Variante des Travel Einbau-Wasserfilters besteht aus zwei in Reihe geschalteten Filtereinheiten. So werden neben Schadstoffen auch zuverlässig Keime und Bakterien aus dem Wasser gefiltert. Dies sorgt für höchste Sicherheit und besten Trinkgenuss.<br/><br/>In einem neuen bzw. gut gepflegten Wassersystem kann, durch die doppelte Filterung vor dem Tank, grundsätzlich auf eine regelmäßige Tankreinigung verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung z.B. mit Alb Clean und eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -617,18 +617,18 @@
             "image_width": 60,
             "second_font": true,
             "font_size": 14,
-            "image1": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image1": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text1": "Filtert Chlor, schlechten Geschmack und Gerüche",
-            "image2": "shopify:\/\/shop_images\/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
+            "image2": "shopify://shop_images/pf-9c5a3511--albfiltericonsetparameters02metals.svg",
             "text2": "Reduzierung von Schwermetallen",
-            "image3": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image3": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text3": "Reduzierung von Pestiziden und Arzneimittelrückständen",
-            "image4": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
-            "text4": "<strong> Filterung von kleinsten Mikroplastikteilchen<\/strong>",
-            "image5": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
-            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien<\/strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen<\/strong> uvm.",
-            "image6": "shopify:\/\/shop_images\/pf-46459b35--albfiltericonsetparameters10security.svg",
-            "text6": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A<\/strong>"
+            "image4": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "text4": "<strong> Filterung von kleinsten Mikroplastikteilchen</strong>",
+            "image5": "shopify://shop_images/pf-8f7c162f--albfiltericonsetparameters06legionella_1.svg",
+            "text5": "Filtration kleinster Mikroorganismen ( ~99,99% ) <strong>E. coli Bakterien</strong>, Vibrio Cholerae, Shigellen, <strong>Salmonellen</strong> uvm.",
+            "image6": "shopify://shop_images/pf-46459b35--albfiltericonsetparameters10security.svg",
+            "text6": "<strong> Höchste zertifizierte Sicherheit nach ASTM F838-15A</strong>"
           }
         },
         "icon_text_acc_YyCPrj": {
@@ -638,22 +638,22 @@
             "title_second_font": true,
             "text_second_font": false,
             "image_width": 50,
-            "image1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche (Active)<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "image2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "text2": "<p><strong>Reduziert Schwermetalle (Active)<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "image3": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "text3": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden (Active)<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "image4": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "text4": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln (Nano)<\/strong><\/p><p>Durch die ultra feine Struktur der Hohlfasern, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "image5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "text5": "<p><strong>Schutz vor Mikroorganismen (Nano)<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen. Aber auch Mikroplastik und andere mikroskopisch kleine Partikel werden mechanisch aus dem Wasser gefiltert.<\/p>",
-            "image6": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "text6": "<p><strong>Schutz vor Legionellen (Nano)<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "image7": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "text7": "<p><strong>Höchste Sicherheit (Nano)<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "image8": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "text8": "<p><strong>Zertifiziert (Nano)<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "image1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "text1": "<p><strong>Filtert schlechten Geschmack und Gerüche (Active)</strong></p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.</p>",
+            "image2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "text2": "<p><strong>Reduziert Schwermetalle (Active)</strong></p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "image3": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "text3": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden (Active)</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "image4": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "text4": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln (Nano)</strong></p><p>Durch die ultra feine Struktur der Hohlfasern, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "image5": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "text5": "<p><strong>Schutz vor Mikroorganismen (Nano)</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen. Aber auch Mikroplastik und andere mikroskopisch kleine Partikel werden mechanisch aus dem Wasser gefiltert.</p>",
+            "image6": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "text6": "<p><strong>Schutz vor Legionellen (Nano)</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "image7": "shopify://shop_images/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "text7": "<p><strong>Höchste Sicherheit (Nano)</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "image8": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "text8": "<p><strong>Zertifiziert (Nano)</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "text9": "",
             "text10": ""
           }
@@ -662,8 +662,8 @@
           "type": "text_acc",
           "settings": {
             "heading": "Technische Daten",
-            "top_text": "<p><strong>Filtermaterial<\/strong><br\/>Active:<strong> <\/strong>Kokosnuss Blockaktivkohle (gesintert)<br\/>Nano: Hohlfasermembrane<br\/><\/p><p><strong>Wechselintervall<\/strong>1<br\/>Active: 6 Monate (nur in Verbindung mir der Nano Kartusche)<br\/>Nano: 6 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <br\/><\/strong>Active: 3000 L<br\/>Nano: 5000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <br\/><\/strong>Fusion: 3,1 Bar<\/p><p><strong>Durchfluss<\/strong>4<br\/>Fusion 6 l\/min5<\/p>",
-            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "top_text": "<p><strong>Filtermaterial</strong><br/>Active:<strong> </strong>Kokosnuss Blockaktivkohle (gesintert)<br/>Nano: Hohlfasermembrane<br/></p><p><strong>Wechselintervall</strong>1<br/>Active: 6 Monate (nur in Verbindung mir der Nano Kartusche)<br/>Nano: 6 Monate</p><p><strong>Filterkapazität</strong>2<strong> <br/></strong>Active: 3000 L<br/>Nano: 5000 L</p><p><strong>Druckanforderung</strong>3<strong> <br/></strong>Fusion: 3,1 Bar</p><p><strong>Durchfluss</strong>4<br/>Fusion 6 l/min5</p>",
+            "bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "title_second_font": true,
             "text_second_font": true
           }
@@ -672,12 +672,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/camping-wasserfilter-fusion-travel",
+            "button_link1": "shopify://products/camping-wasserfilter-fusion-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "button_link2": "shopify://pages/fusion-doppelstufenfilter",
             "second_btn_color": "#3c3c3c"
           }
         }
@@ -692,7 +692,7 @@
         "button_RhEMEK"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TRAVEL_Fusion_Active_Nano_Schlauch_Silber.jpg",
+        "image": "shopify://shop_images/TRAVEL_Fusion_Active_Nano_Schlauch_Silber.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -714,17 +714,17 @@
         "alb_comparison_h44FYY": {
           "type": "alb_comparison",
           "settings": {
-            "heading": "<strong>Vergleich der Filtereigenschaften<\/strong>",
+            "heading": "<strong>Vergleich der Filtereigenschaften</strong>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
             "heading_color": "#003e5f",
             "heading_second_font": false,
-            "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
+            "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz</p>",
             "text_second_font": false,
-            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
-            "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
-            "image3": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "image1": "shopify://shop_images/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
+            "image3": "shopify://shop_images/filterkartusche-fusion-zweier-1639472314766.jpg",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -734,7 +734,7 @@
         "filter_properties_hkjwqy": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Kartusche<\/strong>",
+            "title": "<strong>Kartusche</strong>",
             "title1": "Active",
             "title2": "Nano",
             "title3": "Fusion*",
@@ -817,7 +817,7 @@
             "title": "Wechselintervall",
             "title1": "4 Monate",
             "title2": "6 Monate",
-            "title3": "4\/6 Monate",
+            "title3": "4/6 Monate",
             "title4": ""
           }
         },
@@ -825,9 +825,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~11 l\/min",
-            "title3": "~6 l\/min",
+            "title1": "~7 l/min",
+            "title2": "~11 l/min",
+            "title3": "~6 l/min",
             "title4": ""
           }
         },
@@ -837,14 +837,14 @@
             "title": "",
             "text": "",
             "product1": "camping-wasserfilter-active-travel",
-            "text1": "<strong>Travel Active<\/strong>",
-            "image1": "shopify:\/\/shop_images\/TRAVEL_Active.jpg",
+            "text1": "<strong>Travel Active</strong>",
+            "image1": "shopify://shop_images/TRAVEL_Active.jpg",
             "product2": "camping-wasserfilter-nano-travel",
-            "text2": "<strong>Travel Nano<\/strong>",
-            "image2": "shopify:\/\/shop_images\/TRAVEL_Nano.jpg",
+            "text2": "<strong>Travel Nano</strong>",
+            "image2": "shopify://shop_images/TRAVEL_Nano.jpg",
             "product3": "camping-wasserfilter-fusion-travel",
-            "text3": "<strong>Travel Fusion<\/strong>",
-            "image3": "shopify:\/\/shop_images\/TRAVEL_Fusion_Active_Nano_Silber.jpg",
+            "text3": "<strong>Travel Fusion</strong>",
+            "image3": "shopify://shop_images/TRAVEL_Fusion_Active_Nano_Silber.jpg",
             "product4": "",
             "text4": ""
           }
@@ -852,7 +852,7 @@
         "description_KyRa6Y": {
           "type": "description",
           "settings": {
-            "description": "<p>* Active- und Nano-Kartusche sind bei der Fusion Variante hintereinander in einem Doppelgehäuse positioniert um die Filterleistungen beider Kartiuschen zu kombinieren.<\/p>"
+            "description": "<p>* Active- und Nano-Kartusche sind bei der Fusion Variante hintereinander in einem Doppelgehäuse positioniert um die Filterleistungen beider Kartiuschen zu kombinieren.</p>"
           }
         }
       },
@@ -888,49 +888,49 @@
         "item_8yHh4e": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-43-corrosion-protect_dark-blue.svg",
+            "icon": "shopify://shop_images/alb-filter-icon-set-parameters-43-corrosion-protect_dark-blue.svg",
             "heading": "Unsichtbarer Schutz",
-            "text": "<p>Die Travel Sets filtern jeden Tropfen Wasser im Inneren des Campers direkt vor der Entnahme. Dadurch wird auch länger stehendes und potenziell verkeimtes Wasser kein Problem für Ihre Gesundheit (bei Verwendung der Nano-Kartusche).<\/p>"
+            "text": "<p>Die Travel Sets filtern jeden Tropfen Wasser im Inneren des Campers direkt vor der Entnahme. Dadurch wird auch länger stehendes und potenziell verkeimtes Wasser kein Problem für Ihre Gesundheit (bei Verwendung der Nano-Kartusche).</p>"
           }
         },
         "item_QKhKcz": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-40-independent_dark-blue.svg",
+            "icon": "shopify://shop_images/alb-filter-icon-set-parameters-40-independent_dark-blue.svg",
             "heading": "Maximale Unabhängigkeit",
-            "text": "<p>Den Tank mit der Gießkanne befüllen? Kein Problem! Durch die feste Installation des Filters nach dem Wassertank spielt der Wasserdruck beim Befüllen des Tanks keine Rolle.<\/p>"
+            "text": "<p>Den Tank mit der Gießkanne befüllen? Kein Problem! Durch die feste Installation des Filters nach dem Wassertank spielt der Wasserdruck beim Befüllen des Tanks keine Rolle.</p>"
           }
         },
         "item_qB8nVd": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
+            "icon": "shopify://shop_images/alb-filter-icon-set-parameters-41-silverions_dark-blue.svg",
             "heading": "Keimfreies Wasser ohne Silberionen",
-            "text": "<p>Die nach dem Tank verbaute Nano-Kartusche filtert 99,9% aller schädlichen Keime und Bakterien direkt vor der Entnahme aus dem Wasser. Dadurch ist es möglich, auf ein entkeimendes Verfahren mit Silberionen im Tank zu verzichten.<\/p>"
+            "text": "<p>Die nach dem Tank verbaute Nano-Kartusche filtert 99,9% aller schädlichen Keime und Bakterien direkt vor der Entnahme aus dem Wasser. Dadurch ist es möglich, auf ein entkeimendes Verfahren mit Silberionen im Tank zu verzichten.</p>"
           }
         },
         "item_DhBq3R": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters15modular_1-1675242566081.svg",
+            "icon": "shopify://shop_images/albfiltericonsetparameters15modular_1-1675242566081.svg",
             "heading": "Einzigartiges, modulares Design",
-            "text": "<p>Unsere modular aufgebauten Filtergehäuse lassen sich schnell und einfach installieren. Sie können den Filter in den meisten Fällen entweder direkt nach dem Wassertank (in der Druckstufe nach der Wasserpumpe) oder unter der Spüle vor der Entnahmestelle (Armatur) einbauen.<\/p>"
+            "text": "<p>Unsere modular aufgebauten Filtergehäuse lassen sich schnell und einfach installieren. Sie können den Filter in den meisten Fällen entweder direkt nach dem Wassertank (in der Druckstufe nach der Wasserpumpe) oder unter der Spüle vor der Entnahmestelle (Armatur) einbauen.</p>"
           }
         },
         "item_DfU3C4": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters37schnell-1675239892734.svg",
+            "icon": "shopify://shop_images/albfiltericonsetparameters37schnell-1675239892734.svg",
             "heading": "Schneller Tankvorgang",
-            "text": "<p>Ein fest verbauter Wasserfilter nach dem Tank ermöglicht das gewohnte Zapfen des Wassers beim Befüllen des Tanks, ohne den Wasserdruck zu mindern. Das ist besonders vorteilhaft bei großen Tanks ab 150 Litern und mehr, da ein Wasserfilter den Tankvorgang nicht merklich verlangsamt.<\/p>"
+            "text": "<p>Ein fest verbauter Wasserfilter nach dem Tank ermöglicht das gewohnte Zapfen des Wassers beim Befüllen des Tanks, ohne den Wasserdruck zu mindern. Das ist besonders vorteilhaft bei großen Tanks ab 150 Litern und mehr, da ein Wasserfilter den Tankvorgang nicht merklich verlangsamt.</p>"
           }
         },
         "item_kgJiE4": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
+            "icon": "shopify://shop_images/pf-207bb756--albfiltericonsetparameters14germany2_247b0d66-7453-4523-bb5c-d51b4dd4d29c.svg",
             "heading": "Made in Germany",
-            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.<\/p>"
+            "text": "<p>Robuste Filter mit höchster Qualität - Hergestellt auf der Schwäbischen Alb.</p>"
           }
         }
       },
@@ -944,7 +944,7 @@
       ],
       "settings": {
         "bg": "#fafafa",
-        "heading": "<p>Gute Gründe für einen Einbau Wasserfilter (Travel)<\/p>",
+        "heading": "<p>Gute Gründe für einen Einbau Wasserfilter (Travel)</p>",
         "heading_tag": "h2",
         "heading_size": "h2",
         "heading_weight": "700",
@@ -975,7 +975,7 @@
         "heading_NN4mcF": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Einfache Installation<\/p>",
+            "heading": "<p>Einfache Installation</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -987,7 +987,7 @@
         "text_tbhhyX": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Travel Wasserfilter lässt sich mit dem im Lieferumfang enthaltenen Zubehör einfach installieren.<\/p>",
+            "text": "<p>Der Travel Wasserfilter lässt sich mit dem im Lieferumfang enthaltenen Zubehör einfach installieren.</p>",
             "second_font": true
           }
         }
@@ -1015,8 +1015,8 @@
         "heading_weight": "700",
         "heading_second_font": false,
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/Travel-Ani-06.webm",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/Travel-Ani-06.webm",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -1030,7 +1030,7 @@
         "text_nK3DaX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Vorgehensweise: <\/strong><\/p><ol><li>Finden einer geeigneten Stelle zur Montage des Filters (Zwischen Pumpe und Wasserhahn)<\/li><li>Durchtrennen des vorhandenen Schlauchsystems<\/li><li>Überstülpen der beiden Rohrschellen auf die Schlauchenden. <\/li><li>Aufstecken der beiden GEKA®-Schlauchverbinder (10-13 mm Stufentüllen)<\/li><li>Platzieren und Festschrauben der Rohrschellen<\/li><li>Montage der Wandhalterung<\/li><li>Einsetzen der Filterkartusche(n) im Filtergehäuse <\/li><li>Einsetzten des Travel Wasserfilters inkl. Geräte- und Hahnstecker in die Wandhalterung<\/li><li>Anschließen an die Schlauchverbinder <\/li><\/ol>",
+            "text": "<p><strong>Vorgehensweise: </strong></p><ol><li>Finden einer geeigneten Stelle zur Montage des Filters (Zwischen Pumpe und Wasserhahn)</li><li>Durchtrennen des vorhandenen Schlauchsystems</li><li>Überstülpen der beiden Rohrschellen auf die Schlauchenden. </li><li>Aufstecken der beiden GEKA®-Schlauchverbinder (10-13 mm Stufentüllen)</li><li>Platzieren und Festschrauben der Rohrschellen</li><li>Montage der Wandhalterung</li><li>Einsetzen der Filterkartusche(n) im Filtergehäuse </li><li>Einsetzten des Travel Wasserfilters inkl. Geräte- und Hahnstecker in die Wandhalterung</li><li>Anschließen an die Schlauchverbinder </li></ol>",
             "second_font": false
           }
         }
@@ -1098,7 +1098,7 @@
       "type": "column-image-text",
       "settings": {
         "section_color_scheme": "",
-        "image": "shopify:\/\/shop_images\/pf-173c967e--albfiltermobilfusionschmal.jpg",
+        "image": "shopify://shop_images/pf-173c967e--albfiltermobilfusionschmal.jpg",
         "image_height": 350,
         "enable_border": true,
         "padding_top": 10,
@@ -1135,7 +1135,7 @@
         "text_g6WyrK": {
           "type": "text",
           "settings": {
-            "text": "<p>Die <strong>Fusion Ausführung<\/strong> vereinigt die Active und Nano Kartusche zu einem leistungsstarken System. Diese kann sowohl für die Betankung von außen (<strong>Mobil<\/strong>) oder für die feste Montage im Innenraum (<strong>Travel<\/strong>) eingesetzt werden. <\/p><p>Mit dem Alb Filter Fusion decken Sie das gesamte Filterspektrum der <strong>Active <\/strong>und <strong>Nano <\/strong>Kartusche ab. Hiermit erreichen wir die bestmögliche Filterleistung bei einer guten Durchflussgeschwindigkeit.<\/p>",
+            "text": "<p>Die <strong>Fusion Ausführung</strong> vereinigt die Active und Nano Kartusche zu einem leistungsstarken System. Diese kann sowohl für die Betankung von außen (<strong>Mobil</strong>) oder für die feste Montage im Innenraum (<strong>Travel</strong>) eingesetzt werden. </p><p>Mit dem Alb Filter Fusion decken Sie das gesamte Filterspektrum der <strong>Active </strong>und <strong>Nano </strong>Kartusche ab. Hiermit erreichen wir die bestmögliche Filterleistung bei einer guten Durchflussgeschwindigkeit.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -1145,12 +1145,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/fusion",
+            "button_link1": "shopify://collections/fusion",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/fusion-doppelstufenfilter",
+            "button_link2": "shopify://pages/fusion-doppelstufenfilter",
             "second_btn_color": "#0081be"
           }
         }
@@ -1160,7 +1160,7 @@
         "button_HfwUHd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/albfilteredelstahlfusion_mit_schnitt_kartuscheninfo-1637137409374.jpg",
+        "image": "shopify://shop_images/albfilteredelstahlfusion_mit_schnitt_kartuscheninfo-1637137409374.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -1182,10 +1182,10 @@
         "item_XUNM7Y": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany-weiss.svg",
+            "image": "shopify://shop_images/Made_in_Germany-weiss.svg",
             "title": "",
-            "text": "<p>Hergestellt in<br\/>Deutschland<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Hergestellt in<br/>Deutschland</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -1198,10 +1198,10 @@
         "item_HEGXw3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
+            "image": "shopify://shop_images/Ruckgabe-weiss.svg",
             "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>30 Tage<br/>Rückgaberecht</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -1214,10 +1214,10 @@
         "item_btfYwJ": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL-weiss.svg",
             "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Schneller und kostenloser<br/>Versand mit DHL</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -1230,10 +1230,10 @@
         "item_XNtAnq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
+            "image": "shopify://shop_images/Zahlungsarten-weiss.svg",
             "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Einfache Zahlung<br/>auch auf Rechnung</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -1278,7 +1278,7 @@
         "heading_aYaBrz": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB PROTECT VORFILTER<\/p>",
+            "heading": "<p>ALB PROTECT VORFILTER</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -1290,7 +1290,7 @@
         "text_YMjWek": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. <\/p>",
+            "text": "<p>Die Vorfiltererweiterung für das Element Gehäuse. Gegen grobe Verunreinigungen. Besonders in Küstenregionen mit einem hohen Sediement- und Sandanteil im Wasser aber auch bei alten Rohrleitungen empfehlen wir die Verwendung des Protect Vorfilter-Moduls zum Schutz der nachfolgenden Kartuschen.Das Modul wird vor der ersten Filterstufe auf das Filtergehäuse geschraubt und ist sofort einsatzbereit. Das Filtervlies hält Feststoffe bis zu einer Größe von 40 µm zurück, lässt sich einfach reinigen und bei Bedarf schnell und günstig wechseln. </p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": false
@@ -1300,12 +1300,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/vorfilter-protect-mit-wechselpad-edelstahl",
+            "button_link1": "shopify://products/vorfilter-protect-mit-wechselpad-edelstahl",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/protect-vorfilter",
+            "button_link2": "shopify://pages/protect-vorfilter",
             "second_btn_color": "#0081be"
           }
         }
@@ -1317,7 +1317,7 @@
         "button_8tqAFg"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Element-Protect-Explosion_Filterpad-Icon_1500x_682030e4-7d81-48f1-b47b-2811db2aa97a.jpg",
+        "image": "shopify://shop_images/Element-Protect-Explosion_Filterpad-Icon_1500x_682030e4-7d81-48f1-b47b-2811db2aa97a.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -1347,7 +1347,7 @@
         "heading_DRyDhX": {
           "type": "heading",
           "settings": {
-            "heading": "<p>TRAVEL Anschluss-Set GEKA (ohne Filter)<\/p>",
+            "heading": "<p>TRAVEL Anschluss-Set GEKA (ohne Filter)</p>",
             "heading_tag": "h3",
             "heading_size": "h2",
             "heading_weight": "700",
@@ -1359,7 +1359,7 @@
         "text_tUrnXE": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Sie haben bereits einen Alb Filter? <\/strong>Bauen Sie Ihr bestehendes Filtergehäuse einfach mit Hilfe des GEKA Adapter-Sets im Wohnmobil ein. Entweder nach der Pumpe um alle Entnahmestellen in ihrem Wohnmobil mit gefiltertem Wasser zu versorgen oder direkt vor der Armatur um nur das Trinkwasser zu filtern. Das GEKA Adapter-Set besteht aus einem Hahnstecker, einem Gerätestecker und zwei GEKA Schlauchverbinder mit Wasserstopfunktion. Diese werden einfach in Ihrem bestehenden Schlauchsystem (10 mm oder 12 mm) zwischengeschaltet. <\/p>",
+            "text": "<p><strong>Sie haben bereits einen Alb Filter? </strong>Bauen Sie Ihr bestehendes Filtergehäuse einfach mit Hilfe des GEKA Adapter-Sets im Wohnmobil ein. Entweder nach der Pumpe um alle Entnahmestellen in ihrem Wohnmobil mit gefiltertem Wasser zu versorgen oder direkt vor der Armatur um nur das Trinkwasser zu filtern. Das GEKA Adapter-Set besteht aus einem Hahnstecker, einem Gerätestecker und zwei GEKA Schlauchverbinder mit Wasserstopfunktion. Diese werden einfach in Ihrem bestehenden Schlauchsystem (10 mm oder 12 mm) zwischengeschaltet. </p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": false
@@ -1369,12 +1369,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-campingfilter-anschluss-set-travel",
+            "button_link1": "shopify://products/alb-campingfilter-anschluss-set-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
-            "button_link2": "shopify:\/\/collections\/zubehor",
+            "button_link2": "shopify://collections/zubehor",
             "second_btn_color": "#0081be"
           }
         }
@@ -1386,7 +1386,7 @@
         "button_ymJqLa"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/NUR_Anschlussset.jpg",
+        "image": "shopify://shop_images/NUR_Anschlussset.jpg",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -1408,17 +1408,17 @@
         "item_zed6QN": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "image": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "text": "Campingfilter",
-            "url": "shopify:\/\/pages\/faq-camping"
+            "url": "shopify://pages/faq-camping"
           }
         },
         "item_bkLrbH": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "image": "shopify://shop_images/sprechblasen-1640357321516.png",
             "text": "Hilfe und Kontakt",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+            "url": "shopify://pages/hilfe-und-kontakt"
           }
         }
       },
@@ -1429,7 +1429,7 @@
       "settings": {
         "background_color": "#fafafa",
         "enable_border": false,
-        "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "image": "shopify://shop_images/albfilter-portrait-tob.png",
         "image_width": 150,
         "heading": "Sie haben Fragen?",
         "heading_tag": "h4",
@@ -1437,7 +1437,7 @@
         "heading_weight": "700",
         "heading_color": "#616161",
         "enable_heading_second_font": false,
-        "text": "<p>Hier erhalten Sie wichtige Inforamtionen zu unseren Trinkwasserfiltern<br\/>oder können mit uns in Kontakt treten. <\/p>",
+        "text": "<p>Hier erhalten Sie wichtige Inforamtionen zu unseren Trinkwasserfiltern<br/>oder können mit uns in Kontakt treten. </p>",
         "text_color": "#616161",
         "enable_text_second_font": true,
         "item_bg": "#ffffff",

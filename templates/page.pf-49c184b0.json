@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,7 +20,7 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BG-Camper-Strand_02.webp",
+        "image": "shopify://shop_images/BG-Camper-Strand_02.webp",
         "image_overlay_color": "#000000",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
@@ -43,7 +43,7 @@
         "heading_rfqkqJ": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB CAMPING<\/p>",
+            "heading": "<p>ALB CAMPING</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -55,7 +55,7 @@
         "heading_LaNE8f": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wasserfilter für Wohnmobil, Camper und Boot<\/p>",
+            "heading": "<p>Wasserfilter für Wohnmobil, Camper und Boot</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -67,7 +67,7 @@
         "text_jiew46": {
           "type": "text",
           "settings": {
-            "text": "<p>Ob im Wohnmobil, Camper, Segel- oder Motorboot – die Versorgung mit sauberem Frischwasser ist auf Reisen unerlässlich. An Wasser-Zapfstellen, auf Campingplätzen, in Häfen oder in der freien Natur bleibt die Wasserqualität oft ungewiss. Die Alb Filter® MOBIL, TRAVEL und PRO CAMPER Sets bieten eine einfache und sichere Lösung für beste Wasserqualität immer und überall.<br\/><br\/><\/p>",
+            "text": "<p>Ob im Wohnmobil, Camper, Segel- oder Motorboot – die Versorgung mit sauberem Frischwasser ist auf Reisen unerlässlich. An Wasser-Zapfstellen, auf Campingplätzen, in Häfen oder in der freien Natur bleibt die Wasserqualität oft ungewiss. Die Alb Filter® MOBIL, TRAVEL und PRO CAMPER Sets bieten eine einfache und sichere Lösung für beste Wasserqualität immer und überall.<br/><br/></p>",
             "second_font": true
           }
         },
@@ -76,7 +76,7 @@
           "settings": {
             "center": false,
             "button_label": "Campingfilter kaufen",
-            "button_link": "\/products",
+            "button_link": "/products",
             "button_style_secondary": false,
             "btn_icon": "cart",
             "button_label_2": "",
@@ -111,7 +111,7 @@
         "heading_UwdnCf": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Campingfilter im Überblick<\/p>",
+            "heading": "<p>Campingfilter im Überblick</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -123,7 +123,7 @@
         "text_PiCLJc": {
           "type": "text",
           "settings": {
-            "text": "<p>Dank jahrelanger Erfahrung und umfangreichem Kundenfeedback bieten wir drei verschiedene Varianten von Campingfiltern zur Auswahl. Der <strong>Befüllfilter (Mobil) <\/strong>ist äußerst flexibel einsetzbar und erfordert keine Installation. Der <strong>Einbaufilter (Travel) <\/strong>wird fest in Ihrem Fahrzeug verbaut und filtert das gesamte Frischwasser. Der <strong>Kombifilter (Pro Camper) <\/strong>vereint die Vorteile der beiden anderen Varianten.<\/p>",
+            "text": "<p>Dank jahrelanger Erfahrung und umfangreichem Kundenfeedback bieten wir drei verschiedene Varianten von Campingfiltern zur Auswahl. Der <strong>Befüllfilter (Mobil) </strong>ist äußerst flexibel einsetzbar und erfordert keine Installation. Der <strong>Einbaufilter (Travel) </strong>wird fest in Ihrem Fahrzeug verbaut und filtert das gesamte Frischwasser. Der <strong>Kombifilter (Pro Camper) </strong>vereint die Vorteile der beiden anderen Varianten.</p>",
             "second_font": true
           }
         }
@@ -148,7 +148,7 @@
         "column_8N3DkJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
+            "image": "shopify://shop_images/Alb-Filter-Station-1---Mobil-Fusion-Protect---Panorama---Betanken---mobil_1.jpg",
             "title": "Befüllfilter Mobil",
             "column_heading_second": false,
             "column_heading_tag": "h3",
@@ -161,15 +161,15 @@
             "column_subtitle_weight": "700",
             "column_subtitle_size": "h3",
             "column_subtitle_color": "#616161",
-            "text": "<p>Einfacher geht es nicht. Anstecken und loslegen. Mit den Mobil-Sets fließt nur noch gefilterte Wasser in den Wassertank - für bestes Trinkwasser und einen sauberen Tank. <\/p>",
+            "text": "<p>Einfacher geht es nicht. Anstecken und loslegen. Mit den Mobil-Sets fließt nur noch gefilterte Wasser in den Wassertank - für bestes Trinkwasser und einen sauberen Tank. </p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/pages\/camping-wasserfilter-mobil"
+            "link": "shopify://pages/camping-wasserfilter-mobil"
           }
         },
         "column_4pDyVP": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product-pics-camping-ENG-00064.jpg",
+            "image": "shopify://shop_images/Product-pics-camping-ENG-00064.jpg",
             "title": "Einbaufilter Travel",
             "column_heading_second": false,
             "column_heading_tag": "h3",
@@ -182,15 +182,15 @@
             "column_subtitle_weight": "700",
             "column_subtitle_size": "h3",
             "column_subtitle_color": "#616161",
-            "text": "<p>Maximale Autarkie und hohe Sicherheit bei verkeimtem Wasser. Für alle, die auch in der freien Natur Wasser nachtanken wollen. Druckanforderung interne Wasserpumpe 2,1 - 3,1 bar. <\/p>",
+            "text": "<p>Maximale Autarkie und hohe Sicherheit bei verkeimtem Wasser. Für alle, die auch in der freien Natur Wasser nachtanken wollen. Druckanforderung interne Wasserpumpe 2,1 - 3,1 bar. </p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/pages\/camping-wasserfilter-travel"
+            "link": "shopify://pages/camping-wasserfilter-travel"
           }
         },
         "column_fjEQ6B": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Product-pics-camping-ENG-00067.jpg",
+            "image": "shopify://shop_images/Product-pics-camping-ENG-00067.jpg",
             "title": "Kombifilter Pro Camper",
             "column_heading_second": false,
             "column_heading_tag": "h3",
@@ -203,9 +203,9 @@
             "column_subtitle_weight": "700",
             "column_subtitle_size": "h3",
             "column_subtitle_color": "#616161",
-            "text": "<p>Eine gute Wahl bei hygienisch unsicheren Wassersystemen. Reduziert Schadstoffen beim Befüllen und filtert schädliche Keime erst kurz vor der Entnahme. Druckanforderung interne Wasserpumpe 2,1. <\/p>",
+            "text": "<p>Eine gute Wahl bei hygienisch unsicheren Wassersystemen. Reduziert Schadstoffen beim Befüllen und filtert schädliche Keime erst kurz vor der Entnahme. Druckanforderung interne Wasserpumpe 2,1. </p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set"
+            "link": "shopify://pages/camping-wasserfilter-pro-camper-set"
           }
         }
       },
@@ -248,7 +248,7 @@
         "heading_czijVB": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Befüllfilter Mobil<\/p>",
+            "heading": "<p>Befüllfilter Mobil</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
@@ -260,7 +260,7 @@
         "text_WzawLM": {
           "type": "text",
           "settings": {
-            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs.<br\/><br\/>Die verschiedenen Filtertypen Active, Nano und Fusion bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. Auf eine regelmäßige Tankreinigung kann bei einem neuen bzw. gut gepflegten Wassersystem und der Verwendung des Fusion Sets (beide Filterstufen) verzichtet werden. <br\/><\/p><ul><li><strong>Empfohlen bei kleinen\/mittleren Wassertanks (bis 120 Liter) und Kanistern<\/strong><\/li><li>Mit einem Klick verbunden.<\/li><li>Kompatibel zu Gardena® Kupplungen<\/li><li><strong>Optimal für neue bzw. regelmäßig gereinigte Systeme. <\/strong><\/li><li>Gute Tankhygiene erforderlich.<\/li><li>Einmalige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>.<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
+            "text": "<p>Für Camping- und Wohnmobil-Enthusiasten sind unsere Mobil Camping-Wasserfilter eine hochwertige Lösungen zur sicheren Wasserversorgung unterwegs.<br/><br/>Die verschiedenen Filtertypen Active, Nano und Fusion bieten umfassenden Schutz vor Schadstoffen und Bakterien. Mit dem Mobil Anschluss-Set kann das Wohnmobil problemlos von außen betankt werden und der Wassertank bleibt sauber und keimfrei. Auf eine regelmäßige Tankreinigung kann bei einem neuen bzw. gut gepflegten Wassersystem und der Verwendung des Fusion Sets (beide Filterstufen) verzichtet werden. <br/></p><ul><li><strong>Empfohlen bei kleinen/mittleren Wassertanks (bis 120 Liter) und Kanistern</strong></li><li>Mit einem Klick verbunden.</li><li>Kompatibel zu Gardena® Kupplungen</li><li><strong>Optimal für neue bzw. regelmäßig gereinigte Systeme. </strong></li><li>Gute Tankhygiene erforderlich.</li><li>Einmalige Tankreinigung mit <a href=\"/products/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean</a>.</li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.</li></ul>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -270,12 +270,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/camping-mobil",
+            "button_link1": "shopify://collections/camping-mobil",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-mobil",
+            "button_link2": "shopify://pages/camping-wasserfilter-mobil",
             "second_btn_color": "#0081be"
           }
         }
@@ -289,7 +289,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
+        "image": "shopify://shop_images/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": true,
@@ -311,7 +311,7 @@
         "heading_PR94yy": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Einbaufilter Travel<\/p>",
+            "heading": "<p>Einbaufilter Travel</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
@@ -323,7 +323,7 @@
         "text_q68dJB": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br\/><br\/>Durch den festen Einbau des Filters im Fahrzeug ist man maximal flexibel in der Wahl der Wasserquelle und nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, sind die Travel Wasserfilter die richtige Wahl.<br\/><\/p><ul><li><strong>Empfohlen bei großen Wassertanks (größer 150 Liter)<\/strong><\/li><li>Schnelle Betankung<\/li><li><strong>Maximale Autarkie <\/strong><\/li><li>Wasser wird direkt vor der Entnahme bzw. vor dem Verzehr gefiltert.<\/li><li>Wasser im Tank ungefiltert.<br\/>Regelmäßige Tankreinigung mit <a href=\"\/products\/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean<\/a>. <\/li><li>Betankung mit Gießkanne möglich.<\/li><li><strong>Druckanforderung  Wasserpumpe 2,1 - 3,1 bar<\/strong><\/li><\/ul>",
+            "text": "<p>Unsere Travel Wasserfilter sind die optimale Lösung für alle die gerne unterwegs sind und ein fest verbautes System zur Wasseraufbereitung im Van, oder Wohnmobil suchen. Die Travel Filter werden einfach im vorhandenen Wassersystem integriert und sorgen so für frisches und leckeres Trinkwasser, egal wo die Reise hingeht.<br/><br/>Durch den festen Einbau des Filters im Fahrzeug ist man maximal flexibel in der Wahl der Wasserquelle und nicht abhängig von einem Wasserdruck beim Befüllen des Tanks. Gerade in Gegenden in denen man auf die Wasserversorgung über öffentliche Brunnen oder gar Flüsse angewiesen ist, sind die Travel Wasserfilter die richtige Wahl.<br/></p><ul><li><strong>Empfohlen bei großen Wassertanks (größer 150 Liter)</strong></li><li>Schnelle Betankung</li><li><strong>Maximale Autarkie </strong></li><li>Wasser wird direkt vor der Entnahme bzw. vor dem Verzehr gefiltert.</li><li>Wasser im Tank ungefiltert.<br/>Regelmäßige Tankreinigung mit <a href=\"/products/alb-filter-clean-tankreiniger\" title=\"Alb Clean Frischwassertank-Reiniger mit aktivem Sauerstoff\">Alb Clean</a>. </li><li>Betankung mit Gießkanne möglich.</li><li><strong>Druckanforderung  Wasserpumpe 2,1 - 3,1 bar</strong></li></ul>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -333,12 +333,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/camping-travel",
+            "button_link1": "shopify://collections/camping-travel-old",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-travel",
+            "button_link2": "shopify://pages/camping-wasserfilter-travel",
             "second_btn_color": "#0081be"
           }
         }
@@ -349,7 +349,7 @@
         "button_fLjzYm"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Travel_Fusion_8620052a-a92c-4a8e-b2ac-a3ad81f95b2f.svg",
+        "image": "shopify://shop_images/Travel_Fusion_8620052a-a92c-4a8e-b2ac-a3ad81f95b2f.svg",
         "enable_image_ratio": false,
         "image_ratio": "2_3",
         "image_contain": true,
@@ -371,7 +371,7 @@
         "heading_HkkAzE": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kombifilter Pro Camper<\/p>",
+            "heading": "<p>Kombifilter Pro Camper</p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "700",
@@ -383,7 +383,7 @@
         "text_Y69JEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Reisen ohne Einschränkungen durch eine Kombination eines Mobil- und Travel-Sets. Mit dem Pro Camper Set können Sie sich und Ihr Equipment vor organischen Schadstoffen, geschmacklichen Beeinträchtigungen und sogar vor gesundheitsschädlichen Keimen und Bakterien schützen. Reduzieren Sie Ihren Plastikmüll auf ein Minimum indem Sie das frisch gefilterte Wasser aus ihrem Tank genießen.<br\/><br\/>Mikrobiologische Verunreinigungen werden direkt vor der Entnahme gefiltert wodurch lästige und zum Teil gefährliche Magen-Darm Erkrankungen vermieden werden können. Durch die zusätzliche Filtration des Wassers mit einer Aktivkohle-Kartusche beim Tankvorgang, reduzieren Sie unerwünschte Schadstoffe und Sedimente noch bevor diese Ihren Wassertank verunreinigen. <\/p><ul><li><strong>Empfohlen bei mittleren\/großen Wassertanks (120 bis 200 Liter)<\/strong><\/li><li>Keimsperre nach dem Wassertank.<\/li><li>Optimal für ältere bzw. nicht ­gereinigte Systeme. <\/li><li>Filtert Sand, Sediment und organische <\/li><li>erunreinigungen vor dem Tank. <\/li><li>Druckanforderung &gt; 2,1 bar<\/li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.<\/li><\/ul>",
+            "text": "<p>Reisen ohne Einschränkungen durch eine Kombination eines Mobil- und Travel-Sets. Mit dem Pro Camper Set können Sie sich und Ihr Equipment vor organischen Schadstoffen, geschmacklichen Beeinträchtigungen und sogar vor gesundheitsschädlichen Keimen und Bakterien schützen. Reduzieren Sie Ihren Plastikmüll auf ein Minimum indem Sie das frisch gefilterte Wasser aus ihrem Tank genießen.<br/><br/>Mikrobiologische Verunreinigungen werden direkt vor der Entnahme gefiltert wodurch lästige und zum Teil gefährliche Magen-Darm Erkrankungen vermieden werden können. Durch die zusätzliche Filtration des Wassers mit einer Aktivkohle-Kartusche beim Tankvorgang, reduzieren Sie unerwünschte Schadstoffe und Sedimente noch bevor diese Ihren Wassertank verunreinigen. </p><ul><li><strong>Empfohlen bei mittleren/großen Wassertanks (120 bis 200 Liter)</strong></li><li>Keimsperre nach dem Wassertank.</li><li>Optimal für ältere bzw. nicht ­gereinigte Systeme. </li><li>Filtert Sand, Sediment und organische </li><li>erunreinigungen vor dem Tank. </li><li>Druckanforderung &gt; 2,1 bar</li><li>Durchflussgeschwindigkeit des Wassers beim Tankvorgang reduziert.</li></ul>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -393,12 +393,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/pro-camper-set",
+            "button_link1": "shopify://products/pro-camper-set",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter-pro-camper-set",
+            "button_link2": "shopify://pages/camping-wasserfilter-pro-camper-set",
             "second_btn_color": "#0081be"
           }
         }
@@ -409,7 +409,7 @@
         "button_GKbKUz"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pro_Camper_72c94c76-5f2d-4285-9781-195fcefdb798.svg",
+        "image": "shopify://shop_images/Pro_Camper_72c94c76-5f2d-4285-9781-195fcefdb798.svg",
         "enable_image_ratio": false,
         "image_ratio": "2_3",
         "image_contain": true,
@@ -431,7 +431,7 @@
         "heading_qhjkE7": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Mobil, Travel und Pro Camper im Video<\/p>",
+            "heading": "<p>Mobil, Travel und Pro Camper im Video</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -443,7 +443,7 @@
         "text_H4PcWW": {
           "type": "text",
           "settings": {
-            "text": "<p>Im folgenden Video stellt Patrick die drei Alb Filter Camping-Varianten vor. Er spricht über die jeweiligen Einsatzgebiete der unterschiedlichen Modelle, die Unterschiede der Kartuschen und beantwortet Fragen zu Wartung und Pflege.<\/p>",
+            "text": "<p>Im folgenden Video stellt Patrick die drei Alb Filter Camping-Varianten vor. Er spricht über die jeweiligen Einsatzgebiete der unterschiedlichen Modelle, die Unterschiede der Kartuschen und beantwortet Fragen zu Wartung und Pflege.</p>",
             "second_font": true
           }
         }
@@ -471,8 +471,8 @@
         "heading_weight": "700",
         "heading_second_font": false,
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/Q1_WWbCxMpw",
-        "cover_image": "shopify:\/\/shop_images\/maxresdefault.webp",
+        "video_url": "https://youtu.be/Q1_WWbCxMpw",
+        "cover_image": "shopify://shop_images/maxresdefault.webp",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -486,14 +486,14 @@
         "image_bHgKcn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
+            "image": "shopify://shop_images/pf-aa7466ef--wasserfilterlogoinstallationbright.png",
             "image_width": 70
           }
         },
         "heading_6iMpet": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Filter Mobil\/Travel<br\/>Installation<\/p>",
+            "heading": "<p>Alb Filter Mobil/Travel<br/>Installation</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -504,7 +504,7 @@
         "text_YKGgrb": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Schritt für Schritt-Anleitungen unterstützen Sie bei der Installation Ihres Alb Filter® Mobil und Travel. <\/p>",
+            "text": "<p>Unsere Schritt für Schritt-Anleitungen unterstützen Sie bei der Installation Ihres Alb Filter® Mobil und Travel. </p>",
             "text_style": "body",
             "color": "#616161",
             "second_font": false
@@ -513,8 +513,8 @@
         "button_ntQcyx": {
           "type": "button",
           "settings": {
-            "button_label": "Anleitung Mobil \/ Travel (PDF)",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/MOBIL-TRAVEL-Manual_V1.1_GER_FINAL_WEB.pdf",
+            "button_label": "Anleitung Mobil / Travel (PDF)",
+            "button_link": "https://cdn.shopify.com/s/files/1/0278/5483/1715/files/MOBIL-TRAVEL-Manual_V1.1_GER_FINAL_WEB.pdf",
             "color": "#ffffff",
             "primary_btn": true,
             "primary_bg": "#0081be"
@@ -539,7 +539,7 @@
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "second_font": false,
-        "image": "shopify:\/\/shop_images\/vorschaubild-anleitung-mobil-travel-1643794040322.jpg",
+        "image": "shopify://shop_images/vorschaubild-anleitung-mobil-travel-1643794040322.jpg",
         "image_width": 200,
         "image_mobile_width": 285,
         "image_round": false,
@@ -561,7 +561,7 @@
         "heading_TebUwL": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Flex Tube<\/p>",
+            "heading": "<p>Flex Tube</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -573,7 +573,7 @@
         "text_3wzBpe": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Alb Filter Flextube ist eine innovative Lösung für Wohnmobilbesitzer, die sich beim Betanken ihres Fahrzeugs nicht mehr mit schmutzigen Schläuchen herumschlagen möchten.<\/p><p>Dank seiner praktischen Tasche bleibt der lebensmittelechte Schlauch stets sauber und hygienisch.<br\/><\/p>",
+            "text": "<p>Der Alb Filter Flextube ist eine innovative Lösung für Wohnmobilbesitzer, die sich beim Betanken ihres Fahrzeugs nicht mehr mit schmutzigen Schläuchen herumschlagen möchten.</p><p>Dank seiner praktischen Tasche bleibt der lebensmittelechte Schlauch stets sauber und hygienisch.<br/></p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -583,12 +583,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-flextube-befullschlauch",
+            "button_link1": "shopify://products/alb-filter-flextube-befullschlauch",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
-            "button_link2": "shopify:\/\/collections\/zubehor",
+            "button_link2": "shopify://collections/zubehor",
             "second_btn_color": "#0081be"
           }
         }
@@ -600,7 +600,7 @@
         "button_YyXACH"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-filterr-flextube-befuellschlauch-4260590615824-963.webp",
+        "image": "shopify://shop_images/alb-filter-filterr-flextube-befuellschlauch-4260590615824-963.webp",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -630,7 +630,7 @@
         "heading_63bxN9": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Clean<\/p>",
+            "heading": "<p>Alb Clean</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -642,7 +642,7 @@
         "text_tjdnza": {
           "type": "text",
           "settings": {
-            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate).<strong><br\/><\/strong><\/p>",
+            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate).<strong><br/></strong></p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -661,12 +661,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
+            "button_link1": "shopify://products/alb-filter-clean-tankreiniger",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Weiteres Zubehör",
-            "button_link2": "shopify:\/\/collections\/zubehor",
+            "button_link2": "shopify://collections/zubehor",
             "second_btn_color": "#0081be"
           }
         }
@@ -679,7 +679,7 @@
         "button_zEd9jx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-clean-frischwassertank-reiniger-mit-aktivem-sauerstoff-4260590615862-180.webp",
+        "image": "shopify://shop_images/alb-filter-clean-frischwassertank-reiniger-mit-aktivem-sauerstoff-4260590615862-180.webp",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -701,7 +701,7 @@
         "heading_nMtBRy": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Warum ist eine regelmäßige Tankreinigung wichtig?<\/p>",
+            "heading": "<p>Warum ist eine regelmäßige Tankreinigung wichtig?</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -730,7 +730,7 @@
         "text_Ydc4nc": {
           "type": "text",
           "settings": {
-            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate)*. <br\/><br\/>Für eine schnelle und einfache Reinigung gibt es unser Reinigungsmittel \"Alb Clean\". Einfacher geht's nicht: Wasser auffüllen, Reiniger rein, 2h einwirken lassen, fertig. Ein weiterer Vorteil – pumpt ihr das Frischwasser nun über die Armatur in den Grauwassertank, wird dieser gleich mitgesäubert.<\/p>",
+            "text": "<p>Unabhängig von der Art des Wasserfilters ist eine regelmäßige Tankreinigung wichtig, um die Wasserqualität zu gewährleisten und die Bildung von Bakterien und Ablagerungen zu verhindern. Ein sauberer Tank sorgt dafür, dass alle nachfolgenden Filtermethoden effektiver arbeiten. Reinige den Tank vor Inbetriebnahme eines Wasserfilters und danach in regelmäßigen Intervallen (mind. alle 6 Monate)*. <br/><br/>Für eine schnelle und einfache Reinigung gibt es unser Reinigungsmittel \"Alb Clean\". Einfacher geht's nicht: Wasser auffüllen, Reiniger rein, 2h einwirken lassen, fertig. Ein weiterer Vorteil – pumpt ihr das Frischwasser nun über die Armatur in den Grauwassertank, wird dieser gleich mitgesäubert.</p>",
             "second_font": true
           }
         },
@@ -739,18 +739,18 @@
           "settings": {
             "center": false,
             "button_label": "Kaufen",
-            "button_link": "shopify:\/\/products\/alb-filter-clean-tankreiniger",
+            "button_link": "shopify://products/alb-filter-clean-tankreiniger",
             "button_style_secondary": false,
             "btn_icon": "cart",
             "button_label_2": "Weiteres Zubehör",
-            "button_link_2": "shopify:\/\/collections\/zubehor",
+            "button_link_2": "shopify://collections/zubehor",
             "second_btn_color": "#0081be"
           }
         },
         "text_GWgRMK": {
           "type": "text",
           "settings": {
-            "text": "<p>* Bei Nutzung des Alb Filter Mobil Fusion Sets in einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung grundsätzlich verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So werden Schadstoffe und Keime vor dem Tank gefiltert und es entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.<\/p>",
+            "text": "<p>* Bei Nutzung des Alb Filter Mobil Fusion Sets in einem neuen bzw. gut gepflegten Wassersystem kann auf eine regelmäßige Tankreinigung grundsätzlich verzichtet werden. Voraussetzung ist eine gründliche Tankreinigung vor der ersten Verwendung eine anschließende konsequente Nutzung beider Filterstufen bei jeder Befüllung. So werden Schadstoffe und Keime vor dem Tank gefiltert und es entsteht kein Biofilm. Eine regelmäßige Kontrolle des Tanks wird empfohlen ebenso eine erneute Tankreinigung bei Anzeichen einer Verunreinigung.</p>",
             "second_font": true
           }
         }
@@ -776,7 +776,7 @@
         "heading_HRCb7R": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kundenstimmen zu unseren Duschfiltern<\/p>",
+            "heading": "<p>Kundenstimmen zu unseren Duschfiltern</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -803,7 +803,7 @@
       "type": "custom-liquid",
       "settings": {
         "page_width": true,
-        "custom_liquid": "<script src=\"https:\/\/widget.reviews.io\/carousel-inline-iframeless\/dist.js?_t=2023040514\"><\/script>\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/css\/widgets\/carousel-widget.css?_t=2023040514\">\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/iconfont\/reviewsio-icons\/style.css?_t=2023040514\">\n<div id=\"reviewsio-carousel-widget\"><\/div>\n<script>\n    async function createReviewCarousel() {\n    const rc = new carouselInlineWidget(\"reviewsio-carousel-widget\", {\n        \/*Your REVIEWS.io account ID:*\/\n        store: \"alb-filter-dev.myshopify.com\",\n        sku: \"\",\n        lang: \"de\",\n        carousel_type: \"topHeader\",\n        styles_carousel: \"CarouselWidget--topHeader--withcards\",\n\n        \/*Widget settings:*\/\n        options: {\n            general: {\n                \/*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*\/\n                review_type: \"company, product, third_party\",\n                \/*Minimum number of reviews required for widget to be displayed*\/\n                min_reviews: \"1\",\n                \/*Maximum number of reviews to include in the carousel widget.*\/\n                max_reviews: \"20\",\n                address_format: \"CITY, COUNTRY\",\n                \/*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*\/\n                enable_auto_scroll: 5000,\n            },\n            header: {\n                \/*Show overall rating stars*\/\n                enable_overall_stars: true,\n                rating_decimal_places: 2,\n            },\n            reviews: {\n                \/*Show customer name*\/\n                enable_customer_name: true,\n                \/*Show customer location*\/\n                enable_customer_location: true,\n                \/*Show \"verified review\" badge*\/\n                enable_verified_badge: true,\n                \/*Show \"verified subscriber\" badge*\/\n                enable_subscriber_badge: true,\n                \/*Show \"I recommend this product\" badge (Only for product reviews)*\/\n                enable_recommends_badge: true,\n                \/*Show photos attached to reviews*\/\n                enable_photos: true,\n                \/*Show videos attached to reviews*\/\n                enable_videos: true,\n                \/*Show when review was written*\/\n                enable_review_date: true,\n                \/*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*\/\n                disable_same_customer: true,\n                \/*Minimum star rating*\/\n                min_review_percent: 60,\n                \/*Show 3rd party review source*\/\n                third_party_source: true,\n                \/*Hide reviews without comments (still shows if review has a photo)*\/\n                hide_empty_reviews: true,\n                \/*Show product name*\/\n                enable_product_name: true,\n                \/*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*\/\n                tags: \"\",\n                \/*Show branch, only one input*\/\n                branch: \"\",\n                enable_branch_name: false,\n            },\n            popups: {\n                \/*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*\/\n                enable_review_popups: true,\n                \/*Show \"was this review helpful\" buttons*\/\n                enable_helpful_buttons: true,\n                \/*Show how many times review was upvoted as helpful*\/\n                enable_helpful_count: true,\n                \/*Show share buttons*\/\n                enable_share_buttons: true,\n            },\n        },\n        translations: {\n            verified_customer: \"Verified Customer\",\n        },\n        styles: {\n            \/*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*\/\n            \"--base-font-size\": \"16px\",\n            \"--base-maxwidth\": \"100%\",\n\n            \/*Logo styles:*\/\n            \"--reviewsio-logo-style\": \"var(--logo-normal)\",\n\n            \/*Star styles:*\/\n            \"--common-star-color\": \"#ffa41c\",\n            \"--common-star-disabled-color\": \" rgba(0,0,0,0.25)\",\n            \"--medium-star-size\": \" 22px\",\n            \"--small-star-size\": \"19px\" \/*Modal*\/,\n            \"--x-small-star-size\": \"16px\",\n            \"--x-small-star-display\": \"inline-flex\",\n\n            \/*Header styles:*\/\n            \"--header-order\": \"1\",\n            \"--header-width\": \"160px\",\n            \"--header-bg-start-color\": \"transparent\",\n            \"--header-bg-end-color\": \"transparent\",\n            \"--header-gradient-direction\": \"135deg\",\n            \"--header-padding\": \"0.5em\",\n            \"--header-border-width\": \"0px\",\n            \"--header-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--header-border-radius\": \"0px\",\n            \"--header-shadow-size\": \"0px\",\n            \"--header-shadow-color\": \"rgba(0, 0, 0, 0.1)\",\n\n            \/*Header content styles:*\/\n            \"--header-star-color\": \"#ffa41c\",\n            \"--header-disabled-star-color\": \"inherit\",\n            \"--header-heading-text-color\": \"#003e5f\",\n            \"--header-heading-font-size\": \"inherit\",\n            \"--header-heading-font-weight\": \"inherit\",\n            \"--header-heading-line-height\": \"inherit\",\n            \"--header-heading-text-transform\": \"inherit\",\n            \"--header-subheading-text-color\": \"#616161\",\n            \"--header-subheading-font-size\": \"inherit\",\n            \"--header-subheading-font-weight\": \"inherit\",\n            \"--header-subheading-line-height\": \"inherit\",\n            \"--header-subheading-text-transform\": \"inherit\",\n\n            \/*Review item styles:*\/\n            \"--item-maximum-columns\": \"5\" \/*Must be 3 or larger*\/,\n            \"--item-background-start-color\": \"#ffffff\",\n            \"--item-background-end-color\": \"#ffffff\",\n            \"--item-gradient-direction\": \"135deg\",\n            \"--item-padding\": \"1.5em\",\n            \"--item-border-width\": \"0px\",\n            \"--item-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--item-border-radius\": \"0px\",\n            \"--item-shadow-size\": \"10px\",\n            \"--item-shadow-color\": \"rgba(0,0,0,0.05)\",\n\n            \/*Heading styles:*\/\n            \"--heading-text-color\": \"#003e5f\",\n            \"--heading-text-font-weight\": \" 600\",\n            \"--heading-text-font-family\": \" inherit\",\n            \"--heading-text-line-height\": \" 1.4\",\n            \"--heading-text-letter-spacing\": \"0\",\n            \"--heading-text-transform\": \"none\",\n\n            \/*Body text styles:*\/\n            \"--body-text-color\": \"#616161\",\n            \"--body-text-font-weight\": \"400\",\n            \"--body-text-font-family\": \" inherit\",\n            \"--body-text-line-height\": \" 1.4\",\n            \"--body-text-letter-spacing\": \"0\",\n            \"--body-text-transform\": \"none\",\n\n            \/*Scroll button styles:*\/\n            \"--scroll-button-icon-color\": \"#0E1311\",\n            \"--scroll-button-icon-size\": \"24px\",\n            \"--scroll-button-bg-color\": \"transparent\",\n\n            \"--scroll-button-border-width\": \"0px\",\n            \"--scroll-button-border-color\": \"rgba(0,0,0,0.1)\",\n\n            \"--scroll-button-border-radius\": \"60px\",\n            \"--scroll-button-shadow-size\": \"0px\",\n            \"--scroll-button-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--scroll-button-horizontal-position\": \"0px\",\n            \"--scroll-button-vertical-position\": \"0px\",\n\n            \/*Badge styles:*\/\n            \"--badge-icon-color\": \"#616161\",\n            \"--badge-icon-font-size\": \"15px\",\n            \"--badge-text-color\": \"#616161\",\n            \"--badge-text-font-size\": \"inherit\",\n            \"--badge-text-letter-spacing\": \"inherit\",\n            \"--badge-text-transform\": \"inherit\",\n\n            \/*Author styles:*\/\n            \"--author-font-size\": \"inherit\",\n            \"--author-font-weight\": \"inherit\",\n            \"--author-text-transform\": \"inherit\",\n\n            \/*Product photo or review photo styles:*\/\n            \"--photo-video-thumbnail-size\": \"60px\",\n            \"--photo-video-thumbnail-border-radius\": \"0px\",\n\n            \/*Popup styles:*\/\n            \"--popup-backdrop-color\": \"rgba(0,0,0,0.75)\",\n            \"--popup-color\": \"#ffffff\",\n            \"--popup-star-color\": \"inherit\",\n            \"--popup-disabled-star-color\": \"inherit\",\n            \"--popup-heading-text-color\": \"inherit\",\n            \"--popup-body-text-color\": \"inherit\",\n            \"--popup-badge-icon-color\": \"inherit\",\n            \"--popup-badge-icon-font-size\": \"19px\",\n            \"--popup-badge-text-color\": \"inherit\",\n            \"--popup-badge-text-font-size\": \"14px\",\n            \"--popup-border-width\": \"0px\",\n            \"--popup-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-border-radius\": \"0px\",\n            \"--popup-shadow-size\": \"0px\",\n            \"--popup-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-icon-color\": \"#003e5f\",\n\n            \/*Tooltip styles:*\/\n            \"--tooltip-bg-color\": \"#0E1311\",\n            \"--tooltip-text-color\": \"#ffffff\",\n        },\n    });\n\n    return new Promise((resolve) => {\n        \/\/ Wenn die Operation abgeschlossen ist, wird das Promise aufgelöst\n        resolve(rc);\n    });\n}\n\nasync function carouselCreation() {\n    \/\/ Warten, bis das Objekt erstellt wurde\n    const createdCarousel = await createReviewCarousel();\n    waitAndRemoveLowRatings();\n}\n\nfunction waitForWidget(selector) {\n    return new Promise((resolve) => {\n        const observer = new MutationObserver((mutationsList, observer) => {\n            for (let mutation of mutationsList) {\n                if (mutation.type === \"childList\") {\n                    const widget = document.querySelector(selector);\n                    if (widget) {\n                        observer.disconnect(); \/\/ Stop observing\n                        resolve(widget); \/\/ Resolve the promise with the widget\n                        break;\n                    }\n                }\n            }\n        });\n\n        \/\/ Start observing the document body for child node additions\n        observer.observe(document.body, { childList: true, subtree: true });\n    });\n}\n\nasync function waitAndRemoveLowRatings() {\n    const widgetSelector = \".R-ReviewsList__item\";\n    const widget = await waitForWidget(widgetSelector);\n\n    \/\/ Widget is now available\n    \/\/console.log(\"Widget found:\", widget);\n\n    var reviewContainers = document.querySelectorAll(\".R-ReviewsList__item\");\n    \/\/ Loop through each review container\n    reviewContainers.forEach(function (container) {\n        var ratingStars = container.querySelector(\".R-RatingStars__stars\");\n        if (ratingStars) {\n            var filledStars = ratingStars.querySelectorAll(\".stars__icon--0\").length;\n            if (filledStars > 1) {\n                container.style.display = \"none\";\n            }\n        }\n    });\n}\n\ncarouselCreation();\n\n<\/script>",
+        "custom_liquid": "<script src=\"https://widget.reviews.io/carousel-inline-iframeless/dist.js?_t=2023040514\"></script>\n<link rel=\"stylesheet\" href=\"https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2023040514\">\n<link rel=\"stylesheet\" href=\"https://assets.reviews.io/iconfont/reviewsio-icons/style.css?_t=2023040514\">\n<div id=\"reviewsio-carousel-widget\"></div>\n<script>\n    async function createReviewCarousel() {\n    const rc = new carouselInlineWidget(\"reviewsio-carousel-widget\", {\n        /*Your REVIEWS.io account ID:*/\n        store: \"alb-filter-dev.myshopify.com\",\n        sku: \"\",\n        lang: \"de\",\n        carousel_type: \"topHeader\",\n        styles_carousel: \"CarouselWidget--topHeader--withcards\",\n\n        /*Widget settings:*/\n        options: {\n            general: {\n                /*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*/\n                review_type: \"company, product, third_party\",\n                /*Minimum number of reviews required for widget to be displayed*/\n                min_reviews: \"1\",\n                /*Maximum number of reviews to include in the carousel widget.*/\n                max_reviews: \"20\",\n                address_format: \"CITY, COUNTRY\",\n                /*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*/\n                enable_auto_scroll: 5000,\n            },\n            header: {\n                /*Show overall rating stars*/\n                enable_overall_stars: true,\n                rating_decimal_places: 2,\n            },\n            reviews: {\n                /*Show customer name*/\n                enable_customer_name: true,\n                /*Show customer location*/\n                enable_customer_location: true,\n                /*Show \"verified review\" badge*/\n                enable_verified_badge: true,\n                /*Show \"verified subscriber\" badge*/\n                enable_subscriber_badge: true,\n                /*Show \"I recommend this product\" badge (Only for product reviews)*/\n                enable_recommends_badge: true,\n                /*Show photos attached to reviews*/\n                enable_photos: true,\n                /*Show videos attached to reviews*/\n                enable_videos: true,\n                /*Show when review was written*/\n                enable_review_date: true,\n                /*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*/\n                disable_same_customer: true,\n                /*Minimum star rating*/\n                min_review_percent: 60,\n                /*Show 3rd party review source*/\n                third_party_source: true,\n                /*Hide reviews without comments (still shows if review has a photo)*/\n                hide_empty_reviews: true,\n                /*Show product name*/\n                enable_product_name: true,\n                /*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*/\n                tags: \"\",\n                /*Show branch, only one input*/\n                branch: \"\",\n                enable_branch_name: false,\n            },\n            popups: {\n                /*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*/\n                enable_review_popups: true,\n                /*Show \"was this review helpful\" buttons*/\n                enable_helpful_buttons: true,\n                /*Show how many times review was upvoted as helpful*/\n                enable_helpful_count: true,\n                /*Show share buttons*/\n                enable_share_buttons: true,\n            },\n        },\n        translations: {\n            verified_customer: \"Verified Customer\",\n        },\n        styles: {\n            /*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*/\n            \"--base-font-size\": \"16px\",\n            \"--base-maxwidth\": \"100%\",\n\n            /*Logo styles:*/\n            \"--reviewsio-logo-style\": \"var(--logo-normal)\",\n\n            /*Star styles:*/\n            \"--common-star-color\": \"#ffa41c\",\n            \"--common-star-disabled-color\": \" rgba(0,0,0,0.25)\",\n            \"--medium-star-size\": \" 22px\",\n            \"--small-star-size\": \"19px\" /*Modal*/,\n            \"--x-small-star-size\": \"16px\",\n            \"--x-small-star-display\": \"inline-flex\",\n\n            /*Header styles:*/\n            \"--header-order\": \"1\",\n            \"--header-width\": \"160px\",\n            \"--header-bg-start-color\": \"transparent\",\n            \"--header-bg-end-color\": \"transparent\",\n            \"--header-gradient-direction\": \"135deg\",\n            \"--header-padding\": \"0.5em\",\n            \"--header-border-width\": \"0px\",\n            \"--header-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--header-border-radius\": \"0px\",\n            \"--header-shadow-size\": \"0px\",\n            \"--header-shadow-color\": \"rgba(0, 0, 0, 0.1)\",\n\n            /*Header content styles:*/\n            \"--header-star-color\": \"#ffa41c\",\n            \"--header-disabled-star-color\": \"inherit\",\n            \"--header-heading-text-color\": \"#003e5f\",\n            \"--header-heading-font-size\": \"inherit\",\n            \"--header-heading-font-weight\": \"inherit\",\n            \"--header-heading-line-height\": \"inherit\",\n            \"--header-heading-text-transform\": \"inherit\",\n            \"--header-subheading-text-color\": \"#616161\",\n            \"--header-subheading-font-size\": \"inherit\",\n            \"--header-subheading-font-weight\": \"inherit\",\n            \"--header-subheading-line-height\": \"inherit\",\n            \"--header-subheading-text-transform\": \"inherit\",\n\n            /*Review item styles:*/\n            \"--item-maximum-columns\": \"5\" /*Must be 3 or larger*/,\n            \"--item-background-start-color\": \"#ffffff\",\n            \"--item-background-end-color\": \"#ffffff\",\n            \"--item-gradient-direction\": \"135deg\",\n            \"--item-padding\": \"1.5em\",\n            \"--item-border-width\": \"0px\",\n            \"--item-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--item-border-radius\": \"0px\",\n            \"--item-shadow-size\": \"10px\",\n            \"--item-shadow-color\": \"rgba(0,0,0,0.05)\",\n\n            /*Heading styles:*/\n            \"--heading-text-color\": \"#003e5f\",\n            \"--heading-text-font-weight\": \" 600\",\n            \"--heading-text-font-family\": \" inherit\",\n            \"--heading-text-line-height\": \" 1.4\",\n            \"--heading-text-letter-spacing\": \"0\",\n            \"--heading-text-transform\": \"none\",\n\n            /*Body text styles:*/\n            \"--body-text-color\": \"#616161\",\n            \"--body-text-font-weight\": \"400\",\n            \"--body-text-font-family\": \" inherit\",\n            \"--body-text-line-height\": \" 1.4\",\n            \"--body-text-letter-spacing\": \"0\",\n            \"--body-text-transform\": \"none\",\n\n            /*Scroll button styles:*/\n            \"--scroll-button-icon-color\": \"#0E1311\",\n            \"--scroll-button-icon-size\": \"24px\",\n            \"--scroll-button-bg-color\": \"transparent\",\n\n            \"--scroll-button-border-width\": \"0px\",\n            \"--scroll-button-border-color\": \"rgba(0,0,0,0.1)\",\n\n            \"--scroll-button-border-radius\": \"60px\",\n            \"--scroll-button-shadow-size\": \"0px\",\n            \"--scroll-button-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--scroll-button-horizontal-position\": \"0px\",\n            \"--scroll-button-vertical-position\": \"0px\",\n\n            /*Badge styles:*/\n            \"--badge-icon-color\": \"#616161\",\n            \"--badge-icon-font-size\": \"15px\",\n            \"--badge-text-color\": \"#616161\",\n            \"--badge-text-font-size\": \"inherit\",\n            \"--badge-text-letter-spacing\": \"inherit\",\n            \"--badge-text-transform\": \"inherit\",\n\n            /*Author styles:*/\n            \"--author-font-size\": \"inherit\",\n            \"--author-font-weight\": \"inherit\",\n            \"--author-text-transform\": \"inherit\",\n\n            /*Product photo or review photo styles:*/\n            \"--photo-video-thumbnail-size\": \"60px\",\n            \"--photo-video-thumbnail-border-radius\": \"0px\",\n\n            /*Popup styles:*/\n            \"--popup-backdrop-color\": \"rgba(0,0,0,0.75)\",\n            \"--popup-color\": \"#ffffff\",\n            \"--popup-star-color\": \"inherit\",\n            \"--popup-disabled-star-color\": \"inherit\",\n            \"--popup-heading-text-color\": \"inherit\",\n            \"--popup-body-text-color\": \"inherit\",\n            \"--popup-badge-icon-color\": \"inherit\",\n            \"--popup-badge-icon-font-size\": \"19px\",\n            \"--popup-badge-text-color\": \"inherit\",\n            \"--popup-badge-text-font-size\": \"14px\",\n            \"--popup-border-width\": \"0px\",\n            \"--popup-border-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-border-radius\": \"0px\",\n            \"--popup-shadow-size\": \"0px\",\n            \"--popup-shadow-color\": \"rgba(0,0,0,0.1)\",\n            \"--popup-icon-color\": \"#003e5f\",\n\n            /*Tooltip styles:*/\n            \"--tooltip-bg-color\": \"#0E1311\",\n            \"--tooltip-text-color\": \"#ffffff\",\n        },\n    });\n\n    return new Promise((resolve) => {\n        // Wenn die Operation abgeschlossen ist, wird das Promise aufgelöst\n        resolve(rc);\n    });\n}\n\nasync function carouselCreation() {\n    // Warten, bis das Objekt erstellt wurde\n    const createdCarousel = await createReviewCarousel();\n    waitAndRemoveLowRatings();\n}\n\nfunction waitForWidget(selector) {\n    return new Promise((resolve) => {\n        const observer = new MutationObserver((mutationsList, observer) => {\n            for (let mutation of mutationsList) {\n                if (mutation.type === \"childList\") {\n                    const widget = document.querySelector(selector);\n                    if (widget) {\n                        observer.disconnect(); // Stop observing\n                        resolve(widget); // Resolve the promise with the widget\n                        break;\n                    }\n                }\n            }\n        });\n\n        // Start observing the document body for child node additions\n        observer.observe(document.body, { childList: true, subtree: true });\n    });\n}\n\nasync function waitAndRemoveLowRatings() {\n    const widgetSelector = \".R-ReviewsList__item\";\n    const widget = await waitForWidget(widgetSelector);\n\n    // Widget is now available\n    //console.log(\"Widget found:\", widget);\n\n    var reviewContainers = document.querySelectorAll(\".R-ReviewsList__item\");\n    // Loop through each review container\n    reviewContainers.forEach(function (container) {\n        var ratingStars = container.querySelector(\".R-RatingStars__stars\");\n        if (ratingStars) {\n            var filledStars = ratingStars.querySelectorAll(\".stars__icon--0\").length;\n            if (filledStars > 1) {\n                container.style.display = \"none\";\n            }\n        }\n    });\n}\n\ncarouselCreation();\n\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 52
@@ -815,10 +815,10 @@
         "item_yymzUE": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "image": "shopify://shop_images/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Hergestellt in<br/>Süddeutschland</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -831,10 +831,10 @@
         "item_BgLVxn": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "image": "shopify://shop_images/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>30 Tage<br/>Rückgaberecht</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -847,10 +847,10 @@
         "item_WQPn8H": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Schneller und kostenloser<br/>Versand mit DHL</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -863,10 +863,10 @@
         "item_D7YKAq": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "image": "shopify://shop_images/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Einfache Zahlung<br/>auch auf Rechnung</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -903,7 +903,7 @@
         "subtitle_YCLHh4": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Alb Filter Camping 2023\/24",
+            "subtitle": "Alb Filter Camping 2023/24",
             "subtitle_color": "#003e5f",
             "second_font": true
           }
@@ -911,7 +911,7 @@
         "text_thhxeU": {
           "type": "text",
           "settings": {
-            "text": "<p>Die gedruckte Alb Filter Camping Broschüre zum nachlesen als PDF.<\/p>",
+            "text": "<p>Die gedruckte Alb Filter Camping Broschüre zum nachlesen als PDF.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -920,8 +920,8 @@
         "button_txVEB8": {
           "type": "button",
           "settings": {
-            "button_label1": "Alb Filter Camping Broschüre 2023\/24 (PDF)",
-            "button_link1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0278\/5483\/1715\/files\/2023-Broschure-Camping_ALU_EDEL_v03_kompr.pdf?v=1708340672",
+            "button_label1": "Alb Filter Camping Broschüre 2023/24 (PDF)",
+            "button_link1": "https://cdn.shopify.com/s/files/1/0278/5483/1715/files/2023-Broschure-Camping_ALU_EDEL_v03_kompr.pdf?v=1708340672",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
@@ -937,7 +937,7 @@
         "button_txVEB8"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/alb-filter-camping-broschure-banner_v04_e896e9b9-4326-4af9-8ecb-0279819206c5.jpg",
+        "image": "shopify://shop_images/alb-filter-camping-broschure-banner_v04_e896e9b9-4326-4af9-8ecb-0279819206c5.jpg",
         "enable_image_ratio": true,
         "image_ratio": "16_9",
         "image_contain": true,
@@ -959,17 +959,17 @@
         "item_cTmKmp": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "image": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "text": "Campingfilter",
-            "url": "shopify:\/\/pages\/faq-duschfilter"
+            "url": "shopify://pages/faq-duschfilter"
           }
         },
         "item_T6rxdT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sprechblasen-1640357321516.png",
+            "image": "shopify://shop_images/sprechblasen-1640357321516.png",
             "text": "Hilfe und Kontakt",
-            "url": "shopify:\/\/pages\/hilfe-und-kontakt"
+            "url": "shopify://pages/hilfe-und-kontakt"
           }
         }
       },
@@ -980,7 +980,7 @@
       "settings": {
         "background_color": "#fafafa",
         "enable_border": false,
-        "image": "shopify:\/\/shop_images\/albfilter-portrait-tob.png",
+        "image": "shopify://shop_images/albfilter-portrait-tob.png",
         "image_width": 150,
         "heading": "Noch Fragen zum Produkt?",
         "heading_tag": "h2",
@@ -988,7 +988,7 @@
         "heading_weight": "700",
         "heading_color": "#003e5f",
         "enable_heading_second_font": false,
-        "text": "<p>Erhalten Sie hier Antworten zu unseren <a href=\"\/pages\/faq-camping\" title=\"FAQ - Camping\">Campingfiltern <\/a>oder <br\/>besuchen Sie unsere <a href=\"\/pages\/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Hilfe und Kontakt <\/a>Seite für weitere Fragen.<\/p>",
+        "text": "<p>Erhalten Sie hier Antworten zu unseren <a href=\"/pages/faq-camping\" title=\"FAQ - Camping\">Campingfiltern </a>oder <br/>besuchen Sie unsere <a href=\"/pages/hilfe-und-kontakt\" title=\"Hilfe und Kontakt\">Hilfe und Kontakt </a>Seite für weitere Fragen.</p>",
         "text_color": "#616161",
         "enable_text_second_font": true,
         "item_bg": "#ffffff",
