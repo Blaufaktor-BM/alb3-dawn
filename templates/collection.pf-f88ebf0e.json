@@ -11,8 +11,7 @@
   "sections": {
     "breadcrump_Ktxj9R": {
       "type": "breadcrump",
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_zRfwMF": {
       "type": "rich-text",
@@ -53,9 +52,7 @@
     },
     "image_banner_WTFwpR": {
       "type": "image-banner",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/titelbildprocampersetfrauincamper-1663089404330.jpg",
         "image_overlay_opacity": 0,
@@ -197,8 +194,7 @@
     },
     "pf-f88ebf0e": {
       "type": "pf-f88ebf0e",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

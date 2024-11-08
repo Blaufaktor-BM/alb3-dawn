@@ -11,8 +11,7 @@
   "sections": {
     "breadcrump_Ktxj9R": {
       "type": "breadcrump",
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_zRfwMF": {
       "type": "rich-text",
@@ -235,8 +234,7 @@
     },
     "pf-3a44739b": {
       "type": "pf-3a44739b",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

@@ -285,9 +285,7 @@
         "text_WzawLM",
         "button_Qah8e8"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Mobil_Fusion_Protect_b2cb274f-57b3-4787-9e24-b3a4623d2f9d.svg",
         "enable_image_ratio": false,
@@ -1000,8 +998,7 @@
     },
     "pf-49c184b0": {
       "type": "pf-49c184b0",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
