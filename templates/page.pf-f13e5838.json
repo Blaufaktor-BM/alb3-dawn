@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,8 +20,8 @@
     "image_banner_fNRMYQ": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Active-Nano-Holz-UnscharferBG.webp",
-        "image_2": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+        "image": "shopify://shop_images/Active-Nano-Holz-UnscharferBG.webp",
+        "image_2": "shopify://shop_images/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "image_overlay_opacity": 0,
         "enable_shadow": false,
         "image_height": "small",
@@ -42,7 +42,7 @@
         "heading_ii4M8y": {
           "type": "heading",
           "settings": {
-            "heading": "<p>ALB FILTER<\/p>",
+            "heading": "<p>ALB FILTER</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h0",
@@ -53,7 +53,7 @@
         "heading_Drzc7G": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Kartuschen für Wasserfilter<\/p>",
+            "heading": "<p>Kartuschen für Wasserfilter</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -64,7 +64,7 @@
         "text_9PGU9D": {
           "type": "text",
           "settings": {
-            "text": "<p>Alb Filter bietet für jeden Einsatzzweck die passende Kartusche. Genieße frisches und köstlich gefiltertes Trinkwasser, vitalisierendes Wasser für Haut und Haar sowie höchste Sicherheit beim Wasserkonsum unterwegs beim Reisen!<br\/><br\/>Informiere dich über unsere verschiedenen Wasserfilter-Kartuschen und finde heraus, welche am besten für deine Bedürfnisse geeignet ist.<\/p>",
+            "text": "<p>Alb Filter bietet für jeden Einsatzzweck die passende Kartusche. Genieße frisches und köstlich gefiltertes Trinkwasser, vitalisierendes Wasser für Haut und Haar sowie höchste Sicherheit beim Wasserkonsum unterwegs beim Reisen!<br/><br/>Informiere dich über unsere verschiedenen Wasserfilter-Kartuschen und finde heraus, welche am besten für deine Bedürfnisse geeignet ist.</p>",
             "second_font": true
           }
         }
@@ -90,7 +90,7 @@
         "heading_QjUWWa": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wähle Dein Einsatzgebiet<\/p>",
+            "heading": "<p>Wähle Dein Einsatzgebiet</p>",
             "color": "#003e5f",
             "heading_tag": "h2",
             "heading_size": "h2",
@@ -118,7 +118,7 @@
         "column_zDTCLz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
             "title": "Trinkwasser",
             "subtitle": "",
             "text": "",
@@ -129,7 +129,7 @@
         "column_M4zbUb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "image": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
             "title": "Duschfilter",
             "subtitle": "",
             "text": "",
@@ -140,7 +140,7 @@
         "column_HPf4jR": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "image": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "title": "Camping",
             "subtitle": "",
             "text": "",
@@ -188,7 +188,7 @@
         "text_i3d4bP": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Alb Wasserfilter-Gehäuse sind modular aufgebaut. Das bedeutet, dass du das Filtergehäuse nur einmal kaufen musst und später je nach Bedarf lediglich die Kartusche im Inneren austauschst. Auf dieser Seite findest du unsere Alb Filterkartuschen nach Anwendungszweck sortiert. Einige Kartuschen können in verschiedenen Bereichen eingesetzt werden.<\/p>",
+            "text": "<p>Die Alb Wasserfilter-Gehäuse sind modular aufgebaut. Das bedeutet, dass du das Filtergehäuse nur einmal kaufen musst und später je nach Bedarf lediglich die Kartusche im Inneren austauschst. Auf dieser Seite findest du unsere Alb Filterkartuschen nach Anwendungszweck sortiert. Einige Kartuschen können in verschiedenen Bereichen eingesetzt werden.</p>",
             "second_font": true
           }
         }
@@ -213,7 +213,7 @@
         "image_7tcWpE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
+            "image": "shopify://shop_images/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
             "image_width": 610,
             "full_width": true,
             "remove_spacing": true,
@@ -244,25 +244,25 @@
             "subtitle": "Trinkwasserkartusche",
             "heading": "Active",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. Sie filtert zuverlässig Schadstoffe und verbessert den Geschmack sowie das Aussehen des Wassers.<\/p>",
+            "image": "shopify://shop_images/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. Sie filtert zuverlässig Schadstoffe und verbessert den Geschmack sowie das Aussehen des Wassers.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "icon_text_acc_text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "icon_text_acc_text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "icon_text_acc_text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "icon_text_acc_text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
             "icon_text_acc_text5": "",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
@@ -271,14 +271,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filteraterial <\/strong>Kokosnuss Blockaktivkohle (gesintert)<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,8 Bar<\/p><p><strong>Durchfluss:<\/strong>4 7 l\/min5<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filteraterial </strong>Kokosnuss Blockaktivkohle (gesintert)</p><p><strong>Wechselintervall</strong>1<strong> </strong>4 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>3000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,8 Bar</p><p><strong>Durchfluss:</strong>4 7 l/min5</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei ca. 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "btn_url": "shopify://products/wasserfilter-kartusche-active",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/active-wasserfilter-kartusche"
           }
         },
         "item_hChQUt": {
@@ -287,42 +287,42 @@
             "subtitle": "Trinkwasserkartusche",
             "heading": "Active Plus+",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Active__Angeschnitten_8bit_eef2b348-01aa-45dd-8b58-9b8251d16b4b.png",
-            "text": "<p>Die Trinkwasserkartusche Active Plus+ wird überwiegend zu Hause als Untertisch oder Wasserhahnfilter eingesetzt. Sie filtert Gerüche, Schwermetalle, Mikroplastik, Arzneimittelrückstände, Bakterien und Keime bis 0,7 µm und enthärtet dabei noch das Wasser.<\/p>",
+            "image": "shopify://shop_images/Active__Angeschnitten_8bit_eef2b348-01aa-45dd-8b58-9b8251d16b4b.png",
+            "text": "<p>Die Trinkwasserkartusche Active Plus+ wird überwiegend zu Hause als Untertisch oder Wasserhahnfilter eingesetzt. Sie filtert Gerüche, Schwermetalle, Mikroplastik, Arzneimittelrückstände, Bakterien und Keime bis 0,7 µm und enthärtet dabei noch das Wasser.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "icon_text_acc_text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "icon_text_acc_text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "icon_text_acc_icon5": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "icon_text_acc_text5": "<p><strong>Gegen Bakterien und Keime<\/strong><\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "icon_text_acc_icon6": "shopify:\/\/shop_images\/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
-            "icon_text_acc_text6": "<p><strong>Kalkreduktion \/ Wasserenthärtung<\/strong><\/p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "icon_text_acc_text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "icon_text_acc_text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "icon_text_acc_icon5": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "icon_text_acc_text5": "<p><strong>Gegen Bakterien und Keime</strong></p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "icon_text_acc_icon6": "shopify://shop_images/pf-5f4828bb--albfiltericonsetparameters07limemk.svg",
+            "icon_text_acc_text6": "<p><strong>Kalkreduktion / Wasserenthärtung</strong></p><p>\"Doppelte\" Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
             "icon_text_acc_text9": "",
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filtermaterial: <\/strong>Bioton<\/p><p><strong>Wechselintervall: <\/strong>4 Monate<\/p><p><strong>Filterkapazität: <\/strong>3000 L<\/p><p><strong>Druckanforderung: <\/strong>3,0 Bar<\/p><p><strong>Durchfluss: <\/strong>6 l\/min<\/p>",
-            "text_list_acc_bottom_text": "<p><strong>Hinweis für Camper:<\/strong>Kartusche muss immer feucht gehalten werden und kann nicht zwischengelagert werden. Die Active Plus Kartusche ist daher nicht für die Nutzung im mobilen Umfeld geeignet. Bitte wählen Sie zu unseren Camping Produkten Mobil, Travel und Pro Camper die Active- und\/oder die Nano-Kartusche. <\/p>",
+            "text_list_acc_top_text": "<p><strong>Filtermaterial: </strong>Bioton</p><p><strong>Wechselintervall: </strong>4 Monate</p><p><strong>Filterkapazität: </strong>3000 L</p><p><strong>Druckanforderung: </strong>3,0 Bar</p><p><strong>Durchfluss: </strong>6 l/min</p>",
+            "text_list_acc_bottom_text": "<p><strong>Hinweis für Camper:</strong>Kartusche muss immer feucht gehalten werden und kann nicht zwischengelagert werden. Die Active Plus Kartusche ist daher nicht für die Nutzung im mobilen Umfeld geeignet. Bitte wählen Sie zu unseren Camping Produkten Mobil, Travel und Pro Camper die Active- und/oder die Nano-Kartusche. </p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active-plus",
+            "btn_url": "shopify://products/wasserfilter-kartusche-active-plus",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/active-plus-wasserfilter-kartusche"
           }
         },
         "item_f8DHU9": {
@@ -331,28 +331,28 @@
             "subtitle": "Bakterienfilter",
             "heading": "Nano",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
-            "text": "<p>Die Nano Kartusche filtert zuverlässig Bakterien und Keime (99,99%) wie E. coli und Legionellen mit einer 0,1 µm Hohlfasermembran. Sie reduziert Trübungen und zeigt bei Erschöpfung verlangsamten Wasserdurchfluss an. Zertifiziert nach ASTM F838-15A.<\/p>",
+            "image": "shopify://shop_images/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
+            "text": "<p>Die Nano Kartusche filtert zuverlässig Bakterien und Keime (99,99%) wie E. coli und Legionellen mit einer 0,1 µm Hohlfasermembran. Sie reduziert Trübungen und zeigt bei Erschöpfung verlangsamten Wasserdurchfluss an. Zertifiziert nach ASTM F838-15A.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "icon_text_acc_text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "icon_text_acc_text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "icon_text_acc_text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "icon_text_acc_icon5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "icon_text_acc_text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "icon_text_acc_text1": "<p><strong>Schutz vor Mikroorganismen</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "icon_text_acc_text2": "<p><strong>Schutz vor Legionellen</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text3": "<p><strong>Reduziert Trübungen</strong></p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "icon_text_acc_text4": "<p><strong>Höchste Sicherheit</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "icon_text_acc_icon5": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "icon_text_acc_text5": "<p><strong>Zertifiziert</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
@@ -360,14 +360,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filtermaterial: <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,1 Bar<\/p><p><strong>Durchfluss: <\/strong>11 l\/min<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filtermaterial: </strong>Hohlfasermembrane</p><p><strong>Wechselintervall: </strong>6 Monate</p><p><strong>Filterkapazität: </strong>5000 L</p><p><strong>Druckanforderung: </strong>2,1 Bar</p><p><strong>Durchfluss: </strong>11 l/min</p>",
             "text_list_acc_bottom_text": "",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "btn_url": "shopify://products/wasserfilter-kartusche-nano",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/nano-wasserfilter-kartusche"
           }
         }
       },
@@ -378,14 +378,14 @@
       ],
       "settings": {
         "top_bg_color": "#e7edef",
-        "top_bg": "shopify:\/\/shop_images\/Pfeil-Lang-blue_v4.png",
+        "top_bg": "shopify://shop_images/Pfeil-Lang-blue_v4.png",
         "heading": "Kartuschen für Trinkwasser",
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "subtitle": "Bester Geschmack und höchste Sicherheit",
         "subtitle_color": "#003e5f",
-        "text": "<p>Die Alb Trinkwasserfilter-Kartuschen werden überall dort eingesetzt, wo Trinkwasser für den Konsum aufbereitet werden soll. Neben der Filtration von Schadstoffen steht mit der Nano-Kartusche auch eine Bakterienfilter zur Verfügung. Unsere Kartuschen zur Trinkwasseraufbereitung sind sowohl in der heimischen Küche als auch in mobilen Bereichen, wie Campern, Wohnwagen oder Booten, im Einsatz.<\/p>",
+        "text": "<p>Die Alb Trinkwasserfilter-Kartuschen werden überall dort eingesetzt, wo Trinkwasser für den Konsum aufbereitet werden soll. Neben der Filtration von Schadstoffen steht mit der Nano-Kartusche auch eine Bakterienfilter zur Verfügung. Unsere Kartuschen zur Trinkwasseraufbereitung sind sowohl in der heimischen Küche als auch in mobilen Bereichen, wie Campern, Wohnwagen oder Booten, im Einsatz.</p>",
         "text_color": "#616161",
         "bottom_bg_color": "#f3f3f3",
         "btn_text": "",
@@ -413,10 +413,10 @@
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
-            "text": "<p>Alb Trinkwasserfilter-Kartuschen<\/p>",
-            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
-            "image2": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590127.png",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "text": "<p>Alb Trinkwasserfilter-Kartuschen</p>",
+            "image1": "shopify://shop_images/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify://shop_images/active_banderole_300x300-1669281590127.png",
+            "image3": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -426,10 +426,10 @@
         "filter_properties_cPUEFG": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Kartusche<\/strong>",
-            "title1": "<strong>Active<\/strong>",
-            "title2": "<strong>Active+<\/strong>",
-            "title3": "<strong>Nano<\/strong>",
+            "title": "<strong>Kartusche</strong>",
+            "title1": "<strong>Active</strong>",
+            "title2": "<strong>Active+</strong>",
+            "title3": "<strong>Nano</strong>",
             "title4": ""
           }
         },
@@ -437,9 +437,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mineralien bleiben erhalten",
-            "title1": "<strong>Ja<\/strong>",
-            "title2": "<strong>Ja<\/strong>",
-            "title3": "<strong>Ja<\/strong>",
+            "title1": "<strong>Ja</strong>",
+            "title2": "<strong>Ja</strong>",
+            "title3": "<strong>Ja</strong>",
             "title4": ""
           }
         },
@@ -447,9 +447,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack, Trübungen, Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -457,9 +457,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Schwermetalle",
-            "title1": "<strong>+ +<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ +</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -467,9 +467,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Pestizide, Arzneimittelrückstände",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -477,9 +477,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mikroplastik, Asbestfasern, Sedimente",
-            "title1": "<strong>+<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>+</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -487,9 +487,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -497,9 +497,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Keime und Bakterien",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -517,9 +517,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~6 l\/min",
-            "title3": "~11 l\/min",
+            "title1": "~7 l/min",
+            "title2": "~6 l/min",
+            "title3": "~11 l/min",
             "title4": ""
           }
         },
@@ -570,7 +570,7 @@
         "image_34Mk9L": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frau-Dusche-Topbanner-2500x600.webp",
+            "image": "shopify://shop_images/Frau-Dusche-Topbanner-2500x600.webp",
             "image_width": 610,
             "full_width": true,
             "remove_spacing": true,
@@ -601,26 +601,26 @@
             "subtitle": "Duschfilterkartusche",
             "heading": "Balance",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Balance_Angeschnitten_8bit_9d764650-0ba8-449a-8059-4160122d5031.png",
-            "text": "<p>Die Balance Kartusche verbessert die Wasserqualität beim Duschen durch die Reduzierung von Schadstoffen, Schwermetallen und Medikamentenrückständen. Sie entfernt Partikel, neutralisiert Gerüche und Geschmack, und fügt wertvolle Mineralien hinzu.<\/p>",
+            "image": "shopify://shop_images/Balance_Angeschnitten_8bit_9d764650-0ba8-449a-8059-4160122d5031.png",
+            "text": "<p>Die Balance Kartusche verbessert die Wasserqualität beim Duschen durch die Reduzierung von Schadstoffen, Schwermetallen und Medikamentenrückständen. Sie entfernt Partikel, neutralisiert Gerüche und Geschmack, und fügt wertvolle Mineralien hinzu.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "icon1": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Aktivkohlegranulat filtert Geruch (z.B. Chlor), Geschmack und Farbveränderungen im Wasser.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorptive Wirkung von Aktivkohle in Kombination mit KDF bindet Schwermetalle wie etwa Blei und Kupfer im Wasser.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-25-dermapearls-mk_dark-blue_c75f2833-a781-427e-85da-381e163d4084.svg",
-            "icon_text_acc_text3": "<p><strong>Mineralisierung des Wassers durch DERMA-Perlen<\/strong><\/p><p>u.a. Selen, Mangan, Zink, Eisen, Magnesium, Phosphor, Calcium, Kalium und deren Verbindungen.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-26-phfix-mk_dark-blue_e4a9a8a9-8084-4d55-95a5-2dc3947fbc59.svg",
-            "icon_text_acc_text4": "<p><strong>pH-FIX Perlen zur Stabilisierung des Wassers<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "icon_text_acc_icon5": "shopify:\/\/shop_images\/pf-4cce64de--albfiltericonsetparameters19skinmk.svg",
-            "icon_text_acc_text5": "<p><strong>Sediement-Vlies zur Feinfiltration<\/strong><\/p><p>Das Filtervlies sorgt für ein sanftes Duscherlebnis durch Filtration grober Partikel wie Sediment, Sand und Leitungsabrieb.<\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>Aktivkohlegranulat filtert Geruch (z.B. Chlor), Geschmack und Farbveränderungen im Wasser.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorptive Wirkung von Aktivkohle in Kombination mit KDF bindet Schwermetalle wie etwa Blei und Kupfer im Wasser.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/alb-filter-icon-set-parameters-25-dermapearls-mk_dark-blue_c75f2833-a781-427e-85da-381e163d4084.svg",
+            "icon_text_acc_text3": "<p><strong>Mineralisierung des Wassers durch DERMA-Perlen</strong></p><p>u.a. Selen, Mangan, Zink, Eisen, Magnesium, Phosphor, Calcium, Kalium und deren Verbindungen.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/alb-filter-icon-set-parameters-26-phfix-mk_dark-blue_e4a9a8a9-8084-4d55-95a5-2dc3947fbc59.svg",
+            "icon_text_acc_text4": "<p><strong>pH-FIX Perlen zur Stabilisierung des Wassers</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "icon_text_acc_icon5": "shopify://shop_images/pf-4cce64de--albfiltericonsetparameters19skinmk.svg",
+            "icon_text_acc_text5": "<p><strong>Sediement-Vlies zur Feinfiltration</strong></p><p>Das Filtervlies sorgt für ein sanftes Duscherlebnis durch Filtration grober Partikel wie Sediment, Sand und Leitungsabrieb.</p>",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
@@ -628,14 +628,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filtermaterial: <\/strong>Aktivkohle (granuliert), KDF, DERMA Perlen, pH-Fix Perlen<\/p><p><strong>Wechselintervall: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,0 Bar<\/p><p><strong>Durchfluss: <\/strong>15 l\/min<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filtermaterial: </strong>Aktivkohle (granuliert), KDF, DERMA Perlen, pH-Fix Perlen</p><p><strong>Wechselintervall: </strong>6 Monate</p><p><strong>Filterkapazität: </strong>5000 L</p><p><strong>Druckanforderung: </strong>2,0 Bar</p><p><strong>Durchfluss: </strong>15 l/min</p>",
             "text_list_acc_bottom_text": "",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-balance",
+            "btn_url": "shopify://products/wasserfilter-kartusche-balance",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/balance-duschfilter-kartusche"
+            "second_btn_url": "shopify://pages/balance-duschfilter-kartusche"
           }
         },
         "item_bfqa33": {
@@ -644,24 +644,24 @@
             "subtitle": "Duschfilterkartusche",
             "heading": "Shungit",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
-            "text": "<p>Die Shungit Filterkartusche verbessert die Wasserqualität, indem sie Verunreinigungen reduziert und das Wasser klärt. Sie nutzt die natürlichen Eigenschaften von Shungit, um Bakterien und Mikroben zu reduzieren und den Geschmack zu verbessern.<\/p>",
+            "image": "shopify://shop_images/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
+            "text": "<p>Die Shungit Filterkartusche verbessert die Wasserqualität, indem sie Verunreinigungen reduziert und das Wasser klärt. Sie nutzt die natürlichen Eigenschaften von Shungit, um Bakterien und Mikroben zu reduzieren und den Geschmack zu verbessern.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+            "icon1": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text1": "<p><strong>Veringert Fremdgerüche<\/strong><\/p><p>Trübungen und Fremdgerüche können durch Shungitgestein veringert werden. <\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-28-radicals-mk_dark-blue_cad2db5f-3929-4975-8ae6-e6742b1fe330.svg",
-            "icon_text_acc_text2": "<p><strong>Binden von freien Radikalen<\/strong><\/p><p>Aufgrund des Molekülaufbaus soll Shungit in der Lage sein, freie Radikale aufzunehmen und zu binden, die für den Alterungsprozess der Haut mit verantwortlich sind.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/alb-filter-icon-set-parameters-27-adsorptiv-mk_dark-blue_084acffd-2235-486e-a3d2-3fec092fdf76.svg",
-            "icon_text_acc_text3": "<p><strong>Adsorptiv, katalytische und bakterizid<\/strong><\/p><p>Studien von Krutous und Rysev, Khadartsev3 sprechen von Shungit eine hohe adsorptive, katalytische und bakterizide Aktivität zu.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-4cce64de--albfiltericonsetparameters19skinmk.svg",
-            "icon_text_acc_text4": "<p><strong>\"Jungbrunnen\"<\/strong><\/p><p>In der Anti-Aging-Forschung wird Shungit bisweilen als wirksamer „Jungbrunnen“ betitelt. Allerdings sind die hohl-kugeligen Fulleren noch sehr wenig erforscht, sollen aber den Alterungsprozess der Haut positiv beeinflussen.<\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text1": "<p><strong>Veringert Fremdgerüche</strong></p><p>Trübungen und Fremdgerüche können durch Shungitgestein veringert werden. </p>",
+            "icon_text_acc_icon2": "shopify://shop_images/alb-filter-icon-set-parameters-28-radicals-mk_dark-blue_cad2db5f-3929-4975-8ae6-e6742b1fe330.svg",
+            "icon_text_acc_text2": "<p><strong>Binden von freien Radikalen</strong></p><p>Aufgrund des Molekülaufbaus soll Shungit in der Lage sein, freie Radikale aufzunehmen und zu binden, die für den Alterungsprozess der Haut mit verantwortlich sind.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/alb-filter-icon-set-parameters-27-adsorptiv-mk_dark-blue_084acffd-2235-486e-a3d2-3fec092fdf76.svg",
+            "icon_text_acc_text3": "<p><strong>Adsorptiv, katalytische und bakterizid</strong></p><p>Studien von Krutous und Rysev, Khadartsev3 sprechen von Shungit eine hohe adsorptive, katalytische und bakterizide Aktivität zu.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-4cce64de--albfiltericonsetparameters19skinmk.svg",
+            "icon_text_acc_text4": "<p><strong>\"Jungbrunnen\"</strong></p><p>In der Anti-Aging-Forschung wird Shungit bisweilen als wirksamer „Jungbrunnen“ betitelt. Allerdings sind die hohl-kugeligen Fulleren noch sehr wenig erforscht, sollen aber den Alterungsprozess der Haut positiv beeinflussen.</p>",
             "icon_text_acc_text5": "",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
@@ -670,14 +670,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filtermaterial: <\/strong>Shungit Gestein<\/p><p><strong>Wechselintervall: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,0 Bar<\/p><p><strong>Durchfluss: <\/strong>15 l\/min<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filtermaterial: </strong>Shungit Gestein</p><p><strong>Wechselintervall: </strong>6 Monate</p><p><strong>Filterkapazität: </strong>5000 L</p><p><strong>Druckanforderung: </strong>2,0 Bar</p><p><strong>Durchfluss: </strong>15 l/min</p>",
             "text_list_acc_bottom_text": "",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/alb-filterkartusche-shungit",
+            "btn_url": "shopify://products/alb-filterkartusche-shungit",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
+            "second_btn_url": "shopify://pages/shungit-duschfilter-kartusche"
           }
         },
         "item_ETmg9q": {
@@ -686,28 +686,28 @@
             "subtitle": "Bakterienfilter",
             "heading": "Nano",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
-            "text": "<p>Die Nano Kartusche filtert zuverlässig Bakterien und Keime (99,99%) wie E. coli und Legionellen mit einer 0,1 µm Hohlfasermembran. Sie reduziert Trübungen und zeigt bei Erschöpfung verlangsamten Wasserdurchfluss an. Zertifiziert nach ASTM F838-15A.<\/p>",
+            "image": "shopify://shop_images/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
+            "text": "<p>Die Nano Kartusche filtert zuverlässig Bakterien und Keime (99,99%) wie E. coli und Legionellen mit einer 0,1 µm Hohlfasermembran. Sie reduziert Trübungen und zeigt bei Erschöpfung verlangsamten Wasserdurchfluss an. Zertifiziert nach ASTM F838-15A.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "icon_text_acc_text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "icon_text_acc_text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "icon_text_acc_text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "icon_text_acc_icon5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "icon_text_acc_text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "icon_text_acc_text1": "<p><strong>Schutz vor Mikroorganismen</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "icon_text_acc_text2": "<p><strong>Schutz vor Legionellen</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text3": "<p><strong>Reduziert Trübungen</strong></p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "icon_text_acc_text4": "<p><strong>Höchste Sicherheit</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "icon_text_acc_icon5": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "icon_text_acc_text5": "<p><strong>Zertifiziert</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
@@ -715,14 +715,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filtermaterial: <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,1 Bar<\/p><p><strong>Durchfluss: <\/strong>11 l\/min<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filtermaterial: </strong>Hohlfasermembrane</p><p><strong>Wechselintervall: </strong>6 Monate</p><p><strong>Filterkapazität: </strong>5000 L</p><p><strong>Druckanforderung: </strong>2,1 Bar</p><p><strong>Durchfluss: </strong>11 l/min</p>",
             "text_list_acc_bottom_text": "",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "btn_url": "shopify://products/wasserfilter-kartusche-nano",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/nano-wasserfilter-kartusche"
           }
         }
       },
@@ -733,14 +733,14 @@
       ],
       "settings": {
         "top_bg_color": "#ecedf1",
-        "top_bg": "shopify:\/\/shop_images\/Pfeil-Lang-violet_v4.png",
+        "top_bg": "shopify://shop_images/Pfeil-Lang-violet_v4.png",
         "heading": "Kartuschen für die Dusche",
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "subtitle": "Wellness und zertifizierter Schutz vor Legionellen",
         "subtitle_color": "#003e5f",
-        "text": "<p>Wir unterscheiden bei unseren Duschfilter-Kartuschen zwischen Wellness-Filtern und Bakterienfiltration. So reduziert die Balance-Kartusche  diverse Schadstoffe mit Hilfe von Aktivkohle und KDF. Zusätzlich versorgt sie Haut und Haar mit Mineralien und sorgt für eine pH-Stabilisierung. Das Urgestein Shungit reduziert Bakterien und Mikroben und soll den alterungsprozess der Haut positiv beeinflussen. Einen zuverlässigen Schutz bei akutem Legionellenbefall bietet die Nano-Kartusche. <\/p>",
+        "text": "<p>Wir unterscheiden bei unseren Duschfilter-Kartuschen zwischen Wellness-Filtern und Bakterienfiltration. So reduziert die Balance-Kartusche  diverse Schadstoffe mit Hilfe von Aktivkohle und KDF. Zusätzlich versorgt sie Haut und Haar mit Mineralien und sorgt für eine pH-Stabilisierung. Das Urgestein Shungit reduziert Bakterien und Mikroben und soll den alterungsprozess der Haut positiv beeinflussen. Einen zuverlässigen Schutz bei akutem Legionellenbefall bietet die Nano-Kartusche. </p>",
         "text_color": "#616161",
         "bottom_bg_color": "#f3f3f3",
         "btn_text": "",
@@ -768,10 +768,10 @@
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
-            "text": "<p>Alb Duschfilter-Kartuschen<\/p>",
-            "image1": "shopify:\/\/shop_images\/filterkartusche-balance-single-1639472314759.jpg",
-            "image2": "shopify:\/\/shop_images\/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
-            "image3": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
+            "text": "<p>Alb Duschfilter-Kartuschen</p>",
+            "image1": "shopify://shop_images/filterkartusche-balance-single-1639472314759.jpg",
+            "image2": "shopify://shop_images/alb-filter-filterkartusche-shungit-4260590610737-124.jpg",
+            "image3": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -781,10 +781,10 @@
         "filter_properties_rGR948": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Kartusche<\/strong>",
-            "title1": "<strong>Balance<\/strong>",
-            "title2": "<strong>Shungit1<\/strong>",
-            "title3": "<strong>Nano<\/strong>",
+            "title": "<strong>Kartusche</strong>",
+            "title1": "<strong>Balance</strong>",
+            "title2": "<strong>Shungit1</strong>",
+            "title3": "<strong>Nano</strong>",
             "title4": ""
           }
         },
@@ -792,9 +792,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack, Trübungen, Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + <\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + </strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -802,9 +802,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mineralisierung",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -812,9 +812,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "pH- Neutralisierung",
-            "title1": "<strong>+ + <\/strong>",
-            "title2": "<strong>+ <\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + </strong>",
+            "title2": "<strong>+ </strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -822,9 +822,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Bindung von freien Radikalen2",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -832,9 +832,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Adsorptiv und katalythische Filtration",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -842,9 +842,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Bakterizid (z.B. Schimmelbildung)",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+ +<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+ +</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -852,9 +852,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mikroplastik, Sedimente",
-            "title1": "<strong>+<\/strong>",
-            "title2": "<strong>+<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>+</strong>",
+            "title2": "<strong>+</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -862,9 +862,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>+<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>+</strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -872,9 +872,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Keime und Bakterien",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -882,9 +882,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Legionellen",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -902,9 +902,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "15 l\/min",
-            "title2": "15 l\/min",
-            "title3": "11 l\/min",
+            "title1": "15 l/min",
+            "title2": "15 l/min",
+            "title3": "11 l/min",
             "title4": ""
           }
         },
@@ -926,7 +926,7 @@
         "description_CTUXPj": {
           "type": "description",
           "settings": {
-            "description": "<p>1 Leistungsmerkmale laut Studien der Yonsei Univerity, Alexey Rybakov, V.A. Khromushin, Krutous und Rysev, Khadartsev3 <br\/>2  Laut einer Studie der Yonsei University \/ Korea, ist Shungit in der Lage, freie Radikale aufzunehmen und zu binden. Dies trägt zur Verringerung von oxidativem Stress und Entzündungen bei, die durch UVB-Strahlung verursacht werden. Eine verminderung freier Radikale haben einen positiven Effekt auf den Alterungsprozess der Haut.<br\/><\/p>"
+            "description": "<p>1 Leistungsmerkmale laut Studien der Yonsei Univerity, Alexey Rybakov, V.A. Khromushin, Krutous und Rysev, Khadartsev3 <br/>2  Laut einer Studie der Yonsei University / Korea, ist Shungit in der Lage, freie Radikale aufzunehmen und zu binden. Dies trägt zur Verringerung von oxidativem Stress und Entzündungen bei, die durch UVB-Strahlung verursacht werden. Eine verminderung freier Radikale haben einen positiven Effekt auf den Alterungsprozess der Haut.<br/></p>"
           }
         }
       },
@@ -965,7 +965,7 @@
         "image_KpWyTr": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
+            "image": "shopify://shop_images/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
             "image_width": 610,
             "full_width": true,
             "remove_spacing": true,
@@ -996,25 +996,25 @@
             "subtitle": "Trinkwasserkartusche",
             "heading": "Active",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. Sie filtert zuverlässig Schadstoffe und verbessert den Geschmack sowie das Aussehen des Wassers.<\/p>",
+            "image": "shopify://shop_images/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. Sie filtert zuverlässig Schadstoffe und verbessert den Geschmack sowie das Aussehen des Wassers.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche<\/strong><\/p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
-            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle<\/strong><\/p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
-            "icon_text_acc_text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln<\/strong><\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
-            "icon_text_acc_text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden<\/strong><\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text1": "<p><strong>Filtert schlechten Geschmack und Gerüche</strong></p><p>Hochwertige Alb Filter Kokosnuss Blockaktivkohle adsorbiert lästige Gerüche (Chlor, CKW’s, FCKW’s uvm.) und Geschmacksbeeinträchtigungen im Trinkwasser.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-47775e58--albfiltericonsetparameters02metalsmk.svg",
+            "icon_text_acc_text2": "<p><strong>Reduziert Schwermetalle</strong></p><p>Die adsorbierende Wirkung der Aktivkohle bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/pf-bb054777--albfiltericonsetparameters04microplasticsmk.svg",
+            "icon_text_acc_text3": "<p><strong>Filtrierung von Mikroplastik und kleinsten Partikeln</strong></p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-0547775e--albfiltericonsetparameters03drugsmk.svg",
+            "icon_text_acc_text4": "<p><strong>Reduzierung von Arzneimittelrückständen und Pestiziden</strong></p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
             "icon_text_acc_text5": "",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
@@ -1023,14 +1023,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filteraterial <\/strong>Kokosnuss Blockaktivkohle (gesintert)<\/p><p><strong>Wechselintervall<\/strong>1<strong> <\/strong>4 Monate<\/p><p><strong>Filterkapazität<\/strong>2<strong> <\/strong>3000 L<\/p><p><strong>Druckanforderung<\/strong>3<strong> <\/strong>2,8 Bar<\/p><p><strong>Durchfluss<\/strong>4<strong> <\/strong>~7 l\/min5<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<br\/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br\/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br\/>4: Bei ca. 3 Bar Wasserdruck<br\/>5: Filterleistung abhängig von Durchflussgeschwindigkeit<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filteraterial </strong>Kokosnuss Blockaktivkohle (gesintert)</p><p><strong>Wechselintervall</strong>1<strong> </strong>4 Monate</p><p><strong>Filterkapazität</strong>2<strong> </strong>3000 L</p><p><strong>Druckanforderung</strong>3<strong> </strong>2,8 Bar</p><p><strong>Durchfluss</strong>4<strong> </strong>~7 l/min5</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<br/>2: Durchschnittswerte - Die Kapazität der Kartusche ist abhängig von der Qualität des Eingangswassers<br/>3: Empfohlener Wasserdruck. Durchfluss ist abhängig vom angelegten Wasserdruck.<br/>4: Bei ca. 3 Bar Wasserdruck<br/>5: Filterleistung abhängig von Durchflussgeschwindigkeit</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "btn_url": "shopify://products/wasserfilter-kartusche-active",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/active-wasserfilter-kartusche"
           }
         },
         "item_3KqGYN": {
@@ -1039,28 +1039,28 @@
             "subtitle": "Bakterienfilter",
             "heading": "Nano",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
-            "text": "<p>Die Nano Kartusche filtert zuverlässig Bakterien und Keime (99,99%) wie E. coli und Legionellen mit einer 0,1 µm Hohlfasermembran. Sie reduziert Trübungen und zeigt bei Erschöpfung verlangsamten Wasserdurchfluss an. Zertifiziert nach ASTM F838-15A.<\/p>",
+            "image": "shopify://shop_images/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
+            "text": "<p>Die Nano Kartusche filtert zuverlässig Bakterien und Keime (99,99%) wie E. coli und Legionellen mit einer 0,1 µm Hohlfasermembran. Sie reduziert Trübungen und zeigt bei Erschöpfung verlangsamten Wasserdurchfluss an. Zertifiziert nach ASTM F838-15A.</p>",
             "icon_title": "Anwendungsbereich:",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
             "bottom_text": "",
             "enable_icon_text_acc": true,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": true,
             "icon_text_acc_image_width": 50,
-            "icon_text_acc_icon1": "shopify:\/\/shop_images\/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
-            "icon_text_acc_text1": "<p><strong>Schutz vor Mikroorganismen<\/strong><\/p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.<\/p>",
-            "icon_text_acc_icon2": "shopify:\/\/shop_images\/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
-            "icon_text_acc_text2": "<p><strong>Schutz vor Legionellen<\/strong><\/p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.<\/p>",
-            "icon_text_acc_icon3": "shopify:\/\/shop_images\/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
-            "icon_text_acc_text3": "<p><strong>Reduziert Trübungen<\/strong><\/p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.<\/p>",
-            "icon_text_acc_icon4": "shopify:\/\/shop_images\/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
-            "icon_text_acc_text4": "<p><strong>Höchste Sicherheit<\/strong><\/p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.<\/p>",
-            "icon_text_acc_icon5": "shopify:\/\/shop_images\/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
-            "icon_text_acc_text5": "<p><strong>Zertifiziert<\/strong><\/p><p>Höchste zertifizierte Sicherheit nach<br\/><strong>ASTM F838-15A<\/strong><\/p>",
+            "icon_text_acc_icon1": "shopify://shop_images/pf-28bb0547--albfiltericonsetparameters05bacteriamk.svg",
+            "icon_text_acc_text1": "<p><strong>Schutz vor Mikroorganismen</strong></p><p>Der Schwerpunkt von Nano liegt bei der Filtrierung von Keimen und Bakterien in hohen Konzentrationen z.B. E-Coli, Vibrio Cholarae, Shigellen, Salmonellen.</p>",
+            "icon_text_acc_icon2": "shopify://shop_images/pf-4828bb05--albfiltericonsetparameters06legionellamk.svg",
+            "icon_text_acc_text2": "<p><strong>Schutz vor Legionellen</strong></p><p>Ob präventiv oder bei positivem Legionellen-Befund: Der Wasserfilter Nano schützt zuverlässig vor Legionellen und anderen Mikroorganismen.</p>",
+            "icon_text_acc_icon3": "shopify://shop_images/pf-775e5840--albfiltericonsetparameters01tastemk.svg",
+            "icon_text_acc_text3": "<p><strong>Reduziert Trübungen</strong></p><p>Verminderung von Wasserschleier und Phytoplankton durch Zurückhaltung in der Membran.</p>",
+            "icon_text_acc_icon4": "shopify://shop_images/pf-a7419b5f--albfiltericonsetparameters10securitymk.svg",
+            "icon_text_acc_text4": "<p><strong>Höchste Sicherheit</strong></p><p>Durch mechanische Filtration erfolgt sichtbare Minderung des Wasserdurchflusses bei Erschöpfung der Nano Kartusche.</p>",
+            "icon_text_acc_icon5": "shopify://shop_images/albfiltericonsetparameters29zertifiziertmk-1639650818806.svg",
+            "icon_text_acc_text5": "<p><strong>Zertifiziert</strong></p><p>Höchste zertifizierte Sicherheit nach<br/><strong>ASTM F838-15A</strong></p>",
             "icon_text_acc_text6": "",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
@@ -1068,14 +1068,14 @@
             "icon_text_acc_text10": "",
             "enable_text_list_acc": true,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p><strong>Filtermaterial: <\/strong>Hohlfasermembrane<\/p><p><strong>Wechselintervall: <\/strong>6 Monate<\/p><p><strong>Filterkapazität: <\/strong>5000 L<\/p><p><strong>Druckanforderung: <\/strong>2,1 Bar<\/p><p><strong>Durchfluss: <\/strong>~11 l\/min<\/p>",
+            "text_list_acc_top_text": "<p><strong>Filtermaterial: </strong>Hohlfasermembrane</p><p><strong>Wechselintervall: </strong>6 Monate</p><p><strong>Filterkapazität: </strong>5000 L</p><p><strong>Druckanforderung: </strong>2,1 Bar</p><p><strong>Durchfluss: </strong>~11 l/min</p>",
             "text_list_acc_bottom_text": "",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "btn_url": "shopify://products/wasserfilter-kartusche-nano",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/nano-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/nano-wasserfilter-kartusche"
           }
         }
       },
@@ -1085,14 +1085,14 @@
       ],
       "settings": {
         "top_bg_color": "#ebf1ed",
-        "top_bg": "shopify:\/\/shop_images\/Pfeil-Lang-green_v4_552b6c6f-9787-40a8-8e19-36506b7bb9dc.png",
+        "top_bg": "shopify://shop_images/Pfeil-Lang-green_v4_552b6c6f-9787-40a8-8e19-36506b7bb9dc.png",
         "heading": "Kartuschen für den mobilen Einsatz",
         "heading_tag": "h2",
         "heading_size": "h1",
         "heading_color": "#003e5f",
         "subtitle": "Frisches Trinkwasser immer und überall",
         "subtitle_color": "#003e5f",
-        "text": "<p>Der Schadstofffilter Active und der Bakterienfilter Nano sind ein eingespieltes Team und vielfach bewährte Begleiter auf unzähligen Reisen. In unserem Fusion System werden beide Kartuschen kombiniert und ergänzen ihren Filtereigenschaften für den bestmöglichen Schutz unterwegs. Aber auch einzeln liefern unsere Kartuschen hervorragende Filterergebnisse. Ob bei einer Betankung von außen oder fest verbaut im Fahrzeug, mit unseren Kartuschen findet sich für jedes Einsatzgebiet die richtige Lösung.<\/p>",
+        "text": "<p>Der Schadstofffilter Active und der Bakterienfilter Nano sind ein eingespieltes Team und vielfach bewährte Begleiter auf unzähligen Reisen. In unserem Fusion System werden beide Kartuschen kombiniert und ergänzen ihren Filtereigenschaften für den bestmöglichen Schutz unterwegs. Aber auch einzeln liefern unsere Kartuschen hervorragende Filterergebnisse. Ob bei einer Betankung von außen oder fest verbaut im Fahrzeug, mit unseren Kartuschen findet sich für jedes Einsatzgebiet die richtige Lösung.</p>",
         "text_color": "#616161",
         "bottom_bg_color": "#f3f3f3",
         "btn_text": "",
@@ -1120,10 +1120,10 @@
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_color": "#003e5f",
-            "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz<\/p>",
-            "image1": "shopify:\/\/shop_images\/active_banderole_300x300-1669281590120.png",
-            "image2": "shopify:\/\/shop_images\/nano_neu_banderole_300x300-1669281590135.png",
-            "image3": "shopify:\/\/shop_images\/filterkartusche-fusion-zweier-1639472314766.jpg",
+            "text": "<p>Alb Wasserfilter-Kartuschen für den mobilen Einsatz</p>",
+            "image1": "shopify://shop_images/active_banderole_300x300-1669281590120.png",
+            "image2": "shopify://shop_images/nano_neu_banderole_300x300-1669281590135.png",
+            "image3": "shopify://shop_images/filterkartusche-fusion-zweier-1639472314766.jpg",
             "subtitle1": "",
             "subtitle_range1": 2,
             "subtitle2": "",
@@ -1133,10 +1133,10 @@
         "filter_properties_8rMHjM": {
           "type": "filter_properties",
           "settings": {
-            "title": "<strong>Kartusche<\/strong>",
-            "title1": "<strong>Active<\/strong>",
-            "title2": "<strong>Nano<\/strong>",
-            "title3": "<strong>Fusion1<\/strong>",
+            "title": "<strong>Kartusche</strong>",
+            "title1": "<strong>Active</strong>",
+            "title2": "<strong>Nano</strong>",
+            "title3": "<strong>Fusion1</strong>",
             "title4": ""
           }
         },
@@ -1144,9 +1144,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mineralien bleiben erhalten",
-            "title1": "<strong>Ja<\/strong>",
-            "title2": "<strong>Ja<\/strong>",
-            "title3": "<strong>Ja<\/strong>",
+            "title1": "<strong>Ja</strong>",
+            "title2": "<strong>Ja</strong>",
+            "title3": "<strong>Ja</strong>",
             "title4": ""
           }
         },
@@ -1154,9 +1154,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Geruch, Geschmack, Trübungen, Chlor",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -1164,9 +1164,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Schwermetalle",
-            "title1": "<strong>+ + <\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>+ +<\/strong>",
+            "title1": "<strong>+ + </strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>+ +</strong>",
             "title4": ""
           }
         },
@@ -1174,9 +1174,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Pestizide, Arzneimittelrückstände",
-            "title1": "<strong>+ + +<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>+ + +</strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -1184,9 +1184,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Mikroplastik, Asbestfasern, Sedimente",
-            "title1": "<strong>+<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>+</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -1194,9 +1194,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Kalkreduktion",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>-<\/strong>",
-            "title3": "<strong>-<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>-</strong>",
+            "title3": "<strong>-</strong>",
             "title4": ""
           }
         },
@@ -1204,9 +1204,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Keime und Bakterien",
-            "title1": "<strong>-<\/strong>",
-            "title2": "<strong>+ + +<\/strong>",
-            "title3": "<strong>+ + +<\/strong>",
+            "title1": "<strong>-</strong>",
+            "title2": "<strong>+ + +</strong>",
+            "title3": "<strong>+ + +</strong>",
             "title4": ""
           }
         },
@@ -1216,7 +1216,7 @@
             "title": "Wechselintervall",
             "title1": "4 Monate",
             "title2": "6 Monate",
-            "title3": "4\/6 Mon.",
+            "title3": "4/6 Mon.",
             "title4": ""
           }
         },
@@ -1224,9 +1224,9 @@
           "type": "filter_properties",
           "settings": {
             "title": "Durchfluss (Bei ca. 3 bar Wasserdruck)",
-            "title1": "~7 l\/min",
-            "title2": "~11 l\/min",
-            "title3": "~6 l\/min",
+            "title1": "~7 l/min",
+            "title2": "~11 l/min",
+            "title3": "~6 l/min",
             "title4": ""
           }
         },
@@ -1239,7 +1239,7 @@
             "text1": "",
             "product2": "wasserfilter-kartusche-nano",
             "text2": "",
-            "product3": "wasserfilter-kartuschen-set-fusion",
+            "product3": "wasserfilter-kartuschen-set-active-nano",
             "text3": "",
             "product4": "",
             "text4": ""
@@ -1248,7 +1248,7 @@
         "description_dMhF6R": {
           "type": "description",
           "settings": {
-            "description": "<p>1 Active- und Nano-Kartusche sind bei der Fusion Variante hintereinander in einem Doppelgehäuse positioniert um die Filterleistungen beider Kartiuschen zu kombinieren.<\/p>"
+            "description": "<p>1 Active- und Nano-Kartusche sind bei der Fusion Variante hintereinander in einem Doppelgehäuse positioniert um die Filterleistungen beider Kartiuschen zu kombinieren.</p>"
           }
         }
       },
@@ -1284,7 +1284,7 @@
         "heading_piqaNn": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Unsere Kartuschen gibt es auch imSpar-Abo<\/p>",
+            "heading": "<p>Unsere Kartuschen gibt es auch imSpar-Abo</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -1295,7 +1295,7 @@
         "text_tKkyQh": {
           "type": "text",
           "settings": {
-            "text": "<p>Jeder Wasserfilter braucht in bestimmten Zeitabständen neue Kartuschen. Für die Aufnahmekappen der Active und Active Plus Kartuschen wird ein Biokunststoff (und kein Erdöl!) verwendet.<\/p>",
+            "text": "<p>Jeder Wasserfilter braucht in bestimmten Zeitabständen neue Kartuschen. Für die Aufnahmekappen der Active und Active Plus Kartuschen wird ein Biokunststoff (und kein Erdöl!) verwendet.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -1324,7 +1324,7 @@
         "text_ftdFEc": {
           "type": "text",
           "settings": {
-            "text": "<ol><li>Gehe auf www.alb-filter.com unter Shop – <a href=\"https:\/\/alb-filter.com\/collections\/wasserfilter-kartuschen\" target=\"_self\">Ersatzkartuschen<\/a><\/li><li>Wähle die gewünschte Filterkartusche und klicke bei Kaufoptionen auf Spar-Abo.<\/li><li>Lege das Spar-Abo in den Warenkorb und schließe die ­Bestellung ab.<\/li><\/ol>",
+            "text": "<ol><li>Gehe auf www.alb-filter.com unter Shop – <a href=\"https://alb-filter.com/collections/wasserfilter-kartuschen\" target=\"_self\">Ersatzkartuschen</a></li><li>Wähle die gewünschte Filterkartusche und klicke bei Kaufoptionen auf Spar-Abo.</li><li>Lege das Spar-Abo in den Warenkorb und schließe die ­Bestellung ab.</li></ol>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -1339,7 +1339,7 @@
         "text_ftdFEc"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Kartuschenabo_Schmetterling_Kartusche_Kreis_02.webp",
+        "image": "shopify://shop_images/Kartuschenabo_Schmetterling_Kartusche_Kreis_02.webp",
         "enable_image_ratio": true,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -1359,7 +1359,7 @@
       "type": "custom-liquid",
       "settings": {
         "page_width": true,
-        "custom_liquid": "<div \n      id=\"stamped-main-widget\"   \n      data-product-id=\"{{ product.id }}\"   \n      data-name=\"{{ product.title | escape }}\"   \n      data-url=\"{{ shop.url }}{{ product.url }}\"   \n      data-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \n      data-description=\"{{ product.description | escape }}\"   \n      data-product-sku=\"{{product.handle}}\"\n      data-product-type=\"{{product.type}}\">   \n      {{product.metafields.stamped.reviews}}   \n      <\/div>",
+        "custom_liquid": "<div \n      id=\"stamped-main-widget\"   \n      data-product-id=\"{{ product.id }}\"   \n      data-name=\"{{ product.title | escape }}\"   \n      data-url=\"{{ shop.url }}{{ product.url }}\"   \n      data-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \n      data-description=\"{{ product.description | escape }}\"   \n      data-product-sku=\"{{product.handle}}\"\n      data-product-type=\"{{product.type}}\">   \n      {{product.metafields.stamped.reviews}}   \n      </div>",
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -1371,7 +1371,7 @@
         "heading_XVRLky": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Filterwechsel<\/p>",
+            "heading": "<p>Filterwechsel</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "second_font": false,
@@ -1382,7 +1382,7 @@
         "text_KiR3e6": {
           "type": "text",
           "settings": {
-            "text": "<p>Mehr Information zum Thema Filterwechsel finden Sie auf unserer Website unter der Rubrik Installationsanleitungen<\/p>",
+            "text": "<p>Mehr Information zum Thema Filterwechsel finden Sie auf unserer Website unter der Rubrik Installationsanleitungen</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -1396,7 +1396,7 @@
             "btn_color": "#fff",
             "btn_bg": "#0081be",
             "button_label2": "Videoanleitungen",
-            "button_link2": "shopify:\/\/blogs\/ratgeber\/installation",
+            "button_link2": "shopify://blogs/ratgeber/installation",
             "second_btn_color": "#0081be"
           }
         }
@@ -1407,7 +1407,7 @@
         "button_my8zML"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/filterwechsel-vector-element-active-1669384591035.png",
+        "image": "shopify://shop_images/filterwechsel-vector-element-active-1669384591035.png",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
         "image_contain": false,
@@ -1425,8 +1425,7 @@
     },
     "pf-f13e5838": {
       "type": "pf-f13e5838",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

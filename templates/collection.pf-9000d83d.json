@@ -11,8 +11,7 @@
   "sections": {
     "breadcrump_Ktxj9R": {
       "type": "breadcrump",
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_zRfwMF": {
       "type": "rich-text",
@@ -144,7 +143,7 @@
         "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
-          "wasserfilter-kartuschen-set-fusion",
+          "wasserfilter-kartuschen-set-active-nano",
           "wasserfilter-kartusche-active",
           "wasserfilter-kartusche-nano"
         ],
@@ -225,8 +224,7 @@
     },
     "pf-9000d83d": {
       "type": "pf-9000d83d",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

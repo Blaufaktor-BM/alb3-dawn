@@ -82,8 +82,8 @@
         "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
-          "pro-camper-set",
-          "wasserfilter-kartuschen-set-fusion",
+          "pro-camper",
+          "wasserfilter-kartuschen-set-active-nano",
           "alb-filter-protect-wechselpads-3er-pack"
         ],
         "content_color": "#616161",
@@ -146,7 +146,7 @@
         "product_list": [
           "wasserfilter-kartusche-active",
           "wasserfilter-kartusche-nano",
-          "wasserfilter-kartuschen-set-fusion",
+          "wasserfilter-kartuschen-set-active-nano",
           "alb-filter-protect-wechselpads-3er-pack"
         ],
         "content_color": "#616161",
