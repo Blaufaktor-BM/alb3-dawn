@@ -299,7 +299,7 @@
             "subtitle": "",
             "text": "<p>Die rundum sorglos Variante.<br/><br/>Die Fusion Variante besteht aus zwei in Reihe geschalteten Filtereinheiten. Diese beinhalten in der ersten Stufe die ACTIVE und in der zweiten Stufe die NANO Kartusche und kombiniert so die positiven Eigenschaften beider Kartusche für höchste Sicherheit und Trinkgenuss.</p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify://products/camping-wasserfilter-fusion-travel"
+            "link": "shopify://products/alb-trinkwasserfilter-fusion-travel"
           }
         }
       },
@@ -672,7 +672,7 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify://products/camping-wasserfilter-fusion-travel",
+            "button_link1": "shopify://products/alb-trinkwasserfilter-fusion-travel",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
@@ -842,7 +842,7 @@
             "product2": "camping-wasserfilter-nano-travel",
             "text2": "<strong>Travel Nano</strong>",
             "image2": "shopify://shop_images/TRAVEL_Nano.jpg",
-            "product3": "camping-wasserfilter-fusion-travel",
+            "product3": "alb-trinkwasserfilter-fusion-travel",
             "text3": "<strong>Travel Fusion</strong>",
             "image3": "shopify://shop_images/TRAVEL_Fusion_Active_Nano_Silber.jpg",
             "product4": "",
@@ -1449,8 +1449,7 @@
     },
     "pf-b2d4de7a": {
       "type": "pf-b2d4de7a",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

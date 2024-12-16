@@ -115,7 +115,7 @@
         "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
-          "camping-wasserfilter-fusion-travel",
+          "alb-trinkwasserfilter-fusion-travel",
           "camping-wasserfilter-active-travel",
           "camping-wasserfilter-nano-travel",
           "alb-campingfilter-anschluss-set-travel"
@@ -146,7 +146,7 @@
         "second_font": false,
         "border_color": "#cccccc",
         "product_list": [
-          "pro-camper-set"
+          "pro-camper"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
