@@ -11,8 +11,7 @@
   "sections": {
     "breadcrump_Ktxj9R": {
       "type": "breadcrump",
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_zRfwMF": {
       "type": "rich-text",
@@ -53,9 +52,7 @@
     },
     "image_banner_WTFwpR": {
       "type": "image-banner",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Topbanner-Kuche-Untertisch-Element_WEB_Shop_Untertisch_2200x734_d70df368-5a21-4ce8-956b-4a009736a274.jpg",
         "image_overlay_opacity": 0,
@@ -87,7 +84,7 @@
         "product_list": [
           "trinkwasserfilter-element-active",
           "trinkwasserfilter-element-active-plus",
-          "trinkwasserfilter-element-nano"
+          "alb-trinkwasserfilter-nano"
         ],
         "content_color": "#616161",
         "columns_desktop": 4,
@@ -267,8 +264,7 @@
     },
     "pf-ab1b542d": {
       "type": "pf-ab1b542d",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
