@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_KD9aNM": {
@@ -15,8 +15,8 @@
         "slide_E8x4kk": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_01.webp",
-            "m_image": "shopify:\/\/shop_images\/lunisworld-situation-1-2-pano_web_mobil.webp",
+            "image": "shopify://shop_images/lunisworld-situation-1-2-pano_web_01.webp",
+            "m_image": "shopify://shop_images/lunisworld-situation-1-2-pano_web_mobil.webp",
             "heading": "Egal wo du bist.",
             "heading_tag": "p",
             "heading_size": "h1",
@@ -25,7 +25,7 @@
             "subheading": "Deinen Alb Wasserfilter für den mobilen Einsatz hast du immer dabei.",
             "subheading_second_font": false,
             "button_label": "Alb Campingfilter ",
-            "link": "shopify:\/\/collections\/camping-wasserfilter",
+            "link": "shopify://collections/camping-wasserfilter",
             "button_style_secondary": false,
             "show_shipping_icon": true,
             "box_align": "middle-right",
@@ -40,8 +40,8 @@
         "slide_GHEarR": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
-            "m_image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+            "image": "shopify://shop_images/landing-duo-kuche-weiss-pano_web_frau_fe7c10e4-8231-44be-8b11-d73548702247.webp",
+            "m_image": "shopify://shop_images/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
             "heading": "Schmeckst du den Unterschied?",
             "heading_tag": "h2",
             "heading_size": "h1",
@@ -50,7 +50,7 @@
             "subheading": "Entdecke die Trinkwasserfilter von Alb für Wasserhahn und unter der Spüle.",
             "subheading_second_font": false,
             "button_label": "Alb Trinkwasserfilter ",
-            "link": "shopify:\/\/collections\/trinkwasserfilter",
+            "link": "shopify://collections/trinkwasserfilter",
             "button_style_secondary": false,
             "show_shipping_icon": true,
             "box_align": "middle-right",
@@ -85,7 +85,7 @@
         "item_CX4DJF": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruckgabe-weiss.svg",
+            "image": "shopify://shop_images/Ruckgabe-weiss.svg",
             "text": "30 TAGE RÜCKGABERECHT",
             "url": "",
             "traget_blank": false
@@ -94,7 +94,7 @@
         "item_nHPYxb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL-weiss.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL-weiss.svg",
             "text": "KOSTENLOSER VERSAND (D)",
             "url": "",
             "traget_blank": false
@@ -103,9 +103,9 @@
         "item_VwYHQX": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten-weiss.svg",
+            "image": "shopify://shop_images/Zahlungsarten-weiss.svg",
             "text": "EINFACHE ZAHLUNG",
-            "url": "shopify:\/\/policies\/refund-policy",
+            "url": "shopify://policies/refund-policy",
             "traget_blank": true
           }
         }
@@ -127,42 +127,42 @@
         "image_YzPtTR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-4ab219de--innovationsgutscheinbw.png",
+            "image": "shopify://shop_images/pf-4ab219de--innovationsgutscheinbw.png",
             "url": ""
           }
         },
         "image_hG9hVa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-a455d334--sueddeutschezeitung.png",
+            "image": "shopify://shop_images/pf-a455d334--sueddeutschezeitung.png",
             "url": ""
           }
         },
         "image_8d4H6j": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-19de40a4--landespreis.png",
+            "image": "shopify://shop_images/pf-19de40a4--landespreis.png",
             "url": ""
           }
         },
         "image_WiPi6k": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/frauenhofer-iap-logo_fb52964f-d7dd-4797-a8eb-5fc079295eb8.png",
+            "image": "shopify://shop_images/frauenhofer-iap-logo_fb52964f-d7dd-4797-a8eb-5fc079295eb8.png",
             "url": ""
           }
         },
         "image_DE9b8J": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-c54ab219--campingcarsundcaravans.png",
+            "image": "shopify://shop_images/pf-c54ab219--campingcarsundcaravans.png",
             "url": ""
           }
         },
         "image_gb7JqR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-40a455d3--smarticular.png",
+            "image": "shopify://shop_images/pf-40a455d3--smarticular.png",
             "url": ""
           }
         }
@@ -185,33 +185,33 @@
         "item_LdKhVK": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "text": "<strong>Trinkwasserfilter<\/strong>",
-            "url": "shopify:\/\/pages\/trinkwasserfilter"
+            "image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "text": "<strong>Trinkwasserfilter</strong>",
+            "url": "shopify://pages/trinkwasserfilter"
           }
         },
         "item_MRAFUm": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "text": "<strong>Duschfilter<\/strong>",
-            "url": "shopify:\/\/pages\/duschfilter"
+            "image": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "text": "<strong>Duschfilter</strong>",
+            "url": "shopify://pages/duschfilter1"
           }
         },
         "item_XUCPjY": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
-            "text": "<strong>Campingfilter<\/strong>",
-            "url": "shopify:\/\/pages\/camping-wasserfilter"
+            "image": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
+            "text": "<strong>Campingfilter</strong>",
+            "url": "shopify://pages/camping-wasserfilter"
           }
         },
         "item_ExqTFb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151.svg",
-            "text": "<strong>Kartuschen<\/strong>",
-            "url": "shopify:\/\/pages\/wasserfilter-kartuschen"
+            "image": "shopify://shop_images/albfiltericonsetparameters36kartuschen-1669365538151.svg",
+            "text": "<strong>Kartuschen</strong>",
+            "url": "shopify://pages/wasserfilter-kartuschen"
           }
         }
       },
@@ -223,24 +223,24 @@
       ],
       "settings": {
         "section_color_scheme": "scheme-95852958-408e-4deb-a890-21f028d91466",
-        "image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Desktop_01.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Edelstahlfilter-Combo-Mobil_04.jpg",
-        "title": "<p>ALB <br\/>WASSERFILTER<\/p>",
+        "image": "shopify://shop_images/Edelstahlfilter-Combo-Desktop_01.jpg",
+        "mobile_image": "shopify://shop_images/Edelstahlfilter-Combo-Mobil_04.jpg",
+        "title": "<p>ALB <br/>WASSERFILTER</p>",
         "heading_tag": "h2",
         "title_size": "h0",
         "heading_weight": "200",
         "title_color": "#003e5f",
         "title_second_font": false,
-        "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany<\/p>",
+        "sub_title": "<p>Für Trinkwasser, Camping und Dusche – Made in Germany</p>",
         "subtitle_tag": "h2",
         "subtitle_size": "h1",
         "subtitle_weight": "700",
         "subtitle_second_font": false,
         "subtitle_color": "#003e5f",
-        "text": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.<\/p>",
+        "text": "<p>Unsere modularen Wasserfilter-Systeme reduzieren diverse Schadstoffe, filtern schlechten Geschmack und Gerüche und halten zuverlässig schädliche Keime und Bakterien aus dem Leitungswasser zurück.</p>",
         "text_second_font": true,
         "btn_text": "Zum Shop",
-        "btn_url": "\/products",
+        "btn_url": "/products",
         "btn_icon": "cart",
         "info_text": "Unsere Produktkategorien:",
         "info_text_second_font": true,
@@ -256,7 +256,7 @@
         "heading_zKRVgm": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Wasserfilter<\/p>",
+            "heading": "<p>Alb Wasserfilter</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -276,7 +276,7 @@
         "text_GazTYU": {
           "type": "text",
           "settings": {
-            "text": "<p>Leitungswasser in Deutschland wird streng kontrolliert. Jedoch zeigt die Realität mitunter gravierende Mängel.<br\/><br\/>Mit einem Trinkwasserfilter für die Küche reduzierst Du nicht nur schlechten Geschmack und Gerüche sondern schützt Dich auch vor Stoffen, die nicht von der Trinkwasserverordnung abgedeckt sind. Dies sind unter anderem Arzneimittel-, Pestizid- und Mikroplastikrückstände.<\/p>",
+            "text": "<p>Leitungswasser in Deutschland wird streng kontrolliert. Jedoch zeigt die Realität mitunter gravierende Mängel.<br/><br/>Mit einem Trinkwasserfilter für die Küche reduzierst Du nicht nur schlechten Geschmack und Gerüche sondern schützt Dich auch vor Stoffen, die nicht von der Trinkwasserverordnung abgedeckt sind. Dies sind unter anderem Arzneimittel-, Pestizid- und Mikroplastikrückstände.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -286,12 +286,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/trinkwasserfilter",
+            "button_link1": "shopify://collections/trinkwasserfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/trinkwasserfilter",
+            "button_link2": "shopify://pages/trinkwasserfilter",
             "second_btn_color": "#0081be"
           }
         }
@@ -303,10 +303,10 @@
         "button_WK4mtf"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
+        "image": "shopify://shop_images/Helle-Kuche_615345830_DUO_web_Mobil-Hand_v.01.webp",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
-        "content_image": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
+        "content_image": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
         "image_contain": false,
         "image_width": "medium",
         "row_reverse": false,
@@ -326,7 +326,7 @@
         "heading_6CBfjR": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Duschfilter<\/p>",
+            "heading": "<p>Alb Duschfilter</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -346,7 +346,7 @@
         "text_MziWia": {
           "type": "text",
           "settings": {
-            "text": "<p>Neben der Reduzierung von Schadstoffen sowie Geruch, Geschmack und Trübungen bescheinigen uns viele Kunden dank der eingearbeiteten Mineralisierungsstufe ein angenehmes und weiches Hautgefühl nach dem Duschen. Unsere Nano Filterkartusche schützt außerdem bei einem Duschverbot vor gefährlichen Legionellen. <\/p>",
+            "text": "<p>Neben der Reduzierung von Schadstoffen sowie Geruch, Geschmack und Trübungen bescheinigen uns viele Kunden dank der eingearbeiteten Mineralisierungsstufe ein angenehmes und weiches Hautgefühl nach dem Duschen. Unsere Nano Filterkartusche schützt außerdem bei einem Duschverbot vor gefährlichen Legionellen. </p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -356,12 +356,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/duschfilter",
+            "button_link1": "shopify://collections/duschfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/duschfilter",
+            "button_link2": "shopify://pages/duschfilter1",
             "second_btn_color": "#0081be"
           }
         }
@@ -373,10 +373,10 @@
         "button_aWHU8f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
+        "image": "shopify://shop_images/pf-38e9dd18--wasserfilterfrauduschen1x1.jpg",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
-        "content_image": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
+        "content_image": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
         "image_contain": false,
         "image_width": "medium",
         "row_reverse": true,
@@ -396,7 +396,7 @@
         "heading_Wx94Xh": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Campingfilter<\/p>",
+            "heading": "<p>Alb Campingfilter</p>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -416,7 +416,7 @@
         "text_ge7NEi": {
           "type": "text",
           "settings": {
-            "text": "<p>Im mobilen Umfeld ist die Versorgung mit Frischwasser eine der essenziellen Aufgaben. Beim Tanken an Wasser-Zapfstellen auf Campingplätzen, Häfen oder gar in der freien Natur können Sie die Wasserqualität oftmals nicht einschätzen. Mit den Alb Filter® MOBIL und TRAVEL Sets filtern Sie Ihr Wasser ganz einfach Unterwegs.<\/p>",
+            "text": "<p>Im mobilen Umfeld ist die Versorgung mit Frischwasser eine der essenziellen Aufgaben. Beim Tanken an Wasser-Zapfstellen auf Campingplätzen, Häfen oder gar in der freien Natur können Sie die Wasserqualität oftmals nicht einschätzen. Mit den Alb Filter® MOBIL und TRAVEL Sets filtern Sie Ihr Wasser ganz einfach Unterwegs.</p>",
             "text_style": "body",
             "text_color": "#616161",
             "second_font": true
@@ -426,12 +426,12 @@
           "type": "button",
           "settings": {
             "button_label1": "Kaufen",
-            "button_link1": "shopify:\/\/collections\/camping-wasserfilter",
+            "button_link1": "shopify://collections/camping-wasserfilter",
             "btn_color": "#ffffff",
             "btn_bg": "#0081be",
             "btn_icon": "cart",
             "button_label2": "Mehr erfahren",
-            "button_link2": "shopify:\/\/pages\/camping-wasserfilter",
+            "button_link2": "shopify://pages/camping-wasserfilter",
             "second_btn_color": "#0081be"
           }
         }
@@ -443,10 +443,10 @@
         "button_HTDhpE"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
+        "image": "shopify://shop_images/Camper-Top-Strasse-Wald-Topbanner-Landing-2500x600.webp",
         "enable_image_ratio": false,
         "image_ratio": "1_1",
-        "content_image": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
+        "content_image": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
         "image_contain": false,
         "image_width": "medium",
         "row_reverse": false,
@@ -469,37 +469,37 @@
             "subtitle": "Trinkwasserkartusche",
             "heading": "Active",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
-            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. <\/p>",
+            "image": "shopify://shop_images/Active_Angeschnitten_8bit_6c86865a-09e0-42d1-927f-c84c13590b81.png",
+            "text": "<p>Die Trinkwasserkartusche Active findet sowohl in der heimischen Küche als auch unterwegs in Wohnmobilen und Wohnwagen Anwendung. </p>",
             "icon_title": "Anwendungsbereich",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Reduziert Schadstoffe<\/li><li>Filtert Mikroplastik<\/li><li>Reduziert Schwermetalle<\/li><li>Filtert Chlorgeschmack<\/li><li>Für Camping geeignet<\/li><\/ul>",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss</li><li>Reduziert Schadstoffe</li><li>Filtert Mikroplastik</li><li>Reduziert Schwermetalle</li><li>Filtert Chlorgeschmack</li><li>Für Camping geeignet</li></ul>",
             "enable_icon_text_acc": false,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": false,
             "icon_text_acc_image_width": 75,
-            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche<\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "icon_text_acc_text2": "<p>Reduziert Schwermetalle<\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln<\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden<\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime<\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "icon_text_acc_text6": "<p>Kalkreduktion \/ Wasserenthärtung<\/p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche</p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "icon_text_acc_text2": "<p>Reduziert Schwermetalle</p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln</p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden</p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime</p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "icon_text_acc_text6": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
             "icon_text_acc_text9": "",
             "icon_text_acc_text10": "",
             "enable_text_list_acc": false,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<\/p>",
+            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active",
+            "btn_url": "shopify://products/wasserfilter-kartusche-active",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/active-wasserfilter-kartusche"
           }
         },
         "item_VfJw9p": {
@@ -508,36 +508,36 @@
             "subtitle": "Trinkwasserkartusche",
             "heading": "Active Plus+",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Active__Angeschnitten_8bit_eef2b348-01aa-45dd-8b58-9b8251d16b4b.png",
-            "text": "<p>Die Trinkwasserkartusche Active Plus+ für Untertisch und Wasserhahn filtert neben Schadstoffen und Geschmack auch Bakterien und Keime bis 0,7 µm. <\/p>",
+            "image": "shopify://shop_images/Active__Angeschnitten_8bit_eef2b348-01aa-45dd-8b58-9b8251d16b4b.png",
+            "text": "<p>Die Trinkwasserkartusche Active Plus+ für Untertisch und Wasserhahn filtert neben Schadstoffen und Geschmack auch Bakterien und Keime bis 0,7 µm. </p>",
             "icon_title": "Anwendungsbereich",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "bottom_text": "<ul><li>Frischer Trinkgenuss<\/li><li>Alle Active Filtereigenschaften<\/li><li>Filtert Keime und Bakterien bis 0.7µm.<\/li><li>Doppelte Wasserenthärtung<\/li><\/ul>",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "bottom_text": "<ul><li>Frischer Trinkgenuss</li><li>Alle Active Filtereigenschaften</li><li>Filtert Keime und Bakterien bis 0.7µm.</li><li>Doppelte Wasserenthärtung</li></ul>",
             "enable_icon_text_acc": false,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": false,
             "icon_text_acc_image_width": 75,
-            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche<\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "icon_text_acc_text2": "<p>Reduziert Schwermetalle<\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln<\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden<\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime<\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "icon_text_acc_text6": "<p>Kalkreduktion \/ Wasserenthärtung<\/p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche</p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "icon_text_acc_text2": "<p>Reduziert Schwermetalle</p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln</p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden</p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime</p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "icon_text_acc_text6": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
             "icon_text_acc_text9": "",
             "icon_text_acc_text10": "",
             "enable_text_list_acc": false,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<\/p>",
+            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-active-plus",
+            "btn_url": "shopify://products/wasserfilter-kartusche-active-plus",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/active-plus-wasserfilter-kartusche"
           }
         },
         "item_EGBwGw": {
@@ -546,38 +546,38 @@
             "subtitle": "Bakterienfilter",
             "heading": "Nano",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
-            "text": "<p>Der Bakterienfilter Nano hält zuverlässig kleinste Partikel wie Keime und Mikroplastik mit einer 0,1 µm Hohlfasermembran zurück. <\/p>",
+            "image": "shopify://shop_images/Nano_Angeschnitten_8bit_3cf7a7c8-1f39-4210-b6fe-d43152c384f3.png",
+            "text": "<p>Der Bakterienfilter Nano hält zuverlässig kleinste Partikel wie Keime und Mikroplastik mit einer 0,1 µm Hohlfasermembran zurück. </p>",
             "icon_title": "Anwendungsbereich",
-            "icon1": "shopify:\/\/shop_images\/wasserglas-blau-1x1-1682342656073.svg",
-            "icon2": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "icon3": "shopify:\/\/shop_images\/wohnanhanger-blau-1x1-1682342656080.svg",
-            "bottom_text": "<ul><li>Schutz vor Mikroorganismen<\/li><li>Schutz vor Legionellen<\/li><li>Reduziert Trübungen<\/li><li>Höchste Sicherheit<\/li><li>Zertifiziert nach ASTM F838-15A<\/li><\/ul>",
+            "icon1": "shopify://shop_images/wasserglas-blau-1x1-1682342656073.svg",
+            "icon2": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "icon3": "shopify://shop_images/wohnanhanger-blau-1x1-1682342656080.svg",
+            "bottom_text": "<ul><li>Schutz vor Mikroorganismen</li><li>Schutz vor Legionellen</li><li>Reduziert Trübungen</li><li>Höchste Sicherheit</li><li>Zertifiziert nach ASTM F838-15A</li></ul>",
             "enable_icon_text_acc": false,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": false,
             "icon_text_acc_image_width": 75,
-            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche<\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "icon_text_acc_text2": "<p>Reduziert Schwermetalle<\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln<\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden<\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime<\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "icon_text_acc_text6": "<p>Kalkreduktion \/ Wasserenthärtung<\/p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche</p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "icon_text_acc_text2": "<p>Reduziert Schwermetalle</p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln</p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden</p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime</p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "icon_text_acc_text6": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
             "icon_text_acc_text9": "",
             "icon_text_acc_text10": "",
             "enable_text_list_acc": false,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<\/p>",
+            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-nano",
+            "btn_url": "shopify://products/wasserfilter-kartusche-nano",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/active-plus-wasserfilter-kartusche"
+            "second_btn_url": "shopify://pages/active-plus-wasserfilter-kartusche"
           }
         },
         "item_bNizQN": {
@@ -586,36 +586,36 @@
             "subtitle": "Duschfilterkartusche",
             "heading": "Balance",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Balance_Angeschnitten_8bit_9d764650-0ba8-449a-8059-4160122d5031.png",
-            "text": "<p>Die Duschfilterkartusche Balance reduziert Schadstoffe,  stabilisiert den pH-Wert und reichert das Wasser mit wichtigen Mineralien an. <\/p>",
+            "image": "shopify://shop_images/Balance_Angeschnitten_8bit_9d764650-0ba8-449a-8059-4160122d5031.png",
+            "text": "<p>Die Duschfilterkartusche Balance reduziert Schadstoffe,  stabilisiert den pH-Wert und reichert das Wasser mit wichtigen Mineralien an. </p>",
             "icon_title": "Anwendungsbereich",
-            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "bottom_text": "<ul><li>Filtert schlechten Geschmack und Gerüche<\/li><li>Reduziert Schwermetalle<\/li><li>Mineralisierung des Wassers <\/li><li>pH-Stabilisierung<\/li><li> Feinfiltration<\/li><\/ul>",
+            "icon1": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "bottom_text": "<ul><li>Filtert schlechten Geschmack und Gerüche</li><li>Reduziert Schwermetalle</li><li>Mineralisierung des Wassers </li><li>pH-Stabilisierung</li><li> Feinfiltration</li></ul>",
             "enable_icon_text_acc": false,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": false,
             "icon_text_acc_image_width": 75,
-            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche<\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "icon_text_acc_text2": "<p>Reduziert Schwermetalle<\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln<\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden<\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime<\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "icon_text_acc_text6": "<p>Kalkreduktion \/ Wasserenthärtung<\/p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche</p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "icon_text_acc_text2": "<p>Reduziert Schwermetalle</p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln</p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden</p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime</p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "icon_text_acc_text6": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
             "icon_text_acc_text9": "",
             "icon_text_acc_text10": "",
             "enable_text_list_acc": false,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<\/p>",
+            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/wasserfilter-kartusche-balance",
+            "btn_url": "shopify://products/wasserfilter-kartusche-balance",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/balance-duschfilter-kartusche"
+            "second_btn_url": "shopify://pages/balance-duschfilter-kartusche"
           }
         },
         "item_HFbByW": {
@@ -624,36 +624,36 @@
             "subtitle": "Duschfilterkartusche",
             "heading": "Shungit",
             "heading_size": "h2",
-            "image": "shopify:\/\/shop_images\/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
-            "text": "<p>Die Duschfilterkartusche Shungit verbessert die Wasserqualität, indem das Urgestein Shungit Verunreinigungen reduziert und das Wasser klärt. <\/p>",
+            "image": "shopify://shop_images/Shungit_Angeschnitten_8bit_b3fb8464-6ee6-40bc-973c-1b8ff76963b9.png",
+            "text": "<p>Die Duschfilterkartusche Shungit verbessert die Wasserqualität, indem das Urgestein Shungit Verunreinigungen reduziert und das Wasser klärt. </p>",
             "icon_title": "Anwendungsbereich",
-            "icon1": "shopify:\/\/shop_images\/duschkopf-blau-1x1-1682342656057.svg",
-            "bottom_text": "<ul><li>Veringert Fremdgerüche<\/li><li>Binden von freien Radikalen<\/li><li>Adsorptiv, katalytische und bakterizid<\/li><li>\"Jungbrunnen\"<\/li><\/ul>",
+            "icon1": "shopify://shop_images/duschkopf-blau-1x1-1682342656057.svg",
+            "bottom_text": "<ul><li>Veringert Fremdgerüche</li><li>Binden von freien Radikalen</li><li>Adsorptiv, katalytische und bakterizid</li><li>\"Jungbrunnen\"</li></ul>",
             "enable_icon_text_acc": false,
             "icon_text_acc_heading": "Filtereigenschaften",
             "icon_text_acc_heading_second_font": true,
             "icon_text_acc_text_second_font": false,
             "icon_text_acc_image_width": 75,
-            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche<\/p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.<\/p>",
-            "icon_text_acc_text2": "<p>Reduziert Schwermetalle<\/p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.<\/p>",
-            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln<\/p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.<\/p>",
-            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden<\/p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.<\/p>",
-            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime<\/p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.<\/p>",
-            "icon_text_acc_text6": "<p>Kalkreduktion \/ Wasserenthärtung<\/p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)<\/p>",
+            "icon_text_acc_text1": "<p>Filtert schlechten Geschmack und Gerüche</p><p>BIOTON bindet lästige Gerüche (Wie z.B. Chlor) und geschmackliche Beeinträchtigungen.</p>",
+            "icon_text_acc_text2": "<p>Reduziert Schwermetalle</p><p>Die adsorbierende Wirkung von BIOTON bindet Schwermetalle wie etwa Blei und Kupfer im Trinkwasser.</p>",
+            "icon_text_acc_text3": "<p>Filtrierung von Mikroplastik und kleinsten Partikeln</p><p>Durch die feine Struktur der gesinterten Aktivkohle, werden kleinste Plastikteile zuverlässig zurück gehalten.</p>",
+            "icon_text_acc_text4": "<p>Reduzierung von Arzneimittelrückständen und Pestiziden</p><p>Organische Verbindungen wie Pestizidrückstände, Herbizide, Medikamentenrückstände, Hormone uvm. können reduziert werden.</p>",
+            "icon_text_acc_text5": "<p>Gegen Bakterien und Keime</p><p>Keimschutz ohne Chemie. Mechanische Keimsperre bis zu einer Bakteriengröße von 0,7 µm.</p>",
+            "icon_text_acc_text6": "<p>Kalkreduktion / Wasserenthärtung</p><p>Doppelte Wasserenthärtung durch Ionenaustausch und strukturelle Veränderung von Kalkverbindungen (weniger anhaftende Oberfläche)</p>",
             "icon_text_acc_text7": "",
             "icon_text_acc_text8": "",
             "icon_text_acc_text9": "",
             "icon_text_acc_text10": "",
             "enable_text_list_acc": false,
             "text_list_acc_heading": "Technische Daten",
-            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)<\/p>",
-            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.<\/p>",
+            "text_list_acc_top_text": "<p>Filtermaterial Kokosnuss Blockaktivkohle (gesintert)</p>",
+            "text_list_acc_bottom_text": "<p>1: Bei durchgängiger Nutzung.</p>",
             "text_list_acc_title_second_font": true,
             "text_list_acc_text_second_font": true,
             "btn_text": "Kaufen",
-            "btn_url": "shopify:\/\/products\/alb-filterkartusche-shungit",
+            "btn_url": "shopify://products/alb-filterkartusche-shungit",
             "second_btn_text": "Mehr erfahren",
-            "second_btn_url": "shopify:\/\/pages\/shungit-duschfilter-kartusche"
+            "second_btn_url": "shopify://pages/shungit-duschfilter-kartusche"
           }
         }
       },
@@ -678,13 +678,13 @@
         "subtitle_weight": "400",
         "subtitle_color": "#003e5f",
         "subtitle_second_font": true,
-        "text": "<p>Alb Filter bietet für jeden Einsatzzweck die passende Kartusche. Genieße frisches und köstlich gefiltertes Trinkwasser, vitalisierendes Wasser für Haut und Haar sowie höchste Sicherheit beim Wasserkonsum unterwegs auf Reisen! Informiere dich über unsere verschiedenen Wasserfilter-Kartuschen und finde heraus, welche am Besten für deine Bedürfnisse geeignet ist.<\/p>",
+        "text": "<p>Alb Filter bietet für jeden Einsatzzweck die passende Kartusche. Genieße frisches und köstlich gefiltertes Trinkwasser, vitalisierendes Wasser für Haut und Haar sowie höchste Sicherheit beim Wasserkonsum unterwegs auf Reisen! Informiere dich über unsere verschiedenen Wasserfilter-Kartuschen und finde heraus, welche am Besten für deine Bedürfnisse geeignet ist.</p>",
         "text_second_font": true,
         "text_color": "#616161",
         "bottom_bg_color": "#f3f3f3",
-        "icon": "shopify:\/\/shop_images\/albfiltericonsetparameters36kartuschen-1669365538151_1.svg",
+        "icon": "shopify://shop_images/albfiltericonsetparameters36kartuschen-1669365538151_1.svg",
         "btn_text": "Entdecke alle Kartuschen",
-        "btn_url": "shopify:\/\/pages\/wasserfilter-kartuschen",
+        "btn_url": "shopify://pages/wasserfilter-kartuschen",
         "btn_color": "#003e5f",
         "slide_count": 3.3,
         "item_subtitle_color": "#2d2d2d",
@@ -708,42 +708,42 @@
         "item_M7kKCN": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
+            "image": "shopify://shop_images/pf-f09c5a35--albfiltericonsetparameters01taste.svg",
             "text": "Geruch, Geschmack und Trübungen"
           }
         },
         "item_6gqCmB": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-44d97bf6--albfiltericonsetparameters24schadstoffbindung.svg",
+            "image": "shopify://shop_images/pf-44d97bf6--albfiltericonsetparameters24schadstoffbindung.svg",
             "text": "Schwermetalle wie Blei, Kupfer und Chrom"
           }
         },
         "item_xPHRkA": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-6357d844--albfiltericonsetparameters21energy.svg",
+            "image": "shopify://shop_images/pf-6357d844--albfiltericonsetparameters21energy.svg",
             "text": "Chlor und Chlorabbauprodukte"
           }
         },
         "item_dY76YB": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
+            "image": "shopify://shop_images/pf-35118f7c--albfiltericonsetparameters04microplastics.svg",
             "text": "Mikroplastik, Sedimente und Rohrablagerungen"
           }
         },
         "item_6q9wg7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-8f7c162f--albfiltericonsetparameters06legionella.svg",
+            "image": "shopify://shop_images/pf-8f7c162f--albfiltericonsetparameters06legionella.svg",
             "text": "Keime wie Legionellen und E.Coli Bakterien"
           }
         },
         "item_FLnFWU": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
+            "image": "shopify://shop_images/pf-5a35118f--albfiltericonsetparameters03drugs.svg",
             "text": "PFC's, hormonelle Verbindungen, medikamentöse Rückstände uvm."
           }
         }
@@ -767,7 +767,7 @@
         "subtitle": "(Einige) gute Gründe Wasser zu filtern",
         "subtitle_second_font": true,
         "subtitle_color": "#003e5f",
-        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<br\/><br\/>Schadstoffe haben, auch in geringen Mengen, nichts in unserem Trinkwasser verloren. Darum empfehlen wir, das Wasser direkt vor der Entnahme zu filtern, denn auch die letzten Meter ihrer Hauswasserleitung können noch Schadstoffe an das Wasser abgeben.<\/p>",
+        "text": "<p>Trotz strenger Trinkwasserverordnung gibt es in unserem Leitungswasser immer wieder Stoffe, die dort nicht hingehören. Einige sind zu klein um vom Wasserwerk herausgefiltert zu werden, andere Schadstoffe wiederum gelangen auf dem langen Weg vom Wasserwerk bis zu Ihrer Armatur ins Wasser. Schuld daran sind zum Teil alte Rohre und Speicherbecken.<br/><br/>Schadstoffe haben, auch in geringen Mengen, nichts in unserem Trinkwasser verloren. Darum empfehlen wir, das Wasser direkt vor der Entnahme zu filtern, denn auch die letzten Meter ihrer Hauswasserleitung können noch Schadstoffe an das Wasser abgeben.</p>",
         "text_second_font": true,
         "text_color": "#616161",
         "list_title": "Im Leitungswasser nachgewiesene Stoffe:",
@@ -783,40 +783,40 @@
         "item_4qgNfB": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/albelementedelstahlwasserfilter-1639472477762.jpg",
-            "url": "shopify:\/\/pages\/alb-element-wasserfiltergehaeuse",
-            "heading": "<p>ALB FILTER®<br\/> <strong>Element<\/strong><\/p>",
+            "image": "shopify://shop_images/albelementedelstahlwasserfilter-1639472477762.jpg",
+            "url": "shopify://pages/alb-element-wasserfiltergehaeuse",
+            "heading": "<p>ALB FILTER®<br/> <strong>Element</strong></p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "400",
             "heading_second_font": true,
             "subtitle": "Das robuste Edelstahlgehäuse zum Filtern von Dusch- und Trinkwasser.",
-            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.<\/p><p>Anwendungsbereiche:<\/p>",
+            "text": "<p>Durch einen Kartuschenwechsel können Sie einen Trinkwasserfilter problemlos in einen Duschfilter verwandeln und andersherum.</p><p>Anwendungsbereiche:</p>",
             "btn_text": "",
             "btn_url": "",
-            "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
+            "icon1": "shopify://shop_images/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
             "icon1_width": 20,
-            "icon2": "shopify:\/\/shop_images\/pf-54e00be4--wasserfiltericonlandingduscheweiss.svg",
+            "icon2": "shopify://shop_images/pf-54e00be4--wasserfiltericonlandingduscheweiss.svg",
             "icon2_width": 20,
-            "icon3": "shopify:\/\/shop_images\/wohnanhanger-weiss-1x1-1682342656088.svg",
+            "icon3": "shopify://shop_images/wohnanhanger-weiss-1x1-1682342656088.svg",
             "icon3_width": 40
           }
         },
         "item_WJdM6c": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/duoe_frontal_1-1643879460010.jpg",
-            "url": "shopify:\/\/pages\/wasserfilter-wasserhahn",
-            "heading": "<p>ALB FILTER®<br\/><strong>Duo<\/strong><\/p>",
+            "image": "shopify://shop_images/duoe_frontal_1-1643879460010.jpg",
+            "url": "shopify://pages/wasserfilter-wasserhahn",
+            "heading": "<p>ALB FILTER®<br/><strong>Duo</strong></p>",
             "heading_tag": "h2",
             "heading_size": "h2",
             "heading_weight": "400",
             "heading_second_font": true,
             "subtitle": "Die elegante Filterlösung für Ihre Armatur.",
-            "text": "<p>Machen Sie aus Ihrem Wasserhahn einen Trinkwasserspender.<br\/>Hebel umlegen und geniessen!<br\/><br\/>Anwendungsbereich:<\/p>",
+            "text": "<p>Machen Sie aus Ihrem Wasserhahn einen Trinkwasserspender.<br/>Hebel umlegen und geniessen!<br/><br/>Anwendungsbereich:</p>",
             "btn_text": "",
             "btn_url": "",
-            "icon1": "shopify:\/\/shop_images\/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
+            "icon1": "shopify://shop_images/pf-e00be4c2--wasserfiltericonlandingbecherweiss.svg",
             "icon1_width": 20,
             "icon2_width": 20,
             "icon3_width": 40
@@ -828,7 +828,7 @@
         "item_WJdM6c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/duo-montage-kuche-madchen-v2-1644311203575.png",
+        "image": "shopify://shop_images/duo-montage-kuche-madchen-v2-1644311203575.png",
         "background_color": "#f2f2f2",
         "heading": "Wasserfilter Gehäuse",
         "heading_tag": "h2",
@@ -839,10 +839,10 @@
         "subtitle": "Für Trinkwasser und Dusche.",
         "subtitle_second_font": true,
         "subtitle_color": "#003e5f",
-        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.<\/p>",
+        "text": "<p>Alle Produkte erhältlich in unserem Onlineshop.</p>",
         "text_color": "#616161",
         "btn_text": "Kaufen",
-        "btn_url": "\/products",
+        "btn_url": "/products",
         "btn_icon": "cart",
         "btn_bg_color": "#0081be",
         "btn_color": "#ffffff",
@@ -859,7 +859,7 @@
         "heading_VAiWAt": {
           "type": "heading",
           "settings": {
-            "heading": "Alb Filter <strong>eco<\/strong>",
+            "heading": "Alb Filter <strong>eco</strong>",
             "heading_tag": "h2",
             "heading_size": "h1",
             "heading_weight": "700",
@@ -876,7 +876,7 @@
         "text_cLVUUc": {
           "type": "text",
           "settings": {
-            "text": "<p>Im Zuge fortführender Neuentwicklungen bei Alb Filter sind wir stolz darauf, verschiedene Bauteile der Filterkartuschen Active und Active Plus+ aus einem Biopolymer auf Holzbasis produzieren zu können. Hierbei arbeiten wir eng mit Partnern aus Baden-Württemberg zusammen, welche im Bereich der Biokunststoffe bereits viel Erfahrung sammeln konnten.<\/p>",
+            "text": "<p>Im Zuge fortführender Neuentwicklungen bei Alb Filter sind wir stolz darauf, verschiedene Bauteile der Filterkartuschen Active und Active Plus+ aus einem Biopolymer auf Holzbasis produzieren zu können. Hierbei arbeiten wir eng mit Partnern aus Baden-Württemberg zusammen, welche im Bereich der Biokunststoffe bereits viel Erfahrung sammeln konnten.</p>",
             "text_style": "body"
           }
         },
@@ -884,7 +884,7 @@
           "type": "button",
           "settings": {
             "button_label": "Mehr erfahren",
-            "button_link": "shopify:\/\/pages\/alb-filter-eco"
+            "button_link": "shopify://pages/alb-filter-eco"
           }
         }
       },
@@ -896,10 +896,10 @@
       ],
       "settings": {
         "section_color_scheme": "scheme-abcb5680-9138-4050-9182-c3d62de3beee",
-        "image": "shopify:\/\/shop_images\/pf-b65ea7d3--albfilterwaldligninsonne.jpg",
+        "image": "shopify://shop_images/pf-b65ea7d3--albfilterwaldligninsonne.jpg",
         "image_height": 250,
         "enable_border": true,
-        "content_image": "shopify:\/\/shop_images\/eco_icon-1671713512528.png",
+        "content_image": "shopify://shop_images/eco_icon-1671713512528.png",
         "padding_top": 20,
         "padding_bottom": 40
       }
@@ -910,13 +910,13 @@
         "icon_zaUnUd": {
           "type": "icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-0ef6eaf3--schwarzrotgelbvert.png"
+            "image": "shopify://shop_images/pf-0ef6eaf3--schwarzrotgelbvert.png"
           }
         },
         "heading_P6TC9E": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Alb Filter®<\/p>",
+            "heading": "<p>Alb Filter®</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -939,7 +939,7 @@
         "text_jwhq9W": {
           "type": "text",
           "settings": {
-            "text": "<p>Wir produzieren in Deutschland in der Region der Schwäbischen Alb (Baden-Württemberg) und sind stolz darauf. Alle unsere Produkte unterliegen strengen Qualitätskontrollen und werden nur aus qualitativ hochwertigem und lebensmittelechtem Material gefertigt.<\/p>",
+            "text": "<p>Wir produzieren in Deutschland in der Region der Schwäbischen Alb (Baden-Württemberg) und sind stolz darauf. Alle unsere Produkte unterliegen strengen Qualitätskontrollen und werden nur aus qualitativ hochwertigem und lebensmittelechtem Material gefertigt.</p>",
             "second_font": true
           }
         }
@@ -966,11 +966,11 @@
         "item_dYHz3a": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
+            "image": "shopify://shop_images/Made_in_Germany_13b3bab4-a18a-41bf-b9c0-0948f7711eaa.svg",
             "title": "",
-            "text": "<p>Hergestellt in<br\/>Süddeutschland<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
-            "url": "shopify:\/\/blogs\/ratgeber\/nickel-im-trinkwasser",
+            "text": "<p>Hergestellt in<br/>Süddeutschland</p>",
+            "subtext": "<p>email@email.de</p>",
+            "url": "shopify://blogs/ratgeber/nickel-im-trinkwasser",
             "border_color": "#000000",
             "border_width": 0,
             "border_left": false,
@@ -982,10 +982,10 @@
         "item_9HfYJb": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
+            "image": "shopify://shop_images/30_Tage_Ruckgabe_79f6b80d-93bf-46a0-aa8d-d63dfbee65aa.svg",
             "title": "",
-            "text": "<p>30 Tage<br\/>Rückgaberecht<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>30 Tage<br/>Rückgaberecht</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -998,10 +998,10 @@
         "item_fgJ6Mj": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
+            "image": "shopify://shop_images/Versand_mit_DHL_652002ea-18d9-499b-846b-7a259ded3459.svg",
             "title": "",
-            "text": "<p>Schneller und kostenloser<br\/>Versand mit DHL<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Schneller und kostenloser<br/>Versand mit DHL</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -1014,10 +1014,10 @@
         "item_4iDPe4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
+            "image": "shopify://shop_images/Zahlungsarten_691dae3e-0abb-4ffd-a8aa-39d361206397.svg",
             "title": "",
-            "text": "<p>Einfache Zahlung<br\/>auch auf Rechnung<\/p>",
-            "subtext": "<p>email@email.de<\/p>",
+            "text": "<p>Einfache Zahlung<br/>auch auf Rechnung</p>",
+            "subtext": "<p>email@email.de</p>",
             "url": "",
             "border_color": "#000000",
             "border_width": 0,
@@ -1054,7 +1054,7 @@
         "heading_jtryLr": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Das sagen unsere Kunden<\/p>",
+            "heading": "<p>Das sagen unsere Kunden</p>",
             "remove_spacing": false,
             "color": "#003e5f",
             "heading_tag": "h2",
@@ -1096,8 +1096,8 @@
         "instagram_text": "albfilter",
         "instagram_color": "#003e5f",
         "text_second_font": true,
-        "instagram_url": "http:\/\/www.instagram.com\/albfilter",
-        "shortcode": "<div id=\"insta-feed\"><\/div>",
+        "instagram_url": "http://www.instagram.com/albfilter",
+        "shortcode": "<div id=\"insta-feed\"></div>",
         "padding_top": 10,
         "padding_bottom": 0
       }
@@ -1108,7 +1108,7 @@
         "icon_bwdwT6": {
           "type": "icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/paper-plane.svg"
+            "image": "shopify://shop_images/paper-plane.svg"
           }
         },
         "heading_43XXtz": {
@@ -1125,7 +1125,7 @@
         "text_gw3UWY": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit dem Alb Filter Newsletter erhältst du alle Infos zu Produktneuheiten und exklusiven Aktionen aber auch spannende Beiträge zum Thema Wasser und Wasserfiltern, Erfahrungsberichte von unseren Kunden sowie allerlei hilfreiche Tipps und Tricks.<\/p>",
+            "text": "<p>Mit dem Alb Filter Newsletter erhältst du alle Infos zu Produktneuheiten und exklusiven Aktionen aber auch spannende Beiträge zum Thema Wasser und Wasserfiltern, Erfahrungsberichte von unseren Kunden sowie allerlei hilfreiche Tipps und Tricks.</p>",
             "text_style": "body",
             "second_font": false
           }
@@ -1133,7 +1133,7 @@
         "form_HzLWKH": {
           "type": "form",
           "settings": {
-            "liquid": "<div class=\"klaviyo-form-UtjK4K\"><\/div>"
+            "liquid": "<div class=\"klaviyo-form-UtjK4K\"></div>"
           }
         }
       },
@@ -1151,8 +1151,7 @@
     },
     "pagefly-home": {
       "type": "pagefly-home",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
